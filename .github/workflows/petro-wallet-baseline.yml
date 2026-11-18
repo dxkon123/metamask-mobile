@@ -1,0 +1,206 @@
+name: PETRO Wallet Baseline
+
+on:
+  push:
+    branches: [codex/petro-wallet-v1]
+    paths:
+      - '.github/workflows/petro-wallet-baseline.yml'
+      - 'scripts/petro/**'
+      - 'docs/petro/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: petro-baseline-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  android:
+    if: github.repository == 'dxkon123/metamask-mobile' && github.ref == 'refs/heads/codex/petro-wallet-v1'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    defaults:
+      run:
+        shell: bash
+    env:
+      CI: 'true'
+      METAMASK_BUILD_TYPE: main
+      METAMASK_ENVIRONMENT: dev
+      HAS_TEST_OVERRIDES: 'false'
+      E2E_MOCK_OAUTH: 'false'
+      SENTRY_DISABLE_AUTO_UPLOAD: 'true'
+      TOOL_USAGE_COLLECTION_OPT_IN: 'false'
+      PETRO_BASE_COMMIT: a3251559c8af381b7b9689dd49d3dce8d5f76261
+    steps:
+      - name: Checkout exact triggering commit
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 2
+          persist-credentials: false
+
+      - name: Configure upstream Node version
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version-file: .nvmrc
+
+      - name: Record provenance and source inventory
+        id: inventory
+        run: |
+          git fetch --no-tags --depth=1 origin "$PETRO_BASE_COMMIT"
+          node scripts/petro/baseline.ts inspect
+
+      - name: Check fork-owned service configuration
+        id: prerequisites
+        continue-on-error: true
+        env:
+          MM_INFURA_PROJECT_ID: ${{ secrets.MM_INFURA_PROJECT_ID }}
+          GOOGLE_SERVICES_B64_ANDROID: ${{ secrets.GOOGLE_SERVICES_B64_ANDROID }}
+        run: node scripts/petro/baseline.ts prerequisites
+
+      - name: Restore lockfile-scoped Yarn download cache
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6
+        with:
+          path: .yarn/cache
+          key: petro-yarn-${{ runner.os }}-${{ hashFiles('.nvmrc', 'yarn.lock', '.yarnrc.yml', '.yarn/patches/**') }}
+
+      - name: Install immutable dependencies with upstream security policy
+        id: dependencies
+        continue-on-error: true
+        timeout-minutes: 25
+        run: |
+          set -o pipefail
+          node .yarn/releases/yarn-4.14.1.cjs install --immutable 2>&1 | tee build/petro/logs/dependencies.log
+
+      - name: Configure upstream Java version
+        if: steps.dependencies.outcome == 'success'
+        uses: actions/setup-java@b6effb05e454b25005698d916606bdc6ffcbf961 # v5
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install Android tools selected by native build files
+        id: android_tools
+        if: steps.dependencies.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          SDKMANAGER="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          "$SDKMANAGER" 'platform-tools' 'platforms;android-36' 'build-tools;36.0.0' 'ndk;27.1.12297006' 'cmake;3.22.1' 2>&1 | tee build/petro/logs/android-tools.log
+          java -version 2> build/petro/logs/java-version.log
+
+      - name: Run upstream native dependency preparation
+        id: setup
+        if: steps.dependencies.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 25
+        run: |
+          set -o pipefail
+          export PATH="$PWD/node_modules/.bin:$PATH"
+          node scripts/apply-build-config.js main-dev --export-github-env >> "$GITHUB_ENV"
+          node scripts/setup.mjs --no-build-ios 2>&1 | tee build/petro/logs/setup.log
+
+      - name: Compile standalone upstream main-dev APK
+        id: build
+        if: steps.setup.outcome == 'success' && steps.android_tools.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 75
+        env:
+          MM_INFURA_PROJECT_ID: ${{ secrets.MM_INFURA_PROJECT_ID }}
+          GOOGLE_SERVICES_B64_ANDROID: ${{ secrets.GOOGLE_SERVICES_B64_ANDROID }}
+          WALLET_CONNECT_PROJECT_ID: ${{ secrets.WALLET_CONNECT_PROJECT_ID }}
+          MM_FOX_CODE: EXAMPLE_FOX_CODE
+          ANDROID_SIGNING_KEYSTORE_PASSWORD: android
+          BITRISEIO_ANDROID_MAIN_KEYSTORE_ALIAS: androiddebugkey
+          BITRISEIO_ANDROID_MAIN_KEYSTORE_PRIVATE_KEY_PASSWORD: android
+        run: |
+          set -o pipefail
+          export PATH="$PWD/node_modules/.bin:$PATH"
+          # main-dev uses the upstream test keystore; never request a production signer.
+          # Release configuration bundles JS/Hermes and works without a Metro server.
+          # No E2E wallet fixtures, auto-unlock, OAuth mocks or security bypasses.
+          yarn build:android:main:dev 2>&1 | tee build/petro/logs/android-build.log
+
+      - name: Run upstream lint
+        id: lint
+        if: steps.dependencies.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 20
+        run: |
+          set -o pipefail
+          export PATH="$PWD/node_modules/.bin:$PATH"
+          yarn lint 2>&1 | tee build/petro/logs/lint.log
+
+      - name: Run upstream TypeScript check
+        id: typecheck
+        if: steps.dependencies.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 20
+        run: |
+          set -o pipefail
+          export PATH="$PWD/node_modules/.bin:$PATH"
+          yarn lint:tsc 2>&1 | tee build/petro/logs/typecheck.log
+
+      - name: Run upstream unit regression suite
+        id: unit
+        if: steps.setup.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 30
+        run: |
+          set -o pipefail
+          export PATH="$PWD/node_modules/.bin:$PATH"
+          yarn test:unit --maxWorkers=2 --ci --watchman=false --json --outputFile=build/petro/unit-results.json 2>&1 | tee build/petro/logs/unit.log
+
+      - name: Audit production dependencies without hiding upstream exclusions
+        id: audit
+        if: steps.dependencies.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 10
+        env:
+          YARN_NPM_AUDIT_IGNORE_ADVISORIES: ''
+        run: |
+          set -o pipefail
+          # Report ALL advisory findings, including the exclusions in upstream .yarnrc.yml.
+          node .yarn/releases/yarn-4.14.1.cjs npm audit --environment production --severity moderate --recursive --no-deprecations --json 2>&1 | tee build/petro/logs/dependency-audit.jsonl
+
+      - name: Verify signature, bundled runtime and APK checksum
+        id: apk
+        if: steps.build.outcome == 'success' && steps.prerequisites.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          APK=android/app/build/outputs/apk/prod/release/app-prod-release.apk
+          "$ANDROID_HOME/build-tools/36.0.0/apksigner" verify --verbose --print-certs "$APK" | tee build/petro/logs/apk-signature.log
+          unzip -l "$APK" > build/petro/logs/apk-contents.log
+          unzip -Z1 "$APK" | grep -x 'assets/index.android.bundle'
+          cp "$APK" build/petro/PETRO-SocialFi-Wallet-V1.apk
+          (cd build/petro && sha256sum PETRO-SocialFi-Wallet-V1.apk > APK-SHA256.txt)
+
+      - name: Generate evidence reports
+        if: always()
+        env:
+          PETRO_STEP_RESULTS: ${{ toJSON(steps) }}
+        run: node scripts/petro/baseline.ts report
+
+      - name: Package built APK and versioned source
+        if: steps.apk.outcome == 'success'
+        run: |
+          git archive --format=tar.gz --output=build/petro/Source-${GITHUB_SHA}.tar.gz HEAD
+          cp docs/petro/BUILD.md build/petro/BUILD.md
+          (cd build/petro && zip -q -r PETRO-SocialFi-Wallet-V1.zip PETRO-SocialFi-Wallet-V1.apk APK-SHA256.txt BUILD.md Source-*.tar.gz reports logs provenance.json)
+
+      - name: Upload evidence even when the build is blocked
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: petro-wallet-evidence-${{ github.sha }}
+          path: build/petro/
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Enforce baseline checks
+        if: always()
+        env:
+          PETRO_STEP_RESULTS: ${{ toJSON(steps) }}
+        run: node scripts/petro/baseline.ts gate
