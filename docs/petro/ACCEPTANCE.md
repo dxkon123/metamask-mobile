@@ -4,30 +4,30 @@ Initial status: all WAL and POL requirements are **BLOCKED**, pending a compiled
 
 ## WAL requirements
 
-| ID | Required evidence |
-| --- | --- |
-| WAL-001 | Fresh wallet, phrase generation verified privately, address/account, lock/unlock and process restart persistence. Never capture the phrase. |
-| WAL-002 | Fresh disposable test phrase/private-key import privately, expected public address, lock/restart persistence. Never record private material. |
-| WAL-003 | Multiple derived addresses, account selection, same phrase recovered privately into a fresh test installation. |
-| WAL-004 | Original export UI, required reauthentication, selected-account public address, secret redaction; review logs/network destinations without capturing/transmitting the key. |
-| WAL-005 | User-approved minimal Polygon POL send, chain ID 137 (`0x89`), public hash and successful receipt, recipient/balance reconciliation. |
-| WAL-006 | User-approved incoming Polygon transfer, public hash and receipt, balance and history after confirmation/restart. |
+| ID      | Required evidence                                                                                                                                                                                                                        |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| WAL-001 | Fresh wallet, phrase generation verified privately, address/account, lock/unlock and process restart persistence. Never capture the phrase.                                                                                              |
+| WAL-002 | Fresh disposable test phrase/private-key import privately, expected public address, lock/restart persistence. Never record private material.                                                                                             |
+| WAL-003 | Multiple derived addresses, account selection, same phrase recovered privately into a fresh test installation.                                                                                                                           |
+| WAL-004 | Original export UI, required reauthentication, selected-account public address, secret redaction; review logs/network destinations without capturing/transmitting the key.                                                               |
+| WAL-005 | User-approved minimal Polygon POL send, chain ID 137 (`0x89`), public hash and successful receipt, recipient/balance reconciliation.                                                                                                     |
+| WAL-006 | User-approved incoming Polygon transfer, public hash and receipt, balance and history after confirmation/restart.                                                                                                                        |
 | WAL-007 | Original browser and injection; QuickSwap connection, origin permissions, public wallet address, chain detection/switching, quote, original confirmation UI, explicit approval, completed real swap, receipt and balance reconciliation. |
 
 ## POL requirements
 
-| ID | Required evidence |
-| --- | --- |
-| POL-001 | Polygon Mainnet selected; live provider reports chain ID 137. |
-| POL-002 | POL balance matches an independent live chain query. |
-| POL-003 | Approved POL send and successful on-chain receipt. |
-| POL-004 | Confirmed incoming POL transfer and reflected balance. |
-| POL-005 | Supported Polygon tokens displayed with correct chain/address/decimals. |
-| POL-006 | Approved ERC-20 transfer, receipt and Transfer event/balances. |
+| ID      | Required evidence                                                              |
+| ------- | ------------------------------------------------------------------------------ |
+| POL-001 | Polygon Mainnet selected; live provider reports chain ID 137.                  |
+| POL-002 | POL balance matches an independent live chain query.                           |
+| POL-003 | Approved POL send and successful on-chain receipt.                             |
+| POL-004 | Confirmed incoming POL transfer and reflected balance.                         |
+| POL-005 | Supported Polygon tokens displayed with correct chain/address/decimals.        |
+| POL-006 | Approved ERC-20 transfer, receipt and Transfer event/balances.                 |
 | POL-007 | Real Polygon DApp connects through original browser with reviewed permissions. |
-| POL-008 | Original DApp confirmation UI, explicit user consent, signing and receipt. |
+| POL-008 | Original DApp confirmation UI, explicit user consent, signing and receipt.     |
 | POL-009 | Genuine approved QuickSwap swap, receipt, token deltas and gas reconciliation. |
-| POL-010 | Wallet history matches public transaction hashes and confirmed chain state. |
+| POL-010 | Wallet history matches public transaction hashes and confirmed chain state.    |
 
 ## QuickSwap execution gate
 

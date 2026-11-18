@@ -12,8 +12,15 @@ import {
 import { join } from 'node:path';
 
 type Status = 'PASS' | 'FAIL' | 'BLOCKED' | 'NOT RUN';
-type Step = { outcome?: string; conclusion?: string };
-type Check = { id: string; status: Status; evidence: string };
+interface Step {
+  outcome?: string;
+  conclusion?: string;
+}
+interface Check {
+  id: string;
+  status: Status;
+  evidence: string;
+}
 
 const base = 'a3251559c8af381b7b9689dd49d3dce8d5f76261';
 const output = 'build/petro';
@@ -28,7 +35,10 @@ mkdirSync(reports, { recursive: true });
 mkdirSync(join(output, 'logs'), { recursive: true });
 
 function git(...args: string[]): string {
-  return execFileSync('git', args, { encoding: 'utf8', maxBuffer: 16 * 1024 * 1024 }).trim();
+  return execFileSync('git', args, {
+    encoding: 'utf8',
+    maxBuffer: 16 * 1024 * 1024,
+  }).trim();
 }
 
 function save(name: string, value: unknown): void {
@@ -55,7 +65,14 @@ function inspect(): void {
     evidence:
       'Exact git tree comparison with pinned upstream base. This proves source preservation only; runtime equivalence remains unverified.',
   };
-  save('source-preservation.json', { ...result, base, head, changes, unexpected, dirty });
+  save('source-preservation.json', {
+    ...result,
+    base,
+    head,
+    changes,
+    unexpected,
+    dirty,
+  });
   save('provenance.json', {
     repository: 'https://github.com/dxkon123/metamask-mobile',
     upstream: 'https://github.com/MetaMask/metamask-mobile',
@@ -70,15 +87,30 @@ function inspect(): void {
     nodeRequired: readFileSync('.nvmrc', 'utf8').trim(),
     yarnSha256: sha256('.yarn/releases/yarn-4.14.1.cjs'),
     lockfileSha256: sha256('yarn.lock'),
-    gradleWrapper: readFileSync('android/gradle/wrapper/gradle-wrapper.properties', 'utf8'),
-    signing: 'Upstream public development keystore only; not a production release.',
+    gradleWrapper: readFileSync(
+      'android/gradle/wrapper/gradle-wrapper.properties',
+      'utf8',
+    ),
+    signing:
+      'Upstream public development keystore only; not a production release.',
   });
-  writeFileSync(join(reports, 'upstream-file-inventory.txt'), `${git('ls-tree', '-r', base)}\n`);
-  const groups = ['app/components/Views', 'app/components/UI', 'app/core', 'app/core/Engine/controllers'];
+  writeFileSync(
+    join(reports, 'upstream-file-inventory.txt'),
+    `${git('ls-tree', '-r', base)}\n`,
+  );
+  const groups = [
+    'app/components/Views',
+    'app/components/UI',
+    'app/core',
+    'app/core/Engine/controllers',
+  ];
   const rows = groups.flatMap((group) =>
     readdirSync(group, { withFileTypes: true })
       .filter((item) => item.isDirectory())
-      .map((item) => `| ${group}/${item.name} | Source preserved if SOURCE-PRESERVATION passes | NOT RUN |`),
+      .map(
+        (item) =>
+          `| ${group}/${item.name} | Source preserved if SOURCE-PRESERVATION passes | NOT RUN |`,
+      ),
   );
   writeFileSync(
     join(reports, 'feature-inventory.md'),
@@ -90,11 +122,15 @@ function inspect(): void {
       '| Source surface | Preservation | Runtime regression |\n| --- | --- | --- |\n' +
       `${rows.join('\n')}\n`,
   );
-  const manifest = readFileSync('android/app/src/main/AndroidManifest.xml', 'utf8');
+  const manifest = readFileSync(
+    'android/app/src/main/AndroidManifest.xml',
+    'utf8',
+  );
   save('android-source-observations.json', {
     allowBackupFalse: manifest.includes('android:allowBackup="false"'),
     manifestSha256: sha256('android/app/src/main/AndroidManifest.xml'),
-    limitations: 'Static source observation; merged APK manifest and installed-device behavior still require verification.',
+    limitations:
+      'Static source observation; merged APK manifest and installed-device behavior still require verification.',
   });
   console.log(`${result.id}: ${result.status}`);
   if (result.status !== 'PASS') process.exitCode = 1;
@@ -106,21 +142,44 @@ function prerequisites(): void {
   checks.push({
     id: 'MM_INFURA_PROJECT_ID',
     status: /^[a-f0-9]{32}$/iu.test(infura) ? 'PASS' : 'BLOCKED',
-    evidence: 'Checks configuration format only. RPC access and Polygon availability need live validation.',
+    evidence:
+      'Checks configuration format only. RPC access and Polygon availability need live validation.',
   });
   let firebaseMatches = false;
   try {
     const raw: unknown = JSON.parse(
-      Buffer.from(process.env.GOOGLE_SERVICES_B64_ANDROID || '', 'base64').toString('utf8'),
+      Buffer.from(
+        process.env.GOOGLE_SERVICES_B64_ANDROID || '',
+        'base64',
+      ).toString('utf8'),
     );
-    if (typeof raw === 'object' && raw !== null && 'client' in raw && Array.isArray(raw.client)) {
+    if (
+      typeof raw === 'object' &&
+      raw !== null &&
+      'client' in raw &&
+      Array.isArray(raw.client)
+    ) {
       firebaseMatches = raw.client.some((client: unknown) => {
-        if (typeof client !== 'object' || client === null || !('client_info' in client)) return false;
+        if (
+          typeof client !== 'object' ||
+          client === null ||
+          !('client_info' in client)
+        )
+          return false;
         const info = client.client_info;
-        if (typeof info !== 'object' || info === null || !('android_client_info' in info)) return false;
+        if (
+          typeof info !== 'object' ||
+          info === null ||
+          !('android_client_info' in info)
+        )
+          return false;
         const android = info.android_client_info;
-        return typeof android === 'object' && android !== null &&
-          'package_name' in android && android.package_name === 'io.metamask';
+        return (
+          typeof android === 'object' &&
+          android !== null &&
+          'package_name' in android &&
+          android.package_name === 'io.metamask'
+        );
       });
     }
   } catch {
@@ -129,7 +188,8 @@ function prerequisites(): void {
   checks.push({
     id: 'GOOGLE_SERVICES_B64_ANDROID',
     status: firebaseMatches ? 'PASS' : 'BLOCKED',
-    evidence: 'Requires fork-owned Firebase Android configuration with an io.metamask client. Contents never logged.',
+    evidence:
+      'Requires fork-owned Firebase Android configuration with an io.metamask client. Contents never logged.',
   });
   save('prerequisites.json', checks);
   for (const check of checks) console.log(`${check.id}: ${check.status}`);
@@ -144,17 +204,81 @@ function stepStatus(step?: Step): Status {
 }
 
 function readSteps(): Record<string, Step> {
-  return JSON.parse(process.env.PETRO_STEP_RESULTS || '{}') as Record<string, Step>;
+  return JSON.parse(process.env.PETRO_STEP_RESULTS || '{}') as Record<
+    string,
+    Step
+  >;
+}
+
+function redactServiceConfiguration(): void {
+  const values = new Set<string>();
+  for (const name of [
+    'MM_INFURA_PROJECT_ID',
+    'GOOGLE_SERVICES_B64_ANDROID',
+    'WALLET_CONNECT_PROJECT_ID',
+  ]) {
+    const value = process.env[name];
+    if (value && value.length >= 8) values.add(value);
+  }
+  function collect(value: unknown): void {
+    if (typeof value === 'string' && value.length >= 12) values.add(value);
+    else if (Array.isArray(value)) value.forEach(collect);
+    else if (value !== null && typeof value === 'object')
+      Object.values(value).forEach(collect);
+  }
+  try {
+    collect(
+      JSON.parse(
+        Buffer.from(
+          process.env.GOOGLE_SERVICES_B64_ANDROID || '',
+          'base64',
+        ).toString('utf8'),
+      ),
+    );
+  } catch {
+    // Do not print decoded service configuration or parsing diagnostics.
+  }
+  for (const folder of [output, join(output, 'logs')]) {
+    for (const entry of readdirSync(folder, { withFileTypes: true })) {
+      if (!entry.isFile() || !/\.(?:log|json|jsonl|tap)$/u.test(entry.name))
+        continue;
+      const path = join(folder, entry.name);
+      let content = readFileSync(path, 'utf8');
+      for (const value of values)
+        content = content.replaceAll(value, '[REDACTED SERVICE CONFIGURATION]');
+      writeFileSync(path, content);
+    }
+  }
 }
 
 function report(): void {
+  redactServiceConfiguration();
   const steps = readSteps();
-  const ids = ['inventory', 'prerequisites', 'dependencies', 'android_tools', 'setup', 'build', 'lint', 'typecheck', 'unit', 'audit', 'apk'];
+  const ids = [
+    'inventory',
+    'prerequisites',
+    'dependencies',
+    'android_tools',
+    'setup',
+    'build',
+    'lint',
+    'typecheck',
+    'unit',
+    'audit',
+    'apk',
+  ];
   const checks: Check[] = ids.map((id) => ({
     id,
-    status: id === 'prerequisites' && steps[id]?.outcome === 'failure' ? 'BLOCKED' : stepStatus(steps[id]),
-    evidence: id === 'inventory' ? 'source-preservation.json, provenance.json' :
-      id === 'prerequisites' ? 'prerequisites.json' : `Workflow step ${id}; logs/ and GitHub job logs`,
+    status:
+      id === 'prerequisites' && steps[id]?.outcome === 'failure'
+        ? 'BLOCKED'
+        : stepStatus(steps[id]),
+    evidence:
+      id === 'inventory'
+        ? 'source-preservation.json, provenance.json'
+        : id === 'prerequisites'
+          ? 'prerequisites.json'
+          : `Workflow step ${id}; logs/ and GitHub job logs`,
   }));
   const walletNames = [
     'Create wallet, phrase generation, address, persistence, secure access',
@@ -173,27 +297,90 @@ function report(): void {
   const polygon: Check[] = Array.from({ length: 10 }, (_, i) => ({
     id: `POL-${String(i + 1).padStart(3, '0')}`,
     status: 'BLOCKED',
-    evidence: 'No installed-device Polygon Mainnet test or on-chain evidence recorded. See docs/petro/ACCEPTANCE.md.',
+    evidence:
+      'No installed-device Polygon Mainnet test or on-chain evidence recorded. See docs/petro/ACCEPTANCE.md.',
   }));
   save('reports/checks.json', { checks, acceptance, polygon });
   const table = (items: Check[]) =>
     '| Check | Status | Evidence / missing requirement |\n| --- | --- | --- |\n' +
-    items.map((item) => `| ${item.id} | ${item.status} | ${item.evidence} |`).join('\n') + '\n';
-  writeFileSync(join(reports, 'functional-test-report.md'),
+    items
+      .map((item) => `| ${item.id} | ${item.status} | ${item.evidence} |`)
+      .join('\n') +
+    '\n';
+  writeFileSync(
+    join(reports, 'functional-test-report.md'),
     '# Functional test report\n\nAutomated checks are separate from installed-app acceptance. ' +
-    'Mocked upstream unit tests cannot establish successful mainnet sends, receives or swaps.\n\n' +
-    table(checks) + '\n' + table(acceptance) + '\n' + table(polygon));
-  writeFileSync(join(reports, 'security-test-report.md'),
-    '# Security test report\n\n' + table(checks.filter((check) => ['inventory', 'audit', 'apk'].includes(check.id))) +
-    '\nUpstream keyring, SecureKeychain, authentication, signing, phishing checks, provider and permission code are preserved by the source gate. ' +
-    'Source preservation is not a security audit. Secure randomness, storage, phrase/key export, DApp isolation, request destinations, ' +
-    'merged manifest, installation, supply-chain integrity and build reproducibility require independent runtime/release review. ' +
-    'No wallet or funds are created/used by this workflow. No production signer is requested. ' +
-    'No security equivalence or zero-vulnerability claim is made.\n');
+      'Mocked upstream unit tests cannot establish successful mainnet sends, receives or swaps.\n\n' +
+      table(checks) +
+      '\n' +
+      table(acceptance) +
+      '\n' +
+      table(polygon),
+  );
+  writeFileSync(
+    join(reports, 'security-test-report.md'),
+    '# Security test report\n\n' +
+      table(
+        checks.filter((check) =>
+          ['inventory', 'audit', 'apk'].includes(check.id),
+        ),
+      ) +
+      '\nUpstream keyring, SecureKeychain, authentication, signing, phishing checks, provider and permission code are preserved by the source gate. ' +
+      'Source preservation is not a security audit. Secure randomness, storage, phrase/key export, DApp isolation, request destinations, ' +
+      'merged manifest, installation, supply-chain integrity and build reproducibility require independent runtime/release review. ' +
+      'No wallet or funds are created/used by this workflow. No production signer is requested. ' +
+      'No security equivalence or zero-vulnerability claim is made.\n',
+  );
   const packageJson = JSON.parse(readFileSync('package.json', 'utf8')) as {
-    version: string; engines: Record<string, string>; packageManager: string;
-    dependencies: Record<string, string>; devDependencies: Record<string, string>;
+    version: string;
+    engines: Record<string, string>;
+    packageManager: string;
+    dependencies: Record<string, string>;
+    devDependencies: Record<string, string>;
   };
+  const auditPath = [
+    'logs/dependency-audit.jsonl',
+    'logs/local-dependency-audit-retry.jsonl',
+  ].find((path) => existsSync(join(output, path)));
+  const findings: {
+    package: string;
+    severity: string;
+    advisory: number;
+    url: string;
+  }[] = [];
+  if (auditPath) {
+    for (const line of readFileSync(join(output, auditPath), 'utf8').split(
+      '\n',
+    )) {
+      try {
+        const item = JSON.parse(line) as {
+          value?: string;
+          children?: Record<string, unknown>;
+        };
+        if (
+          item.value &&
+          typeof item.children?.Severity === 'string' &&
+          typeof item.children.ID === 'number' &&
+          typeof item.children.URL === 'string'
+        ) {
+          findings.push({
+            package: item.value,
+            severity: item.children.Severity,
+            advisory: item.children.ID,
+            url: item.children.URL,
+          });
+        }
+      } catch {
+        // Non-JSON command diagnostics stay in the original log, never count as findings.
+      }
+    }
+  }
+  save('reports/dependency-audit-summary.json', {
+    log: auditPath || null,
+    findings,
+    limitation:
+      'Registry advisory matches require reachability/exploitability triage. No vulnerabilities are silently accepted or automatically patched.',
+  });
   save('reports/dependency-report.json', {
     version: packageJson.version,
     engines: packageJson.engines,
@@ -202,38 +389,80 @@ function report(): void {
     devDependencies: packageJson.devDependencies,
     lockfileSha256: sha256('yarn.lock'),
     audit: checks.find((check) => check.id === 'audit'),
-    securityPolicy: 'Preserve upstream disabled lifecycle scripts, LavaMoat allowlist, approved Git dependencies, minimal package age and immutable lockfile. Audit separately overrides advisory exclusions for visibility.',
+    advisoryRows: findings.length,
+    criticalAdvisoryRows: findings.filter(
+      (finding) => finding.severity === 'critical',
+    ).length,
+    securityPolicy:
+      'Preserve upstream disabled lifecycle scripts, LavaMoat allowlist, approved Git dependencies, minimal package age and immutable lockfile. Audit separately overrides advisory exclusions for visibility.',
   });
-  writeFileSync(join(reports, 'known-issues.md'),
+  writeFileSync(
+    join(reports, 'known-issues.md'),
     '# Known issues and release blockers\n\n' +
-    checks.filter((check) => check.status !== 'PASS').map((check) => `- ${check.id}: ${check.status}; ${check.evidence}`).join('\n') +
-    '\n- All WAL/POL acceptance gates remain BLOCKED until executed on an installed app.\n' +
-    '- External API access is not inherited by a fork: Infura, Firebase, WalletConnect, OAuth, analytics, notifications, card/fiat, swaps/bridge, feature flags, compliance, security alerts and OTA services require validation; see builds.yml.\n' +
-    '- The upstream development keystore is public and unsuitable for production or valuable wallets. App ID and UI remain upstream; use a separate test device/profile.\n' +
-    '- No branding, package ID, feature flag, wallet engine, browser, permission or security code changes have been made.\n' +
-    '- No APK exists unless the apk workflow step passed and its artifact/checksum are present.\n');
+      checks
+        .filter((check) => check.status !== 'PASS')
+        .map((check) => `- ${check.id}: ${check.status}; ${check.evidence}`)
+        .join('\n') +
+      '\n- All WAL/POL acceptance gates remain BLOCKED until executed on an installed app.\n' +
+      '- External API access is not inherited by a fork: Infura, Firebase, WalletConnect, OAuth, analytics, notifications, card/fiat, swaps/bridge, feature flags, compliance, security alerts and OTA services require validation; see builds.yml.\n' +
+      '- The upstream development keystore is public and unsuitable for production or valuable wallets. App ID and UI remain upstream; use a separate test device/profile.\n' +
+      '- No branding, package ID, feature flag, wallet engine, browser, permission or security code changes have been made.\n' +
+      '- No APK exists unless the apk workflow step passed and its artifact/checksum are present.\n',
+  );
   if (process.env.GITHUB_STEP_SUMMARY) {
-    appendFileSync(process.env.GITHUB_STEP_SUMMARY, '# PETRO baseline evidence\n\n' + table(checks) + '\nWAL-001–007 and POL-001–010: BLOCKED pending installed-device and approved mainnet testing.\n');
+    appendFileSync(
+      process.env.GITHUB_STEP_SUMMARY,
+      '# PETRO baseline evidence\n\n' +
+        table(checks) +
+        '\nWAL-001–007 and POL-001–010: BLOCKED pending installed-device and approved mainnet testing.\n',
+    );
   }
   console.log('Evidence reports written. No acceptance test marked PASS.');
 }
 
 function gate(): void {
   const steps = readSteps();
-  const required = ['inventory', 'prerequisites', 'dependencies', 'android_tools', 'setup', 'build', 'lint', 'typecheck', 'unit', 'audit', 'apk'];
+  const required = [
+    'inventory',
+    'prerequisites',
+    'dependencies',
+    'android_tools',
+    'setup',
+    'build',
+    'lint',
+    'typecheck',
+    'unit',
+    'audit',
+    'apk',
+  ];
   const failed = required.filter((name) => steps[name]?.outcome !== 'success');
   if (failed.length) {
-    console.error(`Baseline build/check gate not satisfied: ${failed.join(', ')}`);
+    console.error(
+      `Baseline build/check gate not satisfied: ${failed.join(', ')}`,
+    );
     process.exitCode = 1;
   } else {
-    console.log('Automated baseline gate passed. Manual WAL/POL acceptance and production release remain blocked.');
+    console.log(
+      'Automated baseline gate passed. Manual WAL/POL acceptance and production release remain blocked.',
+    );
   }
 }
 
 switch (process.argv[2]) {
-  case 'inspect': inspect(); break;
-  case 'prerequisites': prerequisites(); break;
-  case 'report': report(); break;
-  case 'gate': gate(); break;
-  default: throw new Error('Usage: node scripts/petro/baseline.ts inspect|prerequisites|report|gate');
+  case 'inspect':
+    inspect();
+    break;
+  case 'prerequisites':
+    prerequisites();
+    break;
+  case 'report':
+    report();
+    break;
+  case 'gate':
+    gate();
+    break;
+  default:
+    throw new Error(
+      'Usage: node scripts/petro/baseline.ts inspect|prerequisites|report|gate',
+    );
 }

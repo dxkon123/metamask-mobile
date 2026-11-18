@@ -13,7 +13,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: petro-baseline-${{ github.ref }}
+  group: petro-baseline-${{ github.ref }}-${{ github.sha }}
   cancel-in-progress: false
 
 jobs:
@@ -44,6 +44,11 @@ jobs:
         uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
         with:
           node-version-file: .nvmrc
+
+      - name: Enable pinned Yarn through Corepack
+        run: |
+          corepack enable
+          yarn --version
 
       - name: Record provenance and source inventory
         id: inventory
@@ -122,6 +127,24 @@ jobs:
           # No E2E wallet fixtures, auto-unlock, OAuth mocks or security bypasses.
           yarn build:android:main:dev 2>&1 | tee build/petro/logs/android-build.log
 
+      - name: Generate early build diagnostics
+        if: always()
+        env:
+          PETRO_STEP_RESULTS: ${{ toJSON(steps) }}
+          MM_INFURA_PROJECT_ID: ${{ secrets.MM_INFURA_PROJECT_ID }}
+          GOOGLE_SERVICES_B64_ANDROID: ${{ secrets.GOOGLE_SERVICES_B64_ANDROID }}
+          WALLET_CONNECT_PROJECT_ID: ${{ secrets.WALLET_CONNECT_PROJECT_ID }}
+        run: node scripts/petro/baseline.ts report
+
+      - name: Upload early build diagnostics
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: petro-build-diagnostics-${{ github.sha }}
+          path: build/petro/
+          if-no-files-found: error
+          retention-days: 14
+
       - name: Run upstream lint
         id: lint
         if: steps.dependencies.outcome == 'success'
@@ -158,7 +181,8 @@ jobs:
         continue-on-error: true
         timeout-minutes: 10
         env:
-          YARN_NPM_AUDIT_IGNORE_ADVISORIES: ''
+          # Yarn rejects an empty glob; this literal cannot match an advisory ID.
+          YARN_NPM_AUDIT_IGNORE_ADVISORIES: __PETRO_NO_ADVISORY_EXCLUSIONS__
         run: |
           set -o pipefail
           # Report ALL advisory findings, including the exclusions in upstream .yarnrc.yml.
@@ -181,6 +205,9 @@ jobs:
         if: always()
         env:
           PETRO_STEP_RESULTS: ${{ toJSON(steps) }}
+          MM_INFURA_PROJECT_ID: ${{ secrets.MM_INFURA_PROJECT_ID }}
+          GOOGLE_SERVICES_B64_ANDROID: ${{ secrets.GOOGLE_SERVICES_B64_ANDROID }}
+          WALLET_CONNECT_PROJECT_ID: ${{ secrets.WALLET_CONNECT_PROJECT_ID }}
         run: node scripts/petro/baseline.ts report
 
       - name: Package built APK and versioned source

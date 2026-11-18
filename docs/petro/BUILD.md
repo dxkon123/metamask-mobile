@@ -8,18 +8,18 @@ The application source and features remain upstream. PETRO names identify the re
 
 ## Exact toolchain
 
-| Tool | Revision requirement / source |
-| --- | --- |
-| Node | 24.22.1 (`.nvmrc`) |
-| Yarn | 4.14.1, vendored binary and packageManager checksum (`package.json`) |
-| Java | Temurin 17 (upstream `.github/workflows/build.yml`) |
-| React Native | 0.86.3 plus upstream Yarn patch (`package.json`) |
-| Gradle | 9.3.1 (wrapper properties) |
-| Android compile / target / build tools | API 36 / API 36 / 36.0.0 (`android/build.gradle`) |
-| Android minimum | API 24, with upstream feature-specific requirements |
-| NDK | 27.1.12297006 (`android/build.gradle`) |
-| CMake | 3.22.1 (upstream environment documentation) |
-| Kotlin | 2.1.20 (`android/build.gradle`) |
+| Tool                                   | Revision requirement / source                                        |
+| -------------------------------------- | -------------------------------------------------------------------- |
+| Node                                   | 24.22.1 (`.nvmrc`)                                                   |
+| Yarn                                   | 4.14.1, vendored binary and packageManager checksum (`package.json`) |
+| Java                                   | Temurin 17 (upstream `.github/workflows/build.yml`)                  |
+| React Native                           | 0.86.3 plus upstream Yarn patch (`package.json`)                     |
+| Gradle                                 | 9.3.1 (wrapper properties)                                           |
+| Android compile / target / build tools | API 36 / API 36 / 36.0.0 (`android/build.gradle`)                    |
+| Android minimum                        | API 24, with upstream feature-specific requirements                  |
+| NDK                                    | 27.1.12297006 (`android/build.gradle`)                               |
+| CMake                                  | 3.22.1 (upstream environment documentation)                          |
+| Kotlin                                 | 2.1.20 (`android/build.gradle`)                                      |
 
 The prose environment guide still mentions NDK 26.1; the selected native build file pins 27.1 and takes precedence for this build. All native architecture settings remain upstream.
 
