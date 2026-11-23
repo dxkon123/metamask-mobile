@@ -37,7 +37,8 @@ jobs:
       - name: Checkout exact triggering commit
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
-          fetch-depth: 2
+          # Fetch the pinned base through checkout's authenticated contents:read access.
+          fetch-depth: 0
           persist-credentials: false
 
       - name: Configure upstream Node version
@@ -52,9 +53,7 @@ jobs:
 
       - name: Record provenance and source inventory
         id: inventory
-        run: |
-          git fetch --no-tags --depth=1 origin "$PETRO_BASE_COMMIT"
-          node scripts/petro/baseline.ts inspect
+        run: node scripts/petro/baseline.ts inspect
 
       - name: Check fork-owned service configuration
         id: prerequisites
