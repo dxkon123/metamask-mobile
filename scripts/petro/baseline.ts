@@ -30,6 +30,19 @@ const allowedAdditions = new Set([
   'scripts/petro/baseline.ts',
   'docs/petro/BUILD.md',
   'docs/petro/ACCEPTANCE.md',
+  'HANDOFF.md',
+  'docs/petro/PETRO-APK-Metadata.json',
+  'docs/petro/PETRO-Android-Phone-Checklist.txt',
+  'docs/petro/PETRO-Delivery-Report.md',
+  'docs/petro/PETRO-Dependency-Report.json',
+  'docs/petro/PETRO-Functional-Test-Report.md',
+  'docs/petro/PETRO-Known-Issues.md',
+  'docs/petro/PETRO-Preinstall-Security-Review.md',
+  'docs/petro/PETRO-Preinstall-Static-Evidence.json',
+  'docs/petro/PETRO-Security-Test-Report.md',
+  'docs/petro/evidence/APK-SHA256.txt',
+  'docs/petro/evidence/corrected-unit-report.json',
+  'docs/petro/evidence/critical-dependency-paths.json',
 ]);
 mkdirSync(reports, { recursive: true });
 mkdirSync(join(output, 'logs'), { recursive: true });

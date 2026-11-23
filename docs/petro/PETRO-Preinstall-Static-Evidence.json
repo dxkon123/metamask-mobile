@@ -1,0 +1,1925 @@
+{
+  "reviewDate": "2026-11-23",
+  "apkSHA256": "2b745f79ad47c1db97d123aef911db091c85758643a6325a20cd89320ae71322",
+  "base": "a3251559c8af381b7b9689dd49d3dce8d5f76261",
+  "apkSourceCommit": "08d044320a2d17cc4652165a3629bd00bf896a72",
+  "apkZIPEntryCount": 3125,
+  "mainJSSourceMapSHA256": "ca9bb2909f667e4a234817f76a6174882d1afb34044d8bc0092d8ba16b746ae5",
+  "mainJSSourceCount": 21348,
+  "mainJSPackageMatches": [
+    {
+      "package": "proxy-addr",
+      "matches": []
+    },
+    {
+      "package": "shell-quote",
+      "matches": []
+    },
+    {
+      "package": "tar",
+      "matches": []
+    }
+  ],
+  "apkCommitChangedPaths": [
+    ".github/workflows/petro-wallet-baseline.yml",
+    "docs/petro/ACCEPTANCE.md",
+    "docs/petro/BUILD.md",
+    "scripts/petro/baseline.ts"
+  ],
+  "changedPathsInAPKEntries": {
+    ".github/workflows/petro-wallet-baseline.yml": [],
+    "docs/petro/ACCEPTANCE.md": [],
+    "docs/petro/BUILD.md": [],
+    "scripts/petro/baseline.ts": []
+  },
+  "changedPathsInMainJSSources": {
+    ".github/workflows/petro-wallet-baseline.yml": [],
+    "docs/petro/ACCEPTANCE.md": [],
+    "docs/petro/BUILD.md": [],
+    "scripts/petro/baseline.ts": []
+  },
+  "nativeLibraryCount": 175,
+  "nativeLibraries": [
+    {
+      "path": "lib/arm64-v8a/libNitroFetchWebsockets.so",
+      "bytes": 1788752,
+      "sha256": "9c2e2663e5d804d2fd96680ceb55d479578a7963770c50b56df05aca15d5990a",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libNitroModules.so",
+      "bytes": 980344,
+      "sha256": "4f2b14f5877419d1be2ca45a5154d844f5ff5177ac231918c583a1eb73b6c8c9",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libNitroTextDecoder.so",
+      "bytes": 339184,
+      "sha256": "9cc1bc647e7300532cc23a4148c058a46bfaa067e4e71801f5e50185a4c985f1",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libQuickCrypto.so",
+      "bytes": 9384432,
+      "sha256": "53625b6c51d59449bb1ce51f7618af50aa90c73d36abec4f24aaed3051677b4f",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libVisionCamera.so",
+      "bytes": 271688,
+      "sha256": "91c741f1678d4df4aa47de970afd183fba900565cd4a799cb01471cef9e29316",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libanimation-decoder-gif.so",
+      "bytes": 275368,
+      "sha256": "1a36faccdc2df2d03b399bd20113768f04fe5f9c873c32974d89e588f63b6933",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libappmodules.so",
+      "bytes": 2925344,
+      "sha256": "dfaa96618d78b57618105b8434fac5fc2da733bf19b8cda15ef897f40f5dafff",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libavif_android.so",
+      "bytes": 899752,
+      "sha256": "278211a4aa0fe5034aef8ef9717736242b3b6868708dcd1e1b6d941c5f05150c",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libc++_shared.so",
+      "bytes": 1292904,
+      "sha256": "3e852764502d06e0cf1080d532ae7c608b7649d946a3a9d7e84e3d4b7d683214",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libcronet.143.0.7445.0.so",
+      "bytes": 6500848,
+      "sha256": "7d955904c4fd86cece96f7bd5f95248bd7907b19da67bcc7b73f436d864b37c4",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libdatastore_shared_counter.so",
+      "bytes": 7112,
+      "sha256": "d3e48717c9aa147e0ab21063ba0e8e0211cabf8bf40b222640829519edbf58e1",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libexpo-modules-core.so",
+      "bytes": 1486480,
+      "sha256": "f0539ad6a8d2d5214a793d2ae84959228eed89ac2c3b45052be476af1bc8c1b4",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libexpo-updates.so",
+      "bytes": 101912,
+      "sha256": "76b8bef09a2f0906212447e87e826f56491b3e480719a9167bf7e964eb651de2",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libfbjni.so",
+      "bytes": 177000,
+      "sha256": "a9e35ba55d3f956920281f519385f8a72475ee24819799cb08375fdd4cce2b22",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libgesturehandler.so",
+      "bytes": 38456,
+      "sha256": "acfe5616b650bff4295b593ef7206ae8a80618dcb94f8c1d263cf80c3e710b2f",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libhermestooling.so",
+      "bytes": 141432,
+      "sha256": "1db061bbbb050105fee9b208b861adc0cc02cc359551be6ba9562798a81f6cca",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libhermesvm.so",
+      "bytes": 2477320,
+      "sha256": "bf38be45bf5d6ad8ba961eaf9deda5fa7e032f3ff7d3929ba2a624567093bffa",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libimage_processing_util_jni.so",
+      "bytes": 29592,
+      "sha256": "067d083e0c4de78aac6ae431df298947020990fe3f5ae743b5bd418d0d144b46",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libimagepipeline.so",
+      "bytes": 8760,
+      "sha256": "1b377992e4256fa9398ec057722f84a359c7d588e570c8a41f51d930c19ece7d",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libjnidispatch.so",
+      "bytes": 165992,
+      "sha256": "ddfc6c965bbe366615c000ec1f06552ddf0bb2b4f9d921d0bff8c75b3cb2ca4c",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libjsi.so",
+      "bytes": 412696,
+      "sha256": "5acb80d7eb93b2114a419c9e42b44476969299e806ad7eafe1b293e221b9a682",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libmetamask_nativeutils.so",
+      "bytes": 2248968,
+      "sha256": "df89612f8ce8911c18590bc09b07215435b5ae4baae883696d9bcf9bf529bf79",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libnative-filters.so",
+      "bytes": 23712,
+      "sha256": "4294b57460e70a6351ce7ae2733a79c088c907dfa54673a657227ec5bb669594",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libnative-imagetranscoder.so",
+      "bytes": 585376,
+      "sha256": "2aed28298a25afd52ac670cf9682398c6c7ba42a57195c01efd565e7ddfe17ca",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libnitrofetch.so",
+      "bytes": 996720,
+      "sha256": "acb095bb73354df992de39dd964a4e22941e0e03f56ad1ca522d333d1e392ba8",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libreact-native-mmkv.so",
+      "bytes": 368272,
+      "sha256": "557643397bfdf0f36d3f5b27add50f7b73f956cd1c90f8a4a3725cabf8200df0",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libreact_codegen_RNCSlider.so",
+      "bytes": 236904,
+      "sha256": "d30b7443812cf0139dda17b714b140524870a6edea4875265fd738619c847de8",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libreact_codegen_RNKC.so",
+      "bytes": 147216,
+      "sha256": "fc90be794364961b16455443474faa11c34d3c99ef99e3736764b5fb074d1faf",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libreact_codegen_rnscreens.so",
+      "bytes": 1228160,
+      "sha256": "f41f5a75cc9346dfbd7fe4763a8b381b93b8b24d0985b219701711be1e04cee0",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libreact_codegen_rnsvg.so",
+      "bytes": 789064,
+      "sha256": "f309311ced05858c59f1ec1217c50e9059e554f971c5273964c810c5b41df09b",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libreact_codegen_safeareacontext.so",
+      "bytes": 159240,
+      "sha256": "628d01958b5f735713aad0fd9d52e85281422f1ac7f2db4d0c890ce1f537a870",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libreactnative.so",
+      "bytes": 6985168,
+      "sha256": "14bb860cebebb0e29eb2c96a52d70da9b73e60253916694af955f6e3ef1e6b64",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libreanimated.so",
+      "bytes": 1502840,
+      "sha256": "9b0e380c54629e76fe368e8542271132f6a6f04498fc428106a9dddced1246f8",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/librive-android.so",
+      "bytes": 7780368,
+      "sha256": "2ac87f6f47b170a5622430f9a80fb3915e59639be10483b9ff6a4ebf729ab42d",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/librive.so",
+      "bytes": 3506576,
+      "sha256": "eb1201485ef9312b9092398193163e3f36c3e8ebcf6624067f959670c9618e2e",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/librnscreens.so",
+      "bytes": 100904,
+      "sha256": "e934dbbfff1b74a4c83500d646586e463f72e78c9806ec09e3fd224f32af4f35",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libsentry-android.so",
+      "bytes": 20024,
+      "sha256": "37b654ff50e489d0aaffc5f5eba5758b088c60efda3c2f651eb3da0a0e90d405",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libsentry-tm-perf-logger.so",
+      "bytes": 54864,
+      "sha256": "20f93f8a03ed9e0bce329c7bcc426f35c24cde551f71cdc49c11c73f4d4a6556",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libsentry.so",
+      "bytes": 852736,
+      "sha256": "7543ff04d7a21c843ccfa1388735956ba1c58b3f1781ffe06d924292c62ec6a1",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libtensorflowlite_jni.so",
+      "bytes": 4320472,
+      "sha256": "246a3e0f91308ff27dfd74eea8fe03622303c6bd1d54b5d722f0abe099d2bd57",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libtoolChecker.so",
+      "bytes": 5512,
+      "sha256": "eeb2317e649e287b836b5e5c30cb07700f9eb900a53c297a3823592f15aa6352",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libuniffi_yttrium_wcpay.so",
+      "bytes": 6276344,
+      "sha256": "0da119da2233654a328a0633fd87a641a09d8b57b18935137ae19461f52950ca",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libworklets.so",
+      "bytes": 1101120,
+      "sha256": "1368227f8ad583e8fc3b19bc16625e89b735b1a76e95f3967a45335d74f1ed63",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/arm64-v8a/libzstd-kmp.so",
+      "bytes": 731872,
+      "sha256": "10ec47f13bee884450b0911066019ba7aa6b4164a4c1f8c33c9d30dd3fd8868a",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libNitroFetchWebsockets.so",
+      "bytes": 1317540,
+      "sha256": "e752795a452ed2d8c958cb176dc8f2a540b96481f6fd128d60ef8c4ed6940a3a",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libNitroModules.so",
+      "bytes": 696832,
+      "sha256": "7a9fb863fe01dda8b93cc3a03fc858198496d3e60462d0b225712b36f48d4878",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libNitroTextDecoder.so",
+      "bytes": 177924,
+      "sha256": "95629d076725d53ccab9187720245bfd21abc7bc9d34dec8d0274e4decae1fb0",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libQuickCrypto.so",
+      "bytes": 6502604,
+      "sha256": "baefeb2037d5188170627714130cd3d319d157a26c6014e6c30ba77ca7261c61",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libVisionCamera.so",
+      "bytes": 174604,
+      "sha256": "5c5bfebf704e5612d25c5c5844a9730a0a223fdfaebf8686a81add53703109b6",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libanimation-decoder-gif.so",
+      "bytes": 161752,
+      "sha256": "750f811d54bd64e2f1e307de7162caaf05c89a111a1d785e6e3312b2d9aa03a2",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libappmodules.so",
+      "bytes": 2130828,
+      "sha256": "889e7278aafe58b0ebe49cad88214bc66b2811e55a00eeeb96fee1845822b17e",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libavif_android.so",
+      "bytes": 691804,
+      "sha256": "83d0a97055eece4ee47a340504eae7cf8185522f64b0353507839ebf59da8946",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libc++_shared.so",
+      "bytes": 872872,
+      "sha256": "84e7d99b7b6df960b37c28e43808cc5c2c62d1bb9449e27683fc53309dea5b6c",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libcronet.143.0.7445.0.so",
+      "bytes": 4185152,
+      "sha256": "363f796ed09bc584f6dff96f1a2cc7485c5f3b1fcc6e6aca1825d0f1164c7a45",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libdatastore_shared_counter.so",
+      "bytes": 4416,
+      "sha256": "716c5d8d2cac8ca0edf65da8f139c7886b726ac79d542a14edeb94994ba6d3dc",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libexpo-modules-core.so",
+      "bytes": 1055640,
+      "sha256": "d235dc9a90a6f62d536bbb10600c64005bb7a3dbbba7d6666977759b824f3095",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libexpo-updates.so",
+      "bytes": 60828,
+      "sha256": "db7a47ada4b01bee2ad0863ffe1c723d59adf6573e3f645048a224cd72ec3854",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libfbjni.so",
+      "bytes": 119456,
+      "sha256": "6739b4db111283fe0a86a3a5fdd80efe5d963355dd161b95ec179f01cc9685d5",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libgesturehandler.so",
+      "bytes": 8420,
+      "sha256": "b5f03a32e456153db449783030be3fa05988fdc5f58b11bbe14973ecd6816ccc",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libhermestooling.so",
+      "bytes": 76548,
+      "sha256": "c3aa71d90fcf993b0ddc9da0bc7a154444663901515c61b7cb20fa599d870fd2",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libhermesvm.so",
+      "bytes": 1700248,
+      "sha256": "180d4113ebea599b2cbb44fe2d2634a7599a8d7afabbcb43670e0fe2839b006a",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libimage_processing_util_jni.so",
+      "bytes": 24812,
+      "sha256": "97205e474c9316542c0def6d2c3a0e021599b3d4edc70054b93e5ac801947fa3",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libimagepipeline.so",
+      "bytes": 5876,
+      "sha256": "0fb5021bcf1cbb6c10630732560bb80bad7187c8b8391e6c001b3f892fa613d5",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libjnidispatch.so",
+      "bytes": 116344,
+      "sha256": "4a2fc525286a13179b1e62e10bd8ab96422eb205a2db8dbeb2e177564700bf4a",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libjsi.so",
+      "bytes": 289716,
+      "sha256": "a3f55942fb1d183818decb426a0126e871fc0c6c025f02367c5f38642ca01e2e",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libmetamask_nativeutils.so",
+      "bytes": 1920840,
+      "sha256": "d28f236444e8d25c54957ba0967463247f96022779947080d0ea686fb290ee5a",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libnative-filters.so",
+      "bytes": 12588,
+      "sha256": "fb3d55facc8dfdc856441015c2a8d803b10b6c3cf09524c4f04562cec186a62e",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libnative-imagetranscoder.so",
+      "bytes": 341072,
+      "sha256": "40905f1c50315f66362a8e10e2ac19d1df62c3f1800bc2ee639047d09c9f1bd9",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libnitrofetch.so",
+      "bytes": 718392,
+      "sha256": "0d88c23b02254eab0532e63f48b1a2ec6fd8061caec703e6f4ead653b2d7d98d",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libreact-native-mmkv.so",
+      "bytes": 236984,
+      "sha256": "c91cc314cdf86020d24415c31c7d7684c63534a608a1317a5edced0d8e806340",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libreact_codegen_RNCSlider.so",
+      "bytes": 167372,
+      "sha256": "11411e06b4c723766fb46d11f89247730ecb80cd4bc73c9d0402bca69765cc6b",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libreact_codegen_RNKC.so",
+      "bytes": 88100,
+      "sha256": "b89cc545d66dfcb4b1456e2c45189ce0c229820815242e5bf347fa8b68134b4e",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libreact_codegen_rnscreens.so",
+      "bytes": 874624,
+      "sha256": "1f5487804652294fe5cb6c4023e531edb953196e45e32c709262b5edac8e79aa",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libreact_codegen_rnsvg.so",
+      "bytes": 574072,
+      "sha256": "be35a761f856af93c3cd3969a1f1878ebf8cf37380c00c96ffee35f009e85d43",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libreact_codegen_safeareacontext.so",
+      "bytes": 98004,
+      "sha256": "5194001b7ed9b36c62d841198b8eb6b3f854595020e60679679296e22a92cd7c",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libreactnative.so",
+      "bytes": 4859120,
+      "sha256": "38a637ec7f32ee8df322074323fc6b1ae23377c8f144e0850d6c5097974552cb",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libreanimated.so",
+      "bytes": 967232,
+      "sha256": "ec58e6e366dd7a7c6ecdb453ea86d10a59a8aeb94974602e59665f504bb5f125",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/librive-android.so",
+      "bytes": 7146672,
+      "sha256": "f8e716ec85335bf63cdc73024f17696e4a4c08d7a0951187c32d67ed0b830eb2",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/librive.so",
+      "bytes": 2543680,
+      "sha256": "09652f636c7dfbf982fdc7b09d8057cfb45620f089b9ae0d58e58f772f83d5fc",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/librnscreens.so",
+      "bytes": 51704,
+      "sha256": "51d19c2d309d5af6c1744f162f468790a8439fb667ff5d9a07fddcf30f4b24dd",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libsentry-android.so",
+      "bytes": 14300,
+      "sha256": "c28ed14c8aef0bcb4d3670a9257da7988825cc863e245752873ef79c208b4bbd",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libsentry-tm-perf-logger.so",
+      "bytes": 20212,
+      "sha256": "02761c81cad939f647e24c076391979701ae4d9da9334f5fcf0784fb0e242558",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libsentry.so",
+      "bytes": 560564,
+      "sha256": "5f35e69e2382e2ea52fa09a07b07c7c0873a7fdcb765352e1c170c51d6556d91",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libtensorflowlite_jni.so",
+      "bytes": 2867528,
+      "sha256": "98ea6e63c135baac1e6c42be1e14d4190499f75bb0e3b1d607d88f635fae8ac5",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libtoolChecker.so",
+      "bytes": 3944,
+      "sha256": "0ab4d927080abf32ea03ac08f05d168415701871641bcf2e4d3653bd8ad8b56e",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libuniffi_yttrium_wcpay.so",
+      "bytes": 4344624,
+      "sha256": "1e9cfabf556a41551ca642eb24764be59987c68764d979a881be6296cb5f27bb",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libworklets.so",
+      "bytes": 730468,
+      "sha256": "75fe6127f73de95867b1cceb402107b5c4df806c99fe5de4ea88fa1269b6ecbd",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/armeabi-v7a/libzstd-kmp.so",
+      "bytes": 566996,
+      "sha256": "4b30671d21e9c6953dc84e4b4602e33b88740d61417af96dbc4ddf44b22a8e15",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libNitroFetchWebsockets.so",
+      "bytes": 1924932,
+      "sha256": "c0f7ad6f680321e250679d066dcded3929478eb7ec1c077a278648d0d21eab4c",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libNitroModules.so",
+      "bytes": 944028,
+      "sha256": "125b0078fb66b369e8c08a6818082d7c57fc081bdc9ef08a307428cf522b54ee",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libNitroTextDecoder.so",
+      "bytes": 270048,
+      "sha256": "553f298f6a4ec8efd55f6de4674337642bc6715dfc093761c0cf21c0c2df079e",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libQuickCrypto.so",
+      "bytes": 8300584,
+      "sha256": "56ebb1ee200c4616698cfd0b6a7ab081d7eb7a11f38d98f17797ce68a32e0e40",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libVisionCamera.so",
+      "bytes": 250396,
+      "sha256": "82c5592aa68e8204a89edadc8c57f79a0e6721e09e93792af80d60c29759c966",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libanimation-decoder-gif.so",
+      "bytes": 240852,
+      "sha256": "520a7dab587fef0bc30f83338d5c6ff787a5824f034eea276723f9c02b5073b7",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libappmodules.so",
+      "bytes": 2912056,
+      "sha256": "29886f3456515c733a43a649979502c0249a2630dff6d15dcd9cdc135b06c6fc",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libavif_android.so",
+      "bytes": 1212276,
+      "sha256": "8400d6ae3b1feca6e0cc3eb3965568095c050a46dd571be4d18b1c04a13b9d93",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libc++_shared.so",
+      "bytes": 1254988,
+      "sha256": "3bd6a3c5d1baa1fac3bdd8452ccc403fd1b464b3f80eb9fa207df5ec2d565129",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libcronet.143.0.7445.0.so",
+      "bytes": 6891908,
+      "sha256": "2b0eed10cd92d6de56055c6c6484897e28690b474fab193699606e53410a75d0",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libdatastore_shared_counter.so",
+      "bytes": 5148,
+      "sha256": "cd4a1649e2c8350703146f94a6ee2bf4c3c8c9f172159f805b61a4a2abdf0659",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libexpo-modules-core.so",
+      "bytes": 1398996,
+      "sha256": "b0391616cf35c68bf1f11a10afa9b830a56daf8b578eac84f9e32c368eb4fe78",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libexpo-updates.so",
+      "bytes": 107720,
+      "sha256": "feddc6ba2c0e7b4033c840b9590e39222ed489ab02fbbbc50f28cf46056184d8",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libfbjni.so",
+      "bytes": 166480,
+      "sha256": "735533ea082fe331b293a947f5ac32556ea433c7db1d2fe76e4ac9a440917c65",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libgesturehandler.so",
+      "bytes": 34680,
+      "sha256": "0e65802e47b52a550aae8f4ff0720191eb3c81d4dcc40a16e71efa43433d9d47",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libhermestooling.so",
+      "bytes": 136716,
+      "sha256": "9def06c3271a443050c0a3915464159b9596bdac9525a5f021caeee162b80ecc",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libhermesvm.so",
+      "bytes": 3019744,
+      "sha256": "5a16c3f6370190033ae6cfb42b4c7d334eb120e706ad10232f5ea72b3d83d85d",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libimage_processing_util_jni.so",
+      "bytes": 38500,
+      "sha256": "314f2a030600509b5ef81e502aff4e526f1c692d601e6b4287aef77215be20d9",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libimagepipeline.so",
+      "bytes": 7040,
+      "sha256": "afd22bf7e62e5d08c0ec17ff6c0a273bfc580052c89363c0cb5d72e98d3b4cf4",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libjnidispatch.so",
+      "bytes": 116260,
+      "sha256": "5bdc5edf4d0722a01051d836d9f404e895dc5465b11a07d83953cbad323b71de",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libjsi.so",
+      "bytes": 437228,
+      "sha256": "87b504363a35fdc07a6fb2bd5788347123d22c110f9ba476d400c9f32fe50c3c",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libmetamask_nativeutils.so",
+      "bytes": 2350620,
+      "sha256": "53b44d975d23f975271f3be64ea11792a1f1ea590951de5e3351f96cca688fcd",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libnative-filters.so",
+      "bytes": 22040,
+      "sha256": "6947adfed7f745e52408b11d83a3cf25072749c3336aa35c634928c6dcfa5da0",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libnative-imagetranscoder.so",
+      "bytes": 664736,
+      "sha256": "943c8757e57f59556027d460c0e86738d5969794db905febbe4926fd1d3fa663",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libnitrofetch.so",
+      "bytes": 930444,
+      "sha256": "02768e4509efbd082b9311eb1293e2c71509149480eaa00c588b47f87f361f19",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libreact-native-mmkv.so",
+      "bytes": 390900,
+      "sha256": "8f65e25a219bcf1c5fdcf9718103749af283ec7eced8b0bc1371d5ce768db8cb",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libreact_codegen_RNCSlider.so",
+      "bytes": 254208,
+      "sha256": "5e55d7f961fa5d926671c3a9c4180ae8964cfa36c49ec11cd19a2187dca479b5",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libreact_codegen_RNKC.so",
+      "bytes": 145764,
+      "sha256": "3cca0c992feade31e92f6e7a5cb5a17368b8540f30a3f79b8d3dccd9c7de7db4",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libreact_codegen_rnscreens.so",
+      "bytes": 1272960,
+      "sha256": "04d334eb1cabc5b606cf26d72ac0f2fbfcf6ea24daedac8a60d3183636e6c329",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libreact_codegen_rnsvg.so",
+      "bytes": 1028912,
+      "sha256": "18e577c56a5e8d762537004f61b53995043011e984b17940cb987abdd6ae941d",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libreact_codegen_safeareacontext.so",
+      "bytes": 153508,
+      "sha256": "1475a55cbaef9534f082ad15cb3097c1a9381f8928301cd81faf8ab89a6eb02d",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libreactnative.so",
+      "bytes": 7362736,
+      "sha256": "23b2a618cd791452d99bdde1fa508ea9d4f6333957c5f8021cd6fb21f028ecd1",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libreanimated.so",
+      "bytes": 1430556,
+      "sha256": "7a4a0cd84dfb6ac12154cb4a9a5359937a14fd699c78d0c565ad95ac9e99dc1b",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/librive-android.so",
+      "bytes": 7944428,
+      "sha256": "92b2176778961660fad8e348f1a666caba85affd3aadca4ce381094a9665408d",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/librive.so",
+      "bytes": 3295260,
+      "sha256": "ac81ec19699a3bf0691b3335e224b084458ca7ecd750aca406bdad0a0c3e7556",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/librnscreens.so",
+      "bytes": 93560,
+      "sha256": "cd6975629f81a4e76319d18101416f5fac040886fab5ac1f2845fe0a0361a05f",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libsentry-android.so",
+      "bytes": 17492,
+      "sha256": "a185c4ff6c93d1d7db0126efa7e9ab4085c2ab8799fac501b96c8c0434da4019",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libsentry-tm-perf-logger.so",
+      "bytes": 49180,
+      "sha256": "708fbedfdb9f15fa78a56c978d9a7ce8d40662bd5e713099b24b7795d3b7d6f9",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libsentry.so",
+      "bytes": 882328,
+      "sha256": "557d86d8d815d79527413b6b6c7a5dcee896dd42698cc1c91011d253f3d6fe88",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libtensorflowlite_jni.so",
+      "bytes": 6798816,
+      "sha256": "3128076b75aed66f1caa87ea5d9ac9d05a81aaed39df5965353a564526559d25",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libtoolChecker.so",
+      "bytes": 4292,
+      "sha256": "276bbe8af8ecac19371962a448a112897a5bc5077ed21d30f6f37c134b36981a",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libworklets.so",
+      "bytes": 968828,
+      "sha256": "dd70fcbaafbd047571bc9fbcce22badb82451f04bf697a634d2f627e9902ebd5",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86/libzstd-kmp.so",
+      "bytes": 857780,
+      "sha256": "2daf9a5f2984289b93568a96bc4234a9e405aa4905c990b85ef887c5de7fb010",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libNitroFetchWebsockets.so",
+      "bytes": 1825320,
+      "sha256": "2f1c52b637f69e6de496664edb1a4737625189990c6d986b520ef7eca13e780b",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libNitroModules.so",
+      "bytes": 967768,
+      "sha256": "1fed400747e453f626cb5c0c35e8f4f680db27b358e5a370c68b56e8c936da96",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libNitroTextDecoder.so",
+      "bytes": 555656,
+      "sha256": "036fbafe20a67bf2c03adae67a8946a350021254910eea30fab7df3e2ebbc4b8",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libQuickCrypto.so",
+      "bytes": 10102680,
+      "sha256": "4433b3c7aaea5e5b0c9e4d3470d286e39c092afa71f0639fae533783ecacfff4",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libVisionCamera.so",
+      "bytes": 263336,
+      "sha256": "bde0ab9e7b3c3550e346fc3fca983ccc177966203dd7a18e04132313a72352fc",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libanimation-decoder-gif.so",
+      "bytes": 261216,
+      "sha256": "ac33356aa5d6fc6d8c749e95192440a693f5095f1532e2405cc133fab78e493c",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libappmodules.so",
+      "bytes": 3353696,
+      "sha256": "d65d490eef9a832e98aef0e76848d5979f5d034314909e5b23e64de52aef6760",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libavif_android.so",
+      "bytes": 1892960,
+      "sha256": "d63e4fe8cba8992b28a4497b9a174c0549ed875ec4b28115ec7cf6c55136c5a4",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libc++_shared.so",
+      "bytes": 1252080,
+      "sha256": "0a2c7afa35b183fdd5a3cb20e2080ad54cbea06c2a4f0bc8f122cb7d1e9e0b9f",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libcronet.143.0.7445.0.so",
+      "bytes": 7194688,
+      "sha256": "0419dfa8d333f7cc72538d23f6c1a7acd06ae63322dee0b85b5312c6feb051bd",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libdatastore_shared_counter.so",
+      "bytes": 6224,
+      "sha256": "fb6c9208988c49ae94943bc3236fa763ba584722e044fa4ea9a12d2941027105",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libexpo-modules-core.so",
+      "bytes": 1448040,
+      "sha256": "77db42a3aff7dcc5c9307cc70be2d60bb7e8eb98c097b098fc4015308c8c7810",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libexpo-updates.so",
+      "bytes": 113552,
+      "sha256": "f80f1731f1e71ac66f4b99edb5f4478da094b405e5df4e289c742c0db680111c",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libfbjni.so",
+      "bytes": 172952,
+      "sha256": "a51410366a0394e05bc04052cfb237c70dcf7d4d53a56e1d00a041436cb0b653",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libgesturehandler.so",
+      "bytes": 35608,
+      "sha256": "93b886a5380c9f45f018a416be97b8cd0ae752931e1f3fffb1f3ef85b78fb730",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libhermestooling.so",
+      "bytes": 138128,
+      "sha256": "6a8ef7ef7bb5bd277a915fc0070fa1285c6969da2d7faf4fbff86ab6468c8458",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libhermesvm.so",
+      "bytes": 2591976,
+      "sha256": "3c5f7f3740b6511b55f3f8ba43c24eb1b38ab2fb9dc1ca5618287c3ca6221e13",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libimage_processing_util_jni.so",
+      "bytes": 46160,
+      "sha256": "352fa6662094b3a3e3ad60893219cb889180c452c74ffab8025720e0bef4c6db",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libimagepipeline.so",
+      "bytes": 8464,
+      "sha256": "2e596f4955f65abaa93c891b49eb58b5416581806a04bde0097cc369ae4dbfb3",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libjnidispatch.so",
+      "bytes": 116904,
+      "sha256": "288eafff19a70e833498201071c3d724f03f32ee8ff64a14fca50b57d975db70",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libjsi.so",
+      "bytes": 418872,
+      "sha256": "f3927514e215b9fe14bc6d5a1937c62b20ed55057ede7205fac198ec763d4349",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libmetamask_nativeutils.so",
+      "bytes": 2352704,
+      "sha256": "593d016be334c6928590371f68dc123642b3470d4d5bf032cde2c34c269f2c42",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libnative-filters.so",
+      "bytes": 30528,
+      "sha256": "1a5270f007dd4b2f0fc52ceac82e05143648ba9be59c2213a21cf61c84f1f5e5",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libnative-imagetranscoder.so",
+      "bytes": 720432,
+      "sha256": "f6b92ad7f1c30973f40704c46987504757c3d079c7f4ace6efc8b318dd9c22f3",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libnitrofetch.so",
+      "bytes": 981616,
+      "sha256": "b9579c5c338d02bb1c2bcf4e8b0888ca39bd5a744a736293bd8c8353f979e13f",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libreact-native-mmkv.so",
+      "bytes": 374640,
+      "sha256": "3ba93da70330a1661acc5b852a573effc0981f88c396da679d3882dca6ff49bd",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libreact_codegen_RNCSlider.so",
+      "bytes": 242232,
+      "sha256": "e3580309119849db9e4426ef04ad04b22a8566b2946b9ebac20f6424e99abd13",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libreact_codegen_RNKC.so",
+      "bytes": 147744,
+      "sha256": "ab4efacfb16a82e3b6aa3840b46083ff3bf8445b42e7a1cebf05dc4a161d49de",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libreact_codegen_rnscreens.so",
+      "bytes": 1254200,
+      "sha256": "62cbda4edc668b84f7acb77b53e8c21c347ffad89369960691035a0af69742d0",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libreact_codegen_rnsvg.so",
+      "bytes": 882688,
+      "sha256": "0589484a67db2cc5c39f866e91348e81d69b42b125547efbaf04f608d294a4d6",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libreact_codegen_safeareacontext.so",
+      "bytes": 159760,
+      "sha256": "2d0aed3a8e133ef9b41ee6bc720936a17b34f735a59b264f5c005d095d64a0e7",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libreactnative.so",
+      "bytes": 7098048,
+      "sha256": "f80d63ba3df4cd85764c330c6af56ca5995fdaacbdcff107657b8c63918f1d8b",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libreanimated.so",
+      "bytes": 1540992,
+      "sha256": "13ac7eaca7527818b3ea4ea322607f44bd31e0057a1e22cefdd35bd131d3d0e0",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/librive-android.so",
+      "bytes": 8095536,
+      "sha256": "a8b586bb5499c27ec597a47250d50a34b20ba84a452d902804ae7f7bfe7eb78d",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/librive.so",
+      "bytes": 3452888,
+      "sha256": "03658382ec834a63717dc9fa25e17616625cf77eac1ef8216088f157257b8517",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/librnscreens.so",
+      "bytes": 97696,
+      "sha256": "18791f901f0b6e3da3d4b40a5b7ea201fec69a099242328b28ee18f1ee865c7d",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libsentry-android.so",
+      "bytes": 19464,
+      "sha256": "a46e4d29ec5ec8d1a16d83d7387f5445afe5d99268188617021cb680fe6f364d",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libsentry-tm-perf-logger.so",
+      "bytes": 50640,
+      "sha256": "a00acf879c5890ad6c07f213d6e370fc8f20fa700f322499feabca85d649818c",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libsentry.so",
+      "bytes": 837352,
+      "sha256": "55ba8ddc2b8b89ef8d795e8e49322684ef92bcf0c0b9505dfa7e1d9e87d52b79",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libtensorflowlite_jni.so",
+      "bytes": 6053520,
+      "sha256": "4d201057ca55005c7288436d21d521c915716c76d7d397e5c71afcba6edec5e7",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libtoolChecker.so",
+      "bytes": 5416,
+      "sha256": "d45212dc93e3e488802906f9dbbd1698bcf70fb30a12d2d108b1e60211ea3cc9",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libuniffi_yttrium_wcpay.so",
+      "bytes": 6981328,
+      "sha256": "008396564089cf7daf6ec8d26e05bd8115a8ec251a1f487b83436e151495e531",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libworklets.so",
+      "bytes": 1055472,
+      "sha256": "51d3ffdd2ad78f265cb3303913cb4fa5371d3be0a0ce8c08365bce6e6b73dfd0",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "lib/x86_64/libzstd-kmp.so",
+      "bytes": 816568,
+      "sha256": "fefcbdcd59580a3043c62380a83d92f13c031c278481e22591a2c75112296e28",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    }
+  ],
+  "executableJSAssets": [
+    {
+      "path": "assets/InpageBridgeWeb3.js",
+      "bytes": 538863,
+      "sha256": "65d142e8ef45335f99b633c1ce55ef94b151f87baab9822f28aa8f895b6a7ca3",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "assets/braze-html-bridge.js",
+      "bytes": 5173,
+      "sha256": "13a4e193a959a9c9922251b7bf7156465966360fa91d8003db9e276296a81cea",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "assets/braze-html-in-app-message-bridge.js",
+      "bytes": 4677,
+      "sha256": "c051b3e5a2207346ab24681cb6b07c419567c2c8c18ae922cd9cea46fd673ca9",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": [],
+        "tar": []
+      }
+    },
+    {
+      "path": "assets/index.android.bundle",
+      "bytes": 84974516,
+      "sha256": "3caf06a47b5bb006b158dd71330f6d44da9d60fca8cfa6bed14aa7e8ac5811cc",
+      "packageMarkerMatches": {
+        "proxy-addr": [],
+        "shell-quote": ["shell-quote"],
+        "tar": []
+      }
+    }
+  ],
+  "APKPermissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_NOTIFICATION_POLICY",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.ACTIVITY_RECOGNITION",
+    "android.permission.BLUETOOTH",
+    "android.permission.BLUETOOTH_ADMIN",
+    "android.permission.BLUETOOTH_CONNECT",
+    "android.permission.BLUETOOTH_SCAN",
+    "android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS",
+    "android.permission.CAMERA",
+    "android.permission.CHANGE_NETWORK_STATE",
+    "android.permission.DETECT_SCREEN_CAPTURE",
+    "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+    "android.permission.INTERNET",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.NFC",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.SCHEDULE_EXACT_ALARM",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.USE_BIOMETRIC",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WRITE_SETTINGS",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "io.metamask.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "mainManifestPermissionNames": [
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.BLUETOOTH",
+    "android.permission.BLUETOOTH_ADMIN",
+    "android.permission.BLUETOOTH_CONNECT",
+    "android.permission.BLUETOOTH_SCAN",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.READ_MEDIA_IMAGES",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.SYSTEM_ALERT_WINDOW"
+  ],
+  "APKPermissionsOutsideLiteralMainManifest": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_NOTIFICATION_POLICY",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.ACTIVITY_RECOGNITION",
+    "android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS",
+    "android.permission.CHANGE_NETWORK_STATE",
+    "android.permission.DETECT_SCREEN_CAPTURE",
+    "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+    "android.permission.NFC",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.SCHEDULE_EXACT_ALARM",
+    "android.permission.USE_BIOMETRIC",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WRITE_SETTINGS",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "io.metamask.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "limits": [
+    "Package-name byte markers are only a heuristic; absence is not a native-library SBOM or proof of no vulnerable code.",
+    "21,348 refers to main JS source-map paths; the APK contains 3,125 ZIP entries.",
+    "APK permissions include upstream dependency manifests; no separate same-variant upstream APK was built for compiled-manifest comparison.",
+    "No live device traffic capture or successful phone install was performed."
+  ],
+  "shellQuoteStringObservation": {
+    "asset": "assets/index.android.bundle",
+    "offset": 8969545,
+    "matchedString": "shell-quote@npm:1.8.0",
+    "assessment": "Matches an upstream root package.json resolutions key; a string occurrence does not establish inclusion of the package implementation. No shell-quote module path occurs in the recorded main JS source map."
+  }
+}

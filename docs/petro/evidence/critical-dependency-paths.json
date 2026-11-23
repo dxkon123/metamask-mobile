@@ -1,0 +1,136 @@
+[
+  {
+    "package": "proxy-addr",
+    "paths": [
+      [
+        "@metamask/client-mcp-core@0.14.0",
+        "@metamask/device-mcp@0.8.0",
+        "@modelcontextprotocol/sdk@1.32.2",
+        "express@5.2.1",
+        "proxy-addr@2.0.7"
+      ],
+      [
+        "@metamask/platform-api-docs@0.2.1",
+        "@docusaurus/core@3.10.2",
+        "webpack-dev-server@5.2.6",
+        "express@4.22.2",
+        "proxy-addr@2.0.7"
+      ]
+    ],
+    "rootDependencies": [
+      "@metamask/client-mcp-core@0.14.0",
+      "@metamask/platform-api-docs@0.2.1"
+    ],
+    "immediateParents": ["express@4.22.2", "express@5.2.1"],
+    "classification": "Pending actual APK source-map inventory; dependency declaration alone does not prove shipped reachability."
+  },
+  {
+    "package": "shell-quote",
+    "paths": [
+      [
+        "@metamask/platform-api-docs@0.2.1",
+        "@docusaurus/core@3.10.2",
+        "webpack-dev-server@5.2.6",
+        "launch-editor@2.14.1",
+        "shell-quote@1.12.0"
+      ],
+      ["@segment/sovran-react-native@1.1.3", "shell-quote@1.9.0"],
+      ["appium-adb@14.6.1", "@appium/support@7.2.9", "shell-quote@1.12.0"],
+      [
+        "appium-adb@14.6.1",
+        "@appium/support@7.2.9",
+        "teen_process@4.2.1",
+        "shell-quote@1.12.0"
+      ],
+      [
+        "appium-chromium-driver@2.0.2",
+        "appium-chromedriver@8.0.19",
+        "teen_process@3.0.2",
+        "shell-quote@1.12.0"
+      ],
+      [
+        "appium-xcuitest-driver@12.1.4",
+        "appium-ios-remotexpc@5.13.2",
+        "npm-run-all2@8.0.4",
+        "shell-quote@1.12.0"
+      ],
+      [
+        "react-native@virtual:abc9dfb39ae3e5164a2dfbbdcd0e8790750b87db092131c8f7bf751637bbd41bb8611903a58b5ee321a5a8fbbe4bf1cbf36a2b0f877e5ad08c811436d00e88f0#patch:react-native@npm%3A0.86.3#~/.yarn/patches/react-native-npm-0.86.3-2292697f2f.patch::version=0.86.3&hash=7b623a",
+        "react-devtools-core@6.1.5",
+        "shell-quote@1.12.0"
+      ]
+    ],
+    "rootDependencies": [
+      "@metamask/platform-api-docs@0.2.1",
+      "@segment/sovran-react-native@1.1.3",
+      "appium-adb@14.6.1",
+      "appium-chromium-driver@2.0.2",
+      "appium-xcuitest-driver@12.1.4",
+      "react-native@virtual:abc9dfb39ae3e5164a2dfbbdcd0e8790750b87db092131c8f7bf751637bbd41bb8611903a58b5ee321a5a8fbbe4bf1cbf36a2b0f877e5ad08c811436d00e88f0#patch:react-native@npm%3A0.86.3#~/.yarn/patches/react-native-npm-0.86.3-2292697f2f.patch::version=0.86.3&hash=7b623a"
+    ],
+    "immediateParents": [
+      "@appium/support@7.2.9",
+      "@segment/sovran-react-native@1.1.3",
+      "launch-editor@2.14.1",
+      "npm-run-all2@8.0.4",
+      "react-devtools-core@6.1.5",
+      "teen_process@3.0.2",
+      "teen_process@4.2.1"
+    ],
+    "classification": "Pending actual APK source-map inventory; dependency declaration alone does not prove shipped reachability."
+  },
+  {
+    "package": "tar",
+    "paths": [
+      [
+        "@keystonehq/bc-ur-registry-eth@0.21.0",
+        "hdkey@2.1.0",
+        "secp256k1@4.0.4",
+        "node-addon-api@5.1.0",
+        "node-gyp@11.4.2",
+        "make-fetch-happen@14.0.3",
+        "cacache@19.0.1",
+        "tar@7.5.18"
+      ],
+      [
+        "@keystonehq/bc-ur-registry-eth@0.21.0",
+        "hdkey@2.1.0",
+        "secp256k1@4.0.4",
+        "node-addon-api@5.1.0",
+        "node-gyp@11.4.2",
+        "tar@7.5.18"
+      ],
+      [
+        "@lavamoat/allow-scripts@3.0.4",
+        "@npmcli/run-script@7.0.4",
+        "node-gyp@10.1.0",
+        "make-fetch-happen@13.0.1",
+        "cacache@18.0.4",
+        "tar@6.2.1"
+      ],
+      [
+        "@lavamoat/allow-scripts@3.0.4",
+        "@npmcli/run-script@7.0.4",
+        "node-gyp@10.1.0",
+        "tar@6.2.1"
+      ],
+      ["@metamask/foundryup@2.0.0", "tar@7.5.18"],
+      ["eas-cli@12.6.2", "tar@6.2.1"]
+    ],
+    "rootDependencies": [
+      "@keystonehq/bc-ur-registry-eth@0.21.0",
+      "@lavamoat/allow-scripts@3.0.4",
+      "@metamask/foundryup@2.0.0",
+      "eas-cli@12.6.2"
+    ],
+    "immediateParents": [
+      "@metamask/foundryup@2.0.0",
+      "cacache@18.0.4",
+      "cacache@19.0.1",
+      "eas-cli@12.6.2",
+      "node-gyp@10.1.0",
+      "node-gyp@11.4.2"
+    ],
+    "classification": "Pending actual APK source-map inventory; dependency declaration alone does not prove shipped reachability."
+  }
+]

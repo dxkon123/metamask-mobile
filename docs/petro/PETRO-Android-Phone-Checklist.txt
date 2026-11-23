@@ -1,0 +1,88 @@
+PETRO ANDROID PHONE TEST CHECKLIST
+Status: USER-REPORTED INSTALL FAILURE (signature conflict); no successful install.
+Wallet/Polygon checklist NOT EXECUTED. This is not acceptance evidence.
+
+Record: phone model, Android version, test date, APK SHA-256, versionName,
+versionCode, applicationId and source commit from the delivery report.
+For each item record PASS / FAIL / BLOCKED and a non-secret observation.
+
+1. Verify and install
+   Compare the APK SHA-256 with APK-SHA256.txt before installation. Use a spare
+   physical device or clean emulator with no official io.metamask installed in
+   ANY user/profile. A work profile, guest or second Android user is not a
+   signature-conflict workaround: Android shares package code across users.
+   This development package uses
+   io.metamask and the upstream public development certificate; it cannot update
+   an official MetaMask installation signed with another certificate. To coexist
+   on your existing phone, a future separately authorized package-ID rebrand
+   and rebuilt APK are required; neither is done in this step. Preserve
+   your existing wallet application and data. Confirm installation and launch,
+   version information, and absence of immediate crashes.
+
+   Before connecting: review PETRO-Preinstall-Security-Review.md. The build is
+   network-capable, uses upstream production AND development service hosts,
+   retains Segment initialization, and has open critical build-chain findings.
+   Native-library vulnerability absence and runtime egress are NOT cleared.
+
+2. Create a fresh disposable wallet (WAL-001)
+   Generate a new wallet in the app. Verify the recovery phrase privately;
+   never photograph, upload or paste it into chat. Record only the public
+   address. Lock/unlock, force-close/reopen and reboot the phone. Confirm the
+   same address, account and authenticated access persist.
+
+3. Import and recover (WAL-002)
+   In a separate fresh test installation on a compatible spare device/emulator,
+   privately import only the
+   disposable test phrase and verify the expected public address. Test the
+   supported private-key import using a key from this disposable test wallet.
+   Verify lock/restart persistence. Never import a production wallet.
+
+4. Add and switch accounts (WAL-003)
+   Add two derived accounts, verify distinct addresses, switch between them,
+   restart, and recover the same derived accounts privately from the test phrase.
+
+5. Export authentication (WAL-004)
+   Check that a wrong password prevents private-key display. Authenticate through
+   the original export interface, verify the selected account, and privately
+   verify that importing its exported key recovers that public address. Do not
+   capture the key or share it. UI checks alone do not prove absence of secret
+   logging or network transmission; instrumented security review remains open.
+
+6. Polygon network and assets (POL-001, POL-002, POL-005)
+   Select Polygon Mainnet, chain ID 137, native token POL. Compare the public
+   address and balance with PolygonScan. Check supported token chain, address,
+   symbol, decimals and displayed balance. Confirm another network can be
+   selected and switching back restores the correct Polygon account state.
+
+7. Original Web3 Browser (WAL-007, POL-007)
+   Open https://quickswap.exchange in the app's original Web3 Browser. Review
+   the origin and requested permissions, connect the disposable wallet, and
+   verify its public address and Polygon network. Review network switching and
+   a genuine quote for a supported pair. Loading, connecting or quoting alone
+   does not pass WAL-007.
+
+8. Funded transfers (WAL-005, WAL-006, POL-003, POL-004, POL-006)
+   Leave BLOCKED until you explicitly approve the concrete funding/transfer
+   amounts and recipients. Use only minimal test value. Verify a POL receive,
+   POL send and supported ERC-20 transfer. Record public transaction hashes,
+   successful PolygonScan receipts, gas and resulting balances. Reconcile
+   balance updates and transaction history after restart.
+
+9. Complete the DEX transaction (WAL-007, POL-008, POL-009)
+   Leave BLOCKED until you approve the actual pair, input amount, token/DEX
+   contracts, spender and allowance if needed, slippage and gas. Review the
+   original wallet confirmation before signing. Verify the real approval and
+   swap receipts on PolygonScan, then reconcile POL gas and token balances.
+   A reverted transaction is FAIL; a quote without a completed swap is BLOCKED.
+
+10. History, permissions and final record (POL-010)
+    Match wallet history to public receipts, including after restart. Disconnect
+    QuickSwap and verify its permissions are removed. Check that new requests
+    require approval and that locking protects access. Record only public
+    addresses/hashes and non-secret observations. Never attach seed/private-key
+    screens, wallet passwords or unredacted device logs.
+
+All WAL-001 through WAL-007 and POL-001 through POL-010 remain BLOCKED until
+their actual evidence is recorded. Production release remains blocked by open
+security findings and outstanding acceptance. No real funds have been used by
+the agent, and this checklist grants no automatic transaction approval.

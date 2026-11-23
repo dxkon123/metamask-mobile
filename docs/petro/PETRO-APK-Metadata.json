@@ -1,0 +1,22 @@
+{
+  "apk": "PETRO-SocialFi-Wallet-V1.apk",
+  "bytes": 400243656,
+  "sha256": "2b745f79ad47c1db97d123aef911db091c85758643a6325a20cd89320ae71322",
+  "applicationId": "io.metamask",
+  "versionCode": "4532",
+  "versionName": "8.22.0",
+  "minimumSdk": 24,
+  "targetSdk": 36,
+  "nativeArchitectures": ["arm64-v8a", "armeabi-v7a", "x86", "x86_64"],
+  "sourceCommit": "08d044320a2d17cc4652165a3629bd00bf896a72",
+  "branch": "codex/petro-wallet-v1",
+  "ciRun": "https://github.com/dxkon123/metamask-mobile/actions/runs/45168107679",
+  "artifactId": 14818988292,
+  "artifactName": "petro-build-diagnostics-08d044320a2d17cc4652165a3629bd00bf896a72",
+  "artifactSHA256": "765e6f64c453b05b548005eb3db3805e10321f3eb6643bc09d624b9f0c186474",
+  "developmentSignerSHA256": "6f9f444af1cb1ff7c0d7791af2e775fddf4d48900642647640e225783554ecf9",
+  "verification": "CI apksigner passed; signer matches upstream public development certificate; transport and APK SHA-256, ZIP CRC, package metadata and bundled runtime/bridge checked locally.",
+  "physicalPhoneInstallation": "USER-REPORTED FAIL: conflicting app signatures; no successful native install verified",
+  "productionAcceptance": "BLOCKED by security and outstanding WAL/Polygon acceptance",
+  "coexistence": "Not alongside official io.metamask on standard Android, including other Android users/work profiles; future distinct applicationId required."
+}

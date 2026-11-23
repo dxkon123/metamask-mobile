@@ -1,0 +1,708 @@
+{
+  "status": "FAIL",
+  "environment": "production",
+  "scope": "Locked dependency tree, recursive, moderate and above; upstream advisory exclusions deliberately not applied",
+  "advisoryRows": 49,
+  "counts": {
+    "high": 24,
+    "moderate": 22,
+    "critical": 3
+  },
+  "critical": [
+    {
+      "ID": 1241210,
+      "Issue": "proxy-addr vulnerable to IP spoofing via IPv4-mapped IPv6 trust subnet",
+      "URL": "https://github.com/advisories/GHSA-jqcg-44mw-7w3h",
+      "Tree Versions": ["2.0.7"],
+      "Vulnerable Versions": ">=1.1.0 <2.0.8",
+      "Patched Versions": null,
+      "package": "proxy-addr"
+    },
+    {
+      "ID": 1241332,
+      "Issue": "shell-quote: `quote()` command injection via a line terminator in a token after a `{ comment }` token",
+      "URL": "https://github.com/advisories/GHSA-pqg4-j6r4-53mv",
+      "Tree Versions": ["1.9.0"],
+      "Vulnerable Versions": ">=1.8.4 <1.11.0",
+      "Patched Versions": null,
+      "package": "shell-quote"
+    },
+    {
+      "ID": 1123940,
+      "Issue": "node-tar: Decompression/parse DoS via unlimited input",
+      "URL": "https://github.com/advisories/GHSA-23hp-3jrh-7fpw",
+      "Tree Versions": ["7.5.18"],
+      "Vulnerable Versions": "<=7.5.18",
+      "Patched Versions": null,
+      "package": "tar"
+    }
+  ],
+  "findings": [
+    {
+      "value": "@graphql-tools/utils",
+      "children": {
+        "ID": 1241230,
+        "Issue": "GraphQL Tools has prototype pollution in well-established utility function `mergeDeep`",
+        "URL": "https://github.com/advisories/GHSA-7mx3-vvmw-hjmv",
+        "Severity": "high",
+        "Vulnerable Versions": "<=12.0.0",
+        "Tree Versions": ["8.9.0", "8.13.1"],
+        "Dependents": [
+          "@graphql-tools/schema@virtual:066245d09c93c1af0a9747c30394f6237739c5976c13a9dfc1cd73ab9c5ef7c9ead3a58dc3d494ed1478b435df55490a1754b8fa3dbd402c5921a35446622100#npm:8.5.1",
+          "mockttp@npm:3.15.2"
+        ]
+      }
+    },
+    {
+      "value": "@grpc/grpc-js",
+      "children": {
+        "ID": 1240623,
+        "Issue": "@grpc/grpc-js: In certain configurations, getAuthContext can return unauthorized certificates as though they were authorized",
+        "URL": "https://github.com/advisories/GHSA-m9gg-hp2v-232j",
+        "Severity": "high",
+        "Vulnerable Versions": "<1.13.6",
+        "Tree Versions": ["1.9.16"],
+        "Dependents": [
+          "@firebase/firestore@virtual:1eb6a857dd585c14fc5bce682da022ad0cda4c3c0f42b5865c481c4864f09d858bc9b6f75dd18ff892a7ab3d2ab0489604e12d17c524e9d79351d647efa3fd5d#npm:4.8.0"
+        ]
+      }
+    },
+    {
+      "value": "base-x",
+      "children": {
+        "ID": 1104177,
+        "Issue": "Homograph attack allows Unicode lookalike characters to bypass validation.",
+        "URL": "https://github.com/advisories/GHSA-xq7p-g2vc-g82p",
+        "Severity": "high",
+        "Vulnerable Versions": "<=3.0.10",
+        "Tree Versions": ["1.1.0"],
+        "Dependents": ["bs58@npm:3.1.0"]
+      }
+    },
+    {
+      "value": "bl",
+      "children": {
+        "ID": 1085742,
+        "Issue": "Memory Exposure in bl",
+        "URL": "https://github.com/advisories/GHSA-wrw9-m778-g6mc",
+        "Severity": "moderate",
+        "Vulnerable Versions": "<0.9.5",
+        "Tree Versions": ["0.8.2"],
+        "Dependents": ["levelup@npm:0.18.6"]
+      }
+    },
+    {
+      "value": "bl",
+      "children": {
+        "ID": 1090072,
+        "Issue": "Remote Memory Exposure in bl",
+        "URL": "https://github.com/advisories/GHSA-pp7h-53gx-mx7r",
+        "Severity": "moderate",
+        "Vulnerable Versions": "<1.2.3",
+        "Tree Versions": ["0.8.2"],
+        "Dependents": ["levelup@npm:0.18.6"]
+      }
+    },
+    {
+      "value": "body-parser",
+      "children": {
+        "ID": 1243073,
+        "Issue": "body-parser vulnerable to Denial of Service via trailing bytes after a compressed request body",
+        "URL": "https://github.com/advisories/GHSA-27r3-jxmh-p828",
+        "Severity": "high",
+        "Vulnerable Versions": "<1.20.9",
+        "Tree Versions": ["1.20.6"],
+        "Dependents": ["@react-native-community/cli-server-api@npm:20.1.0"]
+      }
+    },
+    {
+      "value": "brace-expansion",
+      "children": {
+        "ID": 1240100,
+        "Issue": "brace-expansion: Quadratic-time expansion of the `{a},b}` rewrite causes CPU denial of service",
+        "URL": "https://github.com/advisories/GHSA-q2hr-2g5m-vwhr",
+        "Severity": "moderate",
+        "Vulnerable Versions": "<1.1.21",
+        "Tree Versions": ["1.1.18"],
+        "Dependents": ["minimatch@npm:3.1.5"]
+      }
+    },
+    {
+      "value": "brace-expansion",
+      "children": {
+        "ID": 1240104,
+        "Issue": "brace-expansion: DoS via uncontrolled recursion on nested brace groups causing stack exhaustion",
+        "URL": "https://github.com/advisories/GHSA-qhr7-859c-m2p7",
+        "Severity": "high",
+        "Vulnerable Versions": "<1.1.20",
+        "Tree Versions": ["1.1.18"],
+        "Dependents": ["minimatch@npm:3.1.5"]
+      }
+    },
+    {
+      "value": "brace-expansion",
+      "children": {
+        "ID": 1240108,
+        "Issue": "brace-expansion: DoS via uncontrolled recursion in parseCommaParts causing stack exhaustion",
+        "URL": "https://github.com/advisories/GHSA-6j4f-fj2g-mc7p",
+        "Severity": "high",
+        "Vulnerable Versions": "<1.1.19",
+        "Tree Versions": ["1.1.18"],
+        "Dependents": ["minimatch@npm:3.1.5"]
+      }
+    },
+    {
+      "value": "compression",
+      "children": {
+        "ID": 1241221,
+        "Issue": "compression vulnerable to Denial of Service via memory leak on premature response close",
+        "URL": "https://github.com/advisories/GHSA-vc2v-76pw-4v95",
+        "Severity": "high",
+        "Vulnerable Versions": "<1.8.2",
+        "Tree Versions": ["1.8.1"],
+        "Dependents": ["@react-native-community/cli-server-api@npm:20.1.0"]
+      }
+    },
+    {
+      "value": "decode-uri-component",
+      "children": {
+        "ID": 1147955,
+        "Issue": "decode-uri-component: Denial of service via exponential decoding of malformed percent-encoded input",
+        "URL": "https://github.com/advisories/GHSA-vcc3-ghjq-m6fr",
+        "Severity": "moderate",
+        "Vulnerable Versions": "<=0.4.2",
+        "Tree Versions": ["0.2.2"],
+        "Dependents": ["query-string@npm:6.14.1"]
+      }
+    },
+    {
+      "value": "decode-uri-component",
+      "children": {
+        "ID": 1243857,
+        "Issue": "decode-uri-component vulnerable to denial of service via quadratic replacement of percent-encoded runs",
+        "URL": "https://github.com/advisories/GHSA-qr28-fpjm-wq7f",
+        "Severity": "high",
+        "Vulnerable Versions": "<=0.5.0",
+        "Tree Versions": ["0.2.2"],
+        "Dependents": ["query-string@npm:6.14.1"]
+      }
+    },
+    {
+      "value": "fast-copy",
+      "children": {
+        "ID": 1241255,
+        "Issue": "fast-copy: Stack exhaustion in fast-copy when copying deeply-nested values",
+        "URL": "https://github.com/advisories/GHSA-jggr-w7fw-pc2j",
+        "Severity": "moderate",
+        "Vulnerable Versions": "<2.2.0",
+        "Tree Versions": ["2.1.7"],
+        "Dependents": ["contentful-resolve-response@npm:1.9.3"]
+      }
+    },
+    {
+      "value": "fast-copy",
+      "children": {
+        "ID": 1241256,
+        "Issue": "fast-copy: Stack exhaustion in fast-copy when copying deeply-nested values",
+        "URL": "https://github.com/advisories/GHSA-jggr-w7fw-pc2j",
+        "Severity": "moderate",
+        "Vulnerable Versions": ">=3.0.0 <3.1.0",
+        "Tree Versions": ["3.0.2"],
+        "Dependents": ["contentful-sdk-core@npm:9.2.0"]
+      }
+    },
+    {
+      "value": "follow-redirects",
+      "children": {
+        "ID": 1242604,
+        "Issue": "follow-redirects array-form headers bypass cross-origin credential stripping",
+        "URL": "https://github.com/advisories/GHSA-q3jh-wrc6-jgq8",
+        "Severity": "high",
+        "Vulnerable Versions": ">=1.16.0 <1.16.1",
+        "Tree Versions": ["1.16.0"],
+        "Dependents": ["axios@npm:1.20.0"]
+      }
+    },
+    {
+      "value": "follow-redirects",
+      "children": {
+        "ID": 1242605,
+        "Issue": "follow-redirects sensitiveHeaders regex escaping can expose credential headers",
+        "URL": "https://github.com/advisories/GHSA-8r9p-f939-6h3c",
+        "Severity": "high",
+        "Vulnerable Versions": ">=1.16.0 <1.16.1",
+        "Tree Versions": ["1.16.0"],
+        "Dependents": ["axios@npm:1.20.0"]
+      }
+    },
+    {
+      "value": "follow-redirects",
+      "children": {
+        "ID": 1244003,
+        "Issue": "follow-redirects: Cross-realm sensitiveHeaders arrays are discarded and custom credentials can follow redirects",
+        "URL": "https://github.com/advisories/GHSA-mrwp-f3q8-3g9p",
+        "Severity": "high",
+        "Vulnerable Versions": ">=1.16.0 <=1.16.1",
+        "Tree Versions": ["1.16.0"],
+        "Dependents": ["axios@npm:1.20.0"]
+      }
+    },
+    {
+      "value": "glob",
+      "children": {
+        "ID": 1244013,
+        "Issue": "Glob: AbortSignal cancellation bypass allows post-timeout filesystem traversal",
+        "URL": "https://github.com/advisories/GHSA-3g3m-2fjr-6pw4",
+        "Severity": "moderate",
+        "Vulnerable Versions": ">=9.0.0 <=14.0.1",
+        "Tree Versions": ["13.0.6"],
+        "Dependents": ["@expo/fingerprint@npm:0.20.13"]
+      }
+    },
+    {
+      "value": "h3",
+      "children": {
+        "ID": 1114875,
+        "Issue": "h3 has a Path Traversal via Percent-Encoded Dot Segments in serveStatic Allows Arbitrary File Read",
+        "URL": "https://github.com/advisories/GHSA-wr4h-v87w-p3r7",
+        "Severity": "moderate",
+        "Vulnerable Versions": "<1.15.6",
+        "Tree Versions": ["1.9.0"],
+        "Dependents": [
+          "unstorage@virtual:0fcfaec64f62d90ed3ca8cfc900ad8a2b9f1646f292753b8aa3aaf9c0e6fbf3f8a2c3bf1d8ca43c79dd7c2ecc08d4a24865f20073cb601225c3dc718a6af4490#npm:1.10.1"
+        ]
+      }
+    },
+    {
+      "value": "h3",
+      "children": {
+        "ID": 1115114,
+        "Issue": "h3: SSE Event Injection via Unsanitized Carriage Return (`\\r`) in EventStream Data and Comment Fields (Bypass of CVE Fix)",
+        "URL": "https://github.com/advisories/GHSA-4hxc-9384-m385",
+        "Severity": "moderate",
+        "Vulnerable Versions": "<1.15.9",
+        "Tree Versions": ["1.9.0"],
+        "Dependents": [
+          "unstorage@virtual:0fcfaec64f62d90ed3ca8cfc900ad8a2b9f1646f292753b8aa3aaf9c0e6fbf3f8a2c3bf1d8ca43c79dd7c2ecc08d4a24865f20073cb601225c3dc718a6af4490#npm:1.10.1"
+        ]
+      }
+    },
+    {
+      "value": "h3",
+      "children": {
+        "ID": 1115117,
+        "Issue": "h3: Double Decoding in `serveStatic` Bypasses `resolveDotSegments` Path Traversal Protection via `%252e%252e`",
+        "URL": "https://github.com/advisories/GHSA-72gr-qfp7-vwhw",
+        "Severity": "moderate",
+        "Vulnerable Versions": "<=1.15.8",
+        "Tree Versions": ["1.9.0"],
+        "Dependents": [
+          "unstorage@virtual:0fcfaec64f62d90ed3ca8cfc900ad8a2b9f1646f292753b8aa3aaf9c0e6fbf3f8a2c3bf1d8ca43c79dd7c2ecc08d4a24865f20073cb601225c3dc718a6af4490#npm:1.10.1"
+        ]
+      }
+    },
+    {
+      "value": "h3",
+      "children": {
+        "ID": 1115161,
+        "Issue": "h3 has a Server-Sent Events Injection via Unsanitized Newlines in Event Stream Fields",
+        "URL": "https://github.com/advisories/GHSA-22cc-p3c6-wpvm",
+        "Severity": "high",
+        "Vulnerable Versions": "<1.15.6",
+        "Tree Versions": ["1.9.0"],
+        "Dependents": [
+          "unstorage@virtual:0fcfaec64f62d90ed3ca8cfc900ad8a2b9f1646f292753b8aa3aaf9c0e6fbf3f8a2c3bf1d8ca43c79dd7c2ecc08d4a24865f20073cb601225c3dc718a6af4490#npm:1.10.1"
+        ]
+      }
+    },
+    {
+      "value": "h3",
+      "children": {
+        "ID": 1116543,
+        "Issue": "h3 v1 has Request Smuggling (TE.TE) issue",
+        "URL": "https://github.com/advisories/GHSA-mp2g-9vg9-f4cg",
+        "Severity": "high",
+        "Vulnerable Versions": "<=1.15.4",
+        "Tree Versions": ["1.9.0"],
+        "Dependents": [
+          "unstorage@virtual:0fcfaec64f62d90ed3ca8cfc900ad8a2b9f1646f292753b8aa3aaf9c0e6fbf3f8a2c3bf1d8ca43c79dd7c2ecc08d4a24865f20073cb601225c3dc718a6af4490#npm:1.10.1"
+        ]
+      }
+    },
+    {
+      "value": "ip-address",
+      "children": {
+        "ID": 1239948,
+        "Issue": "ip-address: Address6.isLinkLocal() recognizes fe80::/64 rather than fe80::/10, allowing SSRF and trust-boundary bypass to on-link hosts",
+        "URL": "https://github.com/advisories/GHSA-rpw4-54j3-4h4q",
+        "Severity": "moderate",
+        "Vulnerable Versions": "<=10.5.0",
+        "Tree Versions": ["10.3.1"],
+        "Dependents": ["socks@npm:2.8.3"]
+      }
+    },
+    {
+      "value": "ip-address",
+      "children": {
+        "ID": 1239949,
+        "Issue": "ip-address: no classifier recognizes the NAT64 local-use range 64:ff9b:1::/48, allowing SSRF and trust-boundary bypass",
+        "URL": "https://github.com/advisories/GHSA-2vr4-cq9g-pvrc",
+        "Severity": "moderate",
+        "Vulnerable Versions": ">=10.2.0 <=10.5.0",
+        "Tree Versions": ["10.3.1"],
+        "Dependents": ["socks@npm:2.8.3"]
+      }
+    },
+    {
+      "value": "ip-address",
+      "children": {
+        "ID": 1240097,
+        "Issue": "ip-address: isInSubnet() and isHostInSubnet() compare addresses of different families as if they shared an address space, allowing an allowlist check to admit an address outside its range",
+        "URL": "https://github.com/advisories/GHSA-j6r3-76f7-8jcv",
+        "Severity": "moderate",
+        "Vulnerable Versions": "<=10.7.0",
+        "Tree Versions": ["10.3.1"],
+        "Dependents": ["socks@npm:2.8.3"]
+      }
+    },
+    {
+      "value": "ip-address",
+      "children": {
+        "ID": 1240098,
+        "Issue": "ip-address: Address6 builds a parse diagnostic proportional to the input with no length bound, allowing a single long string to stall or crash the process",
+        "URL": "https://github.com/advisories/GHSA-h3mg-xc3c-68pw",
+        "Severity": "moderate",
+        "Vulnerable Versions": "<=10.7.0",
+        "Tree Versions": ["10.3.1"],
+        "Dependents": ["socks@npm:2.8.3"]
+      }
+    },
+    {
+      "value": "ip-address",
+      "children": {
+        "ID": 1242883,
+        "Issue": "ip-address: Address6 matches a zone identifier in quadratic time ahead of its length limit, allowing a single long string to stall the process",
+        "URL": "https://github.com/advisories/GHSA-rxp7-6hxx-x8q5",
+        "Severity": "moderate",
+        "Vulnerable Versions": "<=10.7.3",
+        "Tree Versions": ["10.3.1"],
+        "Dependents": ["socks@npm:2.8.3"]
+      }
+    },
+    {
+      "value": "joi",
+      "children": {
+        "ID": 1241212,
+        "Issue": "joi messages compilation allows prototype replacement through __proto__ error codes",
+        "URL": "https://github.com/advisories/GHSA-wr44-6hxh-3jwq",
+        "Severity": "moderate",
+        "Vulnerable Versions": "<17.13.8",
+        "Tree Versions": ["17.13.6"],
+        "Dependents": ["@react-native-community/cli-config@npm:20.1.0"]
+      }
+    },
+    {
+      "value": "joi",
+      "children": {
+        "ID": 1241279,
+        "Issue": "joi: Quadratic regular-expression backtracking in `Joi.string().isoDate()`",
+        "URL": "https://github.com/advisories/GHSA-6h2x-m376-mqjq",
+        "Severity": "high",
+        "Vulnerable Versions": ">=17.2.0 <17.13.7",
+        "Tree Versions": ["17.13.6"],
+        "Dependents": ["@react-native-community/cli-config@npm:20.1.0"]
+      }
+    },
+    {
+      "value": "joi",
+      "children": {
+        "ID": 1244009,
+        "Issue": "joi: quadratic-time split in `string().email({ multiple: true })` allows denial of service",
+        "URL": "https://github.com/advisories/GHSA-4528-x5fx-h6hg",
+        "Severity": "high",
+        "Vulnerable Versions": ">=17.1.1 <17.13.9",
+        "Tree Versions": ["17.13.6"],
+        "Dependents": ["@react-native-community/cli-config@npm:20.1.0"]
+      }
+    },
+    {
+      "value": "launch-editor",
+      "children": {
+        "ID": 1242627,
+        "Issue": "launch-editor: escapeCmdArgs() omits % escaping on Windows",
+        "URL": "https://github.com/advisories/GHSA-698v-4r3x-3vcv",
+        "Severity": "moderate",
+        "Vulnerable Versions": "<=2.14.1",
+        "Tree Versions": ["2.14.1"],
+        "Dependents": ["@react-native-community/cli-tools@npm:20.1.0"]
+      }
+    },
+    {
+      "value": "launch-editor",
+      "children": {
+        "ID": 1242656,
+        "Issue": "launch-editor: Editor CLI flag misinterpretation causing arbitrary command execution for some editors",
+        "URL": "https://github.com/advisories/GHSA-r825-w8mm-5pxw",
+        "Severity": "moderate",
+        "Vulnerable Versions": "<=2.14.1",
+        "Tree Versions": ["2.14.1"],
+        "Dependents": ["@react-native-community/cli-tools@npm:20.1.0"]
+      }
+    },
+    {
+      "value": "launch-editor",
+      "children": {
+        "ID": 1242663,
+        "Issue": "launch-editor: `fs.existsSync()` existence check can be bypassed on Windows",
+        "URL": "https://github.com/advisories/GHSA-587h-7wmj-h5pm",
+        "Severity": "high",
+        "Vulnerable Versions": "<=2.14.1",
+        "Tree Versions": ["2.14.1"],
+        "Dependents": ["@react-native-community/cli-tools@npm:20.1.0"]
+      }
+    },
+    {
+      "value": "postcss-selector-parser",
+      "children": {
+        "ID": 1243379,
+        "Issue": "PostCSS: Quadratic complexity in flat selector parsing allows CPU exhaustion",
+        "URL": "https://github.com/advisories/GHSA-rj75-hqrm-r3gf",
+        "Severity": "moderate",
+        "Vulnerable Versions": "<6.1.5",
+        "Tree Versions": ["6.1.4"],
+        "Dependents": ["tailwindcss@npm:3.4.17"]
+      }
+    },
+    {
+      "value": "proxy-addr",
+      "children": {
+        "ID": 1241210,
+        "Issue": "proxy-addr vulnerable to IP spoofing via IPv4-mapped IPv6 trust subnet",
+        "URL": "https://github.com/advisories/GHSA-jqcg-44mw-7w3h",
+        "Severity": "critical",
+        "Vulnerable Versions": ">=1.1.0 <2.0.8",
+        "Tree Versions": ["2.0.7"],
+        "Dependents": ["express@npm:4.22.2"]
+      }
+    },
+    {
+      "value": "semver",
+      "children": {
+        "ID": 1112918,
+        "Issue": "semver vulnerable to Regular Expression Denial of Service",
+        "URL": "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw",
+        "Severity": "high",
+        "Vulnerable Versions": ">=2.0.0-alpha <5.7.2",
+        "Tree Versions": ["2.3.2"],
+        "Dependents": ["levelup@npm:0.18.6"]
+      }
+    },
+    {
+      "value": "semver",
+      "children": {
+        "ID": 1113875,
+        "Issue": "Regular Expression Denial of Service in semver",
+        "URL": "https://github.com/advisories/GHSA-x6fg-f45m-jf5q",
+        "Severity": "high",
+        "Vulnerable Versions": ">=1.0.4 <4.3.2",
+        "Tree Versions": ["2.3.2"],
+        "Dependents": ["levelup@npm:0.18.6"]
+      }
+    },
+    {
+      "value": "shell-quote",
+      "children": {
+        "ID": 1241332,
+        "Issue": "shell-quote: `quote()` command injection via a line terminator in a token after a `{ comment }` token",
+        "URL": "https://github.com/advisories/GHSA-pqg4-j6r4-53mv",
+        "Severity": "critical",
+        "Vulnerable Versions": ">=1.8.4 <1.11.0",
+        "Tree Versions": ["1.9.0"],
+        "Dependents": [
+          "@segment/sovran-react-native@virtual:abc9dfb39ae3e5164a2dfbbdcd0e8790750b87db092131c8f7bf751637bbd41bb8611903a58b5ee321a5a8fbbe4bf1cbf36a2b0f877e5ad08c811436d00e88f0#npm:1.1.3"
+        ]
+      }
+    },
+    {
+      "value": "source-map-js",
+      "children": {
+        "ID": 1241209,
+        "Issue": "source-map-js allows event-loop denial of service through indexed source-map section offsets",
+        "URL": "https://github.com/advisories/GHSA-68fv-2mgg-jv7q",
+        "Severity": "high",
+        "Vulnerable Versions": ">=1.0.0 <1.2.2",
+        "Tree Versions": ["1.2.1"],
+        "Dependents": ["postcss@npm:8.5.26"]
+      }
+    },
+    {
+      "value": "tar",
+      "children": {
+        "ID": 1123940,
+        "Issue": "node-tar: Decompression/parse DoS via unlimited input",
+        "URL": "https://github.com/advisories/GHSA-23hp-3jrh-7fpw",
+        "Severity": "critical",
+        "Vulnerable Versions": "<=7.5.18",
+        "Tree Versions": ["7.5.18"],
+        "Dependents": ["node-gyp@npm:11.4.2"]
+      }
+    },
+    {
+      "value": "tar",
+      "children": {
+        "ID": 1145647,
+        "Issue": "node-tar: Uncontrolled recursion in mapHas/filesFilter allows uncatchable stack-overflow DoS via crafted long-path tar with member selection",
+        "URL": "https://github.com/advisories/GHSA-r292-9mhp-454m",
+        "Severity": "high",
+        "Vulnerable Versions": "<=7.5.20",
+        "Tree Versions": ["7.5.18"],
+        "Dependents": ["node-gyp@npm:11.4.2"]
+      }
+    },
+    {
+      "value": "undici",
+      "children": {
+        "ID": 1243079,
+        "Issue": "undici vulnerable to Denial of Service via unbounded memory in the EventSource parser",
+        "URL": "https://github.com/advisories/GHSA-4qv8-2p9j-2685",
+        "Severity": "moderate",
+        "Vulnerable Versions": ">=6.5.0 <6.29.1",
+        "Tree Versions": ["6.28.1"],
+        "Dependents": ["@sentry/cli@npm:3.7.0"]
+      }
+    },
+    {
+      "value": "undici",
+      "children": {
+        "ID": 1243114,
+        "Issue": "undici vulnerable to Denial of Service via unhandled error on excessive content-encodings",
+        "URL": "https://github.com/advisories/GHSA-xjj6-f33q-929c",
+        "Severity": "high",
+        "Vulnerable Versions": ">=6.23.0 <6.29.1",
+        "Tree Versions": ["6.28.1"],
+        "Dependents": ["@sentry/cli@npm:3.7.0"]
+      }
+    },
+    {
+      "value": "undici",
+      "children": {
+        "ID": 1243476,
+        "Issue": "undici vulnerable to TLS certificate validation bypass via dropped tls options in Agent",
+        "URL": "https://github.com/advisories/GHSA-2m5v-pch6-74hx",
+        "Severity": "high",
+        "Vulnerable Versions": ">=4.0.0 <6.29.1",
+        "Tree Versions": ["6.28.1"],
+        "Dependents": ["@sentry/cli@npm:3.7.0"]
+      }
+    },
+    {
+      "value": "undici",
+      "children": {
+        "ID": 1243479,
+        "Issue": "undici vulnerable to Denial of Service via TLS 1.2 certificate-changing renegotiation",
+        "URL": "https://github.com/advisories/GHSA-qrxm-fqhp-jwvm",
+        "Severity": "high",
+        "Vulnerable Versions": ">=4.2.1 <6.29.1",
+        "Tree Versions": ["6.28.1"],
+        "Dependents": ["@sentry/cli@npm:3.7.0"]
+      }
+    },
+    {
+      "value": "undici",
+      "children": {
+        "ID": 1243482,
+        "Issue": "undici WebSocket client vulnerable to Denial of Service via unbounded automatic PONG buffering",
+        "URL": "https://github.com/advisories/GHSA-9fm3-97px-rjf6",
+        "Severity": "moderate",
+        "Vulnerable Versions": ">=5.15.0 <6.29.1",
+        "Tree Versions": ["6.28.1"],
+        "Dependents": ["@sentry/cli@npm:3.7.0"]
+      }
+    },
+    {
+      "value": "uuid",
+      "children": {
+        "ID": 1119441,
+        "Issue": "uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
+        "URL": "https://github.com/advisories/GHSA-w5hq-g745-h8pq",
+        "Severity": "moderate",
+        "Vulnerable Versions": "<11.1.1",
+        "Tree Versions": ["3.3.2", "7.0.3", "8.3.2", "9.0.1", "11.0.3"],
+        "Dependents": [
+          "@consensys/on-ramp-sdk@npm:2.1.12",
+          "@keystonehq/bc-ur-registry-eth@npm:0.21.0",
+          "@ledgerhq/device-management-kit@virtual:d5744e43c80f510bbdc958b36fd8bb80045be128031ce2bacba3d40ea56f8bb1d9e2d61e41305f937a2f72c93ae58c01f88801d30aae575311cd1b0d6f6ac08b#npm:1.7.1",
+          "@metamask/react-native-payments@npm:2.0.2",
+          "xcode@npm:3.0.1"
+        ]
+      }
+    },
+    {
+      "value": "zod",
+      "children": {
+        "ID": 1243066,
+        "Issue": "Zod can exhaust memory while validating oversized constrained collections",
+        "URL": "https://github.com/advisories/GHSA-mrhx-c7xc-m3w5",
+        "Severity": "high",
+        "Vulnerable Versions": "<4.6.6",
+        "Tree Versions": ["3.25.76"],
+        "Dependents": [
+          "@expo/cli@virtual:24defde4497629e36e490f1ea0f88053ec9d611df6758109321a95a15d5419ef83402cb4f8188006238a2726bd4fe8f6f9fc74e0f21c33ce2d15af9bc951d231#npm:57.0.24"
+        ]
+      }
+    }
+  ],
+  "reachability": "NOT VERIFIED; some paths are build/development tools. No blanket advisory acceptance or dependency change applied.",
+  "snapshotUTC": "2026-11-23T08:49:04Z",
+  "sourceCommit": "08d044320a2d17cc4652165a3629bd00bf896a72",
+  "criticalTriage": [
+    {
+      "ID": 1241210,
+      "Issue": "proxy-addr vulnerable to IP spoofing via IPv4-mapped IPv6 trust subnet",
+      "URL": "https://github.com/advisories/GHSA-jqcg-44mw-7w3h",
+      "Tree Versions": ["2.0.7"],
+      "Vulnerable Versions": ">=1.1.0 <2.0.8",
+      "Patched Versions": null,
+      "package": "proxy-addr",
+      "lockedVersion": "2.0.7",
+      "publishedFixedVersion": "2.0.8",
+      "status": "OPEN",
+      "mainBundleSourceMatches": [],
+      "observedScope": "Build/tooling dependency paths; absent from the recorded main JavaScript source maps.",
+      "classificationLimit": "This is source-map/path-based triage, not proof of exploitability or clearance of auxiliary assets and build infrastructure.",
+      "fixApplied": false
+    },
+    {
+      "ID": 1241332,
+      "Issue": "shell-quote: `quote()` command injection via a line terminator in a token after a `{ comment }` token",
+      "URL": "https://github.com/advisories/GHSA-pqg4-j6r4-53mv",
+      "Tree Versions": ["1.9.0"],
+      "Vulnerable Versions": ">=1.8.4 <1.11.0",
+      "Patched Versions": null,
+      "package": "shell-quote",
+      "lockedVersion": "1.9.0",
+      "publishedFixedVersion": "1.11.0",
+      "status": "OPEN",
+      "mainBundleSourceMatches": [],
+      "observedScope": "Build/tooling dependency paths; absent from the recorded main JavaScript source maps.",
+      "classificationLimit": "This is source-map/path-based triage, not proof of exploitability or clearance of auxiliary assets and build infrastructure.",
+      "fixApplied": false
+    },
+    {
+      "ID": 1123940,
+      "Issue": "node-tar: Decompression/parse DoS via unlimited input",
+      "URL": "https://github.com/advisories/GHSA-23hp-3jrh-7fpw",
+      "Tree Versions": ["7.5.18"],
+      "Vulnerable Versions": "<=7.5.18",
+      "Patched Versions": null,
+      "package": "tar",
+      "lockedVersion": "7.5.18",
+      "publishedFixedVersion": "7.5.19",
+      "status": "OPEN",
+      "mainBundleSourceMatches": [],
+      "observedScope": "Build/tooling dependency paths; absent from the recorded main JavaScript source maps.",
+      "classificationLimit": "This is source-map/path-based triage, not proof of exploitability or clearance of auxiliary assets and build infrastructure.",
+      "fixApplied": false
+    }
+  ]
+}

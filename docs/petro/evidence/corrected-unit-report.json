@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "sourceCommit": "2a539fd312a16bb325a25d9b8df6b277eb3456cb",
+  "apkSourceCommit": "08d044320a2d17cc4652165a3629bd00bf896a72",
+  "ciRun": "https://github.com/dxkon123/metamask-mobile/actions/runs/45176887394",
+  "applicationSourceIdentity": "Only workflow and build-documentation differ between these commits; application/native/dependency/test sources are identical.",
+  "suites": 5926,
+  "passed": 90660,
+  "failed": 0,
+  "skipped": 10,
+  "todo": 1,
+  "total": 90671,
+  "snapshots": 111,
+  "shards": [
+    {
+      "name": "Upstream unit 3",
+      "id": 137700338952,
+      "conclusion": "success",
+      "suites": "2026-11-23T12:58:53.7800083Z Test Suites: 593 passed, 593 total",
+      "tests": "2026-11-23T12:58:53.7807420Z Tests:       9859 passed, 9859 total",
+      "snapshots": "2026-11-23T12:58:53.7808113Z Snapshots:   9 passed, 9 total"
+    },
+    {
+      "name": "Upstream unit 4",
+      "id": 137700338969,
+      "conclusion": "success",
+      "suites": "2026-11-23T13:07:54.1774830Z Test Suites: 593 passed, 593 total",
+      "tests": "2026-11-23T13:07:54.1776293Z Tests:       2 skipped, 8722 passed, 8724 total",
+      "snapshots": "2026-11-23T13:07:54.1776860Z Snapshots:   7 passed, 7 total"
+    },
+    {
+      "name": "Upstream unit 9",
+      "id": 137700338986,
+      "conclusion": "success",
+      "suites": "2026-11-23T12:59:57.8409152Z Test Suites: 592 passed, 592 total",
+      "tests": "2026-11-23T12:59:57.8409643Z Tests:       8901 passed, 8901 total",
+      "snapshots": "2026-11-23T12:59:57.8410481Z Snapshots:   3 passed, 3 total"
+    },
+    {
+      "name": "Upstream unit 6",
+      "id": 137700339021,
+      "conclusion": "success",
+      "suites": "2026-11-23T13:07:47.5448341Z Test Suites: 593 passed, 593 total",
+      "tests": "2026-11-23T13:07:47.5448829Z Tests:       8642 passed, 8642 total",
+      "snapshots": "2026-11-23T13:07:47.5449257Z Snapshots:   7 passed, 7 total"
+    },
+    {
+      "name": "Upstream unit 8",
+      "id": 137700339036,
+      "conclusion": "success",
+      "suites": "2026-11-23T13:11:20.3755996Z Test Suites: 592 passed, 592 total",
+      "tests": "2026-11-23T13:11:20.3756702Z Tests:       1 skipped, 9991 passed, 9992 total",
+      "snapshots": "2026-11-23T13:11:20.3757560Z Snapshots:   9 passed, 9 total"
+    },
+    {
+      "name": "Upstream unit 10",
+      "id": 137700339062,
+      "conclusion": "success",
+      "suites": "2026-11-23T13:09:29.6138088Z Test Suites: 592 passed, 592 total",
+      "tests": "2026-11-23T13:09:29.6138957Z Tests:       4 skipped, 9663 passed, 9667 total",
+      "snapshots": "2026-11-23T13:09:29.6139560Z Snapshots:   25 passed, 25 total"
+    },
+    {
+      "name": "Upstream unit 7",
+      "id": 137700339184,
+      "conclusion": "success",
+      "suites": "2026-11-23T13:06:00.8506536Z Test Suites: 592 passed, 592 total",
+      "tests": "2026-11-23T13:06:00.8507142Z Tests:       3 skipped, 10133 passed, 10136 total",
+      "snapshots": "2026-11-23T13:06:00.8507587Z Snapshots:   14 passed, 14 total"
+    },
+    {
+      "name": "Upstream unit 2",
+      "id": 137700339262,
+      "conclusion": "success",
+      "suites": "2026-11-23T12:59:35.1984664Z Test Suites: 593 passed, 593 total",
+      "tests": "2026-11-23T12:59:35.1985164Z Tests:       8492 passed, 8492 total",
+      "snapshots": "2026-11-23T12:59:35.1985559Z Snapshots:   15 passed, 15 total"
+    },
+    {
+      "name": "Upstream unit 1",
+      "id": 137700339267,
+      "conclusion": "success",
+      "suites": "2026-11-23T12:59:33.8372723Z Test Suites: 593 passed, 593 total",
+      "tests": "2026-11-23T12:59:33.8373175Z Tests:       8815 passed, 8815 total",
+      "snapshots": "2026-11-23T12:59:33.8373436Z Snapshots:   9 passed, 9 total"
+    },
+    {
+      "name": "Upstream unit 5",
+      "id": 137700339401,
+      "conclusion": "success",
+      "suites": "2026-11-23T12:59:52.2939049Z Test Suites: 593 passed, 593 total",
+      "tests": "2026-11-23T12:59:52.2939585Z Tests:       1 todo, 7442 passed, 7443 total",
+      "snapshots": "2026-11-23T12:59:52.2939922Z Snapshots:   13 passed, 13 total"
+    }
+  ]
+}
