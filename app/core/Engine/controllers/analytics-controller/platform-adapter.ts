@@ -1,3 +1,4 @@
+import { hasConfiguredSegmentKey } from '../../../../util/analytics/segmentConfig';
 import type {
   AnalyticsPlatformAdapter,
   AnalyticsEventProperties,
@@ -103,7 +104,9 @@ function mergeAnalyticsContext(
   };
 }
 
-const getSegmentClient = (): SegmentClient => {
+const getSegmentClient = (): SegmentClient | undefined => {
+  // A fork without an owner-provided key must not initialize SDK network requests.
+  if (!hasConfiguredSegmentKey(process.env.SEGMENT_WRITE_KEY)) return undefined;
   const config: Config = {
     writeKey: process.env.SEGMENT_WRITE_KEY as string,
     proxy: normalizeProxyUrl(process.env.SEGMENT_PROXY_URL),
@@ -132,17 +135,21 @@ const getSegmentClient = (): SegmentClient => {
 /**
  * Platform adapter for the AnalyticsController.
  *
- * @param segmentPlugins - Optional Segment plugins to add to the client.
+ * @param segmentPlugins - Optional Segment plugins to add to the client?.
  */
 export const createPlatformAdapter = (
   segmentPlugins?: Plugin[],
 ): AnalyticsPlatformAdapter => {
   const client = getSegmentClient();
 
-  Logger.log('Analytics Adapter: Segment client initialized');
+  Logger.log(
+    client
+      ? 'Analytics Adapter: Segment client initialized'
+      : 'Analytics Adapter: Segment disabled (no owner key)',
+  );
 
   segmentPlugins?.forEach((plugin) => {
-    client.add({ plugin });
+    client?.add({ plugin });
   });
 
   return {
@@ -155,13 +162,13 @@ export const createPlatformAdapter = (
       if (properties && enrichment) {
         // Segment returns a promise. The adapter contract is void, so the
         // result is explicitly ignored.
-        void client.track(eventName, properties, enrichment);
+        void client?.track(eventName, properties, enrichment);
       } else if (properties) {
-        client.track(eventName, properties);
+        client?.track(eventName, properties);
       } else if (enrichment) {
-        void client.track(eventName, undefined, enrichment);
+        void client?.track(eventName, undefined, enrichment);
       } else {
-        client.track(eventName);
+        client?.track(eventName);
       }
     },
 
@@ -172,13 +179,13 @@ export const createPlatformAdapter = (
     ): void {
       const enrichment = mergeAnalyticsContext(context);
       if (traits !== undefined && enrichment) {
-        void client.identify(userId, traits, enrichment);
+        void client?.identify(userId, traits, enrichment);
       } else if (traits !== undefined) {
-        client.identify(userId, traits);
+        client?.identify(userId, traits);
       } else if (enrichment) {
-        void client.identify(userId, undefined, enrichment);
+        void client?.identify(userId, undefined, enrichment);
       } else {
-        client.identify(userId);
+        client?.identify(userId);
       }
     },
 
@@ -189,18 +196,18 @@ export const createPlatformAdapter = (
     ): void {
       const enrichment = mergeAnalyticsContext(context);
       if (properties !== undefined && enrichment) {
-        void client.screen(name, properties, enrichment);
+        void client?.screen(name, properties, enrichment);
       } else if (properties !== undefined) {
-        client.screen(name, properties);
+        client?.screen(name, properties);
       } else if (enrichment) {
-        void client.screen(name, undefined, enrichment);
+        void client?.screen(name, undefined, enrichment);
       } else {
-        client.screen(name);
+        client?.screen(name);
       }
     },
 
     onSetupCompleted(analyticsId: string): void {
-      client.add({
+      client?.add({
         plugin: new MetaMetricsPrivacySegmentPlugin(analyticsId),
       });
       Logger.log('Analytics Adapter: Privacy plugin added to Segment client', {

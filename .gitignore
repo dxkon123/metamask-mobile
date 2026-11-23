@@ -284,3 +284,8 @@ sourcemaps/**/*.js.map
 
 # Never commit PR screenshots — host as GitHub user-attachments
 .github/pr-screenshots/
+
+# PetroCASH private signing material: never tracked or uploaded.
+*.jks
+*.p12
+*.keystore

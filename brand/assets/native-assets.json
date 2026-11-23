@@ -1,0 +1,177 @@
+[
+  {
+    "path": "android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+    "width": 72,
+    "height": 72
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-hdpi/ic_launcher_background.png",
+    "width": 162,
+    "height": 162
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+    "width": 162,
+    "height": 162
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+    "width": 72,
+    "height": 72
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-hdpi/ic_notification.png",
+    "width": 36,
+    "height": 36
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-hdpi/ic_notification_small.png",
+    "width": 36,
+    "height": 36
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-hdpi/splash.png",
+    "width": 216,
+    "height": 216
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-mdpi/ic_launcher_background.png",
+    "width": 108,
+    "height": 108
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
+    "width": 108,
+    "height": 108
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-mdpi/ic_notification.png",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-mdpi/ic_notification_small.png",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-mdpi/splash.png",
+    "width": 144,
+    "height": 144
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+    "width": 96,
+    "height": 96
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xhdpi/ic_launcher_background.png",
+    "width": 216,
+    "height": 216
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
+    "width": 216,
+    "height": 216
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+    "width": 96,
+    "height": 96
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xhdpi/ic_notification.png",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xhdpi/ic_notification_small.png",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xhdpi/splash.png",
+    "width": 288,
+    "height": 288
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+    "width": 144,
+    "height": 144
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_background.png",
+    "width": 324,
+    "height": 324
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+    "width": 324,
+    "height": 324
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+    "width": 144,
+    "height": 144
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxhdpi/ic_notification.png",
+    "width": 72,
+    "height": 72
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxhdpi/ic_notification_small.png",
+    "width": 72,
+    "height": 72
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxhdpi/splash.png",
+    "width": 432,
+    "height": 432
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png",
+    "width": 432,
+    "height": 432
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+    "width": 432,
+    "height": 432
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_notification.png",
+    "width": 96,
+    "height": 96
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_notification_small.png",
+    "width": 96,
+    "height": 96
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxxhdpi/splash.png",
+    "width": 576,
+    "height": 576
+  }
+]

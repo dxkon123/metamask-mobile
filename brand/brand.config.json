@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "name": "PetroCASH",
+  "applicationId": "org.petrocash.wallet",
+  "flaskApplicationId": "org.petrocash.wallet.flask",
+  "versionName": "1.0.0",
+  "versionCode": 1,
+  "domain": "petrocash.org",
+  "scheme": "petrocash",
+  "rdns": "org.petrocash.wallet",
+  "supportUrl": "https://petrocash.org/support",
+  "termsUrl": "https://petrocash.org/terms",
+  "privacyUrl": "https://petrocash.org/privacy",
+  "logo": "brand/assets/logo-source.png",
+  "colors": {
+    "primary": "#FF245E",
+    "primaryLight": "#FF5135",
+    "backgroundDark": "#141418",
+    "backgroundLight": "#FFFFFF"
+  },
+  "upstreamCompatibilityVersion": "8.22.0",
+  "animationMode": "petrocash",
+  "firebaseMode": "derived-test-only",
+  "signingMode": "TEST-until-owner-secrets-configured"
+}

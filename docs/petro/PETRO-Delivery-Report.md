@@ -26,3 +26,7 @@ Snapshot: 2026-11-23T21:54:34+08:00.
 ## Pre-install review update — 2026-11-23
 
 The user reports installation failed with conflicting signatures. The APK is unchanged. See [PETRO-Preinstall-Security-Review.md](PETRO-Preinstall-Security-Review.md) for signer/coexistence, telemetry, host and permission findings. The previous suggestion to use a different Android profile is corrected: use a spare device/emulator without the official package in any profile, or wait for a separately authorized distinct package ID. No successful phone install or WAL/POL execution is claimed.
+
+## Final CI state observation
+
+The latest GitHub job listing reports the APK run android job as completed/failure, while its compile, APK verification and early upload steps are success. Thus the original run is not an overall green CI run; the separate corrected quality run is the completed lint/typecheck/unit PASS evidence. Step-summary snapshots can lag the final job state.

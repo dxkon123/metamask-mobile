@@ -1,3 +1,7 @@
+import { hasConfiguredSegmentKey } from '../../../../util/analytics/segmentConfig';
+jest.mock('../../../../util/analytics/segmentConfig', () => ({
+  hasConfiguredSegmentKey: jest.fn(() => true),
+}));
 import { createPlatformAdapter, normalizeProxyUrl } from './platform-adapter';
 import {
   createClient,
@@ -181,7 +185,18 @@ describe('normalizeProxyUrl', () => {
 
 describe('createPlatformAdapter', () => {
   beforeEach(() => {
+    jest.mocked(hasConfiguredSegmentKey).mockReturnValue(true);
     jest.clearAllMocks();
+  });
+
+  it('avoids Segment SDK creation without an owner key', () => {
+    jest.mocked(hasConfiguredSegmentKey).mockReturnValue(false);
+    const adapter = createPlatformAdapter();
+    adapter.track('test-event');
+    adapter.view('test-screen');
+    adapter.identify('test-id');
+    adapter.onSetupCompleted?.('test-id');
+    expect(mockCreateClient).not.toHaveBeenCalled();
   });
 
   describe('track', () => {

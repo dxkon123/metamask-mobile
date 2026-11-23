@@ -198,11 +198,11 @@ android {
     namespace"io.metamask"
 
     defaultConfig {
-        applicationId "io.metamask"
+        applicationId "org.petrocash.wallet"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionName "8.22.0"
-        versionCode 4532
+        versionName "1.0.0"
+        versionCode 1
         testBuildType System.getProperty('testBuildType', 'debug')
         // Still needed so E2E CI can assemble*AndroidTest (artifact cache/reuse).
         // Detox flavor dimension (`missingDimensionStrategy 'detox'`) removed in MMQA-2230.
@@ -332,7 +332,7 @@ android {
     productFlavors {
           prod {
             dimension "version"
-            applicationId "io.metamask"
+            applicationId "org.petrocash.wallet"
             // Use appropriate signing config based on environment
             def env = System.getenv("METAMASK_ENVIRONMENT")
             def isE2E = System.getenv("E2E")
@@ -358,7 +358,7 @@ android {
           flask {
             dimension "version"
             applicationIdSuffix ".flask"
-            applicationId "io.metamask"
+            applicationId "org.petrocash.wallet"
             // Use the appropriate signing config based on environment
             if (System.getenv("METAMASK_ENVIRONMENT") == 'test') {
               signingConfig signingConfigs.flaskTest
