@@ -20,7 +20,7 @@ jobs:
   android:
     if: github.repository == 'dxkon123/metamask-mobile' && github.ref == 'refs/heads/codex/petro-wallet-v1'
     runs-on: ubuntu-24.04
-    timeout-minutes: 180
+    timeout-minutes: 360
     defaults:
       run:
         shell: bash
@@ -105,16 +105,49 @@ jobs:
           node scripts/apply-build-config.js main-dev --export-github-env >> "$GITHUB_ENV"
           node scripts/setup.mjs --no-build-ios 2>&1 | tee build/petro/logs/setup.log
 
+      - name: Prepare isolated runner memory and record resources
+        if: steps.setup.outcome == 'success' && steps.android_tools.outcome == 'success'
+        run: |
+          set -o pipefail
+          free -h | tee build/petro/logs/runner-resources.log
+          df -h . | tee -a build/petro/logs/runner-resources.log
+          # These are unused tools on a disposable GitHub VM, never the local Mac.
+          if [ "$(df --output=avail -B1 "$RUNNER_TEMP" | tail -1)" -lt 38654705664 ]; then
+            sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/share/boost /opt/hostedtoolcache/CodeQL
+          fi
+          # Upstream builds use larger runners. Supply virtual memory without
+          # changing app features, architecture selection, R8 or security checks.
+          sudo fallocate -l 16G "$RUNNER_TEMP/petro-build.swap"
+          sudo chmod 600 "$RUNNER_TEMP/petro-build.swap"
+          sudo mkswap "$RUNNER_TEMP/petro-build.swap"
+          sudo swapon "$RUNNER_TEMP/petro-build.swap"
+          mkdir -p "$RUNNER_TEMP/petro-gradle"
+          cat > "$RUNNER_TEMP/petro-gradle/gradle.properties" <<'PROPERTIES'
+          org.gradle.jvmargs=-Xmx8g -XX:MaxMetaspaceSize=2g -XX:+UseG1GC -XX:+ExitOnOutOfMemoryError -Dfile.encoding=UTF-8
+          org.gradle.workers.max=2
+          org.gradle.daemon=false
+          org.gradle.vfs.watch=false
+          org.gradle.logging.stacktrace=all
+          kotlin.daemon.jvmargs=-Xmx2g -XX:MaxMetaspaceSize=1g -XX:+UseG1GC -XX:+ExitOnOutOfMemoryError
+          PROPERTIES
+          echo "GRADLE_USER_HOME=$RUNNER_TEMP/petro-gradle" >> "$GITHUB_ENV"
+          free -h | tee -a build/petro/logs/runner-resources.log
+          df -h . | tee -a build/petro/logs/runner-resources.log
+
       - name: Compile standalone upstream main-dev APK
         id: build
         if: steps.setup.outcome == 'success' && steps.android_tools.outcome == 'success'
         continue-on-error: true
-        timeout-minutes: 75
+        timeout-minutes: 180
         env:
           MM_INFURA_PROJECT_ID: ${{ secrets.MM_INFURA_PROJECT_ID }}
           GOOGLE_SERVICES_B64_ANDROID: ${{ secrets.GOOGLE_SERVICES_B64_ANDROID }}
           WALLET_CONNECT_PROJECT_ID: ${{ secrets.WALLET_CONNECT_PROJECT_ID }}
           MM_FOX_CODE: EXAMPLE_FOX_CODE
+          # Same Metro heap/worker limits as upstream build.yml.
+          NODE_OPTIONS: --max-old-space-size=8192
+          METRO_MAX_WORKERS: '2'
+          CMAKE_VERSION: '3.22.1'
           ANDROID_SIGNING_KEYSTORE_PASSWORD: android
           BITRISEIO_ANDROID_MAIN_KEYSTORE_ALIAS: androiddebugkey
           BITRISEIO_ANDROID_MAIN_KEYSTORE_PRIVATE_KEY_PASSWORD: android
@@ -125,6 +158,31 @@ jobs:
           # Release configuration bundles JS/Hermes and works without a Metro server.
           # No E2E wallet fixtures, auto-unlock, OAuth mocks or security bypasses.
           yarn build:android:main:dev 2>&1 | tee build/petro/logs/android-build.log
+
+      - name: Preserve Android lint and compiler diagnostics
+        if: always()
+        run: |
+          mkdir -p build/petro/android-reports
+          for petro_reports_dir in android/app/build/reports android/build/reports; do
+            if [ -d "$petro_reports_dir" ]; then
+              cp -R "$petro_reports_dir" "build/petro/android-reports/$(echo "$petro_reports_dir" | tr / _)"
+            fi
+          done
+          node scripts/petro/baseline.ts bundle-inventory
+
+      - name: Verify signature, bundled runtime and APK checksum
+        id: apk
+        if: steps.build.outcome == 'success' && steps.prerequisites.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          APK=android/app/build/outputs/apk/prod/release/app-prod-release.apk
+          "$ANDROID_HOME/build-tools/36.0.0/apksigner" verify --verbose --print-certs "$APK" | tee build/petro/logs/apk-signature.log
+          "$ANDROID_HOME/build-tools/36.0.0/aapt" dump badging "$APK" > build/petro/reports/apk-badging.txt
+          unzip -l "$APK" > build/petro/logs/apk-contents.log
+          unzip -Z1 "$APK" | grep -x 'assets/index.android.bundle'
+          cp "$APK" build/petro/PETRO-SocialFi-Wallet-V1.apk
+          (cd build/petro && sha256sum PETRO-SocialFi-Wallet-V1.apk > APK-SHA256.txt)
 
       - name: Generate early build diagnostics
         if: always()
@@ -143,6 +201,13 @@ jobs:
           path: build/petro/
           if-no-files-found: error
           retention-days: 14
+
+      - name: Release native build workers before quality checks
+        if: always() && steps.dependencies.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          (cd android && ./gradlew --stop) 2>&1 | tee build/petro/logs/gradle-stop.log
 
       - name: Run upstream lint
         id: lint
@@ -172,7 +237,15 @@ jobs:
         run: |
           set -o pipefail
           export PATH="$PWD/node_modules/.bin:$PATH"
-          yarn test:unit --maxWorkers=2 --ci --watchman=false --json --outputFile=build/petro/unit-results.json 2>&1 | tee build/petro/logs/unit.log
+          # Build configuration belongs to compilation; Jest supplies its test defaults.
+          while IFS= read -r petro_build_variable; do
+            unset "$petro_build_variable"
+          done < <(node -e "const {loadConfig}=require('./scripts/apply-build-config.js'); Object.keys(loadConfig('main-dev').env).forEach(key=>console.log(key))")
+          # CI still disables developer collection. Dispatcher tests explicitly clear
+          # CI in child processes and write only to their own temporary log paths.
+          unset TOOL_USAGE_COLLECTION_OPT_IN
+          export METAMASK_ENVIRONMENT=test
+          NODE_OPTIONS=--max-old-space-size=8192 yarn test:unit --maxWorkers=1 --workerIdleMemoryLimit=2GB --ci --watchman=false --silent --json --outputFile=build/petro/unit-results.json 2>&1 | tee build/petro/logs/unit.log
 
       - name: Audit production dependencies without hiding upstream exclusions
         id: audit
@@ -186,19 +259,6 @@ jobs:
           set -o pipefail
           # Report ALL advisory findings, including the exclusions in upstream .yarnrc.yml.
           node .yarn/releases/yarn-4.14.1.cjs npm audit --environment production --severity moderate --recursive --no-deprecations --json 2>&1 | tee build/petro/logs/dependency-audit.jsonl
-
-      - name: Verify signature, bundled runtime and APK checksum
-        id: apk
-        if: steps.build.outcome == 'success' && steps.prerequisites.outcome == 'success'
-        continue-on-error: true
-        run: |
-          set -o pipefail
-          APK=android/app/build/outputs/apk/prod/release/app-prod-release.apk
-          "$ANDROID_HOME/build-tools/36.0.0/apksigner" verify --verbose --print-certs "$APK" | tee build/petro/logs/apk-signature.log
-          unzip -l "$APK" > build/petro/logs/apk-contents.log
-          unzip -Z1 "$APK" | grep -x 'assets/index.android.bundle'
-          cp "$APK" build/petro/PETRO-SocialFi-Wallet-V1.apk
-          (cd build/petro && sha256sum PETRO-SocialFi-Wallet-V1.apk > APK-SHA256.txt)
 
       - name: Generate evidence reports
         if: always()
@@ -230,3 +290,118 @@ jobs:
         env:
           PETRO_STEP_RESULTS: ${{ toJSON(steps) }}
         run: node scripts/petro/baseline.ts gate
+
+  upstream-quality:
+    name: Upstream ${{ matrix.kind }} ${{ matrix.shard }}
+    if: github.repository == 'dxkon123/metamask-mobile' && github.ref == 'refs/heads/codex/petro-wallet-v1'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 75
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { kind: lint, shard: 1 }
+          - { kind: lint, shard: 2 }
+          - { kind: lint, shard: 3 }
+          - { kind: lint, shard: 4 }
+          - { kind: unit, shard: 1 }
+          - { kind: unit, shard: 2 }
+          - { kind: unit, shard: 3 }
+          - { kind: unit, shard: 4 }
+          - { kind: unit, shard: 5 }
+          - { kind: unit, shard: 6 }
+          - { kind: unit, shard: 7 }
+          - { kind: unit, shard: 8 }
+          - { kind: unit, shard: 9 }
+          - { kind: unit, shard: 10 }
+          - { kind: typecheck, shard: 1 }
+    defaults:
+      run:
+        shell: bash
+    env:
+      CI: 'true'
+      METAMASK_BUILD_TYPE: main
+      METAMASK_ENVIRONMENT: test
+      PETRO_BASE_COMMIT: a3251559c8af381b7b9689dd49d3dce8d5f76261
+      PETRO_QUALITY_KIND: ${{ matrix.kind }}
+      PETRO_QUALITY_SHARD: ${{ matrix.shard }}
+      NODE_OPTIONS: --max-old-space-size=12288
+      LINT_HEAP_MB: '13312'
+    steps:
+      - name: Checkout exact triggering commit
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Configure upstream Node version
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version-file: .nvmrc
+      - name: Enable pinned Yarn and verify source preservation
+        run: |
+          corepack enable
+          node scripts/petro/baseline.ts inspect
+          mkdir -p build/petro/quality
+      - name: Restore lockfile-scoped Yarn download cache
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6
+        with:
+          path: .yarn/cache
+          key: petro-yarn-${{ runner.os }}-${{ hashFiles('.nvmrc', 'yarn.lock', '.yarnrc.yml', '.yarn/patches/**') }}
+      - name: Install immutable dependencies
+        run: |
+          set -o pipefail
+          node .yarn/releases/yarn-4.14.1.cjs install --immutable 2>&1 | tee build/petro/quality/dependencies.log
+      - name: Prepare upstream JavaScript CI dependencies
+        run: |
+          set -o pipefail
+          export PATH="$PWD/node_modules/.bin:$PATH"
+          node scripts/setup.mjs --build-on-github-ci --node --no-build-ios --no-build-android 2>&1 | tee build/petro/quality/setup.log
+          free -h | tee build/petro/quality/resources.log
+          sudo fallocate -l 8G "$RUNNER_TEMP/petro-quality.swap"
+          sudo chmod 600 "$RUNNER_TEMP/petro-quality.swap"
+          sudo mkswap "$RUNNER_TEMP/petro-quality.swap"
+          sudo swapon "$RUNNER_TEMP/petro-quality.swap"
+      - name: Run complete upstream check shard
+        id: check
+        continue-on-error: true
+        timeout-minutes: 45
+        run: |
+          set -o pipefail
+          export PATH="$PWD/node_modules/.bin:$PATH"
+          case "$PETRO_QUALITY_KIND" in
+            lint)
+              if [ "$PETRO_QUALITY_SHARD" = 1 ]; then
+                yarn oxlint 2>&1 | tee build/petro/quality/oxlint.log
+                yarn lint:shard --check-union 2>&1 | tee build/petro/quality/lint-union.log
+              fi
+              yarn lint:shard --shard "$PETRO_QUALITY_SHARD" --shards 4 2>&1 | tee build/petro/quality/check.log
+              ;;
+            unit)
+              yarn test:unit --shard="$PETRO_QUALITY_SHARD/10" --listTests --json --runInBand > build/petro/quality/suite-inventory.json
+              yarn test:unit --shard="$PETRO_QUALITY_SHARD/10" --maxWorkers=1 --workerIdleMemoryLimit=2GB --ci --watchman=false --forceExit --silent --coverageReporters=json --json --outputFile=build/petro/quality/unit-results.json 2>&1 | tee build/petro/quality/check.log
+              ;;
+            typecheck)
+              yarn lint:tsc 2>&1 | tee build/petro/quality/check.log
+              ;;
+            *) exit 2 ;;
+          esac
+      - name: Record actual check outcome
+        if: always()
+        env:
+          PETRO_CHECK_OUTCOME: ${{ steps.check.outcome }}
+        run: |
+          mkdir -p build/petro/quality
+          printf '{"commit":"%s","kind":"%s","shard":%s,"outcome":"%s"}\n' "$GITHUB_SHA" "$PETRO_QUALITY_KIND" "$PETRO_QUALITY_SHARD" "$PETRO_CHECK_OUTCOME" > build/petro/quality/result.json
+      - name: Upload separate check evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: petro-quality-${{ matrix.kind }}-${{ matrix.shard }}-${{ github.sha }}
+          path: build/petro/quality/
+          if-no-files-found: error
+          retention-days: 14
+      - name: Enforce actual shard outcome
+        if: always()
+        env:
+          PETRO_CHECK_OUTCOME: ${{ steps.check.outcome }}
+        run: test "$PETRO_CHECK_OUTCOME" = success

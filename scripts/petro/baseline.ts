@@ -45,6 +45,51 @@ function save(name: string, value: unknown): void {
   writeFileSync(join(output, name), `${JSON.stringify(value, null, 2)}\n`);
 }
 
+function bundleInventory(): void {
+  const maps = [
+    'android/app/build/generated/sourcemaps/react/prodRelease/index.android.bundle.map',
+    'android/app/build/intermediates/sourcemaps/react/prodRelease/index.android.bundle.packager.map',
+  ];
+  const sources = new Set<string>();
+  const recordedMaps: string[] = [];
+  function visit(value: unknown): void {
+    if (!value || typeof value !== 'object') return;
+    const map = value as Record<string, unknown>;
+    if (Array.isArray(map.sources)) {
+      for (const source of map.sources) {
+        if (typeof source === 'string') sources.add(source.replaceAll('\\', '/'));
+      }
+    }
+    if (Array.isArray(map.sections)) {
+      for (const section of map.sections) {
+        if (section && typeof section === 'object') {
+          visit((section as Record<string, unknown>).map);
+        }
+      }
+    }
+  }
+  for (const path of maps) {
+    if (existsSync(path)) {
+      visit(JSON.parse(readFileSync(path, 'utf8')) as unknown);
+      recordedMaps.push(path);
+    }
+  }
+  const paths = [...sources].sort();
+  save('reports/bundled-modules.json', {
+    status: paths.length ? 'RECORDED' : 'BLOCKED',
+    sourceMaps: recordedMaps,
+    sourceCount: paths.length,
+    criticalPackages: ['proxy-addr', 'shell-quote', 'tar'].map((name) => ({
+      package: name,
+      matches: paths.filter((path) => `/${path}`.includes(`/node_modules/${name}/`)),
+    })),
+    sources: paths,
+    limitation:
+      'Source-map inclusion is not exploitability or runtime reachability. An absent map cannot establish package exclusion. Source contents and service values are never copied.',
+  });
+  console.log(`Recorded ${paths.length} bundled source paths; no source contents copied.`);
+}
+
 function sha256(path: string): string {
   return createHash('sha256').update(readFileSync(path)).digest('hex');
 }
@@ -238,17 +283,22 @@ function redactServiceConfiguration(): void {
   } catch {
     // Do not print decoded service configuration or parsing diagnostics.
   }
-  for (const folder of [output, join(output, 'logs')]) {
+  function redactFolder(folder: string): void {
     for (const entry of readdirSync(folder, { withFileTypes: true })) {
-      if (!entry.isFile() || !/\.(?:log|json|jsonl|tap)$/u.test(entry.name))
-        continue;
       const path = join(folder, entry.name);
+      if (entry.isDirectory()) {
+        redactFolder(path);
+        continue;
+      }
+      if (!entry.isFile() || !/\.(?:log|json|jsonl|tap|xml|html|txt|md)$/u.test(entry.name))
+        continue;
       let content = readFileSync(path, 'utf8');
       for (const value of values)
         content = content.replaceAll(value, '[REDACTED SERVICE CONFIGURATION]');
       writeFileSync(path, content);
     }
   }
+  redactFolder(output);
 }
 
 function report(): void {
@@ -458,11 +508,14 @@ switch (process.argv[2]) {
   case 'report':
     report();
     break;
+  case 'bundle-inventory':
+    bundleInventory();
+    break;
   case 'gate':
     gate();
     break;
   default:
     throw new Error(
-      'Usage: node scripts/petro/baseline.ts inspect|prerequisites|report|gate',
+      'Usage: node scripts/petro/baseline.ts inspect|prerequisites|report|bundle-inventory|gate',
     );
 }
