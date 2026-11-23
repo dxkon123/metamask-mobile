@@ -18,7 +18,7 @@ concurrency:
 
 jobs:
   android:
-    if: github.repository == 'dxkon123/metamask-mobile' && github.ref == 'refs/heads/codex/petro-wallet-v1'
+    if: github.repository == 'dxkon123/metamask-mobile' && github.ref == 'refs/heads/codex/petro-wallet-v1' && !contains(github.event.head_commit.message, '[quality-only]')
     runs-on: ubuntu-24.04
     timeout-minutes: 360
     defaults:
@@ -377,6 +377,8 @@ jobs:
               yarn lint:shard --shard "$PETRO_QUALITY_SHARD" --shards 4 2>&1 | tee build/petro/quality/check.log
               ;;
             unit)
+              # Match upstream unit CI defaults; keep Main build flags in the APK job.
+              unset METAMASK_BUILD_TYPE
               yarn test:unit --shard="$PETRO_QUALITY_SHARD/10" --listTests --json --runInBand > build/petro/quality/suite-inventory.json
               yarn test:unit --shard="$PETRO_QUALITY_SHARD/10" --maxWorkers=1 --workerIdleMemoryLimit=2GB --ci --watchman=false --forceExit --silent --coverageReporters=json --json --outputFile=build/petro/quality/unit-results.json 2>&1 | tee build/petro/quality/check.log
               ;;
