@@ -2,12 +2,13 @@
 
 更新：2026-11-24，Asia/Kuching。仅 codex/petrocash-rebrand，禁止 push main。每项开始读本文件；每步完成更新本文件/HANDOFF/MORNING、commit/push，长等待前保存。
 
-## 当前继续点
+## 当前继续点（以本节为准，后方旧轮次保留为历史）
 
-1. 交付通道已真实验证，修复 checkpoint 已推送 **60f1f870ddd0d38d30b6acc8ec9f0fe50fa18345**。不要重跑旧 workflow：它不会得到新修复。
-2. 下一提交标记 **[related-checks]**：完整4 lint + TSC，Jest 用 --runTestsByPath 覆盖 related-tests.json 的62套（原失败54套+品牌8套）。native依赖这些检查，全成功才自动开始；失败则不编译。
-3. 处理真实失败直至通过，再以新的同一触发SHA构建APK、创建private draft。草稿失败则自动保留1天APK artifact（owner明确授权的例外），在AAB之前完成。验证实际APK hash/ID/cert后交付。
-4. 动画源代码和相关断言现已加入候选，原Rive实现可切换；本地品牌4套40断言PASS，协议/Rive合约正在复查，云端与真机尚未通过。不得称无bug或全部狐狸清除。
+1. 小交付探测 **45382420486** 已完成：草稿创建/上传/下载比较/删除 PASS；1天 artifact PASS，勿重做。
+2. 当前 APK 源码 **ce55e77174ca5128c19c98868a9defe86f47c684**，run **45386233779**，native job **138421900226**。完整4 lint、TSC、62套相关测试/1643断言全部 PASS；编译前交付预检 PASS，未发布草稿 **456690358** 已建立。原生编译进行中，不要重启旧运行。
+3. 完整回归 **45388166315**，source **4354564ab2c279fb6aa5744de07102bc6cde58ac**；checkpoint不会再编译Android。它与ce55的app/android/ios/locales/package/lockfile/品牌及脚本树完全相同，仅报告和workflow注释变化。完整unit尚未结束，不能写全量PASS。
+4. APK上传后立刻下载到outputs/PetroCASH，用Google官方Build Tools独立复核SHA256、包名org.petrocash.wallet、1.0.0/1、签名和bundle/字体；上传草稿失败才用1天artifact后备。不要等待AAB才保存或验证APK。
+5. 完整回归有失败就查真实诊断，局部重测明确--runTestsByPath；不跳过。真机安装、WAL/POL、所有动画目视仍未执行，不能称无bug。
 
 | 项目 | 状态 | 证据/提交/运行 | 下一动作 |
 | --- | --- | --- | --- |
@@ -18,10 +19,10 @@
 | dApp/路由 | in progress | WC/EIP6963身份PetroCASH；恢复上游签名域名 | 新petrocash://仅作原router别名；HTTPS签名host不重映射；真机待测 |
 | 原创动效/Rive切换 | in progress | 三处Fox装饰替换；BrandMotion；本地40断言 | 云端合约/类型检查，设备生命周期/视觉/FPS |
 | Firebase | done测试派生源码 | build-android.ts仅子进程env | 生产需真实包名/证书Firebase app；OAuth/push未验证 |
-| APK编译/验证 | PASS但文件丢失 | run45367200108，source1c35f1f5，compile1h03m46s | 修复后的新候选再构建一次；没有可下载旧APK |
+| APK编译/验证 | 新候选编译中 | run45386233779/sourcece55e771；旧45367200108文件丢失 | 等待当前编译、先保存APK、独立校验 |
 | 草稿与后备通道 | done真实探测 | run45382420486，412735fc；draft上传/下载校对/清理PASS；1天artifactPASS | 新构建使用相同源码/触发/targetSHA，草稿失败自动后备 |
-| 全量lint/TSC | FAIL旧候选，已修源码待CI | lint1/2PASS；3/4各1规则错误；TSC重复host键 | [related-checks]仍执行完整4lint+TSC |
-| 全量单测 | FAIL旧候选 | 5929套：5875PASS/54FAIL；90576断言PASS/123FAIL | 先重跑全部54失败套件+8品牌套件，不跳过；不把相关PASS称全量PASS |
+| 全量lint/TSC | PASS当前候选 | run45386233779，4lint与TSC全PASS | 完整回归run45388166315同时复核 |
+| 全量单测 | in progress | run45388166315；相关62套1643断言已PASS | 记录完整10分片真实结果，失败不跳过 |
 | 最小flags/telemetry | done已授权部分 | 38布尔，仅参考；上游运行时fetch保留；OTA关闭/WCtelemetry false/Segment无key不初始化 | **add full flags after moving to a private repo**；完整snapshot仅本地 |
 | 3 critical补丁 | candidate已安装，非生产关闭 | proxy-addr2.0.8/shell-quote1.11.0/tar7.5.19；audit0critical/24high/22moderate | 回归/新APK可达性核验 |
 | 签名 | TEST | CI公用证书6f9f444a…ecf9；本地新私钥未接入 | 不显示/提交钥匙密码；生产需owner签名配置 |

@@ -1,5 +1,13 @@
 # PetroCASH 当前交接报告
 
+## 当前权威继续点（2026-11-24 19:58 +08）
+
+旧轮次记录仅是历史。当前APK run45386233779/source ce55e77174ca5128c19c98868a9defe86f47c684，4lint/TSC/62套1643相关断言均PASS，native job138421900226正编译。其private preflight PASS；draft456690358已创建未发布，后续同run直接上传到既有draft，失败后备1天artifact。尚无新APK下载/hash，不可虚报。
+
+完整回归run45388166315/source4354564ab2c279fb6aa5744de07102bc6cde58ac并行中；checkpoint不会第二次编译。应用/原生/依赖树与ce55相同，只有报告和workflow注释变化。下一步：收集全套真实结果；APK保存后独立SHA/apksigner/aapt校验再给链接；无需等AAB。
+
+精确恢复消息：继续。先读PROGRESS当前权威继续点，检查45386233779的APK交付和45388166315的完整回归。不要重做已PASS的探测和相关测试，不要重复启动Android编译。下载真实APK独立验证SHA/包名/签名并交付；全量若失败修真实问题。每步更新三份记录和PLAYBOOK并push，仅codex/petrocash-rebrand，永不main/secret/public Release。
+
 更新：2026-11-24，Asia/Kuching。分支codex/petrocash-rebrand，禁止main。
 
 已确认：run45367200108的APK编译1h03m46s和签名/ID/bundle验证PASS，但草稿创建403，旧APK没有保存、没有下载链接或可确认checksum。source1c35f1f5；triggerf3cf0970。

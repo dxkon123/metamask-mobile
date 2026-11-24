@@ -174,3 +174,7 @@ versionName改1.0.0后，react-native-device-info.getVersion也返回新版本�
 ### 同时检查全量回归而不重复编译APK
 
 先让related的62套/1643断言和4lint/TSC通过，native依赖该门槛再运行；同run的private preflight先建立草稿（本次456690358/target ce55）。之后只改报告和workflow注释，commit加 [checkpoint] [full-checks]，完整回归可以并行检查同一app/Android/locales/lockfile树，Android明确跳过，不再浪费第二小时。记录两个run/sourceSHA和树哈希，不把related通过当full通过。
+
+## 等待原生编译时的证据与接续
+
+先让当前候选4lint/TSC/related门槛通过，并在该SHA仍是分支head时创建private draft；然后才推报告/全量checkpoint。全量检查可在另一个带[checkpoint][full-checks]提交并行，避免再次花一小时编译。必须证明app/android/ios/locales/package/yarn.lock/品牌与脚本树和APK源提交一致。保存具体run ID和源码SHA，不能仅写“最新”。相关62套PASS不等于全量PASS，源码检查不等于真机/WAL/POL验收。
