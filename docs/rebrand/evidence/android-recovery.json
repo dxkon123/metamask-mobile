@@ -24,10 +24,10 @@
     "r8": "disabled only for explicitly opted-in dev TEST build",
     "heartbeatSeconds": 300,
     "swapGiB": 16,
-    "aab": "not requested; skipped for recovery",
+    "aab": "intentionally skipped for authorized recovery",
     "quality": "prior full45388166315 and supplemental45392919611 reused; no matrix rerun",
-    "apk": "not yet produced",
-    "phase": "compiling",
+    "apk": "saved and independently verified",
+    "phase": "complete; downloaded and independently verified",
     "resourcePreparation": "PASS",
     "heartbeatObserved": {
       "utc": "2026-11-24T13:45:34Z",
@@ -43,7 +43,15 @@
       ],
       "rootDiskAvailableGiB": 66
     },
-    "otherRunCancellation": "old run ended itself; no live loser to cancel unless another run becomes active"
+    "otherRunCancellation": "old run already failed; no live loser to cancel",
+    "state": "completed/success",
+    "jobDuration": "44m55s",
+    "apkSHA256": "29fdc0d4dffba2724c263705b0fada9316d18fa30def3773a4e5d7fea40ea9b7",
+    "apkAssetId": 787495970,
+    "sourceZIPAssetId": 787495941,
+    "sourceZIPSHA256": "4b575e8f716ad08162dfa884f701eed45e60cb64536a8dbc544b7446ee8bd98b",
+    "localVerification": "PASS; see verified-apk.json",
+    "artifactFallback": "not needed; draft upload PASS"
   },
   "handoff": "Use first APK successfully saved and independently verified; then cancel losing run. Keep no public Release; fallback artifact retention one day only."
 }

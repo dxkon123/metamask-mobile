@@ -1,0 +1,22 @@
+{
+  "sourceCommit": "7df8638619afcb06f6acbe8d09bd7a41fa5bfe36",
+  "archive": "PetroCASH-source-CI-7df86386.zip",
+  "sha256": "4b575e8f716ad08162dfa884f701eed45e60cb64536a8dbc544b7446ee8bd98b",
+  "trackedBlobFiles": 19471,
+  "exactByteMatches": 19470,
+  "declaredEOLConversions": [
+    {
+      "path": "android/gradlew.bat",
+      "gitAttribute": "text eol=crlf",
+      "result": "matches tracked blob after declared CRLF normalization"
+    }
+  ],
+  "unexpectedMismatches": 0,
+  "submoduleContentsNotIncluded": [
+    {
+      "path": "ios/branch-ios-sdk",
+      "commit": "615267ea0b44bc3be657b84fbc9ff7c86688fa58"
+    }
+  ],
+  "ownerPrivateKeyOrFullFlagsPathsIncluded": false
+}

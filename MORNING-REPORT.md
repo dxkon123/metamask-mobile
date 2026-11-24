@@ -1,47 +1,28 @@
 # PetroCASH 当前交接报告
 
-## Owner批准并行恢复构建（2026-11-24 21:36 +08；优先于此前“只等待”）
+更新：2026-11-24 22:30 +08。分支codex/petrocash-rebrand，永不main。**本次APK及源码已交付并独立验证，不再等待CI。**
 
-保留45386233779，同时新[android-recovery]仅android、不重跑已PASS的质量检查；arm64-v8a，dev TEST关闭R8，正式默认保持R8。job加入显式早期磁盘清理、构建前16GB swap与5分钟stdout资源心跳。完整源码/锁文件/原生脚本相同但本轮过长且12:52:08Z后无输出，资源卡住仅为待证假设；heartbeat用于区分耗时与停滞。两轮哪个先保存并验证APK就用哪个，之后取消另一轮。新模式跳过AAB，APK优先；包名/签名/身份检查及1天后备保留。
+## 交付
 
-本地验证：workflow YAML+29段bash -n PASS；metadata4个fixture（合法arm64、拒绝额外ABI、拒绝错包名、默认R8 metadata）PASS。未重复Jest/TSC/lint；仅构建配置和public metadata变更，无app运行时/密钥/审批修改。new metadata保存同build的module count/3包匹配摘要（不含sourceContents或全量sources），解决原报告只留runner的问题。最终仍需实际APK验证。
+[成功run45405350978](https://github.com/dxkon123/metamask-mobile/actions/runs/45405350978)，source7df8638619afcb06f6acbe8d09bd7a41fa5bfe36，Android job44m55s。仅arm64-v8a，dev TEST/R8关闭；原生Release/Hermes及公用测试签名保留。此前完整/相关/补充质量已PASS，未重跑。
 
-更新：2026-11-24 20:30 +08。分支codex/petrocash-rebrand；所有完成的改动已通过分支checkpoint保存，永不main。
+[未发布草稿](https://github.com/dxkon123/metamask-mobile/releases/tag/untagged-884996a415116ae298a2)保存APK、源码、校验资料，无public Release。Mac workspace outputs/PetroCASH有同一CI下载文件和最新报告。
+APK：PetroCASH-TEST-1.0.0.apk，221124611 bytes，SHA256 **29fdc0d4dffba2724c263705b0fada9316d18fa30def3773a4e5d7fea40ea9b7**。
+包名org.petrocash.wallet，1.0.0/code1，TEST cert SHA256 **6f9f444af1cb1ff7c0d7791af2e775fddf4d48900642647640e225783554ecf9**，官方apksigner验证v2 PASS；不是owner生产钥匙。
+CI源ZIP SHA256 **4b575e8f716ad08162dfa884f701eed45e60cb64536a8dbc544b7446ee8bd98b**，全部19471 tracked blobs符合Git及声明EOL规则，iOS submodule另初始化。
 
-## 已完成
+独立复核：本地hash=GitHub/CI；aapt label/ID/version/仅arm64正确；无新增权限/旧namespace provider冲突/sharedUID；启动类在DEX；bundle存在；Inter有/Grotzec无；APK提取logo目视正确；ZIP和44个ELF的16KB对齐PASS。native Sentry auto-init=false。当前bundle graph21361源路径，三原始critical包均无匹配。详见DELIVERY-REPORT-zh.md与evidence。
 
-- 旧run45367200108编译/验证PASS但草稿403、文件丢失。先用小run45382420486真实验证草稿创建→上传→下载比较→删除PASS；1天artifact亦PASS。统一build/trigger/target SHA并提前private preflight，APK草稿失败自动1天artifact保存，先于AAB；无权限扩大/PAT/secret显示。
-- 当前候选sourcece55e77174ca5128c19c98868a9defe86f47c684，run45386233779。完整4lint/TSC、62相关套1643断言PASS；private preflight PASS、未发布draft456690358已建。
-- 完整回归run45388166315/source4354564：4lint/TSC与10unit全PASS；5932套、90732断言、111快照PASS/0FAIL；10上游skip和1todo不计PASS，原coverage保留。应用/依赖与ce55一致。
-- 后续run45392919611/source15d21f0b修复3项上游测试遗漏：Bridge it.only移除，BigNumber fresh registry验证完整配置不污染。2文件229断言0skip/0todo、scoped lint及完整TSC云端PASS。与全量有重叠，不直接累加；其余7skip/1todo仍开放。不改运行时代码。
-- 精确ce55源码ZIP、checksum、submodule说明、手机清单已备妥在outputs/PetroCASH。SHA256 e33ed1647df8dc571cb1296caa54523e099d915a91ce1fce613c95de933a6742。19,466个tracked blob匹配；不含iOS submodule内容/owner私钥/密码/full flags。
+## 质量和故障结论
 
-## 当前准确停点
+完整45388166315：4lint/TSC、10unit PASS，5932套90732断言111快照，0FAIL。原10skip/1todo另列；补充45392919611两文件229断言0skip/0todo+lint/TSC PASS，恢复3漏项，仍7上游skip/1todo；补充与全量有重叠，不直接累加。相关62套1643断言PASS。
 
-**APK仍在当前同一run原生编译**，UI见4ABI CMake进度；未保存新APK，尚无可报告APK hash或下载链接。不要把preflight.txt当产物，不要重跑一小时构建。下一步等待APK→草稿/一日后备保存→独立SHA256/aapt/apksigner/版本/包名/权限/bundle检查→交付链接；AAB随后进行。
+原45367200108 APK丢失因草稿403；小probe45382420486验证并修复统一SHA/preflight及一日后备。原45386233779在1h55m9s后runner lost communication FAIL，不是本代理取消，具体资源/网络根因未知；已无另一live run需取消。恢复模式清理临时VM、加swap、每5分钟stdout资源心跳后成功，不据成功反推已证实OOM。
 
-## 尚未关闭
+## 准确停点与下一步
 
-公用TEST签名、真机安装和全部视觉/生命周期/FPS、WAL/POL实际验收、生产Firebase/HTTPS/自有服务、1.0.0与上游版本flags策略及许可发行。3 critical候选不能称生产关闭：proxy-addr2.0.8/shell-quote1.11/1.12已候选升级；tar7.5.19但工具链仍6.2.1；新source-map排除证据未上传。详见SECURITY-REVIEW.md。保留上游7skip/1todo，不称无bug。无public Release；full snapshot只本地，迁私有后再接入。
+已完成交付，下一步 **owner用PHONE-CHECKLIST-zh.md做空测试钱包真机测试并反馈**。没有执行手机安装/真实WC配对/Polygon链上验收，所以WAL/POL仍BLOCKED，不能称无bug。公用TEST证书/R8 off仅本次测试；生产签名/许可未关。tar工具链6.2.1仍open，其他安全跟踪见SECURITY-REVIEW。完整flags仅本地，待迁私有；版本门槛/Firebase真实注册、自有站点/剩余媒体视觉仍待。
 
-## 精确继续消息
+## 精确恢复消息
 
-继续。先读docs/PROGRESS.md和HANDOFF.md。检查原45386233779与arm64恢复45405350978；用先保存并独立验证的APK，交付可用后取消另一轮。完整45388166315和补充45392919611已PASS不重跑，不启动第三轮。验证hash/org.petrocash.wallet/签名并给链接，每步更新三份记录和PLAYBOOK并push，仅codex/petrocash-rebrand，永不main/secret/public Release。
-
-## 原生长编译观察（2026-11-24 21:25 +08）
-
-当前45386233779仍in_progress；最新刷新并开启时间戳的日志停在12:52:08Z Kotlin/Java输出，暂无失败，无法读取实时CPU/资源来确认静默原因。git diff证明当前ce55与已成功编译的1c35在android/package.json/yarn.lock/.yarn/patches/scripts/build.sh/scripts/rebrand/build-android.ts完全无差异；workflow的8GB Metro、2 workers、native内存设置亦未改。不能从静默就判断品牌代码错误，也不能声称构建健康。暂保留同run，不取消或平行启动第二个一小时编译；继续等实际产物/错误。运行中job日志下载404 BlobNotFound，表示日志blob尚不可用，不是新的repo权限403。
-
-## 并行恢复已启动并完成预检（21:39 +08）
-
-新run [45405350978](https://github.com/dxkon123/metamask-mobile/actions/runs/45405350978)，source **7df8638619afcb06f6acbe8d09bd7a41fa5bfe36**，android job138484436260；其余quality/test-completion job按要求SKIPPED，复用已有PASS而非重跑。新draft **456815401** target精确7df，private preflight PASS，早期磁盘清理PASS，依赖安装中，尚无APK。原run45386233779仍继续，未取消。新run提交后没有提前移动head，先确认preflight已建立才推本条记录。
-
-精确恢复消息（以此为准）：继续。检查原45386233779与arm64恢复45405350978，两轮哪个先保存APK就下载并独立验证hash/org.petrocash.wallet/签名；验证交付可用后取消另一轮。质量45388166315和45392919611已PASS不重跑，不启动第三轮。先读PROGRESS/HANDOFF，逐步更新并push，永不main/secret/public Release。
-
-## 最新：原运行已失联失败，恢复构建心跳正常（21:48 +08）
-
-原45386233779/android138421900226在21:42结束FAIL（1h55m9s），不是本代理取消。GitHub Summary明确错误为“The hosted runner lost communication with the server”。仅证明runner失联，不能把CPU/RAM/网络中的某个原因写成已证实；无编译器代码错误证据、无APK。旧draft456690358仍只有预检文件。不要重跑旧任务或另外启动第三轮。
-
-恢复45405350978仍编译。UI核实5分钟stdout heartbeat：13:45:34Z，RAM total15701MiB/used7680/available8021，swap19455MiB/used0，load1.51/1.38/0.74，root可用66GiB。预检、早期磁盘清理、swap/资源准备均PASS。当前只等恢复构建APK→保存→下载→独立验证；旧任务已结束无需取消。
-
-监控必须看job的status/conclusion：runner失联时job已completed/failure，但compile step仍可能保持in_progress，其余step pending。只看step会错误地继续等待一个已经失败的job。
+继续。先读docs/PROGRESS.md、HANDOFF.md和docs/rebrand/DELIVERY-REPORT-zh.md。45405350978的APK与源码已交付并独立验证，不重跑CI。根据手机反馈复现并修首个问题；WAL/POL仍BLOCKED，私有仓库/完整flags/生产签名/许可未完成。每步更新并push，仅codex/petrocash-rebrand，永不main/secret/public Release。

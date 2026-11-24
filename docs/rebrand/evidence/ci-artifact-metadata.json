@@ -1,0 +1,46 @@
+{
+  "applicationId": "org.petrocash.wallet",
+  "versionCode": "1",
+  "versionName": "1.0.0",
+  "sourceCommit": "7df8638619afcb06f6acbe8d09bd7a41fa5bfe36",
+  "branch": "codex/petrocash-rebrand",
+  "ciRun": "https://github.com/dxkon123/metamask-mobile/actions/runs/45405350978",
+  "signing": "TEST: upstream public development certificate",
+  "certificateSHA256": "6f9f444af1cb1ff7c0d7791af2e775fddf4d48900642647640e225783554ecf9",
+  "androidBuild": {
+    "mode": "arm64 development recovery",
+    "architectures": [
+      "arm64-v8a"
+    ],
+    "r8Enabled": false
+  },
+  "bundledModules": {
+    "status": "RECORDED",
+    "sourceCount": 21361,
+    "criticalPackages": [
+      {
+        "package": "proxy-addr",
+        "matches": []
+      },
+      {
+        "package": "shell-quote",
+        "matches": []
+      },
+      {
+        "package": "tar",
+        "matches": []
+      }
+    ],
+    "limitation": "Source-map inclusion is not exploitability or runtime reachability. An absent map cannot establish package exclusion. Source contents and service values are never copied."
+  },
+  "firebase": "Derived development client; not production registered",
+  "files": [
+    {
+      "path": "PetroCASH-TEST-1.0.0.apk",
+      "sha256": "29fdc0d4dffba2724c263705b0fada9316d18fa30def3773a4e5d7fea40ea9b7"
+    }
+  ],
+  "phoneInstallation": "NOT RUN",
+  "walletPolygonAcceptance": "BLOCKED",
+  "releaseReady": false
+}

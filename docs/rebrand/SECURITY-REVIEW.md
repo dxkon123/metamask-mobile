@@ -1,27 +1,25 @@
 # PetroCASH 候选安全复核（非生产批准）
 
-日期：2026-11-24。APK源提交 ce55e77174ca5128c19c98868a9defe86f47c684；原生 run45386233779。本文写入时APK仍编译中，不能确认新APK的hash、merged manifest或模块排除。
+2026-11-24。实际交付source7df8638619afcb06f6acbe8d09bd7a41fa5bfe36，run45405350978；APK SHA25629fdc0d4dffba2724c263705b0fada9316d18fa30def3773a4e5d7fea40ea9b7。独立签名/包名/权限/provider/16KB/字体及源码归档验证均已完成，证据在evidence/verified-apk.json与verified-source.json。证书为公开共享TEST，非owner生产签名；真实手机安装/WAL/POL未验收。
 
-## 三项原始 critical：保留 open 门禁
+本次差异包含会打包的品牌代码和素材；不能沿用重品牌前“所有改动都不进APK”的结论。全部362条路径见CHANGED-PATHS-7df86386.txt，保护的钱包/密钥/审批代码与原签名host/public key未改。合并权限与原基线归一包名后0新增/0减少，无io.metamask provider authority/sharedUserId。只满足共存的静态条件，未实机安装。
 
-| 包 / ID | 官方修复版本 | 当前锁定版本与用途证据 | 当前结论 / 下一动作 |
-| --- | --- | --- | --- |
-| proxy-addr / GHSA-jqcg-44mw-7w3h / CVE-2026-90711 | 2.0.8 | yarn why: Express4.22.2/5.2.1→2.0.8，开发服务器链 | patched candidate；新APK JS排除与完整回归证据完成前不称生产关闭 |
-| shell-quote / GHSA-pqg4-j6r4-53mv / CVE-2026-102422 | 1.11.0 | 1.11.0及1.12.0；Appium/launch-editor/npm-run-all/react-devtools等工具链；Segment sovran也在dependencies声明1.8.0，被resolution升到1.11.0，已安装包src/lib未发现导入 | patched candidate；不能仅凭npm dev/runtime分类判定打包排除，需新Metro source-map证据 |
-| tar / GHSA-23hp-3jrh-7fpw / CVE-2026-59873 | 7.5.19 | foundryup/cacache19/node-gyp11→7.5.19；**cacache18/eas-cli12/node-gyp10仍→6.2.1**，属于开发/原生构建工具 | **尚未覆盖全部版本**。官方受影响范围<=7.5.18，旧audit未报告不能证明6.x安全；后续需兼容升级或受维护回移补丁并验证工具链，不盲目跨major override |
+## 三项原始 critical 跟踪
 
-以上官方页面于本日复核：[proxy-addr](https://github.com/advisories/GHSA-jqcg-44mw-7w3h)、[shell-quote](https://github.com/advisories/GHSA-pqg4-j6r4-53mv)、[tar](https://github.com/advisories/GHSA-23hp-3jrh-7fpw)。npm audit的日期快照记录0 critical/24 high/22 moderate，不表示无其他风险，也不替代实际版本范围和可达性分析。不得沿用旧io.metamask基线的bundle排除结论到这个新APK。
+本次相同构建的Metro source-map记录21361个源路径，proxy-addr、shell-quote、tar匹配均为0；摘要已保存在artifact-metadata.json，并与实际APK checksum关联。44个原生库清单另附。此为具体包纳入证据，不是完整漏洞利用或设备安全审计。
 
-原生工作流生成build/petro/reports/bundled-modules.json，但当前上传白名单不含该文件。日志中的sourceCount本身不能证明三个包不存在。新APK中JS/native检查的能力边界必须如实记录；不靠字符串未命中声称绝对排除。后续CI可将无sourceContents/无配置值的source-map路径摘要保存到private draft。
+| 包 / ID | 构建环境现状 | APK运行时 / 待关闭项 |
+| --- | --- | --- |
+| proxy-addr / [GHSA-jqcg-44mw-7w3h](https://github.com/advisories/GHSA-jqcg-44mw-7w3h) / CVE-2026-90711 | Express工具链已锁2.0.8（官方修复版本） | 本APK graph无该包；生产风险审核跟踪尚未签收 |
+| shell-quote / [GHSA-pqg4-j6r4-53mv](https://github.com/advisories/GHSA-pqg4-j6r4-53mv) / CVE-2026-102422 | 工具链及Segment声明已到1.11.0/1.12.0；官方修复1.11.0 | 本APK graph无该包；不能只凭npm dependencies分类判断运行时；生产审核跟踪尚未签收 |
+| tar / [GHSA-23hp-3jrh-7fpw](https://github.com/advisories/GHSA-23hp-3jrh-7fpw) / CVE-2026-59873 | 7.x到7.5.19，但cacache18/eas-cli12/node-gyp10仍有6.2.1 | 本APK graph无该包；构建工具旧major仍OPEN，需兼容升级或维护补丁及工具链验证 |
 
-## 身份、权限与数据
+旧audit快照0critical/24high/22moderate不等于所有版本安全，不能宣布三个问题在所有环境关闭。不得将这些构建环境问题描述为已证明存在于本APK的JS/native运行时。
 
-- 新applicationId org.petrocash.wallet；内部namespace io.metamask保留。源Manifest的FileProvider authority为${applicationId}.provider，无sharedUserId声明。源权限与上游相同；最终需对比两份APK merged permissions/provider authorities。不同applicationId应能与官方io.metamask共存，实际手机安装尚未执行，不能承诺任何profile都已验证。
-- 当前是重品牌衍生代码，不能再声称“只有上游代码、改动都不打包”。文字、图片、字体、主题、动效、包名及少量纯显示/路由兼容改动会进入APK。受保护的钱包/密钥/签名/审批文件由source guard保持原样。
-- changed public source中的字面URL主机集合比较，唯一新增主机为petrocash.org；这只是限定静态扫描，不是抓包。自有法律页/支持页/链接尚待部署验证，上游网络/RPC/报价/远端flags服务保留。不得声称没有网络发送；钱包地址、IP/设备连接信息及按功能请求的交易/余额数据可能经相应上游服务发送。
-- 构建子进程清空Segment key/proxy及Sentry DSN；无key guard阻止Segment client创建，无DSN沿用Sentry guard；WalletConnect telemetry=false，OTA关闭。SDK仍在依赖里；未做设备抓包，不能把禁用配置写成所有网络流量已验证。
-- CI预计使用上游公用TEST证书6f9f444af1cb1ff7c0d7791af2e775fddf4d48900642647640e225783554ecf9，必须以下载APK的apksigner结果最终确认。不是owner私钥，也不是生产签名；仅空测试钱包。用户本地private key/密码和完整flags从未加入源码ZIP。
+## 数据与发行边界
 
-## 仍待设备/发行验收
+构建子进程清空Segment key/proxy及Sentry DSN；缺key跳过Segment client，缺DSN保留Sentry guard。实际APK native io.sentry.auto-init=false；SDK/provider本身仍保留。WalletConnect telemetry=false、OTA关闭来自构建配置。没有做手机网络抓包，不能声称零发送：上游RPC、远端flags、余额/报价、Firebase/FCM和按需功能服务仍可能接收IP、安装/连接信息、公开地址或请求的数据。
 
-WAL001–007、POL001–010仍BLOCKED。Firebase测试派生身份、OAuth/push/attestation、1.0.0原生版本与上游minimumVersion flags匹配、自有HTTPS绑定、全部媒体目视、生产签名和Mobile LICENSE许可均未关闭。完整单测即使通过也不等于这些真实边界通过。
+限定公开源文件URL扫描唯一新增主机为owner的petrocash.org；它用于品牌网站/链接，不是新增第三方SDK。源服务保留不代表全部可用。Firebase只是测试派生包名，真实app/证书注册、OAuth/push/attestation未完成；native1.0.0可能受上游minimumVersion flags门槛影响。自有HTTPS/法律/支持站点仍需部署验证。没有新Android权限或密钥/审批自动绕过。
+
+Mobile LICENSE许可/商用与分发门禁仍未关闭；无public Release。当前文件存于未发布草稿；1天公开Actions artifact后备未触发。首轮仅空测试钱包，保留官方MetaMask，不上传SRP/私钥。下一里程碑：手机反馈→私有仓库→完整flags及剩余品牌/服务身份→功能→获权与生产签名后的发行。

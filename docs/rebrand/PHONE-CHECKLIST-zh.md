@@ -1,5 +1,12 @@
 # PetroCASH Android 首轮手机测试
 
+## 本次已经独立核验的文件
+
+run45405350978 / source7df8638619afcb06f6acbe8d09bd7a41fa5bfe36；PetroCASH-TEST-1.0.0.apk，221124611 bytes，org.petrocash.wallet，1.0.0/code1，arm64-v8a，minSdk24/target36，R8关闭的dev TEST。
+
+APK SHA-256：29fdc0d4dffba2724c263705b0fada9316d18fa30def3773a4e5d7fea40ea9b7。
+证书SHA-256：6f9f444af1cb1ff7c0d7791af2e775fddf4d48900642647640e225783554ecf9（上游公用TEST，v2验证通过，不是owner生产钥匙）。合并权限未新增，provider独立，ZIP/44原生库16KB对齐通过。**仍未实机安装，此清单不能预先勾PASS。**
+
 只在下载链接、APK SHA-256、applicationId/version和签名已核对后开始。当前交接中的“编译成功”不代表有可用文件；不要下载旧io.metamask基线替代PetroCASH。
 
 ## 安装前

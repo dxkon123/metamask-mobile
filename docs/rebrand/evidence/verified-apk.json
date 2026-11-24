@@ -1,0 +1,126 @@
+{
+  "apk": "PetroCASH-TEST-1.0.0.apk",
+  "sha256": "29fdc0d4dffba2724c263705b0fada9316d18fa30def3773a4e5d7fea40ea9b7",
+  "bytes": 221124611,
+  "applicationId": "org.petrocash.wallet",
+  "versionCode": "1",
+  "versionName": "1.0.0",
+  "certificateSHA256": "6f9f444af1cb1ff7c0d7791af2e775fddf4d48900642647640e225783554ecf9",
+  "signatureVerification": "PASS official apksigner",
+  "zipalign16KiB": "PASS official zipalign -c -P 16 4",
+  "architectures": [
+    "arm64-v8a"
+  ],
+  "launchableActivity": "io.metamask.MainActivity",
+  "launchActivityDescriptorInDEX": true,
+  "bundlePresent": true,
+  "bundleSHA256": "180aba537906783aa5a1c6df48cdd0af0bade87759501a7c27806148d7f6e57c",
+  "bundleBytes": 85218792,
+  "fontFiles": [
+    "assets/fontawesome-webfont.ttf",
+    "assets/fonts/AntDesign.ttf",
+    "assets/fonts/Entypo.ttf",
+    "assets/fonts/EvilIcons.ttf",
+    "assets/fonts/Feather.ttf",
+    "assets/fonts/FontAwesome.ttf",
+    "assets/fonts/FontAwesome5_Brands.ttf",
+    "assets/fonts/FontAwesome5_Regular.ttf",
+    "assets/fonts/FontAwesome5_Solid.ttf",
+    "assets/fonts/Foundation.ttf",
+    "assets/fonts/Inter-Medium.ttf",
+    "assets/fonts/Inter-MediumItalic.ttf",
+    "assets/fonts/Inter-Regular.ttf",
+    "assets/fonts/Inter-RegularItalic.ttf",
+    "assets/fonts/Inter-SemiBold.ttf",
+    "assets/fonts/Inter-SemiBoldItalic.ttf",
+    "assets/fonts/Ionicons.ttf",
+    "assets/fonts/MaterialCommunityIcons.ttf",
+    "assets/fonts/MaterialIcons.ttf",
+    "assets/fonts/Metamask.ttf",
+    "assets/fonts/Octicons.ttf",
+    "assets/fonts/SimpleLineIcons.ttf",
+    "assets/fonts/Zocial.ttf",
+    "assets/fonts/metamask.ttf",
+    "res/Fs.ttf",
+    "res/RV.ttf",
+    "res/fA.ttf",
+    "res/gn.ttf",
+    "res/wg.ttf"
+  ],
+  "grotzecFontsAbsent": true,
+  "nativeLibraries": 44,
+  "elf16KiBUnsupported": [],
+  "permissionsComparedTo": "local unmodified upstream baseline APK; applicationId-normalized custom permissions",
+  "permissionsAdded": [],
+  "permissionsRemoved": [],
+  "ciSourceCommit": "7df8638619afcb06f6acbe8d09bd7a41fa5bfe36",
+  "ciRun": "https://github.com/dxkon123/metamask-mobile/actions/runs/45405350978",
+  "r8Enabled": false,
+  "bundledModules": {
+    "status": "RECORDED",
+    "sourceCount": 21361,
+    "criticalPackages": [
+      {
+        "package": "proxy-addr",
+        "matches": []
+      },
+      {
+        "package": "shell-quote",
+        "matches": []
+      },
+      {
+        "package": "tar",
+        "matches": []
+      }
+    ],
+    "limitation": "Source-map inclusion is not exploitability or runtime reachability. An absent map cannot establish package exclusion. Source contents and service values are never copied."
+  },
+  "phoneInstall": "NOT RUN",
+  "walletPolygonAcceptance": "BLOCKED",
+  "releaseReady": false,
+  "providerAuthorities": [
+    "org.petrocash.wallet.provider",
+    "org.petrocash.wallet.fileprovider",
+    "org.petrocash.wallet.notifee-init-provider",
+    "org.petrocash.wallet.reactnativefirebaseappinitprovider",
+    "org.petrocash.wallet.provider",
+    "org.petrocash.wallet.start.time.provider",
+    "org.petrocash.wallet.rnshare.fileprovider",
+    "org.petrocash.wallet.FileSystemFileProvider",
+    "org.petrocash.wallet.androidx-startup",
+    "org.petrocash.wallet.mlkitinitprovider",
+    "org.petrocash.wallet.firebaseinitprovider",
+    "org.petrocash.wallet.SentryInitProvider",
+    "org.petrocash.wallet.SentryPerformanceProvider",
+    "org.petrocash.wallet.com.squareup.picasso",
+    "org.petrocash.wallet.SentryNdkPreloadProvider"
+  ],
+  "officialMetaMaskAuthorityConflicts": [],
+  "sharedUserIdAbsent": true,
+  "nativeTelemetryAndUpdateFlags": {
+    "io.sentry.auto-init": {
+      "booleanValue": false
+    }
+  },
+  "launcherIconVerification": {
+    "resource": "res/BW.xml",
+    "foregroundImage": "res/Em.png",
+    "dimensions": [
+      216,
+      216
+    ],
+    "visualReview": "matches owner infinity-arrow logo"
+  },
+  "applicationLabel": "PetroCASH",
+  "minSdkVersion": 24,
+  "targetSdkVersion": 36,
+  "signatureSchemes": {
+    "v1": false,
+    "v2": true,
+    "v3": false,
+    "v3.1": false,
+    "v4": false
+  },
+  "signerKeyBits": 2048,
+  "signerDN": "CN=Unknown, OU=MetaMask, O=Consensys, L=Unknown, ST=Unknown, C=Unknown"
+}

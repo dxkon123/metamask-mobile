@@ -206,3 +206,15 @@ Jest suite绿勾不等于每个断言都执行。检查unit-results.json中的pe
 ## runner失联时step状态可能失真
 
 45386233779最终在1h55m9s后FAIL，Summary明确hosted runner lost communication；不能把它记作编译器代码错误或已证实OOM。该job根状态completed/failure，但compile step仍显示in_progress，其他step pending。监控以job/run根状态为准，再看step细节。恢复45405350978的13:45:34Z heartbeat给出available8021MiB、swap0/19455MiB、load1.51和磁盘66GiB，可实际观察资源；旧run只有写到runner文件的监控，host丢失后无法取回。原run自然终止，无需再取消；恢复APK验证成功即可交付。
+
+## 本轮最终交付与可复核证据（2026-11-24）
+
+恢复run45405350978/source7df86386在44m55s完成Android job：APK先草稿保存，source ZIP随后保存，无AAB/质量重跑；本地下载的APK哈希29fdc0d4dffba2724c263705b0fada9316d18fa30def3773a4e5d7fea40ea9b7与CI及GitHub一致，org.petrocash.wallet/1.0.0(1)，公用TEST证书6f9f444a…ecf9。原失联run自然终止，无需取消一个已经失败的任务。不能由恢复成功反推原来一定OOM。
+
+独立验证采用Google官方apksigner/aapt/zipalign：v2有效、仅arm64、权限差异0、provider独立、无sharedUID、启动类在DEX，ZIP和44个ELF满足16KB对齐。从APK的adaptive launcher XML解析资源并提取前景PNG，目视确认owner无限箭头。Grotzec排除，Inter在包内；技术icon字体名和上游SDK保留，不宣称每一动画都已视觉清场。
+
+同构建source-map摘要必须随artifact-metadata保存：本次21361源路径，三包均0匹配；不上传sourceContents/配置。对照官方受影响范围，多major的tar6.2.1仍是构建环境开放项，不把旧audit0计数写成全版本安全；模块排除不是完整利用可达性或设备流量审计。实际native Sentry auto-init=false也不等于所有服务零发送。
+
+源ZIP必须核对实际CI下载hash，不能用另一次本地archive的hash代替。19471个blob中19470原始字节一致；gradlew.bat在.gitattributes声明text/eol=crlf，归一后与Git blob一致。比较时尊重export/EOL规则；git archive不带submodule内容，README写锁定SHA与初始化方法。交付报告同时记录APK源码提交和后续报告提交，不把最新文档HEAD误当构建源码。
+
+最后更新PROGRESS/HANDOFF/MORNING、源码/evidence和手机清单并push；草稿说明链接最新交付报告，注明附件中的CI文档是源码时刻快照。手机、真实WC/Polygon、全部媒体/FPS、生产签名与许可仍是后续验收，绝不写“无bug”。精确RESUME以最新MORNING-REPORT为准，不重跑已完成CI。
