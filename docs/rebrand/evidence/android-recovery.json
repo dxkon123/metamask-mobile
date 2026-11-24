@@ -51,7 +51,16 @@
     "sourceZIPAssetId": 787495941,
     "sourceZIPSHA256": "4b575e8f716ad08162dfa884f701eed45e60cb64536a8dbc544b7446ee8bd98b",
     "localVerification": "PASS; see verified-apk.json",
-    "artifactFallback": "not needed; draft upload PASS"
+    "artifactFallback": "not needed; draft upload PASS",
+    "draftFinalCheck": {
+      "draft": true,
+      "target": "7df8638619afcb06f6acbe8d09bd7a41fa5bfe36",
+      "assetsCount": 11,
+      "htmlUrl": "https://github.com/dxkon123/metamask-mobile/releases/tag/untagged-684d28d7a0b84b80be5f",
+      "notesUpdated": true,
+      "assetDigestsUnchanged": true,
+      "checkedAt": "2026-11-24T14:40Z"
+    }
   },
   "handoff": "Use first APK successfully saved and independently verified; then cancel losing run. Keep no public Release; fallback artifact retention one day only."
 }

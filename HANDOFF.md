@@ -39,3 +39,8 @@ Segment缺key不创建client、Sentry缺DSN guard及实际native auto-init=false
 纯helper/别名/能力矩阵unit，BrandMotion/ref/几何为窄组件合约。两处测试补全只调整执行范围/模块隔离，不改生产数字逻辑。OS安装、实际深链/生命周期/安全存储/GPU不能由CV或controller integration证明，需真实设备边界；未执行Appium或真机。
 
 下一里程碑：手机反馈→私有仓库→完整flags/剩余品牌和自有服务→features→获权和生产签名后的release。精确继续消息见MORNING-REPORT.md。
+
+
+## 草稿说明最终同步（2026-11-24 22:40 +08）
+
+已通过owner登录页面更新草稿456815401说明，并独立API确认draft=true、target=7df8638619afcb06f6acbe8d09bd7a41fa5bfe36、11个附件及APK/源码digest不变。GitHub保存草稿会更换untagged临时入口；当前为[交付草稿](https://github.com/dxkon123/metamask-mobile/releases/tag/untagged-684d28d7a0b84b80be5f)。附件报告是CI源码时刻快照，最新状态以分支DELIVERY-REPORT/HANDOFF为准；未发布或删除任何产物。停点：交付完成，等待owner空钱包手机测试，继续时不重跑CI。

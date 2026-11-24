@@ -4,7 +4,7 @@
 
 ## 下载与来源
 
-- [未发布草稿及全部产物](https://github.com/dxkon123/metamask-mobile/releases/tag/untagged-884996a415116ae298a2)（需登录有权限的 GitHub 账号）。
+- [未发布草稿及全部产物](https://github.com/dxkon123/metamask-mobile/releases/tag/untagged-684d28d7a0b84b80be5f)（需登录有权限的 GitHub 账号）。
 - [成功 CI run 45405350978](https://github.com/dxkon123/metamask-mobile/actions/runs/45405350978)，Android job 138484436260，44m55s，只有 Android 构建，已通过的质量检查未重复。
 - 分支 codex/petrocash-rebrand；实际构建源码 7df8638619afcb06f6acbe8d09bd7a41fa5bfe36。后续提交仅交付证据和报告。
 - APK asset 787495970：PetroCASH-TEST-1.0.0.apk，221124611 bytes。

@@ -218,3 +218,8 @@ Jest suite绿勾不等于每个断言都执行。检查unit-results.json中的pe
 源ZIP必须核对实际CI下载hash，不能用另一次本地archive的hash代替。19471个blob中19470原始字节一致；gradlew.bat在.gitattributes声明text/eol=crlf，归一后与Git blob一致。比较时尊重export/EOL规则；git archive不带submodule内容，README写锁定SHA与初始化方法。交付报告同时记录APK源码提交和后续报告提交，不把最新文档HEAD误当构建源码。
 
 最后更新PROGRESS/HANDOFF/MORNING、源码/evidence和手机清单并push；草稿说明链接最新交付报告，注明附件中的CI文档是源码时刻快照。手机、真实WC/Polygon、全部媒体/FPS、生产签名与许可仍是后续验收，绝不写“无bug”。精确RESUME以最新MORNING-REPORT为准，不重跑已完成CI。
+
+
+## 草稿说明最终同步（2026-11-24 22:40 +08）
+
+已通过owner登录页面更新草稿456815401说明，并独立API确认draft=true、target=7df8638619afcb06f6acbe8d09bd7a41fa5bfe36、11个附件及APK/源码digest不变。GitHub保存草稿会更换untagged临时入口；当前为[交付草稿](https://github.com/dxkon123/metamask-mobile/releases/tag/untagged-684d28d7a0b84b80be5f)。附件报告是CI源码时刻快照，最新状态以分支DELIVERY-REPORT/HANDOFF为准；未发布或删除任何产物。停点：交付完成，等待owner空钱包手机测试，继续时不重跑CI。

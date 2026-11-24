@@ -52,3 +52,8 @@ evidence/full-regression.json、related-validation.json、upstream-test-completi
 里程碑：已验证APK→手机反馈→私有仓库→完整flags/剩余品牌与自有服务→功能→许可与生产签名后的发行。
 
 精确恢复消息：继续。先读docs/PROGRESS.md、HANDOFF.md、MORNING-REPORT.md。45405350978的APK与源码已交付并独立验证，不重跑CI。根据手机反馈处理首个可复现问题；WAL/POL仍BLOCKED，私有仓库/完整flags/生产签名/许可未完成。每步更新并push，仅codex/petrocash-rebrand，永不main/secret/public Release。
+
+
+## 草稿说明最终同步（2026-11-24 22:40 +08）
+
+已通过owner登录页面更新草稿456815401说明，并独立API确认draft=true、target=7df8638619afcb06f6acbe8d09bd7a41fa5bfe36、11个附件及APK/源码digest不变。GitHub保存草稿会更换untagged临时入口；当前为[交付草稿](https://github.com/dxkon123/metamask-mobile/releases/tag/untagged-684d28d7a0b84b80be5f)。附件报告是CI源码时刻快照，最新状态以分支DELIVERY-REPORT/HANDOFF为准；未发布或删除任何产物。停点：交付完成，等待owner空钱包手机测试，继续时不重跑CI。
