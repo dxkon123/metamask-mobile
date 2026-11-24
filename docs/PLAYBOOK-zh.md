@@ -190,3 +190,7 @@ Jest suite绿勾不等于每个断言都执行。检查unit-results.json中的pe
 ## 完整回归与后续补充结果的计数
 
 45388166315是真正10分片完整单测（保留coverage）：5932套、90732断言、111快照PASS，另10skip+1todo。后续test-completion的2套229断言包含大量已跑过的断言，不能简单与90732相加声称独立覆盖增加229；它的意义是恢复3个漏跑项并证明两个修正文件无pending。云端scoped lint和完整TSC亦PASS。报告中写原完整run/补充run/各自源码SHA及仅测试差异，APK无需为这些测试文件重编译。
+
+## 长原生编译与GitHub日志可用性
+
+运行中job logs API的404 BlobNotFound与release创建403不同，不能混作权限问题。UI刷新并启用Show timestamps可核对最后真实输出时间；job in_progress或计时器变化不证明CPU仍在有效工作。先与已成功构建源码比较Android/lockfile/native脚本和资源设置，记录相同输入与未知点；没有资源或失败证据前不要贸然断言死锁或改安全/编译选项。保留当前运行，实际失败后按诊断修复，避免平行重复一小时任务。

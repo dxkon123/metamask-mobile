@@ -21,3 +21,7 @@
 ## 精确继续消息
 
 继续。先读docs/PROGRESS.md和HANDOFF.md。完整回归45388166315和补充测试45392919611已PASS，不重做。检查APK run45386233779/draft456690358，下载实际文件做SHA256/apksigner/aapt校验并交付链接；草稿失败用1天artifact。不要启动第二次原生编译。完成后更新三份记录和PLAYBOOK并push，仅codex/petrocash-rebrand，永不main/secret/public Release。
+
+## 原生长编译观察（2026-11-24 21:25 +08）
+
+当前45386233779仍in_progress；最新刷新并开启时间戳的日志停在12:52:08Z Kotlin/Java输出，暂无失败，无法读取实时CPU/资源来确认静默原因。git diff证明当前ce55与已成功编译的1c35在android/package.json/yarn.lock/.yarn/patches/scripts/build.sh/scripts/rebrand/build-android.ts完全无差异；workflow的8GB Metro、2 workers、native内存设置亦未改。不能从静默就判断品牌代码错误，也不能声称构建健康。暂保留同run，不取消或平行启动第二个一小时编译；继续等实际产物/错误。运行中job日志下载404 BlobNotFound，表示日志blob尚不可用，不是新的repo权限403。
