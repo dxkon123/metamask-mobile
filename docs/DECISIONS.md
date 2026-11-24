@@ -22,3 +22,7 @@
 ## Owner Option 1 / minimal flags
 
 Publish only 38 top-level boolean switches. Full snapshot stays local; add full flags after moving to a private repo. Preserve upstream fetch and object flag configuration/version/security gates. Public full snapshot upload was rejected by automatic approval; no bypass.
+
+## M3 / private delivery and runner recovery
+
+Direct native-job draft upload replaces public plaintext Actions APK/AAB artifacts. GitHub documents draft listings as push-access only: https://docs.github.com/en/rest/releases/releases#list-releases . Every create uses --draft; existing public releases are refused. Per-run/SHA draft tags avoid mixing provenance. M1 runner lost communication at Metro; serial prebundle is a resource-pressure mitigation, not a proven diagnosis. No lowering of security checks or feature removal.

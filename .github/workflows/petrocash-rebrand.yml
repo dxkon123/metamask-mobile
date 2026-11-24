@@ -17,12 +17,15 @@ jobs:
   android:
     if: github.repository == 'dxkon123/metamask-mobile' && github.ref == 'refs/heads/codex/petrocash-rebrand' && !contains(github.event.head_commit.message, '[docs-only]') && !contains(github.event.head_commit.message, '[checkpoint]')
     runs-on: ubuntu-24.04
+    permissions:
+      contents: write # Upload unpublished draft assets from this job only.
     timeout-minutes: 360
     defaults:
       run:
         shell: bash
     env:
       CI: 'true'
+      PETROCASH_PREBUNDLE_FIRST: 'true'
       METAMASK_BUILD_TYPE: main
       METAMASK_ENVIRONMENT: dev
       HAS_TEST_OVERRIDES: 'false'
@@ -137,7 +140,7 @@ jobs:
         id: build
         if: steps.setup.outcome == 'success' && steps.android_tools.outcome == 'success'
         continue-on-error: true
-        timeout-minutes: 180
+        timeout-minutes: 240
         env:
           MM_INFURA_PROJECT_ID: ${{ secrets.MM_INFURA_PROJECT_ID }}
           GOOGLE_SERVICES_B64_ANDROID: ${{ secrets.GOOGLE_SERVICES_B64_ANDROID }}
@@ -156,6 +159,10 @@ jobs:
           # main-dev uses the upstream test keystore; never request a production signer.
           # Release configuration bundles JS/Hermes and works without a Metro server.
           # No E2E wallet fixtures, auto-unlock, OAuth mocks or security bypasses.
+          # Process names/RSS only: no command arguments or environment values.
+          (while sleep 30; do date -u; free -m; ps -e -o pid,comm,rss --sort=-rss | head -n 10; done) > build/petro/logs/resource-monitor.log &
+          petro_monitor_pid=$!
+          trap 'kill "$petro_monitor_pid" 2>/dev/null || true' EXIT
           node scripts/rebrand/build-android.ts 2>&1 | tee build/petro/logs/android-build.log
 
       - name: Preserve Android lint and compiler diagnostics
@@ -186,14 +193,12 @@ jobs:
           node scripts/rebrand/record-artifacts.ts
           (cd build/petrocash && sha256sum PetroCASH-TEST-1.0.0.apk > SHA256SUMS.txt)
 
-      - name: Upload fast verification APK before AAB and long checks
+      - name: Save verified APK to a private draft before AAB and long checks
         if: steps.apk.outcome == 'success'
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
-        with:
-          name: petrocash-fast-apk-${{ github.sha }}
-          path: build/petrocash/
-          if-no-files-found: error
-          retention-days: 14
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: bash scripts/rebrand/publish-draft.sh build/petrocash
       - name: Build signed test Android App Bundle
         if: steps.apk.outcome == 'success'
         timeout-minutes: 60
@@ -219,37 +224,15 @@ jobs:
           cp docs/PLAYBOOK-zh.md build/petrocash/
           cd build/petrocash
           sha256sum PetroCASH-source.zip >> SHA256SUMS.txt
-      - name: Upload complete test delivery
+      - name: Save complete delivery to the same private draft
         if: steps.apk.outcome == 'success'
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
-        with:
-          name: petrocash-delivery-${{ github.sha }}
-          path: build/petrocash/
-          if-no-files-found: error
-          retention-days: 14
-      - name: Enforce verified APK outcome
-        if: always()
-        run: test '${{ steps.apk.outcome }}' = success
-
-  release-draft:
-    needs: android
-    runs-on: ubuntu-24.04
-    permissions:
-      contents: write
-      actions: read
-    steps:
-      - name: Create or update a private draft release, never publish
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
-        run: |
-          gh run download "$GITHUB_RUN_ID" --name 'petrocash-delivery-${{ github.sha }}' --dir release-files
-          if gh release view v1.0.0-rc.1 --json isDraft --jq .isDraft > draft-state.txt 2>/dev/null; then
-            test "$(cat draft-state.txt)" = true
-            gh release upload v1.0.0-rc.1 release-files/* --clobber
-          else
-            gh release create v1.0.0-rc.1 release-files/* --draft --target "$GITHUB_SHA" --title 'PetroCASH 1.0.0-rc.1 TEST — not production approved' --notes-file release-files/MORNING-REPORT.md
-          fi
+        run: bash scripts/rebrand/publish-draft.sh build/petrocash
+      - name: Enforce verified APK outcome
+        if: always()
+        run: test '${{ steps.apk.outcome }}' = success
 
   upstream-quality:
     name: Upstream ${{ matrix.kind }} ${{ matrix.shard }}

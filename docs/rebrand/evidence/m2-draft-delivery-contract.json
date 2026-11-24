@@ -1,0 +1,26 @@
+{
+  "scope": "Local mocked CLI boundary; not proof of real upload or install",
+  "cases": [
+    {
+      "case": "missing",
+      "exitCode": 0,
+      "uploads": 1,
+      "creates": 1,
+      "result": "PASS"
+    },
+    {
+      "case": "draft",
+      "exitCode": 0,
+      "uploads": 1,
+      "creates": 0,
+      "result": "PASS"
+    },
+    {
+      "case": "published",
+      "exitCode": 1,
+      "uploads": 0,
+      "creates": 0,
+      "result": "PASS"
+    }
+  ]
+}

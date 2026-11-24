@@ -43,6 +43,19 @@ const config = JSON.parse(readFileSync('brand/brand.config.json', 'utf8')) as {
   versionName: string;
   versionCode: number;
 };
+const minimalFlags: unknown = JSON.parse(
+  readFileSync('brand/feature-flags.minimal.json', 'utf8'),
+);
+if (
+  !minimalFlags ||
+  Array.isArray(minimalFlags) ||
+  typeof minimalFlags !== 'object' ||
+  Object.entries(minimalFlags).some(
+    ([name, value]) =>
+      !/^[A-Za-z0-9_]+$/u.test(name) || typeof value !== 'boolean',
+  )
+)
+  throw new Error('Public flags must contain feature names and booleans only');
 const gradle = readFileSync('android/app/build.gradle', 'utf8');
 if (
   !gradle.includes(`applicationId "${config.applicationId}"`) ||

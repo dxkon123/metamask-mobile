@@ -56,3 +56,11 @@ Mobile LICENSE只授予inspection/study，并明确限制未经同意修改、�
 - done (source): brand/feature-flags.minimal.json contains 38 top-level boolean switches only, no endpoints, keys, auth values or financial config. Runtime keeps upstream fetch and complex/version/security configuration. The minimal file is a reviewable build reference; object flags were not flattened into booleans.
 - todo: **add full flags after moving to a private repo**. Full snapshot stays local, never in the public repository; remove all credentials before any later private integration.
 - next: private draft-only binary delivery; inspect failed CI; protect paymentOptions/test IDs in text generator; continue animations and full verification.
+
+## M3 build correction / source ready
+
+Owner Option 1 commit: b55c4a1f83084e0fc1fa6d811d209eb8e2974bb6 (minimal booleans + exact checkpoint records).
+M1 failure confirmed in GitHub UI: "The hosted runner lost communication with the server" during Metro, not a captured compiler diagnostic. Logs API is 404; screenshot saved in outputs/PetroCASH/CI-M1-runner-error.png. Resource pressure is a hypothesis, not proven root cause.
+Changes: opt-in PETROCASH_PREBUNDLE_FIRST serializes Metro/Hermes before native tasks and releases their processes; same upstream heaps, ABIs, security checks and release tasks. Compile step 240 min, job 360 min. Native APK/AAB no longer use public Actions artifacts; publish-draft.sh uploads to unpublished per-run/per-commit draft and refuses any published release. APK goes first. Only the native job requests contents:write, GH_TOKEN is scoped to draft-upload steps, checkout credentials are not persisted. Quality evidence remains separate; no APK/AAB in those paths.
+Checks PASS: bash syntax; scoped script TypeScript with allowImportingTsExtensions (matches root config); source permission/protected-file guard; workflow structure (private native uploads, APK-first, ten unit shards); three mocked gh CLI boundary cases (new draft, existing draft, reject published release). These are not native-install or real-upload proof.
+Next: push this build correction and record new CI run. While native runs, review generator protocol/test ID exclusions and continue original animations. Full quality pending; WAL/POL blocked; public release/distribution remains forbidden.

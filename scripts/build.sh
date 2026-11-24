@@ -437,7 +437,12 @@ generateAndroidBinary() {
 
 	# Generate Android APKs
 	echo "Generating Android binary for ($flavor) flavor with ($configuration) configuration"
-	./gradlew "${gradleInitScriptArg[@]}" $assembleApkTask $assembleTestApkTask $testBuildTypeArg $reactNativeArchitecturesArg $gradleLoggingFlags $exUpdatesArgs
+	# Optional fork CI scheduling: finish Metro/Hermes and release its process
+	# before the native compiler/R8 graph. Keep the same release tasks and checks.
+	if [ "${PETROCASH_PREBUNDLE_FIRST:-false}" = "true" ] && [ "$configuration" = "Release" ]; then
+		./gradlew "${gradleInitScriptArg[@]}" "app:createBundle${flavor}${configuration}JsAndAssets" --no-daemon || return $?
+	fi
+	./gradlew "${gradleInitScriptArg[@]}" $assembleApkTask $assembleTestApkTask $testBuildTypeArg $reactNativeArchitecturesArg $gradleLoggingFlags $exUpdatesArgs || return $?
 
 	# Only build the AAB for production (Play Store distribution).
 	# All non-prod environments (rc, beta, exp, test, e2e, dev) skip the AAB to
