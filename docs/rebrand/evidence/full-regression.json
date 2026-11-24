@@ -1,0 +1,297 @@
+{
+  "date": "2026-11-24",
+  "runId": 45388166315,
+  "url": "https://github.com/dxkon123/metamask-mobile/actions/runs/45388166315",
+  "sourceCommit": "4354564ab2c279fb6aa5744de07102bc6cde58ac",
+  "apkSourceCommit": "ce55e77174ca5128c19c98868a9defe86f47c684",
+  "runtimeAndDependencyTreesIdentical": true,
+  "unitScope": "full; original coverage enabled; ten shards",
+  "lint": "4/4 PASS",
+  "typecheck": "PASS",
+  "totals": {
+    "suites": {
+      "passed": 5932,
+      "failed": 0,
+      "skipped": 0,
+      "todo": 0,
+      "total": 5932
+    },
+    "assertions": {
+      "passed": 90732,
+      "failed": 0,
+      "skipped": 10,
+      "todo": 1,
+      "total": 90743
+    },
+    "snapshots": {
+      "passed": 111,
+      "failed": 0,
+      "skipped": 0,
+      "todo": 0,
+      "total": 111
+    }
+  },
+  "shards": [
+    {
+      "jobId": 138424471884,
+      "name": "Upstream unit 2",
+      "conclusion": "success",
+      "suites": {
+        "passed": 594,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 594
+      },
+      "assertions": {
+        "passed": 8502,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 8502
+      },
+      "snapshots": {
+        "passed": 15,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 15
+      }
+    },
+    {
+      "jobId": 138424472014,
+      "name": "Upstream unit 3",
+      "conclusion": "success",
+      "suites": {
+        "passed": 593,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 593
+      },
+      "assertions": {
+        "passed": 9856,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 9856
+      },
+      "snapshots": {
+        "passed": 9,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 9
+      }
+    },
+    {
+      "jobId": 138424472036,
+      "name": "Upstream unit 7",
+      "conclusion": "success",
+      "suites": {
+        "passed": 593,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 593
+      },
+      "assertions": {
+        "passed": 10124,
+        "failed": 0,
+        "skipped": 3,
+        "todo": 0,
+        "total": 10127
+      },
+      "snapshots": {
+        "passed": 14,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 14
+      }
+    },
+    {
+      "jobId": 138424472040,
+      "name": "Upstream unit 1",
+      "conclusion": "success",
+      "suites": {
+        "passed": 594,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 594
+      },
+      "assertions": {
+        "passed": 8824,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 8824
+      },
+      "snapshots": {
+        "passed": 9,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 9
+      }
+    },
+    {
+      "jobId": 138424472047,
+      "name": "Upstream unit 4",
+      "conclusion": "success",
+      "suites": {
+        "passed": 593,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 593
+      },
+      "assertions": {
+        "passed": 8741,
+        "failed": 0,
+        "skipped": 2,
+        "todo": 0,
+        "total": 8743
+      },
+      "snapshots": {
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 7
+      }
+    },
+    {
+      "jobId": 138424472062,
+      "name": "Upstream unit 8",
+      "conclusion": "success",
+      "suites": {
+        "passed": 593,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 593
+      },
+      "assertions": {
+        "passed": 10027,
+        "failed": 0,
+        "skipped": 1,
+        "todo": 0,
+        "total": 10028
+      },
+      "snapshots": {
+        "passed": 9,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 9
+      }
+    },
+    {
+      "jobId": 138424472091,
+      "name": "Upstream unit 9",
+      "conclusion": "success",
+      "suites": {
+        "passed": 593,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 593
+      },
+      "assertions": {
+        "passed": 8930,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 8930
+      },
+      "snapshots": {
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 3
+      }
+    },
+    {
+      "jobId": 138424472123,
+      "name": "Upstream unit 6",
+      "conclusion": "success",
+      "suites": {
+        "passed": 593,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 593
+      },
+      "assertions": {
+        "passed": 8642,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 8642
+      },
+      "snapshots": {
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 7
+      }
+    },
+    {
+      "jobId": 138424472131,
+      "name": "Upstream unit 10",
+      "conclusion": "success",
+      "suites": {
+        "passed": 593,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 593
+      },
+      "assertions": {
+        "passed": 9644,
+        "failed": 0,
+        "skipped": 4,
+        "todo": 0,
+        "total": 9648
+      },
+      "snapshots": {
+        "passed": 25,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 25
+      }
+    },
+    {
+      "jobId": 138424472148,
+      "name": "Upstream unit 5",
+      "conclusion": "success",
+      "suites": {
+        "passed": 593,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 593
+      },
+      "assertions": {
+        "passed": 7442,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 1,
+        "total": 7443
+      },
+      "snapshots": {
+        "passed": 13,
+        "failed": 0,
+        "skipped": 0,
+        "todo": 0,
+        "total": 13
+      }
+    }
+  ],
+  "limitation": "10 upstream skipped assertions and one upstream todo are not executed passes; three skipped assertions have subsequent test-only correction locally 2 suites/229 assertions PASS, cloud confirmation pending. WAL/POL and phone acceptance remain BLOCKED."
+}

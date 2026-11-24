@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-24",
+  "command": "yarn jest --runTestsByPath app/util/number/bigint.test.ts app/components/UI/Bridge/hooks/useTrackBatchSellQuotePageViewed/index.test.ts --runInBand --coverage=false --forceExit",
+  "suites": 2,
+  "assertions": 229,
+  "failed": 0,
+  "pending": 0,
+  "todo": 0,
+  "success": true,
+  "change": "Remove upstream it.only; replace skipped global-default assumption with fresh-module-registry non-mutation test",
+  "runtimeChanges": "none",
+  "cloud": "pending"
+}

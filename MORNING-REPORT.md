@@ -51,3 +51,15 @@ run45386233779 / source ce55e77174ca5128c19c98868a9defe86f47c684：完整4lint P
 精确ce55源码ZIP已生成到outputs/PetroCASH/PetroCASH-source-ce55e771.zip；SHA256 e33ed1647df8dc571cb1296caa54523e099d915a91ce1fce613c95de933a6742，110202494 bytes，19466个tracked blob逐项一致；Git archive不含ios/branch-ios-sdk submodule内容（锁定615267ea0b44bc3be657b84fbc9ff7c86688fa58），README已说明。未含owner私钥/密码/full flags路径；源码可从分支按精确SHA克隆。手机清单已复制outputs。
 
 新增docs/rebrand/SECURITY-REVIEW.md：官方三GHSA补丁范围复核。proxy-addr2.0.8、shell-quote1.11/1.12候选；tar7.5.19已覆盖7.x，但工具链仍有tar6.2.1，不能沿用audit0critical称全部关闭。当前native上传白名单不含source-map路径报告，不能以sourceCount或APK字符串未命中伪造新bundle排除证明。此检查点不改App/依赖，不重启编译。
+
+## 上游测试遗漏修复（不改运行时）
+
+完整回归已完成的结果含上游原有pending：Bridge useTrackBatchSellQuotePageViewed文件it.only使另外2项未跑；BigNumber全局隔离原it.skip使1项未跑。两文件在upstream与ce55的blob一致，确认不是本次新增跳过。现在移除only，用jest.isolateModulesAsync在新模块registry加载BigNumber/bigint并比较整个配置，恢复原防全局污染断言，不改BigNumber运行时代码或改20为36来掩盖问题。明确--runTestsByPath本地2套229断言全PASS，0pending/0todo；Prettier PASS。
+
+Mac4GB heap即使只lint两个文件仍因typed lint载入全项目OOM，不当作lint规则失败、不反复加压重跑。新增同一PetroCASH workflow内[test-completion]只读job，跑这2文件、scoped ESLint和完整TSC；[checkpoint]确保没有新Android编译。上游另外7项显式skip（Earn4/BridgeView1/Perps E2E helper2）与本次品牌/交付无关，保留原样并如实报告，不将它们计为已执行通过。应用运行时/Android/依赖仍与正在构建的ce55相同；只有测试、workflow和记录变化。
+
+## 完整回归已结束（不是相关套件替代）
+
+run45388166315 / source4354564ab2c279fb6aa5744de07102bc6cde58ac：4/4完整lint PASS，完整TSC PASS，10/10完整unit分片PASS，5932套PASS/0FAIL、90732断言PASS/0FAIL、111快照PASS。原覆盖收集保留。另有上游10 skipped +1 todo，未计入PASS；其中Bridge only遗漏2项及BigNumber skip1项已用两文件修正重跑229断言全PASS，云端[test-completion]待确认。其余7显式skip和FadeInView的1todo保留原上游状态，不称零跳过或真机通过。详细逐分片计数见docs/rebrand/evidence/full-regression.json。
+
+当前只待新APK原生编译/保存/本地独立复核以及测试文件修正的云端lint/type确认。源码与依赖运行时没有新修改，不重新编译Android。

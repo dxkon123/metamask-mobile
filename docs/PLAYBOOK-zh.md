@@ -182,3 +182,7 @@ versionName改1.0.0后，react-native-device-info.getVersion也返回新版本�
 ## audit零计数与多版本依赖坑
 
 同名包可能同时安装多个major；yarn why tar显示7.5.19和6.2.1时，不能因7.x升级或audit快照0critical就称全部修复。对照官方受影响范围逐个版本核对，旧工具major兼容升级/回移需专门测试。Segment包声明shell-quote为dependencies不证明它进入Metro，反过来工具用途也不能替代新source-map排除证据。git archive忽略submodule内容：对照git ls-tree要区分160000与blob，并给出submodule锁定SHA/初始化说明，不能错误声称ZIP含所有递归源码。
+
+## 单测绿勾仍需核对pending与focused
+
+Jest suite绿勾不等于每个断言都执行。检查unit-results.json中的pending以及suite status=focused，再找it.only/it.skip。此上游版本含一个it.only，导致同文件2测试未跑；移除后明确runTestsByPath重测。全局BigNumber默认值被Jest setup旧模块改过时，隔离模块registry测试新模块是否改变原配置，不删除安全断言或把预期20随意改36。新修复只在测试文件，不能误触发一小时Android重编译。已有其他upstream skip单独列出，不虚称0skip。Mac typed lint即使两个文件仍可能加载整个类型图并OOM；云端足够内存跑scoped lint，不能以退出134充当代码规则失败。

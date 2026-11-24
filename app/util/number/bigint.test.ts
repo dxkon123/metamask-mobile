@@ -66,16 +66,18 @@ describe('Number utils :: bigIntToHex', () => {
 });
 
 describe('BigNumber global isolation', () => {
-  // Skipped: the legacy `app/util/number/index.js` mutates the global
-  // `BigNumber` class with `BigNumber.config({ DECIMAL_PLACES: 36 })` at
-  // module load. That module is transitively imported by Jest setup, so by
-  // the time this test runs the global default is already 36 — the test
-  // would fail through no fault of `bigint.ts` (which uses
-  // `BigNumber.clone(...)` and does NOT mutate the parent).
-  // Re-enable once the legacy `index.js` is removed.
-  // eslint-disable-next-line jest/no-disabled-tests
-  it.skip('does not mutate the global BigNumber DECIMAL_PLACES default', () => {
-    expect(BigNumber.config().DECIMAL_PLACES).toBe(20);
+  it('preserves the shared BigNumber default when loading bigint utilities', async () => {
+    // Jest setup loads the legacy number/index.js, which changes the shared
+    // constructor. Use a fresh module registry to test bigint.ts in isolation.
+    await jest.isolateModulesAsync(async () => {
+      const { default: isolatedBigNumber } = await import('bignumber.js');
+      const originalConfig = isolatedBigNumber.config();
+      expect(originalConfig.DECIMAL_PLACES).toBe(20);
+
+      await import('./bigint');
+
+      expect(isolatedBigNumber.config()).toEqual(originalConfig);
+    });
   });
 });
 

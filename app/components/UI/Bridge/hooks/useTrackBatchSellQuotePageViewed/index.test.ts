@@ -178,7 +178,7 @@ describe('useTrackBatchSellQuotePageViewed', () => {
     ).toHaveBeenCalledTimes(1);
   });
 
-  it.only('adds a USD placeholder when a selected token is missing a quote', async () => {
+  it('adds a USD placeholder when a selected token is missing a quote', async () => {
     renderHookWithProvider(() =>
       useTrackBatchSellQuotePageViewed({
         batchSellSlippages: {

@@ -399,4 +399,83 @@ jobs:
           PETRO_CHECK_OUTCOME: ${{ steps.check.outcome }}
         run: test "$PETRO_CHECK_OUTCOME" = success
 
+  test-completion:
+    name: Verify upstream test completion
+    if: github.repository == 'dxkon123/metamask-mobile' && github.ref == 'refs/heads/codex/petrocash-rebrand' && contains(github.event.head_commit.message, '[test-completion]')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    defaults:
+      run:
+        shell: bash
+    env:
+      CI: 'true'
+      METAMASK_ENVIRONMENT: test
+      NODE_OPTIONS: --max-old-space-size=12288
+    steps:
+      - name: Checkout exact test correction
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Configure upstream Node version
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version-file: .nvmrc
+      - name: Enable Yarn and verify protected source
+        run: |
+          corepack enable
+          node scripts/rebrand/verify.ts
+          mkdir -p build/petro/test-completion
+      - name: Restore immutable dependency cache
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6
+        with:
+          path: .yarn/cache
+          key: petro-yarn-${{ runner.os }}-${{ hashFiles('.nvmrc', 'yarn.lock', '.yarnrc.yml', '.yarn/patches/**') }}
+      - name: Install and prepare JavaScript CI dependencies
+        run: |
+          yarn install --immutable
+          export PATH="$PWD/node_modules/.bin:$PATH"
+          node scripts/setup.mjs --build-on-github-ci --node --no-build-ios --no-build-android
+          sudo fallocate -l 8G "$RUNNER_TEMP/petro-test-completion.swap"
+          sudo chmod 600 "$RUNNER_TEMP/petro-test-completion.swap"
+          sudo mkswap "$RUNNER_TEMP/petro-test-completion.swap"
+          sudo swapon "$RUNNER_TEMP/petro-test-completion.swap"
+      - name: Run both corrected files without only or skipped assertions
+        id: unit
+        continue-on-error: true
+        timeout-minutes: 10
+        run: |
+          set -o pipefail
+          yarn jest --runTestsByPath app/util/number/bigint.test.ts app/components/UI/Bridge/hooks/useTrackBatchSellQuotePageViewed/index.test.ts --runInBand --ci --watchman=false --forceExit --coverage=false --json --outputFile=build/petro/test-completion/unit-results.json 2>&1 | tee build/petro/test-completion/unit.log
+          node -e 'const r = require("./build/petro/test-completion/unit-results.json"); if (!r.success || r.numPendingTests || r.numTodoTests || r.numFailedTests || r.numTotalTestSuites !== 2) process.exit(1);'
+      - name: Lint both corrected test files
+        id: lint
+        continue-on-error: true
+        timeout-minutes: 15
+        run: |
+          set -o pipefail
+          yarn eslint app/util/number/bigint.test.ts app/components/UI/Bridge/hooks/useTrackBatchSellQuotePageViewed/index.test.ts 2>&1 | tee build/petro/test-completion/lint.log
+      - name: Run complete TypeScript check after test correction
+        id: typecheck
+        continue-on-error: true
+        timeout-minutes: 15
+        run: |
+          set -o pipefail
+          yarn lint:tsc 2>&1 | tee build/petro/test-completion/typecheck.log
+      - name: Preserve test completion evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: petrocash-test-completion-${{ github.sha }}
+          path: build/petro/test-completion/
+          if-no-files-found: error
+          retention-days: 14
+      - name: Enforce all test completion checks
+        if: always()
+        run: |
+          test '${{ steps.unit.outcome }}' = success
+          test '${{ steps.lint.outcome }}' = success
+          test '${{ steps.typecheck.outcome }}' = success
+
 # Full-regression checkpoints validate the same application tree without another native build.

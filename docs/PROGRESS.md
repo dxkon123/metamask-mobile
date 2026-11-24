@@ -6,7 +6,7 @@
 
 1. 小交付探测 **45382420486** 已完成：草稿创建/上传/下载比较/删除 PASS；1天 artifact PASS，勿重做。
 2. 当前 APK 源码 **ce55e77174ca5128c19c98868a9defe86f47c684**，run **45386233779**，native job **138421900226**。完整4 lint、TSC、62套相关测试/1643断言全部 PASS；编译前交付预检 PASS，未发布草稿 **456690358** 已建立。原生编译进行中，不要重启旧运行。
-3. 完整回归 **45388166315**，source **4354564ab2c279fb6aa5744de07102bc6cde58ac**；checkpoint不会再编译Android。它与ce55的app/android/ios/locales/package/lockfile/品牌及脚本树完全相同，仅报告和workflow注释变化。完整unit尚未结束，不能写全量PASS。
+3. 完整回归 **45388166315**，source **4354564ab2c279fb6aa5744de07102bc6cde58ac**；checkpoint不会再编译Android。它与ce55的app/android/ios/locales/package/lockfile/品牌及脚本树完全相同，仅报告和workflow注释变化。完整unit已结束：5932套PASS，90732断言PASS，10上游skipped/1todo另列，详见末尾当前结果。
 4. APK上传后立刻下载到outputs/PetroCASH，用Google官方Build Tools独立复核SHA256、包名org.petrocash.wallet、1.0.0/1、签名和bundle/字体；上传草稿失败才用1天artifact后备。不要等待AAB才保存或验证APK。
 5. 完整回归有失败就查真实诊断，局部重测明确--runTestsByPath；不跳过。真机安装、WAL/POL、所有动画目视仍未执行，不能称无bug。
 
@@ -22,7 +22,7 @@
 | APK编译/验证 | 新候选编译中 | run45386233779/sourcece55e771；旧45367200108文件丢失 | 等待当前编译、先保存APK、独立校验 |
 | 草稿与后备通道 | done真实探测 | run45382420486，412735fc；draft上传/下载校对/清理PASS；1天artifactPASS | 新构建使用相同源码/触发/targetSHA，草稿失败自动后备 |
 | 全量lint/TSC | PASS当前候选 | run45386233779，4lint与TSC全PASS | 完整回归run45388166315同时复核 |
-| 全量单测 | in progress | run45388166315；相关62套1643断言已PASS | 记录完整10分片真实结果，失败不跳过 |
+| 全量单测 | PASS，保留上游未执行项 | run45388166315：5932套/90732断言PASS；10skip+1todo未计PASS | 另验3项测试遗漏修正；其余7skip/1todo开放记录 |
 | 最小flags/telemetry | done已授权部分 | 38布尔，仅参考；上游运行时fetch保留；OTA关闭/WCtelemetry false/Segment无key不初始化 | **add full flags after moving to a private repo**；完整snapshot仅本地 |
 | 3 critical补丁 | candidate已安装，非生产关闭 | proxy-addr2.0.8/shell-quote1.11.0/tar7.5.19；audit0critical/24high/22moderate | 回归/新APK可达性核验 |
 | 签名 | TEST | CI公用证书6f9f444a…ecf9；本地新私钥未接入 | 不显示/提交钥匙密码；生产需owner签名配置 |
@@ -81,3 +81,15 @@ run45386233779 / source ce55e77174ca5128c19c98868a9defe86f47c684：完整4lint P
 精确ce55源码ZIP已生成到outputs/PetroCASH/PetroCASH-source-ce55e771.zip；SHA256 e33ed1647df8dc571cb1296caa54523e099d915a91ce1fce613c95de933a6742，110202494 bytes，19466个tracked blob逐项一致；Git archive不含ios/branch-ios-sdk submodule内容（锁定615267ea0b44bc3be657b84fbc9ff7c86688fa58），README已说明。未含owner私钥/密码/full flags路径；源码可从分支按精确SHA克隆。手机清单已复制outputs。
 
 新增docs/rebrand/SECURITY-REVIEW.md：官方三GHSA补丁范围复核。proxy-addr2.0.8、shell-quote1.11/1.12候选；tar7.5.19已覆盖7.x，但工具链仍有tar6.2.1，不能沿用audit0critical称全部关闭。当前native上传白名单不含source-map路径报告，不能以sourceCount或APK字符串未命中伪造新bundle排除证明。此检查点不改App/依赖，不重启编译。
+
+## 上游测试遗漏修复（不改运行时）
+
+完整回归已完成的结果含上游原有pending：Bridge useTrackBatchSellQuotePageViewed文件it.only使另外2项未跑；BigNumber全局隔离原it.skip使1项未跑。两文件在upstream与ce55的blob一致，确认不是本次新增跳过。现在移除only，用jest.isolateModulesAsync在新模块registry加载BigNumber/bigint并比较整个配置，恢复原防全局污染断言，不改BigNumber运行时代码或改20为36来掩盖问题。明确--runTestsByPath本地2套229断言全PASS，0pending/0todo；Prettier PASS。
+
+Mac4GB heap即使只lint两个文件仍因typed lint载入全项目OOM，不当作lint规则失败、不反复加压重跑。新增同一PetroCASH workflow内[test-completion]只读job，跑这2文件、scoped ESLint和完整TSC；[checkpoint]确保没有新Android编译。上游另外7项显式skip（Earn4/BridgeView1/Perps E2E helper2）与本次品牌/交付无关，保留原样并如实报告，不将它们计为已执行通过。应用运行时/Android/依赖仍与正在构建的ce55相同；只有测试、workflow和记录变化。
+
+## 完整回归已结束（不是相关套件替代）
+
+run45388166315 / source4354564ab2c279fb6aa5744de07102bc6cde58ac：4/4完整lint PASS，完整TSC PASS，10/10完整unit分片PASS，5932套PASS/0FAIL、90732断言PASS/0FAIL、111快照PASS。原覆盖收集保留。另有上游10 skipped +1 todo，未计入PASS；其中Bridge only遗漏2项及BigNumber skip1项已用两文件修正重跑229断言全PASS，云端[test-completion]待确认。其余7显式skip和FadeInView的1todo保留原上游状态，不称零跳过或真机通过。详细逐分片计数见docs/rebrand/evidence/full-regression.json。
+
+当前只待新APK原生编译/保存/本地独立复核以及测试文件修正的云端lint/type确认。源码与依赖运行时没有新修改，不重新编译Android。
