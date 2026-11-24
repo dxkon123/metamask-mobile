@@ -27,6 +27,7 @@ jobs:
     env:
       CI: 'true'
       PETROCASH_PREBUNDLE_FIRST: 'true'
+      PETROCASH_FAST_TEST: ${{ contains(github.event.head_commit.message, '[android-recovery]') && 'true' || 'false' }}
       METAMASK_BUILD_TYPE: main
       METAMASK_ENVIRONMENT: dev
       HAS_TEST_OVERRIDES: 'false'
@@ -82,6 +83,14 @@ jobs:
           printf 'Source commit: %s\nAPK is not available until validation completes.\n' "$GITHUB_SHA" > build/delivery-preflight/preflight.txt
           bash scripts/rebrand/publish-draft.sh build/delivery-preflight
 
+      - name: Reclaim disposable runner disk before recovery dependencies
+        if: env.PETROCASH_FAST_TEST == 'true'
+        run: |
+          df -h
+          # Disposable GitHub VM only; preserve Android, Java, Node and project files.
+          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/share/boost /opt/hostedtoolcache/CodeQL
+          df -h
+
       - name: Restore lockfile-scoped Yarn download cache
         uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6
         with:
@@ -134,8 +143,8 @@ jobs:
           if [ "$(df --output=avail -B1 "$RUNNER_TEMP" | tail -1)" -lt 38654705664 ]; then
             sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/share/boost /opt/hostedtoolcache/CodeQL
           fi
-          # Upstream builds use larger runners. Supply virtual memory without
-          # changing app features, architecture selection, R8 or security checks.
+          # Supply virtual memory before compiling. Recovery ABI/R8 choices below
+          # are explicitly authorized test-only settings; security checks remain.
           sudo fallocate -l 16G "$RUNNER_TEMP/petro-build.swap"
           sudo chmod 600 "$RUNNER_TEMP/petro-build.swap"
           sudo mkswap "$RUNNER_TEMP/petro-build.swap"
@@ -149,6 +158,10 @@ jobs:
           org.gradle.logging.stacktrace=all
           kotlin.daemon.jvmargs=-Xmx2g -XX:MaxMetaspaceSize=1g -XX:+UseG1GC -XX:+ExitOnOutOfMemoryError
           PROPERTIES
+          if [ "$PETROCASH_FAST_TEST" = true ]; then
+            printf '\nreactNativeArchitectures=arm64-v8a\npetrocashFastTest=true\n' >> "$RUNNER_TEMP/petro-gradle/gradle.properties"
+            echo 'Recovery TEST profile: arm64-v8a only, R8 disabled, release signing/Hermes retained.'
+          fi
           echo "GRADLE_USER_HOME=$RUNNER_TEMP/petro-gradle" >> "$GITHUB_ENV"
           free -h | tee -a build/petro/logs/runner-resources.log
           df -h . | tee -a build/petro/logs/runner-resources.log
@@ -176,8 +189,13 @@ jobs:
           # main-dev uses the upstream test keystore; never request a production signer.
           # Release configuration bundles JS/Hermes and works without a Metro server.
           # No E2E wallet fixtures, auto-unlock, OAuth mocks or security bypasses.
-          # Process names/RSS only: no command arguments or environment values.
-          (while sleep 30; do date -u; free -m; ps -e -o pid,comm,rss --sort=-rss | head -n 10; done) > build/petro/logs/resource-monitor.log &
+          # Public resource data only; never print environment or command arguments.
+          (
+            while true; do
+              { echo 'PetroCASH build heartbeat'; date -u; free -m; uptime; df -h; } | tee -a build/petro/logs/resource-monitor.log
+              sleep 300
+            done
+          ) &
           petro_monitor_pid=$!
           trap 'kill "$petro_monitor_pid" 2>/dev/null || true' EXIT
           node scripts/rebrand/build-android.ts 2>&1 | tee build/petro/logs/android-build.log
@@ -207,6 +225,10 @@ jobs:
           cp "$APK" build/petrocash/PetroCASH-TEST-1.0.0.apk
           cp build/petro/reports/apk-badging.txt build/petrocash/apk-badging.txt
           cp build/petro/logs/apk-signature.log build/petrocash/apk-signature.txt
+          if [ "$PETROCASH_FAST_TEST" = true ]; then
+            grep -F 'PetroCASH TEST recovery: R8 disabled' build/petro/logs/android-build.log
+            test ! -f android/app/build/outputs/mapping/prodRelease/mapping.txt
+          fi
           node scripts/rebrand/record-artifacts.ts
           (cd build/petrocash && sha256sum PetroCASH-TEST-1.0.0.apk > SHA256SUMS.txt)
 
@@ -235,7 +257,7 @@ jobs:
           retention-days: 1
           if-no-files-found: error
       - name: Build signed test Android App Bundle
-        if: steps.apk.outcome == 'success'
+        if: steps.apk.outcome == 'success' && env.PETROCASH_FAST_TEST != 'true'
         timeout-minutes: 60
         env:
           MM_INFURA_PROJECT_ID: ${{ secrets.MM_INFURA_PROJECT_ID }}
@@ -259,6 +281,12 @@ jobs:
           cp docs/PLAYBOOK-zh.md build/petrocash/
           cd build/petrocash
           sha256sum PetroCASH-source.zip >> SHA256SUMS.txt
+      - name: Save recovery source and handoff without waiting for an AAB
+        if: steps.apk.outcome == 'success' && env.PETROCASH_FAST_TEST == 'true'
+        run: |
+          git archive --format=zip --output=build/petrocash/PetroCASH-source.zip HEAD
+          cp MORNING-REPORT.md docs/PLAYBOOK-zh.md docs/rebrand/PHONE-CHECKLIST-zh.md build/petrocash/
+          (cd build/petrocash && sha256sum PetroCASH-source.zip >> SHA256SUMS.txt)
       - name: Save complete delivery to the same private draft
         continue-on-error: true
         timeout-minutes: 5

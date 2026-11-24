@@ -2,12 +2,13 @@
 
 更新：2026-11-24 20:30 +08。只用 codex/petrocash-rebrand，禁止main。每步完成更新本文件/HANDOFF/MORNING并commit/push；约30分钟内保存，长等待前先push。旧轮次记录在Git历史，不把旧FAIL当当前状态。
 
-## 当前继续点
+## 当前继续点（owner于21:32更新方案）
 
-1. **只等待当前APK，不重新编译**：run [45386233779](https://github.com/dxkon123/metamask-mobile/actions/runs/45386233779)，source **ce55e77174ca5128c19c98868a9defe86f47c684**，native job138421900226。其4lint/TSC/62相关套件1643断言PASS，编译前private delivery preflight PASS。
-2. 当前native正在4 ABI CMake编译（UI已见app arm64完成、armeabi-v7a进行）；暂无新APK/hash/下载链接。既有未发布draft **456690358**，tag study-45386233779-ce55e77174ca，目前仅preflight.txt。同run优先上传APK；草稿失败自动保留1天APK artifact，在AAB之前完成。不能把预检文件当APK交付。
-3. APK出现后立刻下载到outputs/PetroCASH，独立SHA256、Google apksigner/aapt、包名org.petrocash.wallet、1.0.0/code1、签名、JS bundle/字体/merged permissions/provider复核，再给真实下载链接。无需等AAB才保存APK。
-4. 完整检查已PASS，见下表；上游未执行项另列，不称全部assertion执行或无bug。源码/依赖运行时仍与ce55相同，后续只有2个测试文件、workflow和文档变化。
+1. 保留原run **45386233779**（sourcece55，四ABI/R8开），不取消。原生输入与上次成功版本相同；本轮超出旧63m46s，日志12:52:08Z后静默，资源受阻是推测，未证明根因。
+2. **立即并行启动一次[android-recovery]提交**：仅android job，复用已PASS的完整与补充质量证据；仅arm64-v8a、TEST dev环境关闭R8，Hermes/Release/公用测试签名保持。正式版默认四ABI/R8开；fast属性若在非dev使用会直接拒绝。
+3. 新job先清理一次性GitHub VM无关工具，再以16GB swap/Gradle8GB/Kotlin2GB/2workers编译。后台每300秒向日志打印date -u、free -m、uptime、df -h，资源输出不含环境值或命令参数。
+4. 两轮哪个先成功生成并保存APK就验证哪个：下载、SHA256、aapt org.petrocash.wallet/1.0.0(1)、apksigner、公用证书、ABI与权限。验证交付可用后取消另一轮。不能把preflight当APK或在验证前取消备用。
+5. 新恢复模式不跑质量matrix或AAB；APK仍先private draft保存，失败才1天artifact后备；之后补源码ZIP。新metadata保存无sourceContents/配置值的bundled module摘要，避免再丢排除证据。新run ID/提交在push触发后补记，原run仍继续。
 
 | 项目 | 状态 | 证据/提交/运行 | 下一具体动作 |
 | --- | --- | --- | --- |
@@ -60,3 +61,9 @@ Workflow .github/workflows/petrocash-rebrand.yml；小探测petrocash-delivery-p
 ## 原生长编译观察（2026-11-24 21:25 +08）
 
 当前45386233779仍in_progress；最新刷新并开启时间戳的日志停在12:52:08Z Kotlin/Java输出，暂无失败，无法读取实时CPU/资源来确认静默原因。git diff证明当前ce55与已成功编译的1c35在android/package.json/yarn.lock/.yarn/patches/scripts/build.sh/scripts/rebrand/build-android.ts完全无差异；workflow的8GB Metro、2 workers、native内存设置亦未改。不能从静默就判断品牌代码错误，也不能声称构建健康。暂保留同run，不取消或平行启动第二个一小时编译；继续等实际产物/错误。运行中job日志下载404 BlobNotFound，表示日志blob尚不可用，不是新的repo权限403。
+
+## Owner批准并行恢复构建（2026-11-24 21:36 +08；优先于此前“只等待”）
+
+保留45386233779，同时新[android-recovery]仅android、不重跑已PASS的质量检查；arm64-v8a，dev TEST关闭R8，正式默认保持R8。job加入显式早期磁盘清理、构建前16GB swap与5分钟stdout资源心跳。完整源码/锁文件/原生脚本相同但本轮过长且12:52:08Z后无输出，资源卡住仅为待证假设；heartbeat用于区分耗时与停滞。两轮哪个先保存并验证APK就用哪个，之后取消另一轮。新模式跳过AAB，APK优先；包名/签名/身份检查及1天后备保留。
+
+本地验证：workflow YAML+29段bash -n PASS；metadata4个fixture（合法arm64、拒绝额外ABI、拒绝错包名、默认R8 metadata）PASS。未重复Jest/TSC/lint；仅构建配置和public metadata变更，无app运行时/密钥/审批修改。new metadata保存同build的module count/3包匹配摘要（不含sourceContents或全量sources），解决原报告只留runner的问题。最终仍需实际APK验证。

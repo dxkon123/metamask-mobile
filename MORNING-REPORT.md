@@ -1,5 +1,11 @@
 # PetroCASH 当前交接报告
 
+## Owner批准并行恢复构建（2026-11-24 21:36 +08；优先于此前“只等待”）
+
+保留45386233779，同时新[android-recovery]仅android、不重跑已PASS的质量检查；arm64-v8a，dev TEST关闭R8，正式默认保持R8。job加入显式早期磁盘清理、构建前16GB swap与5分钟stdout资源心跳。完整源码/锁文件/原生脚本相同但本轮过长且12:52:08Z后无输出，资源卡住仅为待证假设；heartbeat用于区分耗时与停滞。两轮哪个先保存并验证APK就用哪个，之后取消另一轮。新模式跳过AAB，APK优先；包名/签名/身份检查及1天后备保留。
+
+本地验证：workflow YAML+29段bash -n PASS；metadata4个fixture（合法arm64、拒绝额外ABI、拒绝错包名、默认R8 metadata）PASS。未重复Jest/TSC/lint；仅构建配置和public metadata变更，无app运行时/密钥/审批修改。new metadata保存同build的module count/3包匹配摘要（不含sourceContents或全量sources），解决原报告只留runner的问题。最终仍需实际APK验证。
+
 更新：2026-11-24 20:30 +08。分支codex/petrocash-rebrand；所有完成的改动已通过分支checkpoint保存，永不main。
 
 ## 已完成

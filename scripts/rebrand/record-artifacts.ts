@@ -23,12 +23,31 @@ if (
 const signature = readFileSync('build/petrocash/apk-signature.txt', 'utf8');
 const cert = signature.match(/certificate SHA-256 digest: ([a-f\d]+)/u)?.[1];
 if (!cert) throw new Error('APK signer fingerprint missing');
-const files = [apk, aab]
-  .filter(existsSync)
-  .map((path) => ({
-    path: path.split('/').pop(),
-    sha256: createHash('sha256').update(readFileSync(path)).digest('hex'),
-  }));
+const architectures = [
+  ...(badging.match(/^native-code: (.+)$/mu)?.[1] ?? '').matchAll(
+    /'([^']+)'/gu,
+  ),
+].map((value) => value[1]);
+const fastTest = process.env.PETROCASH_FAST_TEST === 'true';
+if (
+  fastTest &&
+  (architectures.length !== 1 || architectures[0] !== 'arm64-v8a')
+)
+  throw new Error('Recovery APK must contain arm64-v8a only');
+interface BundleInventory {
+  status: string;
+  sourceCount: number;
+  criticalPackages: { package: string; matches: string[] }[];
+  limitation: string;
+}
+const inventoryPath = 'build/petro/reports/bundled-modules.json';
+const inventory = existsSync(inventoryPath)
+  ? (JSON.parse(readFileSync(inventoryPath, 'utf8')) as BundleInventory)
+  : undefined;
+const files = [apk, aab].filter(existsSync).map((path) => ({
+  path: path.split('/').pop(),
+  sha256: createHash('sha256').update(readFileSync(path)).digest('hex'),
+}));
 const sourceCommit = execFileSync('git', ['rev-parse', 'HEAD'], {
   encoding: 'utf8',
 }).trim();
@@ -48,6 +67,19 @@ writeFileSync(
       ciRun: `https://github.com/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`,
       signing: 'TEST: upstream public development certificate',
       certificateSHA256: cert,
+      androidBuild: {
+        mode: fastTest
+          ? 'arm64 development recovery'
+          : 'upstream release configuration',
+        architectures,
+        r8Enabled: !fastTest,
+      },
+      bundledModules: inventory && {
+        status: inventory.status,
+        sourceCount: inventory.sourceCount,
+        criticalPackages: inventory.criticalPackages,
+        limitation: inventory.limitation,
+      },
       firebase: 'Derived development client; not production registered',
       files,
       phoneInstallation: 'NOT RUN',

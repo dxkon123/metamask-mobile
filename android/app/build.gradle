@@ -174,7 +174,15 @@ def getPassword(String currentUser, String keyChain) {
 /**
  * Set this to true to Run Proguard on Release builds to minify the Java bytecode.
  */
-def enableProguardInReleaseBuilds = true
+// Explicit, development-only recovery mode. Production keeps upstream R8 enabled.
+def petroFastTestBuild = project.findProperty("petrocashFastTest")?.toString() == "true"
+if (petroFastTestBuild && System.getenv("METAMASK_ENVIRONMENT") != "dev") {
+    throw new GradleException("petrocashFastTest is restricted to the dev environment")
+}
+def enableProguardInReleaseBuilds = !petroFastTestBuild
+if (petroFastTestBuild) {
+    logger.lifecycle("PetroCASH TEST recovery: R8 disabled; production defaults unchanged")
+}
 
 /**
  * Private function to get the list of Native Architectures you want to build.

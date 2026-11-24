@@ -1,0 +1,23 @@
+{
+  "scope": "build metadata fixtures, not APK/runtime tests",
+  "cases": [
+    {
+      "case": "arm64 test profile",
+      "result": "PASS"
+    },
+    {
+      "case": "reject extra ABI in recovery",
+      "result": "PASS"
+    },
+    {
+      "case": "reject wrong identity",
+      "result": "PASS"
+    },
+    {
+      "case": "normal profile retains R8 metadata",
+      "result": "PASS"
+    }
+  ],
+  "workflow": "YAML parse and 29 bash -n blocks PASS",
+  "qualityChecks": "reused full45388166315 and supplemental45392919611; not rerun"
+}
