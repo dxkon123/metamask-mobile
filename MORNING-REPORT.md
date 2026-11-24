@@ -45,3 +45,9 @@ run https://github.com/dxkon123/metamask-mobile/actions/runs/45384401830 ，comm
 run45386233779 / source ce55e77174ca5128c19c98868a9defe86f47c684：完整4lint PASS、TSC PASS，62套related测试1643断言PASS/0FAIL（10分片，明确不是全量）。native job138421900226已放行；编译前private delivery preflight PASS，已创建未发布draft456690358，target精确ce55，只有preflight.txt，APK尚未生成。后续上传不再创建旧target草稿，已有草稿供同run使用；1天artifact后备仍保留。
 
 下一项：native当前候选保持编译，同时新[checkpoint][full-checks]只启动全量回归，不启动第二次Android编译。新提交只更改workflow注释和报告；app/Android/locales/lockfile与ce55完全一致，相关tree hash见related-validation.json。不要把正在运行的全套检查写PASS。APK一旦保存就下载做本地apksigner/aapt/SHA复核，再提供链接。
+
+## 源码交付与漏洞复核检查点
+
+精确ce55源码ZIP已生成到outputs/PetroCASH/PetroCASH-source-ce55e771.zip；SHA256 e33ed1647df8dc571cb1296caa54523e099d915a91ce1fce613c95de933a6742，110202494 bytes，19466个tracked blob逐项一致；Git archive不含ios/branch-ios-sdk submodule内容（锁定615267ea0b44bc3be657b84fbc9ff7c86688fa58），README已说明。未含owner私钥/密码/full flags路径；源码可从分支按精确SHA克隆。手机清单已复制outputs。
+
+新增docs/rebrand/SECURITY-REVIEW.md：官方三GHSA补丁范围复核。proxy-addr2.0.8、shell-quote1.11/1.12候选；tar7.5.19已覆盖7.x，但工具链仍有tar6.2.1，不能沿用audit0critical称全部关闭。当前native上传白名单不含source-map路径报告，不能以sourceCount或APK字符串未命中伪造新bundle排除证明。此检查点不改App/依赖，不重启编译。

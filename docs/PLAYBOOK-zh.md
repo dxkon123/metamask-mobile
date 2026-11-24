@@ -178,3 +178,7 @@ versionName改1.0.0后，react-native-device-info.getVersion也返回新版本�
 ## 等待原生编译时的证据与接续
 
 先让当前候选4lint/TSC/related门槛通过，并在该SHA仍是分支head时创建private draft；然后才推报告/全量checkpoint。全量检查可在另一个带[checkpoint][full-checks]提交并行，避免再次花一小时编译。必须证明app/android/ios/locales/package/yarn.lock/品牌与脚本树和APK源提交一致。保存具体run ID和源码SHA，不能仅写“最新”。相关62套PASS不等于全量PASS，源码检查不等于真机/WAL/POL验收。
+
+## audit零计数与多版本依赖坑
+
+同名包可能同时安装多个major；yarn why tar显示7.5.19和6.2.1时，不能因7.x升级或audit快照0critical就称全部修复。对照官方受影响范围逐个版本核对，旧工具major兼容升级/回移需专门测试。Segment包声明shell-quote为dependencies不证明它进入Metro，反过来工具用途也不能替代新source-map排除证据。git archive忽略submodule内容：对照git ls-tree要区分160000与blob，并给出submodule锁定SHA/初始化说明，不能错误声称ZIP含所有递归源码。
