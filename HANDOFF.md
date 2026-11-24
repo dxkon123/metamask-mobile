@@ -84,3 +84,27 @@ Next: push this build correction and record new CI run. While native runs, revie
 已恢复 26 个被过宽文案替换影响的技术文件，包括 confirmation origin、QR sync、测试 ID、真实代币名称、嵌入 WebView 代码；Portfolio 保留上游真实 host/id，只改显示名。此前 ce880256/325b8e41 是未验收 checkpoint，不能作为安装候选。文案生成器现在只处理明确的显示属性与 JSX 文本，排除测试、服务、provider、hooks、constants、生成代码；新增 origin/QR/WebView 等源码保护。5 suites /119 assertions PASS（含 WC 69 项，明确期望 telemetryEnabled=false）；使用上游相同的 forceExit，未证明异步句柄清理。159 张图（105 native+54 app）均按原尺寸验证 PASS。完整 lint/TSC/单元分片和设备验收仍待 CI。
 
 当前远端构建修正为325b8e4178786f9fc05107f599fc4ca4e555e604，接口 ref 更新尚未产生新的 Actions run。下一步：提交 M4 复审修正、手动 dispatch PetroCASH Rebrand 的 codex/petrocash-rebrand，记录实际 run ID；等待期间继续原创动画与完整品牌审查。公开二进制分发禁止，draft only。完整 flags 仅本地；公开最小38布尔开关只是参考，运行时保留上游复杂配置加载。迁移私有仓库后再加入完整 flags。
+
+## Current build blocker / M4 pushed
+
+M4 public candidate: 1c35f1f55c03f2b3c089336de99739681a9bf600; exact tree eae9a3799b61bbe94507497ccc93489c4569419a; local == origin. All 54 reviewed files are present (verify manifest entry counts as well as tree SHA; large terminal JSON can be truncated). 5 suites/119 assertions, 159 image dimensions, two-run text idempotence and scoped script types PASS. No new APK yet.
+GitHub UI shows fork workflows disabled. Automatic approval rejected the repository-wide re-enable action because it could activate scheduled/main-targeting write/distribution workflows. Owner was asked to authorize re-enable plus disabling unrelated upstream scheduled publication/sync jobs, or manually re-enable and reply ready. Do not bypass. Screenshot: outputs/PetroCASH/Actions-disabled.png. No setting was changed. Continue independent original animations/docs meanwhile.
+Next concrete action: on owner reply, safely restore build access within approved scope and run only codex/petrocash-rebrand; record run ID and actual source SHA. Original Rive fox animations remain TODO; do not claim complete rebranding/installation.
+
+## Actions restored / candidate retry (2026-11-24)
+
+Owner explicitly authorized repository Actions re-enable, disabling all unrelated workflows, read-only default GITHUB_TOKEN, and running candidate 1c35f1f5. Actions Enabled was verified in the authenticated GitHub UI. All three other registered workflows were disabled manually and their Disabled state was verified:
+
+| Workflow | Path | Verified state |
+| --- | --- | --- |
+| Create release bug report issue when release branch gets created | .github/workflows/create-bug-report.yml | disabled manually |
+| Merge Previous Release Branches | .github/workflows/merge-previous-release-branches.yml | disabled manually |
+| PETRO Wallet Baseline | .github/workflows/petro-wallet-baseline.yml | disabled manually; not needed |
+
+Only registered PetroCASH Rebrand remains enabled. The Actions sidebar exposes four registered workflows total; the other upstream YAML source files are retained, not deleted. A direct check of nightly-build.yml returned “This workflow does not exist”; these unregistered files must not be described as manually disabled. Re-audit workflow registration after any upstream sync/new workflow event. This is a current registry observation, not a permanent guarantee against future registration.
+
+Default repository Workflow permissions already selected “Read repository contents and packages permissions”; “Allow GitHub Actions to create and approve pull requests” is unchecked. Verified, no need to broaden it. In the enabled PetroCASH workflow, only the Android job grants contents:write for unpublished draft upload; quality jobs inherit contents:read. Other disabled upstream source YAML permission declarations remain preserved and inactive in the current registry.
+
+The workflow UI offers no Run workflow button (feature-branch workflow absent on main). Updating the ref to the same SHA created no run. A branch-only CI retry commit therefore selects the exact reviewed source 1c35f1f55c03f2b3c089336de99739681a9bf600 when its message contains [candidate-1c35f1f5]. Both native and quality checkout that exact SHA. Actual artifact metadata, draft target and quality result record the checked-out source SHA; workflow trigger SHA is recorded separately. No app code changes in this retry; no main changes; future ordinary pushes build their own source.
+
+Run status: retry source prepared; actual new run ID pending verification. Next: push this CI/docs checkpoint, verify source SHA in new run, save run ID here, then continue original animations while native compilation runs. No new APK exists yet. Full flags remain local only; add full flags after moving to a private repo.

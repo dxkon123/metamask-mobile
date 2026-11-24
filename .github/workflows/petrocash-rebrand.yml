@@ -3,11 +3,16 @@ name: PetroCASH Rebrand
 on:
   push:
     branches: [codex/petrocash-rebrand]
-    paths-ignore: ['**/*.md', 'docs/**', 'store/**']
+    paths-ignore: ["**/*.md", "docs/**", "store/**"]
   workflow_dispatch:
 
 permissions:
   contents: read
+
+env:
+  # A branch-only push can retry the reviewed source without editing main.
+  # Later pushes build themselves unless they explicitly request this candidate.
+  PETROCASH_SOURCE_REF: ${{ contains(github.event.head_commit.message, '[candidate-1c35f1f5]') && '1c35f1f55c03f2b3c089336de99739681a9bf600' || github.sha }}
 
 concurrency:
   group: petrocash-${{ github.ref }}-${{ github.sha }}
@@ -24,19 +29,20 @@ jobs:
       run:
         shell: bash
     env:
-      CI: 'true'
-      PETROCASH_PREBUNDLE_FIRST: 'true'
+      CI: "true"
+      PETROCASH_PREBUNDLE_FIRST: "true"
       METAMASK_BUILD_TYPE: main
       METAMASK_ENVIRONMENT: dev
-      HAS_TEST_OVERRIDES: 'false'
-      E2E_MOCK_OAUTH: 'false'
-      SENTRY_DISABLE_AUTO_UPLOAD: 'true'
-      TOOL_USAGE_COLLECTION_OPT_IN: 'false'
+      HAS_TEST_OVERRIDES: "false"
+      E2E_MOCK_OAUTH: "false"
+      SENTRY_DISABLE_AUTO_UPLOAD: "true"
+      TOOL_USAGE_COLLECTION_OPT_IN: "false"
       PETRO_BASE_COMMIT: a3251559c8af381b7b9689dd49d3dce8d5f76261
     steps:
-      - name: Checkout exact triggering commit
+      - name: Checkout exact selected source commit
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
+          ref: ${{ env.PETROCASH_SOURCE_REF }}
           # Fetch the pinned base through checkout's authenticated contents:read access.
           fetch-depth: 0
           persist-credentials: false
@@ -84,7 +90,7 @@ jobs:
         uses: actions/setup-java@b6effb05e454b25005698d916606bdc6ffcbf961 # v5
         with:
           distribution: temurin
-          java-version: '17'
+          java-version: "17"
 
       - name: Install Android tools selected by native build files
         id: android_tools
@@ -148,8 +154,8 @@ jobs:
           MM_FOX_CODE: EXAMPLE_FOX_CODE
           # Same Metro heap/worker limits as upstream build.yml.
           NODE_OPTIONS: --max-old-space-size=8192
-          METRO_MAX_WORKERS: '2'
-          CMAKE_VERSION: '3.22.1'
+          METRO_MAX_WORKERS: "2"
+          CMAKE_VERSION: "3.22.1"
           ANDROID_SIGNING_KEYSTORE_PASSWORD: android
           BITRISEIO_ANDROID_MAIN_KEYSTORE_ALIAS: androiddebugkey
           BITRISEIO_ANDROID_MAIN_KEYSTORE_PRIVATE_KEY_PASSWORD: android
@@ -198,7 +204,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
-        run: bash scripts/rebrand/publish-draft.sh build/petrocash
+        run: GITHUB_SHA="$(git rev-parse HEAD)" bash scripts/rebrand/publish-draft.sh build/petrocash
       - name: Build signed test Android App Bundle
         if: steps.apk.outcome == 'success'
         timeout-minutes: 60
@@ -207,8 +213,8 @@ jobs:
           GOOGLE_SERVICES_B64_ANDROID: ${{ secrets.GOOGLE_SERVICES_B64_ANDROID }}
           WALLET_CONNECT_PROJECT_ID: ${{ secrets.WALLET_CONNECT_PROJECT_ID }}
           NODE_OPTIONS: --max-old-space-size=8192
-          METRO_MAX_WORKERS: '2'
-          CMAKE_VERSION: '3.22.1'
+          METRO_MAX_WORKERS: "2"
+          CMAKE_VERSION: "3.22.1"
           ANDROID_SIGNING_KEYSTORE_PASSWORD: android
           BITRISEIO_ANDROID_MAIN_KEYSTORE_ALIAS: androiddebugkey
           BITRISEIO_ANDROID_MAIN_KEYSTORE_PRIVATE_KEY_PASSWORD: android
@@ -229,7 +235,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
-        run: bash scripts/rebrand/publish-draft.sh build/petrocash
+        run: GITHUB_SHA="$(git rev-parse HEAD)" bash scripts/rebrand/publish-draft.sh build/petrocash
       - name: Enforce verified APK outcome
         if: always()
         run: test '${{ steps.apk.outcome }}' = success
@@ -262,18 +268,19 @@ jobs:
       run:
         shell: bash
     env:
-      CI: 'true'
+      CI: "true"
       METAMASK_BUILD_TYPE: main
       METAMASK_ENVIRONMENT: test
       PETRO_BASE_COMMIT: a3251559c8af381b7b9689dd49d3dce8d5f76261
       PETRO_QUALITY_KIND: ${{ matrix.kind }}
       PETRO_QUALITY_SHARD: ${{ matrix.shard }}
       NODE_OPTIONS: --max-old-space-size=12288
-      LINT_HEAP_MB: '13312'
+      LINT_HEAP_MB: "13312"
     steps:
-      - name: Checkout exact triggering commit
+      - name: Checkout exact selected source commit
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
+          ref: ${{ env.PETROCASH_SOURCE_REF }}
           fetch-depth: 0
           persist-credentials: false
       - name: Configure upstream Node version
@@ -336,7 +343,7 @@ jobs:
           PETRO_CHECK_OUTCOME: ${{ steps.check.outcome }}
         run: |
           mkdir -p build/petro/quality
-          printf '{"commit":"%s","kind":"%s","shard":%s,"outcome":"%s"}\n' "$GITHUB_SHA" "$PETRO_QUALITY_KIND" "$PETRO_QUALITY_SHARD" "$PETRO_CHECK_OUTCOME" > build/petro/quality/result.json
+          printf '{"commit":"%s","workflowCommit":"%s","kind":"%s","shard":%s,"outcome":"%s"}\n' "$(git rev-parse HEAD)" "$GITHUB_SHA" "$PETRO_QUALITY_KIND" "$PETRO_QUALITY_SHARD" "$PETRO_CHECK_OUTCOME" > build/petro/quality/result.json
       - name: Upload separate check evidence
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4

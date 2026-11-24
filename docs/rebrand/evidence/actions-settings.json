@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-24",
+  "repository": "dxkon123/metamask-mobile",
+  "actions": "enabled",
+  "defaultWorkflowToken": "contents-and-packages-read",
+  "actionsCanCreateOrApprovePR": false,
+  "enabled": [
+    ".github/workflows/petrocash-rebrand.yml"
+  ],
+  "disabled": [
+    ".github/workflows/create-bug-report.yml",
+    ".github/workflows/merge-previous-release-branches.yml",
+    ".github/workflows/petro-wallet-baseline.yml"
+  ],
+  "registryWorkflowCountObserved": 4,
+  "unregisteredExample": ".github/workflows/nightly-build.yml",
+  "unregisteredExampleUI": "This workflow does not exist",
+  "sourceCommit": "1c35f1f55c03f2b3c089336de99739681a9bf600",
+  "runId": null,
+  "evidence": "Authenticated Chrome GitHub UI; screenshots in local outputs/PetroCASH; all states observed before retry."
+}
