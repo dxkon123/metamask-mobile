@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-24",
+  "oldRun": {
+    "id": 45386233779,
+    "sourceCommit": "ce55e77174ca5128c19c98868a9defe86f47c684",
+    "cancelled": false,
+    "state": "still compiling; output silence after 12:52:08Z; resource stall suspected, unproven"
+  },
+  "recoveryRun": {
+    "id": 45405350978,
+    "url": "https://github.com/dxkon123/metamask-mobile/actions/runs/45405350978",
+    "sourceCommit": "7df8638619afcb06f6acbe8d09bd7a41fa5bfe36",
+    "jobId": 138484436260,
+    "draftId": 456815401,
+    "preflight": "PASS",
+    "earlyDiskCleanup": "PASS",
+    "architectures": [
+      "arm64-v8a"
+    ],
+    "r8": "disabled only for explicitly opted-in dev TEST build",
+    "heartbeatSeconds": 300,
+    "swapGiB": 16,
+    "aab": "not requested; skipped for recovery",
+    "quality": "prior full45388166315 and supplemental45392919611 reused; no matrix rerun",
+    "apk": "not yet produced"
+  },
+  "handoff": "Use first APK successfully saved and independently verified; then cancel losing run. Keep no public Release; fallback artifact retention one day only."
+}

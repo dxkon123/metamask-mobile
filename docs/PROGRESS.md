@@ -56,7 +56,7 @@ Workflow .github/workflows/petrocash-rebrand.yml；小探测petrocash-delivery-p
 
 可靠APK交付→手机测试→私有仓库→完成剩余品牌/自有服务身份→功能→获许可后的发行。初始upstream a3251559c8af381b7b9689dd49d3dce8d5f76261；基线c51abcebdb3ddc67de1e78bdcf8a44f225495240。详细历史/决策见Git、docs/DECISIONS.md、docs/PLAYBOOK-zh.md和docs/rebrand/evidence/。
 
-精确恢复消息：继续。先读docs/PROGRESS.md和HANDOFF.md。完整回归45388166315和补充测试45392919611已PASS，不重做。检查APK run45386233779/draft456690358，下载实际文件做SHA256/apksigner/aapt校验并交付链接；草稿失败用1天artifact。不要启动第二次原生编译。完成后更新三份记录和PLAYBOOK并push，仅codex/petrocash-rebrand，永不main/secret/public Release。
+精确恢复消息：继续。先读docs/PROGRESS.md和HANDOFF.md。检查原45386233779与arm64恢复45405350978；用先保存并独立验证的APK，交付可用后取消另一轮。完整45388166315和补充45392919611已PASS不重跑，不启动第三轮。验证hash/org.petrocash.wallet/签名并给链接，每步更新三份记录和PLAYBOOK并push，仅codex/petrocash-rebrand，永不main/secret/public Release。
 
 ## 原生长编译观察（2026-11-24 21:25 +08）
 
@@ -67,3 +67,9 @@ Workflow .github/workflows/petrocash-rebrand.yml；小探测petrocash-delivery-p
 保留45386233779，同时新[android-recovery]仅android、不重跑已PASS的质量检查；arm64-v8a，dev TEST关闭R8，正式默认保持R8。job加入显式早期磁盘清理、构建前16GB swap与5分钟stdout资源心跳。完整源码/锁文件/原生脚本相同但本轮过长且12:52:08Z后无输出，资源卡住仅为待证假设；heartbeat用于区分耗时与停滞。两轮哪个先保存并验证APK就用哪个，之后取消另一轮。新模式跳过AAB，APK优先；包名/签名/身份检查及1天后备保留。
 
 本地验证：workflow YAML+29段bash -n PASS；metadata4个fixture（合法arm64、拒绝额外ABI、拒绝错包名、默认R8 metadata）PASS。未重复Jest/TSC/lint；仅构建配置和public metadata变更，无app运行时/密钥/审批修改。new metadata保存同build的module count/3包匹配摘要（不含sourceContents或全量sources），解决原报告只留runner的问题。最终仍需实际APK验证。
+
+## 并行恢复已启动并完成预检（21:39 +08）
+
+新run [45405350978](https://github.com/dxkon123/metamask-mobile/actions/runs/45405350978)，source **7df8638619afcb06f6acbe8d09bd7a41fa5bfe36**，android job138484436260；其余quality/test-completion job按要求SKIPPED，复用已有PASS而非重跑。新draft **456815401** target精确7df，private preflight PASS，早期磁盘清理PASS，依赖安装中，尚无APK。原run45386233779仍继续，未取消。新run提交后没有提前移动head，先确认preflight已建立才推本条记录。
+
+精确恢复消息（以此为准）：继续。检查原45386233779与arm64恢复45405350978，两轮哪个先保存APK就下载并独立验证hash/org.petrocash.wallet/签名；验证交付可用后取消另一轮。质量45388166315和45392919611已PASS不重跑，不启动第三轮。先读PROGRESS/HANDOFF，逐步更新并push，永不main/secret/public Release。

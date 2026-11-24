@@ -200,3 +200,5 @@ Jest suite绿勾不等于每个断言都执行。检查unit-results.json中的pe
 本次owner明确授权保留原四ABI/R8任务，同时起一个arm64-only、不压缩混淆的dev TEST构建，以先成功并验证者交付再取消另一轮。通过[android-recovery]标记使现有workflow只跑android，复用已完成质量证据；不跑AAB。GRADLE_USER_HOME/gradle.properties优先于项目默认，设置reactNativeArchitectures=arm64-v8a和petrocashFastTest=true；不改项目四ABI默认。Gradle文件仅对显式fast属性且METAMASK_ENVIRONMENT=dev关闭minify，非dev使用fast直接报错；正式版仍开R8。不要把TEST优化配置带入生产发布。
 
 编译前清理一次性VM无关工具、启用swap；后台每300秒将date/free/uptime/df输出到stdout并留资源文件，不打印env或完整命令。APK校验从aapt核对仅arm64、构建日志R8关闭声明和无mapping，再验证签名/hash/包名。APK保存后再源码归档，原run一直保留到可用交付核实。长静默说明可观测性不足，不能仅据此宣称已证实OOM/死锁。官方机制：[RN单ABI构建](https://reactnative.dev/docs/build-speed)、[Gradle属性优先级](https://docs.gradle.org/current/userguide/build_environment.html)。
+
+恢复实跑证据：45405350978/source7df86386仅android active；quality jobs均SKIPPED且引用此前PASS。新private preflight/disk cleanup PASS，draft456815401已经建立后才push运行记录。原45386233779未取消。若断线，用两个实际run ID接续竞争，不再启动第三轮或重复全部质量检查。

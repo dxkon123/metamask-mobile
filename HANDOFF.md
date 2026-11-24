@@ -39,8 +39,14 @@ Mobile LICENSE仅inspection/study，修改、衍生与分发需ConsenSys prior c
 
 纯helper/别名/能力矩阵是unit；BrandMotion/ref/几何为窄组件合约，保持已有unit，不冒充screen E2E。此次两文件修复沿用上游unit：报价hook不改行为；BigNumber仅隔离加载环境。真正OS安装/深链/生命周期/存储/GPU不能由CV或controller integration覆盖，应由实际设备边界验收；未运行Appium或手机，不称已通过。
 
-精确恢复消息：继续。先读docs/PROGRESS.md和HANDOFF.md。完整回归45388166315和补充测试45392919611已PASS，不重做。检查APK run45386233779/draft456690358，下载实际文件做SHA256/apksigner/aapt校验并交付链接；草稿失败用1天artifact。不要启动第二次原生编译。完成后更新三份记录和PLAYBOOK并push，仅codex/petrocash-rebrand，永不main/secret/public Release。
+精确恢复消息：继续。先读docs/PROGRESS.md和HANDOFF.md。检查原45386233779与arm64恢复45405350978；用先保存并独立验证的APK，交付可用后取消另一轮。完整45388166315和补充45392919611已PASS不重跑，不启动第三轮。验证hash/org.petrocash.wallet/签名并给链接，每步更新三份记录和PLAYBOOK并push，仅codex/petrocash-rebrand，永不main/secret/public Release。
 
 ## 原生长编译观察（2026-11-24 21:25 +08）
 
 当前45386233779仍in_progress；最新刷新并开启时间戳的日志停在12:52:08Z Kotlin/Java输出，暂无失败，无法读取实时CPU/资源来确认静默原因。git diff证明当前ce55与已成功编译的1c35在android/package.json/yarn.lock/.yarn/patches/scripts/build.sh/scripts/rebrand/build-android.ts完全无差异；workflow的8GB Metro、2 workers、native内存设置亦未改。不能从静默就判断品牌代码错误，也不能声称构建健康。暂保留同run，不取消或平行启动第二个一小时编译；继续等实际产物/错误。运行中job日志下载404 BlobNotFound，表示日志blob尚不可用，不是新的repo权限403。
+
+## 并行恢复已启动并完成预检（21:39 +08）
+
+新run [45405350978](https://github.com/dxkon123/metamask-mobile/actions/runs/45405350978)，source **7df8638619afcb06f6acbe8d09bd7a41fa5bfe36**，android job138484436260；其余quality/test-completion job按要求SKIPPED，复用已有PASS而非重跑。新draft **456815401** target精确7df，private preflight PASS，早期磁盘清理PASS，依赖安装中，尚无APK。原run45386233779仍继续，未取消。新run提交后没有提前移动head，先确认preflight已建立才推本条记录。
+
+精确恢复消息（以此为准）：继续。检查原45386233779与arm64恢复45405350978，两轮哪个先保存APK就下载并独立验证hash/org.petrocash.wallet/签名；验证交付可用后取消另一轮。质量45388166315和45392919611已PASS不重跑，不启动第三轮。先读PROGRESS/HANDOFF，逐步更新并push，永不main/secret/public Release。
