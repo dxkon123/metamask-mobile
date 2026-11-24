@@ -202,3 +202,7 @@ Jest suite绿勾不等于每个断言都执行。检查unit-results.json中的pe
 编译前清理一次性VM无关工具、启用swap；后台每300秒将date/free/uptime/df输出到stdout并留资源文件，不打印env或完整命令。APK校验从aapt核对仅arm64、构建日志R8关闭声明和无mapping，再验证签名/hash/包名。APK保存后再源码归档，原run一直保留到可用交付核实。长静默说明可观测性不足，不能仅据此宣称已证实OOM/死锁。官方机制：[RN单ABI构建](https://reactnative.dev/docs/build-speed)、[Gradle属性优先级](https://docs.gradle.org/current/userguide/build_environment.html)。
 
 恢复实跑证据：45405350978/source7df86386仅android active；quality jobs均SKIPPED且引用此前PASS。新private preflight/disk cleanup PASS，draft456815401已经建立后才push运行记录。原45386233779未取消。若断线，用两个实际run ID接续竞争，不再启动第三轮或重复全部质量检查。
+
+## runner失联时step状态可能失真
+
+45386233779最终在1h55m9s后FAIL，Summary明确hosted runner lost communication；不能把它记作编译器代码错误或已证实OOM。该job根状态completed/failure，但compile step仍显示in_progress，其他step pending。监控以job/run根状态为准，再看step细节。恢复45405350978的13:45:34Z heartbeat给出available8021MiB、swap0/19455MiB、load1.51和磁盘66GiB，可实际观察资源；旧run只有写到runner文件的监控，host丢失后无法取回。原run自然终止，无需再取消；恢复APK验证成功即可交付。

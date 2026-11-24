@@ -4,7 +4,7 @@
 
 ## 当前继续点（owner于21:32更新方案）
 
-1. 保留原run **45386233779**（sourcece55，四ABI/R8开），不取消。原生输入与上次成功版本相同；本轮超出旧63m46s，日志12:52:08Z后静默，资源受阻是推测，未证明根因。
+1. 原run **45386233779**已在21:42自然结束FAIL，无APK；GitHub明确hosted runner lost communication，具体CPU/RAM/网络根因未证明。不是本代理取消，无需再取消或重跑。当前等待恢复45405350978。
 2. **立即并行启动一次[android-recovery]提交**：仅android job，复用已PASS的完整与补充质量证据；仅arm64-v8a、TEST dev环境关闭R8，Hermes/Release/公用测试签名保持。正式版默认四ABI/R8开；fast属性若在非dev使用会直接拒绝。
 3. 新job先清理一次性GitHub VM无关工具，再以16GB swap/Gradle8GB/Kotlin2GB/2workers编译。后台每300秒向日志打印date -u、free -m、uptime、df -h，资源输出不含环境值或命令参数。
 4. 两轮哪个先成功生成并保存APK就验证哪个：下载、SHA256、aapt org.petrocash.wallet/1.0.0(1)、apksigner、公用证书、ABI与权限。验证交付可用后取消另一轮。不能把preflight当APK或在验证前取消备用。
@@ -73,3 +73,11 @@ Workflow .github/workflows/petrocash-rebrand.yml；小探测petrocash-delivery-p
 新run [45405350978](https://github.com/dxkon123/metamask-mobile/actions/runs/45405350978)，source **7df8638619afcb06f6acbe8d09bd7a41fa5bfe36**，android job138484436260；其余quality/test-completion job按要求SKIPPED，复用已有PASS而非重跑。新draft **456815401** target精确7df，private preflight PASS，早期磁盘清理PASS，依赖安装中，尚无APK。原run45386233779仍继续，未取消。新run提交后没有提前移动head，先确认preflight已建立才推本条记录。
 
 精确恢复消息（以此为准）：继续。检查原45386233779与arm64恢复45405350978，两轮哪个先保存APK就下载并独立验证hash/org.petrocash.wallet/签名；验证交付可用后取消另一轮。质量45388166315和45392919611已PASS不重跑，不启动第三轮。先读PROGRESS/HANDOFF，逐步更新并push，永不main/secret/public Release。
+
+## 最新：原运行已失联失败，恢复构建心跳正常（21:48 +08）
+
+原45386233779/android138421900226在21:42结束FAIL（1h55m9s），不是本代理取消。GitHub Summary明确错误为“The hosted runner lost communication with the server”。仅证明runner失联，不能把CPU/RAM/网络中的某个原因写成已证实；无编译器代码错误证据、无APK。旧draft456690358仍只有预检文件。不要重跑旧任务或另外启动第三轮。
+
+恢复45405350978仍编译。UI核实5分钟stdout heartbeat：13:45:34Z，RAM total15701MiB/used7680/available8021，swap19455MiB/used0，load1.51/1.38/0.74，root可用66GiB。预检、早期磁盘清理、swap/资源准备均PASS。当前只等恢复构建APK→保存→下载→独立验证；旧任务已结束无需取消。
+
+监控必须看job的status/conclusion：runner失联时job已completed/failure，但compile step仍可能保持in_progress，其余step pending。只看step会错误地继续等待一个已经失败的job。

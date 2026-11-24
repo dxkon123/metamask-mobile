@@ -4,7 +4,11 @@
     "id": 45386233779,
     "sourceCommit": "ce55e77174ca5128c19c98868a9defe86f47c684",
     "cancelled": false,
-    "state": "still compiling; output silence after 12:52:08Z; resource stall suspected, unproven"
+    "state": "completed/failure",
+    "jobDuration": "1h55m9s",
+    "finishedAtMinute": "2026-11-24T13:42Z",
+    "errorObservedOnGitHub": "The hosted runner lost communication with the server",
+    "rootCause": "runner communication loss confirmed; CPU/memory/network cause not determined"
   },
   "recoveryRun": {
     "id": 45405350978,
@@ -22,7 +26,24 @@
     "swapGiB": 16,
     "aab": "not requested; skipped for recovery",
     "quality": "prior full45388166315 and supplemental45392919611 reused; no matrix rerun",
-    "apk": "not yet produced"
+    "apk": "not yet produced",
+    "phase": "compiling",
+    "resourcePreparation": "PASS",
+    "heartbeatObserved": {
+      "utc": "2026-11-24T13:45:34Z",
+      "memoryTotalMiB": 15701,
+      "memoryUsedMiB": 7680,
+      "memoryAvailableMiB": 8021,
+      "swapTotalMiB": 19455,
+      "swapUsedMiB": 0,
+      "loadAverage": [
+        1.51,
+        1.38,
+        0.74
+      ],
+      "rootDiskAvailableGiB": 66
+    },
+    "otherRunCancellation": "old run ended itself; no live loser to cancel unless another run becomes active"
   },
   "handoff": "Use first APK successfully saved and independently verified; then cancel losing run. Keep no public Release; fallback artifact retention one day only."
 }
