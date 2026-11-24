@@ -1994,6 +1994,7 @@ describe('WC2Manager', () => {
       expect(Core).toHaveBeenCalledWith({
         projectId: 'valid-project-id',
         logger: 'fatal',
+        telemetryEnabled: false,
       });
       expect(result).toBeDefined();
     });

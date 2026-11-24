@@ -43,15 +43,15 @@ export const clearSitesCache = (): void => {
 // Assets team is now hosting the explore-sites endpoint on the NFT API (Temporarily)
 const NFT_API_BASE_URL = 'https://nft.api.cx.metamask.io/';
 const DEFAULT_SITES_LIMIT = 100;
-const PORTFOLIO_HOSTNAME = "portfolio.PetroCASH.io";
+const PORTFOLIO_HOSTNAME = 'portfolio.metamask.io';
 
 /**
  * Hardcoded Portfolio site entry to ensure it's always included
  * in the sites list regardless of API response
  */
 const PORTFOLIO_SITE: SiteData = {
-  id: "PetroCASH-portfolio",
-  name: "Portfolio",
+  id: 'metamask-portfolio',
+  name: 'Portfolio',
   url: `https://${PORTFOLIO_HOSTNAME}`,
   displayUrl: PORTFOLIO_HOSTNAME,
   logoUrl:

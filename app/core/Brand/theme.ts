@@ -2,13 +2,20 @@ import type { Theme as TokenTheme } from '@metamask/design-tokens';
 import { getThemeColors, Theme } from '@metamask/design-system-twrnc-preset';
 import brand from '../../../brand/brand.config.json';
 
-export const withBrandColors = (colors: TokenTheme['colors'], dark: boolean): TokenTheme['colors'] => ({
+export const withBrandColors = (
+  colors: TokenTheme['colors'],
+  dark: boolean,
+): TokenTheme['colors'] => ({
   ...colors,
   primary: {
     ...colors.primary,
     default: dark ? brand.colors.primaryOnDark : brand.colors.primaryOnLight,
-    alternative: dark ? brand.colors.primaryOnDark : brand.colors.primaryOnLight,
-    muted: dark ? brand.colors.primaryMutedDark : brand.colors.primaryMutedLight,
+    alternative: dark
+      ? brand.colors.primaryOnDark
+      : brand.colors.primaryOnLight,
+    muted: dark
+      ? brand.colors.primaryMutedDark
+      : brand.colors.primaryMutedLight,
   },
 });
 
@@ -19,10 +26,11 @@ export const configureDesignSystemBrand = (): void => {
     [Theme.Dark, brand.colors.primaryOnDark, brand.colors.primaryMutedDark],
   ] as const) {
     const colors = getThemeColors?.(theme);
-    if (colors) Object.assign(colors, {
-      'primary-default': primary,
-      'primary-alternative': primary,
-      'primary-muted': muted,
-    });
+    if (colors)
+      Object.assign(colors, {
+        'primary-default': primary,
+        'primary-alternative': primary,
+        'primary-muted': muted,
+      });
   }
 };

@@ -159,7 +159,7 @@ const WalletExistsHero = ({
       {...withAvatarBorder(
         {
           src: socialLoginIconSrc(MetaMaskFox),
-          name: "PetroCASH",
+          name: 'PetroCASH',
           testID: AccountStatusSelectorIDs.ACCOUNT_FOUND_FOX_AVATAR,
         },
         true,

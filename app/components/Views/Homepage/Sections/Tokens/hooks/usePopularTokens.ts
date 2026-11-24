@@ -28,7 +28,7 @@ const POPULAR_TOKENS = [
   {
     // mUSD on Ethereum Mainnet
     assetId: `eip155:1/erc20:${MUSD_TOKEN_ADDRESS}`,
-    name: "mUSD",
+    name: 'MetaMask USD',
     symbol: 'mUSD',
     // Description will be added dynamically with localized string
     iconUrl: buildIconUrl('eip155', '1', 'erc20', MUSD_TOKEN_ADDRESS),

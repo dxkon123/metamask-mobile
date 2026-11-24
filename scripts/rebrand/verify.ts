@@ -16,8 +16,14 @@ const protectedRoots = [
   'app/core/Engine/controllers/permission-controller',
   'app/core/Signing',
   'app/core/Permissions',
+  // These UI-adjacent files also contain protocol/approval behavior.
+  'app/components/Views/confirmations/constants/confirmations.ts',
+  'app/components/Views/QRScanner/index.tsx',
+  'app/components/UI/Card/components/DaimoPayModal/DaimoPayModal.tsx',
+  'app/components/UI/Money/utils/devErrorAlert.ts',
+  'app/components/UI/Charts/AdvancedChart/webview/chartLogicString.ts',
 ];
-const changed = git('diff', '--name-only', base, 'HEAD')
+const changed = git('diff', '--name-only', base)
   .split('\n')
   .filter(Boolean);
 const protectedChanges = changed.filter((p) =>
@@ -35,7 +41,7 @@ if (
   JSON.stringify(permissionNames(readFileSync(manifestPath, 'utf8')))
 )
   throw new Error('Android permission declarations changed');
-if (git('diff', '--diff-filter=D', '--name-only', base, 'HEAD'))
+if (git('diff', '--diff-filter=D', '--name-only', base))
   throw new Error('Upstream tracked files deleted');
 const config = JSON.parse(readFileSync('brand/brand.config.json', 'utf8')) as {
   applicationId: string;

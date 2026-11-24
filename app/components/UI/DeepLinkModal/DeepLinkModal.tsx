@@ -163,7 +163,7 @@ const DeepLinkModal = () => {
     const storeUrl =
       Platform.OS === 'ios' ? MM_APP_STORE_LINK : MM_PLAY_STORE_LINK;
     Linking.openURL(storeUrl).catch((error) => {
-      console.warn("Error opening PetroCASH store:", error);
+      console.warn('Error opening PetroCASH store:', error);
       if (__DEV__) {
         console.warn(`💡 Note: This error is expected in iOS Simulator
    because itms-apps:// URLs require the App Store app

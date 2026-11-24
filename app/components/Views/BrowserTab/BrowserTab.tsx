@@ -465,7 +465,7 @@ export const BrowserTab: React.FC<BrowserTabProps> = React.memo(
             }`;
             const response = await fetch(gatewayUrl, {
               headers: {
-                'User-Agent': "PetroCASH Mobile Browser",
+                'User-Agent': 'PetroCASH Mobile Browser',
               },
             });
             const statusCode = response.status;

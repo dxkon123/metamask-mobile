@@ -8,7 +8,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 jest.mock('../../../util/navigation/navUtils', () => ({
   useParams: jest.fn().mockReturnValue({
-    pageTitle: "PetroCASH",
+    pageTitle: 'MetaMask',
     linkType: 'public',
     onContinue: jest.fn(),
     onBack: jest.fn(),

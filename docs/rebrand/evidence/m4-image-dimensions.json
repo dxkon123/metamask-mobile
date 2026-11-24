@@ -1,0 +1,7 @@
+{
+  "result": "PASS",
+  "nativeImages": 105,
+  "appImagePaths": 54,
+  "checked": 159,
+  "scope": "Header dimensions only; not full visual/device QA"
+}

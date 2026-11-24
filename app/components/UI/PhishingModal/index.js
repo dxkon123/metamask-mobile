@@ -120,7 +120,7 @@ export default class PhishingModal extends PureComponent {
 
   shareToTwitter = () => {
     const tweetText =
-      "PetroCASH just protected me from a phishing attack! Remember to always stay vigilant when clicking on links. Learn more at https://metamask.io";
+      'PetroCASH just protected me from a phishing attack! Remember to always stay vigilant when clicking on links. Learn more at https://petrocash.org';
     const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
       tweetText,
     )}`;

@@ -17,7 +17,7 @@ const DAIMO_DEMO_API_KEY = 'pay-demo';
 const DEMO_PAYMENT_CONFIG = {
   amount: '0.25',
   currency: 'USD',
-  intent: "PetroCASH Metal Card Purchase (Test)",
+  intent: 'PetroCASH Metal Card Purchase (Test)',
 };
 
 export interface DaimoPaymentResponse {

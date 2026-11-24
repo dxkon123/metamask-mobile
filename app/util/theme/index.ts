@@ -190,7 +190,13 @@ export const useAppTheme = (): Theme => {
       setLightStatusBar();
   }
 
-  return { colors: withBrandColors(colors, themeAppearance === AppThemeKey.dark), themeAppearance, typography, shadows, brandColors };
+  return {
+    colors: withBrandColors(colors, themeAppearance === AppThemeKey.dark),
+    themeAppearance,
+    typography,
+    shadows,
+    brandColors,
+  };
 };
 
 export const useAppThemeFromContext = (): Theme => {

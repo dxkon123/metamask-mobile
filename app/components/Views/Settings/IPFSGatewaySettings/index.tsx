@@ -49,7 +49,7 @@ const IPFSGatewaySettings = () => {
           testUrl,
           {
             headers: {
-              'User-Agent': "PetroCASH Mobile Browser",
+              'User-Agent': 'PetroCASH Mobile Browser',
             },
           },
           1200,

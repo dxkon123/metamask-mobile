@@ -24,7 +24,7 @@ const CODE_SIGNING_KEYIDS = {
 
 module.exports = {
   name: 'MetaMask',
-  displayName: "PetroCASH",
+  displayName: 'PetroCASH',
   // NOTE: React Compiler is enabled via the `react-compiler` babel plugin in
   // babel.config.js, not here. This repo uses the React Native community Metro
   // transformer, which doesn't pass the `supportsReactCompiler` caller flag that

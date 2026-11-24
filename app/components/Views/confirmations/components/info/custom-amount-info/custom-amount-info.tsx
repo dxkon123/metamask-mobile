@@ -98,7 +98,7 @@ import {
   TextColor,
 } from '@metamask/design-system-react-native';
 
-const AMOUNT_UPDATE_ERROR_PREFIX = "PetroCASH Pay: Amount Update: ";
+const AMOUNT_UPDATE_ERROR_PREFIX = 'MetaMask Pay: Amount Update: ';
 
 export interface CustomAmountInfoProps {
   autoSelectFiatPayment?: boolean;

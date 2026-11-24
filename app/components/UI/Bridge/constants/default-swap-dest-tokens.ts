@@ -34,7 +34,7 @@ export const DefaultSwapDestTokens: Partial<
   [NETWORK_CHAIN_ID.MAINNET]: {
     '*': {
       symbol: 'mUSD',
-      name: "mUSD",
+      name: 'MetaMask USD',
       address: '0xaca92e438df0b2401ff60da7e4337b687a2435da',
       decimals: 6,
       image:
@@ -111,7 +111,7 @@ export const DefaultSwapDestTokens: Partial<
   [NETWORK_CHAIN_ID.LINEA_MAINNET]: {
     '*': {
       symbol: 'mUSD',
-      name: "mUSD",
+      name: 'MetaMask USD',
       address: '0xaca92e438df0b2401ff60da7e4337b687a2435da',
       decimals: 6,
       image:
@@ -263,7 +263,7 @@ export const Bip44TokensForDefaultPairs: Record<CaipAssetType, BridgeToken> = {
   },
   'eip155:1/erc20:0xaca92e438df0b2401ff60da7e4337b687a2435da': {
     symbol: 'mUSD',
-    name: "mUSD",
+    name: 'MetaMask USD',
     address: '0xaca92e438df0b2401ff60da7e4337b687a2435da',
     decimals: 6,
     image:

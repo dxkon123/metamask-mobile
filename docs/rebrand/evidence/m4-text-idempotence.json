@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "filesHashed": 13238,
+  "runs": [
+    {
+      "run": 1,
+      "changedPaths": []
+    },
+    {
+      "run": 2,
+      "changedPaths": []
+    }
+  ]
+}

@@ -96,7 +96,7 @@ export const US_STATES = [
 export const MUSD_PLACEHOLDER: DepositCryptoCurrency = {
   assetId: 'eip155:1/erc20:0xacA92E438df0B2401fF60dA7E4337B687a2435DA',
   chainId: 'eip155:1',
-  name: "mUSD",
+  name: 'MetaMask USD',
   symbol: 'mUSD',
   decimals: 6,
   iconUrl:

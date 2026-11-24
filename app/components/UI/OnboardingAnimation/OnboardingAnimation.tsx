@@ -78,7 +78,7 @@ const OnboardingAnimation = ({
         >
           {renderWordmark(
             <MetaMaskWordmark
-              name="PetroCASH-wordmark"
+              name="metamask-wordmark"
               width={wordmarkWidth}
               height={wordmarkHeight}
               color={colors.text.default}

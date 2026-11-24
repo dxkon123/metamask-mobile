@@ -14,7 +14,7 @@ export const MAINNET_MUSD_TOKEN_ADDRESS: Hex =
   '0xaca92e438df0b2401ff60da7e4337b687a2435da';
 
 const MUSD_SYMBOL = 'mUSD';
-const MUSD_NAME = "mUSD";
+const MUSD_NAME = 'MetaMask USD';
 const MUSD_DECIMALS = 6;
 
 export interface WalletHomeOnboardingFundRampPriorityCandidate {
