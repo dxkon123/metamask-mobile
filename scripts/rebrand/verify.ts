@@ -44,7 +44,7 @@ for (const field of [
   'MM_DEEP_LINK_PUBLIC_KEY_X',
   'MM_DEEP_LINK_PUBLIC_KEY_Y',
 ]) {
-  const literal = new RegExp(`\\b${field}:\\s*['\"]([^'\"]+)['\"]`, 'u');
+  const literal = new RegExp(`\\b${field}:\\s*['"]([^'"]+)['"]`, 'u');
   const original = originalAppConstants.match(literal)?.[1];
   if (!original || currentAppConstants.match(literal)?.[1] !== original)
     throw new Error(`Signed-link protocol constant changed: ${field}`);

@@ -160,3 +160,9 @@ Public remote configuration may contain service auth fields: inspect frontendAut
 Jest配置默认collectCoverageFrom覆盖大量源码。即使用了runTestsByPath，若不关调试coverage，测试结束后仍会扫描/插桩全仓，Mac可能heap耗尽。相关问题复现用 --runTestsByPath 精确列表及 --coverage=false；完整发行检查仍保留原coverage流程。记录实际套件和断言数，不把相关通过当全套通过。Reanimated的ES模块导出不可spyOn重定义：mock保留 __esModule/default，仅包装需要观察的函数；真实设备动画仍要另测。
 
 恢复上游canonical签名host，不代表把PetroCASH域名伪装为上游签名origin。新的petrocash://只做custom scheme别名，不改HTTPS host、不改签名实现、不自动批准。支持URL保留原mobile_app查询参数，帮助链接的?与&测试仍有效。实际资产MetaMask USD和API fixture不应为了让测试通过被改名。
+
+### 修断言时也要保留测试含义
+
+DeepLinkModal插入的是外部pageTitle，fixture里的MetaMask不能连同钱包固定文案一起改；支持入口只改owner的固定地址，不改测试的example.com opener。主题快照只改真实diff：本次radio边框/背景和loading主色3处改变，其他文字仍用原token，不能机械替换全部同色值。新动效必须遵守namespace import和颜色token规则，不用disable来消除报错。
+
+质量job现在是native job依赖，失败不启动耗时构建。private draft在native编译前预建并验证；稍后文档push移动branch head不会丢失交付渠道，APK验证后仍确认至少一种保存渠道成功。

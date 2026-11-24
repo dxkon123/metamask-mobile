@@ -220,7 +220,7 @@ exports[`SnapUIForm will render 1`] = `
                   style={
                     [
                       {
-                        "color": "#C90047",
+                        "color": "#4459ff",
                         "fontFamily": "Inter-Medium",
                         "fontSize": 16,
                         "letterSpacing": 0,
@@ -1216,7 +1216,7 @@ exports[`SnapUIForm will render with fields 1`] = `
                   style={
                     [
                       {
-                        "color": "#C90047",
+                        "color": "#4459ff",
                         "fontFamily": "Inter-Medium",
                         "fontSize": 16,
                         "letterSpacing": 0,

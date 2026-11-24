@@ -170,7 +170,7 @@ describe('DeepLinkModal', () => {
 
     const title = getByText('Proceed with caution');
     const description = getByText(
-      /You were sent here by a third party, not PetroCASH. You'll open PetroCASH if you continue./i,
+      /You were sent here by a third party, not PetroCASH. You'll open MetaMask if you continue./i,
     );
     const checkbox = queryByText(/Don't remind me again/i);
 
@@ -191,7 +191,7 @@ describe('DeepLinkModal', () => {
     );
 
     const title = getByText('Redirecting you to PetroCASH');
-    const description = getByText(/You'll open PetroCASH if you continue./i);
+    const description = getByText(/You'll open MetaMask if you continue./i);
     const checkbox = getByText(/Don't remind me again/i);
 
     expect(title).toBeOnTheScreen();

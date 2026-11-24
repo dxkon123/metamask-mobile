@@ -1,7 +1,7 @@
 import React, { createRef } from 'react';
 import { AppState } from 'react-native';
 import { act, render } from '@testing-library/react-native';
-import * as Reanimated from 'react-native-reanimated';
+import { withTiming, cancelAnimation } from 'react-native-reanimated';
 import BrandMotion, { type BrandMotionRef } from './BrandMotion';
 import { useNetworkTier } from '../../../hooks/useNetworkTier';
 import { useReduceMotion } from '../Money/hooks/useReduceMotion';
@@ -48,7 +48,7 @@ describe('BrandMotion local playback contract', () => {
   });
   it('starts no timing animations when reduced motion is enabled', () => {
     jest.mocked(useReduceMotion).mockReturnValue(true);
-    const timing = jest.mocked(Reanimated.withTiming);
+    const timing = jest.mocked(withTiming);
 
     render(<BrandMotion />);
 
@@ -56,7 +56,7 @@ describe('BrandMotion local playback contract', () => {
   });
   it('starts no timing animations offline', () => {
     jest.mocked(useNetworkTier).mockReturnValue('NONE');
-    const timing = jest.mocked(Reanimated.withTiming);
+    const timing = jest.mocked(withTiming);
 
     render(<BrandMotion />);
 
@@ -64,7 +64,7 @@ describe('BrandMotion local playback contract', () => {
   });
   it('keeps stop latched across later network changes', () => {
     const ref = createRef<BrandMotionRef>();
-    const timing = jest.mocked(Reanimated.withTiming);
+    const timing = jest.mocked(withTiming);
     const { rerender } = render(<BrandMotion ref={ref} />);
 
     act(() => ref.current?.stop());
@@ -76,7 +76,7 @@ describe('BrandMotion local playback contract', () => {
   });
   it('cancels playback when the app enters the background', () => {
     const subscription = jest.spyOn(AppState, 'addEventListener');
-    const cancel = jest.mocked(Reanimated.cancelAnimation);
+    const cancel = jest.mocked(cancelAnimation);
     render(<BrandMotion />);
     const listener = subscription.mock.calls.find(
       ([event]) => event === 'change',

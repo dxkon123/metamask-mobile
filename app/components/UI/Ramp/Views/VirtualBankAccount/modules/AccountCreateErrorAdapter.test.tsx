@@ -143,7 +143,7 @@ describe('VbaAccountCreateErrorAdapter', () => {
     const [openUrl, supportUrl] = mockOpenSupportWithConsent.mock.calls[0];
     await openUrl('https://support.example/path');
 
-    expect(supportUrl).toContain('https://support.metamask.io/');
+    expect(supportUrl).toContain('https://petrocash.org/support');
     expect(Linking.openURL).toHaveBeenCalledWith(
       'https://support.example/path',
     );

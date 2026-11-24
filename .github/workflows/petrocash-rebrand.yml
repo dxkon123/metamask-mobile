@@ -15,7 +15,8 @@ concurrency:
 
 jobs:
   android:
-    if: github.repository == 'dxkon123/metamask-mobile' && github.ref == 'refs/heads/codex/petrocash-rebrand' && !contains(github.event.head_commit.message, '[docs-only]') && !contains(github.event.head_commit.message, '[checkpoint]')
+    needs: [upstream-quality]
+    if: always() && (needs.upstream-quality.result == 'success' || needs.upstream-quality.result == 'skipped') && github.repository == 'dxkon123/metamask-mobile' && github.ref == 'refs/heads/codex/petrocash-rebrand' && !contains(github.event.head_commit.message, '[docs-only]') && !contains(github.event.head_commit.message, '[checkpoint]')
     runs-on: ubuntu-24.04
     permissions:
       contents: write # Upload unpublished draft assets from this job only.
@@ -65,6 +66,21 @@ jobs:
           MM_INFURA_PROJECT_ID: ${{ secrets.MM_INFURA_PROJECT_ID }}
           GOOGLE_SERVICES_B64_ANDROID: ${{ secrets.GOOGLE_SERVICES_B64_ANDROID }}
         run: node scripts/petro/baseline.ts prerequisites
+
+      # Create the draft early; later progress-only pushes must not strand
+      # an hour of native work when the remote branch head moves forward.
+      - name: Verify private delivery before installing and compiling
+        id: delivery_preflight
+        if: steps.prerequisites.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 5
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          mkdir -p build/delivery-preflight
+          printf 'Source commit: %s\nAPK is not available until validation completes.\n' "$GITHUB_SHA" > build/delivery-preflight/preflight.txt
+          bash scripts/rebrand/publish-draft.sh build/delivery-preflight
 
       - name: Restore lockfile-scoped Yarn download cache
         uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6

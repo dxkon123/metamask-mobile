@@ -5,7 +5,7 @@
 ## 当前继续点
 
 1. 交付通道已真实验证，修复 checkpoint 已推送 **60f1f870ddd0d38d30b6acc8ec9f0fe50fa18345**。不要重跑旧 workflow：它不会得到新修复。
-2. 下一提交只启动 **[checkpoint] [related-checks]**：完整4 lint + TSC，Jest 用 --runTestsByPath 覆盖 related-tests.json 的62套（原失败54套+品牌8套）。还不启动 native。
+2. 下一提交标记 **[related-checks]**：完整4 lint + TSC，Jest 用 --runTestsByPath 覆盖 related-tests.json 的62套（原失败54套+品牌8套）。native依赖这些检查，全成功才自动开始；失败则不编译。
 3. 处理真实失败直至通过，再以新的同一触发SHA构建APK、创建private draft。草稿失败则自动保留1天APK artifact（owner明确授权的例外），在AAB之前完成。验证实际APK hash/ID/cert后交付。
 4. 动画源代码和相关断言现已加入候选，原Rive实现可切换；本地品牌4套40断言PASS，协议/Rive合约正在复查，云端与真机尚未通过。不得称无bug或全部狐狸清除。
 
@@ -54,3 +54,9 @@ upstream a3251559c8af381b7b9689dd49d3dce8d5f76261；原基线c51abcebdb3ddc67de1
 ## 云端相关检查已启动
 
 run https://github.com/dxkon123/metamask-mobile/actions/runs/45384401830 ，commit01631382a0dfe30022dead0b272624e68971ce26，tree b7fe73d91ccebdbd66211eb9c80a40f70cb8edf2。70文件已完整上传并核对tree hash，本地==origin。Android job按checkpoint明确SKIPPED；15个质量job已开始，unitScope=related。此处只启动检查，未开始1小时native重编译。下一步读所有失败诊断并修复，不跳过。
+
+## 第二轮修正 / 自动构建门槛
+
+45384401830 completed: TSC PASS, lint4 PASS; lint1/2/3分别发现新动效测试namespace import、动效transparent颜色literal、verify.ts引号多余escape，已改成named import、仅用品牌颜色、无多余escape，不关闭规则。相关10分片7PASS，unit3/8/10中4套8断言FAIL：外部pageTitle应保留MetaMask；支持host改为owner地址；Snap快照只更新实际受影响3处primary颜色，不能将原token颜色全局重写。后续本地重测DeepLinkModal13、AccountCreateErrorAdapter7、Snap两套13断言/13快照均PASS。
+
+待推送候选新增native needs:upstream-quality；相关测试、完整lint/type任一失败则不花1小时native。全部成功后自动构建同一触发SHA。native在依赖安装/编译前先创建并小文件验证草稿，避免后续进度push使旧target再失败；仍保留草稿失败→1天APK artifact后备。只读默认token不变，contents:write仍限草稿job。不能把即将运行的检查记作PASS。

@@ -22,6 +22,10 @@ if gh release view "$draft_tag" --json isDraft --jq .isDraft > build/petro/draft
 else
   gh release create "$draft_tag" --draft --target "$GITHUB_SHA" --title "$draft_label" --notes-file MORNING-REPORT.md
 fi
+if [ "$(gh release view "$draft_tag" --json targetCommitish --jq .targetCommitish)" != "$GITHUB_SHA" ]; then
+  echo 'Refusing a draft whose target does not match the built source.' >&2
+  exit 2
+fi
 files=()
 for candidate in "$delivery_dir"/*; do
   if [ -f "$candidate" ]; then files+=("$candidate"); fi

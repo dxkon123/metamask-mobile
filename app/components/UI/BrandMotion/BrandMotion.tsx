@@ -54,7 +54,6 @@ const styles = StyleSheet.create({
     borderRadius: 999,
     borderColor: brand.colors.primary,
     borderLeftColor: brand.colors.primaryLight,
-    borderRightColor: 'transparent',
     opacity: 0.3,
   },
 });
