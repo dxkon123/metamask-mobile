@@ -16,6 +16,8 @@
   "unregisteredExample": ".github/workflows/nightly-build.yml",
   "unregisteredExampleUI": "This workflow does not exist",
   "sourceCommit": "1c35f1f55c03f2b3c089336de99739681a9bf600",
-  "runId": null,
-  "evidence": "Authenticated Chrome GitHub UI; screenshots in local outputs/PetroCASH; all states observed before retry."
+  "runId": 45367200108,
+  "evidence": "Authenticated Chrome GitHub UI; screenshots in local outputs/PetroCASH; all states observed before retry.",
+  "workflowCommit": "f3cf097073af4f3344e71334dd7c0aaa5ea64ddf",
+  "runStatus": "in_progress"
 }
