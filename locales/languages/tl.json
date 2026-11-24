@@ -1,7 +1,7 @@
 {
   "sample_feature": {
     "title": "Sampol na feature",
-    "description": "Isa itong screen na nagpapakita kung paano bumuo ng isang sampol ng feature mula sa simula hanggang matapos sa MetaMask.",
+    "description": "Isa itong screen na nagpapakita kung paano bumuo ng isang sampol ng feature mula sa simula hanggang matapos sa PetroCASH.",
     "counter": {
       "title": "Counter",
       "value": "Value: {{value}}",
@@ -22,7 +22,7 @@
   },
   "access_restricted": {
     "title": "Pinaghihigpitan ng access",
-    "description_line1": "Na-flag ang address ng wallet na ito habang sinusuri sa pagsunod. Bilang resulta, hindi available ang ilang mga serbisyo ng MetaMask.",
+    "description_line1": "Na-flag ang address ng wallet na ito habang sinusuri sa pagsunod. Bilang resulta, hindi available ang ilang mga serbisyo ng PetroCASH.",
     "description_line2": "Kung naniniwala ka na isa itong error, kontakin ang suporta para humiling ng pagsusuri.",
     "contact_support": "Kontakin ang suporta"
   },
@@ -31,7 +31,7 @@
     "description": "Welcome sa Arc! Upang mapadali at ma-verify ang paggamit mo ng Arc chain, maaari naming ibahagi ang impormasyon sa team ng Arc."
   },
   "storage": {
-    "device_full_alert": "Mababa na ang storage ng device mo. Magbakante ng space para mai-save ng MetaMask ang data ng wallet mo."
+    "device_full_alert": "Mababa na ang storage ng device mo. Magbakante ng space para mai-save ng PetroCASH ang data ng wallet mo."
   },
   "alert_system": {
     "alert_modal": {
@@ -317,13 +317,13 @@
   },
   "onboarding": {
     "title": "Magsimula na tayo!",
-    "sync_desc": "Kung nakakuha ka na ng extension ng MetaMask o ng ibang wallet, i-sync o i-import ito para mapamahalaan ang mga kasalukuyan mong asset.",
+    "sync_desc": "Kung nakakuha ka na ng extension ng PetroCASH o ng ibang wallet, i-sync o i-import ito para mapamahalaan ang mga kasalukuyan mong asset.",
     "create_desc": "I-set up ang una mong wallet at simulang i-explore ang mga desentralisadong app.",
     "import": "Mag-import ng kasalukuyang wallet o gumawa ng panibago",
     "import_wallet_button": "Mag-sync o mag-import ng wallet",
     "new_to_crypto": "Bago ka lang ba sa crypto?",
     "start_exploring_now": "Gumawa ng bagong wallet",
-    "new_to_metamask": "Bago ka ba sa MetaMask?",
+    "new_to_metamask": "Bago ka ba sa PetroCASH?",
     "already_have_wallet": "May wallet ka na ba?",
     "optin_back_title": "Paalala!",
     "optin_back_desc": "Sumang-ayon o huwag sumang-ayon sa paggamit ng data analytics. Puwede mo ring i-update ang opsyong ito sa mga setting.",
@@ -331,15 +331,15 @@
     "warning_text_1": "Ang iyong kasalukuyang wallet at mga account ay",
     "warning_text_2": "naalis",
     "warning_text_3": "kung magpapatuloy ka.",
-    "warning_text_4": "Mare-recover mo LANG ang mga iyon gamit ang Lihim na Parirala sa Pagbawi ng iyong wallet. Hindi makakatulong sa iyo ang MetaMask na i-recover ito.",
+    "warning_text_4": "Mare-recover mo LANG ang mga iyon gamit ang Lihim na Parirala sa Pagbawi ng iyong wallet. Hindi makakatulong sa iyo ang PetroCASH na i-recover ito.",
     "warning_proceed": "Alisin ang wallet at magpatuloy",
     "warning_cancel": "Kanselahin",
     "step1": "Pag-set up ng wallet",
     "step2": "Gumawa ng password",
     "step3": "I-secure ang wallet",
     "already_have": "May wallet ka na ba?",
-    "sync_existing": "I-sync ang iyong kasalukuyang MetaMask wallet mula sa browser extension o i-import ito nang manu-mano.",
-    "scan_title": "Mga hakbang para i-sync sa extension ng MetaMask",
+    "sync_existing": "I-sync ang iyong kasalukuyang PetroCASH wallet mula sa browser extension o i-import ito nang manu-mano.",
+    "scan_title": "Mga hakbang para i-sync sa extension ng PetroCASH",
     "scan": "I-scan",
     "scan_step_1": "Buksan ang extension sa desktop",
     "scan_step_2": "Pumunta sa Mga Setting  > Advanced",
@@ -362,7 +362,7 @@
     "have_existing_wallet": "Mayroon na akong wallet",
     "import_using_srp": "I-import gamit ang Lihim na Parirala sa Pagbawi",
     "import_using_srp_social_login": "Mayroon na akong wallet",
-    "by_continuing": "Sa pagpapatuloy, sumasang-ayon ka sa MetaMask na",
+    "by_continuing": "Sa pagpapatuloy, sumasang-ayon ka sa PetroCASH na",
     "terms_of_use": "Mga tuntunin ng paggamit",
     "privacy_notice": "Paunawa sa pagkapribado",
     "and": "at"
@@ -407,12 +407,12 @@
     "existing_user_button": "I-unlock ang wallet"
   },
   "onboarding_carousel": {
-    "title1": "Welcome sa MetaMask",
+    "title1": "Welcome sa PetroCASH",
     "title2": "Pamahalaan ang iyong mga digital na asset",
     "title3": "Ang iyong gateway sa web3",
-    "subtitle1": "Pinagkakatiwalaan ng milyon-milyon, ang MetaMask ay isang secure na wallet na nagbibigay-daan sa web3 na ma-access ng lahat.",
+    "subtitle1": "Pinagkakatiwalaan ng milyon-milyon, ang PetroCASH ay isang secure na wallet na nagbibigay-daan sa web3 na ma-access ng lahat.",
     "subtitle2": "Mag-imbak, gumastos o magpadala ng mga digital asset gaya ng mga token, Ethereum, naiibang mga maaaring kolektahin.",
-    "subtitle3": "Mag-log in sa MetaMask at gumawa ng mga transaksyon para mag-invest, kumita, maglaro, magbenta at higit pa!",
+    "subtitle3": "Mag-log in sa PetroCASH at gumawa ng mga transaksyon para mag-invest, kumita, maglaro, magbenta at higit pa!",
     "get_started": "Magsimula"
   },
   "onboarding_wizard": {
@@ -442,7 +442,7 @@
     "step4": {
       "title": "Pangunahing menu",
       "content1": "Maa-access mo ang history ng transaction, mga setting, at suporta mula sa menu na ito.",
-      "content2": "Maaari kang gumawa ng higit pang aksyon sa iyong mga account at i-access ang mga setting ng MetaMask."
+      "content2": "Maaari kang gumawa ng higit pang aksyon sa iyong mga account at i-access ang mga setting ng PetroCASH."
     },
     "step5": {
       "title": "Tuklasin ang browser",
@@ -461,7 +461,7 @@
     },
     "step1": {
       "title": "Welcome sa iyong wallet!",
-      "content1": "Sa blockchain, kailangan mo ng wallet (at maaaring ilang ETH). Kaya tingnan natin kung paano gamitin ang iyong MetaMask wallet."
+      "content1": "Sa blockchain, kailangan mo ng wallet (at maaaring ilang ETH). Kaya tingnan natin kung paano gamitin ang iyong PetroCASH wallet."
     },
     "step2": {
       "title": "Ang iyong mga account",
@@ -493,14 +493,14 @@
     "subtitle": "Hindi ito aabutin nang matagal"
   },
   "import_wallet": {
-    "title": "User ka na ba ng MetaMask?",
+    "title": "User ka na ba ng PetroCASH?",
     "sub_title": "I-sync sa extension",
     "sync_help": "I-sync ang iyong wallet sa extension",
     "sync_help_step_one": "1. Buksan ang extension",
     "sync_help_step_two": "2. Pumunta sa Mga Setting  > Advanced",
     "sync_help_step_three": "3. I-click ang \"I-sync sa Mobile\"",
     "sync_help_step_four": "4. I-scan ang QR Code para simulan ang pag-sync",
-    "sync_from_browser_extension_button": "I-sync sa extension ng MetaMask",
+    "sync_from_browser_extension_button": "I-sync sa extension ng PetroCASH",
     "or": "O",
     "import_from_seed_button": "I-import gamit ang Lihim na Parirala sa Pagbawi"
   },
@@ -520,22 +520,22 @@
     "your_current_wallet": "Ang iyong wallet, mga account, at mga asset ay",
     "removed_from": " permanenteng aalisin sa app na ito",
     "this_action": "Hindi maa-undo ang aksyong ito.",
-    "you_can_only": "Maaari mo lamang mabawi ang wallet na ito sa pamamagitan ng impormasyong ginamit noong ginagawa ito, gaya ng iyong Lihim na Parirala sa Pagbawi, Google account, o Apple account. Wala sa MetaMask ang impormasyong ito.",
+    "you_can_only": "Maaari mo lamang mabawi ang wallet na ito sa pamamagitan ng impormasyong ginamit noong ginagawa ito, gaya ng iyong Lihim na Parirala sa Pagbawi, Google account, o Apple account. Wala sa PetroCASH ang impormasyong ito.",
     "recovery_phrase": "Lihim na Parirala sa Pagbawi ",
-    "metamask_does_not": "Hindi hawak ng MetaMask ang iyong Lihim na Parirala sa Pagbawi.",
+    "metamask_does_not": "Hindi hawak ng PetroCASH ang iyong Lihim na Parirala sa Pagbawi.",
     "i_understand": "Nauunawaan ko, magpatuloy",
     "passcode_not_set_error": "Error: Hindi nakatakda ang passcode.",
     "wrong_password_error": "Mali ang password. Subukan muli.",
     "wrong_password_error_android": "Mali ang password. Subukan muli.",
     "vault_error": "Error: Hindi ma-unlock nang wala ang nakaraang vault.",
-    "clean_vault_error": "Nagkaroon ng error ang MetaMask dahil umabot sa limitasyon ng storage. Na-corrupt ang lokal na data. I-install muli ang MetaMask at ibalik gamit ang iyong Secret Recovery Phrase.",
+    "clean_vault_error": "Nagkaroon ng error ang PetroCASH dahil umabot sa limitasyon ng storage. Na-corrupt ang lokal na data. I-install muli ang PetroCASH at ibalik gamit ang iyong Secret Recovery Phrase.",
     "seedless_password_outdated": "Binago ang iyong password kamakailan.",
     "seedless_password_outdated_modal_title": "Binago ang iyong password",
-    "seedless_password_outdated_modal_content": "Binago ang iyong password kamakailan, kaya kailangan mong ilagay ang bago mong password para manatiling naka-log in sa MetaMask.",
+    "seedless_password_outdated_modal_content": "Binago ang iyong password kamakailan, kaya kailangan mong ilagay ang bago mong password para manatiling naka-log in sa PetroCASH.",
     "seedless_password_outdated_modal_confirm": "Magpatuloy",
     "no_internet_connection": "Nangangailangan ng koneksyon sa internet ang pagbawi sa account na seedless.",
     "seedless_controller_error_prompt_title": "Mayroong nang mali",
-    "seedless_controller_error_prompt_description": "May naganap na isyu habang ina-unlock. Mag-login muli gamit ang Google at ang password sa MetaMask mo.",
+    "seedless_controller_error_prompt_description": "May naganap na isyu habang ina-unlock. Mag-login muli gamit ang Google at ang password sa PetroCASH mo.",
     "seedless_controller_error_prompt_primary_button_label": "Mag-log in",
     "security_alert_title": "Alerto sa seguridad",
     "security_alert_desc": "Para magpatuloy, kailangan mong i-on ang Passcode o ang anumang paraan ng pag-authenticate ng biometrics na sinusuportahan ng iyong device (FaceID, TouchID o Fingerprint)",
@@ -545,20 +545,20 @@
     "google_button": "Mag-sign in sa Google",
     "other_methods": "Gumamit ng ibang paraan ng pag-log in",
     "forgot_password_desc": "Nakalimutan ang iyong password?",
-    "forgot_password_desc_2": "Hindi mababawi ng MetaMask ang iyong password para sa iyo.",
-    "forgot_password_point_1": "Kung naka-log in ka sa MetaMask sa isang device na",
+    "forgot_password_desc_2": "Hindi mababawi ng PetroCASH ang iyong password para sa iyo.",
+    "forgot_password_point_1": "Kung naka-log in ka sa PetroCASH sa isang device na",
     "forgot_password_point_1_bold": "naka-on ang biometrics",
     "forgot_password_point_1_1": "(gaya ng Face ID), i-reset ang iyong password doon.",
     "forgot_password_point_2": "Kung nasa iyo ang iyong",
     "forgot_password_point_2_bold": "Lihim na Parirala sa Pagbawi,",
     "forgot_password_point_2_1": "maaari mong i-reset ang iyong kasalukuyang wallet at muling i-import gamit ang Lihim na Parirala sa Pagbawi.",
     "reset_wallet": "I-reset ang wallet",
-    "reset_wallet_desc": "Buburahin ang data ng wallet mo mula sa MetaMask sa device na ito. Hindi na ito mababawi.",
-    "reset_wallet_desc_login": "Para ibalik ang iyong wallet, maaari mong gamitin ang iyong Lihim na Parirala sa Pagbawi, o ang password ng iyong Google o Apple account. Wala sa MetaMask ang impormasyong ito.",
-    "reset_wallet_desc_srp": "Para maibalik ang wallet mo, siguraduhing mayroon ka ng Lihim na Parirala sa Pagbawi (Secret Recovery Phrase) mo. Wala sa MetaMask ang impormasyong ito.",
+    "reset_wallet_desc": "Buburahin ang data ng wallet mo mula sa PetroCASH sa device na ito. Hindi na ito mababawi.",
+    "reset_wallet_desc_login": "Para ibalik ang iyong wallet, maaari mong gamitin ang iyong Lihim na Parirala sa Pagbawi, o ang password ng iyong Google o Apple account. Wala sa PetroCASH ang impormasyong ito.",
+    "reset_wallet_desc_srp": "Para maibalik ang wallet mo, siguraduhing mayroon ka ng Lihim na Parirala sa Pagbawi (Secret Recovery Phrase) mo. Wala sa PetroCASH ang impormasyong ito.",
     "reset_wallet_desc_srp_1": "Para ibalik ang wallet mo, siguraduhing nasa iyo ang",
     "reset_wallet_desc_srp_bold": "Lihim na Parirala sa Pagbawi (Secret Recovery Phrase)",
-    "reset_wallet_desc_srp_2": "Walang ganitong impormasyon ang MetaMask.",
+    "reset_wallet_desc_srp_2": "Walang ganitong impormasyon ang PetroCASH.",
     "biometric_authentication_cancelled": "Kinansela ang pag-authenticate sa biometric",
     "biometric_authentication_cancelled_title": "Nabigo ang pag-setup sa biometric",
     "biometric_authentication_cancelled_description": "I-setup muli ang pag-authenticate sa biometric mula sa mga setting.",
@@ -581,13 +581,13 @@
   },
   "choose_password": {
     "title": "Gumawa ng password",
-    "description": "I-unlock ang MetaMask sa device lang na ito.",
-    "create_description": "Gamitin ang password na ito para i-unlock ang MetaMask sa device na ito. Hindi nito pinapalitan ang Lihim na Parirala sa Pagbawi mo.",
+    "description": "I-unlock ang PetroCASH sa device lang na ito.",
+    "create_description": "Gamitin ang password na ito para i-unlock ang PetroCASH sa device na ito. Hindi nito pinapalitan ang Lihim na Parirala sa Pagbawi mo.",
     "description_social_login": "Gamitin ito para sa pagbawi ng wallet mo sa lahat ng device.",
     "description_social_login_update": "Kung naiwala mo ang password na ito, mawawalan ka ng access sa wallet mo at sa lahat ng device. Itago ito sa isang ligtas na lugar.",
-    "description_social_login_update_ios": "Gamitin ito para sa pagbawi ng wallet sa lahat ng device. Hindi ito mare-reset ng MetaMask.",
-    "description_social_login_update_bold": "Hindi ito maire-reset ng MetaMask.",
-    "subtitle": "Maa-unlock ng password na ito ang iyong MetaMask wallet sa device lang na ito.",
+    "description_social_login_update_ios": "Gamitin ito para sa pagbawi ng wallet sa lahat ng device. Hindi ito mare-reset ng PetroCASH.",
+    "description_social_login_update_bold": "Hindi ito maire-reset ng PetroCASH.",
+    "subtitle": "Maa-unlock ng password na ito ang iyong PetroCASH wallet sa device lang na ito.",
     "password": "Gumawa ng password",
     "confirm_password": "Kumpirmahin ang password",
     "create_button": "Gumawa ng password",
@@ -605,7 +605,7 @@
     "remember_me": "Tandaan ako",
     "security_alert_title": "Alerto sa seguridad",
     "security_alert_message": "Upang magpatuloy, kailangan mong i-on ang Passcode o anumang paraan ng pag-authenticate ng biometrics na sinusuportahan sa iyong device (FaceID, TouchID o Fingerprint)",
-    "i_understand": "Nauunawaan kong hindi mare-recover ng MetaMask ang password na ito para sa akin.",
+    "i_understand": "Nauunawaan kong hindi mare-recover ng PetroCASH ang password na ito para sa akin.",
     "learn_more": "Matuto pa",
     "secure": "I-secure ang wallet",
     "confirm": "Kumpirmahin ang Lihim na Parirala sa Pagbawi",
@@ -616,7 +616,7 @@
     "steps": "Hakbang {{currentStep}} ng {{totalSteps}}",
     "password_error": "Hindi magkatugma ang mga password.",
     "marketing_opt_in_description": "Kumuha ng mga update ng produkto, tip at kabilang ang balita sa pamamagitan ng email. Maaari naming gamitin ang mga interaksyon mo upang mapahusay ang ibinabahagi namin.",
-    "password_warning_title": "Hindi mare-reset ng MetaMask ang password mo",
+    "password_warning_title": "Hindi mare-reset ng PetroCASH ang password mo",
     "password_warning_description_part1": "Kapag nakalimutan mo ang password na ito, ang tanging paraan para makabalik ay sa pamamagitan ng iyong ",
     "password_warning_srp": "Lihim na Parirala sa Pagbawi (Secret Recovery Phrase)",
     "password_warning_description_part2": " o isang device na pinapagana ang biometrics.",
@@ -626,8 +626,8 @@
   "wallet_creation_error": {
     "title": "Mayroong nang mali",
     "social_login_description_part1": "Nagkaroon ng error habang ginagawa ang account mo. Subukang muli at kung magpapatuloy ang isyu, makipag-ugnayan sa",
-    "srp_description_part1": "Magpadala sa amin ng walang pagkakakilanlang ulat sa error para makatulong na ayusin ang problema at mapahusay ang MetaMask. Kung magpatuloy ang isyu, makipag-ugnayan sa",
-    "metamask_support": "Suporta ng MetaMask",
+    "srp_description_part1": "Magpadala sa amin ng walang pagkakakilanlang ulat sa error para makatulong na ayusin ang problema at mapahusay ang PetroCASH. Kung magpatuloy ang isyu, makipag-ugnayan sa",
+    "metamask_support": "Suporta ng PetroCASH",
     "error_report": "Ulat sa error",
     "copy": "Kopyahin",
     "copied": "Nakopya",
@@ -638,7 +638,7 @@
   },
   "reset_password": {
     "title": "Palitan ang password",
-    "subtitle": "Maa-unlock ng password na ito ang iyong MetaMask wallet sa device lang na ito.",
+    "subtitle": "Maa-unlock ng password na ito ang iyong PetroCASH wallet sa device lang na ito.",
     "password": "Bagong password",
     "confirm_password": "Kumpirmahin ang password",
     "reset_button": "I-reset ang password",
@@ -656,7 +656,7 @@
     "remember_me": "Tandaan ako",
     "security_alert_title": "Alerto sa seguridad",
     "security_alert_message": "Upang magpatuloy, kailangan mong i-on ang Passcode o anumang paraan ng pag-authenticate ng biometrics na sinusuportahan sa iyong device (FaceID, TouchID o Fingerprint)",
-    "i_understand": "Nauunawaan kong hindi mare-recover ng MetaMask ang password na ito para sa akin.",
+    "i_understand": "Nauunawaan kong hindi mare-recover ng PetroCASH ang password na ito para sa akin.",
     "learn_more": "Matuto pa",
     "secure": "I-secure ang wallet",
     "confirm": "Kumpirmahin ang Lihim na Parirala sa Pagbawi",
@@ -666,12 +666,12 @@
     "confirm_password_placeholder": "Ilagay muli ang iyong password",
     "confirm_btn": "I-save",
     "warning_password_change_title": "Sigurado ka ba?",
-    "warning_password_change_description": "Kapag pinalitan mo password mo dito, mala-lock ang MetaMask sa ibang mga device na ginagamit mo. Kailangan mong muling mag-log in gamit ang bagong password mo",
+    "warning_password_change_description": "Kapag pinalitan mo password mo dito, mala-lock ang PetroCASH sa ibang mga device na ginagamit mo. Kailangan mong muling mag-log in gamit ang bagong password mo",
     "warning_password_change_button": "Kumpirmahin",
     "warning_password_cancel_button": "Kanselahin",
     "changing_password": "Pinapalitan ang password...",
     "changing_password_subtitle": "Hindi ito aabutin nang matagal",
-    "checkbox_forgot_password": "Kung makakalimutan ko ang password na ito, permanente akong mawawalan ng access sa aking wallet. Hindi ito maire-reset ng MetaMask para sa akin.",
+    "checkbox_forgot_password": "Kung makakalimutan ko ang password na ito, permanente akong mawawalan ng access sa aking wallet. Hindi ito maire-reset ng PetroCASH para sa akin.",
     "seedless_change_password_error_modal_title": "Nabigong palitan ang password",
     "seedless_change_password_error_modal_content": "Hindi namin mapalitan ang iyong password. Subukan muli.",
     "seedless_change_password_error_modal_confirm": "Subukang muli"
@@ -692,17 +692,17 @@
     "invalid_qr_code_message": "Ang QR code na ito ay hindi kumakatawan sa isang wastong Lihim na Parirala sa Pagbawi",
     "enter_your_secret_recovery_phrase": "Ilagay rito ang iyong Lihim na Parirala sa Pagbawi",
     "or": "o",
-    "import_wallet_from_extension": "i-import from the MetaMask extension",
+    "import_wallet_from_extension": "i-import from the PetroCASH extension",
     "import_menu_title": "Mag-import",
     "import_from_srp_qr": "Import from Secret Recovery Phrase QR Code",
-    "import_from_extension_menu": "I-import mula sa MetaMask extension",
-    "metamask_password": "MetaMask password",
-    "metamask_password_description": "I-unlock ang MetaMask sa device lang na ito.",
+    "import_from_extension_menu": "I-import mula sa PetroCASH extension",
+    "metamask_password": "PetroCASH password",
+    "metamask_password_description": "I-unlock ang PetroCASH sa device lang na ito.",
     "seed_phrase_required": "Kinakailangan ang Lihim na Parirala sa Pagbawi (Secret Recovery Phrase)",
     "re_enter_password": "Ilagay muli ang iyong password",
     "use_at_least_8_characters": "Gumamit ng hindi bababa sa 8 character",
     "unlock_with_face_id": "I-unlock gamit ang Face ID?",
-    "learn_more_social_login": "Kung makakalimutan ko ang password na ito, permanente akong mawawalan ng access sa aking wallet. Hindi ito maire-reset ng MetaMask para sa akin.",
+    "learn_more_social_login": "Kung makakalimutan ko ang password na ito, permanente akong mawawalan ng access sa aking wallet. Hindi ito maire-reset ng PetroCASH para sa akin.",
     "seed_phrase_length_error": "Ang Secret Recovery Phrase ay dapat na 12, 15, 18, 21, o 24 na salita",
     "continue": "Magpatuloy",
     "clear_all": "I-clear lahat",
@@ -758,7 +758,7 @@
     "lock_ok": "Oo",
     "lock_cancel": "Hindi",
     "feedback": "Feedback",
-    "metamask_support": "Suporta ng MetaMask",
+    "metamask_support": "Suporta ng PetroCASH",
     "public_address": "Pampublikong address"
   },
   "send": {
@@ -1029,7 +1029,7 @@
     },
     "privacy_section": {
       "transak": "Ini-encrypt at itinatago ng Transak ang impormasyong ito.",
-      "metamask": "Hindi natatanggap o ginagamit ng MetaMask ang iyong data."
+      "metamask": "Hindi natatanggap o ginagamit ng PetroCASH ang iyong data."
     },
     "kyc_processing": {
       "navbar_title": "I-verify ang pagkakakilanlan mo",
@@ -1203,7 +1203,7 @@
       "copia_cola_label": "Pix Copia e Cola",
       "pix_key_label": "Pix key",
       "bank_transfer_title": "Magdagdag ng pera gamit ang bank transfer",
-      "bank_transfer_description": "Gamitin ang mga detalyeng ito para magpadala ng pera mula sa iyong bank account papuntang MetaMask Money.",
+      "bank_transfer_description": "Gamitin ang mga detalyeng ito para magpadala ng pera mula sa iyong bank account papuntang PetroCASH Money.",
       "account_holder_label": "Holder ng account",
       "routing_number_label": "Numero ng routing",
       "account_number_label": "Numero ng account",
@@ -1231,12 +1231,12 @@
       "step_answer_questions": "Sumagot ng ilang tanong",
       "partner_title": "Ka-partner namin ang idOS para i-verify ang iyong pagkakakilanlan.",
       "benefit_reuse_title": "I-verify nang isang beses, gamitin muli mamaya.",
-      "benefit_reuse_description": "Ligtas na iniimbak ng MetaMask ang naka-encrypt na kopya ng iyong na-verify na pagkakakilanlan, kaya makakapag-sign up ka nang mas mabilis sa ibang mga partner.",
+      "benefit_reuse_description": "Ligtas na iniimbak ng PetroCASH ang naka-encrypt na kopya ng iyong na-verify na pagkakakilanlan, kaya makakapag-sign up ka nang mas mabilis sa ibang mga partner.",
       "benefit_control_title": "Kontrolado mo ang iyong data.",
       "benefit_control_description": "Ibinabahagi lang namin ang na-verify mo na pagkakakilanlan sa partner kapag sumang-ayon ka.",
       "benefit_delete_title": "Tanggalin anumang oras.",
       "benefit_delete_description": "Tanggalin ang na-verify mo na pagkakakilanlan anumang oras sa Mga Setting.",
-      "agreement": "Sa pagpapatuloy, sumasang-ayon ako sa MetaMask {{termsOfUse}}, kinikilala ang MetaMask {{privacyNotice}} at pinahihintulutan ang MetaMask na iimbak at ilipat ang impormasyon ko sa idOS.",
+      "agreement": "Sa pagpapatuloy, sumasang-ayon ako sa PetroCASH {{termsOfUse}}, kinikilala ang PetroCASH {{privacyNotice}} at pinahihintulutan ang PetroCASH na iimbak at ilipat ang impormasyon ko sa idOS.",
       "agreement_terms_of_use": "Mga Tuntunin ng Paggamit",
       "agreement_privacy_notice": "Patakaran sa Pagkapribado",
       "disclaimers_error": "Hindi mai-load ang mga tuntunin at kundisyon.",
@@ -1550,7 +1550,7 @@
       "post_and_earn_title": "Mag-post at kumita",
       "post_and_earn_body": "Kumita ng 15% sa bayarin sa tuwing may kumokopya sa trade mo",
       "create_post": "Gumawa ng post",
-      "create_profile_title": "Magagamit na ang mga social media account mo sa MetaMask",
+      "create_profile_title": "Magagamit na ang mga social media account mo sa PetroCASH",
       "create_profile_body": "Gumawa ng profile at kumita kapag kinopya ng iba ang mga trade mo",
       "create_profile": "Gumawa ng profile",
       "view_activity": "Tingnan ang aktibidad",
@@ -1667,8 +1667,8 @@
     "follow": "I-follow",
     "following": "Following",
     "share_link": {
-      "profile_title": "{{trader}} on MetaMask",
-      "profile_description": "See {{trader}}'s trades on MetaMask",
+      "profile_title": "{{trader}} on PetroCASH",
+      "profile_description": "See {{trader}}'s trades on PetroCASH",
       "position_title": "{{trader}}'s {{asset}} trade",
       "position_description": "{{trader}} is trading {{asset}}",
       "position_title_no_asset": "Trade ni {{trader}}"
@@ -1816,7 +1816,7 @@
     "terms": {
       "title": "Na-update ang aming Mga Tuntunin sa Paggamit",
       "close": "Isara",
-      "checkbox": "Sumasang-ayon ako sa Mga Tuntunin ng Paggamit, na nalalapat sa aking paggamit ng MetaMask at sa lahat ng mga tampok nito",
+      "checkbox": "Sumasang-ayon ako sa Mga Tuntunin ng Paggamit, na nalalapat sa aking paggamit ng PetroCASH at sa lahat ng mga tampok nito",
       "agree": "Sumang-ayon",
       "scroll_helper": "Mag-scroll upang basahin ang lahat ng seksyon",
       "scroll_to_bottom": "Mag-scroll pababa",
@@ -1835,7 +1835,7 @@
       "connect_x_before_logo": "Kumonekta",
       "connect_x_after_logo": "account",
       "create_manually": "Gumawa ng profile nang manu-mano",
-      "choose_x_identity": "Pumili ng MetaMask username at avatar",
+      "choose_x_identity": "Pumili ng PetroCASH username at avatar",
       "choose_x_identity_description": "Sa ganitong paraan ka makikilala ng ibang mga trader.",
       "use_x_username": "Gamitin ang @{{username}} bilang username",
       "use_x_avatar": "Gamitin ang X profile picture",
@@ -1903,7 +1903,7 @@
       "username_too_short": "Gumamit ng kahit {{min}} (na) character lang.",
       "username_too_long": "Gumamit ng hanggang {{max}} (na) character.",
       "username_invalid": "Gumamit ng mga titik, numero, at underscore.",
-      "handle_helper": "Lumalabas ang handle mo sa mga post at sa profile mo bilang @handle.metamask.",
+      "handle_helper": "Lumalabas ang handle mo sa mga post at sa profile mo bilang @handle.PetroCASH.",
       "socials_helper": "Lumalabas ang handle mo sa X sa mga post at sa profile mo.",
       "show_trading_activity": "Ipakita ang aktibidad ng pag-trade",
       "trading_activity_footnote": "Nalalapat kaagad ang mga pagbabago. Mananatiling nakikita ang iyong pagkakakilanlan at content sa social media kahit na may mga pagbabago. ",
@@ -1999,7 +1999,7 @@
       "buy_mode": "Bumili",
       "with": "sa",
       "est_receive": "Tinatayang matatanggap",
-      "metamask_fee": "Bayad sa MetaMask",
+      "metamask_fee": "Bayad sa PetroCASH",
       "network_fee": "Bayad sa network",
       "slippage": "Slippage",
       "minimum_received": "Pinakamababang natanggap",
@@ -2148,8 +2148,8 @@
       "apply": "Ilapat",
       "max_button": "Pinakamataas",
       "done_button": "Tapos na",
-      "metamask_fee": "Bayad sa MetaMask",
-      "metamask_fee_tooltip": "Hindi naniningil ang MetaMask para sa anumang pagdeposito sa Hyperliquid",
+      "metamask_fee": "Bayad sa PetroCASH",
+      "metamask_fee_tooltip": "Hindi naniningil ang PetroCASH para sa anumang pagdeposito sa Hyperliquid",
       "minimum_deposit_error": "Ang pinakamababang halaga ng deposito ay {{amount}} USDC",
       "processing_title": "Pinoproseso ang pagdeposito",
       "preview": {
@@ -2235,7 +2235,7 @@
       "success_title": "Matagumpay ang pag-withdraw",
       "success_description": "Na-withdraw na ang {{amount}} USDC mo mula sa Hyperliquid",
       "network_fee": "Bayad sa network",
-      "metamask_fee": "Bayad sa MetaMask",
+      "metamask_fee": "Bayad sa PetroCASH",
       "total_fees": "Kabuuang bayarin",
       "receiving_amount": "Makakatanggap ka ng",
       "estimated_time": "Tinatayang oras",
@@ -2273,10 +2273,10 @@
       "network_fee": "Bayad sa network",
       "estimated_time": "Tinatayang oras",
       "rate": "Rate",
-      "metamask_fee": "Bayad sa MetaMask",
-      "metamask_fee_tooltip": "Hindi naniningil ang MetaMask para sa anumang transaksyon sa Hyperliquid",
-      "metamask_fee_tooltip_deposit": "Hindi naniningil ang MetaMask para sa anumang pagdeposito sa Hyperliquid",
-      "metamask_fee_tooltip_withdrawal": "Hindi naniningil ang MetaMask para sa anumang pag-withdraw sa Hyperliquid"
+      "metamask_fee": "Bayad sa PetroCASH",
+      "metamask_fee_tooltip": "Hindi naniningil ang PetroCASH para sa anumang transaksyon sa Hyperliquid",
+      "metamask_fee_tooltip_deposit": "Hindi naniningil ang PetroCASH para sa anumang pagdeposito sa Hyperliquid",
+      "metamask_fee_tooltip_withdrawal": "Hindi naniningil ang PetroCASH para sa anumang pag-withdraw sa Hyperliquid"
     },
     "pro_order_form": {
       "isolated": "Naka-isolate",
@@ -2657,7 +2657,7 @@
         "reference_price_accessibility_value": "{{orderType}}, reference price {{price}}",
         "foreground_notice": "Hayaang nakabukas ang app habang tumatakbo ang Chase order.",
         "backgrounding_title": "Kumukuha ng mga Chase order",
-        "backgrounding_notification": "Itinitigil ng MetaMask ang pag-reprice ng Chase bago magdiskonekta.",
+        "backgrounding_notification": "Itinitigil ng PetroCASH ang pag-reprice ng Chase bago magdiskonekta.",
         "backgrounded_title": "Naging limit order ang Chase",
         "backgrounded_notification": "Naka-rest ngayon bilang limit order ang Chase order mo sa huli nitong chased price.",
         "backgrounded_notification_multiple": "{{count}} (na) Chase order ang naka-rest ngayon bilang mga limit order sa huling chased price ng mga ito.",
@@ -3247,7 +3247,7 @@
       "fees": {
         "title": "Mga bayarin",
         "content": "May sinisingil na mga bayarin sa pag-trade kapag nagbubukas o nagsasara ka ng posisyon.",
-        "metamask_fee": "Bayad sa MetaMask",
+        "metamask_fee": "Bayad sa PetroCASH",
         "provider_fee": "Bayad sa provider",
         "bridge_fee": "Bayad sa bridge",
         "total": "Kabuuang bayarin",
@@ -3256,8 +3256,8 @@
         "promotional_discount": "Diskwento sa promosyon",
         "original_fee_value": "was {{fee}}",
         "fee_discount": "Diskwento sa bayad",
-        "promotional_discount_message": "{{percentage}}% off the MetaMask fee.",
-        "fee_discount_message": "Nakakatipid ka ng {{percentage}}% sa bayad sa MetaMask."
+        "promotional_discount_message": "{{percentage}}% off the PetroCASH fee.",
+        "fee_discount_message": "Nakakatipid ka ng {{percentage}}% sa bayad sa PetroCASH."
       },
       "size_skew": {
         "title": "Laki ng skew",
@@ -3269,7 +3269,7 @@
       },
       "closing_fees": {
         "title": "Mga bayarin sa pagsasara",
-        "metamask_fee": "Bayad sa MetaMask",
+        "metamask_fee": "Bayad sa PetroCASH",
         "provider_fee": "Bayad sa provider"
       },
       "estimated_pnl": {
@@ -3330,7 +3330,7 @@
       },
       "points": {
         "title": "Mga Point",
-        "content": "Ang Mga Puntos ay kung paano ka nakakakuha ng mga Reward sa MetaMask para sa pagkumpleto ng mga transaksyon, gaya ng kapag nagsu-swap, nagbi-bridge, o nagti-trade ka ng perps."
+        "content": "Ang Mga Puntos ay kung paano ka nakakakuha ng mga Reward sa PetroCASH para sa pagkumpleto ng mga transaksyon, gaya ng kapag nagsu-swap, nagbi-bridge, o nagti-trade ka ng perps."
       },
       "market_hours": {
         "title": "Mga oras ng market",
@@ -3446,7 +3446,7 @@
     },
     "support": {
       "title": "Kontakin ang suporta",
-      "description": "Kontakin ang Suporta ng MetaMask para humingi ng tulong"
+      "description": "Kontakin ang Suporta ng PetroCASH para humingi ng tulong"
     },
     "feedback": {
       "title": "Bigyan kami ng feedback"
@@ -3469,7 +3469,7 @@
         },
         "trip": {
           "title": "Kilalanin ang team IRL",
-          "subtitle": "Isang naka-sponsor na trip sa MetaMask, sagot namin"
+          "subtitle": "Isang naka-sponsor na trip sa PetroCASH, sagot namin"
         }
       },
       "contact": "Makipag-ugnayan sa Telegram {{telegramHandle}}, o email {{email}}",
@@ -3540,7 +3540,7 @@
     },
     "crossMargin": {
       "title": "Hindi suportado ang cross margin",
-      "message": "Sinusuportahan lang ng MetaMask Perps ang pag-trade gamit ang isolated margin. Kailangan mo munang isara ang iyong posisyon na cross margin para makapag-trade sa MetaMask.",
+      "message": "Sinusuportahan lang ng Perps ang pag-trade gamit ang isolated margin. Kailangan mo munang isara ang iyong posisyon na cross margin para makapag-trade sa PetroCASH.",
       "dismiss": "Nakuha ko"
     },
     "crossMarginRatio": {
@@ -3646,7 +3646,7 @@
         "size": "Laki",
         "limit_price": "Limit price",
         "filled": "Na-fill",
-        "metamask_fee": "Bayad sa MetaMask",
+        "metamask_fee": "Bayad sa PetroCASH",
         "hyperliquid_fee": "Bayad sa HyperLiquid",
         "total_fee": "Kabuuang bayarin",
         "liquidated": "Na-liquidate",
@@ -3734,7 +3734,7 @@
       "add_funds": "Magdagdag ng pondo",
       "what_are_perps": {
         "title": "Ano ang perps?",
-        "description": "Nakakasuporta na ngayon ang MetaMask sa mga perpetual future na tinatawag ding perps. Nagbibigay-daan ito sa iyong mag-trade sa paggalaw ng presyo ng isang token nang hindi ito binibili.",
+        "description": "Nakakasuporta na ngayon ang PetroCASH sa mga perpetual future na tinatawag ding perps. Nagbibigay-daan ito sa iyong mag-trade sa paggalaw ng presyo ng isang token nang hindi ito binibili.",
         "subtitle": "Narito kung paano ito gumagana."
       },
       "go_long_or_short": {
@@ -3757,7 +3757,7 @@
       "ready_to_trade": {
         "title": "Handa nang mag-trade?",
         "description": "Pondohan ang perps account mo gamit ang anumang token at isagawa ang una mong trade sa ilang segundo.",
-        "footer_text": "Isa-swap ng MetaMask ang iyong mga pondo sa USDC sa Arbitrum, at idedeposito ang mga iyon sa HyperCore nang walang dagdag na bayad."
+        "footer_text": "Isa-swap ng PetroCASH ang iyong mga pondo sa USDC sa Arbitrum, at idedeposito ang mga iyon sa HyperCore nang walang dagdag na bayad."
       },
       "got_it": "Nakuha ko",
       "lets_go": "Tara na",
@@ -3776,13 +3776,13 @@
       "title": "P&L Hero Card",
       "header_title": "I-share ang iyong trade",
       "share_button": "Ibahagi",
-      "share_message_without_referral_code": "Mag-trade ng {{asset}} perps sa MetaMask.",
+      "share_message_without_referral_code": "Mag-trade ng {{asset}} perps sa PetroCASH.",
       "share_failed": "Hindi na-export ang imahe",
       "export_success": "Na-export na imahe"
     },
     "share_position": {
       "title": "I-share ng posisyon",
-      "post_to_metamask": "I-post sa MetaMask",
+      "post_to_metamask": "I-post sa PetroCASH",
       "post_to_metamask_description": "Kumita ng 15% sa bayarin sa tuwing may kumukopya sa iyong mga galaw.",
       "new_badge": "Bago",
       "share_externally": "I-share sa labas"
@@ -3985,7 +3985,7 @@
       "potential_profit": "Potensyal na kita",
       "fee": "Bayarin",
       "exchange_fee": "Bayad sa palitan",
-      "metamask_fee": "Bayad sa MetaMask",
+      "metamask_fee": "Bayad sa PetroCASH",
       "total_debit": "Kabuuang debit",
       "to_win": "Para manalo ng {{amount}}",
       "pay_with": "Magbayad gamit ang",
@@ -4046,7 +4046,7 @@
     }
   },
   "predict": {
-    "title": "Mga Predisksyon ng MetaMask",
+    "title": "Mga Predisksyon ng PetroCASH",
     "game_status": {
       "live": "LIVE",
       "scheduled": "NAKAISKEDYUL",
@@ -4439,7 +4439,7 @@
     },
     "market_unavailable": {
       "title": "Hindi available ang market",
-      "description": "Hindi available ang market na ito sa ngayon. Para sa tulong, makipag-ugnayan sa Suporta ng MetaMask.",
+      "description": "Hindi available ang market na ito sa ngayon. Para sa tulong, makipag-ugnayan sa Suporta ng PetroCASH.",
       "button": "Nakuha ko"
     },
     "deposit": {
@@ -4465,7 +4465,7 @@
     },
     "consent_sheet": {
       "title": "Mga tuntunin ng paggamit",
-      "description": "Nakikipagtulungan ang MetaMask sa Polymarket para mag-alok ng mga merkado para sa prediksyon. Nangyayari sa Polymarket ang lahat ng aming available na merkado, order, at settlement.",
+      "description": "Nakikipagtulungan ang PetroCASH sa Polymarket para mag-alok ng mga merkado para sa prediksyon. Nangyayari sa Polymarket ang lahat ng aming available na merkado, order, at settlement.",
       "learn_more": "Matuto pa.",
       "agree": "Sumasang-ayon",
       "disagree": "Hindi sumasang-ayon",
@@ -4625,11 +4625,11 @@
       "fees": "Mga Bayarin",
       "provider_fee_label": "Bayarin sa Polymarket",
       "provider_fee": "Bayad sa provider",
-      "metamask_fee": "Bayad sa MetaMask",
+      "metamask_fee": "Bayad sa PetroCASH",
       "total": "Kabuuan",
       "estimated_points": "Tinatayang mga point",
       "points_tooltip": "Mga Point",
-      "points_tooltip_content_1": "Sa pamamagitan ng points, makakakuha ka ng mga Reward sa MetaMask para sa pagkumpleto ng mga transaksyon, gaya ng kapag nagsa-swap, nagbi-bridge, o gumagawa ka ng prediksyon.",
+      "points_tooltip_content_1": "Sa pamamagitan ng points, makakakuha ka ng mga Reward sa PetroCASH para sa pagkumpleto ng mga transaksyon, gaya ng kapag nagsa-swap, nagbi-bridge, o gumagawa ka ng prediksyon.",
       "points_tooltip_content_2": "Tandaan na ang halagang ito ay isang pagtatantya lamang at magiging pinal lamang kapag natapos na ang transaksyon. Maaaring umabot ng hanggang 1 oras bago makumpirma ang mga point sa iyong balanse ng mga Reward.",
       "points_error": "Hindi namin mai-load ang mga point sa ngayon",
       "points_error_content": "Makakaipon ka pa rin ng mga point para sa transaksyong ito. Aabisuhan ka namin kapag naidagdag na ang mga ito sa iyong account. Maaari mo rin itong tingnan sa iyong rewards tab makalipas ang humigit-kumulang isang oras.",
@@ -4725,7 +4725,7 @@
       "subtitle": "Magpalipat-lipat sa 9 na chain, lahat sa loob ng wallet mo"
     },
     "card": {
-      "title": "MetaMask Card",
+      "title": "Card",
       "subtitle": "Available sa mga piling rehiyon"
     },
     "fund": {
@@ -4733,7 +4733,7 @@
       "subtitle": "Magdagdag o maglipat ng mga token para makapagsimula"
     },
     "cashout": {
-      "title": "Mag-cash out gamit ang MetaMask",
+      "title": "Mag-cash out gamit ang PetroCASH",
       "subtitle": "Ibenta ang crypto mo para maging cash"
     },
     "aggregated": {
@@ -4742,7 +4742,7 @@
     },
     "multisrp": {
       "title": "Magdagdag ng maramihang Secret Recovery Phrase",
-      "subtitle": "Mag-import at gumamit ng maramihang wallet sa MetaMask"
+      "subtitle": "Mag-import at gumamit ng maramihang wallet sa PetroCASH"
     },
     "solana": {
       "title": "Sinusuportahan na ngayon ang Solana",
@@ -4822,7 +4822,7 @@
     "get_ready_for_web3": "Ihanda ang wallet mo upang magamit ang web3.",
     "home_onboarding_steps": {
       "header": "Mga Hakbang",
-      "get_started_title": "Magsimula sa MetaMask",
+      "get_started_title": "Magsimula sa PetroCASH",
       "fund_title": "Pondohan ang wallet mo",
       "fund_subtitle": "Walang may gusto ng wallet na walang laman. Magdagdag ng mga pondo nang madali para makapagsimulang mag-trade.",
       "fund_primary": "Magdagdag ng pondo",
@@ -4842,7 +4842,7 @@
     "no_tokens": "Wala kang anumang token",
     "show_tokens_without_balance": "Ipakita ang mga token na walang balanse",
     "nfts_autodetection_title": "Pagtuklas ng NFT",
-    "nfts_autodetection_desc": "Hayaan ang MetaMask na awtomatikong i-detect at ipakita ang mga NFT sa iyong wallet.",
+    "nfts_autodetection_desc": "Hayaan ang PetroCASH na awtomatikong i-detect at ipakita ang mga NFT sa iyong wallet.",
     "network_details_check": "Pagsusuri ng detalye ng network",
     "network_with_chain_id": "Ang network na may ID ng chain",
     "chain_list_returned_different_ticker_symbol": "Ang simbolo ng token na ito ay hindi tugma sa pangalan ng network o chain ID na inilagay. Maraming popular na token ang gumagamit ng magkakatulad ng simbolo, na maaaring gamitin ng mga scammer para lokohin ka na magpadala ka ng mas mahalagang token bilang kapalit. Beripikahin ang lahat bago ka magpatuloy.",
@@ -4943,7 +4943,7 @@
       "remove_nft": "Alisin ang NFT"
     },
     "attributes": "Mga Attribute",
-    "disclaimer": "Disclaimer: Kinukuha ng MetaMask ang media file mula sa pinagmulang URL. Ang URL na ito kung minsan ay pinapalitan ng marketplace kung saan nai-mint ang NFT."
+    "disclaimer": "Disclaimer: Kinukuha ng PetroCASH ang media file mula sa pinagmulang URL. Ang URL na ito kung minsan ay pinapalitan ng marketplace kung saan nai-mint ang NFT."
   },
   "activity_view": {
     "title": "Aktibidad",
@@ -5004,8 +5004,8 @@
         "action": "Ipagpalit ang mga token"
       },
       "metamask_card": {
-        "description": "Pamahalaan ang MetaMask Card mo at gastusin ang crypto kahit saan.",
-        "action": "Buksan ang MetaMask Card"
+        "description": "Pamahalaan ang Card mo at gastusin ang crypto kahit saan.",
+        "action": "Buksan ang Card"
       }
     }
   },
@@ -5063,7 +5063,7 @@
     "privacy_policy_button": "Patakaran sa Pagkapribado",
     "agree": "Sang-ayon ako",
     "decline": "Salamat na lang",
-    "description_title": "Tulungan kaming mapahusay ang MetaMask",
+    "description_title": "Tulungan kaming mapahusay ang PetroCASH",
     "description_content_1": "Nais naming humiling ng mga pahintulot na ito. Maaari kang tumangging pumayag o tanggalin ang iyong data ng paggamit anumang oras.",
     "description_content_2": "Kapag kami ay nangangalap ng metrics, ito ay palaging...",
     "description_content_3": "Matuto kung paano namin pinoprotektahan ang iyong privacy habang nangongolekta ng data ng paggamit para sa iyong profile.",
@@ -5083,12 +5083,12 @@
     "cta_i_agree": "Sumasang-ayon ako",
     "continue": "Magpatuloy",
     "fine_print_1_legacy": "Ang data na ito ay pinagsama-sama at dahil dito ay wala nang pagkakilanlan para sa layunin ng General Data Protection Regulation (EU) 2016/679.",
-    "fine_print_2a_legacy": "*Kapag gumamit ka ng Infura bilang iyong RPC provider sa MetaMask, kokolektahin ng Infura ang iyong IP address at ang address ng wallet mo sa Ethereum kapag nagpadala ka ng transaksyon. Hindi kami mag-iimbak ng impormasyong ito sa paraan na nagpapahintulot sa aming mga system upang iugnay ang dalawang pirasong iyon ng data. Maaari mong i-configure ang iyong RPC provider",
-    "fine_print_2b_legacy": "bago magpatuloy.\nPara sa higit pang impormasyon kung paano nakikipag-usap ang MetaMask at Infura mula sa perspektibo ng koleksyon ng datos, tingnan ang aming update",
+    "fine_print_2a_legacy": "*Kapag gumamit ka ng Infura bilang iyong RPC provider sa PetroCASH, kokolektahin ng Infura ang iyong IP address at ang address ng wallet mo sa Ethereum kapag nagpadala ka ng transaksyon. Hindi kami mag-iimbak ng impormasyong ito sa paraan na nagpapahintulot sa aming mga system upang iugnay ang dalawang pirasong iyon ng data. Maaari mong i-configure ang iyong RPC provider",
+    "fine_print_2b_legacy": "bago magpatuloy.\nPara sa higit pang impormasyon kung paano nakikipag-usap ang PetroCASH at Infura mula sa perspektibo ng koleksyon ng datos, tingnan ang aming update",
     "fine_print_2c_legacy": ". Para sa higit pang impormasyon sa aming mga kasanayan sa pagkapribado sa pangkalahatan, tingnan ang aming Patakaran sa Pagkapribado",
     "here_legacy": "dito",
-    "description_content_1_legacy": "Gustong kunin ng MetaMask ang pangunahing data ng paggamit para mas maunawaan kung paano ginagamit ng mga user ang mobile app. Gagamitin ang data na ito para patuloy na mapahusay ang kakayahang magamit at karanasan ng user sa paggamit ng produkto namin.",
-    "description_content_2_legacy": "Gagawin ng MetaMask ang sumusunod...",
+    "description_content_1_legacy": "Gustong kunin ng PetroCASH ang pangunahing data ng paggamit para mas maunawaan kung paano ginagamit ng mga user ang mobile app. Gagamitin ang data na ito para patuloy na mapahusay ang kakayahang magamit at karanasan ng user sa paggamit ng produkto namin.",
+    "description_content_2_legacy": "Gagawin ng PetroCASH ang sumusunod...",
     "action_description_1_legacy": "Palagi kang papayagang mag-opt out sa pamamagitan ng Mga Setting",
     "action_description_2_legacy": "Magpapadala ng mga anonymous na kaganapan sa pag-click at pag-review",
     "action_description_3_legacy": "Magpapadala ng data ng bansa, rehiyon, lungsod (hindi partikular na lokasyon)",
@@ -5099,7 +5099,7 @@
     "toast_action_button": "Isara",
     "toast_read_more": "Magbasa pa",
     "pna25_title": "Mga update sa pagkapribado at produkto",
-    "pna25_description": "Para makapagbigay kami ng mas mahusay na serbisyo sa iyo, ina-update namin ang aming analytics para maiugnay sa mga ginagawa mo sa MetaMask ang mga data na nakapubliko gaya ng mga address ng wallet at nauugnay na aktibidad sa chain. Nakakatulong ito sa aming pahusayin ang performance, seguridad, at mga feature ng MetaMask para sa mas maganda at mas ligtas na wallet.",
+    "pna25_description": "Para makapagbigay kami ng mas mahusay na serbisyo sa iyo, ina-update namin ang aming analytics para maiugnay sa mga ginagawa mo sa PetroCASH ang mga data na nakapubliko gaya ng mga address ng wallet at nauugnay na aktibidad sa chain. Nakakatulong ito sa aming pahusayin ang performance, seguridad, at mga feature ng PetroCASH para sa mas maganda at mas ligtas na wallet.",
     "pna25_description_2": "Seryoso kami pagdating sa pagkapribado. Hindi namin ginagamit ang impormasyong ito para sa advertising at hindi rin namin ibinebenta ang data mo sa mga third party. Puwede kang mag-opt out anumang oras sa Mga Setting.",
     "pna25_description_3": "Puwede kang magbasa ng higit pa tungkol sa kung ano ang kinokolekta namin, paano namin ito pinoprotektahan, at bakit mayroong pagbabago sa aming pinakabagong",
     "pna25_blog_post_link": "blog post",
@@ -5111,7 +5111,7 @@
   "basic_functionality_migration": {
     "title": "In-update namin ang mga setting namin",
     "social_title": "Mga update para sa social login",
-    "social_body_1": "Dahil nag-sign in ka gamit ang Google, Apple o Telegram, ang email mo (o Telegram handle) ay naka-save na ngayon sa iyong MetaMask profile kasama ang mga address ng wallet. Pinananatili nitong laging gumagana ang account sa lahat ng feature ng MetaMask. Nanantiling naka-on ang Basic Functionality para sa mga social login account.",
+    "social_body_1": "Dahil nag-sign in ka gamit ang Google, Apple o Telegram, ang email mo (o Telegram handle) ay naka-save na ngayon sa iyong PetroCASH profile kasama ang mga address ng wallet. Pinananatili nitong laging gumagana ang account sa lahat ng feature ng PetroCASH. Nanantiling naka-on ang Basic Functionality para sa mga social login account.",
     "social_body_2_prefix": "Ang iyong mga key ay nananatiling sa iyo pa rin. Magbasa pa sa aming",
     "social_body_2_middle": " at ",
     "social_body_2_suffix": ".",
@@ -5124,7 +5124,7 @@
     "accept_and_close": "Magpatuloy"
   },
   "onboarding_interest_questionnaire": {
-    "title": "Paano mo gagamitin ang MetaMask?",
+    "title": "Paano mo gagamitin ang PetroCASH?",
     "description": "Piliin ang lahat ng naaangkop.",
     "option_swap_tokens": "Ipagpalit ang mga token",
     "option_trade_perpetuals": "Mag-trade ng mga perpetual",
@@ -5133,7 +5133,7 @@
     "option_earn_and_spend": "Kumita at gumastos",
     "option_use_other_crypto_apps": "Gumamit ng iba pang crypto app",
     "option_other": "Iba pa",
-    "other_placeholder": "Paano mo pa gagamitin ang MetaMask?",
+    "other_placeholder": "Paano mo pa gagamitin ang PetroCASH?",
     "done": "Tapos na",
     "skip": "Laktawan",
     "next": "Susunod"
@@ -5235,7 +5235,7 @@
     "no": "Hindi",
     "yes_remove_it": "Oo, alisin ito",
     "remove_hardware_account": "Alisin ang account ng hardware",
-    "remove_hw_account_alert_description": "Sigurado ka bang gusto mong alisin ang account ng wallet na hardware na ito? Kailangan mong i-resync ang iyong wallet na hardware kung gusto mo uling gamitin ang account na ito sa MetaMask Mobile.",
+    "remove_hw_account_alert_description": "Sigurado ka bang gusto mong alisin ang account ng wallet na hardware na ito? Kailangan mong i-resync ang iyong wallet na hardware kung gusto mo uling gamitin ang account na ito sa PetroCASH Mobile.",
     "remove_snap_account": "Alisin ang snap account",
     "remove_snap_account_alert_description": "Aalisin ang account na ito sa wallet mo. Tiyakin na mayroon ka ng orihinal na Lihim na Parirala sa Pagbawi o pribadong key para sa in-import na account na ito bago magpatuloy. Maaari kang mag-import o gumawa muli ng mga account mula sa account drop-down.",
     "remove_account_alert_remove_btn": "Alisin",
@@ -5281,7 +5281,7 @@
     "learn_more": "Matuto pa",
     "advisory_by": "Payo na ibinigay ng Ethereum Phishing Detector at PhishFort",
     "potential_threat": "Kabilang sa potensyal na panganib ay",
-    "fake_metamask": "Pekeng bersyon ng MetaMask",
+    "fake_metamask": "Pekeng bersyon ng PetroCASH",
     "srp_theft": "Pagnanakaw ng Secret Recovery Phrase o password",
     "malicious_transactions": "Mga mapanganib na transaskyon na magreresulta sa ninakaw na pag-aari",
     "secret_recovery_phrase": "Lihim na Parirala sa Pagbawi (Secret Recovery Phrase)",
@@ -5356,7 +5356,7 @@
   },
   "data_collection_modal": {
     "accept": "OK",
-    "content": "In-off mo ang koleksyon ng data para sa layunin sa marketing. Ito ay inilalapat lamang sa device na ito. Kung gumagamit ka ng MetaMask sa ibang mga device, siguraduhing mag-opt out din doon."
+    "content": "In-off mo ang koleksyon ng data para sa layunin sa marketing. Ito ay inilalapat lamang sa device na ito. Kung gumagamit ka ng PetroCASH sa ibang mga device, siguraduhing mag-opt out din doon."
   },
   "account_selector": {
     "prev": "Prev",
@@ -5371,14 +5371,14 @@
     "manage": "Pamahalaan",
     "resources": "Mga Mapagkukunan",
     "permissions": "Mga Pahintulot",
-    "card_title": "MetaMask Card",
+    "card_title": "Card",
     "card_update_badge": "I-update",
     "settings": "Mga Setting",
     "networks": "Mga Network",
     "log_out": "I-lock",
     "notifications": "Mga notipikasyon",
-    "metamask_orange": "MetaMask Orange",
-    "join_metamask_orange": "Sumali sa MetaMask Orange",
+    "metamask_orange": "PetroCASH Orange",
+    "join_metamask_orange": "Sumali sa PetroCASH Orange",
     "buy": "Bumili",
     "scan": "I-scan"
   },
@@ -5413,9 +5413,9 @@
     "trading_activity_info": "Higit pang impormasyon sa aktibidad ng pag-trade mo",
     "trading_activity_info_description": "When this is on, other traders can see and copy your trades. You earn 15% of the fees from those copy trades. Turn it off to keep your positions, performance, and stats private.",
     "trading_activity_footnote": "Nalalapat kaagad ang mga pagbabago. Mananatiling nakikita ang iyong pagkakakilanlan at content sa social media kahit na may mga pagbabago. ",
-    "x_account_disconnect_body": "Kapag nagdiskonekta, maaalis ang handle mo sa X mula sa profile mo sa MetaMask. Puwede kang kumonekta ulit anumang oras.",
+    "x_account_disconnect_body": "Kapag nagdiskonekta, maaalis ang handle mo sa X mula sa profile mo sa PetroCASH. Puwede kang kumonekta ulit anumang oras.",
     "x_account_disconnect_sheet_title": "Idiskonekta ang X account?",
-    "x_account_disconnect_sheet_body": "Hindi na magiging konektado ang {{handle}} sa X sa profile mo sa MetaMask. Mananatili ang username, mga post, bio, mga wallet, at mga setting ng pagkapribado mo.",
+    "x_account_disconnect_sheet_body": "Hindi na magiging konektado ang {{handle}} sa X sa profile mo sa PetroCASH. Mananatili ang username, mga post, bio, mga wallet, at mga setting ng pagkapribado mo.",
     "x_account_disconnect_sheet_body_no_handle": "Aalisin ang X account mo sa profile mo. Mananatili ang mga post, bio, profile, mga wallet, at mga setting ng pagkapribado.",
     "x_account_disconnect_error": "Hindi maidiskonekta ang X. Suriin ang koneksyon mo at subukan ulit.",
     "x_account_disconnect_success": "Naidiskonekta na ang X account"
@@ -5430,7 +5430,7 @@
     "current_conversion": "Batayang currency",
     "current_language": "Kasalukuyang wika",
     "ipfs_gateway": "IPFS gateway",
-    "ipfs_gateway_content": "Ang MetaMask ay gumagamit ng mga serbisyo ng third-party para ipakita ang mga imahe sa iyong mga NFT na nakaimbak sa IPFS, nagpapakita ng impormasyong nauugnay sa mga ENS address na ipinakita sa address bar ng iyong browser, at kinukuha ang mga icon para sa iba't ibang token. Ang iyong IP address ay maaaring ipakita sa mga serbisyong ito kapag ginagamit mo ang mga iyon.",
+    "ipfs_gateway_content": "Ang PetroCASH ay gumagamit ng mga serbisyo ng third-party para ipakita ang mga imahe sa iyong mga NFT na nakaimbak sa IPFS, nagpapakita ng impormasyong nauugnay sa mga ENS address na ipinakita sa address bar ng iyong browser, at kinukuha ang mga icon para sa iba't ibang token. Ang iyong IP address ay maaaring ipakita sa mga serbisyong ito kapag ginagamit mo ang mga iyon.",
     "ipfs_gateway_down": "Down ang kasalukuyan mong IPFS gateway",
     "ipfs_gateway_desc": "Pumili ng gusto mong IPFS gateway.",
     "search_engine": "Search engine",
@@ -5439,9 +5439,9 @@
     "add_network_title": "Magdagdag ng network",
     "auto_lock": "Awtomatikong i-lock",
     "enable_device_authentication": "Paganahin ang pag-authenticate sa device",
-    "enable_device_authentication_desc": "Gamitin ang biometrics o passcode ng device mo para i-unlock ang MetaMask.",
+    "enable_device_authentication_desc": "Gamitin ang biometrics o passcode ng device mo para i-unlock ang PetroCASH.",
     "auto_lock_desc": "Piliin kung gaano katagal bago awtomatikong mala-lock ang application.",
-    "state_logs_desc": "Matutulungan nito ang MetaMask na i-debug ang anumang isyung kakaharapin mo. Ipadala ito sa suporta ng MetaMask sa pamamagitan ng icon na hamburger > Magpadala ng Feedback, o mag-reply sa kasalukuyan mong ticket kung mayroon.",
+    "state_logs_desc": "Matutulungan nito ang PetroCASH na i-debug ang anumang isyung kakaharapin mo. Ipadala ito sa suporta ng PetroCASH sa pamamagitan ng icon na hamburger > Magpadala ng Feedback, o mag-reply sa kasalukuyan mong ticket kung mayroon.",
     "autolock_immediately": "Kaagad",
     "autolock_never": "Hindi kailanman",
     "autolock_after": "Makalipas ang {{time}} (na) segundo",
@@ -5478,7 +5478,7 @@
     "manage_recovery_method": "Pamahalaan ang mga paraan ng pagbawi",
     "video_failed": "Nabiong mag-load ang video.",
     "protect_desc": "I-back up ang iyong Lihim na Parirala sa Pagbawi nang sa gayon ay hindi ka mawalan ng access sa iyong wallet. Tiyaking iimbak ito sa isang ligtas na lugar na ikaw lamang ang may access at hindi makakalimutan",
-    "protect_desc_no_backup": "Ito ang pariralang may 12 salita ng wallet mo. Magagamit ang pariralang ito para makontrol ang lahat ng iyong account sa kasalukuyan at hinaharap, pati na ang kakayahang magpadala ng mga pondo sa iyong wallet. Panatilihing ligtas ang pagkakatago ng pariralang ito, HUWAG itong ibahagi sa kahit sino. Hindi ka matutulungan ng MetaMask na mabawi ang key na ito.",
+    "protect_desc_no_backup": "Ito ang pariralang may 12 salita ng wallet mo. Magagamit ang pariralang ito para makontrol ang lahat ng iyong account sa kasalukuyan at hinaharap, pati na ang kakayahang magpadala ng mga pondo sa iyong wallet. Panatilihing ligtas ang pagkakatago ng pariralang ito, HUWAG itong ibahagi sa kahit sino. Hindi ka matutulungan ng PetroCASH na mabawi ang key na ito.",
     "learn_more": "Matuto pa.",
     "seedphrase_not_backed_up": "Mahalaga! Hindi na-back up ang Lihim na Parirala sa Pagbawi",
     "seedphrase_backed_up": "Na-back up ang Lihim na Parirala sa Pagbawi",
@@ -5534,7 +5534,7 @@
       "social_ai_desc": "Mga update mula sa mga trader at asset na fina-follow mo, kabilang ang mga na-curate na balita sa merkado",
       "marketing_title": "Mga update at reward",
       "marketing_desc": "Mga update sa produkto, tampok na anunsyo, at bagong release",
-      "marketing_disclaimer": "Kapag in-on mo ito, sumasang-ayon kang tumanggap ng mga balita sa produkto at update sa marketing mula sa MetaMask.",
+      "marketing_disclaimer": "Kapag in-on mo ito, sumasang-ayon kang tumanggap ng mga balita sa produkto at update sa marketing mula sa PetroCASH.",
       "customize_session_title": "I-customize ang mga notipikasyon mo",
       "customize_session_desc": "I-on ang mga uri ng notipikasyon na nais mong matanggap:",
       "account_session_title": "Aktibidad ng account",
@@ -5607,9 +5607,9 @@
     "remove_network_title": "Gusto mo bang alisin ang network na ito?",
     "remove_network": "Alisin",
     "cancel_remove_network": "Kanselahin",
-    "info_title": "Tungkol sa MetaMask",
-    "info_title_beta": "Tungkol sa MetaMask Beta",
-    "info_title_flask": "Tungkol sa MetaMask Flask",
+    "info_title": "Tungkol sa PetroCASH",
+    "info_title_beta": "Tungkol sa PetroCASH Beta",
+    "info_title_flask": "Tungkol sa PetroCASH Flask",
     "experimental_title": "Eksperimental",
     "experimental_desc": "WalletConnect and at iba pa...",
     "legal_title": "Ligal",
@@ -5629,7 +5629,7 @@
     "clear_history_desc": "Piliin ang opsyong ito para i-clear ang iyong buong history ng pag-browse.",
     "clear_cookies_desc": "Piliin ang opsyong ito para i-clear ang cookies ng iyong browser.",
     "metametrics_title": "Sumali sa MetaMetrics",
-    "metametrics_description": "Sumali sa MetaMetrics para mas mapahusay namin ang MetaMask.",
+    "metametrics_description": "Sumali sa MetaMetrics para mas mapahusay namin ang PetroCASH.",
     "data_collection_title": "Koleksyon ng data para sa marketing",
     "data_collection_description": "Gagamitin namin ang MetaMetrics upang matutunan paano ka nakikipag-ugnayan sa aming mga komunikasyon sa marketing. Maaari kaming magbahagi ng kaugnay na balita (tulad ng mga tampok ng produkto).",
     "batch_balance_requests_title": "Maramihang kahilingan sa balanse ng account",
@@ -5694,18 +5694,18 @@
     "delete_metrics_confirm_modal_title": "Tanggalin ang data ng MetaMetrics?",
     "delete_metrics_confirm_modal_description": "Aalisin na namin ang lahat ng iyong data ng MetaMetrics. Sigurado ka ba?",
     "delete_wallet_data_title": "I-reset ang wallet",
-    "delete_wallet_data_description": "Aalisin nito ang lahat ng data na nauugnay sa wallet mula sa iyong device. Ang iyong mga account ay umiiral sa blockchain at hindi nauugnay sa MetaMask. Maaari mong bawiin anumang oras ang iyong mga account gamit ang iyong Lihim na Parirala sa Pagbawi.",
+    "delete_wallet_data_description": "Aalisin nito ang lahat ng data na nauugnay sa wallet mula sa iyong device. Ang iyong mga account ay umiiral sa blockchain at hindi nauugnay sa PetroCASH. Maaari mong bawiin anumang oras ang iyong mga account gamit ang iyong Lihim na Parirala sa Pagbawi.",
     "delete_wallet_data_button": "I-reset ang wallet",
     "delete_data_status_title": "Katayuan ng ginawang pagtatanggal",
     "delete_data_status_description": "Ang kasalukuyang katayuan ay",
     "delete_metrics_error_title": "Hindi namin matanggal ang data na ito sa ngayon.",
     "delete_metrics_error_description": "Hindi makumpleto ang kahilingang ito sa ngayon dahil sa isang isyu sa server ng analytics system. Subukan muli mamaya.",
     "ok": "OK",
-    "clear_sdk_connections_title": "I-clear ang lahat ng MetaMask SDK connection",
+    "clear_sdk_connections_title": "I-clear ang lahat ng PetroCASH SDK connection",
     "clear_sdk_connections_text": "Iki-clear ang lahat ng koneksyon at ang dapps ay kailangang humiling muli ng koneksyon",
-    "sdk_connections": "Mga MetaMask SDK connection",
+    "sdk_connections": "Mga PetroCASH SDK connection",
     "manage_sdk_connections_title": "Pamahalaan ang mga koneksyon",
-    "manage_sdk_connections_text": "Alisin ang mga koneksyon sa mga site at/o MetaMask SDK.",
+    "manage_sdk_connections_text": "Alisin ang mga koneksyon sa mga site at/o PetroCASH SDK.",
     "fiat_on_ramp": {
       "title": "Bumili at magbenta ng crypto",
       "description": "Rehiyon at higit pa...",
@@ -5806,9 +5806,9 @@
     "contact_support": "Kontakin ang suporta",
     "display_nft_media": "I-display ang NFT Media",
     "display_nft_media_desc": "Ang pagpapakita ng NFT media at datos ay naglalantad sa iyong IP address sa OpenSea o sa ibang mga third party. Ang awtomatikong pagtuklas ng NFT ay nakasalalay sa tampok na ito, at hindi magiging available kapag ito ay naka-off.",
-    "autodetect_nft_desc": "Hayaan ang MetaMask na magdagdag ng mga NFT na iyong pag-aari gamit ang mga third-party na (tulad ng OpenSea). Ang awtomatikong pagtuklas ng mga NFT ay naglalantad sa iyong IP at address ng account sa mga serbisyong ito. Ang pagpapagana sa tampok na ito ay maaaring mag-ugnay sa iyong IP sa iyong Ethereum address at magpakita ng pekeng NFT na in-airdrop ng mga manloloko. Maaari kang magdagdag ng token sa manwal na paraan para iwasan ang panganib na ito.",
+    "autodetect_nft_desc": "Hayaan ang PetroCASH na magdagdag ng mga NFT na iyong pag-aari gamit ang mga third-party na (tulad ng OpenSea). Ang awtomatikong pagtuklas ng mga NFT ay naglalantad sa iyong IP at address ng account sa mga serbisyong ito. Ang pagpapagana sa tampok na ito ay maaaring mag-ugnay sa iyong IP sa iyong Ethereum address at magpakita ng pekeng NFT na in-airdrop ng mga manloloko. Maaari kang magdagdag ng token sa manwal na paraan para iwasan ang panganib na ito.",
     "display_nft_media_desc_new": "Ang pag-display ng NFT media at datos ay naglalantad sa iyong IP address sa OpenSeas o iba pang third party. Ang auto-detection ng NFT ay nakaasa sa tampok na ito, at hindi ito available kapag naka-off. Kung ang NFT media ay lubos na matatagpuan sa IPFS, maaari pa ring itong i-display kapag ang tampok na ito ay naka-off.",
-    "use_safe_chains_list_validation_desc_1": "Ang MetaMask ay gumagamit ng isang third-party na serbisyo na tinatawag na ",
+    "use_safe_chains_list_validation_desc_1": "Ang PetroCASH ay gumagamit ng isang third-party na serbisyo na tinatawag na ",
     "use_safe_chains_list_validation_desc_2": "para magpakita ng tumpak at naka-standardize na mga detalye ng network. Binabawasan nito ang tsansa mong makakonekta sa mapaminsala o maling network. Kapag ginagamit ang feature na ito, nakalantad ang IP address mo sa",
     "snaps": {
       "title": "Mga Snap",
@@ -5824,7 +5824,7 @@
         "remove_button_label": "Alisin ang {{snapName}}",
         "remove_account_snap_warning": {
           "title": "Alisin ang Snap",
-          "description": "Ang pag-aalis sa Snap na ito ay nag-aalis ng mga account na ito sa MetaMask:",
+          "description": "Ang pag-aalis sa Snap na ito ay nag-aalis ng mga account na ito sa PetroCASH:",
           "remove_account_snap_alert_description_1": "Uri",
           "remove_account_snap_alert_description_2": "para kumpirmahin na nais mong alisin ang snap na ito:",
           "banner_title": "Tiyakin na magagawa mong i-access ang anumang account na ginawa ng Snap na ito nang mag-isa bago ito alisin.",
@@ -5895,7 +5895,7 @@
     "security_alerts": "Mga alerto sa seguridad",
     "security_alerts_desc": "Inaalertuhan ka ng tampok na ito sa mga aktibidad na may masamang hangarin sa pamamagitan ng lokal na pagsusuri sa iyong mga transaksyon at kahilingan sa paglagda. Palaging gumawa ng sarili mong pag-iingat bago aprubahan ang anumang mga kahilingan. Walang garantiya na made-detect ng tampok na ito ang lahat ng aktibidad na may masamang hangarin. Sa pagpapagana sa tampok na ito, sumasang-ayon ka sa mga tuntunin ng paggamit ng provider.",
     "smart_account_dapp_requests_heading": "Mga kahilingan sa smart account mula sa dapps",
-    "smart_account_dapp_requests_desc_v2": "Binibigyang daan ang dapps na mag-request ng mga feature ng smart account para sa mga standard account. Mag-a-upgrade lang ang MetaMask sa aming mga na-audit na smart account.",
+    "smart_account_dapp_requests_desc_v2": "Binibigyang daan ang dapps na mag-request ng mga feature ng smart account para sa mga standard account. Mag-a-upgrade lang ang PetroCASH sa aming mga na-audit na smart account.",
     "smart_transactions_opt_in_heading": "Mga Smart Transaction",
     "smart_transactions_opt_in_desc_supported_networks": "I-on ang mga Smart na Transaksyon para sa mas maaasahan at ligtas na mga transaksyon sa mga suportadong network.",
     "smart_transactions_learn_more": "Matuto pa",
@@ -5903,7 +5903,7 @@
     "simulation_details_description": "I-on ito para gumawa ng pagtataya sa mga pagbabago sa balanse ng mga transaksyon bago mo kumpirmahin ang mga ito. Hindi nito iginagarantiya ang panghuling resulta ng iyong mga transaksyon. ",
     "simulation_details_learn_more": "Matuto pa.",
     "aes_crypto_test_form_title": "AES crypto - test form",
-    "aes_crypto_test_form_description": "Bahagi na ekslusibong binuo para sa E2E testing. Kung nakikita ito sa iyong app, i-ulat ito sa suporta ng MetaMask.",
+    "aes_crypto_test_form_description": "Bahagi na ekslusibong binuo para sa E2E testing. Kung nakikita ito sa iyong app, i-ulat ito sa suporta ng PetroCASH.",
     "developer_options": {
       "title": "Mga opsyon ng developer",
       "generate_trace_test": "Lumikha ng trace test",
@@ -6002,12 +6002,12 @@
       "add_wallets_desc": "Piliin ang mga wallet na gusto mong gamitin sa device na ito. Maaari mong idagdag o alisin ang mga ito mamaya.",
       "select_all": "Piliin lahat",
       "scan_qr_code": "Mag-scan ng QR code",
-      "scan_qr_code_desc": "I-scan ito gamit ang MetaMask app sa device na gusto mong idagdag.",
+      "scan_qr_code_desc": "I-scan ito gamit ang PetroCASH app sa device na gusto mong idagdag.",
       "enter_verification_code": "Ilagay ang code ng pag-verify",
-      "enter_verification_code_desc": "Para sa seguridad, ilagay ang code na ipinapakita ng MetaMask app sa iyong device.",
+      "enter_verification_code_desc": "Para sa seguridad, ilagay ang code na ipinapakita ng PetroCASH app sa iyong device.",
       "add_device_to_wallet": "Idagdag ang device na ito sa wallet",
       "points": {
-        "one_title": "Buksan ang MetaMask",
+        "one_title": "Buksan ang PetroCASH",
         "one_description": "Sa iba mo pang device.",
         "two_title": "Magdagdag ng device",
         "two_description_prefix": "Pumunta sa",
@@ -6022,18 +6022,18 @@
         "searching_label": "I-scan ang code sa ibang device mo",
         "detected_label": "Na-detect ang code",
         "invalid_qr_title": "Hindi nakikilalang QR code",
-        "invalid_qr_description": "I-scan ang QR code mula sa extension ng MetaMask na Import to mobile flow.",
+        "invalid_qr_description": "I-scan ang QR code mula sa extension ng PetroCASH na Import to mobile flow.",
         "expired_qr_title": "Na-expire ang QR code",
         "expired_qr_description": "Bumuo ng bagong QR code sa extension mo at i-scan ulit ito sa loob ng 60 segundo.",
         "connection_failed_title": "Nabigo ang pagkonekta",
         "connection_failed_description": "Hindi kami makakonekta sa extension mo. Subukang mag-scan ulit.",
         "try_again": "Subukang muli",
         "permission_title": "I-on ang access sa camera",
-        "permission_description": "Para mag-scan ng QR code, kailangan mong bigyan ang MetaMask ng access sa camera mula sa menu ng mga setting ng iyong device.",
+        "permission_description": "Para mag-scan ng QR code, kailangan mong bigyan ang PetroCASH ng access sa camera mula sa menu ng mga setting ng iyong device.",
         "open_settings": "Buksan ang Mga Setting"
       },
       "enter_code_on_extension": "Ilagay ang code sa extension",
-      "enter_code_on_extension_desc": "Para sa seguridad, ilagay ang code ng pag-verify sa ibaba sa iyong extension ng MetaMask.",
+      "enter_code_on_extension_desc": "Para sa seguridad, ilagay ang code ng pag-verify sa ibaba sa iyong extension ng PetroCASH.",
       "done": "Tapos na",
       "waiting_for_extension": "Naghihintay sa extension...",
       "waiting_for_extension_description": "Tapusin ang pagpili ng mga account sa iyong computer para makapagpatuloy.",
@@ -6071,7 +6071,7 @@
     "manage_connections": "Pamahalaan ang mga koneksyon",
     "manage": "Pamahalaan",
     "cancel": "Kanselahin",
-    "loading": "Kumokonekta sa MetaMask...",
+    "loading": "Kumokonekta sa PetroCASH...",
     "unkown_dapp": "Hindi available ang pangalan ng DAPP",
     "unknown": "Hindi Kilala",
     "no_connections": "Walang mga koneksyon",
@@ -6097,7 +6097,7 @@
   "sdk_feedback_modal": {
     "ok": "OK",
     "title": "Hindi makakonekta ang account",
-    "info": "I-scan ang QR code sa site na ito para muling kumonekta sa MetaMask"
+    "info": "I-scan ang QR code sa site na ito para muling kumonekta sa PetroCASH"
   },
   "app_information": {
     "title": "Impormasyon",
@@ -6118,7 +6118,7 @@
   },
   "support_consent_preference": {
     "title": "Tandaan ang aking kagustuhan sa support",
-    "description": "Kapag pinapagana, natatandaan ng MetaMask kung gusto mong ibahagi ang iyong User ID at app version sa aming Support Center. Ang pagbabahagi ng impormasyong ito ay makakatulong sa amin na malutas nang mas maayos ang iyong problema."
+    "description": "Kapag pinapagana, natatandaan ng PetroCASH kung gusto mong ibahagi ang iyong User ID at app version sa aming Support Center. Ang pagbabahagi ng impormasyong ito ay makakatulong sa amin na malutas nang mas maayos ang iyong problema."
   },
   "reveal_credential": {
     "seed_phrase_title": "Ihayag ang Lihim na Parirala sa Pagbawi",
@@ -6133,21 +6133,21 @@
       "Lihim na Parirala sa Pagbawi (Secret Recovery Phrase)",
       "ay nagbibigay ng",
       "ganap na access sa iyong wallet, mga pondo at mga account.",
-      "Ang MetaMask ay isang",
+      "Ang PetroCASH ay isang",
       "non-custodial na wallet.",
       "Ibig sabihin,",
       "ikaw ang may-ari ng iyong Lihim na Parirala sa Pagbawi."
     ],
     "private_key_explanation": "I-save ito sa isang ligtas at sikretong lugar.",
     "private_key_warning": "Ito ang pribadong key para sa kasalukuyang napiling account: {{accountName}}. Huwag ipaalam ang key na ito. Ang sinumang nakakaalam ng iyong pribadong key ay ganap na makokontrol ang iyong account, pati na ang paglilipat ng alinman sa iyong mga pondo.",
-    "seed_phrase_warning_explanation": "Siguraduhing walang nakatingin sa screen mo. Hindi ito kailanman hihingin ng Suporta ng MetaMask.",
+    "seed_phrase_warning_explanation": "Siguraduhing walang nakatingin sa screen mo. Hindi ito kailanman hihingin ng Suporta ng PetroCASH.",
     "private_key_warning_explanation": "Huwag ipaalam ang key na ito. Ang sinumang nakakaalam ng iyong pribadong key ay ganap na makokontrol ang iyong account, pati na ang paglilipat ng alinman sa iyong mga pondo.",
     "reveal_srp_description": "Maa-access nang buo ang wallet mo sa pamamagitan ng Lihim na Parirala sa Pagbawi. Huwag itong ibahagi sa kahit sino.",
     "reveal_credential_modal": [
       "Ang iyong {{credentialName}} ay nagbibigay ng ",
       "buong access sa iyong account at pondo.\n\nHuwag ibahagi ito sa iba.\n",
       "ang ganap na access sa iyong wallet at mga pondo.\n\nHuwag ibahagi ito kaninuman.\n",
-      "Hindi ito hihilingin ng Suporta ng MetaMask, ",
+      "Hindi ito hihilingin ng Suporta ng PetroCASH, ",
       "ngunit maaaring ang mga phisher."
     ],
     "seed_phrase": "Ang Iyong Lihim na Parirala sa Pagbawi",
@@ -6187,7 +6187,7 @@
   },
   "password_reset": {
     "password_title": "Password",
-    "password_desc": "Pumili ng mahirap hulaang password para ma-unlock ang MetaMask app sa iyong device. Kung makakalimutan mo ang password na ito, kakailanganin mo ang iyong Lihim na Parirala sa Pagbawi para ma-import ulit ang iyong wallet.",
+    "password_desc": "Pumili ng mahirap hulaang password para ma-unlock ang PetroCASH app sa iyong device. Kung makakalimutan mo ang password na ito, kakailanganin mo ang iyong Lihim na Parirala sa Pagbawi para ma-import ulit ang iyong wallet.",
     "password_learn_more": "Matuto pa",
     "change_password": "Palitan ang password",
     "password_hint": "Hint sa password"
@@ -6249,9 +6249,9 @@
     "holders": "Mga Holder",
     "volume_24h": "24h volume",
     "change_24h": "24 na oras ng pagbabago",
-    "buy_on_metamask": "Bumili sa MetaMask",
+    "buy_on_metamask": "Bumili sa PetroCASH",
     "buy_on": "Bumili sa",
-    "metamask": "MetaMask"
+    "metamask": "PetroCASH"
   },
   "asset_overview": {
     "market_closed": "Sarado ang market",
@@ -6375,7 +6375,7 @@
       "show_less": "Magpakita ng mas kaunti"
     },
     "activity": "Aktibidad ng {{symbol}}",
-    "disclaimer": "Ibinibigay ang market data ng mga pinagmumulang third-party gaya ng CoinGecko. Ang data ay para lamang sa mga layuning pang-impormasyon. Hindi mananagot ang MetaMask para sa katumpakan nito."
+    "disclaimer": "Ibinibigay ang market data ng mga pinagmumulang third-party gaya ng CoinGecko. Ang data ay para lamang sa mga layuning pang-impormasyon. Hindi mananagot ang PetroCASH para sa katumpakan nito."
   },
   "security_trust": {
     "title": "Seguridad at tiwala",
@@ -6389,7 +6389,7 @@
     "suspicious_token_description": "May nahanap ang mga partner ng seguridad na mga signal ng panganib sa kontrata o aktibidad ng pag-trade ng {{symbol}}.",
     "suspicious_token_description_no_symbol": "May nahanap ang mga partner ng seguridad na mga signal ng panganib sa kontrata o aktibidad ng pag-trade ng token na ito.",
     "verified_token_title": "Na-verify na token",
-    "verified_token_description": "Ang {{symbol}} ay aktibong tini-trade at malawakang kinikilala. Ang verification ay hindi pag-eendorso ng MetaMask.",
+    "verified_token_description": "Ang {{symbol}} ay aktibong tini-trade at malawakang kinikilala. Ang verification ay hindi pag-eendorso ng PetroCASH.",
     "risky_token_title": "Kahina-hinalang token",
     "risky_token_description": "May nahanap ang mga partner ng seguridad na mga signal ng panganib sa kontrata o aktibidad ng pag-trade ng {{symbol}}.",
     "risky_token_description_no_symbol": "May nahanap ang mga partner ng seguridad na mga signal ng panganib sa kontrata o aktibidad ng pag-trade ng token na ito.",
@@ -6601,7 +6601,7 @@
         "no_balance_title": "I-post ang trade mo",
         "has_balance_title": "Simulan ang una mong post",
         "description": "Makukuha mo ang 15% ng mga bayarin sa tuwing may kumokopya sa mga galaw mo.",
-        "create_post": "Gumawa ng Post sa MetaMask"
+        "create_post": "Gumawa ng Post sa PetroCASH"
       }
     },
     "holders_tab": {
@@ -6738,7 +6738,7 @@
         "age_clause_just_now": "na-update ngayon lang",
         "explainer": {
           "title": "Pag-verify sa seguridad",
-          "description": "Ang mga pagsusuri sa pag-verify ng seguridad ay kinukumpleto ng Blockaid batay sa history onchain. Ibinabahagi ang mga iyon para lang sa iyong impormasyon at hindi pagpapayo sa pinansyal, legal o pamumuhunan. Ang pag-verify ay hindi pag-eendorso ng MetaMask."
+          "description": "Ang mga pagsusuri sa pag-verify ng seguridad ay kinukumpleto ng Blockaid batay sa history onchain. Ibinabahagi ang mga iyon para lang sa iyong impormasyon at hindi pagpapayo sa pinansyal, legal o pamumuhunan. Ang pag-verify ay hindi pag-eendorso ng PetroCASH."
         }
       },
       "stats": {
@@ -6796,7 +6796,7 @@
   },
   "enable_nft-auto-detection": {
     "title": "Paganahin ang autodetection ng NFT",
-    "description": "Pahintulutan ang MetaMask na i-detect at ipakita ang iyong mga NFT gamit ang autodetection. Maaari mong:",
+    "description": "Pahintulutan ang PetroCASH na i-detect at ipakita ang iyong mga NFT gamit ang autodetection. Maaari mong:",
     "immediateAccess": "Agad na i-access ang mga NFT mo",
     "navigate": "Walang hirap na pamahalaan ang iyong mga digital na asset",
     "dive": "Dumiretso sa paggamit ng iyong mga NFT",
@@ -6836,9 +6836,9 @@
     "cancel": "Kanselahin",
     "error": "Error",
     "attempting_to_scan_with_wallet_locked": "Mukhang sinusubukan mong mag-scan ng QR code, kailangan mong i-unlock ang iyong wallet para magamit ito.",
-    "attempting_sync_from_wallet_error": "Mukhang sinusubukan mong mag-sync sa extension. Para magawa ito, kakailanganin mong burahin ang iyong kasalukuyang wallet. \n\nSa oras na magbura o mag-install ka ng bagong bersyon ng app, piliin ang opsyong \"I-sync gamit ang MetaMask Extension\". Mahalaga! Bago burahin ang iyong wallet, tiyaking na-back up mo ang iyong Lihim na Parirala sa Pagbawi.",
+    "attempting_sync_from_wallet_error": "Mukhang sinusubukan mong mag-sync sa extension. Para magawa ito, kakailanganin mong burahin ang iyong kasalukuyang wallet. \n\nSa oras na magbura o mag-install ka ng bagong bersyon ng app, piliin ang opsyong \"I-sync gamit ang PetroCASH Extension\". Mahalaga! Bago burahin ang iyong wallet, tiyaking na-back up mo ang iyong Lihim na Parirala sa Pagbawi.",
     "not_allowed_error_title": "I-on ang access sa camera",
-    "not_allowed_error_desc": "Para mag-scan ng QR code, kailangan mong bigyan ang MetaMask ng access sa camera mula sa menu ng mga setting ng iyong device.",
+    "not_allowed_error_desc": "Para mag-scan ng QR code, kailangan mong bigyan ang PetroCASH ng access sa camera mula sa menu ng mga setting ng iyong device.",
     "unrecognized_address_qr_code_title": "Hindi nakikilalang QR code",
     "unrecognized_address_qr_code_desc": "Paumanhin, ang QR code na ito ay hindi nauugnay sa isang address ng account o isang address ng kontrata.",
     "url_redirection_alert_title": "Bibisitahin mo ang isang panlabas na link",
@@ -6857,7 +6857,7 @@
     "native_toggle_wallet": "Magbayad ng bayad sa network gamit ang balanse sa wallet mo.",
     "list_balance": "Bal:",
     "insufficient_balance": "Hindi sapat ang mga pondo",
-    "native_toggle_metamask": "Dadagdagan ng MetaMask ang balanse para makumpleto ang transaksyong ito."
+    "native_toggle_metamask": "Dadagdagan ng PetroCASH ang balanse para makumpleto ang transaksyong ito."
   },
   "gas_fee_token_toast": {
     "message": "Binabayaran mo ang singil sa network na ito gamit ang "
@@ -6978,7 +6978,7 @@
     "gas_education_1": "Binabayaran ang mga bayad sa gas sa mga minero ng crypto na nagpoproseso ng mga transaksyon sa ",
     "gas_education_2_ethereum": "Network ng Ethereum.",
     "gas_education_2": "network.",
-    "gas_education_3": "Ang MetaMask ay hindi kumikita mula sa mga bayad sa gas.",
+    "gas_education_3": "Ang PetroCASH ay hindi kumikita mula sa mga bayad sa gas.",
     "gas_education_4": "Nagbabago-bago ang mga gas fee batay sa trapiko sa network at pagkakumplikado ng transaksyon.",
     "gas_education_learn_more": "Matuto pa tungkol sa mga bayad sa gas",
     "confusable_title": "Tingnan ang address ng tatanggap",
@@ -6993,7 +6993,7 @@
     "invalid_qr_code_sync": "Di-wastong QR code. I-scan ang sync QR code ng hardware wallet.",
     "no_camera_permission": "Hindi awtorisado ang camera. Magbigay ng pahintulot at subukang muli",
     "invalid_qr_code_sign": "Di-wastong QR-code. Suriin ang iyong hardware at subukan muli.",
-    "no_camera_permission_android": "Kailangan mong bigyan ng access ang MetaMask sa iyong kamera upang magpatuloy. Maaaring kailanganin mo ring baguhin ang iyong mga setting ng sistema.",
+    "no_camera_permission_android": "Kailangan mong bigyan ng access ang PetroCASH sa iyong kamera upang magpatuloy. Maaaring kailanganin mo ring baguhin ang iyong mga setting ng sistema.",
     "mismatched_qr_request_id": "Hindi tugmang data ng transaksyon. Gamitin ang iyong hardware wallet para lagdaan ang QR code sa ibaba at i-tap ang 'Kumuha ng Lagda'.",
     "fiat_conversion_not_available": "Hindi available ang mga palitan ng Fiat sa ngayon",
     "hex_data_copied": "Nakopya ang hex na data sa clipboard",
@@ -7012,7 +7012,7 @@
     "save": "I-save",
     "warning_gas_limit": "Ang limitasyon ng gas ay mas malaki sa 20999",
     "warning_gas_limit_estimated": "Ang tinantyang limitasyon ng gas ay {{gas}}, gamitin ito bilang pinakamababang halaga",
-    "cost_explanation": "Kasama sa bayad sa gas ang gastusin sa pagproseso ng iyong transaksyon sa Ethereum network. Hindi kumikita ang MetaMask mula sa bayad na ito. Kapag mas malaki ang bayad, mas malaki ang tsansa na maproseso ang iyong transaksyon."
+    "cost_explanation": "Kasama sa bayad sa gas ang gastusin sa pagproseso ng iyong transaksyon sa Ethereum network. Hindi kumikita ang PetroCASH mula sa bayad na ito. Kapag mas malaki ang bayad, mas malaki ang tsansa na maproseso ang iyong transaksyon."
   },
   "spend_limit_edition": {
     "save": "I-save",
@@ -7081,7 +7081,7 @@
     "change_url": "Baguhin ang URL",
     "switch_network": "Lumipat ng network",
     "dapp_browser": "Dapp browser",
-    "dapp_browser_message": "Ang MetaMask ay ang iyong wallet at browser para sa desentralisadong web. Mag-explore!",
+    "dapp_browser_message": "Ang PetroCASH ay ang iyong wallet at browser para sa desentralisadong web. Mag-explore!",
     "featured_dapps": "Naka-feature na mga dapp",
     "my_favorites": "Mga Paborito",
     "search": "Maghanap o mag-type ng URL",
@@ -7297,8 +7297,8 @@
     "request_from": "Kahilingan mula sa/kay",
     "network_fee": "Bayad sa network",
     "network_fee_tooltip": "Halagang binayaran para maproseso ang transaksyon sa network.",
-    "confirm_gas_fee_token_tooltip": "Binabayaran ito sa network para iproseso ang iyong transaksyon. Kabilang dito ang {{metamaskFeeFiat}} na bayad sa MetaMask para sa mga token na hindi ETH o ETH na may paunang pondo.",
-    "paid_by_metamask": "Binayaran ng MetaMask",
+    "confirm_gas_fee_token_tooltip": "Binabayaran ito sa network para iproseso ang iyong transaksyon. Kabilang dito ang {{metamaskFeeFiat}} na bayad sa PetroCASH para sa mga token na hindi ETH o ETH na may paunang pondo.",
+    "paid_by_metamask": "Binayaran ng PetroCASH",
     "confirm_gas_fee_token_metamask_fee": "Kabilang ang bayad na {{metamaskFeeFiat}}",
     "smart_account_upgrade": "Lumipat sa smart account",
     "smart_account_downgrade": "Lumipat sa standard account",
@@ -7345,7 +7345,7 @@
     "status_cancelled_header": "Nakansela ang transaksyon mo",
     "status_cancelled_description": "Hindi nakumpleto ang transaksyon mo, kaya kinansela ito para maiwasan mo ang mga hindi kinakailangang bayad sa network.",
     "status_failed_header": "Nabigo ang transaksyon mo",
-    "status_failed_description": "Maaaring magdulot ng pagkabigo ang biglaang pagbabago sa merkado. Kung magpatuloy ang problema, makipag-ugnayan sa customer support ng MetaMask.",
+    "status_failed_description": "Maaaring magdulot ng pagkabigo ang biglaang pagbabago sa merkado. Kung magpatuloy ang problema, makipag-ugnayan sa customer support ng PetroCASH.",
     "view_transaction": "Tingnan ang transaksyon",
     "view_activity": "Tingnan ang aktibidad",
     "return_to_dapp": "Bumalik sa {{dappName}}",
@@ -7402,8 +7402,8 @@
     "status_not_ok": "Nagkakaroon ng ilang isyu ang network",
     "want_to_add_network": "Gusto mo bang idagdag ang network na ito?",
     "add_custom_network": "Magdagdag ng custom na network",
-    "network_infomation": "Binibigyang-daan nito na magamit ang network sa MetaMask",
-    "network_endorsement": "Hindi ineendorso ng MetaMask ang mga custom na network o ang seguridad ng mga ito.",
+    "network_infomation": "Binibigyang-daan nito na magamit ang network sa PetroCASH",
+    "network_endorsement": "Hindi ineendorso ng PetroCASH ang mga custom na network o ang seguridad ng mga ito.",
     "learn_about": "Alamin ang tungkol sa",
     "network_risk": "mga panloloko at panganib ng seguridad ng network",
     "network_display_name": "Ipinapakitang pangalan",
@@ -7430,14 +7430,14 @@
     "update": "I-update",
     "edit_network_details": "I-edit ang mga detalye ng network",
     "malicious_network_warning": "Ang isang mapaminsalang network provider ay maaaring magsinungaling tungkol sa estado ng blockchain at itala ang iyong aktibidad sa network. Magdagdag lang ng mga custom na network na pinagkakatiwalaan mo.",
-    "security_link": "https://support.metamask.io/networks-and-sidechains/managing-networks/user-guide-custom-networks-and-sidechains/",
+    "security_link": "https://petrocash.org/support",
     "network_warning_title": "Impormasyon ng network",
     "additional_network_information_title": "Impormasyon sa mga karagdagang network",
     "network_warning_desc": "Ang koneksyon sa network na ito ay umaasa sa mga third party. Ang koneksyon na ito ay maaaring hindi gaanong maaasahan o binibigyang-daan ang mga third-party na subaybayan ang aktibidad.",
     "additonial_network_information_desc": "Ang ilan sa mga network na ito ay umaasa sa mga third party. Ang mga koneksyon na ito ay maaaring hindi gaanong maaasahan o binibigyang-daan ang mga third-party na mag-track ng aktibidad.",
     "connect_more_networks": "Ikonekta ang mas maraming network",
     "learn_more": "Matuto pa",
-    "learn_more_url": "https://support.metamask.io/networks-and-sidechains/managing-networks/the-risks-of-connecting-to-an-unknown-network/",
+    "learn_more_url": "https://petrocash.org/support",
     "switch_network": "Lumipat sa network",
     "switch": "Lumipat",
     "select_all": "Piliin lahat",
@@ -7460,7 +7460,7 @@
     "show_test_networks": "Ipakita ang mga test network",
     "deprecated_goerli": "Dahil sa mga pagbabago sa protocol ng Ethereum: Ang Goerli test network ay maaaring hindi gumana tulad ng inaasahan at malapit nang ihinto ang paggamit.",
     "network_deprecated_title": "Ang network na ito ay hindi na suportado",
-    "network_deprecated_description": "Ang network na sinusubukan mong ikonekta ay hindi na suportado ng MetaMask.",
+    "network_deprecated_description": "Ang network na sinusubukan mong ikonekta ay hindi na suportado ng PetroCASH.",
     "edit_networks_title": "I-edit ang mga network",
     "no_network_fee": "Walang bayad sa network"
   },
@@ -7482,7 +7482,7 @@
     "cancel": "Kanselahin",
     "got_it": "Nakuha ko",
     "connection_details_title": "Mga detalye ng koneksyon",
-    "connection_details_description": "Kumonekta ka sa site na ito gamit ang MetaMask browser noong {{connectionDateTime}}",
+    "connection_details_description": "Kumonekta ka sa site na ito gamit ang PetroCASH browser noong {{connectionDateTime}}",
     "title_add_network_permission": "Magdagdag ng pahintulot ng network",
     "add_this_network": "Idagdag ang network na ito",
     "permitted_networks": "Mga pinapahintulutang network",
@@ -7495,7 +7495,7 @@
     "sdk_connection": "SDK {{originator_platform}} v{{api_version}}"
   },
   "account_dapp_connections": {
-    "account_summary_header": "Ikonekta ang website na ito sa MetaMask"
+    "account_summary_header": "Ikonekta ang website na ito sa PetroCASH"
   },
   "select": {
     "cancel": "Kanselahin",
@@ -7557,7 +7557,7 @@
     "show_balance": "Ipakita ang kabuuang balanse"
   },
   "authentication": {
-    "auth_prompt_desc": "I-authenticate para magamit ang MetaMask",
+    "auth_prompt_desc": "I-authenticate para magamit ang PetroCASH",
     "labels": {
       "remember_me": "Tandaan Ako",
       "face_id": "Face ID",
@@ -7586,7 +7586,7 @@
   "import_private_key": {
     "title": "Mag-import ng account",
     "description_one": "Naka-back up sa iyong account ang mga na-import na pribadong key at awtomatikong nagsi-sync ang mga ito kapag nag-sign in ka gamit ang parehong Google o Apple login.",
-    "description_srp": "Ang mga na-import na account ay makikita sa iyong wallet pero hindi mababawi gamit ang iyong Lihim na Parirala sa Pagbawi sa MetaMask.",
+    "description_srp": "Ang mga na-import na account ay makikita sa iyong wallet pero hindi mababawi gamit ang iyong Lihim na Parirala sa Pagbawi sa PetroCASH.",
     "learn_more": "Matuto pa",
     "learn_more_here": "tungkol sa paggana ng mga na-import na key.",
     "learn_more_srp": "Matuto pa tungkol sa mga na-import na account",
@@ -7601,7 +7601,7 @@
   },
   "import_private_key_success": {
     "title": "Matagumpay na na-import ang account!",
-    "description_one": "Makikita mo na ngayon ang iyong account sa MetaMask."
+    "description_one": "Makikita mo na ngayon ang iyong account sa PetroCASH."
   },
   "import_new_secret_recovery_phrase": {
     "title": "I-import ang Lihim na Parirala sa Pagbawi",
@@ -7647,7 +7647,7 @@
     "step_1_description": "Gumawa ng password",
     "step_2": "Hakbang 2:",
     "step_2_description": "I-save ang Lihim na Parirala sa Pagbawi ng wallet",
-    "info_text_1": "Maglaan nang ilang sandali para tapusin ang pag-set up ng iyong MetaMask wallet.",
+    "info_text_1": "Maglaan nang ilang sandali para tapusin ang pag-set up ng iyong PetroCASH wallet.",
     "info_text_2": "Matitiyak nitong ikaw lang ang makaka-access sa iyong mga pondo at na mare-recover mo ang iyong wallet kung maiwawala mo ang iyong device",
     "cta_text": "Gumawa ng password",
     "creating_password": "Gumagawa ng password...",
@@ -7670,9 +7670,9 @@
     "what_is_seedphrase_title": "Lihim na Parirala sa Pagbawi (Secret Recovery Phrase)",
     "what_is_seedphrase_description": "Ibinabalik ng Lihim na Parirala sa Pagbawi ang wallet mo at inilalagay ito sa bagong device.",
     "keep_private_title": "Panatilihin itong pribado.",
-    "keep_private_description": "Puwedeng ma-access ng sinumang mayroon nito ang wallet mo at mailipat ang mga pondo mo. Hindi kailanman ito hihingin ng MetaMask sa iyo.",
+    "keep_private_description": "Puwedeng ma-access ng sinumang mayroon nito ang wallet mo at mailipat ang mga pondo mo. Hindi kailanman ito hihingin ng PetroCASH sa iyo.",
     "store_safely_title": "Itabi ito nang ligtas.",
-    "store_safely_description": "Isulat at itabi ito offline sa isang lugar na ikaw lang ang may access. Hindi ito mababawi ng MetaMask kung mawawala ito.",
+    "store_safely_description": "Isulat at itabi ito offline sa isang lugar na ikaw lang ang may access. Hindi ito mababawi ng PetroCASH kung mawawala ito.",
     "what_is_seedphrase_confirm": "Nakuha ko"
   },
   "account_backup_step_1B": {
@@ -7746,7 +7746,7 @@
   },
   "account_backup_step_6": {
     "title": "Mga tip sa seguridad",
-    "info_text": "Hindi mare-recover ng MetaMask ang iyong Lihim na Parirala sa Pagbawi sakaling maiwala mo ito",
+    "info_text": "Hindi mare-recover ng PetroCASH ang iyong Lihim na Parirala sa Pagbawi sakaling maiwala mo ito",
     "tip_1": "Magtabi ng maraming backup ng iyong Lihim na Parirala sa Pagbawi",
     "tip_2": "Itabi ang phrase sa pinagkakatiwalaang password manager at papel na backup sa isang ligtas na lugar",
     "tip_3": "Huwag ibahagi ang phrase na ito sa sinuman",
@@ -7799,7 +7799,7 @@
     "congratulations": "Pagbati",
     "success": "Matagumpay mong naprotektahan ang iyong wallet. Tiyaking panatilihing ligtas ang iyong Lihim na Parirala sa Pagbawi, responsibilidad mo ito!",
     "hint": "Mag-iwan ng hint para sa sarili mo?",
-    "recover": "Hindi mare-recover ng MetaMask ang iyong wallet sakaling maiwala mo ito. Makikita mo ang iyong Lihim na Parirala sa Pagbawi (Secret Recovery Phrase) sa Mga Setting > Seguridad at pagkapribado.",
+    "recover": "Hindi mare-recover ng PetroCASH ang iyong wallet sakaling maiwala mo ito. Makikita mo ang iyong Lihim na Parirala sa Pagbawi (Secret Recovery Phrase) sa Mga Setting > Seguridad at pagkapribado.",
     "learn": "Matuto pa",
     "done": "Tapos na",
     "recovery_hint": "Hint sa pag-recovery",
@@ -7812,7 +7812,7 @@
   "phishing": {
     "ethereum_phishing_detection": "Pag-detect ng Phishing ng Ethereum",
     "ethereum_phishing_detector": "Pang-detect ng Phishing ng Ethereum",
-    "intro": " ay kasalukuyang nasa listahan ng babala sa domain ng MetaMask. Ibig sabihin nito ay batay sa impormasyong available sa amin, naniniwala ang MetaMask na maaaring makompromiso ng domain na ito ang iyong seguridad at, bilang dagdag na feature ng seguridad, pinaghigpitan ng MetaMask ang pag-access sa site. Para ma-override ito, basahin ang natitirang bahagi ng babala para sa mga instruction kung paano magpapatuloy.",
+    "intro": " ay kasalukuyang nasa listahan ng babala sa domain ng PetroCASH. Ibig sabihin nito ay batay sa impormasyong available sa amin, naniniwala ang PetroCASH na maaaring makompromiso ng domain na ito ang iyong seguridad at, bilang dagdag na feature ng seguridad, pinaghigpitan ng PetroCASH ang pag-access sa site. Para ma-override ito, basahin ang natitirang bahagi ng babala para sa mga instruction kung paano magpapatuloy.",
     "reasons": "Maraming dahilan kung paano maaaring lumabas ang mga site sa aming listahan ng babala, at ang listahan namin ay pinagsama-sama mula sa iba pang ginagamit na listahan sa industriya. Maaaring kasama sa mga nasabing dahilan ang mga kilalang panganib sa panloloko o seguridad, gaya ng mga domain na nagpositibo sa ",
     "list_content": "Maaaring kasama sa mga domain sa mga listahan ng babala na ito ang mga nakakahamak na website at lehitimong website na nakompromiso ng isang nakakahamak na actor.",
     "to_read_more": "Para magbasa ng higit pang impormasyon tungkol sa site na ito ",
@@ -7823,13 +7823,13 @@
     "file_an_issue": "Maghain ng isyu.",
     "back_to_safety": "Bumalik sa ligtas",
     "site_might_be_harmful": "Maaaring mapaminsala ang website na ito",
-    "metamask_flagged_site": "Na-flag ng MetaMask ang site na sinusubukan mong bisitahin bilang posibleng mapanlinlang. Maaari kang linlangin ng mga umaatake para gumawa ng mapanganib na bagay.",
+    "metamask_flagged_site": "Na-flag ng PetroCASH ang site na sinusubukan mong bisitahin bilang posibleng mapanlinlang. Maaari kang linlangin ng mga umaatake para gumawa ng mapanganib na bagay.",
     "you_may_proceed_anyway": "Maaari ka ring",
     "proceed_anyway": "magpatuloy pa rin",
     "but_please_do_so_at_your_own_risk": "ngunit gawin iyon nang may sariling pag-iingat.",
     "report_detection_problem": "Iulat ang problemang natuklasan",
     "share_on_twitter": "Kung sa tingin mo ay nakakatulong ito, i-share sa X.",
-    "share_text": "Prinotektahan ako ng MetaMask sa pagbisita sa isang potensyal na mapaminsalang site: {{url}}. Ingat lagi!"
+    "share_text": "Prinotektahan ako ng PetroCASH sa pagbisita sa isang potensyal na mapaminsalang site: {{url}}. Ingat lagi!"
   },
   "notifications": {
     "timeout": "Timeout",
@@ -7890,7 +7890,7 @@
     "erc721_received_title": "Natanggap ang NFT",
     "erc1155_sent_title": "Naipadala ang NFT",
     "erc1155_received_title": "Natanggap ang NFT",
-    "default_message_title": "MetaMask",
+    "default_message_title": "PetroCASH",
     "default_message_description": "I-tap para tingnan",
     "feature_gate": {
       "price_alerts": {
@@ -7979,7 +7979,7 @@
     "activation_card": {
       "title": "I-on ang mga notipikasyon",
       "description_1": "Manatiling may-alam sa nangyayari sa iyong wallet gamit ang mga notification.",
-      "description_2": "Para gamitin ang tampok na ito, kami ay gagawa ng isang hindi kilalang ID para sa iyong account. Ginagamit lang ito para sa pag-sync ng data sa MetaMask at hindi inuugnay ang iyong mga aktibidad o iba pang mga pagkakakilanlan, tinitiyak ang iyong pagkapribado.",
+      "description_2": "Para gamitin ang tampok na ito, kami ay gagawa ng isang hindi kilalang ID para sa iyong account. Ginagamit lang ito para sa pag-sync ng data sa PetroCASH at hindi inuugnay ang iyong mga aktibidad o iba pang mga pagkakakilanlan, tinitiyak ang iyong pagkapribado.",
       "learn_more": "Matutunan kung paano namin pinoprotektahan ang privacy mo habang ginagamit ang feature na ito.",
       "manage_preferences_1": "Maaari mong i-off ang mga notipikasypon anumang oras sa ",
       "manage_preferences_2": "Mga Setting > Mga notipikasyon.",
@@ -7989,7 +7989,7 @@
     "push_onboarding": {
       "new_user": {
         "title": "Walang dapat palampasin",
-        "body": "Makakuha ng mga real-time na alerto sa mga paggalaw ng presyo, kumpirmasyon ng trade, aktibidad ng portfolio, at mga reward batay sa kung paano mo ginagamit ang MetaMask.",
+        "body": "Makakuha ng mga real-time na alerto sa mga paggalaw ng presyo, kumpirmasyon ng trade, aktibidad ng portfolio, at mga reward batay sa kung paano mo ginagamit ang PetroCASH.",
         "button_yes": "I-on ang mga notipikasyon",
         "button_not_now": "Hindi sa ngayon",
         "preview_card_1": {
@@ -8015,7 +8015,7 @@
       },
       "existing_user": {
         "title": "Ipinapakilala ang mga isinapersonal na alerto",
-        "body": "Makakuha ng mga notipikasyon na tumutugma sa kung paano ka nagti-trade, batay sa kung paano mo ginagamit ang MetaMask.",
+        "body": "Makakuha ng mga notipikasyon na tumutugma sa kung paano ka nagti-trade, batay sa kung paano mo ginagamit ang PetroCASH.",
         "card_title": "Ano ang makukuha mo",
         "card_description": "Mga isinapersonal na alerto at mga update na sinadya para sa iyong aktibidad sa pagti-trade.",
         "button_confirm": "Kumpirmahin",
@@ -8094,13 +8094,13 @@
     "network_not_supported": "Hindi sinusuportahan ang kasalukuyang network",
     "select_provider": "Piliin ang iyong mas gustong provider",
     "switch_network": "Lumipat sa mainnet o sepolia",
-    "card_title": "Laging ipakita ang button ng MetaMask Card",
-    "card_desc": "Available lang ang MetaMask Card sa mga residente ng mga piling bansa.",
+    "card_title": "Laging ipakita ang button ng Card",
+    "card_desc": "Available lang ang Card sa mga residente ng mga piling bansa.",
     "daimo_demo_title": "Gamitin ang demo environment ng DaimoPay",
     "daimo_demo_desc": "Mag-toggle sa pagitan ng mga demo at production environment ng DaimoPay para sa mga pagbabayad gamit ang card.",
-    "card_logout_title": "MetaMask Card",
-    "card_logout_desc": "Log out of your MetaMask Card account on this device. Use this for troubleshooting or if MetaMask Support asks you to.",
-    "card_logout_cta": "Log out of MetaMask Card"
+    "card_logout_title": "Card",
+    "card_logout_desc": "Log out of your Card account on this device. Use this for troubleshooting or if PetroCASH Support asks you to.",
+    "card_logout_cta": "Log out of Card"
   },
   "walletconnect_sessions": {
     "no_active_sessions": "Wala kang aktibong session",
@@ -8221,7 +8221,7 @@
     "wyre_minimum_deposit": "Ang pinakamababang deposito ay {{amount}}",
     "wyre_maximum_deposit": "Ang pinakamataas na deposito ay {{amount}}",
     "apple_pay_purchase": "{{currency}} na Pagbili",
-    "apple_pay_provider_total_label": "{{provider}} (gamit ang MetaMask)",
+    "apple_pay_provider_total_label": "{{provider}} (gamit ang PetroCASH)",
     "buy_with": "Bumili gamit ang",
     "plus_fee": "At dagdag na bayarin na {{fee}}",
     "date": "Petsa",
@@ -8240,12 +8240,12 @@
         "average_gas_fee": "Kasalukuyang average na bayad sa gas:",
         "subtitle_1": "Kung plano mong i-swap o ilipat ang iyong {{ticker}}, bumili ng dagdag para mabayaran ang mga bayad sa gas.",
         "subtitle_2": "Ang mga bayad sa gas para sa mga transaksyon ay hiwalay sa gastusin sa pagbili ng {{ticker}}.",
-        "subtitle_3": "Ang MetaMask ay hindi kumikita mula sa mga bayad sa gas."
+        "subtitle_3": "Ang PetroCASH ay hindi kumikita mula sa mga bayad sa gas."
       },
       "step_2": {
         "title": "Ano ang mga bayad sa gas?",
         "subtitle_1": "Pinapatakbo ng gas ang mga transaksyon sa Ethereum network. Isa itong bayarin na binabayaran sa {{ticker}} sa mga minero ng crypto na nagpoproseso sa iyong mga transaksyon.",
-        "subtitle_2": "Ang MetaMask ay hindi kumikita mula sa mga bayad sa gas.",
+        "subtitle_2": "Ang PetroCASH ay hindi kumikita mula sa mga bayad sa gas.",
         "learn_more": "Matuto pa tungkol sa mga bayad sa gas"
       },
       "step_3": {
@@ -8320,7 +8320,7 @@
     "onboarding": {
       "what_to_expect": "Ano ang aasahan",
       "quotes": "Pinagsasama-sama ng aming tampok sa pagbili ng crypto ang mga quote mula sa mga pinagsama-samang vendor, na nagbibigay sa iyo ng pinakamahusay na quote mula sa mga pinagmulan na iyon para direktang maipasok mo ang crypto sa iyong wallet nang walang panahon ng paghihintay.",
-      "quotes_sell": "Ngayon, makakapag-cash out ka na nang direkta sa MetaMask! Makakuha ng mga pinakabagong quote mula sa mga mapagkakatiwalaang provider habang ginagabayan ka namin sa kabuuan ng proseso.",
+      "quotes_sell": "Ngayon, makakapag-cash out ka na nang direkta sa PetroCASH! Makakuha ng mga pinakabagong quote mula sa mga mapagkakatiwalaang provider habang ginagabayan ka namin sa kabuuan ng proseso.",
       "benefits": "Mas mababa ang bayad sa network, at mas maraming network, token, at paraan ng pagbabayad na sinusuportahan",
       "benefits_sell": "Ang pag-off-ramp mula sa crypto papunta sa iyong lokal na currency ay mas madali na kaysa dati.",
       "get_started": "Magsimula"
@@ -8572,13 +8572,13 @@
       "best_swap": "pinakasulit na swap",
       "across": "sa lahat ng...",
       "want_to_learn_more": "Gusto mo bang matuto pa?",
-      "learn_more": "Matuto pa tungkol sa MetaMask Swaps",
+      "learn_more": "Matuto pa tungkol sa PetroCASH Swaps",
       "what_are": "Ano ang mga token swap?",
       "review_audits": "Suriin ang aming audit ng mga opisyal na kontrata",
       "start_swapping": "Simulang mag-swap"
     },
     "feature_off_title": "Pansamantalang hindi available",
-    "feature_off_body": "Sumasailalim sa maintenance ang MetaMask Swaps. Bumalik sa ibang pagkakataon.",
+    "feature_off_body": "Sumasailalim sa maintenance ang PetroCASH Swaps. Bumalik sa ibang pagkakataon.",
     "wrong_network_title": "Hindi available ang mga swap",
     "wrong_network_body": "Makakapag-swap ka lang ng mga token sa Ethereum Main Network.",
     "unallowed_asset_title": "Hindi masa-swap ang token na ito",
@@ -8657,17 +8657,17 @@
     "included": "kasama na",
     "max_gas_fee": "Max na bayad sa network",
     "edit": "I-edit",
-    "quotes_include_fee": "Kasama sa quote ang {{fee}}% na bayarin sa MetaMask",
-    "quotes_include_gas_and_metamask_fee": "Kasama na sa quote ang bayad sa gas at {{fee}}% bayad sa MetaMask",
+    "quotes_include_fee": "Kasama sa quote ang {{fee}}% na bayarin sa PetroCASH",
+    "quotes_include_gas_and_metamask_fee": "Kasama na sa quote ang bayad sa gas at {{fee}}% bayad sa PetroCASH",
     "tap_to_swap": "I-tap para i-swap",
     "swipe_to_swap": "I-swipe para i-swap",
     "swipe_to": "I-swipe para",
     "swap": "Mag-swap",
     "completed_swap": "Mag-swap!",
-    "metamask_swap_fee": "Bayad sa Pag-swap sa MetaMask",
+    "metamask_swap_fee": "Bayad sa Pag-swap sa PetroCASH",
     "fee_text": {
-      "fee_is_applied": "Ang bayad na {{fee}} ay awtomatikong isinasali sa quote na ito. Babayaran mo ito bilang kapalit ng isang lisensya para gamitin ang software ng pagsasama-sama ng impormasyon ng tagapagbigay ng liquidity ng MetaMask.",
-      "fee_is_not_applied": "Hindi nagsasama ang MetaMask ng karagdagang singil sa quote na ito."
+      "fee_is_applied": "Ang bayad na {{fee}} ay awtomatikong isinasali sa quote na ito. Babayaran mo ito bilang kapalit ng isang lisensya para gamitin ang software ng pagsasama-sama ng impormasyon ng tagapagbigay ng liquidity ng PetroCASH.",
+      "fee_is_not_applied": "Hindi nagsasama ang PetroCASH ng karagdagang singil sa quote na ito."
     },
     "enable": {
       "this_will": "Magagawa nitong",
@@ -8734,7 +8734,7 @@
     "gas_education_1": "Binabayaran ang mga bayad sa gas sa mga minero ng crypto na nagpoproseso ng mga transaksyon sa ",
     "gas_education_2_ethereum": "Network ng Ethereum.",
     "gas_education_2": "network.",
-    "gas_education_3": "Ang MetaMask ay hindi kumikita mula sa mga bayad sa gas.",
+    "gas_education_3": "Ang PetroCASH ay hindi kumikita mula sa mga bayad sa gas.",
     "gas_education_4": "Ang ",
     "gas_education_5": "“Tinantyang bayad sa gas”",
     "gas_education_6": "ay ang inaasahan naming magiging aktuwal na bayarin. Ang eksaktong halaga ay nakadepende sa mga kundisyon ng network.",
@@ -8815,9 +8815,9 @@
   "switch_custom_network": {
     "title_existing_network": "Gusto ng site na ito na lumipat ng network",
     "title_new_network": "Naidagdag ang bagong network",
-    "switch_warning": "Ililipat nito ang napiling network sa loob ng MetaMask sa dating idinagdag na network:",
-    "add_network_and_give_dapp_permission_warning": "Idinagdagdag mo ang network na ito sa MetaMask at binibigyan ng pahintulot ang {{dapp_origin}} na gamitin ito.",
-    "update_network_and_give_dapp_permission_warning": "Ina-update mo ang network na ito sa MetaMask at ibinibigay sa {{dapp_origin}} ang pahintulot na gamitin ito.",
+    "switch_warning": "Ililipat nito ang napiling network sa loob ng PetroCASH sa dating idinagdag na network:",
+    "add_network_and_give_dapp_permission_warning": "Idinagdagdag mo ang network na ito sa PetroCASH at binibigyan ng pahintulot ang {{dapp_origin}} na gamitin ito.",
+    "update_network_and_give_dapp_permission_warning": "Ina-update mo ang network na ito sa PetroCASH at ibinibigay sa {{dapp_origin}} ang pahintulot na gamitin ito.",
     "request_update_network_url": "Hinihiling ng {{dapp_origin}} na i-update ang iyong default network URL. Maaari mong i-edit ang mga default at impormasyon ng network anumang oras.",
     "available": "ay available na ngayon sa network selector.",
     "cancel": "Kanselahin",
@@ -8825,8 +8825,8 @@
   },
   "add_custom_network": {
     "title": "Payagan ang site na ito na magdagdag ng network?",
-    "warning": "Binibigyang-daan nito ang network na ito na magamit sa loob ng MetaMask.",
-    "warning_subtext_1": "Hindi vine-verify ng MetaMask ang mga custom na network o ang seguridad ng mga ito.",
+    "warning": "Binibigyang-daan nito ang network na ito na magamit sa loob ng PetroCASH.",
+    "warning_subtext_1": "Hindi vine-verify ng PetroCASH ang mga custom na network o ang seguridad ng mga ito.",
     "warning_subtext_2": "Alamin ang tungkol sa",
     "warning_subtext_3": "mga panloloko at panganib ng seguridad ng network",
     "display_name": "Ipinapakitang pangalan",
@@ -8842,7 +8842,7 @@
     "alert_recommend": "Inirerekomenda namin sa iyo na",
     "alert_verify": "i-verify ang ID ng chain",
     "warning_subtext_new": {
-      "1": "Ang MetaMask ay hindi nagbeberipika ng mga custom network, kaya aprubahan lamang ang mga network na pinagkakatiwalaan mo.",
+      "1": "Ang PetroCASH ay hindi nagbeberipika ng mga custom network, kaya aprubahan lamang ang mga network na pinagkakatiwalaan mo.",
       "2": "Matuto pa tungkol sa panganib sa seguridad sa network at mga scam."
     },
     "invalid_rpc_url": "Ang URL ng network na ito ay hindi tumutugma sa kilalang provider para sa chain ID na ito.",
@@ -8904,7 +8904,7 @@
       "show_qr": "Ipakita ang QR code",
       "qr_title": "Mag-scan ng QR Code",
       "qr_description": "I-scan ang code na ito gamit ang authenticator app mo para idagdag ang account mo. Pagkatapos, ilagay ang 6 na digit na code na ipapakita nito.",
-      "restarted": "Masyadong matagal ang paghihintay kaya gumawa kami ng bagong setup key. Alisin ang naunang entry ng MetaMask sa iyong authenticator app, pagkatapos ay idagdag ang bago.",
+      "restarted": "Masyadong matagal ang paghihintay kaya gumawa kami ng bagong setup key. Alisin ang naunang entry ng PetroCASH sa iyong authenticator app, pagkatapos ay idagdag ang bago.",
       "continue": "Magpatuloy"
     },
     "passkey": {
@@ -9046,7 +9046,7 @@
     "estimated_gas_fee_tooltip_text_1": "Ang mga bayad sa gas ay binabayaran sa mga minero ng crypto na nagpoproseso ng mga transaksyon sa",
     "estimated_gas_fee_tooltip_text_2": " Ethereum",
     "estimated_gas_fee_tooltip_text_3": " network.",
-    "estimated_gas_fee_tooltip_text_4": "Ang MetaMask ay hindi kumikita mula sa mga bayad sa gas.",
+    "estimated_gas_fee_tooltip_text_4": "Ang PetroCASH ay hindi kumikita mula sa mga bayad sa gas.",
     "estimated_gas_fee_tooltip_text_5": "Ang mga bayad sa gas ay itinakda ng network at nagbabago-bago batay sa trapiko sa network at pagiging kumplikado ng transaksyon.",
     "learn_more": "Matuto pa tungkol sa mga bayad sa network",
     "legacy_gas_suggestion_tooltip": "Ang mungkahi sa bayad sa network na ito ay gumagamit ng lumang pagtatantya ng gas na posibleng hindi tumpak."
@@ -9070,7 +9070,7 @@
     "high_fees": "Bakit napakataas ng mga bayarin?",
     "missing_tokens": "Kulang ako ng mga token...",
     "swap_issues": "Hindi ako makapag-swap...",
-    "mobile_sentiment": "Ano ang pakiramdam mo tungkol sa MetaMask mobile?",
+    "mobile_sentiment": "Ano ang pakiramdam mo tungkol sa PetroCASH mobile?",
     "sentiment_good_face": "😁",
     "sentiment_bad_face": "☹️",
     "sentiment_good": "Gustung-gusto ko ito!",
@@ -9106,7 +9106,7 @@
     "error_title": "Mayroong nang mali",
     "error_message": "Nagkaroon ng error sa pag-load ng impormasyon ng network. Subukan muli mamaya.",
     "private_network_third_description": "Lagyan ng pangalan ang network na ito para mas madaling tukuyin.",
-    "learn_more_url": "https://support.metamask.io/networks-and-sidechains/managing-networks/user-guide-custom-networks-and-sidechains/",
+    "learn_more_url": "https://petrocash.org/support",
     "enable_token_detection": "Paganahin ang awtomatikong pagtuklas ng token",
     "token_detection_mainnet_title": "Pinagana ang pagtuklas ng token kaya maraming mga token ang awtomatikong lalabas sa iyong wallet.",
     "token_detection_mainnet_link": "Maaari ka ring magdagdag ng mga token ng manu-mano.",
@@ -9125,12 +9125,12 @@
   },
   "remember_me": {
     "enable_remember_me": "I-on ang Tandaan ako",
-    "enable_remember_me_description": "Kapag naka-on ang tandaan ako, sinumang may access sa iyong telepono ay makaka-access sa iyong MetaMask account."
+    "enable_remember_me_description": "Kapag naka-on ang tandaan ako, sinumang may access sa iyong telepono ay makaka-access sa iyong PetroCASH account."
   },
   "turn_off_remember_me": {
     "title": "I-off ang Tandaan Ako",
     "placeholder": "Kumpirmahin ang password",
-    "description": "Kapag nai-off, hindi na muling magagamit ang Tandaan Ako. Itinigil na ang feature na ito, kaya sa halip ay maaari mong i-unlock ang MetaMask gamit ang iyong password o biometrics.",
+    "description": "Kapag nai-off, hindi na muling magagamit ang Tandaan Ako. Itinigil na ang feature na ito, kaya sa halip ay maaari mong i-unlock ang PetroCASH gamit ang iyong password o biometrics.",
     "action": "I-off ang Tandaan Ako"
   },
   "dapp_connect": {
@@ -9142,11 +9142,11 @@
   },
   "automatic_security_checks": {
     "title": "Mga awtomatikong pagsusuri sa seguridad",
-    "description": "Maaaring ilantad ng awtomatikong pagsuri para sa mga update ang iyong IP address sa mga server ng GitHub. Ipinapahiwatig lamang nito na ang iyong IP address ay gumagamit ng MetaMask. Walang ibang impormasyon o address ng account ang nakalantad."
+    "description": "Maaaring ilantad ng awtomatikong pagsuri para sa mga update ang iyong IP address sa mga server ng GitHub. Ipinapahiwatig lamang nito na ang iyong IP address ay gumagamit ng PetroCASH. Walang ibang impormasyon o address ng account ang nakalantad."
   },
   "terms_of_use_modal": {
     "title": "Repasuhin ang aming Mga Tuntunin ng Paggamit",
-    "terms_of_use_check_description": "Sumasang-ayon ako sa Mga Tuntunin ng Paggamit, na nalalapat sa aking paggamit ng MetaMask at sa lahat ng mga tampok nito",
+    "terms_of_use_check_description": "Sumasang-ayon ako sa Mga Tuntunin ng Paggamit, na nalalapat sa aking paggamit ng PetroCASH at sa lahat ng mga tampok nito",
     "accept_cta": "Tanggapin",
     "accept_helper_description": "I-scroll para basahin ang lahat ng seksyon",
     "agree_cta": "Sumasang-ayon"
@@ -9158,7 +9158,7 @@
   },
   "enable_automatic_security_check_modal": {
     "title": "Awtomatikong suriin para sa mga update sa seguridad?",
-    "description": "Ang awtomatikong pagtingin ng mga update ay maaaring ilantad ang iyong IP address sa mga GitHub server. Ipinapahiwatig lang nito na ginagamit ng iyong IP address ang MetaMask. Walang ibang impormasyon o address ng account ang nakalantad.",
+    "description": "Ang awtomatikong pagtingin ng mga update ay maaaring ilantad ang iyong IP address sa mga GitHub server. Ipinapahiwatig lang nito na ginagamit ng iyong IP address ang PetroCASH. Walang ibang impormasyon o address ng account ang nakalantad.",
     "primary_action": "Paganahin ang mga awtomatikong pagsusuri sa seguridad",
     "secondary_action": "Salamat na lang"
   },
@@ -9211,7 +9211,7 @@
     "new_wallet_needed_create_try_again_action": "Subukang mabawi ang wallet",
     "new_wallet_needed_description_part_one": "Nagkaproblema sa iyong wallet, at kakailanganin mo na gumawa ng bago. Dahil ang mga account mo ay nasa blockchain, ligtas pa rin ang mga iyon. Mga preference, naka-save na network, pangalan ng account at nauugnay na data na naka-save sa iyong device lang ang mawawala.",
     "new_wallet_needed_description_part_two": "Para i-import ang iyong mga account sa bagong wallet, kailangan mo ang iyong Secret Recovery Phrase. Kung wala kang Lihim na Parirala sa Pagbawi, hindi mo mai-import ang mga account mo.",
-    "new_wallet_needed_description_part_three": "Para maiwasan na mangyari itong muli, tiyakin na laging naka-update sa pinakabagong bersyon ang iyong MetaMask app at OS."
+    "new_wallet_needed_description_part_three": "Para maiwasan na mangyari itong muli, tiyakin na laging naka-update sa pinakabagong bersyon ang iyong PetroCASH app at OS."
   },
   "srp_security_quiz": {
     "question_step": "Tanong {{step}} sa {{total}}",
@@ -9225,7 +9225,7 @@
     "incorrect": "Mali!",
     "of": "ng",
     "question_one": {
-      "question": "Kung mawala mo ang iyong Lihim na Parirala sa Pagbawi, ang MetaMask ay...",
+      "question": "Kung mawala mo ang iyong Lihim na Parirala sa Pagbawi, ang PetroCASH ay...",
       "right_answer": "Hindi ka matutulungan",
       "wrong_answer": "Maaari itong ibalik para sa iyo",
       "right_answer_title": "Tama! Walang makakatulong na maibalik ang iyong Lihim na Parirala sa Pagbawi",
@@ -9250,9 +9250,9 @@
     "bluetooth_off_message": "I-on ang Bluetooth sa iyong device",
     "bluetooth_access_blocked": "Kailangan ng Ledger ng access sa Bluetooth para ipares ang iyong mobile device.",
     "bluetooth_access_blocked_message": "Kung nais mong ipares ang iyong Ledger device gamit ang Bluetooth, paganahin ito sa Mga Setting at subukang muli.",
-    "location_access_blocked": "Kailangan ng MetaMask ng permiso sa pag-access ng lokasyon para maipares sa iyong ledger.",
+    "location_access_blocked": "Kailangan ng PetroCASH ng permiso sa pag-access ng lokasyon para maipares sa iyong ledger.",
     "location_access_blocked_message": "Kung nais mong ipares ang iyong Ledger device gamit ang Bluetooth, kailangan mong paganahin ang access sa lokasyon sa Mga Setting at subukang muli.",
-    "nearbyDevices_access_blocked": "Kailangan ng MetaMask ng permiso sa mga malapit na device para maipares sa iyong ledger.",
+    "nearbyDevices_access_blocked": "Kailangan ng PetroCASH ng permiso sa mga malapit na device para maipares sa iyong ledger.",
     "nearbyDevices_access_blocked_message": "Kung nais mong ipares ang iyong Ledger device gamit ang Bluetooth, kailangan mong paganahin ang access sa mga malapit na device sa Mga Setting at subukang muli.",
     "bluetooth_scanning_error": "Error habang ini-scan ang device",
     "bluetooth_scanning_error_message": "Siguraduhing naka-unlock ang iyong device at gumagana ang app ng Ethereum",
@@ -9301,7 +9301,7 @@
     "unknown_error_message": "Nagkaroon ng hindi inaasahang error. Subukan muli.",
     "error_occured": "An error occurred",
     "how_to_install_eth_app": "Paano i-install ang app ng Ethereum sa isang Ledger device",
-    "ledger_account_count": "Gumagamit ka ng 1 account mula sa iyong Ledger gamit ang MetaMask Mobile.",
+    "ledger_account_count": "Gumagamit ka ng 1 account mula sa iyong Ledger gamit ang PetroCASH Mobile.",
     "open_eth_app": "Buksan ang app ng Ethereum",
     "open_eth_app_message_one": "Natukoy namin na naka-install ang app ng Ethereum ngunit hindi ito nakabukas, ",
     "open_eth_app_message_two": "pindutin ang dalawang button sa device para tanggapin ang prompt para mabuksan ang app ng Ethereum para magpatuloy.",
@@ -9317,7 +9317,7 @@
     "not_supported": "Hindi sinusuportahan ang operasyon",
     "not_supported_error": "Ang bersyon 4 lamang ng naka-type na pagpirma ng data ang sinusuportahan.",
     "error_during_connection": "May naganap na hindi kilalang error",
-    "error_during_connection_message": "Nagkaroon ng kaunting problema sa pagkonekta sa iyong Ledger device, i-tap ang 'Subukang muli' sa ibaba para subukan ulit ito. Minsan nangyayari ito dahil sa pagiging bukas ng ETH app sa iyong Ledger device sa simula ng proseso ng pagpapares sa MetaMask Mobile.",
+    "error_during_connection_message": "Nagkaroon ng kaunting problema sa pagkonekta sa iyong Ledger device, i-tap ang 'Subukang muli' sa ibaba para subukan ulit ito. Minsan nangyayari ito dahil sa pagiging bukas ng ETH app sa iyong Ledger device sa simula ng proseso ng pagpapares sa PetroCASH Mobile.",
     "how_to_install_eth_webview_title": "Paano i-install ang App ng Ethereum",
     "nonce_too_low": "Masyadong mababa ang nonce",
     "nonce_too_low_error": "Masyadong mababa ang itinakdang nonce",
@@ -9326,7 +9326,7 @@
     "select_hd_path_description": "Kung hindi mo makita ang mga account na inaasahan mo, subukang lumipat ng HD path o kasalukuyang piniling network.",
     "ledger_live_path": "Ledger Live",
     "ledger_legacy_path": "Legacy(MEW/MyCrypto)",
-    "ledger_bip44_path": "BIP44(e.g. MetaMask, Trezor)",
+    "ledger_bip44_path": "BIP44(e.g. PetroCASH, Trezor)",
     "ledger_legacy_label": " (legacy)",
     "blind_sign_error": "Nag-error ang blind signing",
     "blind_sign_error_message": "Hindi pinapagana ang blind signing sa iyong Ledger device. Paganahin ito sa mga setting.",
@@ -9444,7 +9444,7 @@
           "info_rows": {
             "row_1": "Kumita ng hanggang ~{{percentage}}% APY sa balanse mo",
             "row_2": "Walang lockup—mag-trade o mag-withdraw anumang oras",
-            "row_3": "Naka-hold sa mUSD, ang stablecoin ng MetaMask na sinusuportan ng dolyar nang 1:1"
+            "row_3": "Naka-hold sa mUSD, ang stablecoin ng PetroCASH na sinusuportan ng dolyar nang 1:1"
           }
         },
         "stablecoin_lending": {
@@ -9587,8 +9587,8 @@
           "dollar_backed": "Sinusuportahan ng Dolyar",
           "no_lockups": "Walang mga lockup",
           "daily_bonus": "Araw-araw na bonus",
-          "metamask_stablecoins": "Mga stablecoin ng MetaMask",
-          "no_metamask_fee": "Walang bayad sa MetaMask"
+          "metamask_stablecoins": "Mga stablecoin ng PetroCASH",
+          "no_metamask_fee": "Walang bayad sa PetroCASH"
         }
       },
       "buy_musd": "Bumili ng mUSD",
@@ -9600,7 +9600,7 @@
       "quick_convert_button": "I-convert",
       "learn_more": "Matuto pa",
       "tooltip_title": "Kumita ng yield sa mUSD",
-      "tooltip_content": "I-convert ang USDC, USDT, o DAI mo sa mUSD, ang stablecoin ng MetaMask na sinusuportahan ng dolyar Kumita ng {{apy}} yield sa bawat dolyar na hino-hold mo.",
+      "tooltip_content": "I-convert ang USDC, USDT, o DAI mo sa mUSD, ang stablecoin ng PetroCASH na sinusuportahan ng dolyar Kumita ng {{apy}} yield sa bawat dolyar na hino-hold mo.",
       "quick_convert": {
         "title": "I-convert at makakuha ng {{percentage}}%",
         "subtitle": "I-convert ang mga stablecoin mo sa mUSD at makatanggap ng hanggang {{percentage}}% taunang bonus na puwede mong ma-claim araw-araw.",
@@ -9624,7 +9624,7 @@
       "rewards_tag_label": "Mga Reward",
       "tooltip_title": "Kumita ng mga reward gamit ang mUSD",
       "tooltip_points_suffix": "kada $100",
-      "tooltip_description": "I-convert ang iyong USDC, USDT, o DAI mula sa mUSD, stablecoin ng MetaMask na suportado ng dolyar.\nMakakakuha ng mga point sa tuwing magko-convert ka.",
+      "tooltip_description": "I-convert ang iyong USDC, USDT, o DAI mula sa mUSD, stablecoin ng PetroCASH na suportado ng dolyar.\nMakakakuha ng mga point sa tuwing magko-convert ka.",
       "tooltip_opted_in_footer": "Awtomatikong idadagdag ang mga point sa account mo.",
       "tooltip_not_opted_in_footer": "Mag-opt-in sa mga reward para matanggap ang mga point mo.",
       "tooltip_close": "Isara"
@@ -9671,13 +9671,13 @@
       },
       "step_2": {
         "no_card_account": {
-          "title": "Kunin ang MetaMask Card mo",
+          "title": "Kunin ang Card mo",
           "description": "Gastusin ang balanse mo at kumita sa mga pagbili.",
           "cta_primary": "Kunin ang card",
           "cta_secondary": "Laktawan"
         },
         "unlinked_card_account": {
-          "title": "I-link ang MetaMask Card mo",
+          "title": "I-link ang Card mo",
           "description": "Gastusin ang balanse mo at kumita sa mga pagbili.",
           "cta_primary": "I-link ang card",
           "cta_secondary": "Laktawan"
@@ -9685,13 +9685,13 @@
       }
     },
     "splash": {
-      "eyebrow": "MetaMask Money",
+      "eyebrow": "PetroCASH Money",
       "title": "Earn, trade, and spend from one balance",
-      "body_prefix": "MetaMask Money is a stablecoin account that earns up to ",
+      "body_prefix": "PetroCASH Money is a stablecoin account that earns up to ",
       "body_suffix": "—with trading, sending, and spending built in.",
-      "body_no_apy": "MetaMask Money is a stablecoin account with trading, sending, and spending built in.",
-      "benefit_convert_title": "Converts to MetaMask USD, 1:1",
-      "benefit_convert_body": "Funds you add convert 1:1 to MetaMask USD, with no fees.",
+      "body_no_apy": "PetroCASH Money is a stablecoin account with trading, sending, and spending built in.",
+      "benefit_convert_title": "Converts to mUSD, 1:1",
+      "benefit_convert_body": "Funds you add convert 1:1 to mUSD, with no fees.",
       "benefit_earn_title": "Earn automatically",
       "benefit_earn_body": "Earnings land in your balance in real time, with nothing to claim.",
       "benefit_trade_title": "Trade from the same balance",
@@ -9699,7 +9699,7 @@
       "benefit_withdraw_title": "Withdraw anytime",
       "benefit_withdraw_body": "No lockups, notice periods, or penalties. Your money is always yours to take out.",
       "benefit_send_title": "Send or spend anywhere",
-      "benefit_send_body": "Send to any wallet or bank, or spend with MetaMask Card for up to 3% back.",
+      "benefit_send_body": "Send to any wallet or bank, or spend with Card for up to 3% back.",
       "cta": "Start earning",
       "close": "Close"
     },
@@ -9749,11 +9749,11 @@
       "step2_body": "Ilipat ang mga stablecoin nang walang mga babayaran sa palitan. Nagsisimulang kumita agad ang mga pondo.",
       "step2_footer_text": "Gumagamit ang Money account ng Veda infrastructure.",
       "step3_title": "Gastusin kahit saan",
-      "step3_body_card_eligible": "Makakuha ng hanggang {{percentage}}% pabalik sa mga pagbili sa pamamagitan ng pag-link sa Money account mo papunta sa MetaMask Card.",
-      "step3_body_card_ineligible": "Parating na! Makakuha ng hanggang {{percentage}}% pabalik sa mga pagbili sa pamamagitan ng pag-link sa Money account mo papunta sa MetaMask Card.",
+      "step3_body_card_eligible": "Makakuha ng hanggang {{percentage}}% pabalik sa mga pagbili sa pamamagitan ng pag-link sa Money account mo papunta sa Card.",
+      "step3_body_card_ineligible": "Parating na! Makakuha ng hanggang {{percentage}}% pabalik sa mga pagbili sa pamamagitan ng pag-link sa Money account mo papunta sa Card.",
       "step3_footer_text": "Kasama ang pagsubaybay sa Steakhouse Financial.",
       "step4_title": "Mag-trade at kumita sa iisang lugar",
-      "step4_body": "Gamitin ang balanse ng iyong Pera para mag-trade sa buong MetaMask habang kumikita pa rin ng yield.",
+      "step4_body": "Gamitin ang balanse ng iyong Pera para mag-trade sa buong PetroCASH habang kumikita pa rin ng yield.",
       "step4_footer_text": "Pinapagana ng Monad.",
       "button_text": "Magpatuloy"
     },
@@ -9860,9 +9860,9 @@
       "benefit_auto_earn_variable": "(variable)",
       "benefit_dollar_backed": "Itabi nang ligtas ang pera mo sa mUSD, isang stablecoin na sinusuportahan ng dolyar nang 1:1",
       "benefit_liquidity": "Makakuha ng ganap na liquidity nang walang lockup, kaya maaari kang mag-trade o mag-withdraw anumang oras",
-      "benefit_spend_prefix": "Gastusin sa 150M+ merchant gamit ang MetaMask Card at kumita ",
+      "benefit_spend_prefix": "Gastusin sa 150M+ merchant gamit ang Card at kumita ",
       "benefit_spend_cashback": "Ibabalik na 1-3% mUSD",
-      "benefit_transfer": "Magpadala sa alinman sa mga wallet mo sa buong MetaMask",
+      "benefit_transfer": "Magpadala sa alinman sa mga wallet mo sa buong PetroCASH",
       "benefit_global": "Magpadala at makatanggap ng mga pondo saanman sa mundo",
       "learn_more": "Matuto pa"
     },
@@ -9895,13 +9895,13 @@
     "musd_rescue_send": {
       "title": "Ipadala",
       "your_funds_are_safe_title": "Your funds are safe",
-      "your_funds_are_safe_description": "{{amount}} of your mUSD is in your Money account but isn't earning yet. Send the funds back to your MetaMask account, then add them again.",
+      "your_funds_are_safe_description": "{{amount}} of your mUSD is in your Money account but isn't earning yet. Send the funds back to your PetroCASH account, then add them again.",
       "to_label": "Sa/Kay",
       "receive_label": "Tumanggap",
       "est_time_label": "Tinatayang tagal",
       "est_time_value": "< 10 seg",
       "transaction_fees_label": "Mga bayad sa transaksyon",
-      "paid_by_metamask": "Binayaran ng MetaMask",
+      "paid_by_metamask": "Binayaran ng PetroCASH",
       "you_ll_receive_label": "Makakatanggap ka ng",
       "recipient_label": "Pumili ng account",
       "recipient_placeholder": "Enter account name or paste address",
@@ -9953,7 +9953,7 @@
       "title": "Annual Percentage Yield (APY)",
       "paragraph_1": "Awtomatikong kumikita ang Money account mo ng hanggang {{percentage}}%.",
       "paragraph_2": "Ang rate na ipinapakita ay tinantyang Annual Percentage Yield (APY) batay sa mga kasalukuyang kondisyon ng merkado. Nag-iiba-iba ang APY at hindi ito garantisado. Napupunta ang pondo sa isang DeFi vault, na pinapangasiwaan ng Veda at sinusubaybayan ng Steakhouse Financial ang panganib, at tumutubo ito sa mga kilalang merkado ng pagpapautang.",
-      "paragraph_3": "Kapag ni-link mo ang MetaMask Card mo, ibabawas ang mga binili mo sa balanseng ito.",
+      "paragraph_3": "Kapag ni-link mo ang Card mo, ibabawas ang mga binili mo sa balanseng ito.",
       "paragraph_4": "Ang Money account ay pinapagana ng Monad.",
       "deposit_body": "Ang rate na ipinapakita ay ang tinatayang Annual Percentage Yield (APY) batay sa mga kasalukuyang kondisyon ng market. Nagbabago ang APY at hindi ito garantisado."
     },
@@ -10029,7 +10029,7 @@
       "paid_with": "Magbayad gamit ang",
       "you_deposited": "Nagdeposito ka",
       "transaction_fees": "Mga bayad sa transaksyon",
-      "paid_by_metamask": "Binayaran ng MetaMask",
+      "paid_by_metamask": "Binayaran ng PetroCASH",
       "total": "Kabuuan",
       "pending": "Nakabinbin"
     },
@@ -10040,7 +10040,7 @@
       "description_suffix": " sa pamamagitan ng pag-convert ng USDC, USDT, at DAI sa mUSD.",
       "tag_dollar_backed": "Sinusuportahan ng Dolyar",
       "tag_no_lockups": "Walang mga lockup",
-      "tag_no_fee": "Walang bayad sa MetaMask",
+      "tag_no_fee": "Walang bayad sa PetroCASH",
       "tag_daily_bonus": "Araw-araw na bonus",
       "convert_cta": "I-convert sa mUSD",
       "learn_more": "Matuto pa",
@@ -10057,31 +10057,31 @@
       "header_title": "Pera",
       "section_title": "Paano ito gumagana",
       "description_1": "Magdagdag ng mUSD sa Money account mo at awtomatikong kumita ng hanggang {{percentage}}% APY (variable). Napupunta ang mga pondo sa isang DeFi vault, na pinangangasiwaan ng Veda at may pagsubaybay sa panganib mula sa Steakhouse Financial. Binubuo ang rate ng mga third-party na platform ng DeFi na naglalagay ng mga pondo sa mga blockchain protocol. Walang pag-stake, walang pag-claim, walang mga lock-up.",
-      "description_2": "Ang balanse mo sa Money ang balanseng puwede mong gastusin. I-link ang MetaMask Card mo para magamit ito sa 150M+ merchant sa buong mundo. Patuloy na kikita ang pera mo hanggang sa gastusin mo ito.",
+      "description_2": "Ang balanse mo sa Money ang balanseng puwede mong gastusin. I-link ang Card mo para magamit ito sa 150M+ merchant sa buong mundo. Patuloy na kikita ang pera mo hanggang sa gastusin mo ito.",
       "description_3": "Ang Money account ay pinapagana ng Monad.",
       "faq_title": "Mga FAQ",
-      "faq_q1": "Ano ang MetaMask Money account?",
-      "faq_a1": "Isang account na kumikita ng hanggang {{percentage}}% variable APY. Nagdedeposito ka ng pondo, na inilalagay sa account bilang mUSD, at kikita ng hanggang {{percentage}}% APY. Ang mUSD ay stablecoin ng MetaMask na suportado ng dolyar. Maaari mong gamitin o i-withdraw ang mga pondo mo anumang oras nang walang mga penalty. Maaari mong gastusin ang mga pondo mo gamit ang MetaMask Card sa 150+ milyong Mastercard merchant sa buong mundo.",
-      "faq_a1_no_apy": "An account that earns variable APY. You deposit funds, which are held in the account as mUSD. mUSD is MetaMask's dollar-backed stablecoin. You can use or withdraw your funds anytime with no penalties. You can spend your funds via MetaMask Card at 150+ million Mastercard merchants worldwide.",
-      "faq_q2": "Ligtas ba ang MetaMask Money account?",
+      "faq_q1": "Ano ang PetroCASH Money account?",
+      "faq_a1": "Isang account na kumikita ng hanggang {{percentage}}% variable APY. Nagdedeposito ka ng pondo, na inilalagay sa account bilang mUSD, at kikita ng hanggang {{percentage}}% APY. Ang mUSD ay stablecoin ng PetroCASH na suportado ng dolyar. Maaari mong gamitin o i-withdraw ang mga pondo mo anumang oras nang walang mga penalty. Maaari mong gastusin ang mga pondo mo gamit ang Card sa 150+ milyong Mastercard merchant sa buong mundo.",
+      "faq_a1_no_apy": "An account that earns variable APY. You deposit funds, which are held in the account as mUSD. mUSD is PetroCASH's dollar-backed stablecoin. You can use or withdraw your funds anytime with no penalties. You can spend your funds via Card at 150+ million Mastercard merchants worldwide.",
+      "faq_q2": "Ligtas ba ang PetroCASH Money account?",
       "faq_a2": "Oo, ngunit kagaya ng lahat ng produkto ng DeFi, may dala itong panganib. Ito ay isang self-custodial na wallet, ibig sabihin tanging ikaw ang may ganap na kontrol sa iyong account gamit ang iyong mga Private Key.\n\nKabilang sa mga panganib ang mga pagpalya ng smart-contract, pagsasamantala sa protocol, kakulangan ng liquidity, pagpalya ng third-party, at mga legal o regulatoryong paghihigpit. Ang Money account ay hindi naka-insure sa FDIC o anumang ahensiya ng gobyerno. Mayroong panganib ng pagkalugi.",
-      "faq_q3": "Sino ang kumokontrol sa MetaMask Money account ko?",
-      "faq_a3": "Ikaw! Ang MetaMask ay isang self-custodial na wallet, ibig sabihin tanging ang mga Private Key ng may hawak ng account ang may kontrol dito. Hindi maaaring i-access, i-freeze, o galawin ng MetaMask ang mga pondo mo. Ito ang ipinagkaiba namin mula sa mga tradisyonal na account sa bangko at mga custodial crypto platform—walang third party na humahawak sa mga pondo mo.",
-      "faq_q4": "Ano ang mga bayarin sa MetaMask Money account?",
-      "faq_a4": "Walang bayad sa pagbubukas ng Money account at walang bayad sa pagdedeposito ng mga stablecoin. Sisingilin ka ng mga bayarin kapag nagdedeposito ng mga non-stablecoin token. Walang mga nauugnay na mga bayarin sa mga transaksyon sa MetaMask Card, pagwi-withdraw sa ATM, at mga gastos sa local currency offramp. ",
+      "faq_q3": "Sino ang kumokontrol sa PetroCASH Money account ko?",
+      "faq_a3": "Ikaw! Ang PetroCASH ay isang self-custodial na wallet, ibig sabihin tanging ang mga Private Key ng may hawak ng account ang may kontrol dito. Hindi maaaring i-access, i-freeze, o galawin ng PetroCASH ang mga pondo mo. Ito ang ipinagkaiba namin mula sa mga tradisyonal na account sa bangko at mga custodial crypto platform—walang third party na humahawak sa mga pondo mo.",
+      "faq_q4": "Ano ang mga bayarin sa PetroCASH Money account?",
+      "faq_a4": "Walang bayad sa pagbubukas ng Money account at walang bayad sa pagdedeposito ng mga stablecoin. Sisingilin ka ng mga bayarin kapag nagdedeposito ng mga non-stablecoin token. Walang mga nauugnay na mga bayarin sa mga transaksyon sa Card, pagwi-withdraw sa ATM, at mga gastos sa local currency offramp. ",
       "faq_a4_link": "Tingnan ang kabuuan ng breakdown ng bayad sa Card dito.",
-      "faq_q5": "Magkano ang maaari kong kitain sa MetaMask Money account?",
+      "faq_q5": "Magkano ang maaari kong kitain sa PetroCASH Money account?",
       "faq_a5": "Hanggang {{percentage}}% APY. Nagbabago at tumataas-baba ang rate ayon sa mga kondisyon ng market. Laging makikita ang kasalukuyang rate sa loob ng Money account.",
       "faq_a5_no_apy": "The rate is variable and fluctuates with market conditions. The current rate is always visible inside the Money account.",
       "faq_q6": "Saan nanggagaling ang yield?",
-      "faq_a6": "Kapag nagdeposito ka ng mga pondo, inilalagay ang mga iyon sa mga magagandang DeFi protocol, gaya ng Aave at Morpho, kung saan kumikita sila ng tubo mula sa totoong aktibidad pang-ekonomiya. Ibinibigay sa iyo ang tubo na ito bilang APY.\n\nSinusubaybayan ng third-party service provider na tinatawag na Steakhouse Financial kung paano inilalaan ang mga pondo sa mga protocol. Ang Veda, isang third-party infrastructure provider, ang nagde-deploy at nagpapanatili ng mga vault smart contract na may hawak sa mga pondo mo.\n\nAng kinikita ay hindi interes na binabayaran ng MetaMask o ng nag-issue mUSD. Ang mga ito ay tinubo onchain na nilikha ng mga posisyon sa mga third-party DeFi protocol.",
+      "faq_a6": "Kapag nagdeposito ka ng mga pondo, inilalagay ang mga iyon sa mga magagandang DeFi protocol, gaya ng Aave at Morpho, kung saan kumikita sila ng tubo mula sa totoong aktibidad pang-ekonomiya. Ibinibigay sa iyo ang tubo na ito bilang APY.\n\nSinusubaybayan ng third-party service provider na tinatawag na Steakhouse Financial kung paano inilalaan ang mga pondo sa mga protocol. Ang Veda, isang third-party infrastructure provider, ang nagde-deploy at nagpapanatili ng mga vault smart contract na may hawak sa mga pondo mo.\n\nAng kinikita ay hindi interes na binabayaran ng PetroCASH o ng nag-issue mUSD. Ang mga ito ay tinubo onchain na nilikha ng mga posisyon sa mga third-party DeFi protocol.",
       "faq_q7": "Anong mga token ang maaari kong ideposito sa Money account?",
       "faq_a7": "Maaari mong ideposito ang mga sumusunod na stablecoin at aToken sa Money account mo nang walang bayarin sa pag-convert:\n\n{{tokenBullets}}\n\nAng lahat ng iba pang EVM token ay maaari ring ideposito sa Money account, ngunit may mga karaniwang bayarin na malalapat. Maaari mo ring pondohan ang iyong Money account gamit ang debit card, credit card, bank account, PayPal, Apple Pay, o Google Pay.\n\nPaalala: Mayroong inisyal na max na deposito na $100,000 kada token para matiyak ang liquidity.",
-      "faq_q8": "Maaari ba akong mag-withdraw mula sa MetaMask Money account anumang oras?",
-      "faq_a8": "Oo. Maaari mong i-trade, ipadala, gastusin, o i-withdraw ang buong balanse mo anumang oras nang walang mga abiso sa panahon, walang mga penalty, at walang mga bayarin sa pag-withdraw mula sa MetaMask. Kung hirap sa liquidity, maaaring magkaroon ng pansamantalang mga pagkaantala.",
-      "faq_q9": "Kailangan ko bang kumpletuhin ang pag-verify sa pagkakakilanlan para magamit ang MetaMask Money account?",
-      "faq_a9": "Hindi, hindi kinakailangan ang pag-verify ng pagkakakilanlan sa pagbubukas ng Money account. Gayunpaman, ang mga tiyak na feature, kabilang ang Card at Ramps, ay nangangailangan ng pag-verify. Ang mga pagsisiyasat ay isinasagawa ng mga the third-party provider na nagpapatakbo sa mga kinokontrol na serbisyong ito, hindi ng MetaMask. Kung kinakailangan, gagabayan ka sa proseso sa loob ng app habang nagsa-sign up.",
-      "faq_q10": "Saang mga bansa available ang MetaMask Money account?",
+      "faq_q8": "Maaari ba akong mag-withdraw mula sa PetroCASH Money account anumang oras?",
+      "faq_a8": "Oo. Maaari mong i-trade, ipadala, gastusin, o i-withdraw ang buong balanse mo anumang oras nang walang mga abiso sa panahon, walang mga penalty, at walang mga bayarin sa pag-withdraw mula sa PetroCASH. Kung hirap sa liquidity, maaaring magkaroon ng pansamantalang mga pagkaantala.",
+      "faq_q9": "Kailangan ko bang kumpletuhin ang pag-verify sa pagkakakilanlan para magamit ang PetroCASH Money account?",
+      "faq_a9": "Hindi, hindi kinakailangan ang pag-verify ng pagkakakilanlan sa pagbubukas ng Money account. Gayunpaman, ang mga tiyak na feature, kabilang ang Card at Ramps, ay nangangailangan ng pag-verify. Ang mga pagsisiyasat ay isinasagawa ng mga the third-party provider na nagpapatakbo sa mga kinokontrol na serbisyong ito, hindi ng PetroCASH. Kung kinakailangan, gagabayan ka sa proseso sa loob ng app habang nagsa-sign up.",
+      "faq_q10": "Saang mga bansa available ang PetroCASH Money account?",
       "faq_a10": "Sa halos lahat ng lugar! Sa kasalukuyan, hindi kami available sa UK at sa mga bansa na nasa listahan ng walang pahintulot ng USA.",
       "disclosures_title": "Panganib at mga Pagpapahayag",
       "disclosures_body": "Ang Money account ay hindi isang bank account, savings account, o produktong deposito na naka-insure. Ang APY ay variable at hindi iginagarantiya. Ang Money account ay may kaugnay na smart contract, protocol, liquidity, at iba pang panganib, at maaaring mawala sa iyo ang bahagi o ang lahat ng iyong pondo. Sasailalim sa mga paghihigpit ng rehiyon. Nalalapat ang mga tuntunin."
@@ -10144,7 +10144,7 @@
     "staked_balance": "Balanse ng naka-stake",
     "staked_ethereum": "Nag-stake ng Ethereum",
     "unstake": "I-unstake",
-    "withdrawal_details_unavailable": "Hindi namin mai-load ang mga detalye ng pag-withdraw mo. Subukan ulit. Kung may problema pa rin, makipag-ugnayan sa Suporta ng MetaMask.",
+    "withdrawal_details_unavailable": "Hindi namin mai-load ang mga detalye ng pag-withdraw mo. Subukan ulit. Kung may problema pa rin, makipag-ugnayan sa Suporta ng PetroCASH.",
     "stake_more": "Mag-stake pa",
     "claim": "I-claim",
     "staking": "Staking",
@@ -10159,7 +10159,7 @@
     "reward_frequency": "Dalas ng reward",
     "reward_frequency_tooltip": "Naa-update ang naka-stake mong balanse tuwing {{frequency}} para kwentahin ang mga bagong reward.",
     "withdrawal_time": "Oras ng pag-withdraw",
-    "metamask_pool": "MetaMask Pool",
+    "metamask_pool": "PetroCASH Pool",
     "enter_amount": "Ilagay ang halaga",
     "review": "Suriin",
     "not_enough_eth": "Hindi sapat ang ETH",
@@ -10178,7 +10178,7 @@
     "got_it": "Nakuha ko",
     "your_balance": "Ang iyong balanse",
     "stake_your_eth_cta": {
-      "base": "I-stake ang ETH mo sa MetaMask Pool at kumita",
+      "base": "I-stake ang ETH mo sa PetroCASH Pool at kumita",
       "annually": "taun-taon.",
       "learn_more_with_period": "Matuto pa."
     },
@@ -10274,7 +10274,7 @@
   },
   "default_settings": {
     "title": "Handa na ang iyong wallet",
-    "description": "Ginagamit ng MetaMask ang mga default na setting upang pinakamahusay na mabalanse ang kaligtasan at dali ng paggamit. Baguhin ang mga setting na ito para maging mahigpit ang iyong pagkapribado.",
+    "description": "Ginagamit ng PetroCASH ang mga default na setting upang pinakamahusay na mabalanse ang kaligtasan at dali ng paggamit. Baguhin ang mga setting na ito para maging mahigpit ang iyong pagkapribado.",
     "learn_more_about_privacy": "Matuto pa tungkol sa pinakamahusay na mga gawain sa pagkapribado.",
     "privacy_policy": "Patakaran sa pagkapribado",
     "default_settings": "Mga default na setting",
@@ -10284,17 +10284,17 @@
     "manage_networks_body": "Gumagamit kami ng Infura bilang aming provider ng remote procedure call (RPC) para mag-alok ng pinakamaaasahan at pribadong access sa Ethereum data na aming makakaya. Maaari kang pumili ng iyong sariling RPC, ngunit tandaan na ang anumang RPC ay makakatanggap ng iyong IP address at Ethereum wallet upang gumawa ng mga transaksyon. Basahin ang aming ",
     "manage_networks_body2": " para matuto pa tungkol sa kung paano pinapangasiwaan ng Infura ang data para sa mga EVM account, para sa mga Solana account ",
     "manage_networks_body3": "mag-click dito.",
-    "functionality_body": "Nag-o-offer ang MetaMask ng mga basic na feature gaya ng mga detalye ng token at mga setting ng gas sa pamamagitan ng mga serbisyo sa internet. Kapag gumamit ka ng serbisyo sa internet, ibabahagi ang iyong IP address, sa kasong ito sa MetaMask. Tulad ito ng pagbisita mo sa anumang website. Ang MetaMask ay pansamantalang ginagamit ang datos na ito at hindi ibebenta ang iyong datos. Maaari kang gumamit ng VPN o i-off ang mga serbisyon ito, ngunit maaari itong makaapekto sa iyong karanasan sa MetaMask. Basahin ang aming ",
+    "functionality_body": "Nag-o-offer ang PetroCASH ng mga basic na feature gaya ng mga detalye ng token at mga setting ng gas sa pamamagitan ng mga serbisyo sa internet. Kapag gumamit ka ng serbisyo sa internet, ibabahagi ang iyong IP address, sa kasong ito sa PetroCASH. Tulad ito ng pagbisita mo sa anumang website. Ang PetroCASH ay pansamantalang ginagamit ang datos na ito at hindi ibebenta ang iyong datos. Maaari kang gumamit ng VPN o i-off ang mga serbisyon ito, ngunit maaari itong makaapekto sa iyong karanasan sa PetroCASH. Basahin ang aming ",
     "functionality_body2": " para matuto pa.",
     "sheet": {
       "title_off": "I-off ang basic functionality",
-      "description_off": "Ibig sabihin nito hindi mo lubos na mao-optimize ang iyong oras sa MetaMask. Ang mga batayang tampok (tulad ng mga detalye ng token, optimal na settings ng gas, at iba pa) ay hindi magiging available para sa iyo.",
+      "description_off": "Ibig sabihin nito hindi mo lubos na mao-optimize ang iyong oras sa PetroCASH. Ang mga batayang tampok (tulad ng mga detalye ng token, optimal na settings ng gas, at iba pa) ay hindi magiging available para sa iyo.",
       "description_off2": "Kapag in-off ito, madi-disable ang lahat ng feature sa loob ng",
       "description_off2_related_features1": "seguridad at pagkapribado, backup at sync",
       "description_off2_related_features1_and": "at",
       "description_off2_related_features2": "mga notipikasyon.",
       "title_on": "I-on ang basic functionality",
-      "description_on": "Para ma-optimize ang iyong oras sa MetaMask, kailangan mong i-on ang feature na ito. Ang mga basic na function (tulad ng mga detalye ng token, optimal na mga setting ng gas, mga notification at iba pa) ay mahalaga sa karanasan sa web3.",
+      "description_on": "Para ma-optimize ang iyong oras sa PetroCASH, kailangan mong i-on ang feature na ito. Ang mga basic na function (tulad ng mga detalye ng token, optimal na mga setting ng gas, mga notification at iba pa) ay mahalaga sa karanasan sa web3.",
       "checkbox_label": "Nauunawaan ko at nais kong magpatuloy",
       "buttons": {
         "cancel": "Kanselahin",
@@ -10309,7 +10309,7 @@
     "drawer_assets_desc": "I-autodetect ang mga token sa wallet mo, ipakita ang mga NFT, at kumuha ng naka-batch na mga update sa balanse ng account",
     "drawer_security_title": "Seguridad",
     "drawer_security_desc": "Bawasan ang iyong mga tsansa ng pagsali sa mga hindi ligtas na network at protektahan ang iyong mga account",
-    "network_details_check_desc": "Gumagamit ang MetaMask ng third-party na serbisyong tinatawag na chainid.network para magpakita ng tumpak at naka-standardize na mga detalye ng network. Binabawasan nito ang tsansa mong makakonekta sa mapaminsala o maling network. Kapag ginagamit ang feature na ito, nakalantad ang IP address mo sa chainid.network."
+    "network_details_check_desc": "Gumagamit ang PetroCASH ng third-party na serbisyong tinatawag na chainid.network para magpakita ng tumpak at naka-standardize na mga detalye ng network. Binabawasan nito ang tsansa mong makakonekta sa mapaminsala o maling network. Kapag ginagamit ang feature na ito, nakalantad ang IP address mo sa chainid.network."
   },
   "simulation_details": {
     "failed": "Mayroong error sa pag-load ng iyong pagtataya.",
@@ -10343,7 +10343,7 @@
     },
     "estimated_gas_fee": {
       "title": "Tinantyang bayad sa network",
-      "gas_recipient": "Ang mga bayad sa gas ay ibinabayad sa mga minero ng crypto na nagpoproseso ng mga transaksyon sa network ng Ethereum. Ang MetaMask ay hindi kumikita mula sa mga bayad sa gas.",
+      "gas_recipient": "Ang mga bayad sa gas ay ibinabayad sa mga minero ng crypto na nagpoproseso ng mga transaksyon sa network ng Ethereum. Ang PetroCASH ay hindi kumikita mula sa mga bayad sa gas.",
       "gas_fluctuation": "Ang mga bayad sa gas ay tinatantya at magbabago batay sa trapiko sa network at pagiging kumplikado ng transaksyon.",
       "gas_learn_more": "Matuto pa tungkol sa mga bayad sa network"
     },
@@ -10411,7 +10411,7 @@
       "you_receive": "Makakatanggap ka ng",
       "transaction_fee": "Bayarin sa transaksyon",
       "transaction_fees": "Mga bayad sa transaksyon",
-      "metamask_fee": "Bayad sa MetaMask",
+      "metamask_fee": "Bayad sa PetroCASH",
       "network_fee": "Bayad sa network",
       "bridge_fee": "Bayarin sa provider ng bridge",
       "provider_fee": "Bayad sa provider",
@@ -10432,7 +10432,7 @@
       "perps_withdraw": "Mag-withdraw",
       "predict_deposit": "Magdagdag ng mga pondo para sa Prediksyon",
       "predict_withdraw": "Mag-withdraw",
-      "money_account_deposit_header": "Idagdag sa MetaMask Money",
+      "money_account_deposit_header": "Idagdag sa PetroCASH Money",
       "money_account_send": "Ipadala"
     },
     "sub_title": {
@@ -10450,19 +10450,19 @@
     },
     "tooltip": {
       "perps_deposit": {
-        "transaction_fee": "Isa-swap namin ang iyong mga token para sa USDC sa HyperCore, ang network na ginagamit ng Perps. Maaaring maningil ng bayarin ang mga swap provider, ngunit hindi ang MetaMask."
+        "transaction_fee": "Isa-swap namin ang iyong mga token para sa USDC sa HyperCore, ang network na ginagamit ng Perps. Maaaring maningil ng bayarin ang mga swap provider, ngunit hindi ang PetroCASH."
       },
       "predict_deposit": {
-        "transaction_fee": "Isu-swap namin ang mga token mo para sa pUSD sa Polygon, ang network na ginamit ng Predictions. Maaaring maningil ang mga swap provider, ngunit hindi ang MetaMask."
+        "transaction_fee": "Isu-swap namin ang mga token mo para sa pUSD sa Polygon, ang network na ginamit ng Predictions. Maaaring maningil ang mga swap provider, ngunit hindi ang PetroCASH."
       },
       "perps_withdraw": {
-        "swap_to_token": "Isu-swap ng MetaMask sa token na gusto mo para sa iyo."
+        "swap_to_token": "Isu-swap ng PetroCASH sa token na gusto mo para sa iyo."
       },
       "predict_withdraw": {
-        "swap_to_token": "Isu-swap ng MetaMask sa token na gusto mo para sa iyo."
+        "swap_to_token": "Isu-swap ng PetroCASH sa token na gusto mo para sa iyo."
       },
       "musd_conversion": {
-        "transaction_fee": "Kasama sa mga bayarin sa pag-convert ng mUSD ang mga bayad sa network at posible ring kasama ang mga bayarin sa provider. Walang hihinging bayad sa MetaMask kapag nag-convert ka sa mUSD."
+        "transaction_fee": "Kasama sa mga bayarin sa pag-convert ng mUSD ang mga bayad sa network at posible ring kasama ang mga bayarin sa provider. Walang hihinging bayad sa PetroCASH kapag nag-convert ka sa mUSD."
       },
       "money_account_deposit": {
         "transaction_fee": "Kasama sa mga bayarin sa palitan ang mga gastos sa network at maaaring may kasamang bayarin sa provider."
@@ -10585,7 +10585,7 @@
     "start_trial": "Start your free trial",
     "billed_on": "Billed on",
     "disclaimer": {
-      "part1": "By clicking \"{{confirmAndPay}}\", you authorize MetaMask to charge {{monthlyAmount}}/month. Renews on {{renewDate}}. Cancel anytime. You also accept the ",
+      "part1": "By clicking \"{{confirmAndPay}}\", you authorize PetroCASH to charge {{monthlyAmount}}/month. Renews on {{renewDate}}. Cancel anytime. You also accept the ",
       "terms_of_use": "Mga Tuntunin ng Paggamit",
       "part2": " at ",
       "privacy_policy": "Patakaran sa Privacy namin",
@@ -10599,7 +10599,7 @@
     "reject": "Tanggihan ang transaksyon"
   },
   "snap_account_custom_name_approval": {
-    "title": "Idagdag ang account sa MetaMask",
+    "title": "Idagdag ang account sa PetroCASH",
     "input_title": "Pangalan ng account",
     "add_account_button": "Magdagdag ng account",
     "name_taken_message": "May ganito nang pangalan ng account"
@@ -10671,11 +10671,11 @@
         "month": "{{count}} buwan"
       },
       "est_network_fee": "Account upgrade fee",
-      "includes_metamask_fee": "Includes MetaMask fee",
+      "includes_metamask_fee": "Includes PetroCASH fee",
       "account_upgrade_fee_info_title": "Account upgrade fee",
       "account_upgrade_fee_info_body": "Upgrading to a smart account lets you execute limit orders. Like all on-chain actions, this has a small network fee.",
-      "metamask_fee_info_title": "Bayad sa MetaMask",
-      "metamask_fee_info_body": "Ang karaniwang bayad sa MetaMask ay {{feePercentage}}%. Maaaring kwalipikado ka sa diskwento sa bayad o mga rebate, kaya kinakalkula namin ang iyong panghuling babayaran kapag isinasagawa na ang order.",
+      "metamask_fee_info_title": "Bayad sa PetroCASH",
+      "metamask_fee_info_body": "Ang karaniwang bayad sa PetroCASH ay {{feePercentage}}%. Maaaring kwalipikado ka sa diskwento sa bayad o mga rebate, kaya kinakalkula namin ang iyong panghuling babayaran kapag isinasagawa na ang order.",
       "metamask_fee_info_learn_more": "Matuto pa.",
       "create_order": "Gawin ang Order",
       "min_order_amount": "Min. order amount is ${{amount}}",
@@ -10853,7 +10853,7 @@
     "batch_sell_token_count": "{{tokenCount}} (na) token",
     "batch_sell_toggle_you_sell": "I-toggle ang mga detalye ng token",
     "batch_sell_sell_all": "Ibenta lahat",
-    "batch_sell_includes_metamask_fee": "Kabilang ang {{fee}}% na bayad sa MetaMask",
+    "batch_sell_includes_metamask_fee": "Kabilang ang {{fee}}% na bayad sa PetroCASH",
     "batch_sell_customize_token": "I-customize {{tokenSymbol}}",
     "batch_sell_remove_token": "Alisin ang {{tokenSymbol}}",
     "batch_sell_checkbox_label": "Ibenta nang Naka-batch ang token",
@@ -10880,7 +10880,7 @@
     "slippage_info": "Kung magbabago ang presyo sa pagitan ng oras ng paglalagay mo ng order at sa oras na nakumpirma ito, tinatawag itong “slippage”. Awtomatikong makakansela ang iyong pag-swap kung lalampas ang slippage sa katanggap-tanggap na itinakda mo rito.",
     "network_fee": "Bayad sa network",
     "relayer_fee": "Bayad sa relayer",
-    "gas_fees_sponsored": "Binayaran ng MetaMask",
+    "gas_fees_sponsored": "Binayaran ng PetroCASH",
     "included": "Kasama na",
     "estimated_time": "Tinatayang oras",
     "quote": "Quote",
@@ -10888,17 +10888,17 @@
     "quote_details": "Mga detalye ng quote",
     "price_impact": "Epekto ng presyo",
     "time": "Oras",
-    "quote_info_content": "Ang pinakamagandang rate na nakita namin mula sa mga provider, kabilang ang bayad sa provider at isang 0.875% na bayad sa MetaMask.",
+    "quote_info_content": "Ang pinakamagandang rate na nakita namin mula sa mga provider, kabilang ang bayad sa provider at isang 0.875% na bayad sa PetroCASH.",
     "quote_info_title": "Rate",
     "network_fee_info_title": "Bayad sa network",
     "network_fee_info_content": "Nagbabago ang bayad sa network depende kung gaano karami ang gumagamit at kung gaano kahirap ang transaksyon mo.",
     "network_fee_info_content_gasless": "Kapag wala kang sapat na native token, gagamit ka ng mga token para sa bayarin sa swap mo.",
     "gas_fee_deduction": "-{{fee}} para sa gas",
     "batch_sell_network_fee_info_content": "Nakadepende ang mga bayarin sa network sa kung gaano kaabala ang network at kung gaano kakumplikado ang transaksyon mo. Kung wala kang sapat na balanse para sa bayarin, kukunin namin ang bayad sa token kung saan ka nagko-convert.",
-    "network_fee_info_content_sponsored": "Ang bayarin sa network na ito ay binabayaran ng MetaMask, kaya maaari kang makipagtransaksyon nang walang {{nativeToken}} sa iyong account.",
+    "network_fee_info_content_sponsored": "Ang bayarin sa network na ito ay binabayaran ng PetroCASH, kaya maaari kang makipagtransaksyon nang walang {{nativeToken}} sa iyong account.",
     "points": "Tinatayang mga point",
     "points_tooltip": "Mga Point",
-    "points_tooltip_content_1": "Ang Mga Puntos ay kung paano ka nakakakuha ng mga Reward sa MetaMask para sa pagkumpleto ng mga transaksyon, gaya ng kapag nagsu-swap, nagbi-bridge, o nagti-trade ka ng perps.",
+    "points_tooltip_content_1": "Ang Mga Puntos ay kung paano ka nakakakuha ng mga Reward sa PetroCASH para sa pagkumpleto ng mga transaksyon, gaya ng kapag nagsu-swap, nagbi-bridge, o nagti-trade ka ng perps.",
     "points_tooltip_content_2": "Tandaan na ang halagang ito ay isang pagtatantya lamang at magiging pinal lamang kapag natapos na ang transaksyon. Maaaring umabot ng hanggang 1 oras bago makumpirma ang mga point sa iyong balanse ng mga Reward.",
     "unable_to_load": "Hindi mai-load",
     "points_error": "Hindi namin mai-load ang mga point sa ngayon",
@@ -10924,15 +10924,15 @@
     "fetching_quote": "Kumukuha ng quote",
     "fee_includes": "Kabilang ang",
     "fee_percentage": "{{feePercentage}}%",
-    "fee_percentage_meta_mask": "{{feePercentage}}% bayad sa MetaMask",
+    "fee_percentage_meta_mask": "{{feePercentage}}% bayad sa PetroCASH",
     "no_fees_with_orange": "No fees with Orange",
-    "fee_disclaimer": "Kabilang ang {{feePercentage}}% na bayad sa MetaMask",
+    "fee_disclaimer": "Kabilang ang {{feePercentage}}% na bayad sa PetroCASH",
     "discount_badge_promo": "Promo",
     "discount_badge_dao": "DAO",
     "no_mm_fee": "Walang bayad sa MM",
     "token_suspicious": "Kahina-hinala",
     "token_malicious": "Mapaminsala",
-    "no_mm_fee_disclaimer": "Walang bayad sa MetaMask na isu-swap sa {{destTokenSymbol}}.",
+    "no_mm_fee_disclaimer": "Walang bayad sa PetroCASH na isu-swap sa {{destTokenSymbol}}.",
     "hardware_wallet_not_supported": "Hindi pa sinusuportahan ang mga wallet na hardware. Gumamit ng hot wallet para magpatuloy.",
     "hardware_wallet_not_supported_solana": "Hindi pa sinusuportahan ang mga wallet na hardware sa Solana. Gumamit ng hot wallet para magpatuloy.",
     "hardware_wallet_progress": {
@@ -10966,8 +10966,8 @@
       "qr_display_step_text": "Hakbang {{current}} ng {{total}}: I-scan ang QR code gamit ang wallet mo"
     },
     "price_impact_info_title": "Epekto ng presyo",
-    "price_impact_info_description": "Ganito binabago ng mga trade mo ang market price ng isang token. Depende ito sa laki ng trade, available na liquidity, at mga bayarin sa provider. Hindi kontrolado ng MetaMask ang epekto sa presyo.",
-    "price_impact_info_gasless_description": "Ipinapakita ng epekto sa presyo kung paano naaapektuhan ng iyong swap order ang market price ng asset. Kung wala kang sapat na pondo para sa gas, awtomatikong ilalaan ang isang bahagi ng source token mo para sa mga bayarin, na magdaragdag sa epekto ng presyo. Walang impluwensya o kontrol ang MetaMask sa epekto sa presyo.",
+    "price_impact_info_description": "Ganito binabago ng mga trade mo ang market price ng isang token. Depende ito sa laki ng trade, available na liquidity, at mga bayarin sa provider. Hindi kontrolado ng PetroCASH ang epekto sa presyo.",
+    "price_impact_info_gasless_description": "Ipinapakita ng epekto sa presyo kung paano naaapektuhan ng iyong swap order ang market price ng asset. Kung wala kang sapat na pondo para sa gas, awtomatikong ilalaan ang isang bahagi ng source token mo para sa mga bayarin, na magdaragdag sa epekto ng presyo. Walang impluwensya o kontrol ang PetroCASH sa epekto sa presyo.",
     "price_impact_warning_description": "Dahil sa laki ng trade mo at available na liquidity, makakakuha ka ng mga {{priceImpact}} na mas mababa sa market price. Sinukat na ito sa quote mo.",
     "price_impact_high": "Matinding epekto sa presyo",
     "price_impact_execution_description": "Mawawalan ka ng tinatayang {{priceImpact}} ng halaga ng token mo sa swap na ito. Subukang ibaba ang halaga o pumili ng mas liquid na ruta.",
@@ -11108,7 +11108,7 @@
     "unable_to_login_description": "Hindi maganda ang iyong koneksyon sa internet. Suriin ang iyong koneksyon at subukang muli.",
     "something_went_wrong_title": "Mayroong nang mali",
     "something_went_wrong_description": "Nagkaroon ng error habang nagla-log in. Subukang muli at kung magpapatuloy ang isyu, makipag-ugnayan sa",
-    "support_button": "Suporta ng MetaMask.",
+    "support_button": "Suporta ng PetroCASH.",
     "error_button": "Subukang muli",
     "user_cancelled_title": "Nakansela ang login",
     "user_cancelled_description": "Kinansela mo ang proseso ng pag-log in.\nSubukang muli kapag handa ka na.",
@@ -11117,36 +11117,36 @@
     "google_login_no_credential_description": "Hindi kami makahanap ng Google account na nauugnay sa login na ito. Subukang muli gamit ang ibang paraan ng pag-log in.",
     "google_login_no_credential_button": "Subukang muli",
     "oauth_error_title": "Pumalya ang pag-log in",
-    "oauth_error_description": "Nagkaroon ng error habang nagla-log in.\nSubukang muli at kung magpapatuloy ang isyu, makipag-ugnayan sa Suporta ng MetaMask.",
+    "oauth_error_description": "Nagkaroon ng error habang nagla-log in.\nSubukang muli at kung magpapatuloy ang isyu, makipag-ugnayan sa Suporta ng PetroCASH.",
     "oauth_error_button": "Subukang muli",
     "no_internet_connection_title": "Hindi makakonekta",
     "no_internet_connection_description": "Hindi maganda ang iyong koneksyon sa internet. Suriin ang iyong koneksyon at subukang muli.",
     "no_internet_connection_button": "Subukang muli",
     "ios_need_update_title": "kinakailangan ng update sa iOS",
-    "ios_need_update_description": "Kakailanganin na sa susunod ang MetaMask Google Sign-In ",
+    "ios_need_update_description": "Kakailanganin na sa susunod ang PetroCASH Google Sign-In ",
     "ios_need_update_description_version": "iOS 17.4 o mas luma",
     "ios_need_update_description_end": ". Maaari mong ipagpatuloy ang paggamit ng Google Sign-In sa device na ito sa ngayon, ngunit hindi na suportado sa paparating na update.",
-    "ios_need_update_description2": "Maaari mo pa ring mag-access ang wallet mo gamit ang parehong Google account sa suportadong device o MetaMask extension. Ipinapayo rin namin na i-back up ang iyong Secret Recovery Phrase kung magpapatuloy ka nang hindi ina-update ang iOS.",
+    "ios_need_update_description2": "Maaari mo pa ring mag-access ang wallet mo gamit ang parehong Google account sa suportadong device o PetroCASH extension. Ipinapayo rin namin na i-back up ang iyong Secret Recovery Phrase kung magpapatuloy ka nang hindi ina-update ang iOS.",
     "ios_need_update_button": "Magpatuloy",
     "ios_need_update_reminder_title": "kinakailangan ng update sa iOS",
-    "ios_need_update_reminder_description": "Kakailanganin na sa susunod ang MetaMask Google Sign-In ",
+    "ios_need_update_reminder_description": "Kakailanganin na sa susunod ang PetroCASH Google Sign-In ",
     "ios_need_update_reminder_description_version": "iOS 17.4 o mas luma",
     "ios_need_update_reminder_description_end": ". Maaari mong ipagpatuloy ang paggamit ng Google Sign-In sa device na ito sa ngayon, ngunit hindi na suportado sa paparating na update.",
-    "ios_need_update_reminder_description_2": "Maaari mo pa ring mag-access ang wallet mo gamit ang parehong Google account sa suportadong device o MetaMask extension. Lubos naming inirerekomenda na i-back up ang iyong Lihim na Parirala sa Pagbawi.",
+    "ios_need_update_reminder_description_2": "Maaari mo pa ring mag-access ang wallet mo gamit ang parehong Google account sa suportadong device o PetroCASH extension. Lubos naming inirerekomenda na i-back up ang iyong Lihim na Parirala sa Pagbawi.",
     "ios_need_update_reminder_button": "Nakuha ko",
     "ios_google_login_unsupported_error_title": "Hindi na sinusuportahan ang Pag-sign in gamit ang Google sa bersyong ito ng iOS",
-    "ios_google_login_unsupported_error_description": "Kakailanganin na ngayon sa Pag-sign in gamit ang Google sa MetaMask na ",
+    "ios_google_login_unsupported_error_description": "Kakailanganin na ngayon sa Pag-sign in gamit ang Google sa PetroCASH na ",
     "ios_google_login_unsupported_error_description_2": ". Hindi maaapektuhan ang kasalukuyan mong sesyon, pero kung naka-sign out ka, hindi ka na makakapag-sign in ulit gamit ang Google sa device na ito.",
     "ios_google_login_unsupported_error_description_3": "Para maiwasang mawalan ng access sa wallet mo:",
     "ios_google_login_unsupported_error_description_4": "I-update ang iPhone mo sa ",
     "ios_google_login_unsupported_error_description_5": "O i-back up ang Lihim na Parirala sa Pagbawi mo para maibalik mo ang iyong wallet anumang oras",
     "ios_google_login_unsupported_error_button": "Nakuha ko",
     "ios_google_login_unsupported_blocking_title": "I-update ang iOS para gumawa ng wallet sa Google",
-    "ios_google_login_unsupported_blocking_description": "Kinakailangan ng iOS 17.4 o mas bago para sa Pag-sign In sa MetaMask ng Google. I-update ang iyong iPhone para ipagpatuloy ang paggawa ng wallet sa Google.",
+    "ios_google_login_unsupported_blocking_description": "Kinakailangan ng iOS 17.4 o mas bago para sa Pag-sign In sa PetroCASH ng Google. I-update ang iyong iPhone para ipagpatuloy ang paggawa ng wallet sa Google.",
     "ios_google_login_unsupported_blocking_description_2": "Bilang kahalili, maaari ka ring gumawa na lang ng wallet gamit ang Secret Recovery Phrase.",
     "ios_google_login_unsupported_blocking_button": "Isara",
     "ios_google_login_unsupported_blocking_rehydration_title": "Hindi available ang Google Sign-In sa bersyon ng iOS na ito",
-    "ios_google_login_unsupported_blocking_rehydration_description": "Kinakailangan ng iOS 17.4 o mas bago ang Pag-sign In sa MetaMask ng Google. Ang iyong wallet at mga pondo ay ligtas.",
+    "ios_google_login_unsupported_blocking_rehydration_description": "Kinakailangan ng iOS 17.4 o mas bago ang Pag-sign In sa PetroCASH ng Google. Ang iyong wallet at mga pondo ay ligtas.",
     "ios_google_login_unsupported_blocking_rehydration_description_2": "I-update ang iyong iPhone sa iOS 17.4 o mas bago para patuloy na magamit ang Google Sign-In.",
     "ios_google_login_unsupported_blocking_rehydration_description_3": "Hindi ma-update? Maaari mo pa ring i-access ang iyong wallet sa pamamagitan ng pag-sign in sa ibang device gamit ang parehong Google login at password o pag-import sa iyong Secret Recovery Phrase.",
     "ios_google_login_unsupported_blocking_rehydration_button": "Isara"
@@ -11170,7 +11170,7 @@
     "reveal": "Ipakita",
     "social_recovery_title": "PAGBAWI SA {{authConnection}}",
     "social_recovery_enable": "Pinagana",
-    "social_login_description": "Gamitin ang iyong {{authConnection}} login at MetaMask password para mabai ang iyong account at Mga Lihim na Parirala sa Pagbawi (Secret Recovery Phrases).",
+    "social_login_description": "Gamitin ang iyong {{authConnection}} login at PetroCASH password para mabai ang iyong account at Mga Lihim na Parirala sa Pagbawi (Secret Recovery Phrases).",
     "srps_title": "Mga Secret Recovery Phrase",
     "srps_description": "Pinakaprotektado ang iyong wallet kapag naka-set up ang dalawang paraan ng pagbawi. Kapag hindi gumana ang isa, matutulungan ka ng isa pa na mabawi ang iyong wallet."
   },
@@ -11182,7 +11182,7 @@
     "enable": {
       "title": "I-on ang backup at sync",
       "confirmation": "Kapag in-on mo ang backup at sync, mao-on din ang basic functionality. Gusto mo bang magpatuloy?",
-      "description": "Sa mag-back up at mag-sync, maso-store namin ang naka-encrypt na data para sa mga custom na setting at feature mo. Pinapanatili nitong pareho ang karanasan mo sa MetaMask sa lahat ng device at ibinabalik ang mga setting at feature kung kailangan mong i-install muli ang MetaMask. Hindi nito naiba-back up ang iyong Secret Secovery Phrase.",
+      "description": "Sa mag-back up at mag-sync, maso-store namin ang naka-encrypt na data para sa mga custom na setting at feature mo. Pinapanatili nitong pareho ang karanasan mo sa PetroCASH sa lahat ng device at ibinabalik ang mga setting at feature kung kailangan mong i-install muli ang PetroCASH. Hindi nito naiba-back up ang iyong Secret Secovery Phrase.",
       "updatePreferences": "Puwede mong i-update ang mga kagustuhan mo anumang oras sa",
       "settingsPath": "Mga Setting > I-backup at i-sync."
     },
@@ -11222,9 +11222,9 @@
     "intro": {
       "title": "Ipinakikilala ang mga account na multichain",
       "section_1_title": "Ano ang mga account na multichain?",
-      "section_1_description": "Isang account lang, may mga address sa lahat ng network na sinusuportahan ng MetaMask. Kaya ngayon, maaari mong gamitin ang Ethereum, Solana, at iba pa nang hindi kailangang magpalit ng account.",
+      "section_1_description": "Isang account lang, may mga address sa lahat ng network na sinusuportahan ng PetroCASH. Kaya ngayon, maaari mong gamitin ang Ethereum, Solana, at iba pa nang hindi kailangang magpalit ng account.",
       "section_2_title": "Parehong address, mas maraming network",
-      "section_2_description": "Pinaggrupo na namin ang iyong mga account, kaya magpatuloy lang gamitin ang MetaMask gaya ng dati. Ligtas at hindi nagbago ang iyong mga pondo.",
+      "section_2_description": "Pinaggrupo na namin ang iyong mga account, kaya magpatuloy lang gamitin ang PetroCASH gaya ng dati. Ligtas at hindi nagbago ang iyong mga pondo.",
       "view_accounts_button": "Tingnan ang mga account",
       "learn_more_button": "Matuto pa",
       "setting_up_accounts": "Sinet-set up ang iyong mga account"
@@ -11241,7 +11241,7 @@
     "add_wallet_hardware_description": "Paggamit ng Bluetooth o QR code",
     "add_hardware_wallet": "Magdagdag ng wallet na hardware",
     "syncing": "Sini-sync",
-    "link_metamask_extension": "I-import mula sa MetaMask extension",
+    "link_metamask_extension": "I-import mula sa PetroCASH extension",
     "link_metamask_extension_description": "Mag-scan ng QR code para idagdag ang mga account mo",
     "account_details": {
       "header_title": "Mga detalye ng account",
@@ -11306,7 +11306,7 @@
     },
     "delete_account": {
       "title": "Alisin ang account",
-      "warning_title": "Ang account na ito ay aalisin mula sa MetaMask.",
+      "warning_title": "Ang account na ito ay aalisin mula sa PetroCASH.",
       "warning_description": "Tiyaking mayroon kang Lihim na Parirala sa Pagbawi (Secret Recovery Phrase) o pribadong key para sa account na ito bago alisin.",
       "remove_button": "Alisin",
       "cancel_button": "Kanselahin",
@@ -11362,24 +11362,24 @@
   },
   "deep_link_modal": {
     "private_link": {
-      "title": "Inire-redirect ka sa MetaMask",
+      "title": "Inire-redirect ka sa PetroCASH",
       "description": "Bubuksan mo ang {{pageTitle}} kapag nagpatuloy ka.",
       "checkbox_label": "Huwag ng ipaalala muli sa akin"
     },
     "public_link": {
       "title": "Magpatuloy nang may pag-iingat",
-      "description": "Ipinadala ka rito ng third party, hindi ng MetaMask. Bubuksan mo ang {{pageTitle}} kapag nagpatuloy ka."
+      "description": "Ipinadala ka rito ng third party, hindi ng PetroCASH. Bubuksan mo ang {{pageTitle}} kapag nagpatuloy ka."
     },
     "invalid": {
       "title": "Hindi umiiral ang pahinang ito",
       "description": "Hindi namin makita ang pahinang hinahanap mo.",
-      "update_to_store_link": "I-update ang pinakabagong bersyon ng MetaMask",
+      "update_to_store_link": "I-update ang pinakabagong bersyon ng PetroCASH",
       "well_take_you_to_right_place": " at dadalhin ka namin sa tamang lugar."
     },
     "unsupported": {
       "title": "Hindi suportado ang page na ito ng kasalukuyang bersyon",
       "description": "I-update sa pinakabagong bersyon upang magamit ang feature na ito",
-      "update_to_store_link": "I-update ang pinakabagong bersyon ng MetaMask",
+      "update_to_store_link": "I-update ang pinakabagong bersyon ng PetroCASH",
       "well_take_you_to_right_place": " at dadalhin ka namin sa tamang lugar."
     },
     "go_to_home_button": "Pumunta sa home page",
@@ -11387,9 +11387,9 @@
     "continue_button": "Magpatuloy"
   },
   "card": {
-    "card": "MetaMask Card",
-    "card_button_enabled_toast": "Puwede ka na ngayong mag-sign up para sa MetaMask Card!",
-    "card_button_already_enabled_toast": "May naka-link nang MetaMask Card sa account na ito.",
+    "card": "Card",
+    "card_button_enabled_toast": "Puwede ka na ngayong mag-sign up para sa Card!",
+    "card_button_already_enabled_toast": "May naka-link nang Card sa account na ito.",
     "add_funds_bottomsheet": {
       "deposit": "Pondohan ng cash",
       "deposit_description": "Mababang bayad sa card o bank transfer",
@@ -11480,7 +11480,7 @@
       "got_it": "Nakuha ko"
     },
     "uk_migration_bottom_sheet": {
-      "title": "I-update ang MetaMask Card mo",
+      "title": "I-update ang Card mo",
       "description": "Lumipat kami sa bagong card provider. Para patuloy na makapagpadala nang walang antala, kumpletuhin ang mga hakbang na ito bago mag-{{deadline}}.",
       "description_no_deadline": "Lumipat kami sa bagong card provider. Para patuloy na gumastos nang walang antala, kumpletuhin ang mga hakbang na ito.",
       "steps": {
@@ -11492,14 +11492,14 @@
       "remind_me_later": "Paalalahanan ako mamaya"
     },
     "uk_migration_soft": {
-      "title": "I-update ang MetaMask Card mo",
+      "title": "I-update ang Card mo",
       "description": "Mag-set up bago lumipas ang {{deadline}} para maiwasan ang mga pagkaantala.",
       "description_no_deadline": "I-set up ang card mo para maiwasan ang mga pagkaantala.",
       "confirm_button_label": "I-set up ang card"
     },
     "uk_migration_required": {
       "title": "Kinakailangan ang pag-update para magpatuloy",
-      "description": "Kumpletuhin ang pag-update ng MetaMask Card mo para patuloy na magamit ang card mo.",
+      "description": "Kumpletuhin ang pag-update ng Card mo para patuloy na magamit ang card mo.",
       "confirm_button_label": "I-update na"
     },
     "daimo_pay_modal": {
@@ -11511,18 +11511,18 @@
     },
     "card_onboarding": {
       "title": "Gumastos at kumita",
-      "description": "Ang MetaMask Card ang mabilis at madaling paraan para gastusin ang crypto mo at kumita ng 3% mUSD pabalik.",
+      "description": "Ang Card ang mabilis at madaling paraan para gastusin ang crypto mo at kumita ng 3% mUSD pabalik.",
       "apply_now_button": "I-set up ngayon",
       "login_button": "Mag-log in",
       "not_now_button": "Hindi sa ngayon",
       "sign_up": {
-        "title": "I-set up ang MetaMask Card mo",
+        "title": "I-set up ang Card mo",
         "description": "Kailangan namin ng ilang detalye para maihanda ang card mo.",
-        "i_already_have_an_account": "Mayroon na akong MetaMask Card",
-        "i_already_have_an_account_immersve": "Mayroon na akong MetaMask Card",
+        "i_already_have_an_account": "Mayroon na akong Card",
+        "i_already_have_an_account_immersve": "Mayroon na akong Card",
         "email_label": "Email",
-        "password_label": "Bagong password para sa MetaMask Card",
-        "password_description": "Iba sa password mo para i-unlock ang MetaMask app. Dapat na hindi bababa sa 15 karakter ang haba.",
+        "password_label": "Bagong password para sa Card",
+        "password_description": "Iba sa password mo para i-unlock ang PetroCASH app. Dapat na hindi bababa sa 15 karakter ang haba.",
         "country_label": "Bansang tinitirhan",
         "country_placeholder": "Piliin ang bansa mo",
         "invalid_email": "Di-wastong email address",
@@ -11531,7 +11531,7 @@
         "country_not_available": "Hindi pa available ang card sign-up sa iyong bansa.",
         "account_label": "Account",
         "account_label_immersve": "Account para sa paggastos",
-        "account_description": "Ang iyong MetaMask Card ay maiuugnay sa account na ito.",
+        "account_description": "Ang iyong Card ay maiuugnay sa account na ito.",
         "account_description_immersve": "Manggagaling sa account na ito ang mga pagbili ng Card.",
         "phone_number_label_immersve": "Numero ng telepono",
         "account_exists_toast": "Mayroon ka ng card account.",
@@ -11568,7 +11568,7 @@
       "verify_identity": {
         "title": "I-verify ang pagkakakilanlan mo",
         "description": "Gumagamit ang aming partner na Crypto Life ng serbisyong tinatawag na Veriff para panatilihing ligtas ang account mo. ",
-        "terms_1_title": "MetaMask never sees your info",
+        "terms_1_title": "PetroCASH never sees your info",
         "terms_1_description": "It goes straight to Veriff and Crypto Life.",
         "terms_2_title": "Have your ID and proof of address ready",
         "terms_2_description": "This usually takes 5 minutes.",
@@ -11620,14 +11620,14 @@
       },
       "immersve_funding_approval": {
         "title": "I-set up ang pagpopondo sa card",
-        "description": "Aprubahan ang MetaMask Card na gamitin ang iyong USDC sa Base para sa mga pagbili.",
-        "money_account_description": "Approve MetaMask Card to use your Money account for purchases.",
+        "description": "Aprubahan ang Card na gamitin ang iyong USDC sa Base para sa mga pagbili.",
+        "money_account_description": "Approve Card to use your Money account for purchases.",
         "helper_text": "Karaniwan itong tumatagal nang ilang segundo. Huwag isara ang app.",
         "confirm_button": "Aprubahan ang pagpopondo",
         "retry_button": "Subukang muli",
         "reapprove": {
           "title": "I-set up ang pagpopondo sa card",
-          "description": "Aprubahan na gamitin ulit ng MetaMask Card ang USDC mo sa Base para maipagpatuloy mo ang paggastos.",
+          "description": "Aprubahan na gamitin ulit ng Card ang USDC mo sa Base para maipagpatuloy mo ang paggastos.",
           "confirm_button": "Aprubahan ang pagpopondo"
         },
         "token_value": "USDC on Base"
@@ -11636,7 +11636,7 @@
         "title": "Bini-verify ang iyong pagkakakilanlan",
         "description": "Sinusubukan kang i-verify ng Crypto Life. Tatagal ito nang hindi lalampas sa 30 segundo.",
         "verified_title": "Naaprubahan!",
-        "verified_description": "Naaprubahan ang KYC mo. Maaari mo na ngayong gamitin ang MetaMask Card mo.",
+        "verified_description": "Naaprubahan ang KYC mo. Maaari mo na ngayong gamitin ang Card mo.",
         "continue_button": "Magpatuloy",
         "timeout_title": "Kasalukuyan ang pag-verify",
         "timeout_description": "Tatagal nang 12 oras ang pag-verify sa iyo. Bumalik sa seksyon ng Card sa oras na iyon o makipag-ugnayan sa suporta sa\n{{email}}\npara sa tulong.",
@@ -11649,7 +11649,7 @@
         "success_toast": "Na-verify ang ID mo!"
       },
       "kyc_failed": {
-        "title": "Hindi ka kwalipikado para sa MetaMask Card sa ngayon",
+        "title": "Hindi ka kwalipikado para sa Card sa ngayon",
         "description": "Tinukoy ang pagiging kwalipikado ng regulasyon ng aming partner at mga pagsusuri sa pagbi-verify.",
         "close_button": "Bumalik sa home"
       },
@@ -11699,7 +11699,7 @@
       },
       "complete": {
         "title": "Na-verify ka na",
-        "description": "Tapusin ang pag-set up sa iyong MetaMask card para masimulan mo na ang paggastos sa crypto mo.",
+        "description": "Tapusin ang pag-set up sa iyong card para masimulan mo na ang paggastos sa crypto mo.",
         "confirm_button": "Tapusin ang pag-setup"
       },
       "account_exists": {
@@ -11762,7 +11762,7 @@
       "spending_limit_available": "available",
       "contact_support": "Kontakin ang suporta",
       "logout_confirmation_title": "I-log out ang Card?",
-      "logout_confirmation_message": "Sigurado ka bang gusto mong mag-log out sa MetaMask Card account mo?",
+      "logout_confirmation_message": "Sigurado ka bang gusto mong mag-log out sa Card account mo?",
       "logout_confirmation_cancel": "Kanselahin",
       "logout_confirmation_confirm": "Mag-log out",
       "enable_card_error": "Hindi napagana ang card. Subukan muli mamaya.",
@@ -11858,7 +11858,7 @@
         "unlink_money_account_description": "Palitan ang pinagmumulan ng pondo ng iyong Card",
         "unlink_funding_account": "I-unlink ang card",
         "unlink_funding_account_description": "Hadlangan ang mga pagbili sa hinaharap mula sa {{accountName}}",
-        "travel_title": "MetaMask Travel",
+        "travel_title": "PetroCASH Travel",
         "travel_description": "Mag-book ng mga hotel na may hanggang 70% diskuwento",
         "card_tos_title": "Mga tuntunin at kundisyon",
         "legal_docs_error": "Hindi makapag-load ng mga legal na dokumento.",
@@ -11896,19 +11896,19 @@
     },
     "digital_wallet_instructions": {
       "title": "Magdagdag ng card sa digital wallet",
-      "description": "Ihayag ang mga detalye ng MetaMask Card mo sa ibaba, saka sundan ang mga hakbang para idagdag ang card mo nang manu-mano.",
+      "description": "Ihayag ang mga detalye ng Card mo sa ibaba, saka sundan ang mga hakbang para idagdag ang card mo nang manu-mano.",
       "apple_wallet": "Apple Wallet",
       "google_wallet": "Google Wallet",
       "steps": {
         "apple": {
           "open_wallet": "Buksan ang Apple Wallet at i-tap ang plus button.",
           "choose_card": "Piliin ang Debit o Credit Card, saka piliing ilagay ang mga detalye ng card nang manu-mano.",
-          "enter_details": "Ilagay ang mga detalye ng MetaMask Card at sundan ang mga prompt para matapos ang pagdaragdag ng card mo."
+          "enter_details": "Ilagay ang mga detalye ng Card at sundan ang mga prompt para matapos ang pagdaragdag ng card mo."
         },
         "google": {
           "open_wallet": "Buksan ang Google Wallet at i-tap ang Idagdag sa Wallet.",
           "choose_card": "Piliin ang card ng pagbabayad, saka piliin ang Bagong credit o debit card.",
-          "enter_details": "Ilagay ang mga detalye ng MetaMask Card nang manu-mano at sundan ang mga prompt para matapos ang pagdaragdag ng card mo."
+          "enter_details": "Ilagay ang mga detalye ng Card nang manu-mano at sundan ang mga prompt para matapos ang pagdaragdag ng card mo."
         }
       }
     },
@@ -12096,7 +12096,7 @@
       "update_error": "Hindi na-update ang prayoridad sa paggastos"
     },
     "card_authentication": {
-      "title": "Mag-sign in sa MetaMask Card",
+      "title": "Mag-sign in sa Card",
       "title_resume": "Tapos ng i-update ang iyong card",
       "description": "Tingnan ang balanse at mga transaksyon mo, at pamahalaan ang mga setting ng card mo.",
       "description_resolving": "Sinusuri kung paano na-set up ang iyong card.",
@@ -12130,7 +12130,7 @@
       "fork_email_title": "Magpatuloy gamit ang email",
       "fork_email_body": "Gamitin ito kapag nag-sign in ka gamit ang email address at password.",
       "fork_wallet_title": "Magpatuloy gamit ang iyong wallet",
-      "fork_wallet_body": "Gamitin ito kung nag-set up ka ng iyong card gamit ang MetaMask account at walang password.",
+      "fork_wallet_body": "Gamitin ito kung nag-set up ka ng iyong card gamit ang PetroCASH account at walang password.",
       "fork_not_sure": "Hindi sigurado kung alin?",
       "fork_try_again": "Subukang muli",
       "fork_email_back": "Nagsa-sign in gamit ang email",
@@ -12159,7 +12159,7 @@
       "sign_in_help_email_title": "Gumawa ka ng password",
       "sign_in_help_email_body": "Mag-sign in gamit ang email. Ililipat na ang mga UK card sa bagong setup, kaya tuturuan ka naming lumipat kapag naka-sign in ka na.",
       "sign_in_help_wallet_title": "Hindi ka gumawa ng password, o nakalipat ka na",
-      "sign_in_help_wallet_body": "Mag-sign in gamit ang iyong wallet. Aaprubahan mo ang kahilingan sa MetaMask sa halip na mag-type ng kahit ano.",
+      "sign_in_help_wallet_body": "Mag-sign in gamit ang iyong wallet. Aaprubahan mo ang kahilingan sa PetroCASH sa halip na mag-type ng kahit ano.",
       "sign_in_help_footer": "Hinihingi lang namin ito kapag hindi namin masuri kung paano na-set up ang iyong card. Hindi ka mala-lock out kung mali ang napili mo.",
       "sign_in_help_got_it": "Nakuha ko",
       "errors": {
@@ -12220,7 +12220,7 @@
       "resend_cooldown": "Ipadala muli ang available sa pagkalipas ng {{seconds}} segundo"
     },
     "apple_pay_splash": {
-      "title": "MetaMask gamit ang Apple Pay",
+      "title": "PetroCASH gamit ang Apple Pay",
       "description": "Ang Apple Pay ay madali, ligtas, at pribadong paraan para magbayad gamit ang iPhone at Apple Watch mo.",
       "no_downloads": "Wala nang pag-download ng app, pag-sign up, o bayarin.",
       "setup": "Makapag-set up sa ilang segundo lang.",
@@ -12249,7 +12249,7 @@
       "wallet_not_available": "Hindi available ang {{walletName}}",
       "already_in_wallet": "Nasa {{walletName}} na",
       "success_title": "Naidagdag ang card!",
-      "success_message": "Ang MetaMask Card mo ay naidagdag sa {{walletName}}.",
+      "success_message": "Ang Card mo ay naidagdag sa {{walletName}}.",
       "error_title": "Hindi makapagdagdag ng card",
       "error_wallet_not_available": "Hindi available ang {{walletName}} sa device na ito. Tiyakin na nai-set up mo ang {{walletName}}.",
       "error_wallet_not_initialized": "Hindi nasimulan ang {{walletName}}. I-set up ang wallet mo at subukan muli.",
@@ -12281,7 +12281,7 @@
   },
   "onboarding_error_fallback": {
     "title": "May naganap na error",
-    "description": "Padalhan kami ng ulat sa error para makatulong na maayos ang problema at mapahusay ang MetaMask. Kumpidensyal ito at hindi ka makikilala.",
+    "description": "Padalhan kami ng ulat sa error para makatulong na maayos ang problema at mapahusay ang PetroCASH. Kumpidensyal ito at hindi ka makikilala.",
     "recovery_warning": "Kung paulit-ulit mong nararanasan ang error na ito, i-save ang iyong Lihim na Parirala sa Pagbawi ( Secret Recovery Phrase) at i-install ulit ang app. Tandaan: kung wala ang iyong Lihim na Parirala sa Pagbawi, hindi mo maibabalik ang iyong wallet.",
     "error_message_report": "Ulat sa error:",
     "copy": "Kopyahin",
@@ -12305,11 +12305,11 @@
     "rebate": {
       "banner": "Makakakuha ka ng {{percent}}% balik sa mga bayarin",
       "tooltip_title": "Mga Reward sa Pagti-trade",
-      "tooltip_content": "Makakakuha ng balik na {{percent}}% mula sa bayad sa MetaMask sa trade na ito bilang reward, ibinibigay na mUSD sa iyong Money account. Hindi kasama ang bayarin sa network. Tingnan ang tab ng Mga Reward para sa detalye."
+      "tooltip_content": "Makakakuha ng balik na {{percent}}% mula sa bayad sa PetroCASH sa trade na ito bilang reward, ibinibigay na mUSD sa iyong Money account. Hindi kasama ang bayarin sa network. Tingnan ang tab ng Mga Reward para sa detalye."
     },
     "auth_fail_title": "Hindi kilalang error.",
-    "auth_fail_description": "May naganap na hindi nakikilalang error habang ina-authenticate ang account na ito gamit ang mga Reward ng MetaMask. Pakisubukang muli mamaya.",
-    "failed_to_authenticate": "Nabigong ma-authenticate gamit ang programa ng mga Reward ng MetaMask",
+    "auth_fail_description": "May naganap na hindi nakikilalang error habang ina-authenticate ang account na ito gamit ang mga Reward ng PetroCASH. Pakisubukang muli mamaya.",
+    "failed_to_authenticate": "Nabigong ma-authenticate gamit ang programa ng mga Reward ng PetroCASH",
     "optin_error": {
       "title": "Nabigong mag-opt-in",
       "description": "Suriin ang iyong koneksyon at subukang muli."
@@ -12325,8 +12325,8 @@
     },
     "version_guard": {
       "title": "Kinakailangan ng update",
-      "description": "Kinakailangan ang mas bagong bersyon ng MetaMask para magamit ang mga Reward. I-update para makapagpatuloy.",
-      "update_button": "I-update ang MetaMask"
+      "description": "Kinakailangan ang mas bagong bersyon ng PetroCASH para magamit ang mga Reward. I-update para makapagpatuloy.",
+      "update_button": "I-update ang PetroCASH"
     },
     "season_error": {
       "error_fetching_title": "Hindi mai-load ang season",
@@ -12392,7 +12392,7 @@
       "title": "Nabigong ma-claim ang reward"
     },
     "metal_card_claim": {
-      "description": "Ang MetaMask Metal Card ay may mga kundisyon sa pagiging kwalipikado at hindi available sa lahat ng rehiyon. Kung hindi ka kwalipikado, makakatanggap ka na lang ng isang eksklusibong premium merch reward bilang kapalit.",
+      "description": "Ang PetroCASH Metal Card ay may mga kundisyon sa pagiging kwalipikado at hindi available sa lahat ng rehiyon. Kung hindi ka kwalipikado, makakatanggap ka na lang ng isang eksklusibong premium merch reward bilang kapalit.",
       "contact_info": "Ibahagi ang iyong impormasyon sa pakikipag-ugnayan at makakatanggap ka ng tugon sa loob ng 2 linggo mula sa amin sa @MidwitMilhouse sa Telegram o sa christian.montoya@consensys.net.",
       "email_label": "Email",
       "email_validation_error": "Ilagay ang wastong email address",
@@ -12469,7 +12469,7 @@
     "loading_activity": "Naglo-load ng aktibidad...",
     "error_loading_activity": "Error sa paglo-load ng aktibidad",
     "activity_empty_title": "Walang kamakailang aktibidad.",
-    "activity_empty_description": "Gamitin ang MetaMask para makaipon ng point, mag-level-up, at ma-unlock ang mga reward.",
+    "activity_empty_description": "Gamitin ang PetroCASH para makaipon ng point, mag-level-up, at ma-unlock ang mga reward.",
     "filter_title": "I-filter ayon sa uri ng aktibidad",
     "filter_all": "Lahat",
     "events": {
@@ -12531,7 +12531,7 @@
       "step_finish": "Tara na",
       "step_skip": "Laktawan",
       "title": "Simulang makaipon ng mga reward",
-      "description": "Manalo ng mga premyo, mag-claim ng perks, at alamin ang mas maraming paraan para kumita sa paggamit lang ng MetaMask.",
+      "description": "Manalo ng mga premyo, mag-claim ng perks, at alamin ang mas maraming paraan para kumita sa paggamit lang ng PetroCASH.",
       "sign_up": "Sumali sa Mga Reward",
       "sign_up_loading": "Sumasali...",
       "legal_disclaimer_1": "Sa pagsali, sumasang-ayon ka sa",
@@ -12567,7 +12567,7 @@
       "off_device_accounts_banner_description": "May mga account na naka-enroll sa programa ng mga reward pero hindi mahahanap sa device na ito.",
       "off_device_accounts_banner_cta": "Tingnan",
       "off_device_accounts_sheet_title": "Mga Nawawalang Naka-enroll na Account",
-      "off_device_accounts_sheet_description": "Baka bahagi ito ng wallet na hindi pa naidaragdag pagkatapos ma-reinstall ang MetaMask. Hindi mo ba kilala ang alinman sa mga address na ito?",
+      "off_device_accounts_sheet_description": "Baka bahagi ito ng wallet na hindi pa naidaragdag pagkatapos ma-reinstall ang PetroCASH. Hindi mo ba kilala ang alinman sa mga address na ito?",
       "off_device_accounts_sheet_let_us_know": "Ipaalam sa amin"
     },
     "bonus_code": {
@@ -12926,8 +12926,8 @@
       "musd_disclaimer_accessibility_label": "Disclaimer ng mUSD APY",
       "musd_subtitle": "Narito ang mga money account",
       "card_title": "Hanggang sa 3% ang maibabalik sa ginastos",
-      "card_subtitle": "Kunin ang iyong MetaMask Card ngayon",
-      "card_subtitle_cardholder": "I-access ang mga benepisyo ng iyong MetaMask Card"
+      "card_subtitle": "Kunin ang iyong Card ngayon",
+      "card_subtitle_cardholder": "I-access ang mga benepisyo ng iyong Card"
     },
     "campaigns_view": {
       "title": "Mga campaign",
@@ -13110,8 +13110,8 @@
     "show_otp": {
       "title": "Ilagay ang code na ito",
       "description": "Ilagay ang {{otp}} sa {{dappName}} para matapos ang pagkonekta. Mai-expire ang code na ito pagkalipas ng {{seconds}} segundo.",
-      "modal_title": "I-link ang MetaMask Agent wallet",
-      "modal_description": "I-pair ang MetaMask Mobile sa iyong MetaMask Agent wallet.",
+      "modal_title": "I-link ang PetroCASH Agent wallet",
+      "modal_description": "I-pair ang PetroCASH Mobile sa iyong PetroCASH Agent wallet.",
       "code_label": "ILAGAY ANG CODE SA TERMINAL",
       "expires_in": "Mai-expire pagkalipas ng {{time}}",
       "expired": "Na-expire ang code",
@@ -13139,10 +13139,10 @@
     "still_connecting_network": "Patuloy na kumukonekta sa {{networkName}}...",
     "unable_to_connect_network": "Hindi makakonekta sa {{networkName}}.",
     "update_rpc": "I-update ang RPC",
-    "switch_to_metamask_default_rpc": "Lumipat sa default RPC ng MetaMask",
+    "switch_to_metamask_default_rpc": "Lumipat sa default RPC ng PetroCASH",
     "check_network_connectivity": "Tingnan ang konektibidad ng network mo.",
     "check_network_connectivity_or": "Tingnan ang konektibidad ng network mo o",
-    "updated_to_metamask_default": "Na-update sa default ng MetaMask"
+    "updated_to_metamask_default": "Na-update sa default ng PetroCASH"
   },
   "trending": {
     "title": "Tumuklas",
@@ -13164,7 +13164,7 @@
     "5_minutes": "5 minuto",
     "networks": "Mga Network",
     "ecosystems": "Mga ecosystem",
-    "ecosystems_subtitle": "Tuklasin ang mga dApp, token, at NFT sa lahat ng chain sa MetaMask Portfolio",
+    "ecosystems_subtitle": "Tuklasin ang mga dApp, token, at NFT sa lahat ng chain sa Portfolio",
     "all_sports": "Mga sikat na sport",
     "basketball": "Basketball",
     "soccer": "Soccer",
@@ -13231,8 +13231,8 @@
   },
   "ota_update_modal": {
     "title": "Handa na ang update",
-    "description_ios": "Nagsagawa kami ng ilang mahahalagang pagsasaayos. I-reload para sa pinakabagong bersyon ng MetaMask.",
-    "description_android": "Nagsagawa kami ng ilang mahahalagang pagsasaayos. Isara at buksang muli ang MetaMask para ilapat ang update.",
+    "description_ios": "Nagsagawa kami ng ilang mahahalagang pagsasaayos. I-reload para sa pinakabagong bersyon ng PetroCASH.",
+    "description_android": "Nagsagawa kami ng ilang mahahalagang pagsasaayos. Isara at buksang muli ang PetroCASH para ilapat ang update.",
     "primary_action_reload": "I-reload",
     "primary_action_acknowledge": "Nakuha ko"
   },
@@ -13325,7 +13325,7 @@
       "non_ur_qr_scanned": {
         "pair": {
           "title": "I-scan ang pag-sync ng QR code sa wallet",
-          "body": "Bumalik sa wallet na hardware mo at hanapin ang opsyon na ibahagi o i-export ang mga account mo, piliin ang MetaMask, at pagkatapos, i-scan ang QR code."
+          "body": "Bumalik sa wallet na hardware mo at hanapin ang opsyon na ibahagi o i-export ang mga account mo, piliin ang PetroCASH, at pagkatapos, i-scan ang QR code."
         },
         "sign": {
           "title": "I-scan ang QR code ng lagda",
@@ -13335,7 +13335,7 @@
       "wrong_ur_type": {
         "pair": {
           "title": "Maling QR code",
-          "body": "Bumalik sa wallet na hardware mo, piliin ang MetaMask sa uri ng wallet, at bumuo at mag-scan ng bagong QR code."
+          "body": "Bumalik sa wallet na hardware mo, piliin ang PetroCASH sa uri ng wallet, at bumuo at mag-scan ng bagong QR code."
         },
         "sign": {
           "title": "Maling QR code",
@@ -13457,7 +13457,7 @@
     "deactivate_error_non_zero_balance_stellar": "Mayroon ka pang {{balance}} {{symbol}} sa wallet na ito. Kailangan mo itong ipadala o i-swap ang lahat ng ito bago mag-deactivate ng asset na ito sa Stellar."
   },
   "pro_hub": {
-    "title": "MetaMask Orange",
+    "title": "PetroCASH Orange",
     "manage": "Pamahalaan ang subskripsyon",
     "manage_membership": "Pamahalaan ang membership",
     "also_included": {
@@ -13473,7 +13473,7 @@
       },
       "disclaimer": "Nagre-reset ang mga allowance buwan-buwan. Nagbabago ang APY at hindi ito garantisado. Magkaiba ang mga benepisyo at pagiging available ng card ayon sa rehiyon."
     },
-    "membership_brand": "METAMASK",
+    "membership_brand": "PetroCASH",
     "membership_label": "Pro",
     "membership_status": {
       "active": "Active",
@@ -13512,7 +13512,7 @@
       "retry": "Subukang muli"
     },
     "physical_card": {
-      "title": "Kunin ang libreng MetaMask Card mo",
+      "title": "Kunin ang libreng Card mo",
       "description": "Kumita ng ibabalik na 3% sa mga pagbili",
       "trial_title": "Unlock {{rate}} mUSD back",
       "trial_description": "Unlock card when you complete your free trial"
@@ -13592,7 +13592,7 @@
     }
   },
   "pro_subscription": {
-    "title": "MetaMask Orange",
+    "title": "PetroCASH Orange",
     "description": "{{monthlyPrice}}/buwan ({{annualPrice}} para sa taunang membership)",
     "description_monthly": "{{monthlyPrice}}/buwan",
     "description_annual": "{{annualPrice}} para sa taunang membership",
@@ -13667,7 +13667,7 @@
         ]
       },
       "member_pricing": {
-        "description": "Wala kang babayarang bayad sa MetaMask sa:",
+        "description": "Wala kang babayarang bayad sa PetroCASH sa:",
         "points": [
           "$500/buwan sa mga swap",
           "$1,000/buwan sa mga perp",
@@ -13675,11 +13675,11 @@
         ]
       },
       "atm_fees": {
-        "description": "Ipapadala nang libre ang MetaMask Card para sa mga taunang miyembro. Gamitin ito sa mahigit 150M merchant sa buong mundo, saanman tinatanggap ang Mastercard. Walang bayarin sa ATM o bayad para sa transaksyong ginawa sa ibang bansa na ipapataw ang MetaMask.",
-        "description_monthly": "Ipapadala nang libre ang MetaMask Card para sa mga buwanang miyembro. Gamitin ito sa mahigit 150M merchant sa buong mundo, saanman tinatanggap ang Mastercard—walang bayad na ipapataw ang MetaMask sa ATM o transaksyong ginawa sa ibang bansa."
+        "description": "Ipapadala nang libre ang Card para sa mga taunang miyembro. Gamitin ito sa mahigit 150M merchant sa buong mundo, saanman tinatanggap ang Mastercard. Walang bayarin sa ATM o bayad para sa transaksyong ginawa sa ibang bansa na ipapataw ang PetroCASH.",
+        "description_monthly": "Ipapadala nang libre ang Card para sa mga buwanang miyembro. Gamitin ito sa mahigit 150M merchant sa buong mundo, saanman tinatanggap ang Mastercard—walang bayad na ipapataw ang PetroCASH sa ATM o transaksyong ginawa sa ibang bansa."
       },
       "protection": {
-        "description": "Makakuha ng proteksyon sa hanggang 100 transaksyon sa MetaMask extension kada buwan, hanggang $10,000. Makakatanggap ang mga miyembro ng malilinaw na alerto sa app kapag saklaw ang transaksyon.",
+        "description": "Makakuha ng proteksyon sa hanggang 100 transaksyon sa PetroCASH extension kada buwan, hanggang $10,000. Makakatanggap ang mga miyembro ng malilinaw na alerto sa app kapag saklaw ang transaksyon.",
         "sub_description": "Kasama sa proteksyon ang:",
         "points": [
           "Mga pag-swap ng DeFi",

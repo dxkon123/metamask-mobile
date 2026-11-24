@@ -132,3 +132,9 @@ milestone without overwriting existing work. Preserve all security boundaries.
 - 三项 critical 与其余 relevant findings 处理、native/runtime SBOM、设备 egress 验证。
 - Play Console app 信息、数据安全表、隐私/条款/审核资料与适用封闭测试。
 - 完整 CI 与候选 APK/AAB 指向同一源码 commit，核对 SHA-256；只有 owner 批准并满足门槛才公开发布。
+
+## 断点恢复规则（2026-11-24更新）
+
+以docs/PROGRESS.md为入口，跳过done。每完成一步同时更新PROGRESS/HANDOFF/MORNING并commit/push，长CI等待前先push，约30分钟内不留未推工作。最新Mobile LICENSE仅授予检查学习；修改/衍生/分发需ConsenSys事先同意，商用未获授权；未决定前不得公开Release或公开分发APK/AAB，草稿限定。公开仓库Actions artifact不是私密交付。
+
+恢复prompt：继续。先读docs/PROGRESS.md、HANDOFF.md和MORNING-REPORT.md，核对分支/远端/CI，跳过done，从Resume here继续。每子步骤更新三份记录并push。禁止公开分发APK/AAB、推main、显示或提交secrets。

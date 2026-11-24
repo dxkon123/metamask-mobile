@@ -134,7 +134,7 @@ export const predictErrorRegistry: Record<
   },
   [PredictErrorCode.APP_UPDATE_REQUIRED]: {
     category: 'unavailable',
-    message: 'Update MetaMask to continue trading with this venue.',
+    message: "Update PetroCASH to continue trading with this venue.",
     recoverable: false,
   },
   [PredictErrorCode.MARKET_NOT_FOUND]: {

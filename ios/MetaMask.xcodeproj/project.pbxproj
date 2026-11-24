@@ -45,7 +45,6 @@
 		49D8E62C506F4A63889EEC7F /* branch.json in Resources */ = {isa = PBXBuildFile; fileRef = FE3C9A2458A1416290DEDAD4 /* branch.json */; };
 		650F2B9D24DC5FF200C3B9C4 /* libRCTAesForked.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 650F2B9C24DC5FEC00C3B9C4 /* libRCTAesForked.a */; };
 		654378B0243E2ADC00571B9C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654378AF243E2ADC00571B9C /* File.swift */; };
-		A7C3E91B4D2F48A0B6E15C88 /* GrotzecCond-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B8D4F02C5E3A49B1C7F26D99 /* GrotzecCond-Bold.otf */; };
 		9D9E53F67A884FDEBE9A4D3C /* Inter-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 978781C44CFB4434873EDB69 /* Inter-RegularItalic.ttf */; };
 		A1987088D4835E5FCCABC418 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683865D794CE6007E46CAD3A /* ExpoModulesProvider.swift */; };
 		A1F5C74197AA4BB4B2F9C001 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F5C74197AA4BB4B2F9C011 /* Inter-SemiBold.ttf */; };
@@ -607,7 +606,6 @@
 				AA11BB22CC33DD44EE55FF66 /* SplashScreen.storyboard in Resources */,
 				49D8E62C506F4A63889EEC7F /* branch.json in Resources */,
 				3466654F43654D36B5D478CA /* config.json in Resources */,
-				A7C3E91B4D2F48A0B6E15C88 /* GrotzecCond-Bold.otf in Resources */,
 				A1F5C74197AA4BB4B2F9C002 /* Inter-SemiBoldItalic.ttf in Resources */,
 				A1F5C74197AA4BB4B2F9C001 /* Inter-SemiBold.ttf in Resources */,
 				09D9851F119C43FBB54ED59C /* Inter-MediumItalic.ttf in Resources */,

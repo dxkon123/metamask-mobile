@@ -270,6 +270,7 @@ export class WC2Manager {
         return new Core({
           projectId,
           logger: 'fatal',
+          telemetryEnabled: false, // Do not send fork analytics to a third-party collector.
         });
       }
       throw new Error('WC2::init Init Missing projectId');

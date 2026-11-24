@@ -1,0 +1,6887 @@
+[
+  {
+    "path": ".github/pr-screenshots/fix-onboarding-bottom-safe-area/after-create-password.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1206,
+    "height": 2622
+  },
+  {
+    "path": ".github/pr-screenshots/fix-onboarding-bottom-safe-area/after-import-wallet.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1206,
+    "height": 2622
+  },
+  {
+    "path": ".github/pr-screenshots/fix-onboarding-bottom-safe-area/before-import-wallet.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 470,
+    "height": 1024
+  },
+  {
+    "path": ".github/pr-screenshots/fix-onboarding-bottom-safe-area/before-password.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 470,
+    "height": 1024
+  },
+  {
+    "path": "android/app/src/flask/res/ic_launcher-playstore.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "android/app/src/flask/res/mipmap-hdpi/ic_launcher.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 72
+  },
+  {
+    "path": "android/app/src/flask/res/mipmap-hdpi/ic_launcher_background.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 162,
+    "height": 162
+  },
+  {
+    "path": "android/app/src/flask/res/mipmap-hdpi/ic_launcher_foreground.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 162,
+    "height": 162
+  },
+  {
+    "path": "android/app/src/flask/res/mipmap-hdpi/ic_launcher_round.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 72
+  },
+  {
+    "path": "android/app/src/flask/res/mipmap-mdpi/ic_launcher.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 48,
+    "height": 48
+  },
+  {
+    "path": "android/app/src/flask/res/mipmap-mdpi/ic_launcher_background.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 108,
+    "height": 108
+  },
+  {
+    "path": "android/app/src/flask/res/mipmap-mdpi/ic_launcher_foreground.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 108,
+    "height": 108
+  },
+  {
+    "path": "android/app/src/flask/res/mipmap-mdpi/ic_launcher_round.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 48,
+    "height": 48
+  },
+  {
+    "path": "android/app/src/flask/res/mipmap-xhdpi/ic_launcher.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 96,
+    "height": 96
+  },
+  {
+    "path": "android/app/src/flask/res/mipmap-xhdpi/ic_launcher_background.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 216,
+    "height": 216
+  },
+  {
+    "path": "android/app/src/flask/res/mipmap-xhdpi/ic_launcher_foreground.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 216,
+    "height": 216
+  },
+  {
+    "path": "android/app/src/flask/res/mipmap-xhdpi/ic_launcher_round.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 96,
+    "height": 96
+  },
+  {
+    "path": "android/app/src/flask/res/mipmap-xxhdpi/ic_launcher.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 144,
+    "height": 144
+  },
+  {
+    "path": "android/app/src/flask/res/mipmap-xxhdpi/ic_launcher_background.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 324,
+    "height": 324
+  },
+  {
+    "path": "android/app/src/flask/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 324,
+    "height": 324
+  },
+  {
+    "path": "android/app/src/flask/res/mipmap-xxhdpi/ic_launcher_round.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 144,
+    "height": 144
+  },
+  {
+    "path": "android/app/src/flask/res/mipmap-xxxhdpi/ic_launcher.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 192,
+    "height": 192
+  },
+  {
+    "path": "android/app/src/flask/res/mipmap-xxxhdpi/ic_launcher_background.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 432,
+    "height": 432
+  },
+  {
+    "path": "android/app/src/flask/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 432,
+    "height": 432
+  },
+  {
+    "path": "android/app/src/flask/res/mipmap-xxxhdpi/ic_launcher_round.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 192,
+    "height": 192
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/AntDesign.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/Entypo.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/EvilIcons.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/Feather.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/FontAwesome.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/FontAwesome5_Brands.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/FontAwesome5_Regular.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/FontAwesome5_Solid.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/Foundation.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/GrotzecCond-Bold.otf",
+    "type": "otf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/Inter-Medium.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/Inter-MediumItalic.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/Inter-Regular.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/Inter-RegularItalic.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/Inter-SemiBold.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/Inter-SemiBoldItalic.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/Ionicons.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/MaterialIcons.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/Metamask.ttf",
+    "type": "ttf",
+    "brandCandidate": true
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/Octicons.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/SimpleLineIcons.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/Zocial.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "android/app/src/main/assets/fonts/metamask.ttf",
+    "type": "ttf",
+    "brandCandidate": true
+  },
+  {
+    "path": "android/app/src/main/ic_launcher-playstore.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "android/app/src/main/metamask-logo.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 752,
+    "height": 372
+  },
+  {
+    "path": "android/app/src/main/res/drawable-hdpi/fox.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 188,
+    "height": 188
+  },
+  {
+    "path": "android/app/src/main/res/drawable-hdpi/node_modules_reactnavigationstack_src_views_assets_backicon.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 36,
+    "height": 36
+  },
+  {
+    "path": "android/app/src/main/res/drawable-ldpi/fox.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 94,
+    "height": 94
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/app_images_astronaut.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 800,
+    "height": 800
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/app_images_bg.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 750,
+    "height": 1335
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/app_images_ethlogo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 253,
+    "height": 253
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/app_images_fox.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1316,
+    "height": 1316
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/app_images_foxbadge.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 454,
+    "height": 454
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/app_images_frame.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/app_images_lock.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 498,
+    "height": 499
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/app_images_metamaskname.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1796,
+    "height": 344
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/app_images_mminstapay.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 84,
+    "height": 84
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/app_images_mminstapayselected.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 84,
+    "height": 84
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/app_images_opensealogoflatcoloredblue.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 384,
+    "height": 116
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/app_images_paymentchannelwatermark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1726,
+    "height": 1500
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/app_images_paymentchannelwelcome.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 301,
+    "height": 218
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/app_images_selectedwalleticon.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 66,
+    "height": 66
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/app_images_syncicon.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 312,
+    "height": 194
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/app_images_walleticon.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 66,
+    "height": 66
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/fox.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 125,
+    "height": 125
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_danger.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 21,
+    "height": 21
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_info.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 21,
+    "height": 21
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_success.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 21,
+    "height": 21
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_warning.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 21,
+    "height": 21
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/node_modules_reactnavigationstack_src_views_assets_backicon.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "android/app/src/main/res/drawable-mdpi/node_modules_reactnavigationstack_src_views_assets_backiconmask.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 50,
+    "height": 85
+  },
+  {
+    "path": "android/app/src/main/res/drawable-night-hdpi/fox.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 188,
+    "height": 188
+  },
+  {
+    "path": "android/app/src/main/res/drawable-night-ldpi/fox.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 94,
+    "height": 94
+  },
+  {
+    "path": "android/app/src/main/res/drawable-night-mdpi/fox.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 125,
+    "height": 125
+  },
+  {
+    "path": "android/app/src/main/res/drawable-night-xhdpi/fox.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 250,
+    "height": 250
+  },
+  {
+    "path": "android/app/src/main/res/drawable-night-xxhdpi/fox.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 375,
+    "height": 375
+  },
+  {
+    "path": "android/app/src/main/res/drawable-night-xxxhdpi/fox.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 500,
+    "height": 500
+  },
+  {
+    "path": "android/app/src/main/res/drawable-night/fox.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 150,
+    "height": 150
+  },
+  {
+    "path": "android/app/src/main/res/drawable-xhdpi/fox.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 250,
+    "height": 250
+  },
+  {
+    "path": "android/app/src/main/res/drawable-xhdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_danger.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 42,
+    "height": 42
+  },
+  {
+    "path": "android/app/src/main/res/drawable-xhdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_info.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 42,
+    "height": 42
+  },
+  {
+    "path": "android/app/src/main/res/drawable-xhdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_success.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 42,
+    "height": 42
+  },
+  {
+    "path": "android/app/src/main/res/drawable-xhdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_warning.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 42,
+    "height": 42
+  },
+  {
+    "path": "android/app/src/main/res/drawable-xhdpi/node_modules_reactnavigationstack_src_views_assets_backicon.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 48,
+    "height": 48
+  },
+  {
+    "path": "android/app/src/main/res/drawable-xxhdpi/fox.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 375,
+    "height": 375
+  },
+  {
+    "path": "android/app/src/main/res/drawable-xxhdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_danger.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 63,
+    "height": 63
+  },
+  {
+    "path": "android/app/src/main/res/drawable-xxhdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_info.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 63,
+    "height": 63
+  },
+  {
+    "path": "android/app/src/main/res/drawable-xxhdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_success.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 63,
+    "height": 63
+  },
+  {
+    "path": "android/app/src/main/res/drawable-xxhdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_warning.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 63,
+    "height": 63
+  },
+  {
+    "path": "android/app/src/main/res/drawable-xxhdpi/node_modules_reactnavigationstack_src_views_assets_backicon.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 72
+  },
+  {
+    "path": "android/app/src/main/res/drawable-xxxhdpi/fox.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 500,
+    "height": 500
+  },
+  {
+    "path": "android/app/src/main/res/drawable-xxxhdpi/node_modules_reactnavigationstack_src_views_assets_backicon.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 96,
+    "height": 96
+  },
+  {
+    "path": "android/app/src/main/res/drawable/fox.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 150,
+    "height": 150
+  },
+  {
+    "path": "android/app/src/main/res/ic_launcher_background.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "android/app/src/main/res/ic_launcher_foreground.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 72
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-hdpi/ic_launcher_background.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 162,
+    "height": 162
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 162,
+    "height": 162
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 72
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-hdpi/ic_notification.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 36,
+    "height": 36
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-hdpi/ic_notification_small.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 36,
+    "height": 36
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-hdpi/splash.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 216,
+    "height": 216
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 48,
+    "height": 48
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-mdpi/ic_launcher_background.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 108,
+    "height": 108
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 108,
+    "height": 108
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 48,
+    "height": 48
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-mdpi/ic_notification.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-mdpi/ic_notification_small.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-mdpi/splash.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 144,
+    "height": 144
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 96,
+    "height": 96
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xhdpi/ic_launcher_background.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 216,
+    "height": 216
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 216,
+    "height": 216
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 96,
+    "height": 96
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xhdpi/ic_notification.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 48,
+    "height": 48
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xhdpi/ic_notification_small.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 48,
+    "height": 48
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xhdpi/splash.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 288,
+    "height": 288
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 144,
+    "height": 144
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_background.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 324,
+    "height": 324
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 324,
+    "height": 324
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 144,
+    "height": 144
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxhdpi/ic_notification.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 72
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxhdpi/ic_notification_small.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 72
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxhdpi/splash.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 432,
+    "height": 432
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 192,
+    "height": 192
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 432,
+    "height": 432
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 432,
+    "height": 432
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 192,
+    "height": 192
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_notification.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 96,
+    "height": 96
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_notification_small.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 96,
+    "height": 96
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxxhdpi/splash.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 576,
+    "height": 576
+  },
+  {
+    "path": "app/animations/Carousel_Confetti.riv",
+    "type": "riv",
+    "brandCandidate": false
+  },
+  {
+    "path": "app/animations/card_tilt_v1.6.riv",
+    "type": "riv",
+    "brandCandidate": false
+  },
+  {
+    "path": "app/animations/card_verified_check.riv",
+    "type": "riv",
+    "brandCandidate": false
+  },
+  {
+    "path": "app/animations/fox_appear.riv",
+    "type": "riv",
+    "brandCandidate": true
+  },
+  {
+    "path": "app/animations/fox_loading.riv",
+    "type": "riv",
+    "brandCandidate": true
+  },
+  {
+    "path": "app/animations/generic_hardware_wallet.riv",
+    "type": "riv",
+    "brandCandidate": false
+  },
+  {
+    "path": "app/animations/hardware_wallet.riv",
+    "type": "riv",
+    "brandCandidate": false
+  },
+  {
+    "path": "app/animations/loading_mm_fox.riv",
+    "type": "riv",
+    "brandCandidate": true
+  },
+  {
+    "path": "app/animations/money_account_first_time_deposit_v4.riv",
+    "type": "riv",
+    "brandCandidate": false
+  },
+  {
+    "path": "app/animations/money_onboarding_rounded_buttons.riv",
+    "type": "riv",
+    "brandCandidate": true
+  },
+  {
+    "path": "app/animations/money_vba_verifying_identity.riv",
+    "type": "riv",
+    "brandCandidate": false
+  },
+  {
+    "path": "app/animations/next_best_action_module_v1.riv",
+    "type": "riv",
+    "brandCandidate": false
+  },
+  {
+    "path": "app/animations/onboard_checklist_v07.riv",
+    "type": "riv",
+    "brandCandidate": true
+  },
+  {
+    "path": "app/animations/onboarding_nux_v7.riv",
+    "type": "riv",
+    "brandCandidate": true
+  },
+  {
+    "path": "app/animations/pull_refresh.riv",
+    "type": "riv",
+    "brandCandidate": false
+  },
+  {
+    "path": "app/animations/rewards_icon_animations.riv",
+    "type": "riv",
+    "brandCandidate": false
+  },
+  {
+    "path": "app/animations/social_v1_profile-ready.riv",
+    "type": "riv",
+    "brandCandidate": false
+  },
+  {
+    "path": "app/animations/social_v1_social-onboarding.riv",
+    "type": "riv",
+    "brandCandidate": true
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/agent.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/astro.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/athlete.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/aviator.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/beanie.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/chrome.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/football.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/frozen.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/goth.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/hearts.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/laser.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/nerd.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/vr.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/zombie.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components/Accordions/Accordion/Accordion.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1654,
+    "height": 641
+  },
+  {
+    "path": "app/component-library/components/Avatars/Avatar/Avatar.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1654,
+    "height": 641
+  },
+  {
+    "path": "app/component-library/components/Badges/Badge/variants/BadgeNetwork/BadgeNetwork.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1654,
+    "height": 641
+  },
+  {
+    "path": "app/component-library/components/Badges/Badge/variants/BadgeStatus/BadgeStatus.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1654,
+    "height": 641
+  },
+  {
+    "path": "app/component-library/components/Banners/Banner/variants/BannerAlert/BannerAlert.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1654,
+    "height": 641
+  },
+  {
+    "path": "app/component-library/components/Banners/Banner/variants/BannerTip/BannerTip.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1654,
+    "height": 641
+  },
+  {
+    "path": "app/component-library/components/Banners/Banner/variants/BannerTip/assets/fox-chat.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 200,
+    "height": 153
+  },
+  {
+    "path": "app/component-library/components/Banners/Banner/variants/BannerTip/assets/fox-greeting.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 200,
+    "height": 153
+  },
+  {
+    "path": "app/component-library/components/BottomSheets/BottomSheet/BottomSheet.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1654,
+    "height": 727
+  },
+  {
+    "path": "app/component-library/components/BottomSheets/BottomSheetFooter/BottomSheetFooter.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1654,
+    "height": 529
+  },
+  {
+    "path": "app/component-library/components/BottomSheets/BottomSheetHeader/BottomSheetHeader.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1654,
+    "height": 641
+  },
+  {
+    "path": "app/component-library/components/Buttons/Button/Button.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1654,
+    "height": 641
+  },
+  {
+    "path": "app/component-library/components/Buttons/ButtonIcon/ButtonIcon.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 778,
+    "height": 350
+  },
+  {
+    "path": "app/component-library/components/Cards/Card/Card.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1654,
+    "height": 529
+  },
+  {
+    "path": "app/component-library/components/Checkbox/Checkbox.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1654,
+    "height": 641
+  },
+  {
+    "path": "app/component-library/components/Form/HelpText/HelpText.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1655,
+    "height": 641
+  },
+  {
+    "path": "app/component-library/components/Form/Label/Label.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1655,
+    "height": 641
+  },
+  {
+    "path": "app/component-library/components/Form/TextField/TextField.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1655,
+    "height": 641
+  },
+  {
+    "path": "app/component-library/components/Form/TextFieldSearch/TextFieldSearch.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1655,
+    "height": 641
+  },
+  {
+    "path": "app/component-library/components/HeaderBase/HeaderBase.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1654,
+    "height": 641
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/Icon.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1654,
+    "height": 640
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/activity.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/add-square.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/add.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/after-hours.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/apple.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/arrow-2-down.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/arrow-2-right.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/arrow-2-up-right.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/arrow-2-up.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/arrow-double-right.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/arrow-down.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/arrow-left.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/arrow-right.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/arrow-square-out.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/arrow-up.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/attach-money.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/bank.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/bookmark.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/buy-sell.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/calendar.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/camera.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/card.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/chart.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/check-bold.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/check.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/circle-x.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/clock-filled.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/clock.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/close.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/confirmation.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/connect.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/copy-success.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/copy.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/danger.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/data.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/details.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/drag-grid.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/edit.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/error.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/explore.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/export.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/eye-slash.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/eye.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/face-id.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/filter.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/forest.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/full-circle.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/gas.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/global.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/hardware.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/hierarchy.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/home-filled.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/home.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/info.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/key.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/loading.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/location.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/lock-slash.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/lock.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/logout.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/message-question.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/messages.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/metamask-fox-filled.svg",
+    "type": "svg",
+    "brandCandidate": true,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/metamask-fox-outline.svg",
+    "type": "svg",
+    "brandCandidate": true,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/minus-bold.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/money-bag.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/more-horizontal.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/more-vertical.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/musd-filled.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/musd.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/notification.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/plant.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/plug.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/qr-code.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/question.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/received.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/refresh.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/scan.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/search.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/security-key.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/security-search.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/security-tick.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/send.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/setting.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/share.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/snaps-mobile.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/snaps.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/sparkle.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/speedometer.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/star-filled.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/swap-horizontal.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/swap-vertical.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/telegram.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/thumb-down-filled.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/thumb-down.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/thumb-up-filled.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/thumb-up.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/trash.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/trend-down.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/trend-up.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/trophy.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/user-check.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/verified-filled.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/wallet.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/warning.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/List/ListItem/ListItem.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1654,
+    "height": 641
+  },
+  {
+    "path": "app/component-library/components/List/ListItemMultiSelect/ListItemMultiSelect.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1654,
+    "height": 641
+  },
+  {
+    "path": "app/component-library/components/List/ListItemSelect/ListItemSelect.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1654,
+    "height": 641
+  },
+  {
+    "path": "app/component-library/components/Tags/Tag/Tag.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 910,
+    "height": 423
+  },
+  {
+    "path": "app/component-library/components/Texts/Text/Text.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1654,
+    "height": 529
+  },
+  {
+    "path": "app/component-library/components/Toast/Toast.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1654,
+    "height": 767
+  },
+  {
+    "path": "app/components/UI/Card/Views/ApplePayConfirmation/assets/marks-dark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 465,
+    "height": 129
+  },
+  {
+    "path": "app/components/UI/Card/Views/ApplePayConfirmation/assets/marks-light.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 465,
+    "height": 129
+  },
+  {
+    "path": "app/components/UI/Card/Views/ApplePaySplash/assets/hero.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 874,
+    "height": 1209
+  },
+  {
+    "path": "app/components/UI/Card/components/ApplePayHandGraphic/assets/hand.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 720,
+    "height": 531
+  },
+  {
+    "path": "app/components/UI/Card/components/ApplePayUsageSheet/assets/apple-pay-mark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 170,
+    "height": 109
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-af.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 296,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-am.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 294,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-ar.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 309,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-az.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 326,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-bg.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 355,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-bn.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 331,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-br.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 372,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-bs.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 339,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-by.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 355,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-ca.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 307,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-cz.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 347,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-de.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 354,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-dk.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 270,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-enAU.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 283,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-enCA.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 283,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-enGB.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 283,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-enIN.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 283,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-enSG.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 283,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-enUS.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 283,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-enZA.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 283,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-es419.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 378,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-esES.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 298,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-esUS.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 378,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-et.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 392,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-fa.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 308,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-fl.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 362,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-fp.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 322,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-frCA.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 317,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-frFR.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 317,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-gr.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 404,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-he.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 310,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-hr.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 291,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-hu.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 470,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-hy.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 321,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-id.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 353,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-is.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 292,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-it.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 319,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-jp.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 363,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-ka.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 367,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-kh.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 293,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-kk.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 319,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-ky.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 420,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-lo.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 296,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-lt.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 339,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-lv.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 388,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-mk.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 303,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-mn.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 299,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-my.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 318,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-ne.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 311,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-nl.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 361,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-no.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 299,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-pl.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 320,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-pt.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 372,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-ro.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 341,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-ru.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 355,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-se.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 303,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-si.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 399,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-sk.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 411,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-sl.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 327,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-sq.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 317,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-sr.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 312,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-sw.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 367,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-th.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 294,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-tr.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 283,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-uk.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 339,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-ur.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 330,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-uz.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 288,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-vi.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 271,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-zhHK.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 263,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/Card/pushProvisioning/components/AddToWalletButton/assets/google-wallet-button-zhTW.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 263,
+    "height": 50
+  },
+  {
+    "path": "app/components/UI/KYC/components/assets/kyc-identity-verified-art.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 391
+  },
+  {
+    "path": "app/components/UI/KYC/components/assets/kyc-scanner.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 127,
+    "height": 88
+  },
+  {
+    "path": "app/components/UI/KYC/components/assets/kyc-scanner@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 253,
+    "height": 176
+  },
+  {
+    "path": "app/components/UI/KYC/components/assets/kyc-scanner@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 379,
+    "height": 264
+  },
+  {
+    "path": "app/components/UI/MarketInsights/animations/market-insights-background-dark-last-frame.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 786,
+    "height": 340
+  },
+  {
+    "path": "app/components/UI/MarketInsights/animations/market-insights-background-dark.mp4",
+    "type": "mp4",
+    "brandCandidate": false
+  },
+  {
+    "path": "app/components/UI/MarketInsights/animations/market-insights-background-light-last-frame.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 786,
+    "height": 340
+  },
+  {
+    "path": "app/components/UI/MarketInsights/animations/market-insights-background-light.mp4",
+    "type": "mp4",
+    "brandCandidate": false
+  },
+  {
+    "path": "app/components/UI/Perps/animations/perps-onboarding-carousel-dark.riv",
+    "type": "riv",
+    "brandCandidate": true
+  },
+  {
+    "path": "app/components/UI/Perps/animations/perps-onboarding-carousel-light.riv",
+    "type": "riv",
+    "brandCandidate": true
+  },
+  {
+    "path": "app/components/UI/Perps/components/PerpsProducts/assets/etfs-layers.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/components/UI/Perps/components/PerpsProducts/assets/indices-chart.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/components/UI/Perps/components/PerpsProducts/assets/pre-ipo-rocket.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/components/UI/Perps/components/PerpsProviderLogos/assets/hyperliquid.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 256,
+    "height": 256
+  },
+  {
+    "path": "app/components/UI/Perps/components/PerpsProviderLogos/assets/lighter.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 256,
+    "height": 256
+  },
+  {
+    "path": "app/components/UI/Predict/assets/predict-the-pitch-hub-banner.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 720,
+    "height": 720
+  },
+  {
+    "path": "app/components/UI/Predict/components/PredictActivityDetail/usdc.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 2000,
+    "height": 2000
+  },
+  {
+    "path": "app/components/UI/Ramp/Aggregator/components/images/TransactionIcon_Failed.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 34,
+    "height": 32
+  },
+  {
+    "path": "app/components/UI/Ramp/Aggregator/components/images/TransactionIcon_Failed@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 68,
+    "height": 64
+  },
+  {
+    "path": "app/components/UI/Ramp/Aggregator/components/images/TransactionIcon_Failed@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 102,
+    "height": 96
+  },
+  {
+    "path": "app/components/UI/Ramp/Aggregator/components/images/WalletInfo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 253,
+    "height": 267
+  },
+  {
+    "path": "app/components/UI/Ramp/Aggregator/components/images/WalletInfo@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 506,
+    "height": 533
+  },
+  {
+    "path": "app/components/UI/Ramp/Aggregator/components/images/WalletInfo@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 759,
+    "height": 800
+  },
+  {
+    "path": "app/components/UI/Ramp/Views/VirtualBankAccount/assets/vba-account-create-failure.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 370,
+    "height": 64
+  },
+  {
+    "path": "app/components/UI/Ramp/Views/VirtualBankAccount/assets/vba-creating-account.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 94,
+    "height": 88
+  },
+  {
+    "path": "app/components/UI/Ramp/Views/VirtualBankAccount/assets/vba-creating-account@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 188,
+    "height": 176
+  },
+  {
+    "path": "app/components/UI/Ramp/Views/VirtualBankAccount/assets/vba-creating-account@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 282,
+    "height": 264
+  },
+  {
+    "path": "app/components/UI/Ramp/assets/additional-verification.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 2048,
+    "height": 2048
+  },
+  {
+    "path": "app/components/UI/Ramp/assets/deposit-get-started-illustration-musd.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 223,
+    "height": 255
+  },
+  {
+    "path": "app/components/UI/Ramp/assets/deposit-get-started-illustration.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 751,
+    "height": 751
+  },
+  {
+    "path": "app/components/UI/Ramp/assets/powered-by-transak.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 150,
+    "height": 24
+  },
+  {
+    "path": "app/components/UI/Ramp/assets/verifyIdentityIllustration.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 2048,
+    "height": 2048
+  },
+  {
+    "path": "app/components/UI/SliderButton/assets/slider_button_gradient.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 500,
+    "height": 60
+  },
+  {
+    "path": "app/components/UI/SliderButton/assets/slider_button_shine.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 142,
+    "height": 114
+  },
+  {
+    "path": "app/components/UI/Stake/components/images/LearnMoreEthBanner.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 576,
+    "height": 336
+  },
+  {
+    "path": "app/components/Views/ErrorBoundary/warning-icon.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 65,
+    "height": 60
+  },
+  {
+    "path": "app/components/Views/Homepage/Sections/TopTraders/topRank/assets/rank-badge-1.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 114,
+    "height": 112
+  },
+  {
+    "path": "app/components/Views/Homepage/Sections/TopTraders/topRank/assets/rank-badge-2.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 114,
+    "height": 112
+  },
+  {
+    "path": "app/components/Views/Homepage/Sections/TopTraders/topRank/assets/rank-badge-3.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 114,
+    "height": 112
+  },
+  {
+    "path": "app/fonts/GrotzecCond/GrotzecCond-Bold.otf",
+    "type": "otf",
+    "brandCandidate": false
+  },
+  {
+    "path": "app/fonts/Inter-Medium.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "app/fonts/Inter-MediumItalic.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "app/fonts/Inter-Regular.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "app/fonts/Inter-RegularItalic.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "app/fonts/Inter-SemiBold.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "app/fonts/Inter-SemiBoldItalic.ttf",
+    "type": "ttf",
+    "brandCandidate": false
+  },
+  {
+    "path": "app/fonts/Metamask.ttf",
+    "type": "ttf",
+    "brandCandidate": true
+  },
+  {
+    "path": "app/images/0g-mainnet-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/0g-native-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/ApplePayLogo-dark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 41,
+    "height": 17
+  },
+  {
+    "path": "app/images/ApplePayLogo-dark@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 82,
+    "height": 34
+  },
+  {
+    "path": "app/images/ApplePayLogo-dark@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 123,
+    "height": 51
+  },
+  {
+    "path": "app/images/ApplePayLogo-light.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 41,
+    "height": 17
+  },
+  {
+    "path": "app/images/ApplePayLogo-light@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 82,
+    "height": 34
+  },
+  {
+    "path": "app/images/ApplePayLogo-light@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 123,
+    "height": 51
+  },
+  {
+    "path": "app/images/ApplePayMark-dark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 56,
+    "height": 35
+  },
+  {
+    "path": "app/images/ApplePayMark-dark@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 112,
+    "height": 70
+  },
+  {
+    "path": "app/images/ApplePayMark-dark@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 168,
+    "height": 105
+  },
+  {
+    "path": "app/images/ApplePayMark-light.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 56,
+    "height": 35
+  },
+  {
+    "path": "app/images/ApplePayMark-light@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 112,
+    "height": 70
+  },
+  {
+    "path": "app/images/ApplePayMark-light@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 168,
+    "height": 105
+  },
+  {
+    "path": "app/images/ApplePayMark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 56,
+    "height": 35
+  },
+  {
+    "path": "app/images/ApplePayMark@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 112,
+    "height": 70
+  },
+  {
+    "path": "app/images/ApplePayMark@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 168,
+    "height": 105
+  },
+  {
+    "path": "app/images/Fox_Vipers.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 656,
+    "height": 698
+  },
+  {
+    "path": "app/images/HL_symbol_mint_green.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 576,
+    "height": 576
+  },
+  {
+    "path": "app/images/MoonPayLogo-dark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 138,
+    "height": 25
+  },
+  {
+    "path": "app/images/MoonPayLogo-dark@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 275,
+    "height": 50
+  },
+  {
+    "path": "app/images/MoonPayLogo-dark@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 412,
+    "height": 75
+  },
+  {
+    "path": "app/images/MoonPayLogo-light.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 138,
+    "height": 25
+  },
+  {
+    "path": "app/images/MoonPayLogo-light@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 275,
+    "height": 50
+  },
+  {
+    "path": "app/images/MoonPayLogo-light@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 412,
+    "height": 75
+  },
+  {
+    "path": "app/images/TransakLogo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 95,
+    "height": 25
+  },
+  {
+    "path": "app/images/TransakLogo@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 190,
+    "height": 50
+  },
+  {
+    "path": "app/images/TransakLogo@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 285,
+    "height": 75
+  },
+  {
+    "path": "app/images/WyreLogo-dark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 43,
+    "height": 13
+  },
+  {
+    "path": "app/images/WyreLogo-dark@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 86,
+    "height": 26
+  },
+  {
+    "path": "app/images/WyreLogo-dark@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 129,
+    "height": 39
+  },
+  {
+    "path": "app/images/WyreLogo-light.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 43,
+    "height": 13
+  },
+  {
+    "path": "app/images/WyreLogo-light@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 86,
+    "height": 26
+  },
+  {
+    "path": "app/images/WyreLogo-light@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 129,
+    "height": 39
+  },
+  {
+    "path": "app/images/aave-token-round.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 508,
+    "height": 508
+  },
+  {
+    "path": "app/images/abstract.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/activity-empty-dark.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 78
+  },
+  {
+    "path": "app/images/activity-empty-light.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 78
+  },
+  {
+    "path": "app/images/advanced_trades.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "app/images/android-face-recognition.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 54,
+    "height": 54
+  },
+  {
+    "path": "app/images/android-iris.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 104,
+    "height": 104
+  },
+  {
+    "path": "app/images/apechain-token.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 256,
+    "height": 256
+  },
+  {
+    "path": "app/images/apechain.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 421,
+    "height": 421
+  },
+  {
+    "path": "app/images/apple-white.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 25,
+    "height": 25
+  },
+  {
+    "path": "app/images/apple.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 25,
+    "height": 25
+  },
+  {
+    "path": "app/images/arbitrum.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 50,
+    "height": 50
+  },
+  {
+    "path": "app/images/arc-native-token-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 800,
+    "height": 800
+  },
+  {
+    "path": "app/images/arc-network-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1563,
+    "height": 1563
+  },
+  {
+    "path": "app/images/astronaut.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 800,
+    "height": 800
+  },
+  {
+    "path": "app/images/avalanche.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 50,
+    "height": 50
+  },
+  {
+    "path": "app/images/bank-transfer.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 200,
+    "height": 200
+  },
+  {
+    "path": "app/images/base.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 50,
+    "height": 50
+  },
+  {
+    "path": "app/images/benefits/empty-state-icon-dark.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 72
+  },
+  {
+    "path": "app/images/benefits/empty-state-icon-light.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 72
+  },
+  {
+    "path": "app/images/benefits/themiracle-logo.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 1000,
+    "height": 286
+  },
+  {
+    "path": "app/images/berachain-token.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 256,
+    "height": 256
+  },
+  {
+    "path": "app/images/berachain.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 320,
+    "height": 320
+  },
+  {
+    "path": "app/images/bg.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 750,
+    "height": 1335
+  },
+  {
+    "path": "app/images/bg_claim.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1280,
+    "height": 1280
+  },
+  {
+    "path": "app/images/binance.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 50,
+    "height": 50
+  },
+  {
+    "path": "app/images/bitcoin-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/images/bitcoin-mutinynet-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 192,
+    "height": 192
+  },
+  {
+    "path": "app/images/bitcoin-signet-logo.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "app/images/bitcoin-testnet-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/images/blast-6273535.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 96,
+    "height": 96
+  },
+  {
+    "path": "app/images/blockaid-logo.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 62,
+    "height": 13
+  },
+  {
+    "path": "app/images/bluetooth-connection-failed.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 267,
+    "height": 269
+  },
+  {
+    "path": "app/images/blur.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 430,
+    "height": 248
+  },
+  {
+    "path": "app/images/bnb-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 384,
+    "height": 384
+  },
+  {
+    "path": "app/images/bob.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/branding/fox.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "app/images/branding/metamask-name-white.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1799,
+    "height": 891
+  },
+  {
+    "path": "app/images/branding/metamask-name.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1799,
+    "height": 891
+  },
+  {
+    "path": "app/images/branding/metamask-wordmark.svg",
+    "type": "svg",
+    "brandCandidate": true,
+    "width": 280,
+    "height": 152
+  },
+  {
+    "path": "app/images/branding/tiny-logo.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "app/images/buy_and_sell_crypto.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "app/images/card-fingerprint-kyc-image.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 2096,
+    "height": 2096
+  },
+  {
+    "path": "app/images/character_1.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 393,
+    "height": 422
+  },
+  {
+    "path": "app/images/character_3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1179,
+    "height": 1263
+  },
+  {
+    "path": "app/images/chiliz.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 727,
+    "height": 726
+  },
+  {
+    "path": "app/images/collectibles-icon.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 516,
+    "height": 430
+  },
+  {
+    "path": "app/images/connect-qr-hardware.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 494,
+    "height": 202
+  },
+  {
+    "path": "app/images/connect_apps_sites.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "app/images/consolidate_wallets.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "app/images/cronos.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/crypto_as_money.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "app/images/dark-blur.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 375,
+    "height": 232
+  },
+  {
+    "path": "app/images/discovery_pill_crypto.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 64,
+    "height": 64
+  },
+  {
+    "path": "app/images/discovery_pill_perps.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 64,
+    "height": 64
+  },
+  {
+    "path": "app/images/discovery_pill_predictions.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 64,
+    "height": 64
+  },
+  {
+    "path": "app/images/discovery_pill_stocks.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 64,
+    "height": 64
+  },
+  {
+    "path": "app/images/drawer-bg.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1280,
+    "height": 768
+  },
+  {
+    "path": "app/images/edu.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 617,
+    "height": 617
+  },
+  {
+    "path": "app/images/emoji-add.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 16,
+    "height": 16
+  },
+  {
+    "path": "app/images/empty-state-defi-dark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 144,
+    "height": 156
+  },
+  {
+    "path": "app/images/empty-state-defi-light.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 144,
+    "height": 156
+  },
+  {
+    "path": "app/images/empty-state-nfts-dark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 144,
+    "height": 156
+  },
+  {
+    "path": "app/images/empty-state-nfts-light.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 144,
+    "height": 156
+  },
+  {
+    "path": "app/images/empty-state-perps-dark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 145,
+    "height": 156
+  },
+  {
+    "path": "app/images/empty-state-perps-light.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 145,
+    "height": 156
+  },
+  {
+    "path": "app/images/enableBackupAndSyncCard.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 592,
+    "height": 416
+  },
+  {
+    "path": "app/images/enableNotificationsCard.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 343,
+    "height": 243
+  },
+  {
+    "path": "app/images/enableNotificationsCard@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 686,
+    "height": 486
+  },
+  {
+    "path": "app/images/enableNotificationsCard@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1029,
+    "height": 729
+  },
+  {
+    "path": "app/images/error-state-no-connection-dark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 144,
+    "height": 144
+  },
+  {
+    "path": "app/images/error-state-no-connection-light.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 144,
+    "height": 144
+  },
+  {
+    "path": "app/images/eth-logo-new.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 100,
+    "height": 100
+  },
+  {
+    "path": "app/images/eth-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 253,
+    "height": 253
+  },
+  {
+    "path": "app/images/ethereum-app-closed.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 302,
+    "height": 259
+  },
+  {
+    "path": "app/images/ethereum.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 732,
+    "height": 732
+  },
+  {
+    "path": "app/images/etherlink-native.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 700,
+    "height": 700
+  },
+  {
+    "path": "app/images/etherlink.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 700,
+    "height": 700
+  },
+  {
+    "path": "app/images/explain-backup-seedphrase.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 415,
+    "height": 489
+  },
+  {
+    "path": "app/images/fantom.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "app/images/flare-mainnet.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 578,
+    "height": 578
+  },
+  {
+    "path": "app/images/flow.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 400,
+    "height": 400
+  },
+  {
+    "path": "app/images/fox-badge.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 454,
+    "height": 454
+  },
+  {
+    "path": "app/images/fox.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 21,
+    "height": 21
+  },
+  {
+    "path": "app/images/fox.svg",
+    "type": "svg",
+    "brandCandidate": true,
+    "width": 144,
+    "height": 144
+  },
+  {
+    "path": "app/images/frame.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/frax.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "path": "app/images/fraxtal.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 500,
+    "height": 500
+  },
+  {
+    "path": "app/images/gas-education-carousel-1.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 354,
+    "height": 295
+  },
+  {
+    "path": "app/images/gas-education-carousel-2.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 416,
+    "height": 353
+  },
+  {
+    "path": "app/images/gas-education-carousel-3.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 354,
+    "height": 281
+  },
+  {
+    "path": "app/images/genesys.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/gnosis-native-token-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/gnosis.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/goerli-logo-dark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 64,
+    "height": 64
+  },
+  {
+    "path": "app/images/google.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 25,
+    "height": 25
+  },
+  {
+    "path": "app/images/gravity.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/hardware-keystone-dark.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "app/images/hardware-keystone-light.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "app/images/hardware-keystone-logo.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 22
+  },
+  {
+    "path": "app/images/hardware-ledger-dark.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 41,
+    "height": 40
+  },
+  {
+    "path": "app/images/hardware-ledger-light.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 41,
+    "height": 40
+  },
+  {
+    "path": "app/images/hardware-ledger-logo.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 21
+  },
+  {
+    "path": "app/images/hardware-onekey-dark.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "app/images/hardware-onekey-light.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "app/images/hardware-onekey-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 420,
+    "height": 414
+  },
+  {
+    "path": "app/images/harmony.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "app/images/hemi.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 479,
+    "height": 479
+  },
+  {
+    "path": "app/images/hl_icon.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 270,
+    "height": 270
+  },
+  {
+    "path": "app/images/hyperevm.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/immersve-logo.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 179,
+    "height": 42
+  },
+  {
+    "path": "app/images/injective-native.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/injective.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/ios-face-id.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/kaia.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/katana.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 256,
+    "height": 256
+  },
+  {
+    "path": "app/images/konet.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 100,
+    "height": 100
+  },
+  {
+    "path": "app/images/leaderboard_card_1_avatar.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 192,
+    "height": 192
+  },
+  {
+    "path": "app/images/leaderboard_card_2_avatar.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 192,
+    "height": 192
+  },
+  {
+    "path": "app/images/leaderboard_card_3_avatar.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 192,
+    "height": 192
+  },
+  {
+    "path": "app/images/ledger-connect-dark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 423,
+    "height": 128
+  },
+  {
+    "path": "app/images/ledger-connect-error-dark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 226,
+    "height": 64
+  },
+  {
+    "path": "app/images/ledger-connect-error-light.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 226,
+    "height": 64
+  },
+  {
+    "path": "app/images/ledger-connect-light.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 423,
+    "height": 128
+  },
+  {
+    "path": "app/images/ledger-dark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 192,
+    "height": 64
+  },
+  {
+    "path": "app/images/ledger-device-dark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "app/images/ledger-device-found.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "path": "app/images/ledger-device-light.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "app/images/ledger-device-not-found.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "path": "app/images/ledger-light.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 192,
+    "height": 64
+  },
+  {
+    "path": "app/images/ledger-permissions.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 269,
+    "height": 271
+  },
+  {
+    "path": "app/images/lens.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 3521,
+    "height": 3521
+  },
+  {
+    "path": "app/images/lighter.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 160,
+    "height": 160
+  },
+  {
+    "path": "app/images/linea-mainnet-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 50,
+    "height": 50
+  },
+  {
+    "path": "app/images/linea-testnet-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 200,
+    "height": 200
+  },
+  {
+    "path": "app/images/lock.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 498,
+    "height": 499
+  },
+  {
+    "path": "app/images/lukso.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 761,
+    "height": 761
+  },
+  {
+    "path": "app/images/mantle-native.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1600,
+    "height": 1600
+  },
+  {
+    "path": "app/images/mantle.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/images/matchain.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 198,
+    "height": 198
+  },
+  {
+    "path": "app/images/matic.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "app/images/megaeth-mainnet-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 856,
+    "height": 856
+  },
+  {
+    "path": "app/images/megaeth-testnet-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 856,
+    "height": 856
+  },
+  {
+    "path": "app/images/metal-card.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 385,
+    "height": 392
+  },
+  {
+    "path": "app/images/metal-card@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 770,
+    "height": 784
+  },
+  {
+    "path": "app/images/metal-card@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1154,
+    "height": 1175
+  },
+  {
+    "path": "app/images/metamask-error.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 102,
+    "height": 100
+  },
+  {
+    "path": "app/images/mfa-failure.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 370,
+    "height": 64
+  },
+  {
+    "path": "app/images/mfa-shield.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 64,
+    "height": 67
+  },
+  {
+    "path": "app/images/mfa-shield@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 128,
+    "height": 134
+  },
+  {
+    "path": "app/images/mfa-shield@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 192,
+    "height": 202
+  },
+  {
+    "path": "app/images/mm-card-KYC-pending.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 2048,
+    "height": 2048
+  },
+  {
+    "path": "app/images/mm-card-mockup.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 3422,
+    "height": 2394
+  },
+  {
+    "path": "app/images/mm-card-onboarding-failed.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 2048,
+    "height": 3134
+  },
+  {
+    "path": "app/images/mm-card-onboarding-success.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 909,
+    "height": 1161
+  },
+  {
+    "path": "app/images/mm-card-rebrand.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1536,
+    "height": 1536
+  },
+  {
+    "path": "app/images/mm-card-verify.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 2048,
+    "height": 2048
+  },
+  {
+    "path": "app/images/mm-card-welcome.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1179,
+    "height": 1177
+  },
+  {
+    "path": "app/images/mm-cards-mockup.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 3437,
+    "height": 3437
+  },
+  {
+    "path": "app/images/mm_card_metal.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 110,
+    "height": 70
+  },
+  {
+    "path": "app/images/mm_card_metal@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 220,
+    "height": 140
+  },
+  {
+    "path": "app/images/mm_card_metal@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 330,
+    "height": 210
+  },
+  {
+    "path": "app/images/mm_card_regular.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 110,
+    "height": 70
+  },
+  {
+    "path": "app/images/mm_card_regular@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 220,
+    "height": 140
+  },
+  {
+    "path": "app/images/mm_card_regular@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 330,
+    "height": 210
+  },
+  {
+    "path": "app/images/mm_how_it_works.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 174,
+    "height": 174
+  },
+  {
+    "path": "app/images/mm_usd.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 144,
+    "height": 144
+  },
+  {
+    "path": "app/images/mm_what_you_get.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 198,
+    "height": 198
+  },
+  {
+    "path": "app/images/monad-mainnet-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/images/monad-testnet-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 50,
+    "height": 50
+  },
+  {
+    "path": "app/images/money-account-coins.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 722,
+    "height": 552
+  },
+  {
+    "path": "app/images/money-balance.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 16,
+    "height": 16
+  },
+  {
+    "path": "app/images/money-earn-banner-adai.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 110,
+    "height": 110
+  },
+  {
+    "path": "app/images/money-earn-banner-arrow.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 96,
+    "height": 89
+  },
+  {
+    "path": "app/images/money-earn-banner-ausdc.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 110,
+    "height": 110
+  },
+  {
+    "path": "app/images/money-earn-banner-ausdt.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 110,
+    "height": 110
+  },
+  {
+    "path": "app/images/money-earn-banner-coin.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 83,
+    "height": 96
+  },
+  {
+    "path": "app/images/money-earn-banner-dai.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 110,
+    "height": 117
+  },
+  {
+    "path": "app/images/money-earn-banner-musd.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 129,
+    "height": 129
+  },
+  {
+    "path": "app/images/money-earn-banner-usdc.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 101,
+    "height": 110
+  },
+  {
+    "path": "app/images/money-earn-banner-usdt.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 101,
+    "height": 110
+  },
+  {
+    "path": "app/images/money-onboarding-stepper-step-1.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 987,
+    "height": 555
+  },
+  {
+    "path": "app/images/money-onboarding-stepper-step-2.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 987,
+    "height": 555
+  },
+  {
+    "path": "app/images/money-splash-hero.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1083,
+    "height": 609
+  },
+  {
+    "path": "app/images/money-vba-account-ready-art.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 391
+  },
+  {
+    "path": "app/images/money-vba-get-started-art.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 107,
+    "height": 88
+  },
+  {
+    "path": "app/images/money-vba-get-started-art@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 213,
+    "height": 176
+  },
+  {
+    "path": "app/images/money-vba-get-started-art@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 320,
+    "height": 264
+  },
+  {
+    "path": "app/images/money-vba-identity-art.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 431,
+    "height": 355
+  },
+  {
+    "path": "app/images/money-vba-kyc-decision-art.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 424
+  },
+  {
+    "path": "app/images/money.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 72
+  },
+  {
+    "path": "app/images/moonpay-powered-by-logo.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 77,
+    "height": 18
+  },
+  {
+    "path": "app/images/msu-native.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 400,
+    "height": 400
+  },
+  {
+    "path": "app/images/msu.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 400,
+    "height": 400
+  },
+  {
+    "path": "app/images/musd-conversion-education-screen-v2-dark-3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1179,
+    "height": 1362
+  },
+  {
+    "path": "app/images/musd-conversion-education-screen-v2-light-3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1179,
+    "height": 1362
+  },
+  {
+    "path": "app/images/musd-icon-2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "path": "app/images/musd-icon-no-background-2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 144,
+    "height": 144
+  },
+  {
+    "path": "app/images/nearby-devices-denied.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 266,
+    "height": 268
+  },
+  {
+    "path": "app/images/negative_pnl_character_1_3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "app/images/negative_pnl_character_2_3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "app/images/networks1.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 103,
+    "height": 104
+  },
+  {
+    "path": "app/images/no-image-placeholder.jpeg",
+    "type": "jpeg",
+    "brandCandidate": false,
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "path": "app/images/nomina.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/nova-6273546.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 96,
+    "height": 96
+  },
+  {
+    "path": "app/images/onboarding-carousel-1.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1029,
+    "height": 1444
+  },
+  {
+    "path": "app/images/onboarding-carousel-2.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1029,
+    "height": 1444
+  },
+  {
+    "path": "app/images/onboarding-carousel-3.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1029,
+    "height": 1444
+  },
+  {
+    "path": "app/images/opensea-logo-flat-colored-blue.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 384,
+    "height": 116
+  },
+  {
+    "path": "app/images/optimism.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 256,
+    "height": 256
+  },
+  {
+    "path": "app/images/page-not-found.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 343,
+    "height": 322
+  },
+  {
+    "path": "app/images/page-not-found@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 686,
+    "height": 644
+  },
+  {
+    "path": "app/images/page-not-found@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1029,
+    "height": 966
+  },
+  {
+    "path": "app/images/palm.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "app/images/perps-competition-banner.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 144,
+    "height": 144
+  },
+  {
+    "path": "app/images/perps-home-empty-state.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 100,
+    "height": 100
+  },
+  {
+    "path": "app/images/perps-outreach-banner.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 224,
+    "height": 224
+  },
+  {
+    "path": "app/images/perps-pay-token-icon.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 256,
+    "height": 256
+  },
+  {
+    "path": "app/images/perps/margin-mode/cross.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/images/perps/order-types/chase-light.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 32,
+    "height": 32
+  },
+  {
+    "path": "app/images/perps/order-types/chase.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 32,
+    "height": 32
+  },
+  {
+    "path": "app/images/perps/order-types/limit-light.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 32,
+    "height": 32
+  },
+  {
+    "path": "app/images/perps/order-types/limit.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 32,
+    "height": 32
+  },
+  {
+    "path": "app/images/perps/order-types/market-light.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 32,
+    "height": 32
+  },
+  {
+    "path": "app/images/perps/order-types/market.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 32,
+    "height": 32
+  },
+  {
+    "path": "app/images/perps/order-types/scale-light.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 32,
+    "height": 32
+  },
+  {
+    "path": "app/images/perps/order-types/scale.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 32,
+    "height": 32
+  },
+  {
+    "path": "app/images/perps/order-types/stop-limit-light.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 32,
+    "height": 32
+  },
+  {
+    "path": "app/images/perps/order-types/stop-limit.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 32,
+    "height": 32
+  },
+  {
+    "path": "app/images/perps/order-types/stop-market-light.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 32,
+    "height": 32
+  },
+  {
+    "path": "app/images/perps/order-types/stop-market.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 32,
+    "height": 32
+  },
+  {
+    "path": "app/images/perps/order-types/take-limit-light.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 32,
+    "height": 32
+  },
+  {
+    "path": "app/images/perps/order-types/take-limit.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 32,
+    "height": 32
+  },
+  {
+    "path": "app/images/perps/order-types/take-market-light.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 32,
+    "height": 32
+  },
+  {
+    "path": "app/images/perps/order-types/take-market.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 32,
+    "height": 32
+  },
+  {
+    "path": "app/images/perps/order-types/twap-light.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 32,
+    "height": 32
+  },
+  {
+    "path": "app/images/perps/order-types/twap.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 32,
+    "height": 32
+  },
+  {
+    "path": "app/images/piggybank.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 96,
+    "height": 132
+  },
+  {
+    "path": "app/images/plasma-native.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 240,
+    "height": 240
+  },
+  {
+    "path": "app/images/plasma.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 162,
+    "height": 162
+  },
+  {
+    "path": "app/images/plume-native.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/plume.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/pol.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 50,
+    "height": 50
+  },
+  {
+    "path": "app/images/positive_pnl_character_2_3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "app/images/positive_pnl_character_3_3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "app/images/powered-by-polymarket.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 398,
+    "height": 48
+  },
+  {
+    "path": "app/images/predict-marketing.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 4096,
+    "height": 3175
+  },
+  {
+    "path": "app/images/predict_sports_events.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "app/images/predictions-dark.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 76
+  },
+  {
+    "path": "app/images/predictions-light.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 76
+  },
+  {
+    "path": "app/images/predictions-no-search-results-dark.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 78
+  },
+  {
+    "path": "app/images/predictions-no-search-results-light.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 78
+  },
+  {
+    "path": "app/images/privacy_metrics_illustration.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 403,
+    "height": 348
+  },
+  {
+    "path": "app/images/punch-6223749.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 96,
+    "height": 96
+  },
+  {
+    "path": "app/images/qrhardware-dark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 396,
+    "height": 89
+  },
+  {
+    "path": "app/images/qrhardware-light.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 396,
+    "height": 89
+  },
+  {
+    "path": "app/images/reveal-srp.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 680,
+    "height": 476
+  },
+  {
+    "path": "app/images/reveal_srp.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 191,
+    "height": 221
+  },
+  {
+    "path": "app/images/reveal_srp_intro.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 615,
+    "height": 552
+  },
+  {
+    "path": "app/images/rewards/campaign_winning.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1280,
+    "height": 1280
+  },
+  {
+    "path": "app/images/rewards/crown.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/images/rewards/dont-miss-out.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 289,
+    "height": 312
+  },
+  {
+    "path": "app/images/rewards/hypertracker.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 370,
+    "height": 76
+  },
+  {
+    "path": "app/images/rewards/metamask-rewards-activity-empty.svg",
+    "type": "svg",
+    "brandCandidate": true,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "path": "app/images/rewards/metamask-rewards-points-alternative.svg",
+    "type": "svg",
+    "brandCandidate": true,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/images/rewards/metamask-rewards-points.svg",
+    "type": "svg",
+    "brandCandidate": true,
+    "width": 21,
+    "height": 20
+  },
+  {
+    "path": "app/images/rewards/notification.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 16,
+    "height": 16
+  },
+  {
+    "path": "app/images/rewards/rewards-card-earn.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 156,
+    "height": 156
+  },
+  {
+    "path": "app/images/rewards/rewards-musd-earn.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 156,
+    "height": 156
+  },
+  {
+    "path": "app/images/rewards/rewards-no-positions.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 78
+  },
+  {
+    "path": "app/images/rewards/rewards-season-ended-no-unlocked-rewards.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 78
+  },
+  {
+    "path": "app/images/rewards/tiers/rewards-s1-tier-1.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 110,
+    "height": 84
+  },
+  {
+    "path": "app/images/rewards/trophy.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/images/rewards/vip.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/images/rewards/vip_splash.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 352,
+    "height": 419
+  },
+  {
+    "path": "app/images/robinhood.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "app/images/rootstock-native.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/rootstock.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/scroll-mainnet-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1776,
+    "height": 1776
+  },
+  {
+    "path": "app/images/secure_wallet_dark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 456,
+    "height": 481
+  },
+  {
+    "path": "app/images/secure_wallet_light.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 456,
+    "height": 481
+  },
+  {
+    "path": "app/images/security-quiz-intro-lock.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 191,
+    "height": 222
+  },
+  {
+    "path": "app/images/sei-native.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/sei.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/selected-wallet-icon.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 66,
+    "height": 66
+  },
+  {
+    "path": "app/images/sepolia-logo-dark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "app/images/sliderbutton-bg.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 403,
+    "height": 179
+  },
+  {
+    "path": "app/images/sliderbutton-shine.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 142,
+    "height": 114
+  },
+  {
+    "path": "app/images/smart-account-update.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 588,
+    "height": 248
+  },
+  {
+    "path": "app/images/smart-transactions-opt-in-bg.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 328,
+    "height": 138
+  },
+  {
+    "path": "app/images/smart-transactions-opt-in-bg@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 656,
+    "height": 276
+  },
+  {
+    "path": "app/images/smart-transactions-opt-in-bg@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 984,
+    "height": 414
+  },
+  {
+    "path": "app/images/socialV1/gift.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 48,
+    "height": 48
+  },
+  {
+    "path": "app/images/socialV1/gift@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 96,
+    "height": 96
+  },
+  {
+    "path": "app/images/socialV1/gift@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 144,
+    "height": 144
+  },
+  {
+    "path": "app/images/socialV1/megaphone.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 64,
+    "height": 58
+  },
+  {
+    "path": "app/images/socialV1/megaphone@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 128,
+    "height": 116
+  },
+  {
+    "path": "app/images/socialV1/megaphone@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 192,
+    "height": 174
+  },
+  {
+    "path": "app/images/socialV1/post-trade-earn.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 64,
+    "height": 64
+  },
+  {
+    "path": "app/images/solana-devnet.jpg",
+    "type": "jpg",
+    "brandCandidate": false,
+    "width": 400,
+    "height": 400
+  },
+  {
+    "path": "app/images/solana-logo-transparent.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 101,
+    "height": 88
+  },
+  {
+    "path": "app/images/solana-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "app/images/somnia.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/soneium.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 301,
+    "height": 300
+  },
+  {
+    "path": "app/images/songbird.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 578,
+    "height": 578
+  },
+  {
+    "path": "app/images/sophon-testnet.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "app/images/sophon.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "app/images/srp-lock-design.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 420,
+    "height": 510
+  },
+  {
+    "path": "app/images/stable-native.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/stable-native.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/stable.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/swaps_aggs-dark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 299,
+    "height": 111
+  },
+  {
+    "path": "app/images/swaps_aggs-dark@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 597,
+    "height": 221
+  },
+  {
+    "path": "app/images/swaps_aggs-dark@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 895,
+    "height": 331
+  },
+  {
+    "path": "app/images/swaps_aggs-light.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 299,
+    "height": 111
+  },
+  {
+    "path": "app/images/swaps_aggs-light@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 597,
+    "height": 221
+  },
+  {
+    "path": "app/images/swaps_aggs-light@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 895,
+    "height": 331
+  },
+  {
+    "path": "app/images/swaps_onboard_device.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 200,
+    "height": 211
+  },
+  {
+    "path": "app/images/swaps_onboard_device@2x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 400,
+    "height": 422
+  },
+  {
+    "path": "app/images/swaps_onboard_device@3x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 600,
+    "height": 633
+  },
+  {
+    "path": "app/images/sync-icon.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 57,
+    "height": 23
+  },
+  {
+    "path": "app/images/sync-icon@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 112,
+    "height": 44
+  },
+  {
+    "path": "app/images/sync-icon@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 169,
+    "height": 67
+  },
+  {
+    "path": "app/images/tab-icons/activity-selected.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 28,
+    "height": 28
+  },
+  {
+    "path": "app/images/tab-icons/activity-selected@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 56,
+    "height": 56
+  },
+  {
+    "path": "app/images/tab-icons/activity-selected@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 84,
+    "height": 84
+  },
+  {
+    "path": "app/images/tab-icons/activity.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 28,
+    "height": 28
+  },
+  {
+    "path": "app/images/tab-icons/activity@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 56,
+    "height": 56
+  },
+  {
+    "path": "app/images/tab-icons/activity@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 84,
+    "height": 84
+  },
+  {
+    "path": "app/images/tab-icons/explore-selected.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 28,
+    "height": 28
+  },
+  {
+    "path": "app/images/tab-icons/explore-selected@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 56,
+    "height": 56
+  },
+  {
+    "path": "app/images/tab-icons/explore-selected@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 84,
+    "height": 84
+  },
+  {
+    "path": "app/images/tab-icons/explore.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 28,
+    "height": 28
+  },
+  {
+    "path": "app/images/tab-icons/explore@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 56,
+    "height": 56
+  },
+  {
+    "path": "app/images/tab-icons/explore@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 84,
+    "height": 84
+  },
+  {
+    "path": "app/images/tab-icons/home-selected.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 28,
+    "height": 28
+  },
+  {
+    "path": "app/images/tab-icons/home-selected@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 56,
+    "height": 56
+  },
+  {
+    "path": "app/images/tab-icons/home-selected@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 84,
+    "height": 84
+  },
+  {
+    "path": "app/images/tab-icons/home.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 28,
+    "height": 28
+  },
+  {
+    "path": "app/images/tab-icons/home@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 56,
+    "height": 56
+  },
+  {
+    "path": "app/images/tab-icons/home@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 84,
+    "height": 84
+  },
+  {
+    "path": "app/images/tab-icons/money-selected.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 28,
+    "height": 28
+  },
+  {
+    "path": "app/images/tab-icons/money-selected@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 56,
+    "height": 56
+  },
+  {
+    "path": "app/images/tab-icons/money-selected@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 84,
+    "height": 84
+  },
+  {
+    "path": "app/images/tab-icons/money.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 28,
+    "height": 28
+  },
+  {
+    "path": "app/images/tab-icons/money@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 56,
+    "height": 56
+  },
+  {
+    "path": "app/images/tab-icons/money@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 84,
+    "height": 84
+  },
+  {
+    "path": "app/images/tab-icons/rewards-selected.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 28,
+    "height": 28
+  },
+  {
+    "path": "app/images/tab-icons/rewards-selected@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 56,
+    "height": 56
+  },
+  {
+    "path": "app/images/tab-icons/rewards-selected@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 84,
+    "height": 84
+  },
+  {
+    "path": "app/images/tab-icons/rewards.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 28,
+    "height": 28
+  },
+  {
+    "path": "app/images/tab-icons/rewards@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 56,
+    "height": 56
+  },
+  {
+    "path": "app/images/tab-icons/rewards@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 84,
+    "height": 84
+  },
+  {
+    "path": "app/images/tab-icons/social-selected.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 28,
+    "height": 28
+  },
+  {
+    "path": "app/images/tab-icons/social-selected@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 56,
+    "height": 56
+  },
+  {
+    "path": "app/images/tab-icons/social-selected@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 84,
+    "height": 84
+  },
+  {
+    "path": "app/images/tab-icons/social.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 28,
+    "height": 28
+  },
+  {
+    "path": "app/images/tab-icons/social@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 56,
+    "height": 56
+  },
+  {
+    "path": "app/images/tab-icons/social@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 84,
+    "height": 84
+  },
+  {
+    "path": "app/images/tab-icons/trade-close.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/images/tab-icons/trade-close@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 48,
+    "height": 48
+  },
+  {
+    "path": "app/images/tab-icons/trade-close@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 72
+  },
+  {
+    "path": "app/images/tab-icons/trade.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/images/tab-icons/trade@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 48,
+    "height": 48
+  },
+  {
+    "path": "app/images/tab-icons/trade@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 72
+  },
+  {
+    "path": "app/images/tempo-native.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/tempo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "path": "app/images/transaction-background-bottom.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 800,
+    "height": 62
+  },
+  {
+    "path": "app/images/transaction-background-top.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 817,
+    "height": 54
+  },
+  {
+    "path": "app/images/transaction-icons/approve-failed.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "app/images/transaction-icons/approve.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "app/images/transaction-icons/interaction-failed.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "app/images/transaction-icons/interaction.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "app/images/transaction-icons/receive-failed.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "app/images/transaction-icons/receive-inverted.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "app/images/transaction-icons/receive.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "app/images/transaction-icons/send-failed.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "app/images/transaction-icons/send.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "app/images/transaction-icons/swap-dark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "app/images/transaction-icons/swap-failed-dark.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "app/images/transaction-icons/swap-failed.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "app/images/transaction-icons/swap.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "app/images/tron-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 256,
+    "height": 256
+  },
+  {
+    "path": "app/images/tron.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/images/tx-history-icon.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 348,
+    "height": 352
+  },
+  {
+    "path": "app/images/wallet-alpha.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 219,
+    "height": 220
+  },
+  {
+    "path": "app/images/wallet-exists.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1061,
+    "height": 926
+  },
+  {
+    "path": "app/images/wallet-home-onboarding-add-funds.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 360,
+    "height": 202
+  },
+  {
+    "path": "app/images/wallet-home-onboarding-notifications.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 360,
+    "height": 202
+  },
+  {
+    "path": "app/images/wallet-home-onboarding-trade.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 360,
+    "height": 202
+  },
+  {
+    "path": "app/images/wallet-icon.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 66,
+    "height": 66
+  },
+  {
+    "path": "app/images/wallet-not-found.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1029,
+    "height": 906
+  },
+  {
+    "path": "app/images/watchlist-empty-dark.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 78
+  },
+  {
+    "path": "app/images/watchlist-empty-light.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 72,
+    "height": 78
+  },
+  {
+    "path": "app/images/welcome-bg1.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 375,
+    "height": 669
+  },
+  {
+    "path": "app/images/welcome-bg1@2x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 750,
+    "height": 1338
+  },
+  {
+    "path": "app/images/welcome-bg1@3x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1125,
+    "height": 2007
+  },
+  {
+    "path": "app/images/welcome-bg2.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 375,
+    "height": 669
+  },
+  {
+    "path": "app/images/welcome-bg2@2x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 750,
+    "height": 1338
+  },
+  {
+    "path": "app/images/welcome-bg2@3x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1125,
+    "height": 2007
+  },
+  {
+    "path": "app/images/welcome-bg3.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 375,
+    "height": 669
+  },
+  {
+    "path": "app/images/welcome-bg3@2x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 750,
+    "height": 1338
+  },
+  {
+    "path": "app/images/welcome-bg3@3x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1125,
+    "height": 2007
+  },
+  {
+    "path": "app/images/welcome-bg4.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 375,
+    "height": 669
+  },
+  {
+    "path": "app/images/welcome-bg4@2x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 750,
+    "height": 1338
+  },
+  {
+    "path": "app/images/welcome-bg4@3x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1125,
+    "height": 2007
+  },
+  {
+    "path": "app/images/whats-new-security.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 560,
+    "height": 256
+  },
+  {
+    "path": "app/images/whats-new-token-detection.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 264,
+    "height": 128
+  },
+  {
+    "path": "app/images/whats-new-token-detection@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 528,
+    "height": 256
+  },
+  {
+    "path": "app/images/whats-new-token-detection@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 792,
+    "height": 384
+  },
+  {
+    "path": "app/images/whats-new-token-security.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 264,
+    "height": 128
+  },
+  {
+    "path": "app/images/whats-new-token-security@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 528,
+    "height": 256
+  },
+  {
+    "path": "app/images/whats-new-token-security@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 792,
+    "height": 384
+  },
+  {
+    "path": "app/images/whats_new_blockaid.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 296,
+    "height": 145
+  },
+  {
+    "path": "app/images/whats_new_mask_icons.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1029,
+    "height": 648
+  },
+  {
+    "path": "app/images/whats_new_remove_gns.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1029,
+    "height": 648
+  },
+  {
+    "path": "app/images/whats_new_sell.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 264,
+    "height": 128
+  },
+  {
+    "path": "app/images/whats_new_sell@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 528,
+    "height": 256
+  },
+  {
+    "path": "app/images/whats_new_sell@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 792,
+    "height": 384
+  },
+  {
+    "path": "app/images/whats_new_transaction_simulation.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 328,
+    "height": 180
+  },
+  {
+    "path": "app/images/whats_new_transaction_simulation@2x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 656,
+    "height": 360
+  },
+  {
+    "path": "app/images/whats_new_transaction_simulation@3x.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 984,
+    "height": 540
+  },
+  {
+    "path": "app/images/x-layer-native.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "app/images/x-layer.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 400,
+    "height": 400
+  },
+  {
+    "path": "app/images/xdc.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1450,
+    "height": 1450
+  },
+  {
+    "path": "app/images/xlm.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 256,
+    "height": 256
+  },
+  {
+    "path": "app/images/xrp-logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 2500,
+    "height": 2500
+  },
+  {
+    "path": "app/images/xrplevm.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/images/zk-sync.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 50,
+    "height": 50
+  },
+  {
+    "path": "architecture.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 1684,
+    "height": 1544
+  },
+  {
+    "path": "brand/assets/logo-source.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 673,
+    "height": 673
+  },
+  {
+    "path": "brand/assets/logo-white.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 673,
+    "height": 673
+  },
+  {
+    "path": "docs/assets/confirmation.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1080,
+    "height": 2160
+  },
+  {
+    "path": "docs/assets/debugging/redux-devtools-selection.jpg",
+    "type": "jpg",
+    "brandCandidate": false,
+    "width": 798,
+    "height": 204
+  },
+  {
+    "path": "docs/assets/nft-fallback.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 686,
+    "height": 698
+  },
+  {
+    "path": "docs/assets/performance-render/callstack-p14.jpg",
+    "type": "jpg",
+    "brandCandidate": false,
+    "width": 1039,
+    "height": 577
+  },
+  {
+    "path": "docs/assets/performance-render/callstack-p15.jpg",
+    "type": "jpg",
+    "brandCandidate": false,
+    "width": 1039,
+    "height": 1474
+  },
+  {
+    "path": "docs/assets/performance-render/callstack-p16.jpg",
+    "type": "jpg",
+    "brandCandidate": false,
+    "width": 1039,
+    "height": 1474
+  },
+  {
+    "path": "docs/assets/performance-render/callstack-p17.jpg",
+    "type": "jpg",
+    "brandCandidate": false,
+    "width": 1039,
+    "height": 1474
+  },
+  {
+    "path": "docs/assets/performance-render/callstack-p18.jpg",
+    "type": "jpg",
+    "brandCandidate": false,
+    "width": 1039,
+    "height": 1210
+  },
+  {
+    "path": "docs/assets/performance-render/react-devtools-profiling.jpg",
+    "type": "jpg",
+    "brandCandidate": false,
+    "width": 2578,
+    "height": 1092
+  },
+  {
+    "path": "docs/assets/performance-render/react-devtools-selection.jpg",
+    "type": "jpg",
+    "brandCandidate": false,
+    "width": 914,
+    "height": 208
+  },
+  {
+    "path": "docs/pr-screenshots/38165/create-password-before.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 896,
+    "height": 424
+  },
+  {
+    "path": "docs/pr-screenshots/38165/forgot-password-before.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 986,
+    "height": 958
+  },
+  {
+    "path": "docs/pr-screenshots/38165/interest-pills-before.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 812,
+    "height": 154
+  },
+  {
+    "path": "docs/pr-screenshots/38165/not-quite-right-after-top.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 774,
+    "height": 586
+  },
+  {
+    "path": "docs/pr-screenshots/38165/not-quite-right-after.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 772,
+    "height": 566
+  },
+  {
+    "path": "docs/pr-screenshots/38165/not-quite-right-before.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 850,
+    "height": 656
+  },
+  {
+    "path": "docs/pr-screenshots/38165/onboarding-srp-after.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 782,
+    "height": 866
+  },
+  {
+    "path": "docs/pr-screenshots/38165/onboarding-srp-before.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 527,
+    "height": 1024
+  },
+  {
+    "path": "docs/pr-screenshots/38165/password-eye-after.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 874,
+    "height": 226
+  },
+  {
+    "path": "docs/pr-screenshots/38165/password-eye-before.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 136,
+    "height": 142
+  },
+  {
+    "path": "docs/pr-screenshots/38165/password-warning-after.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 888,
+    "height": 784
+  },
+  {
+    "path": "docs/pr-screenshots/38165/password-warning-before.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 936,
+    "height": 836
+  },
+  {
+    "path": "docs/pr-screenshots/38165/password-warning-gap-before.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 846,
+    "height": 714
+  },
+  {
+    "path": "docs/pr-screenshots/38165/reset-confirm-after-full.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 792,
+    "height": 862
+  },
+  {
+    "path": "docs/pr-screenshots/38165/reset-confirm-after.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1012,
+    "height": 856
+  },
+  {
+    "path": "docs/pr-screenshots/38165/reset-confirm-before-copy.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 866,
+    "height": 946
+  },
+  {
+    "path": "docs/pr-screenshots/38165/reset-confirm-before.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 952,
+    "height": 284
+  },
+  {
+    "path": "docs/pr-screenshots/38165/srp-backup-after.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 592,
+    "height": 1024
+  },
+  {
+    "path": "docs/pr-screenshots/38165/srp-card-border-before.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 974,
+    "height": 580
+  },
+  {
+    "path": "docs/pr-screenshots/38165/srp-link-before.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 832,
+    "height": 226
+  },
+  {
+    "path": "docs/pr-screenshots/38165/srp-sheet-after.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 794,
+    "height": 906
+  },
+  {
+    "path": "docs/pr-screenshots/38165/srp-sheet-divider-before.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 850,
+    "height": 152
+  },
+  {
+    "path": "image.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1724,
+    "height": 1158
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/100.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 100,
+    "height": 100
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/1024.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/114.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 114,
+    "height": 114
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/120.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/144.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 144,
+    "height": 144
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/152.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 152,
+    "height": 152
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/167.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 167,
+    "height": 167
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/180.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 180,
+    "height": 180
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/20.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 20,
+    "height": 20
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/29.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 29,
+    "height": 29
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/40.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/50.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 50,
+    "height": 50
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/57.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 57,
+    "height": 57
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/58.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 58,
+    "height": 58
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/60.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 60,
+    "height": 60
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/72.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 72,
+    "height": 72
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/76.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 76,
+    "height": 76
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/80.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/87.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 87,
+    "height": 87
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/1024_dark.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/1024_light.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/1024_tinted.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/114_dark.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 114,
+    "height": 114
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/114_light.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 114,
+    "height": 114
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/114_tinted.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 114,
+    "height": 114
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/120_1_dark.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/120_1_light.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/120_1_tinted.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/120_dark.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/120_light.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/120_tinted.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/128_dark.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/128_light.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/128_tinted.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/136_dark.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 136,
+    "height": 136
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/136_light.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 136,
+    "height": 136
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/136_tinted.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 136,
+    "height": 136
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/152_dark.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 152,
+    "height": 152
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/152_light.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 152,
+    "height": 152
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/152_tinted.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 152,
+    "height": 152
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/167_dark.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 167,
+    "height": 167
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/167_light.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 167,
+    "height": 167
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/167_tinted.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 167,
+    "height": 167
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/180_dark.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 180,
+    "height": 180
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/180_light.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 180,
+    "height": 180
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/180_tinted.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 180,
+    "height": 180
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/192_dark.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 192,
+    "height": 192
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/192_light.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 192,
+    "height": 192
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/192_tinted.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 192,
+    "height": 192
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/40_dark.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/40_light.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/40_tinted.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/58_dark.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 58,
+    "height": 58
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/58_light.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 58,
+    "height": 58
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/58_tinted.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 58,
+    "height": 58
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/60_dark.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 60,
+    "height": 60
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/60_light.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 60,
+    "height": 60
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/60_tinted.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 60,
+    "height": 60
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/76_dark.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 76,
+    "height": 76
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/76_light.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 76,
+    "height": 76
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/76_tinted.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 76,
+    "height": 76
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/80_dark.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/80_light.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/80_tinted.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/87_dark.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 87,
+    "height": 87
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/87_light.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 87,
+    "height": 87
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/87_tinted.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 87,
+    "height": 87
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/fox-splash-screen.imageset/splash@1x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 144,
+    "height": 144
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/fox-splash-screen.imageset/splash@2x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 288,
+    "height": 288
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/fox-splash-screen.imageset/splash@3x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 432,
+    "height": 432
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/fox.imageset/fox@1x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 125,
+    "height": 125
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/fox.imageset/fox@2x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 250,
+    "height": 250
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/fox.imageset/fox@3x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 375,
+    "height": 375
+  },
+  {
+    "path": "logo.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 100,
+    "height": 96
+  },
+  {
+    "path": "store/play-icon-512.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "tests/integration/coverage.svg",
+    "type": "svg",
+    "brandCandidate": false,
+    "width": 680,
+    "height": 470
+  },
+  {
+    "path": "tests/visual-regression/baselines/android/Swap-Confirmation-ETH-USDC.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1080,
+    "height": 2340
+  },
+  {
+    "path": "tests/visual-regression/baselines/ios/Swap-Confirmation-ETH-USDC.png",
+    "type": "png",
+    "brandCandidate": false,
+    "width": 1178,
+    "height": 2556
+  }
+]

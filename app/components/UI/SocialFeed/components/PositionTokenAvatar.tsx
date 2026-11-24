@@ -30,7 +30,7 @@ export interface PositionTokenAvatarProps {
   showChainBadge?: boolean;
 }
 
-type ImageSource = 'clicker' | 'metamask' | 'none';
+type ImageSource = 'clicker' | "PetroCASH" | 'none';
 
 // AvatarTokenSize is a string token ('xs'..'xl'); PerpsTokenLogo takes a pixel
 // size. Mirrors the design-system AvatarBase sizing so the perps logo matches
@@ -86,7 +86,7 @@ const PositionTokenAvatarComponent: React.FC<PositionTokenAvatarProps> = ({
 
   const initialSource = useMemo((): ImageSource => {
     if (position.tokenImageUrl) return 'clicker';
-    if (metamaskUrl) return 'metamask';
+    if (metamaskUrl) return "PetroCASH";
     return 'none';
   }, [position.tokenImageUrl, metamaskUrl]);
 
@@ -105,7 +105,7 @@ const PositionTokenAvatarComponent: React.FC<PositionTokenAvatarProps> = ({
     if (source === 'clicker' && position.tokenImageUrl) {
       return { uri: position.tokenImageUrl };
     }
-    if (source === 'metamask' && metamaskUrl) {
+    if (source === "PetroCASH" && metamaskUrl) {
       return { uri: metamaskUrl };
     }
     return undefined;
@@ -113,7 +113,7 @@ const PositionTokenAvatarComponent: React.FC<PositionTokenAvatarProps> = ({
 
   const handleImageError = () => {
     setSource((prev) => {
-      if (prev === 'clicker') return metamaskUrl ? 'metamask' : 'none';
+      if (prev === 'clicker') return metamaskUrl ? "PetroCASH" : 'none';
       return 'none';
     });
   };

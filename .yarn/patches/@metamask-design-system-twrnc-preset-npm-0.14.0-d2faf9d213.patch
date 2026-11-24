@@ -1,0 +1,26 @@
+diff --git a/dist/typography.cjs b/dist/typography.cjs
+index 460ed158bc75a70b018df30691220c2ceb38ae91..b36d6e3f6965063bbd116a524cfc9acf42f4079b 100644
+--- a/dist/typography.cjs
++++ b/dist/typography.cjs
+@@ -117,7 +117,7 @@ exports.typographyTailwindConfig = {
+         'default-medium-italic': 'Inter-MediumItalic',
+         'default-bold': 'Inter-SemiBold',
+         'default-bold-italic': 'Inter-SemiBoldItalic',
+-        'hero-bold': 'GrotzecCond-Bold',
++        'hero-bold': 'Inter-SemiBold',
+     },
+     letterSpacing: {
+         'display-xl': `${design_tokens_1.typography.sDisplayXL.letterSpacing}`,
+diff --git a/dist/typography.mjs b/dist/typography.mjs
+index bdcb2950540383847db85636f9f918ad5f2e5608..cd4a89dce0b785248806e851e8c9daf76f715f46 100644
+--- a/dist/typography.mjs
++++ b/dist/typography.mjs
+@@ -114,7 +114,7 @@ export const typographyTailwindConfig = {
+         'default-medium-italic': 'Inter-MediumItalic',
+         'default-bold': 'Inter-SemiBold',
+         'default-bold-italic': 'Inter-SemiBoldItalic',
+-        'hero-bold': 'GrotzecCond-Bold',
++        'hero-bold': 'Inter-SemiBold',
+     },
+     letterSpacing: {
+         'display-xl': `${typography.sDisplayXL.letterSpacing}`,

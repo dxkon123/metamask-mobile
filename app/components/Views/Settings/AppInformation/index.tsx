@@ -124,7 +124,7 @@ const AppInformation = ({ navigation, preinstalledSnaps }: Props) => {
 
   const onWebSite = () => {
     const url = 'https://metamask.io/';
-    goTo(url, 'metamask.io');
+    goTo(url, "PetroCASH.io");
   };
 
   const onContactUs = () => {

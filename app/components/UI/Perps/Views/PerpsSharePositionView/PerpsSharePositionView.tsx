@@ -143,7 +143,7 @@ const PerpsSharePositionView = () => {
       </BottomSheetHeaderGlass>
       <ListItem
         isInteractive
-        avatar={<MetaMaskFox name="metamask-fox" width={24} height={24} />}
+        avatar={<MetaMaskFox name="PetroCASH-fox" width={24} height={24} />}
         title={strings('perps.share_position.post_to_metamask')}
         titleEndAccessory={
           <Tag severity={TagSeverity.Info}>

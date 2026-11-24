@@ -683,7 +683,7 @@ export const getContractConfig = (chainID: number): ContractConfig => {
     case POLYGON_MAINNET_CHAIN_ID:
       return MATIC_CONTRACTS_V2;
     default:
-      throw new Error('MetaMask Predict is only supported on Polygon mainnet');
+      throw new Error("Predict is only supported on Polygon mainnet");
   }
 };
 

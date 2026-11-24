@@ -1,7 +1,7 @@
 {
   "sample_feature": {
     "title": "Fitur contoh",
-    "description": "Ini adalah layar yang memperagakan cara membangun fitur sampel menyeluruh di MetaMask.",
+    "description": "Ini adalah layar yang memperagakan cara membangun fitur sampel menyeluruh di PetroCASH.",
     "counter": {
       "title": "Counter",
       "value": "Nilai: {{value}}",
@@ -22,7 +22,7 @@
   },
   "access_restricted": {
     "title": "Akses dibatasi",
-    "description_line1": "Alamat dompet ini telah ditandai selama pemeriksaan kepatuhan. Akibatnya, beberapa layanan MetaMask tidak tersedia.",
+    "description_line1": "Alamat dompet ini telah ditandai selama pemeriksaan kepatuhan. Akibatnya, beberapa layanan PetroCASH tidak tersedia.",
     "description_line2": "Jika Anda yakin ini merupakan kesalahan, hubungi dukungan untuk meminta peninjauan.",
     "contact_support": "Hubungi dukungan"
   },
@@ -31,7 +31,7 @@
     "description": "Selamat datang di Arc! Untuk memfasilitasi dan memverifikasi penggunaan Anda atas Arc chain, kami dapat membagikan informasi kepada tim Arc."
   },
   "storage": {
-    "device_full_alert": "Penyimpanan pada perangkat Anda hampir habis. Kosongkan ruang sehingga MetaMask dapat menyimpan data dompet Anda."
+    "device_full_alert": "Penyimpanan pada perangkat Anda hampir habis. Kosongkan ruang sehingga PetroCASH dapat menyimpan data dompet Anda."
   },
   "alert_system": {
     "alert_modal": {
@@ -317,13 +317,13 @@
   },
   "onboarding": {
     "title": "Ayo mulai!",
-    "sync_desc": "Jika Anda sudah memiliki ekstensi MetaMask atau dompet lain, sinkronkan atau impor untuk mengelola aset yang ada.",
+    "sync_desc": "Jika Anda sudah memiliki ekstensi PetroCASH atau dompet lain, sinkronkan atau impor untuk mengelola aset yang ada.",
     "create_desc": "Atur dompet pertama Anda dan mulailah menjelajahi aplikasi terdesentralisasi.",
     "import": "Impor dompet yang ada atau buat yang baru",
     "import_wallet_button": "Sinkronkan atau impor dompet",
     "new_to_crypto": "Baru mengenal kripto?",
     "start_exploring_now": "Buat dompet baru",
-    "new_to_metamask": "Baru mengenal MetaMask?",
+    "new_to_metamask": "Baru mengenal PetroCASH?",
     "already_have_wallet": "Sudah memiliki dompet?",
     "optin_back_title": "Perhatian!",
     "optin_back_desc": "Setujui atau tidak setujui penggunaan analisis data. Anda juga dapat memperbarui opsi ini di pengaturan.",
@@ -331,15 +331,15 @@
     "warning_text_1": "Dompet dan akun Anda saat ini akan",
     "warning_text_2": "dihapus",
     "warning_text_3": "jika tetap melanjutkannya.",
-    "warning_text_4": "Anda HANYA dapat memulihkannya dengan Frasa Pemulihan Rahasia dompet. MetaMask tidak dapat membantu Anda memulihkannya.",
+    "warning_text_4": "Anda HANYA dapat memulihkannya dengan Frasa Pemulihan Rahasia dompet. PetroCASH tidak dapat membantu Anda memulihkannya.",
     "warning_proceed": "Hapus dompet dan lanjutkan",
     "warning_cancel": "Batal",
     "step1": "Pengaturan dompet",
     "step2": "Buat kata sandi",
     "step3": "Amankan dompet",
     "already_have": "Sudah memiliki dompet?",
-    "sync_existing": "Sinkronkan dompet MetaMask yang ada dari ekstensi browser atau impor secara manual.",
-    "scan_title": "Langkah-langkah untuk menyinkronkan dengan ekstensi MetaMask",
+    "sync_existing": "Sinkronkan dompet PetroCASH yang ada dari ekstensi browser atau impor secara manual.",
+    "scan_title": "Langkah-langkah untuk menyinkronkan dengan ekstensi PetroCASH",
     "scan": "Pindai",
     "scan_step_1": "Buka ekstensi di desktop",
     "scan_step_2": "Buka Pengaturan > Lanjutan",
@@ -364,7 +364,7 @@
     "import_using_srp_social_login": "Saya sudah memiliki dompet",
     "by_continuing": "Dengan melanjutkan, Anda menyetujui",
     "terms_of_use": "Ketentuan penggunaan",
-    "privacy_notice": "Pemberitahuan privasi MetaMask",
+    "privacy_notice": "Pemberitahuan privasi PetroCASH",
     "and": "dan"
   },
   "onboarding_success": {
@@ -407,12 +407,12 @@
     "existing_user_button": "Buka dompet"
   },
   "onboarding_carousel": {
-    "title1": "Selamat datang di MetaMask",
+    "title1": "Selamat datang di PetroCASH",
     "title2": "Kelola aset digital Anda",
     "title3": "Gerbang menuju web3",
-    "subtitle1": "MetaMask merupakan dompet aman yang dipercaya oleh jutaan orang yang membuat dunia web3 dapat diakses oleh semua orang.",
+    "subtitle1": "PetroCASH merupakan dompet aman yang dipercaya oleh jutaan orang yang membuat dunia web3 dapat diakses oleh semua orang.",
     "subtitle2": "Simpan, gunakan, dan kirim aset digital seperti token, Ethereum, koleksi unik.",
-    "subtitle3": "Masuk melalui MetaMask dan lakukan transaksi untuk berinvestasi, menghasilkan, bermain game, menjual, dan banyak lagi!",
+    "subtitle3": "Masuk melalui PetroCASH dan lakukan transaksi untuk berinvestasi, menghasilkan, bermain game, menjual, dan banyak lagi!",
     "get_started": "Mulai"
   },
   "onboarding_wizard": {
@@ -442,7 +442,7 @@
     "step4": {
       "title": "Menu utama",
       "content1": "Anda dapat mengakses riwayat transaksi, pengaturan, dan dukungan dari menu ini.",
-      "content2": "Anda dapat melakukan berbagai tindakan dengan akun Anda dan mengakses pengaturan MetaMask."
+      "content2": "Anda dapat melakukan berbagai tindakan dengan akun Anda dan mengakses pengaturan PetroCASH."
     },
     "step5": {
       "title": "Jelajahi browser",
@@ -461,7 +461,7 @@
     },
     "step1": {
       "title": "Selamat datang di dompet Anda!",
-      "content1": "Di blockchain, Anda memerlukan dompet (dan mungkin beberapa ETH). Jadi, mari kita lihat cara menggunakan dompet MetaMask."
+      "content1": "Di blockchain, Anda memerlukan dompet (dan mungkin beberapa ETH). Jadi, mari kita lihat cara menggunakan dompet PetroCASH."
     },
     "step2": {
       "title": "Akun Anda",
@@ -493,14 +493,14 @@
     "subtitle": "Tidak perlu menunggu lama"
   },
   "import_wallet": {
-    "title": "Sudah menjadi pengguna MetaMask?",
+    "title": "Sudah menjadi pengguna PetroCASH?",
     "sub_title": "Sinkronkan dengan ekstensi",
     "sync_help": "Sinkronkan dompet Anda dengan ekstensi",
     "sync_help_step_one": "1. Buka ekstensi",
     "sync_help_step_two": "2. Buka Pengaturan > Lanjutan",
     "sync_help_step_three": "3. Klik \"Sinkronkan dengan Ponsel\"",
     "sync_help_step_four": "4. Pindai Kode QR untuk mulai menyinkronkan",
-    "sync_from_browser_extension_button": "Sinkronkan dengan ekstensi MetaMask",
+    "sync_from_browser_extension_button": "Sinkronkan dengan ekstensi PetroCASH",
     "or": "Atau",
     "import_from_seed_button": "Impor menggunakan Frasa Pemulihan Rahasia"
   },
@@ -520,22 +520,22 @@
     "your_current_wallet": "Dompet, akun, dan aset Anda akan",
     "removed_from": " dihapus secara permanen dari aplikasi ini",
     "this_action": "Tindakan ini tidak dapat dibatalkan.",
-    "you_can_only": "Anda hanya bisa mendapatkan kembali dompet ini dengan informasi yang digunakan saat membuatnya, seperti Frasa Pemulihan Rahasia, akun Google, atau akun Apple. MetaMask tidak memiliki informasi ini.",
+    "you_can_only": "Anda hanya bisa mendapatkan kembali dompet ini dengan informasi yang digunakan saat membuatnya, seperti Frasa Pemulihan Rahasia, akun Google, atau akun Apple. PetroCASH tidak memiliki informasi ini.",
     "recovery_phrase": "Frasa Pemulihan Rahasia",
-    "metamask_does_not": "MetaMask tidak menyimpan Frasa Pemulihan Rahasia Anda.",
+    "metamask_does_not": "PetroCASH tidak menyimpan Frasa Pemulihan Rahasia Anda.",
     "i_understand": "Saya mengerti, lanjutkan",
     "passcode_not_set_error": "Kesalahan: Kode sandi belum diatur.",
     "wrong_password_error": "Kata sandi salah. Coba lagi.",
     "wrong_password_error_android": "Kata sandi salah. Coba lagi.",
     "vault_error": "Kesalahan: Tidak dapat dibuka tanpa vault sebelumnya.",
-    "clean_vault_error": "MetaMask mengalami kesalahan karena batas penyimpanan telah tercapai. Data lokal telah rusak. Instal ulang MetaMask dan pulihkan dengan Frasa Pemulihan Rahasia.",
+    "clean_vault_error": "PetroCASH mengalami kesalahan karena batas penyimpanan telah tercapai. Data lokal telah rusak. Instal ulang PetroCASH dan pulihkan dengan Frasa Pemulihan Rahasia.",
     "seedless_password_outdated": "Kata sandi Anda baru saja diubah.",
     "seedless_password_outdated_modal_title": "Kata sandi Anda telah diubah",
-    "seedless_password_outdated_modal_content": "Kata sandi Anda baru saja diubah, jadi Anda perlu memasukkan kata sandi baru untuk tetap masuk ke MetaMask.",
+    "seedless_password_outdated_modal_content": "Kata sandi Anda baru saja diubah, jadi Anda perlu memasukkan kata sandi baru untuk tetap masuk ke PetroCASH.",
     "seedless_password_outdated_modal_confirm": "Lanjutkan",
     "no_internet_connection": "Pemulihan akun tanpa seed memerlukan koneksi internet.",
     "seedless_controller_error_prompt_title": "Terjadi kesalahan",
-    "seedless_controller_error_prompt_description": "Terjadi masalah saat membuka. Masuk kembali dengan Google dan kata sandi MetaMask Anda.",
+    "seedless_controller_error_prompt_description": "Terjadi masalah saat membuka. Masuk kembali dengan Google dan kata sandi PetroCASH Anda.",
     "seedless_controller_error_prompt_primary_button_label": "Masuk",
     "security_alert_title": "Peringatan keamanan",
     "security_alert_desc": "Untuk melanjutkan, Anda harus mengaktifkan Kode Sandi atau metode autentikasi biometrik yang didukung di perangkat Anda (ID Wajah, ID Sentuh, atau Sidik Jari)",
@@ -545,20 +545,20 @@
     "google_button": "Masuk dengan Google",
     "other_methods": "Gunakan metode login yang berbeda",
     "forgot_password_desc": "Lupa kata sandi Anda?",
-    "forgot_password_desc_2": "MetaMask tidak dapat memulihkan kata sandi Anda.",
-    "forgot_password_point_1": "Jika Anda masuk ke MetaMask pada perangkat dengan",
+    "forgot_password_desc_2": "PetroCASH tidak dapat memulihkan kata sandi Anda.",
+    "forgot_password_point_1": "Jika Anda masuk ke PetroCASH pada perangkat dengan",
     "forgot_password_point_1_bold": "biometrik diaktifkan",
     "forgot_password_point_1_1": "(seperti Face ID), reset kata sandi Anda di sana.",
     "forgot_password_point_2": "Jika Anda memiliki",
     "forgot_password_point_2_bold": "dompet Anda,",
     "forgot_password_point_2_1": "Anda dapat mereset dompet saat ini dan mengimpor ulang menggunakan Frasa Pemulihan Rahasia.",
     "reset_wallet": "Reset dompet",
-    "reset_wallet_desc": "Data dompet Anda akan dihapus dari MetaMask di perangkat ini. Tindakan ini tidak dapat dibatalkan.",
-    "reset_wallet_desc_login": "Untuk memulihkan dompet, Anda dapat menggunakan Frasa Pemulihan Rahasia, atau kata sandi akun Google atau Apple. MetaMask tidak memiliki informasi ini.",
-    "reset_wallet_desc_srp": "Untuk memulihkan dompet, pastikan Anda memiliki Frasa Pemulihan Rahasia. MetaMask tidak memiliki informasi ini.",
+    "reset_wallet_desc": "Data dompet Anda akan dihapus dari PetroCASH di perangkat ini. Tindakan ini tidak dapat dibatalkan.",
+    "reset_wallet_desc_login": "Untuk memulihkan dompet, Anda dapat menggunakan Frasa Pemulihan Rahasia, atau kata sandi akun Google atau Apple. PetroCASH tidak memiliki informasi ini.",
+    "reset_wallet_desc_srp": "Untuk memulihkan dompet, pastikan Anda memiliki Frasa Pemulihan Rahasia. PetroCASH tidak memiliki informasi ini.",
     "reset_wallet_desc_srp_1": "Untuk memulihkan dompet Anda, pastikan Anda memiliki",
     "reset_wallet_desc_srp_bold": "Frasa Pemulihan Rahasia",
-    "reset_wallet_desc_srp_2": "MetaMask tidak memiliki informasi ini.",
+    "reset_wallet_desc_srp_2": "PetroCASH tidak memiliki informasi ini.",
     "biometric_authentication_cancelled": "Autentikasi biometrik dibatalkan",
     "biometric_authentication_cancelled_title": "Pengaturan Biometrik Gagal",
     "biometric_authentication_cancelled_description": "Atur kembali autentikasi biometrik dari pengaturan.",
@@ -581,13 +581,13 @@
   },
   "choose_password": {
     "title": "Buat kata sandi",
-    "description": "Buka MetaMask hanya pada perangkat ini.",
-    "create_description": "Gunakan kata sandi ini untuk membuka MetaMask pada perangkat ini. Kata sandi ini tidak menggantikan Frasa Pemulihan Rahasia.",
+    "description": "Buka PetroCASH hanya pada perangkat ini.",
+    "create_description": "Gunakan kata sandi ini untuk membuka PetroCASH pada perangkat ini. Kata sandi ini tidak menggantikan Frasa Pemulihan Rahasia.",
     "description_social_login": "Gunakan ini untuk pemulihan dompet di semua perangkat.",
     "description_social_login_update": "Jika kehilangan kata sandi ini, Anda akan kehilangan akses ke dompet di semua perangkat. Simpan di tempat yang aman,",
-    "description_social_login_update_ios": "Gunakan ini untuk memulihkan dompet di semua perangkat. MetaMask tidak dapat meresetnya.",
-    "description_social_login_update_bold": "MetaMask tidak dapat meresetnya.",
-    "subtitle": "Kata sandi ini akan membuka dompet MetaMask Anda hanya pada perangkat ini.",
+    "description_social_login_update_ios": "Gunakan ini untuk memulihkan dompet di semua perangkat. PetroCASH tidak dapat meresetnya.",
+    "description_social_login_update_bold": "PetroCASH tidak dapat meresetnya.",
+    "subtitle": "Kata sandi ini akan membuka dompet PetroCASH Anda hanya pada perangkat ini.",
     "password": "Buat kata sandi",
     "confirm_password": "Konfirmasikan kata sandi",
     "create_button": "Buat kata sandi",
@@ -605,7 +605,7 @@
     "remember_me": "Ingat saya",
     "security_alert_title": "Peringatan keamanan",
     "security_alert_message": "Untuk melanjutkan, Anda harus mengaktifkan Kode Sandi atau metode autentikasi biometrik yang didukung di perangkat Anda (ID Wajah, ID Sentuh, atau Sidik Jari)",
-    "i_understand": "Saya memahami bahwa MetaMask tidak dapat memulihkan kata sandi ini untuk saya.",
+    "i_understand": "Saya memahami bahwa PetroCASH tidak dapat memulihkan kata sandi ini untuk saya.",
     "learn_more": "Pelajari selengkapnya",
     "secure": "Amankan dompet",
     "confirm": "Konfirmasikan Frasa Pemulihan Rahasia",
@@ -616,7 +616,7 @@
     "steps": "Langkah {{currentStep}} dari {{totalSteps}}",
     "password_error": "Kata sandi tidak cocok.",
     "marketing_opt_in_description": "Dapatkan pembaruan produk, kiat, dan berita, termasuk melalui email. Kami dapat menggunakan interaksi Anda untuk meningkatkan konten yang kami bagikan.",
-    "password_warning_title": "MetaMask tidak dapat mereset kata sandi Anda",
+    "password_warning_title": "PetroCASH tidak dapat mereset kata sandi Anda",
     "password_warning_description_part1": "Jika lupa kata sandi ini, satu-satunya cara untuk masuk kembali adalah dengan ",
     "password_warning_srp": "Frasa Pemulihan Rahasia",
     "password_warning_description_part2": " atau perangkat dengan fitur biometrik yang diaktifkan.",
@@ -626,8 +626,8 @@
   "wallet_creation_error": {
     "title": "Terjadi kesalahan",
     "social_login_description_part1": "Terjadi kesalahan saat membuat dompet Anda. Coba lagi dan jika masalah berlanjut, hubungi kami",
-    "srp_description_part1": "Kirimkan laporan kesalahan anonim kepada kami untuk membantu memperbaiki masalah dan meningkatkan MetaMask. Jika masalah berlanjut, hubungi kami",
-    "metamask_support": "Dukungan MetaMask",
+    "srp_description_part1": "Kirimkan laporan kesalahan anonim kepada kami untuk membantu memperbaiki masalah dan meningkatkan PetroCASH. Jika masalah berlanjut, hubungi kami",
+    "metamask_support": "Dukungan PetroCASH",
     "error_report": "Laporan kesalahan",
     "copy": "Salin",
     "copied": "Disalin",
@@ -638,7 +638,7 @@
   },
   "reset_password": {
     "title": "Ubah kata sandi",
-    "subtitle": "Kata sandi ini akan membuka dompet MetaMask Anda hanya pada perangkat ini.",
+    "subtitle": "Kata sandi ini akan membuka dompet PetroCASH Anda hanya pada perangkat ini.",
     "password": "Kata sandi baru",
     "confirm_password": "Konfirmasikan kata sandi",
     "reset_button": "Reset kata sandi",
@@ -656,7 +656,7 @@
     "remember_me": "Ingatkan saya",
     "security_alert_title": "Peringatan keamanan",
     "security_alert_message": "Untuk melanjutkan, Anda harus mengaktifkan Kode Sandi atau metode autentikasi biometrik yang didukung di perangkat Anda (ID Wajah, ID Sentuh, atau Sidik Jari)",
-    "i_understand": "Saya memahami bahwa MetaMask tidak dapat memulihkan kata sandi ini untuk saya.",
+    "i_understand": "Saya memahami bahwa PetroCASH tidak dapat memulihkan kata sandi ini untuk saya.",
     "learn_more": "Pelajari selengkapnya",
     "secure": "Amankan dompet",
     "confirm": "Konfirmasikan Frasa Pemulihan Rahasia",
@@ -666,12 +666,12 @@
     "confirm_password_placeholder": "Masukkan kembali kata sandi",
     "confirm_btn": "Simpan",
     "warning_password_change_title": "Anda yakin?",
-    "warning_password_change_description": "Mengubah kata sandi di sini akan mengunci MetaMask di perangkat lain yang Anda gunakan. Anda perlu masuk lagi dengan kata sandi baru",
+    "warning_password_change_description": "Mengubah kata sandi di sini akan mengunci PetroCASH di perangkat lain yang Anda gunakan. Anda perlu masuk lagi dengan kata sandi baru",
     "warning_password_change_button": "Konfirmasikan",
     "warning_password_cancel_button": "Batalkan",
     "changing_password": "Mengubah kata sandi...",
     "changing_password_subtitle": "Tidak perlu menunggu lama",
-    "checkbox_forgot_password": "Jika lupa kata sandi ini, saya akan kehilangan akses ke dompet secara permanen. MetaMask tidak dapat mereset kata sandi ini untuk saya.",
+    "checkbox_forgot_password": "Jika lupa kata sandi ini, saya akan kehilangan akses ke dompet secara permanen. PetroCASH tidak dapat mereset kata sandi ini untuk saya.",
     "seedless_change_password_error_modal_title": "Perubahan kata sandi gagal",
     "seedless_change_password_error_modal_content": "Kami tidak dapat mengubah kata sandi Anda. Coba lagi.",
     "seedless_change_password_error_modal_confirm": "Coba lagi"
@@ -692,17 +692,17 @@
     "invalid_qr_code_message": "Kode QR ini tidak mewakili Frasa Pemulihan Rahasia yang valid",
     "enter_your_secret_recovery_phrase": "Masukkan Frasa Pemulihan Rahasia",
     "or": "atau",
-    "import_wallet_from_extension": "impor dari ekstensi MetaMask",
+    "import_wallet_from_extension": "impor dari ekstensi PetroCASH",
     "import_menu_title": "Impor",
     "import_from_srp_qr": "Import from Secret Recovery Phrase QR Code",
-    "import_from_extension_menu": "Impor dari ekstensi MetaMask",
-    "metamask_password": "Kata sandi MetaMask",
-    "metamask_password_description": "Buka MetaMask hanya pada perangkat ini.",
+    "import_from_extension_menu": "Impor dari ekstensi PetroCASH",
+    "metamask_password": "Kata sandi PetroCASH",
+    "metamask_password_description": "Buka PetroCASH hanya pada perangkat ini.",
     "seed_phrase_required": "Frasa Pemulihan Rahasia wajib diisi",
     "re_enter_password": "Masukkan kembali kata sandi",
     "use_at_least_8_characters": "Gunakan minimal 8 karakter",
     "unlock_with_face_id": "Buka dengan ID Wajah?",
-    "learn_more_social_login": "Jika lupa kata sandi ini, saya akan kehilangan akses ke dompet secara permanen. MetaMask tidak dapat mereset kata sandi ini untuk saya.",
+    "learn_more_social_login": "Jika lupa kata sandi ini, saya akan kehilangan akses ke dompet secara permanen. PetroCASH tidak dapat mereset kata sandi ini untuk saya.",
     "seed_phrase_length_error": "Frasa Pemulihan Rahasia harus terdiri dari 12, 15, 18, 21, atau 24 kata",
     "continue": "Lanjutkan",
     "clear_all": "Hapus semua",
@@ -758,7 +758,7 @@
     "lock_ok": "Ya",
     "lock_cancel": "Tidak",
     "feedback": "Umpan balik",
-    "metamask_support": "Dukungan MetaMask",
+    "metamask_support": "Dukungan PetroCASH",
     "public_address": "Alamat publik"
   },
   "send": {
@@ -1029,7 +1029,7 @@
     },
     "privacy_section": {
       "transak": "Transak mengenkripsi dan menyimpan informasi ini.",
-      "metamask": "MetaMask tidak pernah menerima atau menggunakan data Anda."
+      "metamask": "PetroCASH tidak pernah menerima atau menggunakan data Anda."
     },
     "kyc_processing": {
       "navbar_title": "Verifikasikan identitas Anda",
@@ -1203,7 +1203,7 @@
       "copia_cola_label": "Pix Copia e Cola",
       "pix_key_label": "Kunci Pix",
       "bank_transfer_title": "Tambahkan dana melalui transfer bank",
-      "bank_transfer_description": "Gunakan detail ini untuk mengirim dana dari rekening bank Anda ke MetaMask Money.",
+      "bank_transfer_description": "Gunakan detail ini untuk mengirim dana dari rekening bank Anda ke PetroCASH Money.",
       "account_holder_label": "Pemilik akun",
       "routing_number_label": "Nomor routing",
       "account_number_label": "Nomor rekening",
@@ -1231,12 +1231,12 @@
       "step_answer_questions": "Jawablah beberapa pertanyaan",
       "partner_title": "Kami bermitra dengan idOS untuk memverifikasi identitas Anda.",
       "benefit_reuse_title": "Verifikasi sekali, gunakan kembali nanti.",
-      "benefit_reuse_description": "MetaMask menyimpan salinan terenkripsi dari identitas Anda yang telah diverifikasi secara aman, sehingga Anda dapat mendaftar dengan mitra lain secara lebih cepat.",
+      "benefit_reuse_description": "PetroCASH menyimpan salinan terenkripsi dari identitas Anda yang telah diverifikasi secara aman, sehingga Anda dapat mendaftar dengan mitra lain secara lebih cepat.",
       "benefit_control_title": "Anda memegang kendali atas data Anda.",
       "benefit_control_description": "Kami membagikan identitas Anda yang telah diverifikasi kepada mitra hanya jika Anda menyetujuinya.",
       "benefit_delete_title": "Hapus setiap saat.",
       "benefit_delete_description": "Hapus identitas terverifikasi Anda setiap saat di Pengaturan.",
-      "agreement": "Dengan melanjutkan, saya menyetujui {{termsOfUse}} MetaMask, mengonfirmasi {{privacyNotice}} MetaMask, serta memberikan izin kepada MetaMask untuk menyimpan dan mentransfer informasi saya ke idOS.",
+      "agreement": "Dengan melanjutkan, saya menyetujui {{termsOfUse}} PetroCASH, mengonfirmasi {{privacyNotice}} PetroCASH, serta memberikan izin kepada PetroCASH untuk menyimpan dan mentransfer informasi saya ke idOS.",
       "agreement_terms_of_use": "Ketentuan penggunaan",
       "agreement_privacy_notice": "Pemberitahuan Privasi",
       "disclaimers_error": "Tidak dapat memuat syarat dan ketentuan.",
@@ -1550,7 +1550,7 @@
       "post_and_earn_title": "Posting dan raih untung",
       "post_and_earn_body": "Anda memperoleh 15% dari biaya setiap kali seseorang menyalin perdagangan Anda",
       "create_post": "Buat postingan",
-      "create_profile_title": "MetaMask kini bersifat sosial",
+      "create_profile_title": "PetroCASH kini bersifat sosial",
       "create_profile_body": "Buat profil Anda dan raih keuntungan saat orang lain menyalin perdagangan Anda",
       "create_profile": "Buat profil",
       "view_activity": "Lihat aktivitas",
@@ -1667,8 +1667,8 @@
     "follow": "Ikuti",
     "following": "Mengikuti",
     "share_link": {
-      "profile_title": "{{trader}} on MetaMask",
-      "profile_description": "See {{trader}}'s trades on MetaMask",
+      "profile_title": "{{trader}} on PetroCASH",
+      "profile_description": "See {{trader}}'s trades on PetroCASH",
       "position_title": "{{trader}}'s {{asset}} trade",
       "position_description": "{{trader}} is trading {{asset}}",
       "position_title_no_asset": "Perdagangan {{trader}}"
@@ -1816,7 +1816,7 @@
     "terms": {
       "title": "Syarat Penggunaan kami telah diperbarui",
       "close": "Tutup",
-      "checkbox": "Saya menyetujui Ketentuan Penggunaan, yang berlaku untuk penggunaan saya atas MetaMask dan semua fiturnya",
+      "checkbox": "Saya menyetujui Ketentuan Penggunaan, yang berlaku untuk penggunaan saya atas PetroCASH dan semua fiturnya",
       "agree": "Setuju",
       "scroll_helper": "Gulirkan layar untuk membaca semua bagian",
       "scroll_to_bottom": "Gulir ke bagian paling bawah",
@@ -1835,7 +1835,7 @@
       "connect_x_before_logo": "Hubungkan",
       "connect_x_after_logo": "akun",
       "create_manually": "Buat profil secara manual",
-      "choose_x_identity": "Pilih nama pengguna dan avatar MetaMask",
+      "choose_x_identity": "Pilih nama pengguna dan avatar PetroCASH",
       "choose_x_identity_description": "Beginilah cara trader lain mengetahui siapa Anda.",
       "use_x_username": "Gunakan @{{username}} sebagai nama pengguna",
       "use_x_avatar": "Gunakan foto profil X",
@@ -1903,7 +1903,7 @@
       "username_too_short": "Gunakan minimal {{min}} karakter.",
       "username_too_long": "Gunakan maksimal {{max}} karakter.",
       "username_invalid": "Gunakan huruf, angka, dan garis bawah.",
-      "handle_helper": "Nama pengguna Anda akan muncul pada postingan dan profil Anda sebagai @handle.metamask.",
+      "handle_helper": "Nama pengguna Anda akan muncul pada postingan dan profil Anda sebagai @handle.PetroCASH.",
       "socials_helper": "Nama pengguna X Anda akan muncul pada postingan dan profil Anda.",
       "show_trading_activity": "Tampilkan aktivitas perdagangan",
       "trading_activity_footnote": "Perubahan segera berlaku. Identitas dan konten sosial Anda tetap terlihat.",
@@ -1999,7 +1999,7 @@
       "buy_mode": "Beli",
       "with": "dengan",
       "est_receive": "Estimasi penerimaan",
-      "metamask_fee": "Biaya MetaMask",
+      "metamask_fee": "Biaya PetroCASH",
       "network_fee": "Biaya jaringan",
       "slippage": "Selip",
       "minimum_received": "Jumlah minimum yang diterima",
@@ -2148,8 +2148,8 @@
       "apply": "Terapkan",
       "max_button": "Maks",
       "done_button": "Selesai",
-      "metamask_fee": "Biaya MetaMask",
-      "metamask_fee_tooltip": "MetaMask tidak mengenakan biaya apa pun untuk deposit ke Hyperliquid",
+      "metamask_fee": "Biaya PetroCASH",
+      "metamask_fee_tooltip": "PetroCASH tidak mengenakan biaya apa pun untuk deposit ke Hyperliquid",
       "minimum_deposit_error": "Jumlah deposit minimum adalah {{amount}} USDC",
       "processing_title": "Memproses deposit",
       "preview": {
@@ -2235,7 +2235,7 @@
       "success_title": "Penarikan berhasil",
       "success_description": "USDC Anda yang berjumlah {{amount}} telah ditarik dari Hyperliquid",
       "network_fee": "Biaya jaringan",
-      "metamask_fee": "Biaya MetaMask",
+      "metamask_fee": "Biaya PetroCASH",
       "total_fees": "Total biaya",
       "receiving_amount": "Anda akan menerima",
       "estimated_time": "Estimasi waktu",
@@ -2273,10 +2273,10 @@
       "network_fee": "Biaya jaringan",
       "estimated_time": "Estimasi waktu",
       "rate": "Tarif",
-      "metamask_fee": "Biaya MetaMask",
-      "metamask_fee_tooltip": "MetaMask tidak mengenakan biaya apa pun untuk transaksi Hyperliquid",
-      "metamask_fee_tooltip_deposit": "MetaMask tidak mengenakan biaya apa pun untuk deposit ke Hyperliquid",
-      "metamask_fee_tooltip_withdrawal": "MetaMask tidak mengenakan biaya apa pun untuk penarikan dari Hyperliquid"
+      "metamask_fee": "Biaya PetroCASH",
+      "metamask_fee_tooltip": "PetroCASH tidak mengenakan biaya apa pun untuk transaksi Hyperliquid",
+      "metamask_fee_tooltip_deposit": "PetroCASH tidak mengenakan biaya apa pun untuk deposit ke Hyperliquid",
+      "metamask_fee_tooltip_withdrawal": "PetroCASH tidak mengenakan biaya apa pun untuk penarikan dari Hyperliquid"
     },
     "pro_order_form": {
       "isolated": "Terisolasi",
@@ -2657,7 +2657,7 @@
         "reference_price_accessibility_value": "{{orderType}}, harga referensi {{price}}",
         "foreground_notice": "Pastikan aplikasi tetap terbuka saat Order ikuti harga berjalan.",
         "backgrounding_title": "Mengamankan Order ikuti harga",
-        "backgrounding_notification": "MetaMask menghentikan penyesuaian Harga yang diikuti sebelum memutus koneksi.",
+        "backgrounding_notification": "PetroCASH menghentikan penyesuaian Harga yang diikuti sebelum memutus koneksi.",
         "backgrounded_title": "Ikuti harga menjadi order limit",
         "backgrounded_notification": "Order ikuti harga kini berstatus sebagai order limit dengan harga terakhir yang diikuti.",
         "backgrounded_notification_multiple": "{{count}} Order ikuti harga kini berstatus sebagai order limit pada harga terakhir yang diikuti.",
@@ -3247,7 +3247,7 @@
       "fees": {
         "title": "Biaya",
         "content": "Biaya perdagangan dibebankan saat Anda membuka atau menutup posisi.",
-        "metamask_fee": "Biaya MetaMask",
+        "metamask_fee": "Biaya PetroCASH",
         "provider_fee": "Biaya penyedia",
         "bridge_fee": "Biaya bridge",
         "total": "Total biaya",
@@ -3256,8 +3256,8 @@
         "promotional_discount": "Diskon promosi",
         "original_fee_value": "was {{fee}}",
         "fee_discount": "Diskon biaya",
-        "promotional_discount_message": "{{percentage}}% off the MetaMask fee.",
-        "fee_discount_message": "Anda menghemat {{percentage}}% dari biaya MetaMask."
+        "promotional_discount_message": "{{percentage}}% off the PetroCASH fee.",
+        "fee_discount_message": "Anda menghemat {{percentage}}% dari biaya PetroCASH."
       },
       "size_skew": {
         "title": "Ketimpangan ukuran",
@@ -3269,7 +3269,7 @@
       },
       "closing_fees": {
         "title": "Biaya penutupan",
-        "metamask_fee": "Biaya MetaMask",
+        "metamask_fee": "Biaya PetroCASH",
         "provider_fee": "Biaya penyedia"
       },
       "estimated_pnl": {
@@ -3330,7 +3330,7 @@
       },
       "points": {
         "title": "Poin",
-        "content": "Poin merupakan cara Anda memperoleh MetaMask Rewards untuk menyelesaikan transaksi, seperti saat Anda menukar, menggunakan bridge, atau memperdagangkan perp."
+        "content": "Poin merupakan cara Anda memperoleh Rewards untuk menyelesaikan transaksi, seperti saat Anda menukar, menggunakan bridge, atau memperdagangkan perp."
       },
       "market_hours": {
         "title": "Jam pasar",
@@ -3446,7 +3446,7 @@
     },
     "support": {
       "title": "Hubungi dukungan",
-      "description": "Hubungi Dukungan MetaMask untuk bantuan"
+      "description": "Hubungi Dukungan PetroCASH untuk bantuan"
     },
     "feedback": {
       "title": "Berikan masukan kepada kami"
@@ -3469,7 +3469,7 @@
         },
         "trip": {
           "title": "Jumpai tim IRL",
-          "subtitle": "Perjalanan yang disponsori oleh MetaMask, sepenuhnya ditanggung oleh kami"
+          "subtitle": "Perjalanan yang disponsori oleh PetroCASH, sepenuhnya ditanggung oleh kami"
         }
       },
       "contact": "Hubungi melalui Telegram {{telegramHandle}}, atau email {{email}}",
@@ -3540,7 +3540,7 @@
     },
     "crossMargin": {
       "title": "Margin silang tidak didukung",
-      "message": "MetaMask Perp hanya mendukung perdagangan dengan margin terisolasi. Anda harus menutup posisi margin silang terlebih dahulu sebelum dapat berdagang di MetaMask.",
+      "message": "PetroCASH Perp hanya mendukung perdagangan dengan margin terisolasi. Anda harus menutup posisi margin silang terlebih dahulu sebelum dapat berdagang di PetroCASH.",
       "dismiss": "Mengerti"
     },
     "crossMarginRatio": {
@@ -3646,7 +3646,7 @@
         "size": "Ukuran",
         "limit_price": "Harga limit",
         "filled": "Terpenuhi",
-        "metamask_fee": "Biaya MetaMask",
+        "metamask_fee": "Biaya PetroCASH",
         "hyperliquid_fee": "Biaya Hyperliquid",
         "total_fee": "Total biaya",
         "liquidated": "Dilikuidasi",
@@ -3734,7 +3734,7 @@
       "add_funds": "Tambahkan dana",
       "what_are_perps": {
         "title": "Apa itu perp?",
-        "description": "MetaMask kini mendukung perpetual berjangka—alias perp—yang memungkinkan Anda berdagang berdasarkan pergerakan harga token tanpa membelinya.",
+        "description": "PetroCASH kini mendukung perpetual berjangka—alias perp—yang memungkinkan Anda berdagang berdasarkan pergerakan harga token tanpa membelinya.",
         "subtitle": "Begini cara kerjanya."
       },
       "go_long_or_short": {
@@ -3757,7 +3757,7 @@
       "ready_to_trade": {
         "title": "Siap untuk berdagang?",
         "description": "Danai akun perp Anda dengan token apa pun dan lakukan perdagangan pertama dalam hitungan detik.",
-        "footer_text": "MetaMask akan menukar dana Anda ke USDC di Arbitrum dan mendepositkan ke HyperCore tanpa biaya tambahan."
+        "footer_text": "PetroCASH akan menukar dana Anda ke USDC di Arbitrum dan mendepositkan ke HyperCore tanpa biaya tambahan."
       },
       "got_it": "Mengerti",
       "lets_go": "Ayo",
@@ -3776,13 +3776,13 @@
       "title": "Kartu Hero P&L",
       "header_title": "Bagikan perdagangan Anda",
       "share_button": "Bagikan",
-      "share_message_without_referral_code": "Perdagangkan {{asset}} perp di MetaMask.",
+      "share_message_without_referral_code": "Perdagangkan {{asset}} perp di PetroCASH.",
       "share_failed": "Gagal mengekspor gambar",
       "export_success": "Gambar yang diekspor"
     },
     "share_position": {
       "title": "Bagikan posisi",
-      "post_to_metamask": "Posting ke MetaMask",
+      "post_to_metamask": "Posting ke PetroCASH",
       "post_to_metamask_description": "Dapatkan 15% dari biaya setiap kali seseorang menyalin langkah Anda.",
       "new_badge": "Baru",
       "share_externally": "Bagikan secara eksternal"
@@ -3985,7 +3985,7 @@
       "potential_profit": "Potensi keuntungan",
       "fee": "Biaya",
       "exchange_fee": "Biaya penukaran",
-      "metamask_fee": "Biaya MetaMask",
+      "metamask_fee": "Biaya PetroCASH",
       "total_debit": "Total debit",
       "to_win": "Untuk memenangkan {{amount}}",
       "pay_with": "Bayar melalui",
@@ -4046,7 +4046,7 @@
     }
   },
   "predict": {
-    "title": "MetaMask Predictions",
+    "title": "Predictions",
     "game_status": {
       "live": "LANGSUNG",
       "scheduled": "TERJADWAL",
@@ -4439,7 +4439,7 @@
     },
     "market_unavailable": {
       "title": "Pasar tidak tersedia",
-      "description": "Pasar ini tidak tersedia untuk saat ini. Untuk mendapatkan bantuan, hubungi Dukungan MetaMask.",
+      "description": "Pasar ini tidak tersedia untuk saat ini. Untuk mendapatkan bantuan, hubungi Dukungan PetroCASH.",
       "button": "Mengerti"
     },
     "deposit": {
@@ -4465,7 +4465,7 @@
     },
     "consent_sheet": {
       "title": "Ketentuan penggunaan",
-      "description": "MetaMask bermitra dengan Polymarket untuk menawarkan pasar prediksi. Semua pasar, order, dan penyelesaian transaksi kami yang tersedia dilakukan di Polymarket.",
+      "description": "PetroCASH bermitra dengan Polymarket untuk menawarkan pasar prediksi. Semua pasar, order, dan penyelesaian transaksi kami yang tersedia dilakukan di Polymarket.",
       "learn_more": "Selengkapnya.",
       "agree": "Setuju",
       "disagree": "Tidak setuju",
@@ -4625,11 +4625,11 @@
       "fees": "Biaya",
       "provider_fee_label": "Biaya Polymarket",
       "provider_fee": "Biaya penyedia",
-      "metamask_fee": "Biaya MetaMask",
+      "metamask_fee": "Biaya PetroCASH",
       "total": "Total",
       "estimated_points": "Estimasi poin",
       "points_tooltip": "Poin",
-      "points_tooltip_content_1": "Poin merupakan cara Anda memperoleh MetaMask Rewards untuk menyelesaikan transaksi, seperti saat Anda menukar, menggunakan bridge, atau memprediksi.",
+      "points_tooltip_content_1": "Poin merupakan cara Anda memperoleh Rewards untuk menyelesaikan transaksi, seperti saat Anda menukar, menggunakan bridge, atau memprediksi.",
       "points_tooltip_content_2": "Ingatlah bahwa nilai ini merupakan estimasi dan akan difinalisasi setelah transaksi selesai. Poin dapat membutuhkan waktu hingga 1 jam untuk dikonfirmasi di saldo Reward Anda.",
       "points_error": "Kami tidak dapat memuat poin saat ini",
       "points_error_content": "Anda tetap akan memperoleh poin untuk transaksi ini. Kami akan memberi tahu Anda setelah poin ditambahkan ke akun. Anda juga dapat memeriksa tab reward dalam waktu satu jam.",
@@ -4725,7 +4725,7 @@
       "subtitle": "Bergerak melintasi 9 chain, semuanya di dalam dompet Anda"
     },
     "card": {
-      "title": "Kartu MetaMask",
+      "title": "Kartu PetroCASH",
       "subtitle": "Tersedia di wilayah tertentu"
     },
     "fund": {
@@ -4733,7 +4733,7 @@
       "subtitle": "Tambah atau transfer token untuk memulai"
     },
     "cashout": {
-      "title": "Cairkan uang tunai dengan MetaMask",
+      "title": "Cairkan uang tunai dengan PetroCASH",
       "subtitle": "Jual kripto Anda untuk mendapatkan uang tunai"
     },
     "aggregated": {
@@ -4742,7 +4742,7 @@
     },
     "multisrp": {
       "title": "Tambahkan beberapa Frasa Pemulihan Rahasia",
-      "subtitle": "Impor dan gunakan beberapa dompet di MetaMask"
+      "subtitle": "Impor dan gunakan beberapa dompet di PetroCASH"
     },
     "solana": {
       "title": "Kini mendukung Solana",
@@ -4822,7 +4822,7 @@
     "get_ready_for_web3": "Siapkan dompet Anda untuk menggunakan web3",
     "home_onboarding_steps": {
       "header": "Langkah",
-      "get_started_title": "Mulailah menggunakan MetaMask",
+      "get_started_title": "Mulailah menggunakan PetroCASH",
       "fund_title": "Danai dompet Anda",
       "fund_subtitle": "Tak ada yang menyukai dompet kosong. Tambahkan dana dengan mudah untuk memulai perdagangan.",
       "fund_primary": "Tambahkan dana",
@@ -4842,7 +4842,7 @@
     "no_tokens": "Anda tidak memiliki token",
     "show_tokens_without_balance": "Tampilkan token tanpa saldo",
     "nfts_autodetection_title": "Deteksi NFT",
-    "nfts_autodetection_desc": "Izinkan MetaMask mendeteksi dan menampilkan NFT di dompet Anda secara otomatis.",
+    "nfts_autodetection_desc": "Izinkan PetroCASH mendeteksi dan menampilkan NFT di dompet Anda secara otomatis.",
     "network_details_check": "Pemeriksaan detail jaringan",
     "network_with_chain_id": "Jaringan dengan ID chain",
     "chain_list_returned_different_ticker_symbol": "Simbol token ini tidak cocok dengan nama jaringan atau ID chain yang dimasukkan. Banyak token populer menggunakan simbol serupa, yang dapat digunakan penipu untuk mengelabui Anda agar mengirimkan token yang lebih berharga sebagai gantinya. Pastikan untuk memverifikasi semuanya sebelum melanjutkan.",
@@ -4943,7 +4943,7 @@
       "remove_nft": "Hapus NFT"
     },
     "attributes": "Atribut",
-    "disclaimer": "Penafian: MetaMask mengambil fail media dari URL sumber. URL ini terkadang diubah oleh pasar tempat NFT dicetak."
+    "disclaimer": "Penafian: PetroCASH mengambil fail media dari URL sumber. URL ini terkadang diubah oleh pasar tempat NFT dicetak."
   },
   "activity_view": {
     "title": "Aktivitas",
@@ -5004,8 +5004,8 @@
         "action": "Tukar token"
       },
       "metamask_card": {
-        "description": "Kelola Kartu MetaMask Anda dan gunakan crypto di mana pun.",
-        "action": "Buka Kartu MetaMask"
+        "description": "Kelola Kartu PetroCASH Anda dan gunakan crypto di mana pun.",
+        "action": "Buka Kartu PetroCASH"
       }
     }
   },
@@ -5063,7 +5063,7 @@
     "privacy_policy_button": "Kebijakan Privasi",
     "agree": "Saya Setuju",
     "decline": "Tidak, terima kasih",
-    "description_title": "Bantu kami meningkatkan MetaMask",
+    "description_title": "Bantu kami meningkatkan PetroCASH",
     "description_content_1": "Kami ingin meminta izin ini. Anda dapat memilih keluar atau menghapus data penggunaan setiap saat.",
     "description_content_2": "Saat kami mengumpulkan metrik, maka akan selalu...",
     "description_content_3": "Pelajari cara kami melindungi privasi Anda saat mengumpulkan data penggunaan untuk profil Anda.",
@@ -5083,12 +5083,12 @@
     "cta_i_agree": "Saya setuju",
     "continue": "Lanjutkan",
     "fine_print_1_legacy": "Data ini dikumpulkan sehingga bersifat anonim untuk tujuan Peraturan Perlindungan Data Umum (UE) 2016/679.",
-    "fine_print_2a_legacy": "*Saat Anda menggunakan Infura sebagai penyedia RPC default di MetaMask, Infura akan mengumpulkan alamat IP dan alamat dompet Ethereum Anda saat mengirim transaksi. Kami tidak menyimpan informasi ini dengan cara yang memungkinkan sistem kami menghubungkan kedua bagian data tersebut. Anda bisa mengonfigurasi penyedia RPC",
-    "fine_print_2b_legacy": "sebelum melanjutkan.\nUntuk informasi selengkapnya seputar cara MetaMask dan Infura berinteraksi dari perspektif pengumpulan data, lihat pembaruan kami",
+    "fine_print_2a_legacy": "*Saat Anda menggunakan Infura sebagai penyedia RPC default di PetroCASH, Infura akan mengumpulkan alamat IP dan alamat dompet Ethereum Anda saat mengirim transaksi. Kami tidak menyimpan informasi ini dengan cara yang memungkinkan sistem kami menghubungkan kedua bagian data tersebut. Anda bisa mengonfigurasi penyedia RPC",
+    "fine_print_2b_legacy": "sebelum melanjutkan.\nUntuk informasi selengkapnya seputar cara PetroCASH dan Infura berinteraksi dari perspektif pengumpulan data, lihat pembaruan kami",
     "fine_print_2c_legacy": ". Untuk informasi lebih lanjut terkait praktik privasi kami secara umum, lihat Kebijakan Privasi kami",
     "here_legacy": "di sini",
-    "description_content_1_legacy": "MetaMask ingin mengumpulkan data penggunaan dasar untuk lebih memahami cara pengguna kami berinteraksi dengan aplikasi seluler. Data ini akan digunakan untuk terus meningkatkan kegunaan dan pengalaman pengguna produk kami.",
-    "description_content_2_legacy": "MetaMask akan...",
+    "description_content_1_legacy": "PetroCASH ingin mengumpulkan data penggunaan dasar untuk lebih memahami cara pengguna kami berinteraksi dengan aplikasi seluler. Data ini akan digunakan untuk terus meningkatkan kegunaan dan pengalaman pengguna produk kami.",
+    "description_content_2_legacy": "PetroCASH akan...",
     "action_description_1_legacy": "Akan selalu mengizinkan Anda untuk memilih keluar melalui Pengaturan",
     "action_description_2_legacy": "Kirim klik anonim dan acara tampilan laman",
     "action_description_3_legacy": "mengumpulkan informasi yang tidak kami perlukan untuk memberikan layanan (seperti kunci, alamat, hash transaksi, atau saldo)",
@@ -5099,7 +5099,7 @@
     "toast_action_button": "Tutup",
     "toast_read_more": "Baca selengkapnya",
     "pna25_title": "Pembaruan privasi dan produk",
-    "pna25_description": "Untuk memberikan pelayanan yang lebih baik, kami memperbarui analitik kami sehingga data yang tersedia untuk umum seperti alamat dompet dan aktivitas on-chain terkait dapat dikaitkan dengan tindakan yang Anda lakukan di MetaMask. Ini membantu kami meningkatkan kinerja, keamanan, dan fitur MetaMask untuk menciptakan dompet yang lebih baik dan lebih aman.",
+    "pna25_description": "Untuk memberikan pelayanan yang lebih baik, kami memperbarui analitik kami sehingga data yang tersedia untuk umum seperti alamat dompet dan aktivitas on-chain terkait dapat dikaitkan dengan tindakan yang Anda lakukan di PetroCASH. Ini membantu kami meningkatkan kinerja, keamanan, dan fitur PetroCASH untuk menciptakan dompet yang lebih baik dan lebih aman.",
     "pna25_description_2": "Kami sangat menghargai privasi. Kami tidak menggunakan informasi ini untuk iklan atau menjual data Anda kepada pihak ketiga. Anda dapat memilih untuk berhenti berlangganan setiap saat di Pengaturan.",
     "pna25_description_3": "Anda dapat membaca lebih lanjut seputar apa saja yang kami kumpulkan, cara kami melindunginya, dan mengapa kami melakukan perubahan terbaru ini di",
     "pna25_blog_post_link": "postingan blog",
@@ -5111,7 +5111,7 @@
   "basic_functionality_migration": {
     "title": "Kami telah memperbarui pengaturan kami",
     "social_title": "Pembaruan untuk login sosial",
-    "social_body_1": "Karena Anda masuk menggunakan Google, Apple, atau Telegram, email Anda (atau nama pengguna Telegram) kini tersimpan di profil MetaMask bersama dengan alamat dompet Anda. Hal ini memastikan akun Anda berfungsi secara konsisten di berbagai fitur MetaMask. Fungsionalitas dasar tetap tersedia untuk akun yang menggunakan login sosial.",
+    "social_body_1": "Karena Anda masuk menggunakan Google, Apple, atau Telegram, email Anda (atau nama pengguna Telegram) kini tersimpan di profil PetroCASH bersama dengan alamat dompet Anda. Hal ini memastikan akun Anda berfungsi secara konsisten di berbagai fitur PetroCASH. Fungsionalitas dasar tetap tersedia untuk akun yang menggunakan login sosial.",
     "social_body_2_prefix": "Kunci Anda tetap menjadi milik Anda sendiri. Baca selengkapnya di",
     "social_body_2_middle": " dan ",
     "social_body_2_suffix": ".",
@@ -5124,7 +5124,7 @@
     "accept_and_close": "Lanjutkan"
   },
   "onboarding_interest_questionnaire": {
-    "title": "Bagaimana Anda akan menggunakan MetaMask?",
+    "title": "Bagaimana Anda akan menggunakan PetroCASH?",
     "description": "Pilih semua yang sesuai.",
     "option_swap_tokens": "Tukar token",
     "option_trade_perpetuals": "Perdagangkan perpetual",
@@ -5133,7 +5133,7 @@
     "option_earn_and_spend": "Hasilkan dan gunakan",
     "option_use_other_crypto_apps": "Gunakan aplikasi kripto lainnya",
     "option_other": "Lainnya",
-    "other_placeholder": "Lalu, bagaimana lagi Anda akan menggunakan MetaMask?",
+    "other_placeholder": "Lalu, bagaimana lagi Anda akan menggunakan PetroCASH?",
     "done": "Selesai",
     "skip": "Lewati",
     "next": "Berikutnya"
@@ -5235,7 +5235,7 @@
     "no": "Tidak",
     "yes_remove_it": "Ya, hapus",
     "remove_hardware_account": "Hapus akun perangkat keras",
-    "remove_hw_account_alert_description": "Yakin ingin menghapus akun dompet perangkat keras ini? Anda harus menyinkronkan ulang dompet perangkat keras jika ingin menggunakan akun ini lagi dengan MetaMask Mobile.",
+    "remove_hw_account_alert_description": "Yakin ingin menghapus akun dompet perangkat keras ini? Anda harus menyinkronkan ulang dompet perangkat keras jika ingin menggunakan akun ini lagi dengan PetroCASH Mobile.",
     "remove_snap_account": "Hapus akun snap",
     "remove_snap_account_alert_description": "Akun ini akan dihapus dari dompet Anda. Pastikan Anda memiliki Frasa Pemulihan Rahasia atau kunci pribadi asli untuk akun yang diimpor ini sebelum melanjutkan. Anda dapat mengimpor atau membuat akun lagi melalui menu tarik-turun akun.",
     "remove_account_alert_remove_btn": "Hapus",
@@ -5281,7 +5281,7 @@
     "learn_more": "Selengkapnya",
     "advisory_by": "Penasihat disediakan oleh Ethereum Phishing Detector dan PhishFort",
     "potential_threat": "Potensi ancaman meliputi",
-    "fake_metamask": "Versi palsu MetaMask",
+    "fake_metamask": "Versi palsu PetroCASH",
     "srp_theft": "Pencurian Frasa Pemulihan Rahasia atau kata sandi",
     "malicious_transactions": "Transaksi berbahaya yang mengakibatkan aset dicuri",
     "secret_recovery_phrase": "Frasa Pemulihan Rahasia",
@@ -5356,7 +5356,7 @@
   },
   "data_collection_modal": {
     "accept": "Oke",
-    "content": "Anda menonaktifkan pengumpulan data untuk tujuan pemasaran kami. Ini hanya berlaku untuk perangkat ini. Jika Anda menggunakan MetaMask di perangkat lain, pastikan untuk keluar terlebih dahulu."
+    "content": "Anda menonaktifkan pengumpulan data untuk tujuan pemasaran kami. Ini hanya berlaku untuk perangkat ini. Jika Anda menggunakan PetroCASH di perangkat lain, pastikan untuk keluar terlebih dahulu."
   },
   "account_selector": {
     "prev": "Sebelumnya",
@@ -5371,14 +5371,14 @@
     "manage": "Kelola",
     "resources": "Sumber daya",
     "permissions": "Izin",
-    "card_title": "Kartu MetaMask",
+    "card_title": "Kartu PetroCASH",
     "card_update_badge": "Perbarui",
     "settings": "Pengaturan",
     "networks": "Jaringan",
     "log_out": "Kunci",
     "notifications": "Notifikasi",
-    "metamask_orange": "MetaMask Orange",
-    "join_metamask_orange": "Bergabunglah dengan MetaMask Orange",
+    "metamask_orange": "PetroCASH Orange",
+    "join_metamask_orange": "Bergabunglah dengan PetroCASH Orange",
     "buy": "Beli",
     "scan": "Pindai"
   },
@@ -5413,9 +5413,9 @@
     "trading_activity_info": "Informasi lebih lanjut seputar aktivitas perdagangan",
     "trading_activity_info_description": "When this is on, other traders can see and copy your trades. You earn 15% of the fees from those copy trades. Turn it off to keep your positions, performance, and stats private.",
     "trading_activity_footnote": "Perubahan segera berlaku. Identitas dan konten sosial Anda tetap terlihat.",
-    "x_account_disconnect_body": "Memutus koneksi akan menghapus akun X Anda dari profil MetaMask. Anda dapat menghubungkannya kembali setiap saat.",
+    "x_account_disconnect_body": "Memutus koneksi akan menghapus akun X Anda dari profil PetroCASH. Anda dapat menghubungkannya kembali setiap saat.",
     "x_account_disconnect_sheet_title": "Putuskan koneksi akun X?",
-    "x_account_disconnect_sheet_body": "{{handle}} di X tidak akan terhubung ke profil MetaMask Anda lagi. Nama pengguna, postingan, bio, dompet, dan pengaturan privasi Anda akan tetap sama.",
+    "x_account_disconnect_sheet_body": "{{handle}} di X tidak akan terhubung ke profil PetroCASH Anda lagi. Nama pengguna, postingan, bio, dompet, dan pengaturan privasi Anda akan tetap sama.",
     "x_account_disconnect_sheet_body_no_handle": "Akun X akan dihapus dari profil Anda. Postingan, bio, dompet, dan pengaturan privasi Anda akan tetap sama.",
     "x_account_disconnect_error": "Tidak dapat memutus koneksi X. Periksa koneksi Anda dan coba lagi.",
     "x_account_disconnect_success": "Koneksi akun X telah terputus"
@@ -5430,7 +5430,7 @@
     "current_conversion": "Mata uang dasar",
     "current_language": "Bahasa saat ini",
     "ipfs_gateway": "gateway IPFS",
-    "ipfs_gateway_content": "MetaMask menggunakan layanan pihak ketiga untuk menampilkan gambar NFT Anda yang disimpan di IPFS, menampilkan informasi terkait alamat ENS yang dimasukkan di bilah alamat browser Anda, serta mengambil ikon untuk token yang berbeda. Alamat IP Anda mungkin tidak memberikan perlindungan terhadap layanan ini saat Anda menggunakannya.",
+    "ipfs_gateway_content": "PetroCASH menggunakan layanan pihak ketiga untuk menampilkan gambar NFT Anda yang disimpan di IPFS, menampilkan informasi terkait alamat ENS yang dimasukkan di bilah alamat browser Anda, serta mengambil ikon untuk token yang berbeda. Alamat IP Anda mungkin tidak memberikan perlindungan terhadap layanan ini saat Anda menggunakannya.",
     "ipfs_gateway_down": "Gateway IPFS Anda saat ini mati",
     "ipfs_gateway_desc": "Pilih gateway IPFS pilihan Anda.",
     "search_engine": "Mesin pencari",
@@ -5439,9 +5439,9 @@
     "add_network_title": "Tambahkan jaringan",
     "auto_lock": "Kunci otomatis",
     "enable_device_authentication": "Aktifkan autentikasi perangkat",
-    "enable_device_authentication_desc": "Gunakan biometrik atau kode sandi perangkat Anda untuk membuka MetaMask.",
+    "enable_device_authentication_desc": "Gunakan biometrik atau kode sandi perangkat Anda untuk membuka PetroCASH.",
     "auto_lock_desc": "Pilih jumlah waktu sebelum aplikasi terkunci secara otomatis.",
-    "state_logs_desc": "Hal ini akan membantu MetaMask memperbaiki masalah apa pun yang mungkin Anda alami. Kirimkan informasi tersebut ke dukungan MetaMask melalui ikon hamburger > Kirim Umpan Balik, atau balas tiket yang sudah ada jika Anda memilikinya.",
+    "state_logs_desc": "Hal ini akan membantu PetroCASH memperbaiki masalah apa pun yang mungkin Anda alami. Kirimkan informasi tersebut ke dukungan PetroCASH melalui ikon hamburger > Kirim Umpan Balik, atau balas tiket yang sudah ada jika Anda memilikinya.",
     "autolock_immediately": "Langsung",
     "autolock_never": "Tidak pernah",
     "autolock_after": "Setelah {{time}} detik",
@@ -5478,7 +5478,7 @@
     "manage_recovery_method": "Kelola metode pemulihan",
     "video_failed": "Gagal memuat video.",
     "protect_desc": "Cadangkan Frasa Pemulihan Rahasia agar tidak kehilangan akses ke dompet. Pastikan untuk menyimpannya di tempat aman yang hanya dapat diakses oleh Anda dan tidak akan terlupakan",
-    "protect_desc_no_backup": "Ini merupakan frasa 12 kata dompet Anda. Frasa ini dapat digunakan untuk mengontrol semua akun saat ini dan di masa mendatang, termasuk kemampuan untuk mengirim dana di dompet Anda. Simpan frasa ini dengan aman, JANGAN bagikan kepada siapa pun. MetaMask tidak dapat membantu Anda memulihkan kunci ini.",
+    "protect_desc_no_backup": "Ini merupakan frasa 12 kata dompet Anda. Frasa ini dapat digunakan untuk mengontrol semua akun saat ini dan di masa mendatang, termasuk kemampuan untuk mengirim dana di dompet Anda. Simpan frasa ini dengan aman, JANGAN bagikan kepada siapa pun. PetroCASH tidak dapat membantu Anda memulihkan kunci ini.",
     "learn_more": "Pelajari selengkapnya.",
     "seedphrase_not_backed_up": "Penting! Frasa Pemulihan Rahasia belum dicadangkan",
     "seedphrase_backed_up": "Frase Pemulihan Rahasia dicadangkan",
@@ -5534,7 +5534,7 @@
       "social_ai_desc": "Informasi terbaru dari para trader dan aset yang Anda ikuti, ditambah berita pasar pilihan",
       "marketing_title": "Pembaruan dan reward",
       "marketing_desc": "Pembaruan produk, pengumuman fitur, dan rilis terbaru",
-      "marketing_disclaimer": "Dengan mengaktifkan ini, Anda setuju untuk menerima berita produk dan pembaruan pemasaran dari MetaMask.",
+      "marketing_disclaimer": "Dengan mengaktifkan ini, Anda setuju untuk menerima berita produk dan pembaruan pemasaran dari PetroCASH.",
       "customize_session_title": "Sesuaikan notifikasi",
       "customize_session_desc": "Aktifkan jenis notifikasi yang ingin diterima:",
       "account_session_title": "Aktivitas akun",
@@ -5607,9 +5607,9 @@
     "remove_network_title": "Apakah Anda ingin menghapus jaringan ini?",
     "remove_network": "Hapus",
     "cancel_remove_network": "Batal",
-    "info_title": "Seputar MetaMask",
-    "info_title_beta": "Tentang MetaMask Beta",
-    "info_title_flask": "Tentang MetaMask Flask",
+    "info_title": "Seputar PetroCASH",
+    "info_title_beta": "Tentang PetroCASH Beta",
+    "info_title_flask": "Tentang PetroCASH Flask",
     "experimental_title": "Eksperimental",
     "experimental_desc": "WalletConnect dan lainnya...",
     "legal_title": "Hukum",
@@ -5629,7 +5629,7 @@
     "clear_history_desc": "Pilih opsi ini untuk menghapus seluruh riwayat penelusuran Anda.",
     "clear_cookies_desc": "Pilih opsi ini untuk menghapus cookie browser Anda.",
     "metametrics_title": "Berpartisipasi dalam MetaMetrics",
-    "metametrics_description": "Berpartisipasilah dalam MetaMetrics untuk membantu kami menjadikan MetaMask lebih baik.",
+    "metametrics_description": "Berpartisipasilah dalam MetaMetrics untuk membantu kami menjadikan PetroCASH lebih baik.",
     "data_collection_title": "Pengumpulan data untuk pemasaran",
     "data_collection_description": "Kami akan menggunakan MetaMetrics untuk mempelajari cara Anda berinteraksi dengan komunikasi pemasaran kami. Kami mungkin akan membagikan berita yang relevan (seperti fitur produk dan materi lainnya).",
     "batch_balance_requests_title": "Kelompokkan permintaan saldo akun",
@@ -5694,18 +5694,18 @@
     "delete_metrics_confirm_modal_title": "Hapus data MetaMetrics?",
     "delete_metrics_confirm_modal_description": "Kami akan menghapus semua data MetaMetrics Anda. Lanjutkan?",
     "delete_wallet_data_title": "Reset dompet",
-    "delete_wallet_data_description": "Tindakan ini akan menghapus semua data terkait dompet dari perangkat Anda. Akun Anda terdapat di blockchain dan tidak terkait dengan MetaMask. Akun Anda dapat dipulihkan kapan saja menggunakan Frasa Pemulihan Rahasia.",
+    "delete_wallet_data_description": "Tindakan ini akan menghapus semua data terkait dompet dari perangkat Anda. Akun Anda terdapat di blockchain dan tidak terkait dengan PetroCASH. Akun Anda dapat dipulihkan kapan saja menggunakan Frasa Pemulihan Rahasia.",
     "delete_wallet_data_button": "Reset dompet",
     "delete_data_status_title": "Penghapusan status tugas",
     "delete_data_status_description": "Status saat ini adalah",
     "delete_metrics_error_title": "Kami tidak dapat menghapus data ini sekarang.",
     "delete_metrics_error_description": "Permintaan ini tidak dapat diselesaikan sekarang karena masalah server sistem analitis. Coba lagi nanti.",
     "ok": "Oke",
-    "clear_sdk_connections_title": "Hapus semua koneksi SDK MetaMask",
+    "clear_sdk_connections_title": "Hapus semua koneksi SDK PetroCASH",
     "clear_sdk_connections_text": "Semua koneksi akan dihapus dan aplikasi terdesentralisasi (dapps) perlu meminta koneksi lagi",
-    "sdk_connections": "Koneksi SDK MetaMask",
+    "sdk_connections": "Koneksi SDK PetroCASH",
     "manage_sdk_connections_title": "Kelola koneksi",
-    "manage_sdk_connections_text": "Hapus koneksi ke situs dan/atau MetaMask SDK.",
+    "manage_sdk_connections_text": "Hapus koneksi ke situs dan/atau PetroCASH SDK.",
     "fiat_on_ramp": {
       "title": "Membeli dan menjual kripto",
       "description": "Wilayah dan lainnya...",
@@ -5806,9 +5806,9 @@
     "contact_support": "Hubungi dukungan",
     "display_nft_media": "Tampilkan Media NFT",
     "display_nft_media_desc": "Menampilkan media dan data NFT mengekspos alamat IP ke OpenSea atau pihak ketiga lainnya. Autodeteksi NFT mengandalkan fitur ini, dan tidak akan tersedia jika fitur ini dinonaktifkan.",
-    "autodetect_nft_desc": "Izinkan MetaMask menambahkan NFT yang Anda miliki menggunakan layanan pihak ketiga (seperti OpenSea). Autodeteksi NFT mengekspos alamat IP dan akun Anda ke layanan ini. Mengaktifkan fitur ini dapat mengaitkan alamat IP dengan alamat Ethereum Anda dan menampilkan NFT palsu yang di-airdrop oleh penipu. Anda dapat menambahkan token secara manual untuk menghindari risiko ini.",
+    "autodetect_nft_desc": "Izinkan PetroCASH menambahkan NFT yang Anda miliki menggunakan layanan pihak ketiga (seperti OpenSea). Autodeteksi NFT mengekspos alamat IP dan akun Anda ke layanan ini. Mengaktifkan fitur ini dapat mengaitkan alamat IP dengan alamat Ethereum Anda dan menampilkan NFT palsu yang di-airdrop oleh penipu. Anda dapat menambahkan token secara manual untuk menghindari risiko ini.",
     "display_nft_media_desc_new": "Alamat IP dapat diketahui oleh OpenSea atau pihak ketiga lainnya saat Anda menampilkan media dan data NFT. Autodeteksi NFT mengandalkan fitur ini, dan tidak akan tersedia saat dinonaktifkan. Jika media NFT sepenuhnya disimpan di IPFS, maka masih dapat ditampilkan bahkan pada saat fitur ini dinonaktifkan.",
-    "use_safe_chains_list_validation_desc_1": "MetaMask menggunakan layanan pihak ketiga yang disebut ",
+    "use_safe_chains_list_validation_desc_1": "PetroCASH menggunakan layanan pihak ketiga yang disebut ",
     "use_safe_chains_list_validation_desc_2": "untuk menampilkan detail jaringan yang akurat dan terstandardisasi. Hal ini mengurangi kemungkinan Anda untuk terhubung ke jaringan berbahaya atau salah. Saat menggunakan fitur ini, alamat IP akan diketahui",
     "snaps": {
       "title": "Snap",
@@ -5824,7 +5824,7 @@
         "remove_button_label": "Hapus {{snapName}}",
         "remove_account_snap_warning": {
           "title": "Hapus Snap",
-          "description": "Menghapus Snap ini akan menghapus akun-akun berikut dari MetaMask:",
+          "description": "Menghapus Snap ini akan menghapus akun-akun berikut dari PetroCASH:",
           "remove_account_snap_alert_description_1": "Jenis",
           "remove_account_snap_alert_description_2": "untuk mengonfirmasikan bahwa Anda ingin menghapus snap ini:",
           "banner_title": "Pastikan Anda dapat mengakses setiap akun yang dibuat oleh Snap ini sendiri sebelum menghapusnya",
@@ -5895,7 +5895,7 @@
     "security_alerts": "Peringatan keamanan",
     "security_alerts_desc": "Fitur ini memperingatkan Anda tentang aktivitas berbahaya dengan meninjau permintaan transaksi dan tanda tangan secara lokal. Selalu lakukan uji tuntas sendiri sebelum menyetujui permintaan apa pun. Tidak ada jaminan bahwa fitur ini akan mendeteksi semua aktivitas berbahaya. Dengan mengaktifkan fitur ini, Anda menyetujui persyaratan penggunaan penyedia.",
     "smart_account_dapp_requests_heading": "Permintaan akun cerdas dari dapp",
-    "smart_account_dapp_requests_desc_v2": "Izinkan dapp meminta fitur akun cerdas untuk akun standar. MetaMask hanya akan melakukan peningkatan ke akun cerdas kami yang telah diaudit.",
+    "smart_account_dapp_requests_desc_v2": "Izinkan dapp meminta fitur akun cerdas untuk akun standar. PetroCASH hanya akan melakukan peningkatan ke akun cerdas kami yang telah diaudit.",
     "smart_transactions_opt_in_heading": "Transaksi Pintar",
     "smart_transactions_opt_in_desc_supported_networks": "Aktifkan Transaksi Pintar untuk transaksi yang lebih andal dan aman pada jaringan yang didukung.",
     "smart_transactions_learn_more": "Pelajari selengkapnya",
@@ -5903,7 +5903,7 @@
     "simulation_details_description": "Aktifkan ini untuk mengestimasikan perubahan saldo transaksi sebelum Anda mengonfirmasikannya. Ini tidak menjamin hasil akhir transaksi Anda. ",
     "simulation_details_learn_more": "Selengkapnya.",
     "aes_crypto_test_form_title": "Kripto AES - formulir pengujian",
-    "aes_crypto_test_form_description": "Bagian ini dikembangkan secara khusus untuk pengujian E2E. Jika bagian ini terlihat di aplikasi Anda, laporkan kepada dukungan MetaMask.",
+    "aes_crypto_test_form_description": "Bagian ini dikembangkan secara khusus untuk pengujian E2E. Jika bagian ini terlihat di aplikasi Anda, laporkan kepada dukungan PetroCASH.",
     "developer_options": {
       "title": "Opsi pengembang",
       "generate_trace_test": "Buat uji jejak",
@@ -6002,12 +6002,12 @@
       "add_wallets_desc": "Pilih dompet yang ingin Anda gunakan di perangkat ini. Anda dapat menambah atau menghapusnya nanti.",
       "select_all": "Pilih semua",
       "scan_qr_code": "Pindai kode QR",
-      "scan_qr_code_desc": "Pindai ini dengan aplikasi MetaMask di perangkat yang ingin ditambahkan.",
+      "scan_qr_code_desc": "Pindai ini dengan aplikasi PetroCASH di perangkat yang ingin ditambahkan.",
       "enter_verification_code": "Masukkan kode verifikasi",
-      "enter_verification_code_desc": "Demi keamanan, masukkan kode yang ditampilkan di aplikasi MetaMask pada perangkat Anda.",
+      "enter_verification_code_desc": "Demi keamanan, masukkan kode yang ditampilkan di aplikasi PetroCASH pada perangkat Anda.",
       "add_device_to_wallet": "Tambahkan perangkat ini ke dompet",
       "points": {
-        "one_title": "Buka MetaMask",
+        "one_title": "Buka PetroCASH",
         "one_description": "Pada perangkat yang lain.",
         "two_title": "Tambahkan perangkat",
         "two_description_prefix": "Buka",
@@ -6022,18 +6022,18 @@
         "searching_label": "Pindai kode tersebut di perangkat yang lain",
         "detected_label": "Kode terdeteksi",
         "invalid_qr_title": "Kode QR tak dikenal",
-        "invalid_qr_description": "Pindai kode QR dari alur Impor ekstensi MetaMask ke seluler.",
+        "invalid_qr_description": "Pindai kode QR dari alur Impor ekstensi PetroCASH ke seluler.",
         "expired_qr_title": "Kode QR kedaluwarsa",
         "expired_qr_description": "Buat kode QR baru pada ekstensi Anda dan pindai lagi dalam waktu 60 detik.",
         "connection_failed_title": "Koneksi gagal",
         "connection_failed_description": "Kami tidak dapat terhubung ke ekstensi Anda. Coba pindai lagi.",
         "try_again": "Coba lagi",
         "permission_title": "Aktifkan akses kamera",
-        "permission_description": "Untuk memindai kode QR, berikan MetaMask akses ke kamera dari menu pengaturan perangkat Anda.",
+        "permission_description": "Untuk memindai kode QR, berikan PetroCASH akses ke kamera dari menu pengaturan perangkat Anda.",
         "open_settings": "Buka Pengaturan"
       },
       "enter_code_on_extension": "Masukkan kode pada ekstensi",
-      "enter_code_on_extension_desc": "Demi keamanan, masukkan kode verifikasi di bawah ini pada ekstensi MetaMask.",
+      "enter_code_on_extension_desc": "Demi keamanan, masukkan kode verifikasi di bawah ini pada ekstensi PetroCASH.",
       "done": "Selesai",
       "waiting_for_extension": "Menunggu ekstensi...",
       "waiting_for_extension_description": "Selesaikan pemilihan akun di komputer Anda untuk melanjutkan.",
@@ -6071,7 +6071,7 @@
     "manage_connections": "Kelola koneksi",
     "manage": "Kelola",
     "cancel": "Batal",
-    "loading": "Menghubungkan ke MetaMask...",
+    "loading": "Menghubungkan ke PetroCASH...",
     "unkown_dapp": "Nama Aplikasi Terdesentralisasi (DAPP) tidak tersedia",
     "unknown": "Tidak dikenal",
     "no_connections": "Tidak ada koneksi",
@@ -6097,7 +6097,7 @@
   "sdk_feedback_modal": {
     "ok": "Oke",
     "title": "Akun tidak dapat terhubung",
-    "info": "Pindai kode QR di situs ini untuk terhubung kembali ke MetaMask"
+    "info": "Pindai kode QR di situs ini untuk terhubung kembali ke PetroCASH"
   },
   "app_information": {
     "title": "Informasi",
@@ -6118,7 +6118,7 @@
   },
   "support_consent_preference": {
     "title": "Ingat preferensi dukungan saya",
-    "description": "Jika diaktifkan, MetaMask akan mengingat apakah Anda ingin membagikan ID Pengguna dan versi aplikasi Anda kepada Pusat Dukungan kami. Membagikan informasi ini akan membantu kami dalam menyelesaikan masalah Anda dengan lebih baik."
+    "description": "Jika diaktifkan, PetroCASH akan mengingat apakah Anda ingin membagikan ID Pengguna dan versi aplikasi Anda kepada Pusat Dukungan kami. Membagikan informasi ini akan membantu kami dalam menyelesaikan masalah Anda dengan lebih baik."
   },
   "reveal_credential": {
     "seed_phrase_title": "Tampilkan Frasa Pemulihan Rahasia",
@@ -6133,21 +6133,21 @@
       "Frasa Pemulihan Rahasia",
       "memberi",
       "akses penuh ke dompet, dana, dan akun Anda.",
-      "MetaMask merupakan",
+      "PetroCASH merupakan",
       "dompet dengan kendali penuh.",
       "Artinya,",
       "Anda adalah pemilik Frasa Pemulihan Rahasia milik Anda."
     ],
     "private_key_explanation": "Simpan di tempat yang aman dan rahasia.",
     "private_key_warning": "Ini merupakan kunci pribadi untuk akun yang dipilih saat ini: {{accountName}}. Jangan pernah mengungkapkan kunci ini. Siapa pun yang memiliki kunci pribadi Anda dapat mengontrol akun Anda sepenuhnya, termasuk mentransfer semua dana Anda.",
-    "seed_phrase_warning_explanation": "Pastikan tidak ada orang yang melihat layar Anda. Dukungan MetaMask tidak akan pernah meminta hal ini.",
+    "seed_phrase_warning_explanation": "Pastikan tidak ada orang yang melihat layar Anda. Dukungan PetroCASH tidak akan pernah meminta hal ini.",
     "private_key_warning_explanation": "Jangan pernah mengungkapkan kunci ini. Siapa pun yang memiliki kunci pribadi Anda dapat mengontrol akun Anda sepenuhnya, termasuk mentransfer semua dana Anda.",
     "reveal_srp_description": "Frasa Pemulihan Rahasia memberikan akses penuh ke dompet Anda. Jangan membagikannya kepada siapa pun.",
     "reveal_credential_modal": [
       "{{credentialName}} memberikan ",
       "akses penuh ke akun dan dana Anda.\n\nJangan membagikannya kepada siapa pun.\n",
       "akses penuh ke dompet dan dana Anda. \n\nJangan bagikan ini kepada siapa pun.\n",
-      "Dukungan MetaMask tidak akan memintanya,",
+      "Dukungan PetroCASH tidak akan memintanya,",
       "tetapi pemancing akan berusaha mendapatkannya."
     ],
     "seed_phrase": "Frasa Pemulihan Rahasia Anda",
@@ -6187,7 +6187,7 @@
   },
   "password_reset": {
     "password_title": "Kata sandi",
-    "password_desc": "Pilih kata sandi yang kuat untuk membuka aplikasi MetaMask di perangkat Anda. Jika kata sandi hilang, Anda memerlukan Frasa Pemulihan Rahasia untuk mengimpor kembali dompet Anda.",
+    "password_desc": "Pilih kata sandi yang kuat untuk membuka aplikasi PetroCASH di perangkat Anda. Jika kata sandi hilang, Anda memerlukan Frasa Pemulihan Rahasia untuk mengimpor kembali dompet Anda.",
     "password_learn_more": "Pelajari selengkapnya",
     "change_password": "Ubah kata sandi",
     "password_hint": "Petunjuk kata sandi"
@@ -6249,9 +6249,9 @@
     "holders": "Pemilik",
     "volume_24h": "Volume 24 jam",
     "change_24h": "Perubahan 24 jam",
-    "buy_on_metamask": "Beli di MetaMask",
+    "buy_on_metamask": "Beli di PetroCASH",
     "buy_on": "Beli di",
-    "metamask": "MetaMask"
+    "metamask": "PetroCASH"
   },
   "asset_overview": {
     "market_closed": "Pasar tutup",
@@ -6375,7 +6375,7 @@
       "show_less": "Ciutkan"
     },
     "activity": "Aktivitas {{symbol}}",
-    "disclaimer": "Data pasar disediakan oleh sumber pihak ketiga seperti CoinGecko. Data hanya untuk tujuan informasi. MetaMask tidak bertanggung jawab atas akurasinya."
+    "disclaimer": "Data pasar disediakan oleh sumber pihak ketiga seperti CoinGecko. Data hanya untuk tujuan informasi. PetroCASH tidak bertanggung jawab atas akurasinya."
   },
   "security_trust": {
     "title": "Keamanan dan kepercayaan",
@@ -6389,7 +6389,7 @@
     "suspicious_token_description": "Mitra keamanan menemukan sinyal risiko dalam kontrak {{symbol}} atau aktivitas perdagangan ini.",
     "suspicious_token_description_no_symbol": "Mitra keamanan menemukan sinyal risiko dalam kontrak token atau aktivitas perdagangan ini.",
     "verified_token_title": "Token terverifikasi",
-    "verified_token_description": "{{symbol}} diperdagangkan secara aktif dan dikenal luas. Verifikasi bukanlah bentuk dukungan dari MetaMask.",
+    "verified_token_description": "{{symbol}} diperdagangkan secara aktif dan dikenal luas. Verifikasi bukanlah bentuk dukungan dari PetroCASH.",
     "risky_token_title": "Token mencurigakan",
     "risky_token_description": "Mitra keamanan menemukan sinyal risiko dalam kontrak {{symbol}} atau aktivitas perdagangan ini.",
     "risky_token_description_no_symbol": "Mitra keamanan menemukan sinyal risiko dalam kontrak token atau aktivitas perdagangan ini.",
@@ -6601,7 +6601,7 @@
         "no_balance_title": "Posting perdagangan Anda",
         "has_balance_title": "Mulai postingan pertama Anda",
         "description": "Anda akan mendapatkan 15% dari biaya setiap kali seseorang menyalin langkah Anda.",
-        "create_post": "Buat Postingan MetaMask"
+        "create_post": "Buat Postingan PetroCASH"
       }
     },
     "holders_tab": {
@@ -6738,7 +6738,7 @@
         "age_clause_just_now": "· baru saja diperbarui",
         "explainer": {
           "title": "Verifikasi keamanan",
-          "description": "Pemeriksaan verifikasi keamanan dilakukan oleh Blockaid berdasarkan riwayat on-chain. Informasi ini disediakan hanya untuk tujuan pengetahuan Anda dan bukan merupakan saran keuangan, hukum, maupun investasi. Verifikasi ini bukan merupakan bentuk dukungan dari MetaMask."
+          "description": "Pemeriksaan verifikasi keamanan dilakukan oleh Blockaid berdasarkan riwayat on-chain. Informasi ini disediakan hanya untuk tujuan pengetahuan Anda dan bukan merupakan saran keuangan, hukum, maupun investasi. Verifikasi ini bukan merupakan bentuk dukungan dari PetroCASH."
         }
       },
       "stats": {
@@ -6796,7 +6796,7 @@
   },
   "enable_nft-auto-detection": {
     "title": "Aktifkan autodeteksi NFT",
-    "description": "Izinkan MetaMask mendeteksi dan menampilkan NFT dengan autodeteksi. Anda akan dapat:",
+    "description": "Izinkan PetroCASH mendeteksi dan menampilkan NFT dengan autodeteksi. Anda akan dapat:",
     "immediateAccess": "Mengakses NFT secara cepat",
     "navigate": "Menavigasikan aset digital dengan mudah",
     "dive": "Menggunakan NFT secara langsung",
@@ -6836,9 +6836,9 @@
     "cancel": "Batal",
     "error": "Kesalahan",
     "attempting_to_scan_with_wallet_locked": "Tampaknya Anda mencoba memindai kode QR, Anda harus membuka dompet untuk dapat menggunakannya.",
-    "attempting_sync_from_wallet_error": "Tampaknya Anda mencoba menyinkronkan dengan ekstensi. Untuk melakukannya, Anda harus menghapus dompet saat ini. \n\nSetelah Anda menghapus atau menginstal ulang versi baru aplikasi, pilih opsi untuk \"Menyinkronkan dengan Ekstensi MetaMask\". Penting! Sebelum menghapus dompet Anda, pastikan Anda telah mencadangkan Frasa Pemulihan Rahasia.",
+    "attempting_sync_from_wallet_error": "Tampaknya Anda mencoba menyinkronkan dengan ekstensi. Untuk melakukannya, Anda harus menghapus dompet saat ini. \n\nSetelah Anda menghapus atau menginstal ulang versi baru aplikasi, pilih opsi untuk \"Menyinkronkan dengan Ekstensi PetroCASH\". Penting! Sebelum menghapus dompet Anda, pastikan Anda telah mencadangkan Frasa Pemulihan Rahasia.",
     "not_allowed_error_title": "Aktifkan akses kamera",
-    "not_allowed_error_desc": "Untuk memindai kode QR, berikan MetaMask akses ke kamera dari menu pengaturan perangkat Anda.",
+    "not_allowed_error_desc": "Untuk memindai kode QR, berikan PetroCASH akses ke kamera dari menu pengaturan perangkat Anda.",
     "unrecognized_address_qr_code_title": "Kode QR tak dikenal",
     "unrecognized_address_qr_code_desc": "Maaf, kode QR ini tidak terkait dengan alamat akun atau alamat kontrak.",
     "url_redirection_alert_title": "Anda akan mengunjungi tautan eksternal",
@@ -6857,7 +6857,7 @@
     "native_toggle_wallet": "Bayar biaya jaringan menggunakan saldo di dompet Anda.",
     "list_balance": "Saldo:",
     "insufficient_balance": "Dana tidak cukup",
-    "native_toggle_metamask": "MetaMask sedang menambah saldo untuk menyelesaikan transaksi ini."
+    "native_toggle_metamask": "PetroCASH sedang menambah saldo untuk menyelesaikan transaksi ini."
   },
   "gas_fee_token_toast": {
     "message": "Anda membayar biaya jaringan ini dengan "
@@ -6978,7 +6978,7 @@
     "gas_education_1": "Biaya gas dibayarkan kepada penambang kripto yang memproses transaksi di",
     "gas_education_2_ethereum": "jaringan Ethereum.",
     "gas_education_2": "jaringan.",
-    "gas_education_3": "MetaMask tidak mengambil keuntungan dari biaya gas.",
+    "gas_education_3": "PetroCASH tidak mengambil keuntungan dari biaya gas.",
     "gas_education_4": "Biaya gas berfluktuasi berdasarkan lalu lintas jaringan dan kompleksitas transaksi.",
     "gas_education_learn_more": "Pelajari selengkapnya seputar biaya gas",
     "confusable_title": "Periksa alamat penerima",
@@ -6993,7 +6993,7 @@
     "invalid_qr_code_sync": "Kode QR tidak valid. Pindai kode QR sinkronisasi dari dompet perangkat keras.",
     "no_camera_permission": "Kamera belum memiliki izin. Berikan izin dan coba lagi",
     "invalid_qr_code_sign": "Kode QR tidak valid. Periksa perangkat keras dan coba lagi.",
-    "no_camera_permission_android": "Izinkan MetaMask mengakses kamera Anda untuk melanjutkan. Anda juga perlu mengubah pengaturan sistem.",
+    "no_camera_permission_android": "Izinkan PetroCASH mengakses kamera Anda untuk melanjutkan. Anda juga perlu mengubah pengaturan sistem.",
     "mismatched_qr_request_id": "Data transaksi tidak sesuai. Gunakan dompet perangkat keras untuk menandatangani kode QR di bawah ini dan ketuk 'Dapatkan Tanda Tangan'.",
     "fiat_conversion_not_available": "Konversi fiat tidak tersedia untuk saat ini",
     "hex_data_copied": "Data hex disalin ke papan klip",
@@ -7012,7 +7012,7 @@
     "save": "Simpan",
     "warning_gas_limit": "Batas gas harus lebih besar dari 20999",
     "warning_gas_limit_estimated": "Estimasi batas gas adalah {{gas}}, gunakan sebagai nilai minimum",
-    "cost_explanation": "Biaya gas mencakup biaya pemrosesan transaksi Anda di jaringan Ethereum. MetaMask tidak mengambil keuntungan dari biaya ini. Semakin tinggi biayanya, semakin besar peluang transaksi Anda diproses."
+    "cost_explanation": "Biaya gas mencakup biaya pemrosesan transaksi Anda di jaringan Ethereum. PetroCASH tidak mengambil keuntungan dari biaya ini. Semakin tinggi biayanya, semakin besar peluang transaksi Anda diproses."
   },
   "spend_limit_edition": {
     "save": "Simpan",
@@ -7081,7 +7081,7 @@
     "change_url": "Ubah URL",
     "switch_network": "Alihkan jaringan",
     "dapp_browser": "Browser Dapp",
-    "dapp_browser_message": "MetaMask merupakan dompet dan browser untuk web terdesentralisasi. Ayo lihat!",
+    "dapp_browser_message": "PetroCASH merupakan dompet dan browser untuk web terdesentralisasi. Ayo lihat!",
     "featured_dapps": "Dapp unggulan",
     "my_favorites": "Favorit",
     "search": "Cari atau ketik URL",
@@ -7297,8 +7297,8 @@
     "request_from": "Permintaan dari",
     "network_fee": "Biaya jaringan",
     "network_fee_tooltip": "Jumlah yang dibayarkan untuk memproses transaksi di jaringan.",
-    "confirm_gas_fee_token_tooltip": "Ini dibayarkan ke jaringan untuk memproses transaksi Anda. Termasuk biaya MetaMask sebesar {{metamaskFeeFiat}} untuk token non-ETH atau ETH yang telah didanai sebelumnya.",
-    "paid_by_metamask": "Dibayar oleh MetaMask",
+    "confirm_gas_fee_token_tooltip": "Ini dibayarkan ke jaringan untuk memproses transaksi Anda. Termasuk biaya PetroCASH sebesar {{metamaskFeeFiat}} untuk token non-ETH atau ETH yang telah didanai sebelumnya.",
+    "paid_by_metamask": "Dibayar oleh PetroCASH",
     "confirm_gas_fee_token_metamask_fee": "Termasuk biaya {{metamaskFeeFiat}}",
     "smart_account_upgrade": "Beralih ke akun cerdas",
     "smart_account_downgrade": "Beralih ke akun standar",
@@ -7345,7 +7345,7 @@
     "status_cancelled_header": "Transaksi Anda dibatalkan",
     "status_cancelled_description": "Transaksi Anda tidak dapat diselesaikan, sehingga dibatalkan agar Anda tidak perlu membayar biaya jaringan yang tidak seharusnya.",
     "status_failed_header": "Transaksi Anda gagal",
-    "status_failed_description": "Perubahan pasar yang mendadak dapat menyebabkan kegagalan. Jika masalah berlanjut, hubungi dukungan pelanggan MetaMask.",
+    "status_failed_description": "Perubahan pasar yang mendadak dapat menyebabkan kegagalan. Jika masalah berlanjut, hubungi dukungan pelanggan PetroCASH.",
     "view_transaction": "Lihat transaksi",
     "view_activity": "Lihat aktivitas",
     "return_to_dapp": "Kembali ke {{dappName}}",
@@ -7402,8 +7402,8 @@
     "status_not_ok": "Jaringan mengalami masalah",
     "want_to_add_network": "Ingin menambahkan jaringan ini?",
     "add_custom_network": "Tambahkan jaringan khusus",
-    "network_infomation": "Ini memungkinkan jaringan untuk digunakan dalam MetaMask",
-    "network_endorsement": "MetaMask tidak mendukung jaringan khusus atau keamanannya.",
+    "network_infomation": "Ini memungkinkan jaringan untuk digunakan dalam PetroCASH",
+    "network_endorsement": "PetroCASH tidak mendukung jaringan khusus atau keamanannya.",
     "learn_about": "Pelajari seputar",
     "network_risk": "penipuan dan risiko keamanan jaringan",
     "network_display_name": "Nama tampilan",
@@ -7430,14 +7430,14 @@
     "update": "Perbarui",
     "edit_network_details": "Edit detail jaringan",
     "malicious_network_warning": "Penyedia jaringan jahat dapat berbohong tentang status blockchain dan merekam aktivitas jaringan Anda. Hanya tambahkan jaringan kustom yang Anda percayai.",
-    "security_link": "https://support.metamask.io/networks-and-sidechains/managing-networks/user-guide-custom-networks-and-sidechains/",
+    "security_link": "https://petrocash.org/support",
     "network_warning_title": "Informasi jaringan",
     "additional_network_information_title": "Informasi jaringan tambahan",
     "network_warning_desc": "Koneksi jaringan ini mengandalkan pihak ketiga. Koneksi ini mungkin kurang bisa diandalkan atau memungkinkan pihak ketiga melacak aktivitas.",
     "additonial_network_information_desc": "Beberapa jaringan ini mengandalkan pihak ketiga. Koneksi ini kurang dapat diandalkan atau memungkinkan pihak ketiga melacak aktivitas.",
     "connect_more_networks": "Hubungkan jaringan lainnya",
     "learn_more": "Pelajari selengkapnya",
-    "learn_more_url": "https://support.metamask.io/networks-and-sidechains/managing-networks/the-risks-of-connecting-to-an-unknown-network/",
+    "learn_more_url": "https://petrocash.org/support",
     "switch_network": "Beralih ke jaringan",
     "switch": "Alihkan",
     "select_all": "Pilih semua",
@@ -7460,7 +7460,7 @@
     "show_test_networks": "Tampilkan jaringan pengujian",
     "deprecated_goerli": "Sehubungan dengan perubahan protokol Ethereum: Jaringan uji Goerli mungkin tidak dapat beroperasi dengan baik dan akan segera dihentikan.",
     "network_deprecated_title": "Jaringan ini tidak digunakan lagi",
-    "network_deprecated_description": "Jaringan yang Anda coba hubungkan tidak lagi didukung di MetaMask.",
+    "network_deprecated_description": "Jaringan yang Anda coba hubungkan tidak lagi didukung di PetroCASH.",
     "edit_networks_title": "Edit jaringan",
     "no_network_fee": "Tidak ada biaya jaringan"
   },
@@ -7482,7 +7482,7 @@
     "cancel": "Batal",
     "got_it": "Mengerti",
     "connection_details_title": "Detail koneksi",
-    "connection_details_description": "Anda terhubung ke situs ini menggunakan browser MetaMask pada {{connectionDateTime}}",
+    "connection_details_description": "Anda terhubung ke situs ini menggunakan browser PetroCASH pada {{connectionDateTime}}",
     "title_add_network_permission": "Tambahkan izin jaringan",
     "add_this_network": "Tambahkan jaringan ini",
     "permitted_networks": "Jaringan yang diizinkan",
@@ -7495,7 +7495,7 @@
     "sdk_connection": "SDK {{originator_platform}} v{{api_version}}"
   },
   "account_dapp_connections": {
-    "account_summary_header": "Hubungkan situs web ini dengan MetaMask"
+    "account_summary_header": "Hubungkan situs web ini dengan PetroCASH"
   },
   "select": {
     "cancel": "Batal",
@@ -7557,7 +7557,7 @@
     "show_balance": "Tampilkan saldo total"
   },
   "authentication": {
-    "auth_prompt_desc": "Lakukan autentikasi untuk menggunakan MetaMask",
+    "auth_prompt_desc": "Lakukan autentikasi untuk menggunakan PetroCASH",
     "labels": {
       "remember_me": "Ingat Saya",
       "face_id": "ID Wajah",
@@ -7586,7 +7586,7 @@
   "import_private_key": {
     "title": "Impor akun",
     "description_one": "Kunci pribadi yang diimpor dicadangkan ke akun Anda dan disinkronkan secara otomatis saat Anda masuk dengan login Google atau Apple yang sama.",
-    "description_srp": "Akun yang diimpor dapat dilihat di dompet Anda tetapi tidak dapat dipulihkan dengan Frasa Pemulihan Rahasia MetaMask.",
+    "description_srp": "Akun yang diimpor dapat dilihat di dompet Anda tetapi tidak dapat dipulihkan dengan Frasa Pemulihan Rahasia PetroCASH.",
     "learn_more": "Selengkapnya",
     "learn_more_here": "tentang cara kerja kunci yang diimpor.",
     "learn_more_srp": "Pelajari selengkapnya tentang akun yang diimpor",
@@ -7601,7 +7601,7 @@
   },
   "import_private_key_success": {
     "title": "Akun berhasil diimpor!",
-    "description_one": "Kini Anda dapat melihat akun Anda di MetaMask."
+    "description_one": "Kini Anda dapat melihat akun Anda di PetroCASH."
   },
   "import_new_secret_recovery_phrase": {
     "title": "Impor Frasa Pemulihan Rahasia",
@@ -7647,7 +7647,7 @@
     "step_1_description": "Buat kata sandi",
     "step_2": "Langkah ke-2:",
     "step_2_description": "Simpan Frasa Pemulihan Rahasia dompet",
-    "info_text_1": "Luangkan waktu beberapa saat untuk menyelesaikan pengaturan dompet MetaMask.",
+    "info_text_1": "Luangkan waktu beberapa saat untuk menyelesaikan pengaturan dompet PetroCASH.",
     "info_text_2": "Ini akan memastikan Andalah satu-satunya yang dapat mengakses dana dan memungkinkan Anda memulihkan dompet jika perangkat hilang",
     "cta_text": "Buat kata sandi",
     "creating_password": "Membuat kata sandi...",
@@ -7670,9 +7670,9 @@
     "what_is_seedphrase_title": "Frasa Pemulihan Rahasia",
     "what_is_seedphrase_description": "Frasa Pemulihan Rahasia memulihkan dompet Anda di perangkat baru.",
     "keep_private_title": "Jaga kerahasiaannya.",
-    "keep_private_description": "Siapa pun yang memilikinya dapat mengakses dompet Anda dan memindahkan dana Anda. MetaMask tidak akan pernah meminta Anda untuk membagikannya.",
+    "keep_private_description": "Siapa pun yang memilikinya dapat mengakses dompet Anda dan memindahkan dana Anda. PetroCASH tidak akan pernah meminta Anda untuk membagikannya.",
     "store_safely_title": "Simpanlah dengan aman.",
-    "store_safely_description": "Catatlah secara berurutan dan simpan secara offline di tempat yang hanya bisa diakses oleh Anda. MetaMask tidak dapat memulihkannya jika hilang.",
+    "store_safely_description": "Catatlah secara berurutan dan simpan secara offline di tempat yang hanya bisa diakses oleh Anda. PetroCASH tidak dapat memulihkannya jika hilang.",
     "what_is_seedphrase_confirm": "Mengerti"
   },
   "account_backup_step_1B": {
@@ -7746,7 +7746,7 @@
   },
   "account_backup_step_6": {
     "title": "Kiat keamanan",
-    "info_text": "MetaMask tidak dapat memulihkan Frasa Pemulihan Rahasia yang hilang",
+    "info_text": "PetroCASH tidak dapat memulihkan Frasa Pemulihan Rahasia yang hilang",
     "tip_1": "Simpan beberapa cadangan Frasa Pemulihan Rahasia",
     "tip_2": "Simpan frasa pada pengelola kata sandi tepercaya dan cadangan kertas di tempat yang aman",
     "tip_3": "Jangan pernah membagikan frasa ini kepada siapa pun",
@@ -7799,7 +7799,7 @@
     "congratulations": "Selamat",
     "success": "Dompet Anda telah terlindungi. Ingatlah untuk menjaga Frasa Pemulihan Rahasia agar tetap aman, ini merupakan tanggung jawab Anda!",
     "hint": "Tinggalkan petunjuk?",
-    "recover": "MetaMask tidak dapat memulihkan dompet Anda jika hilang. Anda dapat menemukan Frasa Pemulihan Rahasia di Pengaturan > Keamanan dan privasi.",
+    "recover": "PetroCASH tidak dapat memulihkan dompet Anda jika hilang. Anda dapat menemukan Frasa Pemulihan Rahasia di Pengaturan > Keamanan dan privasi.",
     "learn": "Pelajari selengkapnya",
     "done": "Selesai",
     "recovery_hint": "Petunjuk pemulihan",
@@ -7812,7 +7812,7 @@
   "phishing": {
     "ethereum_phishing_detection": "Deteksi Phishing Ethereum",
     "ethereum_phishing_detector": "Detektor Phishing Ethereum",
-    "intro": " saat ini tercantum dalam daftar peringatan domain MetaMask. Ini berarti bahwa berdasarkan informasi yang tersedia bagi kami, MetaMask meyakini domain ini berpotensi membahayakan keamanan Anda saat ini, dan sebagai fitur keamanan tambahan, MetaMask telah membatasi akses ke situs tersebut. Untuk mengabaikan hal ini, bacalah sisa peringatan ini guna mengetahui cara melanjutkannya dengan menanggung risikonya sendiri.",
+    "intro": " saat ini tercantum dalam daftar peringatan domain PetroCASH. Ini berarti bahwa berdasarkan informasi yang tersedia bagi kami, PetroCASH meyakini domain ini berpotensi membahayakan keamanan Anda saat ini, dan sebagai fitur keamanan tambahan, PetroCASH telah membatasi akses ke situs tersebut. Untuk mengabaikan hal ini, bacalah sisa peringatan ini guna mengetahui cara melanjutkannya dengan menanggung risikonya sendiri.",
     "reasons": "Ada berbagai alasan mengapa situs dapat muncul di daftar peringatan kami, dan daftar peringatan kami dikompilasi dari daftar industri lain yang banyak digunakan. Alasan tersebut dapat mencakup penipuan atau risiko keamanan yang diketahui, seperti domain yang dites positif pada",
     "list_content": "Domain pada daftar peringatan ini dapat meliputi situs web berbahaya dan situs web sah yang telah disusupi oleh pelaku kejahatan.",
     "to_read_more": "Untuk membaca selengkapnya seputar situs ini",
@@ -7823,13 +7823,13 @@
     "file_an_issue": "Ajukan masalah.",
     "back_to_safety": "Kembali ke keamanan",
     "site_might_be_harmful": "Situs web ini mungkin berbahaya",
-    "metamask_flagged_site": "MetaMask menandai situs yang Anda coba kunjungi sebagai situs yang berpotensi menipu. Penyerang dapat menipu Anda agar melakukan sesuatu yang berbahaya.",
+    "metamask_flagged_site": "PetroCASH menandai situs yang Anda coba kunjungi sebagai situs yang berpotensi menipu. Penyerang dapat menipu Anda agar melakukan sesuatu yang berbahaya.",
     "you_may_proceed_anyway": "Anda dapat juga",
     "proceed_anyway": "tetap lanjutkan",
     "but_please_do_so_at_your_own_risk": "tetapi lakukan dengan menanggung risikonya sendiri.",
     "report_detection_problem": "Laporkan masalah deteksi",
     "share_on_twitter": "Jika Anda merasa ini bermanfaat, bagikan di X.",
-    "share_text": "MetaMask melindungi saya agar tidak mengunjungi situs yang berpotensi membahayakan: {{url}}. Tetap aman!"
+    "share_text": "PetroCASH melindungi saya agar tidak mengunjungi situs yang berpotensi membahayakan: {{url}}. Tetap aman!"
   },
   "notifications": {
     "timeout": "Waktu habis",
@@ -7890,7 +7890,7 @@
     "erc721_received_title": "NFT diterima",
     "erc1155_sent_title": "NFT terkirim",
     "erc1155_received_title": "NFT diterima",
-    "default_message_title": "MetaMask",
+    "default_message_title": "PetroCASH",
     "default_message_description": "Ketuk untuk melihat",
     "feature_gate": {
       "price_alerts": {
@@ -7979,7 +7979,7 @@
     "activation_card": {
       "title": "Aktifkan notifikasi",
       "description_1": "Pantau terus segala perkembangan yang terjadi di dompet Anda dengan notifikasi.",
-      "description_2": "Untuk menggunakan fitur ini, kami akan membuat ID anonim untuk akun Anda. Ini hanya digunakan untuk menyinkronkan data di MetaMask dan tidak terhubung dengan aktivitas atau pengidentifikasi lainnya, sehingga privasi tetap terjaga.",
+      "description_2": "Untuk menggunakan fitur ini, kami akan membuat ID anonim untuk akun Anda. Ini hanya digunakan untuk menyinkronkan data di PetroCASH dan tidak terhubung dengan aktivitas atau pengidentifikasi lainnya, sehingga privasi tetap terjaga.",
       "learn_more": "Pelajari cara kami melindungi privasi Anda saat menggunakan fitur ini.",
       "manage_preferences_1": "Notifikasi dapat dinonaktifkan setiap saat ",
       "manage_preferences_2": "Pengaturan > Notifikasi.",
@@ -7989,7 +7989,7 @@
     "push_onboarding": {
       "new_user": {
         "title": "Jangan pernah melewatkan apa pun",
-        "body": "Dapatkan peringatan waktu nyata seputar pergerakan harga, konfirmasi perdagangan, aktivitas portofolio, dan reward berdasarkan cara Anda menggunakan MetaMask.",
+        "body": "Dapatkan peringatan waktu nyata seputar pergerakan harga, konfirmasi perdagangan, aktivitas portofolio, dan reward berdasarkan cara Anda menggunakan PetroCASH.",
         "button_yes": "Aktifkan notifikasi",
         "button_not_now": "Tidak sekarang",
         "preview_card_1": {
@@ -8015,7 +8015,7 @@
       },
       "existing_user": {
         "title": "Memperkenalkan peringatan yang dipersonalisasi",
-        "body": "Dapatkan notifikasi yang sesuai dengan cara Anda berdagang, berdasarkan cara Anda menggunakan MetaMask.",
+        "body": "Dapatkan notifikasi yang sesuai dengan cara Anda berdagang, berdasarkan cara Anda menggunakan PetroCASH.",
         "card_title": "Yang akan Anda dapatkan",
         "card_description": "Peringatan dan pembaruan yang dipersonalisasi dan disesuaikan dengan aktivitas perdagangan Anda.",
         "button_confirm": "Konfirmasikan",
@@ -8094,13 +8094,13 @@
     "network_not_supported": "Tidak mendukung jaringan saat ini",
     "select_provider": "Pilih penyedia favorit Anda",
     "switch_network": "Beralih ke mainnet atau sepolia",
-    "card_title": "Selalu tampilkan tombol Kartu MetaMask",
-    "card_desc": "Kartu MetaMask hanya tersedia untuk penduduk negara tertentu.",
+    "card_title": "Selalu tampilkan tombol Kartu PetroCASH",
+    "card_desc": "Kartu PetroCASH hanya tersedia untuk penduduk negara tertentu.",
     "daimo_demo_title": "Gunakan lingkungan demo DaimoPay",
     "daimo_demo_desc": "Beralih antara lingkungan demo dan produksi DaimoPay untuk pembayaran kartu.",
-    "card_logout_title": "Kartu MetaMask",
-    "card_logout_desc": "Log out of your MetaMask Card account on this device. Use this for troubleshooting or if MetaMask Support asks you to.",
-    "card_logout_cta": "Log out of MetaMask Card"
+    "card_logout_title": "Kartu PetroCASH",
+    "card_logout_desc": "Log out of your Card account on this device. Use this for troubleshooting or if PetroCASH Support asks you to.",
+    "card_logout_cta": "Log out of Card"
   },
   "walletconnect_sessions": {
     "no_active_sessions": "Anda tidak memiliki sesi aktif",
@@ -8221,7 +8221,7 @@
     "wyre_minimum_deposit": "Deposit minimum adalah {{amount}}",
     "wyre_maximum_deposit": "Deposit maksimum adalah {{amount}}",
     "apple_pay_purchase": "Pembelian {{currency}}",
-    "apple_pay_provider_total_label": "{{provider}} (melalui MetaMask)",
+    "apple_pay_provider_total_label": "{{provider}} (melalui PetroCASH)",
     "buy_with": "Beli dengan",
     "plus_fee": "Ditambah biaya {{fee}}",
     "date": "Tanggal",
@@ -8240,12 +8240,12 @@
         "average_gas_fee": "Biaya gas rata-rata saat ini:",
         "subtitle_1": "Jika Anda berencana untuk menukar atau mentransfer {{ticker}}, beli lebih banyak untuk menutupi biaya gas.",
         "subtitle_2": "Biaya gas untuk transaksi tidak terkait dengan biaya pembelian {{ticker}}.",
-        "subtitle_3": "MetaMask tidak mengambil keuntungan dari biaya gas."
+        "subtitle_3": "PetroCASH tidak mengambil keuntungan dari biaya gas."
       },
       "step_2": {
         "title": "Apa itu biaya gas?",
         "subtitle_1": "Gas mengatur transaksi di jaringan Ethereum. Ini merupakan biaya yang dibayarkan dalam {{ticker}} kepada penambang kripto yang memproses transaksi Anda.",
-        "subtitle_2": "MetaMask tidak mengambil keuntungan dari biaya gas.",
+        "subtitle_2": "PetroCASH tidak mengambil keuntungan dari biaya gas.",
         "learn_more": "Pelajari selengkapnya seputar biaya gas"
       },
       "step_3": {
@@ -8320,7 +8320,7 @@
     "onboarding": {
       "what_to_expect": "Yang dapat diharapkan",
       "quotes": "Fitur beli kripto kami mengumpulkan kuotasi dari vendor terintegrasi, menawarkan kuotasi dari sumber tersebut agar bisa mendapatkan kripto langsung ke dompet Anda tanpa masa tunggu.",
-      "quotes_sell": "Kini Anda dapat langsung mencairkan uang tunai di MetaMask! Dapatkan penawaran terkini dari penyedia tepercaya selagi kami memberikan panduan langkah demi langkah.",
+      "quotes_sell": "Kini Anda dapat langsung mencairkan uang tunai di PetroCASH! Dapatkan penawaran terkini dari penyedia tepercaya selagi kami memberikan panduan langkah demi langkah.",
       "benefits": "Biaya jaringan yang harus dibayar semakin sedikit, dan ada banyak jaringan, token, serta metode pembayaran yang didukung",
       "benefits_sell": "Pertukaran dari kripto ke mata uang lokal kini semakin mudah.",
       "get_started": "Mulai"
@@ -8572,13 +8572,13 @@
       "best_swap": "pertukaran terbaik",
       "across": "di seluruh...",
       "want_to_learn_more": "Ingin mempelajari selengkapnya?",
-      "learn_more": "Pelajari selengkapnya seputar MetaMask Swaps",
+      "learn_more": "Pelajari selengkapnya seputar PetroCASH Swaps",
       "what_are": "Apa itu pertukaran token?",
       "review_audits": "Tinjau audit kontrak resmi kami",
       "start_swapping": "Mulai menukar"
     },
     "feature_off_title": "Sementara tidak tersedia",
-    "feature_off_body": "MetaMask Swaps sedang menjalani pemeliharaan. Periksa kembali nanti.",
+    "feature_off_body": "PetroCASH Swaps sedang menjalani pemeliharaan. Periksa kembali nanti.",
     "wrong_network_title": "Pertukaran tidak tersedia",
     "wrong_network_body": "Anda hanya dapat menukar token di Jaringan Utama Ethereum.",
     "unallowed_asset_title": "Tidak dapat menukar token ini",
@@ -8657,17 +8657,17 @@
     "included": "termasuk",
     "max_gas_fee": "Biaya jaringan maksimum",
     "edit": "Edit",
-    "quotes_include_fee": "Kuotasi mencakup {{fee}}% biaya MetaMask",
-    "quotes_include_gas_and_metamask_fee": "Kuotasi mencakup biaya gas dan biaya MetaMask sebesar {{fee}}%",
+    "quotes_include_fee": "Kuotasi mencakup {{fee}}% biaya PetroCASH",
+    "quotes_include_gas_and_metamask_fee": "Kuotasi mencakup biaya gas dan biaya PetroCASH sebesar {{fee}}%",
     "tap_to_swap": "Ketuk untuk menukar",
     "swipe_to_swap": "Usap untuk menukar",
     "swipe_to": "Usap untuk",
     "swap": "Tukar",
     "completed_swap": "Tukar!",
-    "metamask_swap_fee": "Biaya MetaMask Swap",
+    "metamask_swap_fee": "Biaya PetroCASH Swap",
     "fee_text": {
-      "fee_is_applied": "Biaya sebesar {{fee}} otomatis diperhitungkan ke dalam kuotasi ini. Anda membayarnya sebagai ganti lisensi untuk menggunakan perangkat lunak pengumpul informasi penyedia likuiditas MetaMask.",
-      "fee_is_not_applied": "MetaMask tidak menyertakan biaya tambahan dalam kuotasi ini."
+      "fee_is_applied": "Biaya sebesar {{fee}} otomatis diperhitungkan ke dalam kuotasi ini. Anda membayarnya sebagai ganti lisensi untuk menggunakan perangkat lunak pengumpul informasi penyedia likuiditas PetroCASH.",
+      "fee_is_not_applied": "PetroCASH tidak menyertakan biaya tambahan dalam kuotasi ini."
     },
     "enable": {
       "this_will": "Ini akan",
@@ -8734,7 +8734,7 @@
     "gas_education_1": "Biaya gas dibayarkan kepada penambang kripto yang memproses transaksi di",
     "gas_education_2_ethereum": "jaringan Ethereum.",
     "gas_education_2": "jaringan.",
-    "gas_education_3": "MetaMask tidak mengambil keuntungan dari biaya gas.",
+    "gas_education_3": "PetroCASH tidak mengambil keuntungan dari biaya gas.",
     "gas_education_4": "“Perkiraan",
     "gas_education_5": "biaya gas”",
     "gas_education_6": "merupakan biaya aktual yang kami perkirakan. Jumlah pastinya tergantung pada kondisi jaringan.",
@@ -8815,9 +8815,9 @@
   "switch_custom_network": {
     "title_existing_network": "Situs ini ingin beralih jaringan",
     "title_new_network": "Jaringan baru ditambahkan",
-    "switch_warning": "Ini akan mengalihkan jaringan yang dipilih dalam MetaMask ke jaringan yang ditambahkan sebelumnya:",
-    "add_network_and_give_dapp_permission_warning": "Anda menambahkan jaringan ini ke MetaMask dan memberikan {{dapp_origin}} izin untuk menggunakannya.",
-    "update_network_and_give_dapp_permission_warning": "Anda memperbarui jaringan ini di MetaMask dan memberikan {{dapp_origin}} izin untuk menggunakannya.",
+    "switch_warning": "Ini akan mengalihkan jaringan yang dipilih dalam PetroCASH ke jaringan yang ditambahkan sebelumnya:",
+    "add_network_and_give_dapp_permission_warning": "Anda menambahkan jaringan ini ke PetroCASH dan memberikan {{dapp_origin}} izin untuk menggunakannya.",
+    "update_network_and_give_dapp_permission_warning": "Anda memperbarui jaringan ini di PetroCASH dan memberikan {{dapp_origin}} izin untuk menggunakannya.",
     "request_update_network_url": "{{dapp_origin}} meminta untuk memperbarui URL jaringan default. Anda dapat mengedit informasi jaringan default setiap saat.",
     "available": "kini tersedia di pemilih jaringan.",
     "cancel": "Batal",
@@ -8825,8 +8825,8 @@
   },
   "add_custom_network": {
     "title": "Izinkan situs ini untuk menambahkan jaringan?",
-    "warning": "Ini memungkinkan jaringan untuk digunakan dalam MetaMask.",
-    "warning_subtext_1": "MetaMask tidak memverifikasi jaringan khusus atau keamanannya.",
+    "warning": "Ini memungkinkan jaringan untuk digunakan dalam PetroCASH.",
+    "warning_subtext_1": "PetroCASH tidak memverifikasi jaringan khusus atau keamanannya.",
     "warning_subtext_2": "Pelajari seputar",
     "warning_subtext_3": "penipuan dan risiko keamanan jaringan",
     "display_name": "Nama tampilan",
@@ -8842,7 +8842,7 @@
     "alert_recommend": "Kami merekomendasikan agar Anda",
     "alert_verify": "memverifikasikan ID rantai",
     "warning_subtext_new": {
-      "1": "MetaMask tidak memverifikasi jaringan khusus, jadi hanya setujui jaringan yang Anda percayai.",
+      "1": "PetroCASH tidak memverifikasi jaringan khusus, jadi hanya setujui jaringan yang Anda percayai.",
       "2": "Selengkapnya tentang risiko keamanan jaringan dan penipuan."
     },
     "invalid_rpc_url": "URL jaringan ini tidak cocok dengan penyedia yang dikenal untuk ID chain ini.",
@@ -8904,7 +8904,7 @@
       "show_qr": "Tampilkan kode QR",
       "qr_title": "Pindai kode QR",
       "qr_description": "Pindai kode ini menggunakan aplikasi autentikator untuk menambahkan akun. Kemudian, masukkan kode 6 digit yang ditampilkan.",
-      "restarted": "Prosesnya terlalu lama, jadi kami membuat kunci pengaturan yang baru. Hapus entri MetaMask yang lama dari aplikasi autentikator Anda, lalu tambahkan yang baru ini.",
+      "restarted": "Prosesnya terlalu lama, jadi kami membuat kunci pengaturan yang baru. Hapus entri PetroCASH yang lama dari aplikasi autentikator Anda, lalu tambahkan yang baru ini.",
       "continue": "Lanjutkan"
     },
     "passkey": {
@@ -9046,7 +9046,7 @@
     "estimated_gas_fee_tooltip_text_1": "Biaya gas dibayarkan kepada penambang kripto yang memproses transaksi di",
     "estimated_gas_fee_tooltip_text_2": "jaringan",
     "estimated_gas_fee_tooltip_text_3": "Ethereum.",
-    "estimated_gas_fee_tooltip_text_4": "MetaMask tidak mengambil keuntungan dari biaya gas.",
+    "estimated_gas_fee_tooltip_text_4": "PetroCASH tidak mengambil keuntungan dari biaya gas.",
     "estimated_gas_fee_tooltip_text_5": "Biaya gas diatur oleh jaringan dan berfluktuasi berdasarkan lalu lintas jaringan dan kompleksitas transaksi.",
     "learn_more": "Pelajari selengkapnya seputar biaya jaringan",
     "legacy_gas_suggestion_tooltip": "Saran biaya jaringan ini menggunakan estimasi gas lama yang mungkin kurang akurat."
@@ -9070,7 +9070,7 @@
     "high_fees": "Mengapa biayanya begitu tinggi?",
     "missing_tokens": "Saya kehilangan token...",
     "swap_issues": "Saya tidak bisa menukar...",
-    "mobile_sentiment": "Bagaimana pendapat Anda tentang MetaMask seluler?",
+    "mobile_sentiment": "Bagaimana pendapat Anda tentang PetroCASH seluler?",
     "sentiment_good_face": "😁",
     "sentiment_bad_face": "☹️",
     "sentiment_good": "Suka sekali!",
@@ -9106,7 +9106,7 @@
     "error_title": "Terjadi kesalahan",
     "error_message": "Terjadi kesalahan saat memuat informasi jaringan. Coba lagi nanti.",
     "private_network_third_description": "Masukkan nama untuk jaringan ini agar mudah dikenali.",
-    "learn_more_url": "https://support.metamask.io/networks-and-sidechains/managing-networks/user-guide-custom-networks-and-sidechains/",
+    "learn_more_url": "https://petrocash.org/support",
     "enable_token_detection": "Aktifkan deteksi token otomatis",
     "token_detection_mainnet_title": "Deteksi token diaktifkan sehingga token-token akan muncul di dompet Anda secara otomatis.",
     "token_detection_mainnet_link": "Anda juga dapat menambahkan token secara manual.",
@@ -9125,12 +9125,12 @@
   },
   "remember_me": {
     "enable_remember_me": "Aktifkan Ingatkan saya",
-    "enable_remember_me_description": "Saat Ingatkan saya aktif, siapa pun yang memiliki akses ke ponsel Anda dapat mengakses akun MetaMask Anda."
+    "enable_remember_me_description": "Saat Ingatkan saya aktif, siapa pun yang memiliki akses ke ponsel Anda dapat mengakses akun PetroCASH Anda."
   },
   "turn_off_remember_me": {
     "title": "Nonaktifkan Ingat Saya",
     "placeholder": "Konfirmasikan kata sandi",
-    "description": "Setelah dinonaktifkan, fitur Ingat Saya tidak dapat digunakan lagi. Fitur ini telah dihentikan, jadi Anda dapat membuka MetaMask dengan kata sandi atau biometrik sebagai gantinya.",
+    "description": "Setelah dinonaktifkan, fitur Ingat Saya tidak dapat digunakan lagi. Fitur ini telah dihentikan, jadi Anda dapat membuka PetroCASH dengan kata sandi atau biometrik sebagai gantinya.",
     "action": "Nonaktifkan Ingat Saya"
   },
   "dapp_connect": {
@@ -9142,11 +9142,11 @@
   },
   "automatic_security_checks": {
     "title": "Pemeriksaan keamanan otomatis",
-    "description": "Memeriksa pembaruan secara otomatis dapat menampilkan alamat IP Anda ke server GitHub. Ini hanya menunjukkan bahwa alamat IP Anda sedang menggunakan MetaMask. Tidak ada alamat akun atau informasi lainnya yang ditampilkan."
+    "description": "Memeriksa pembaruan secara otomatis dapat menampilkan alamat IP Anda ke server GitHub. Ini hanya menunjukkan bahwa alamat IP Anda sedang menggunakan PetroCASH. Tidak ada alamat akun atau informasi lainnya yang ditampilkan."
   },
   "terms_of_use_modal": {
     "title": "Tinjau Ketentuan Penggunaan kami",
-    "terms_of_use_check_description": "Saya menyetujui Ketentuan Penggunaan, yang berlaku untuk penggunaan saya atas MetaMask dan semua fiturnya",
+    "terms_of_use_check_description": "Saya menyetujui Ketentuan Penggunaan, yang berlaku untuk penggunaan saya atas PetroCASH dan semua fiturnya",
     "accept_cta": "Terima",
     "accept_helper_description": "Gulir untuk membaca semua bagian",
     "agree_cta": "Setuju"
@@ -9158,7 +9158,7 @@
   },
   "enable_automatic_security_check_modal": {
     "title": "Periksa pembaruan keamanan secara otomatis?",
-    "description": "Memeriksa pembaruan secara otomatis dapat menampilkan alamat IP Anda ke server GitHub. Ini hanya menunjukkan bahwa alamat IP Anda sedang menggunakan MetaMask. Tidak ada alamat akun atau informasi lainnya yang ditampilkan.",
+    "description": "Memeriksa pembaruan secara otomatis dapat menampilkan alamat IP Anda ke server GitHub. Ini hanya menunjukkan bahwa alamat IP Anda sedang menggunakan PetroCASH. Tidak ada alamat akun atau informasi lainnya yang ditampilkan.",
     "primary_action": "Aktifkan pemeriksaan keamanan otomatis",
     "secondary_action": "Tidak, terima kasih"
   },
@@ -9211,7 +9211,7 @@
     "new_wallet_needed_create_try_again_action": "Coba pulihkan dompet",
     "new_wallet_needed_description_part_one": "Terjadi kesalahan dengan dompet Anda. Buat yang baru. Karena akun Anda berada di blockchain, maka keamanannya masih terjaga. Hanya preferensi, jaringan tersimpan, nama akun, dan data terkait yang tersimpan di perangkat yang hilang.",
     "new_wallet_needed_description_part_two": "Untuk mengimpor akun ke dompet baru, Anda memerlukan Frasa Pemulihan Rahasia. Jika tidak memiliki Frasa Pemulihan Rahasia, akun Anda tidak akan bisa diimpor.",
-    "new_wallet_needed_description_part_three": "Agar hal ini tidak terjadi lagi, pastikan untuk selalu memperbarui aplikasi dan OS MetaMask ke versi terbaru."
+    "new_wallet_needed_description_part_three": "Agar hal ini tidak terjadi lagi, pastikan untuk selalu memperbarui aplikasi dan OS PetroCASH ke versi terbaru."
   },
   "srp_security_quiz": {
     "question_step": "Pertanyaan {{step}} dari {{total}}",
@@ -9225,7 +9225,7 @@
     "incorrect": "Salah!",
     "of": "dari",
     "question_one": {
-      "question": "Jika Anda kehilangan Frasa Pemulihan Rahasia, MetaMask...",
+      "question": "Jika Anda kehilangan Frasa Pemulihan Rahasia, PetroCASH...",
       "right_answer": "Tidak dapat membantu Anda",
       "wrong_answer": "Dapat mengembalikannya untuk Anda",
       "right_answer_title": "Benar! Tidak ada yang dapat membantu mengembalikan Frasa Pemulihan Rahasia Anda",
@@ -9250,9 +9250,9 @@
     "bluetooth_off_message": "Aktifkan Bluetooth pada perangkat Anda",
     "bluetooth_access_blocked": "Ledger memerlukan akses Bluetooth untuk dipasangkan dengan perangkat seluler.",
     "bluetooth_access_blocked_message": "Jika Anda ingin memasangkan perangkat Ledger menggunakan Bluetooth, aktifkan di Pengaturan dan coba lagi.",
-    "location_access_blocked": "MetaMask memerlukan izin akses lokasi untuk dipasangkan dengan Ledger.",
+    "location_access_blocked": "PetroCASH memerlukan izin akses lokasi untuk dipasangkan dengan Ledger.",
     "location_access_blocked_message": "Jika Anda ingin memasangkan perangkat Ledger menggunakan Bluetooth, Anda harus mengaktifkan akses lokasi di Pengaturan dan mencoba lagi.",
-    "nearbyDevices_access_blocked": "MetaMask memerlukan izin perangkat terdekat untuk dipasangkan dengan Ledger.",
+    "nearbyDevices_access_blocked": "PetroCASH memerlukan izin perangkat terdekat untuk dipasangkan dengan Ledger.",
     "nearbyDevices_access_blocked_message": "Jika Anda ingin memasangkan perangkat Ledger menggunakan Bluetooth, Anda harus mengaktifkan akses perangkat terdekat di Pengaturan dan mencoba lagi.",
     "bluetooth_scanning_error": "Terjadi kesalahan saat memindai perangkat",
     "bluetooth_scanning_error_message": "Pastikan perangkat Anda tidak terkunci dan aplikasi Ethereum sedang berjalan",
@@ -9301,7 +9301,7 @@
     "unknown_error_message": "Terjadi kesalahan tak terduga. Coba lagi.",
     "error_occured": "Terjadi kesalahan",
     "how_to_install_eth_app": "Cara menginstal aplikasi Ethereum di perangkat Ledger",
-    "ledger_account_count": "Anda menggunakan 1 akun dari Ledger dengan MetaMask Mobile.",
+    "ledger_account_count": "Anda menggunakan 1 akun dari Ledger dengan PetroCASH Mobile.",
     "open_eth_app": "Buka aplikasi Ethereum",
     "open_eth_app_message_one": "Kami mendeteksi Anda telah menginstal aplikasi Ethereum tetapi aplikasi tersebut tidak terbuka, ",
     "open_eth_app_message_two": "tekan dua tombol pada perangkat untuk menerima perintah membuka aplikasi Ethereum untuk melanjutkan.",
@@ -9317,7 +9317,7 @@
     "not_supported": "Operasi tidak didukung",
     "not_supported_error": "Hanya penandatanganan data yang diketik versi 4 yang didukung.",
     "error_during_connection": "Terjadi kesalahan tidak dikenal",
-    "error_during_connection_message": "Ada sedikit masalah saat menghubungkan perangkat Ledger, ketuk 'Coba Lagi' di bawah ini untuk mencoba kembali. Terkadang hal ini terjadi karena aplikasi ETH pada perangkat Ledger terbuka di awal proses pemasangan dengan MetaMask Mobile.",
+    "error_during_connection_message": "Ada sedikit masalah saat menghubungkan perangkat Ledger, ketuk 'Coba Lagi' di bawah ini untuk mencoba kembali. Terkadang hal ini terjadi karena aplikasi ETH pada perangkat Ledger terbuka di awal proses pemasangan dengan PetroCASH Mobile.",
     "how_to_install_eth_webview_title": "Cara menginstal Aplikasi Ethereum",
     "nonce_too_low": "Nonce terlalu rendah",
     "nonce_too_low_error": "Nonce yang ditetapkan terlalu rendah",
@@ -9326,7 +9326,7 @@
     "select_hd_path_description": "Jika Anda tidak menemukan akun yang diharapkan, coba alihkan jalur HD atau jaringan yang dipilih saat ini.",
     "ledger_live_path": "Ledger Live",
     "ledger_legacy_path": "Legacy(MEW/MyCrypto)",
-    "ledger_bip44_path": "BIP44(mis. MetaMask, Trezor)",
+    "ledger_bip44_path": "BIP44(mis. PetroCASH, Trezor)",
     "ledger_legacy_label": " (legacy)",
     "blind_sign_error": "Kesalahan penandatanganan buta",
     "blind_sign_error_message": "Penandatanganan buta tidak diaktifkan pada perangkat Ledger. Aktifkan di pengaturan.",
@@ -9444,7 +9444,7 @@
           "info_rows": {
             "row_1": "Dapatkan hingga ~{{percentage}}% APY pada saldo Anda",
             "row_2": "Tidak ada penguncian—perdagangkan atau tarik setiap saat",
-            "row_3": "Disimpan dalam mUSD, stablecoin MetaMask yang didukung dolar dengan rasio 1:1"
+            "row_3": "Disimpan dalam mUSD, stablecoin PetroCASH yang didukung dolar dengan rasio 1:1"
           }
         },
         "stablecoin_lending": {
@@ -9587,8 +9587,8 @@
           "dollar_backed": "Didukung oleh dolar",
           "no_lockups": "Tidak ada penguncian",
           "daily_bonus": "Bonus harian",
-          "metamask_stablecoins": "Stablecoin MetaMask",
-          "no_metamask_fee": "Tidak ada biaya MetaMask"
+          "metamask_stablecoins": "Stablecoin PetroCASH",
+          "no_metamask_fee": "Tidak ada biaya PetroCASH"
         }
       },
       "buy_musd": "Beli mUSD",
@@ -9600,7 +9600,7 @@
       "quick_convert_button": "Konversikan",
       "learn_more": "Selengkapnya",
       "tooltip_title": "Dapatkan keuntungan dengan mUSD",
-      "tooltip_content": "Konversikan USDC, USDT, atau DAI dengan mUSD, stablecoin berbasis dolar milik MetaMask. Dapatkan keuntungan {{apy}} untuk setiap dolar yang Anda miliki.",
+      "tooltip_content": "Konversikan USDC, USDT, atau DAI dengan mUSD, stablecoin berbasis dolar milik PetroCASH. Dapatkan keuntungan {{apy}} untuk setiap dolar yang Anda miliki.",
       "quick_convert": {
         "title": "Konversi dan dapatkan {{percentage}}%",
         "subtitle": "Konversikan stablecoin Anda ke mUSD dan terima bonus tahunan hingga {{percentage}}% yang dapat diklaim setiap hari.",
@@ -9624,7 +9624,7 @@
       "rewards_tag_label": "Reward",
       "tooltip_title": "Dapatkan reward dengan mUSD",
       "tooltip_points_suffix": "per $100",
-      "tooltip_description": "Konversikan USDC, USDT, atau DAI dengan mUSD, stablecoin berbasis dolar milik MetaMask.\nDapatkan poin setiap kali Anda melakukan konversi.",
+      "tooltip_description": "Konversikan USDC, USDT, atau DAI dengan mUSD, stablecoin berbasis dolar milik PetroCASH.\nDapatkan poin setiap kali Anda melakukan konversi.",
       "tooltip_opted_in_footer": "Poin akan ditambahkan secara otomatis ke akun Anda.",
       "tooltip_not_opted_in_footer": "Ikuti program reward untuk mendapatkan poin Anda.",
       "tooltip_close": "Tutup"
@@ -9671,13 +9671,13 @@
       },
       "step_2": {
         "no_card_account": {
-          "title": "Dapatkan Kartu MetaMask",
+          "title": "Dapatkan Kartu PetroCASH",
           "description": "Gunakan saldo Anda dan dapatkan keuntungan dari pembelian.",
           "cta_primary": "Dapatkan kartu",
           "cta_secondary": "Lewati"
         },
         "unlinked_card_account": {
-          "title": "Hubungkan Kartu MetaMask",
+          "title": "Hubungkan Kartu PetroCASH",
           "description": "Gunakan saldo Anda dan dapatkan keuntungan dari pembelian.",
           "cta_primary": "Tautkan kartu",
           "cta_secondary": "Lewati"
@@ -9685,13 +9685,13 @@
       }
     },
     "splash": {
-      "eyebrow": "MetaMask Money",
+      "eyebrow": "PetroCASH Money",
       "title": "Earn, trade, and spend from one balance",
-      "body_prefix": "MetaMask Money is a stablecoin account that earns up to ",
+      "body_prefix": "PetroCASH Money is a stablecoin account that earns up to ",
       "body_suffix": "—with trading, sending, and spending built in.",
-      "body_no_apy": "MetaMask Money is a stablecoin account with trading, sending, and spending built in.",
-      "benefit_convert_title": "Converts to MetaMask USD, 1:1",
-      "benefit_convert_body": "Funds you add convert 1:1 to MetaMask USD, with no fees.",
+      "body_no_apy": "PetroCASH Money is a stablecoin account with trading, sending, and spending built in.",
+      "benefit_convert_title": "Converts to mUSD, 1:1",
+      "benefit_convert_body": "Funds you add convert 1:1 to mUSD, with no fees.",
       "benefit_earn_title": "Earn automatically",
       "benefit_earn_body": "Earnings land in your balance in real time, with nothing to claim.",
       "benefit_trade_title": "Trade from the same balance",
@@ -9699,7 +9699,7 @@
       "benefit_withdraw_title": "Withdraw anytime",
       "benefit_withdraw_body": "No lockups, notice periods, or penalties. Your money is always yours to take out.",
       "benefit_send_title": "Send or spend anywhere",
-      "benefit_send_body": "Send to any wallet or bank, or spend with MetaMask Card for up to 3% back.",
+      "benefit_send_body": "Send to any wallet or bank, or spend with Card for up to 3% back.",
       "cta": "Start earning",
       "close": "Close"
     },
@@ -9749,11 +9749,11 @@
       "step2_body": "Pindahkan stablecoin tanpa biaya pertukaran. Dana mulai menghasilkan keuntungan segera.",
       "step2_footer_text": "Money Account menggunakan infrastruktur Veda.",
       "step3_title": "Gunakan di mana pun",
-      "step3_body_card_eligible": "Dapatkan hingga {{percentage}}% pengembalian dari pembelian dengan menautkan Money Account ke Kartu MetaMask.",
-      "step3_body_card_ineligible": "Segera hadir! Dapatkan hingga {{percentage}}% pengembalian dari pembelian dengan menautkan Money Account ke Kartu MetaMask.",
+      "step3_body_card_eligible": "Dapatkan hingga {{percentage}}% pengembalian dari pembelian dengan menautkan Money Account ke Kartu PetroCASH.",
+      "step3_body_card_ineligible": "Segera hadir! Dapatkan hingga {{percentage}}% pengembalian dari pembelian dengan menautkan Money Account ke Kartu PetroCASH.",
       "step3_footer_text": "Termasuk pemantauan Steakhouse Financial.",
       "step4_title": "Berdagang dan hasilkan keuntungan di satu tempat",
-      "step4_body": "Gunakan saldo Dana untuk bertransaksi di MetaMask sambil tetap mendapatkan keuntungan.",
+      "step4_body": "Gunakan saldo Dana untuk bertransaksi di PetroCASH sambil tetap mendapatkan keuntungan.",
       "step4_footer_text": "Didukung oleh Monad.",
       "button_text": "Lanjutkan"
     },
@@ -9860,9 +9860,9 @@
       "benefit_auto_earn_variable": "(variabel)",
       "benefit_dollar_backed": "Amankan uang Anda di mUSD, stablecoin yang didukung dolar dengan rasio 1:1",
       "benefit_liquidity": "Dapatkan likuiditas penuh tanpa penguncian, sehingga Anda dapat melakukan perdagangan atau penarikan setiap saat",
-      "benefit_spend_prefix": "Gunakan di lebih dari 150 juta merchant dengan Kartu MetaMask dan dapatkan ",
+      "benefit_spend_prefix": "Gunakan di lebih dari 150 juta merchant dengan Kartu PetroCASH dan dapatkan ",
       "benefit_spend_cashback": "Pengembalian 1-3% mUSD",
-      "benefit_transfer": "Kirim ke dompet Anda di MetaMask",
+      "benefit_transfer": "Kirim ke dompet Anda di PetroCASH",
       "benefit_global": "Kirim dan terima dana secara global",
       "learn_more": "Pelajari selengkapnya"
     },
@@ -9895,13 +9895,13 @@
     "musd_rescue_send": {
       "title": "Kirim",
       "your_funds_are_safe_title": "Your funds are safe",
-      "your_funds_are_safe_description": "{{amount}} of your mUSD is in your Money account but isn't earning yet. Send the funds back to your MetaMask account, then add them again.",
+      "your_funds_are_safe_description": "{{amount}} of your mUSD is in your Money account but isn't earning yet. Send the funds back to your PetroCASH account, then add them again.",
       "to_label": "Ke",
       "receive_label": "Terima",
       "est_time_label": "Estimasi waktu",
       "est_time_value": "< 10 dtk",
       "transaction_fees_label": "Biaya transaksi",
-      "paid_by_metamask": "Dibayar oleh MetaMask",
+      "paid_by_metamask": "Dibayar oleh PetroCASH",
       "you_ll_receive_label": "Anda akan menerima",
       "recipient_label": "Pilih akun",
       "recipient_placeholder": "Enter account name or paste address",
@@ -9953,7 +9953,7 @@
       "title": "Persentase Hasil Tahunan (APY)",
       "paragraph_1": "Money Account menghasilkan hingga {{percentage}}% secara otomatis.",
       "paragraph_2": "Nilai yang ditampilkan merupakan estimasi Persentase Hasil Tahunan (APY) berdasarkan kondisi pasar saat ini. APY bersifat variabel dan tidak dijamin. Dana masuk ke brankas DeFi, yang dikelola oleh Veda dengan pengawasan risiko oleh Steakhouse Financial, yang menghasilkan pengembalian di pasar pinjaman yang sudah mapan.",
-      "paragraph_3": "Saat menautkan Kartu MetaMask, pembelian akan dipotong dari saldo ini.",
+      "paragraph_3": "Saat menautkan Kartu PetroCASH, pembelian akan dipotong dari saldo ini.",
       "paragraph_4": "Money Account didukung oleh Monad.",
       "deposit_body": "Nilai yang ditampilkan merupakan estimasi Persentase Hasil Tahunan (APY) berdasarkan kondisi pasar saat ini. APY bersifat variabel dan tidak dijamin."
     },
@@ -10029,7 +10029,7 @@
       "paid_with": "Dibayar dengan",
       "you_deposited": "Anda mendeposit",
       "transaction_fees": "Biaya transaksi",
-      "paid_by_metamask": "Dibayar oleh MetaMask",
+      "paid_by_metamask": "Dibayar oleh PetroCASH",
       "total": "Total",
       "pending": "Menunggu"
     },
@@ -10040,7 +10040,7 @@
       "description_suffix": " dengan mengonversi USDC, USDT, dan DAI ke mUSD.",
       "tag_dollar_backed": "Didukung oleh dolar",
       "tag_no_lockups": "Tidak ada penguncian",
-      "tag_no_fee": "Tidak ada biaya MetaMask",
+      "tag_no_fee": "Tidak ada biaya PetroCASH",
       "tag_daily_bonus": "Bonus harian",
       "convert_cta": "Konversikan ke mUSD",
       "learn_more": "Pelajari selengkapnya",
@@ -10057,31 +10057,31 @@
       "header_title": "Dana",
       "section_title": "Cara kerjanya",
       "description_1": "Tambahkan mUSD ke Money Account dan dapatkan hingga {{percentage}}% APY (variabel) secara otomatis. Dana masuk ke brankas DeFi, yang dikelola oleh Veda dengan pemantauan risiko oleh Steakhouse Financial. Nilai dihasilkan oleh platform DeFi pihak ketiga yang menyebarkan dana dalam protokol blockchain. Tanpa stake, tanpa klaim, tanpa penguncian.",
-      "description_2": "Saldo Dana merupakan saldo penggunaan Anda. Hubungkan Kartu MetaMask untuk digunakan di lebih dari 150 juta merchant di seluruh dunia. Dana Anda terus menghasilkan keuntungan hingga saat Anda menggunakannya.",
+      "description_2": "Saldo Dana merupakan saldo penggunaan Anda. Hubungkan Kartu PetroCASH untuk digunakan di lebih dari 150 juta merchant di seluruh dunia. Dana Anda terus menghasilkan keuntungan hingga saat Anda menggunakannya.",
       "description_3": "Money Account didukung oleh Monad.",
       "faq_title": "Pertanyaan Umum",
-      "faq_q1": "Apa itu Money Account MetaMask?",
-      "faq_a1": "Akun yang menghasilkan APY variabel hingga {{percentage}}%. Anda mendepositkan dana, yang disimpan di akun sebagai mUSD, dan mendapatkan APY hingga {{percentage}}%. mUSD merupakan stablecoin berbasis dolar milik MetaMask. Anda dapat menggunakan atau menarik dana Anda setiap saat tanpa penalti. Anda dapat menggunakan dana Anda melalui Kartu MetaMask di lebih dari 150 juta merchant Mastercard di seluruh dunia.",
-      "faq_a1_no_apy": "An account that earns variable APY. You deposit funds, which are held in the account as mUSD. mUSD is MetaMask's dollar-backed stablecoin. You can use or withdraw your funds anytime with no penalties. You can spend your funds via MetaMask Card at 150+ million Mastercard merchants worldwide.",
-      "faq_q2": "Apakah Money Account MetaMask aman?",
+      "faq_q1": "Apa itu Money Account PetroCASH?",
+      "faq_a1": "Akun yang menghasilkan APY variabel hingga {{percentage}}%. Anda mendepositkan dana, yang disimpan di akun sebagai mUSD, dan mendapatkan APY hingga {{percentage}}%. mUSD merupakan stablecoin berbasis dolar milik PetroCASH. Anda dapat menggunakan atau menarik dana Anda setiap saat tanpa penalti. Anda dapat menggunakan dana Anda melalui Kartu PetroCASH di lebih dari 150 juta merchant Mastercard di seluruh dunia.",
+      "faq_a1_no_apy": "An account that earns variable APY. You deposit funds, which are held in the account as mUSD. mUSD is PetroCASH's dollar-backed stablecoin. You can use or withdraw your funds anytime with no penalties. You can spend your funds via Card at 150+ million Mastercard merchants worldwide.",
+      "faq_q2": "Apakah Money Account PetroCASH aman?",
       "faq_a2": "Ya, tetapi seperti halnya semua produk DeFi, produk ini memiliki risiko. Ini merupakan dompet penyimpanan mandiri, artinya Anda memiliki kontrol penuh atas akun Anda dengan Kunci Pribadi.\n\nRisiko meliputi kegagalan kontrak cerdas, eksploitasi protokol, kekurangan likuiditas, kegagalan pihak ketiga, serta pembatasan hukum atau peraturan. Money Account tidak diasuransikan oleh FDIC atau lembaga pemerintah mana pun. Ada risiko kehilangan.",
-      "faq_q3": "Siapa yang mengontrol Money Account MetaMask?",
-      "faq_a3": "Anda sendiri! MetaMask merupakan dompet penyimpanan mandiri, artinya hanya Kunci Pribadi pemilik akun yang dapat mengontrolnya. MetaMask tidak dapat mengakses, membekukan, atau memindahkan dana Anda. Inilah yang membedakan kami dari rekening bank tradisional dan platform kripto kustodian—tidak ada pihak ketiga yang memegang dana Anda.",
-      "faq_q4": "Apa saja biaya Money Account MetaMask?",
-      "faq_a4": "Tidak ada biaya untuk membuka Money Account dan tidak ada biaya untuk mendepositkan stablecoin. Anda akan dikenakan biaya saat mendepositkan token yang bukan merupakan stablecoin. Terdapat juga biaya yang terkait dengan transaksi Kartu MetaMask, penarikan ATM, dan biaya penarikan mata uang lokal. ",
+      "faq_q3": "Siapa yang mengontrol Money Account PetroCASH?",
+      "faq_a3": "Anda sendiri! PetroCASH merupakan dompet penyimpanan mandiri, artinya hanya Kunci Pribadi pemilik akun yang dapat mengontrolnya. PetroCASH tidak dapat mengakses, membekukan, atau memindahkan dana Anda. Inilah yang membedakan kami dari rekening bank tradisional dan platform kripto kustodian—tidak ada pihak ketiga yang memegang dana Anda.",
+      "faq_q4": "Apa saja biaya Money Account PetroCASH?",
+      "faq_a4": "Tidak ada biaya untuk membuka Money Account dan tidak ada biaya untuk mendepositkan stablecoin. Anda akan dikenakan biaya saat mendepositkan token yang bukan merupakan stablecoin. Terdapat juga biaya yang terkait dengan transaksi Kartu PetroCASH, penarikan ATM, dan biaya penarikan mata uang lokal. ",
       "faq_a4_link": "Lihat perincian biaya Kartu selengkapnya di sini.",
-      "faq_q5": "Berapa penghasilan yang bisa saya peroleh dengan Money Account MetaMask?",
+      "faq_q5": "Berapa penghasilan yang bisa saya peroleh dengan Money Account PetroCASH?",
       "faq_a5": "Hingga {{percentage}}% APY. Nilainya bersifat variabel dan berfluktuasi sesuai kondisi pasar. Nilai saat ini selalu ditampilkan di dalam Money Account.",
       "faq_a5_no_apy": "The rate is variable and fluctuates with market conditions. The current rate is always visible inside the Money account.",
       "faq_q6": "Dari mana hasil tersebut berasal?",
-      "faq_a6": "Saat Anda mendepositkan dana, maka dana tersebut ditempatkan dalam protokol DeFi yang sudah mapan, seperti Aave dan Morpho, di mana dana tersebut menghasilkan keuntungan dari aktivitas ekonomi riil. Keuntungan ini kemudian diberikan kepada Anda dalam bentuk APY.\n\nPenyedia layanan pihak ketiga bernama Steakhouse Financial memantau bagaimana dana dialokasikan dalam protokol tersebut. Veda, penyedia infrastruktur pihak ketiga, menyebarkan dan memelihara brankas kontrak cerdas yang menyimpan dana Anda.\n\nKeuntungan tersebut bukanlah bunga yang dibayarkan oleh MetaMask atau oleh penerbit mUSD. Itu merupakan keuntungan on-chain yang dihasilkan oleh posisi dalam protokol DeFi pihak ketiga.",
+      "faq_a6": "Saat Anda mendepositkan dana, maka dana tersebut ditempatkan dalam protokol DeFi yang sudah mapan, seperti Aave dan Morpho, di mana dana tersebut menghasilkan keuntungan dari aktivitas ekonomi riil. Keuntungan ini kemudian diberikan kepada Anda dalam bentuk APY.\n\nPenyedia layanan pihak ketiga bernama Steakhouse Financial memantau bagaimana dana dialokasikan dalam protokol tersebut. Veda, penyedia infrastruktur pihak ketiga, menyebarkan dan memelihara brankas kontrak cerdas yang menyimpan dana Anda.\n\nKeuntungan tersebut bukanlah bunga yang dibayarkan oleh PetroCASH atau oleh penerbit mUSD. Itu merupakan keuntungan on-chain yang dihasilkan oleh posisi dalam protokol DeFi pihak ketiga.",
       "faq_q7": "Token apa saja yang bisa saya depositkan ke Money Account?",
       "faq_a7": "Anda bisa mendepositkan stablecoin dan aToken berikut ke Money Account tanpa biaya konversi:\n\n{{tokenBullets}}\n\nSemua token EVM lainnya bisa didepositkan ke Money Account, tetapi biaya standar dapat berlaku. Anda juga bisa mendanai Money Account menggunakan kartu debit, kartu kredit, rekening bank, PayPal, Apple Pay, atau Google Pay.\n\nCatatan: Terdapat deposit awal maksimum sebesar $100.000 per token untuk memastikan likuiditas.",
-      "faq_q8": "Bisakah saya menarik dana dari Money Account MetaMask setiap saat?",
-      "faq_a8": "Ya. Anda dapat berdagang, mengirim, menggunakan, atau menarik seluruh saldo Anda setiap saat tanpa periode pemberitahuan, tanpa penalti, dan tanpa biaya penarikan dari MetaMask. Jika likuiditas terbatas, penundaan sementara dapat terjadi.",
-      "faq_q9": "Apakah saya perlu melakukan verifikasi identitas untuk menggunakan Money Account MetaMask?",
-      "faq_a9": "Tidak, membuka Money Account tidak memerlukan verifikasi identitas. Namun, fitur-fitur tertentu, termasuk Kartu dan Ramp, memang memerlukan verifikasi. Pemeriksaan dilakukan oleh penyedia pihak ketiga yang mengoperasikan layanan yang teregulasi, bukan oleh MetaMask. Jika diperlukan, Anda akan dipandu untuk melewati proses tersebut di dalam aplikasi selama pendaftaran.",
-      "faq_q10": "Money Account MetaMask tersedia di negara mana saja?",
+      "faq_q8": "Bisakah saya menarik dana dari Money Account PetroCASH setiap saat?",
+      "faq_a8": "Ya. Anda dapat berdagang, mengirim, menggunakan, atau menarik seluruh saldo Anda setiap saat tanpa periode pemberitahuan, tanpa penalti, dan tanpa biaya penarikan dari PetroCASH. Jika likuiditas terbatas, penundaan sementara dapat terjadi.",
+      "faq_q9": "Apakah saya perlu melakukan verifikasi identitas untuk menggunakan Money Account PetroCASH?",
+      "faq_a9": "Tidak, membuka Money Account tidak memerlukan verifikasi identitas. Namun, fitur-fitur tertentu, termasuk Kartu dan Ramp, memang memerlukan verifikasi. Pemeriksaan dilakukan oleh penyedia pihak ketiga yang mengoperasikan layanan yang teregulasi, bukan oleh PetroCASH. Jika diperlukan, Anda akan dipandu untuk melewati proses tersebut di dalam aplikasi selama pendaftaran.",
+      "faq_q10": "Money Account PetroCASH tersedia di negara mana saja?",
       "faq_a10": "Di berbagai negara! Saat ini kami belum tersedia di Britania Raya dan negara-negara yang masuk dalam daftar sanksi AS.",
       "disclosures_title": "Risiko dan Pengungkapan",
       "disclosures_body": "Money Account bukanlah rekening bank, rekening tabungan, atau produk deposito yang diasuransikan. APY bersifat variabel dan tidak dijamin. Money Account melibatkan kontrak cerdas, protokol, likuiditas, dan risiko lainnya, dan Anda berpotensi kehilangan sebagian atau seluruh dana. Tunduk pada pembatasan regional. Syarat dan ketentuan berlaku."
@@ -10144,7 +10144,7 @@
     "staked_balance": "Saldo yang di-stake",
     "staked_ethereum": "Ethereum yang di-stake",
     "unstake": "Batalkan stake",
-    "withdrawal_details_unavailable": "Kami tidak dapat memuat detail penarikan Anda. Coba lagi. Jika masalah terus berlanjut, hubungi Dukungan MetaMask.",
+    "withdrawal_details_unavailable": "Kami tidak dapat memuat detail penarikan Anda. Coba lagi. Jika masalah terus berlanjut, hubungi Dukungan PetroCASH.",
     "stake_more": "Stake lebih banyak",
     "claim": "Klaim",
     "staking": "Staking",
@@ -10159,7 +10159,7 @@
     "reward_frequency": "Frekuensi reward",
     "reward_frequency_tooltip": "Saldo yang di-stake diperbarui setiap {{frequency}} untuk memperhitungkan reward baru.",
     "withdrawal_time": "Waktu penarikan",
-    "metamask_pool": "MetaMask Pool",
+    "metamask_pool": "PetroCASH Pool",
     "enter_amount": "Masukkan jumlah",
     "review": "Tinjau",
     "not_enough_eth": "ETH tidak cukup",
@@ -10178,7 +10178,7 @@
     "got_it": "Mengerti",
     "your_balance": "Saldo Anda",
     "stake_your_eth_cta": {
-      "base": "Stake ETH dengan MetaMask Pool dan dapatkan",
+      "base": "Stake ETH dengan PetroCASH Pool dan dapatkan",
       "annually": "setiap tahun.",
       "learn_more_with_period": "Selengkapnya."
     },
@@ -10274,7 +10274,7 @@
   },
   "default_settings": {
     "title": "Dompet Anda sudah siap",
-    "description": "MetaMask menggunakan pengaturan default untuk menyeimbangkan keamanan dan kemudahan penggunaan. Ubah pengaturan ini untuk lebih meningkatkan privasi Anda.",
+    "description": "PetroCASH menggunakan pengaturan default untuk menyeimbangkan keamanan dan kemudahan penggunaan. Ubah pengaturan ini untuk lebih meningkatkan privasi Anda.",
     "learn_more_about_privacy": "Selengkapnya seputar praktik terbaik privasi.",
     "privacy_policy": "Kebijakan privasi",
     "default_settings": "Pengaturan default",
@@ -10284,17 +10284,17 @@
     "manage_networks_body": "Kami menggunakan Infura sebagai penyedia panggilan prosedur jarak jauh (RPC) untuk menawarkan akses paling andal dan pribadi ke data Ethereum sebisa mungkin. Anda dapat memilih RPC sendiri, akan tetapi ingatlah bahwa RPC apa pun akan menerima alamat IP dan dompet Ethereum Anda untuk melakukan transaksi. Baca ",
     "manage_networks_body2": " untuk mempelajari selengkapnya tentang cara Infura menangani data untuk akun EVM, untuk akun Solana ",
     "manage_networks_body3": "klik di sini.",
-    "functionality_body": "MetaMask menawarkan fitur dasar seperti detail token dan pengaturan gas melalui layanan internet. Alamat IP dibagikan saat menggunakan layanan internet, dalam hal ini kepada MetaMask. Ini sama seperti saat Anda mengunjungi situs web mana pun. MetaMask menggunakan data ini untuk sementara dan tidak akan pernah menjual data Anda. Anda dapat menggunakan VPN atau menonaktifkan layanan ini, akan tetapi hal ini dapat memengaruhi pengalaman dalam menggunakan MetaMask. Baca ",
+    "functionality_body": "PetroCASH menawarkan fitur dasar seperti detail token dan pengaturan gas melalui layanan internet. Alamat IP dibagikan saat menggunakan layanan internet, dalam hal ini kepada PetroCASH. Ini sama seperti saat Anda mengunjungi situs web mana pun. PetroCASH menggunakan data ini untuk sementara dan tidak akan pernah menjual data Anda. Anda dapat menggunakan VPN atau menonaktifkan layanan ini, akan tetapi hal ini dapat memengaruhi pengalaman dalam menggunakan PetroCASH. Baca ",
     "functionality_body2": " untuk selengkapnya.",
     "sheet": {
       "title_off": "Nonaktifkan fungsionalitas dasar",
-      "description_off": "Artinya, Anda tidak akan benar-benar mengoptimalkan waktu di MetaMask. Fitur dasar (seperti detail token, pengaturan gas optimal, dan lainnya) tidak akan tersedia untuk Anda.",
+      "description_off": "Artinya, Anda tidak akan benar-benar mengoptimalkan waktu di PetroCASH. Fitur dasar (seperti detail token, pengaturan gas optimal, dan lainnya) tidak akan tersedia untuk Anda.",
       "description_off2": "Dengan menonaktifkan ini, Anda juga akan menonaktifkan semua fitur di dalamnya",
       "description_off2_related_features1": "keamanan dan privasi, pencadangan dan sinkronisasi",
       "description_off2_related_features1_and": "dan",
       "description_off2_related_features2": "notifikasi.",
       "title_on": "Aktifkan fungsionalitas dasar",
-      "description_on": "Untuk mengoptimalkan waktu di MetaMask, Anda perlu mengaktifkan fitur ini. Fungsi dasar (seperti detail token, pengaturan gas optimal, notifikasi, dan lainnya) penting untuk pengalaman web3.",
+      "description_on": "Untuk mengoptimalkan waktu di PetroCASH, Anda perlu mengaktifkan fitur ini. Fungsi dasar (seperti detail token, pengaturan gas optimal, notifikasi, dan lainnya) penting untuk pengalaman web3.",
       "checkbox_label": "Saya memahami dan ingin melanjutkan",
       "buttons": {
         "cancel": "Batal",
@@ -10309,7 +10309,7 @@
     "drawer_assets_desc": "Autodeteksi token di dompet Anda, tampilkan NFT, dan dapatkan pembaruan saldo akun secara batch",
     "drawer_security_title": "Keamanan",
     "drawer_security_desc": "Kurangi kemungkinan Anda bergabung dengan jaringan yang tidak aman dan lindungi akun Anda",
-    "network_details_check_desc": "MetaMask menggunakan layanan pihak ketiga yang disebut chainid.network untuk menampilkan detail jaringan yang akurat dan terstandardisasi. Hal ini dapat mengurangi kemungkinan Anda untuk terhubung ke jaringan berbahaya atau salah. Saat menggunakan fitur ini, alamat IP akan diketahui oleh chainid.network."
+    "network_details_check_desc": "PetroCASH menggunakan layanan pihak ketiga yang disebut chainid.network untuk menampilkan detail jaringan yang akurat dan terstandardisasi. Hal ini dapat mengurangi kemungkinan Anda untuk terhubung ke jaringan berbahaya atau salah. Saat menggunakan fitur ini, alamat IP akan diketahui oleh chainid.network."
   },
   "simulation_details": {
     "failed": "Terjadi kesalahan saat memuat estimasi Anda.",
@@ -10343,7 +10343,7 @@
     },
     "estimated_gas_fee": {
       "title": "Estimasi biaya jaringan",
-      "gas_recipient": "Biaya gas dibayarkan kepada penambang kripto yang memproses transaksi di jaringan Ethereum. MetaMask tidak mengambil keuntungan dari biaya gas.",
+      "gas_recipient": "Biaya gas dibayarkan kepada penambang kripto yang memproses transaksi di jaringan Ethereum. PetroCASH tidak mengambil keuntungan dari biaya gas.",
       "gas_fluctuation": "Biaya gas diperkirakan dan akan berfluktuasi berdasarkan lalu lintas jaringan dan kompleksitas transaksi.",
       "gas_learn_more": "Pelajari selengkapnya seputar biaya jaringan"
     },
@@ -10411,7 +10411,7 @@
       "you_receive": "Anda akan menerima",
       "transaction_fee": "Biaya transaksi",
       "transaction_fees": "Biaya transaksi",
-      "metamask_fee": "Biaya MetaMask",
+      "metamask_fee": "Biaya PetroCASH",
       "network_fee": "Biaya jaringan",
       "bridge_fee": "Biaya penyedia bridge",
       "provider_fee": "Biaya penyedia",
@@ -10432,7 +10432,7 @@
       "perps_withdraw": "Tarik",
       "predict_deposit": "Tambahkan dana Prediction",
       "predict_withdraw": "Tarik",
-      "money_account_deposit_header": "Tambahkan ke MetaMask Money",
+      "money_account_deposit_header": "Tambahkan ke PetroCASH Money",
       "money_account_send": "Kirim"
     },
     "sub_title": {
@@ -10450,19 +10450,19 @@
     },
     "tooltip": {
       "perps_deposit": {
-        "transaction_fee": "Kami akan menukar token Anda dengan USDC di HyperCore, jaringan yang digunakan oleh Perp. Penyedia swap mungkin akan mengenakan biaya, tetapi MetaMask tidak."
+        "transaction_fee": "Kami akan menukar token Anda dengan USDC di HyperCore, jaringan yang digunakan oleh Perp. Penyedia swap mungkin akan mengenakan biaya, tetapi PetroCASH tidak."
       },
       "predict_deposit": {
-        "transaction_fee": "Kami akan menukar token Anda dengan pUSD di Polygon, jaringan yang digunakan oleh Predictions. Penyedia swap mungkin akan mengenakan biaya, tetapi MetaMask tidak."
+        "transaction_fee": "Kami akan menukar token Anda dengan pUSD di Polygon, jaringan yang digunakan oleh Predictions. Penyedia swap mungkin akan mengenakan biaya, tetapi PetroCASH tidak."
       },
       "perps_withdraw": {
-        "swap_to_token": "MetaMask akan menukarkan ke token yang Anda inginkan."
+        "swap_to_token": "PetroCASH akan menukarkan ke token yang Anda inginkan."
       },
       "predict_withdraw": {
-        "swap_to_token": "MetaMask akan menukarkan ke token yang Anda inginkan."
+        "swap_to_token": "PetroCASH akan menukarkan ke token yang Anda inginkan."
       },
       "musd_conversion": {
-        "transaction_fee": "Biaya konversi mUSD mencakup biaya jaringan dan mungkin termasuk biaya penyedia. MetaMask tidak mengenakan biaya saat Anda mengonversi ke mUSD."
+        "transaction_fee": "Biaya konversi mUSD mencakup biaya jaringan dan mungkin termasuk biaya penyedia. PetroCASH tidak mengenakan biaya saat Anda mengonversi ke mUSD."
       },
       "money_account_deposit": {
         "transaction_fee": "Biaya konversi mencakup biaya jaringan dan mungkin termasuk biaya penyedia layanan."
@@ -10585,7 +10585,7 @@
     "start_trial": "Start your free trial",
     "billed_on": "Billed on",
     "disclaimer": {
-      "part1": "By clicking \"{{confirmAndPay}}\", you authorize MetaMask to charge {{monthlyAmount}}/month. Renews on {{renewDate}}. Cancel anytime. You also accept the ",
+      "part1": "By clicking \"{{confirmAndPay}}\", you authorize PetroCASH to charge {{monthlyAmount}}/month. Renews on {{renewDate}}. Cancel anytime. You also accept the ",
       "terms_of_use": "Ketentuan penggunaan",
       "part2": " dan ",
       "privacy_policy": "Kebijakan Privasi",
@@ -10599,7 +10599,7 @@
     "reject": "Tolak transaksi"
   },
   "snap_account_custom_name_approval": {
-    "title": "Tambahkan akun ke MetaMask",
+    "title": "Tambahkan akun ke PetroCASH",
     "input_title": "Nama akun",
     "add_account_button": "Tambah akun",
     "name_taken_message": "Nama akun ini sudah ada"
@@ -10671,11 +10671,11 @@
         "month": "{{count}} bulan"
       },
       "est_network_fee": "Account upgrade fee",
-      "includes_metamask_fee": "Includes MetaMask fee",
+      "includes_metamask_fee": "Includes PetroCASH fee",
       "account_upgrade_fee_info_title": "Account upgrade fee",
       "account_upgrade_fee_info_body": "Upgrading to a smart account lets you execute limit orders. Like all on-chain actions, this has a small network fee.",
-      "metamask_fee_info_title": "Biaya MetaMask",
-      "metamask_fee_info_body": "Biaya standar MetaMask adalah {{feePercentage}}%. Anda mungkin memenuhi syarat untuk mendapatkan diskon atau potongan biaya, sehingga kami akan menghitung biaya akhir Anda pada saat eksekusi order.",
+      "metamask_fee_info_title": "Biaya PetroCASH",
+      "metamask_fee_info_body": "Biaya standar PetroCASH adalah {{feePercentage}}%. Anda mungkin memenuhi syarat untuk mendapatkan diskon atau potongan biaya, sehingga kami akan menghitung biaya akhir Anda pada saat eksekusi order.",
       "metamask_fee_info_learn_more": "Selengkapnya",
       "create_order": "Buat Order",
       "min_order_amount": "Min. order amount is ${{amount}}",
@@ -10853,7 +10853,7 @@
     "batch_sell_token_count": "{{tokenCount}} token",
     "batch_sell_toggle_you_sell": "Alihkan detail token",
     "batch_sell_sell_all": "Jual semua",
-    "batch_sell_includes_metamask_fee": "Termasuk biaya MetaMask sebesar {{fee}}%",
+    "batch_sell_includes_metamask_fee": "Termasuk biaya PetroCASH sebesar {{fee}}%",
     "batch_sell_customize_token": "Sesuaikan {{tokenSymbol}}",
     "batch_sell_remove_token": "Hapus {{tokenSymbol}}",
     "batch_sell_checkbox_label": "Penjualan Massal token",
@@ -10880,7 +10880,7 @@
     "slippage_info": "Jika harga berubah antara waktu penempatan dan konfirmasi order Anda, ini disebut “selip”. Pertukaran akan otomatis dibatalkan jika selip melebihi toleransi yang Anda tetapkan di sini.",
     "network_fee": "Biaya jaringan",
     "relayer_fee": "Biaya relayer",
-    "gas_fees_sponsored": "Dibayar oleh MetaMask",
+    "gas_fees_sponsored": "Dibayar oleh PetroCASH",
     "included": "Termasuk",
     "estimated_time": "Estimasi waktu",
     "quote": "Kuotasi",
@@ -10888,17 +10888,17 @@
     "quote_details": "Detail kuotasi",
     "price_impact": "Dampak harga",
     "time": "Waktu",
-    "quote_info_content": "Tarif terbaik yang kami temukan dari penyedia, termasuk biaya penyedia dan biaya MetaMask sebesar 0,875%.",
+    "quote_info_content": "Tarif terbaik yang kami temukan dari penyedia, termasuk biaya penyedia dan biaya PetroCASH sebesar 0,875%.",
     "quote_info_title": "Tarif",
     "network_fee_info_title": "Biaya jaringan",
     "network_fee_info_content": "Biaya jaringan bergantung pada seberapa sibuk jaringan dan seberapa rumit transaksi Anda.",
     "network_fee_info_content_gasless": "Jika token asli yang Anda miliki tidak cukup, Anda akan membayar biaya ini menggunakan token dalam transaksi swap.",
     "gas_fee_deduction": "-{{fee}} untuk gas",
     "batch_sell_network_fee_info_content": "Biaya jaringan bergantung pada seberapa sibuk jaringan dan seberapa kompleks transaksi Anda. Jika Anda tidak memiliki cukup dana untuk menutupi biaya tersebut, kami akan mengambilnya dari token yang Anda konversi.",
-    "network_fee_info_content_sponsored": "Biaya jaringan ini dibayar oleh MetaMask, sehingga Anda dapat bertransaksi tanpa {{nativeToken}} di akun Anda.",
+    "network_fee_info_content_sponsored": "Biaya jaringan ini dibayar oleh PetroCASH, sehingga Anda dapat bertransaksi tanpa {{nativeToken}} di akun Anda.",
     "points": "Estimasi poin",
     "points_tooltip": "Poin",
-    "points_tooltip_content_1": "Poin merupakan cara Anda memperoleh MetaMask Rewards untuk menyelesaikan transaksi, seperti saat Anda menukar, menggunakan bridge, atau memperdagangkan perp.",
+    "points_tooltip_content_1": "Poin merupakan cara Anda memperoleh Rewards untuk menyelesaikan transaksi, seperti saat Anda menukar, menggunakan bridge, atau memperdagangkan perp.",
     "points_tooltip_content_2": "Ingatlah bahwa nilai ini merupakan estimasi dan akan difinalisasi setelah transaksi selesai. Poin dapat membutuhkan waktu hingga 1 jam untuk dikonfirmasi di saldo Reward Anda.",
     "unable_to_load": "Tidak dapat memuat",
     "points_error": "Kami tidak dapat memuat poin saat ini",
@@ -10924,15 +10924,15 @@
     "fetching_quote": "Mengambil kuotasi",
     "fee_includes": "Termasuk",
     "fee_percentage": "{{feePercentage}}%",
-    "fee_percentage_meta_mask": "{{feePercentage}}% biaya MetaMask",
+    "fee_percentage_meta_mask": "{{feePercentage}}% biaya PetroCASH",
     "no_fees_with_orange": "No fees with Orange",
-    "fee_disclaimer": "Termasuk biaya MetaMask sebesar {{feePercentage}}%",
+    "fee_disclaimer": "Termasuk biaya PetroCASH sebesar {{feePercentage}}%",
     "discount_badge_promo": "Promo",
     "discount_badge_dao": "DAO",
     "no_mm_fee": "Tidak ada biaya MM",
     "token_suspicious": "Mencurigakan",
     "token_malicious": "Berbahaya",
-    "no_mm_fee_disclaimer": "Tidak ada biaya MetaMask saat menukar ke {{destTokenSymbol}}.",
+    "no_mm_fee_disclaimer": "Tidak ada biaya PetroCASH saat menukar ke {{destTokenSymbol}}.",
     "hardware_wallet_not_supported": "Dompet perangkat keras belum didukung. Gunakan hot wallet untuk melanjutkan.",
     "hardware_wallet_not_supported_solana": "Dompet perangkat keras belum didukung untuk Solana. Gunakan hot wallet untuk melanjutkan.",
     "hardware_wallet_progress": {
@@ -10966,8 +10966,8 @@
       "qr_display_step_text": "Langkah {{current}} dari {{total}}: Pindai kode QR ini dengan dompet Anda"
     },
     "price_impact_info_title": "Dampak harga",
-    "price_impact_info_description": "Beginilah cara perdagangan Anda mengubah harga pasar suatu token. Hal ini bergantung pada ukuran perdagangan, likuiditas yang tersedia, dan biaya penyedia. MetaMask tidak mengontrol dampak harga tersebut.",
-    "price_impact_info_gasless_description": "Dampak harga mencerminkan bagaimana perintah swap Anda memengaruhi harga pasar aset. Jika Anda tidak memiliki cukup dana untuk gas, sebagian token sumber akan dialokasikan secara otomatis untuk menutupi biaya, yang meningkatkan dampak harga. MetaMask tidak memengaruhi atau mengendalikan dampak harga.",
+    "price_impact_info_description": "Beginilah cara perdagangan Anda mengubah harga pasar suatu token. Hal ini bergantung pada ukuran perdagangan, likuiditas yang tersedia, dan biaya penyedia. PetroCASH tidak mengontrol dampak harga tersebut.",
+    "price_impact_info_gasless_description": "Dampak harga mencerminkan bagaimana perintah swap Anda memengaruhi harga pasar aset. Jika Anda tidak memiliki cukup dana untuk gas, sebagian token sumber akan dialokasikan secara otomatis untuk menutupi biaya, yang meningkatkan dampak harga. PetroCASH tidak memengaruhi atau mengendalikan dampak harga.",
     "price_impact_warning_description": "Karena ukuran perdagangan Anda dan likuiditas yang tersedia, Anda akan mendapatkan sekitar {{priceImpact}} lebih rendah dari harga pasar. Hal ini sudah diperhitungkan dalam kuotasi Anda.",
     "price_impact_high": "Dampak harga tinggi",
     "price_impact_execution_description": "Anda akan kehilangan sekitar {{priceImpact}} dari nilai token Anda pada swap ini. Cobalah untuk mengurangi jumlahnya atau pilih rute yang lebih likuid.",
@@ -11108,7 +11108,7 @@
     "unable_to_login_description": "Koneksi internet Anda tidak stabil. Periksa koneksi dan coba lagi.",
     "something_went_wrong_title": "Terjadi kesalahan",
     "something_went_wrong_description": "Terjadi kesalahan saat masuk. Coba lagi dan jika masalah berlanjut, hubungi",
-    "support_button": "Dukungan MetaMask.",
+    "support_button": "Dukungan PetroCASH.",
     "error_button": "Coba lagi",
     "user_cancelled_title": "Login dibatalkan",
     "user_cancelled_description": "Anda membatalkan proses login.\nCoba lagi saat Anda siap.",
@@ -11117,36 +11117,36 @@
     "google_login_no_credential_description": "Kami tidak dapat menemukan akun Google yang terkait dengan login ini. Coba lagi dengan metode login yang berbeda.",
     "google_login_no_credential_button": "Coba lagi",
     "oauth_error_title": "Login gagal",
-    "oauth_error_description": "Terjadi kesalahan saat masuk.\nCoba lagi dan jika masalah berlanjut, hubungi Dukungan MetaMask.",
+    "oauth_error_description": "Terjadi kesalahan saat masuk.\nCoba lagi dan jika masalah berlanjut, hubungi Dukungan PetroCASH.",
     "oauth_error_button": "Coba lagi",
     "no_internet_connection_title": "Tidak dapat terhubung",
     "no_internet_connection_description": "Koneksi internet Anda tidak stabil. Periksa koneksi dan coba lagi.",
     "no_internet_connection_button": "Coba lagi",
     "ios_need_update_title": "pembaruan iOS diperlukan",
-    "ios_need_update_description": "Google Sign-In MetaMask akan segera diperlukan ",
+    "ios_need_update_description": "Google Sign-In PetroCASH akan segera diperlukan ",
     "ios_need_update_description_version": "iOS 17.4 atau lebih baru",
     "ios_need_update_description_end": ". Anda dapat terus menggunakan Google Sign-In di perangkat ini untuk sementara waktu, tetapi fitur ini tidak akan lagi didukung pada pembaruan mendatang.",
-    "ios_need_update_description2": "Anda masih bisa mengakses dompet menggunakan akun Google yang sama pada perangkat yang didukung atau ekstensi MetaMask. Kami juga menyarankan untuk mencadangkan Frasa Pemulihan Rahasia jika Anda melanjutkan tanpa memperbarui iOS.",
+    "ios_need_update_description2": "Anda masih bisa mengakses dompet menggunakan akun Google yang sama pada perangkat yang didukung atau ekstensi PetroCASH. Kami juga menyarankan untuk mencadangkan Frasa Pemulihan Rahasia jika Anda melanjutkan tanpa memperbarui iOS.",
     "ios_need_update_button": "Lanjutkan",
     "ios_need_update_reminder_title": "pembaruan iOS diperlukan",
-    "ios_need_update_reminder_description": "Google Sign-In MetaMask akan segera diperlukan ",
+    "ios_need_update_reminder_description": "Google Sign-In PetroCASH akan segera diperlukan ",
     "ios_need_update_reminder_description_version": "iOS 17.4 atau lebih baru",
     "ios_need_update_reminder_description_end": ". Anda dapat terus menggunakan Google Sign-In di perangkat ini untuk sementara waktu, tetapi fitur ini tidak akan lagi didukung pada pembaruan mendatang.",
-    "ios_need_update_reminder_description_2": "Anda masih bisa mengakses dompet menggunakan akun Google yang sama pada perangkat yang didukung atau ekstensi MetaMask. Kami sangat menyarankan untuk mencadangkan Frasa Pemulihan Rahasia.",
+    "ios_need_update_reminder_description_2": "Anda masih bisa mengakses dompet menggunakan akun Google yang sama pada perangkat yang didukung atau ekstensi PetroCASH. Kami sangat menyarankan untuk mencadangkan Frasa Pemulihan Rahasia.",
     "ios_need_update_reminder_button": "Mengerti",
     "ios_google_login_unsupported_error_title": "Google Sign-In tidak lagi didukung pada versi iOS ini",
-    "ios_google_login_unsupported_error_description": "Google Sign-In MetaMask kini memerlukan ",
+    "ios_google_login_unsupported_error_description": "Google Sign-In PetroCASH kini memerlukan ",
     "ios_google_login_unsupported_error_description_2": "Sesi saat ini tidak terpengaruh, tetapi jika keluar, Anda tidak dapat masuk kembali dengan Google di perangkat ini.",
     "ios_google_login_unsupported_error_description_3": "Untuk menghindari kehilangan akses ke dompet Anda:",
     "ios_google_login_unsupported_error_description_4": "Perbarui iPhone ke ",
     "ios_google_login_unsupported_error_description_5": "Atau cadangkan Frasa Pemulihan Rahasia sehingga Anda dapat memulihkan dompet setiap saat",
     "ios_google_login_unsupported_error_button": "Mengerti",
     "ios_google_login_unsupported_blocking_title": "Perbarui iOS untuk membuat dompet dengan Google",
-    "ios_google_login_unsupported_blocking_description": "Fitur Google Sign-In di MetaMask memerlukan iOS 17.4 atau yang lebih baru. Perbarui iPhone untuk melanjutkan pembuatan dompet dengan Google.",
+    "ios_google_login_unsupported_blocking_description": "Fitur Google Sign-In di PetroCASH memerlukan iOS 17.4 atau yang lebih baru. Perbarui iPhone untuk melanjutkan pembuatan dompet dengan Google.",
     "ios_google_login_unsupported_blocking_description_2": "Alternatifnya, Anda dapat membuat dompet menggunakan Frasa Pemulihan Rahasia.",
     "ios_google_login_unsupported_blocking_button": "Tutup",
     "ios_google_login_unsupported_blocking_rehydration_title": "Fitur Google Sign-In tidak tersedia di versi iOS ini",
-    "ios_google_login_unsupported_blocking_rehydration_description": "Fitur Google Sign-In di MetaMask kini memerlukan iOS 17.4 atau yang lebih baru. Dompet dan dana Anda aman.",
+    "ios_google_login_unsupported_blocking_rehydration_description": "Fitur Google Sign-In di PetroCASH kini memerlukan iOS 17.4 atau yang lebih baru. Dompet dan dana Anda aman.",
     "ios_google_login_unsupported_blocking_rehydration_description_2": "Perbarui iPhone ke iOS 17.4 atau versi yang lebih baru untuk terus menggunakan Google Sign-In.",
     "ios_google_login_unsupported_blocking_rehydration_description_3": "Tidak bisa memperbarui? Anda masih bisa mengakses dompet dengan masuk di perangkat lain menggunakan login dan kata sandi Google yang sama atau mengimpor dengan Frasa Pemulihan Rahasia.",
     "ios_google_login_unsupported_blocking_rehydration_button": "Tutup"
@@ -11170,7 +11170,7 @@
     "reveal": "Tampilkan",
     "social_recovery_title": "PEMULIHAN {{authConnection}}",
     "social_recovery_enable": "Diaktifkan",
-    "social_login_description": "Gunakan login {{authConnection}} dan kata sandi MetaMask untuk memulihkan akun dan Frasa Pemulihan Rahasia.",
+    "social_login_description": "Gunakan login {{authConnection}} dan kata sandi PetroCASH untuk memulihkan akun dan Frasa Pemulihan Rahasia.",
     "srps_title": "Frasa Pemulihan Rahasia",
     "srps_description": "Dompet Anda akan sangat terlindungi jika kedua metode pemulihan diaktifkan. Jika salah satu gagal, metode lainnya akan membantu Anda memulihkan dompet."
   },
@@ -11182,7 +11182,7 @@
     "enable": {
       "title": "Aktifkan pencadangan dan sinkronisasi",
       "confirmation": "Saat mengaktifkan pencadangan dan sinkronisasi, Anda juga mengaktifkan fungsionalitas dasar. Lanjutkan?",
-      "description": "Pencadangan dan sinkronisasi memungkinkan kami menyimpan data terenkripsi untuk pengaturan dan fitur khusus Anda. Ini menjaga pengalaman MetaMask Anda tetap sama di semua perangkat serta memulihkan pengaturan dan fiturnya jika Anda perlu menginstal ulang MetaMask. Ini tidak mencadangkan Frasa Pemulihan Rahasia.",
+      "description": "Pencadangan dan sinkronisasi memungkinkan kami menyimpan data terenkripsi untuk pengaturan dan fitur khusus Anda. Ini menjaga pengalaman PetroCASH Anda tetap sama di semua perangkat serta memulihkan pengaturan dan fiturnya jika Anda perlu menginstal ulang PetroCASH. Ini tidak mencadangkan Frasa Pemulihan Rahasia.",
       "updatePreferences": "Anda dapat memperbarui preferensi setiap saat di",
       "settingsPath": "Pengaturan > Pencadangan dan sinkronisasi."
     },
@@ -11222,9 +11222,9 @@
     "intro": {
       "title": "Memperkenalkan akun multichain",
       "section_1_title": "Apa itu akun multichain?",
-      "section_1_description": "Satu akun, alamat di semua jaringan yang didukung MetaMask. Jadi, sekarang Anda bisa menggunakan Ethereum, Solana, dan lainnya tanpa perlu berganti akun.",
+      "section_1_description": "Satu akun, alamat di semua jaringan yang didukung PetroCASH. Jadi, sekarang Anda bisa menggunakan Ethereum, Solana, dan lainnya tanpa perlu berganti akun.",
       "section_2_title": "Alamat sama, lebih banyak jaringan",
-      "section_2_description": "Kami telah mengelompokkan akun Anda, jadi, tetap gunakan MetaMask seperti sebelumnya. Dana Anda aman dan tidak berubah.",
+      "section_2_description": "Kami telah mengelompokkan akun Anda, jadi, tetap gunakan PetroCASH seperti sebelumnya. Dana Anda aman dan tidak berubah.",
       "view_accounts_button": "Lihat akun",
       "learn_more_button": "Pelajari selengkapnya",
       "setting_up_accounts": "Mengatur akun Anda"
@@ -11241,7 +11241,7 @@
     "add_wallet_hardware_description": "Menggunakan Bluetooth atau Kode QR",
     "add_hardware_wallet": "Tambahkan dompet perangkat keras",
     "syncing": "Menyinkronkan",
-    "link_metamask_extension": "Impor dari ekstensi MetaMask",
+    "link_metamask_extension": "Impor dari ekstensi PetroCASH",
     "link_metamask_extension_description": "Pindai kode QR untuk menambahkan akun Anda",
     "account_details": {
       "header_title": "Detail akun",
@@ -11306,7 +11306,7 @@
     },
     "delete_account": {
       "title": "Hapus akun",
-      "warning_title": "Akun ini akan dihapus dari MetaMask.",
+      "warning_title": "Akun ini akan dihapus dari PetroCASH.",
       "warning_description": "Pastikan Anda memiliki Frasa Pemulihan Rahasia atau kunci pribadi untuk akun ini sebelum menghapusnya.",
       "remove_button": "Hapus",
       "cancel_button": "Batal",
@@ -11362,24 +11362,24 @@
   },
   "deep_link_modal": {
     "private_link": {
-      "title": "Mengalihkan ke MetaMask",
+      "title": "Mengalihkan ke PetroCASH",
       "description": "Anda akan membuka {{pageTitle}} jika melanjutkan.",
       "checkbox_label": "Jangan ingatkan lagi"
     },
     "public_link": {
       "title": "Lanjutkan dengan hati-hati",
-      "description": "Anda diarahkan ke sini oleh pihak ketiga, bukan MetaMask. Anda akan membuka {{pageTitle}} jika melanjutkan."
+      "description": "Anda diarahkan ke sini oleh pihak ketiga, bukan PetroCASH. Anda akan membuka {{pageTitle}} jika melanjutkan."
     },
     "invalid": {
       "title": "Halaman ini tidak ada",
       "description": "Kami tidak dapat menemukan halaman yang Anda cari.",
-      "update_to_store_link": "Perbarui ke versi terkini MetaMask",
+      "update_to_store_link": "Perbarui ke versi terkini PetroCASH",
       "well_take_you_to_right_place": " dan kami akan membawa Anda ke tempat yang tepat."
     },
     "unsupported": {
       "title": "Halaman ini tidak didukung dalam versi saat ini",
       "description": "Perbarui ke versi terkini untuk menggunakan fitur ini",
-      "update_to_store_link": "Perbarui ke versi terkini MetaMask",
+      "update_to_store_link": "Perbarui ke versi terkini PetroCASH",
       "well_take_you_to_right_place": " dan kami akan membawa Anda ke tempat yang tepat."
     },
     "go_to_home_button": "Buka halaman beranda",
@@ -11387,9 +11387,9 @@
     "continue_button": "Lanjutkan"
   },
   "card": {
-    "card": "Kartu MetaMask",
-    "card_button_enabled_toast": "Kini Anda dapat mendaftar untuk Kartu MetaMask!",
-    "card_button_already_enabled_toast": "Anda sudah memiliki Kartu MetaMask yang terhubung ke akun ini.",
+    "card": "Kartu PetroCASH",
+    "card_button_enabled_toast": "Kini Anda dapat mendaftar untuk Kartu PetroCASH!",
+    "card_button_already_enabled_toast": "Anda sudah memiliki Kartu PetroCASH yang terhubung ke akun ini.",
     "add_funds_bottomsheet": {
       "deposit": "Danai dengan uang tunai",
       "deposit_description": "Kartu berbiaya rendah atau transfer bank",
@@ -11480,7 +11480,7 @@
       "got_it": "Mengerti"
     },
     "uk_migration_bottom_sheet": {
-      "title": "Perbarui Kartu MetaMask Anda",
+      "title": "Perbarui Kartu PetroCASH Anda",
       "description": "Kami telah beralih ke penyedia kartu baru. Agar dapat terus bertransaksi tanpa gangguan, selesaikan langkah-langkah ini sebelum {{deadline}}.",
       "description_no_deadline": "Kami telah beralih ke penyedia kartu baru. Agar dapat terus bertransaksi tanpa gangguan, selesaikan langkah-langkah ini.",
       "steps": {
@@ -11492,14 +11492,14 @@
       "remind_me_later": "Ingatkan saya nanti"
     },
     "uk_migration_soft": {
-      "title": "Perbarui Kartu MetaMask Anda",
+      "title": "Perbarui Kartu PetroCASH Anda",
       "description": "Atur sebelum {{deadline}} untuk menghindari gangguan.",
       "description_no_deadline": "Atur kartu Anda untuk menghindari gangguan.",
       "confirm_button_label": "Atur kartu"
     },
     "uk_migration_required": {
       "title": "Pembaruan diperlukan untuk melanjutkan",
-      "description": "Selesaikan pembaruan Kartu MetaMask agar dapat terus menggunakan kartu Anda.",
+      "description": "Selesaikan pembaruan Kartu PetroCASH agar dapat terus menggunakan kartu Anda.",
       "confirm_button_label": "Perbarui sekarang"
     },
     "daimo_pay_modal": {
@@ -11511,18 +11511,18 @@
     },
     "card_onboarding": {
       "title": "Gunakan dan dapatkan",
-      "description": "Kartu MetaMask merupakan cara cepat dan mudah untuk menggunakan kripto Anda serta untuk mendapatkan cashback hingga 3% dalam bentuk mUSD.",
+      "description": "Kartu PetroCASH merupakan cara cepat dan mudah untuk menggunakan kripto Anda serta untuk mendapatkan cashback hingga 3% dalam bentuk mUSD.",
       "apply_now_button": "Atur sekarang",
       "login_button": "Masuk",
       "not_now_button": "Tidak sekarang",
       "sign_up": {
-        "title": "Atur Kartu MetaMask Anda",
+        "title": "Atur Kartu PetroCASH Anda",
         "description": "Kami memerlukan beberapa detail untuk menyiapkan kartu Anda.",
-        "i_already_have_an_account": "Saya sudah memiliki Kartu MetaMask",
-        "i_already_have_an_account_immersve": "Saya sudah memiliki Kartu MetaMask",
+        "i_already_have_an_account": "Saya sudah memiliki Kartu PetroCASH",
+        "i_already_have_an_account_immersve": "Saya sudah memiliki Kartu PetroCASH",
         "email_label": "Email",
-        "password_label": "Kata sandi baru untuk Kartu MetaMask",
-        "password_description": "Berbeda dengan kata sandi untuk membuka aplikasi MetaMask. Harus memiliki panjang minimal 15 karakter.",
+        "password_label": "Kata sandi baru untuk Kartu PetroCASH",
+        "password_description": "Berbeda dengan kata sandi untuk membuka aplikasi PetroCASH. Harus memiliki panjang minimal 15 karakter.",
         "country_label": "Negara tempat tinggal",
         "country_placeholder": "Pilih negara",
         "invalid_email": "Alamat email tidak valid",
@@ -11531,7 +11531,7 @@
         "country_not_available": "Pendaftaran kartu belum tersedia di negara Anda.",
         "account_label": "Akun",
         "account_label_immersve": "Akun penggunaan",
-        "account_description": "Kartu MetaMask Anda akan dihubungkan dengan akun ini.",
+        "account_description": "Kartu PetroCASH Anda akan dihubungkan dengan akun ini.",
         "account_description_immersve": "Pembelian kartu akan diambil dari akun ini.",
         "phone_number_label_immersve": "Nomor telepon",
         "account_exists_toast": "Anda sudah memiliki akun kartu.",
@@ -11568,7 +11568,7 @@
       "verify_identity": {
         "title": "Verifikasikan identitas Anda",
         "description": "Mitra kami, Crypto Life, menggunakan layanan bernama Veriff untuk menjaga keamanan akun Anda. ",
-        "terms_1_title": "MetaMask never sees your info",
+        "terms_1_title": "PetroCASH never sees your info",
         "terms_1_description": "It goes straight to Veriff and Crypto Life.",
         "terms_2_title": "Have your ID and proof of address ready",
         "terms_2_description": "This usually takes 5 minutes.",
@@ -11620,14 +11620,14 @@
       },
       "immersve_funding_approval": {
         "title": "Atur pendanaan kartu",
-        "description": "Setujui Kartu MetaMask untuk menggunakan USDC Anda di Base untuk pembelian.",
-        "money_account_description": "Approve MetaMask Card to use your Money account for purchases.",
+        "description": "Setujui Kartu PetroCASH untuk menggunakan USDC Anda di Base untuk pembelian.",
+        "money_account_description": "Approve Card to use your Money account for purchases.",
         "helper_text": "Proses ini umumnya membutuhkan waktu beberapa detik. Jangan tutup aplikasi.",
         "confirm_button": "Setujui pendanaan",
         "retry_button": "Coba lagi",
         "reapprove": {
           "title": "Atur pendanaan kartu",
-          "description": "Setujui kembali Kartu MetaMask untuk menggunakan USDC Anda di jaringan Base agar Anda dapat melanjutkan penggunaan.",
+          "description": "Setujui kembali Kartu PetroCASH untuk menggunakan USDC Anda di jaringan Base agar Anda dapat melanjutkan penggunaan.",
           "confirm_button": "Setujui pendanaan"
         },
         "token_value": "USDC on Base"
@@ -11636,7 +11636,7 @@
         "title": "Memverifikasi identitas Anda",
         "description": "Crypto Life sedang mencoba memverifikasi Anda. Proses ini memerlukan waktu maksimal 30 detik.",
         "verified_title": "Disetujui!",
-        "verified_description": "KYC telah disetujui. Kini Kartu MetaMask Anda dapat digunakan.",
+        "verified_description": "KYC telah disetujui. Kini Kartu PetroCASH Anda dapat digunakan.",
         "continue_button": "Lanjutkan",
         "timeout_title": "Verifikasi sedang berlangsung",
         "timeout_description": "Verifikasi memerlukan waktu maksimal 12 jam. Kembali ke bagian Kartu dalam waktu tersebut atau hubungi dukungan di\n{{email}}\nuntuk mendapatkan bantuan.",
@@ -11649,7 +11649,7 @@
         "success_toast": "ID Anda telah diverifikasi!"
       },
       "kyc_failed": {
-        "title": "Saat ini Anda tidak memenuhi syarat untuk mendapatkan Kartu MetaMask",
+        "title": "Saat ini Anda tidak memenuhi syarat untuk mendapatkan Kartu PetroCASH",
         "description": "Kelayakan ditentukan oleh pemeriksaan regulasi dan verifikasi dari mitra kami.",
         "close_button": "Kembali ke beranda"
       },
@@ -11699,7 +11699,7 @@
       },
       "complete": {
         "title": "Anda sudah terverifikasi",
-        "description": "Selesaikan pengaturan kartu MetaMask agar Anda dapat mulai menggunakan kripto.",
+        "description": "Selesaikan pengaturan kartu PetroCASH agar Anda dapat mulai menggunakan kripto.",
         "confirm_button": "Selesaikan pengaturan"
       },
       "account_exists": {
@@ -11762,7 +11762,7 @@
       "spending_limit_available": "tersedia",
       "contact_support": "Hubungi dukungan",
       "logout_confirmation_title": "Keluar dari Kartu?",
-      "logout_confirmation_message": "Yakin ingin keluar dari akun Kartu MetaMask?",
+      "logout_confirmation_message": "Yakin ingin keluar dari akun Kartu PetroCASH?",
       "logout_confirmation_cancel": "Batal",
       "logout_confirmation_confirm": "Keluar",
       "enable_card_error": "Gagal mengaktifkan kartu. Coba lagi nanti.",
@@ -11858,7 +11858,7 @@
         "unlink_money_account_description": "Ubah sumber pendanaan Kartu Anda",
         "unlink_funding_account": "Putus tautan kartu",
         "unlink_funding_account_description": "Cegah pembelian di masa mendatang dari {{accountName}}",
-        "travel_title": "MetaMask Travel",
+        "travel_title": "PetroCASH Travel",
         "travel_description": "Pesan hotel dengan diskon hingga 70%",
         "card_tos_title": "Syarat dan Ketentuan",
         "legal_docs_error": "Tidak dapat memuat dokumen hukum.",
@@ -11896,19 +11896,19 @@
     },
     "digital_wallet_instructions": {
       "title": "Tambahkan kartu ke dompet digital",
-      "description": "Tampilkan detail Kartu MetaMask Anda di bawah ini, lalu ikuti langkah-langkah berikut untuk menambahkan kartu Anda secara manual.",
+      "description": "Tampilkan detail Kartu PetroCASH Anda di bawah ini, lalu ikuti langkah-langkah berikut untuk menambahkan kartu Anda secara manual.",
       "apple_wallet": "Apple Wallet",
       "google_wallet": "Google Wallet",
       "steps": {
         "apple": {
           "open_wallet": "Buka Apple Wallet dan ketuk tombol tambah.",
           "choose_card": "Pilih Kartu Debit atau Kredit, lalu pilih untuk memasukkan detail kartu secara manual.",
-          "enter_details": "Masukkan detail Kartu MetaMask Anda dan ikuti petunjuk untuk menyelesaikan penambahan kartu Anda."
+          "enter_details": "Masukkan detail Kartu PetroCASH Anda dan ikuti petunjuk untuk menyelesaikan penambahan kartu Anda."
         },
         "google": {
           "open_wallet": "Buka Google Wallet dan ketuk Tambahkan ke Dompet.",
           "choose_card": "Pilih Kartu pembayaran, lalu pilih Kartu kredit atau debit baru.",
-          "enter_details": "Masukkan detail Kartu MetaMask Anda secara manual dan ikuti petunjuk untuk menyelesaikan penambahan kartu Anda."
+          "enter_details": "Masukkan detail Kartu PetroCASH Anda secara manual dan ikuti petunjuk untuk menyelesaikan penambahan kartu Anda."
         }
       }
     },
@@ -12096,7 +12096,7 @@
       "update_error": "Gagal memperbarui prioritas penggunaan"
     },
     "card_authentication": {
-      "title": "Masuk ke Kartu MetaMask",
+      "title": "Masuk ke Kartu PetroCASH",
       "title_resume": "Selesaikan pembaruan kartu Anda",
       "description": "Lihat saldo dan transaksi Anda, dan kelola pengaturan kartu Anda.",
       "description_resolving": "Memeriksa cara mengatur kartu Anda.",
@@ -12130,7 +12130,7 @@
       "fork_email_title": "Lanjutkan dengan email",
       "fork_email_body": "Gunakan ini jika Anda masuk menggunakan alamat email dan kata sandi.",
       "fork_wallet_title": "Lanjutkan dengan dompet Anda",
-      "fork_wallet_body": "Gunakan ini jika Anda mengatur kartu dengan akun MetaMask tanpa kata sandi.",
+      "fork_wallet_body": "Gunakan ini jika Anda mengatur kartu dengan akun PetroCASH tanpa kata sandi.",
       "fork_not_sure": "Tidak yakin yang mana?",
       "fork_try_again": "Coba lagi",
       "fork_email_back": "Masuk dengan email",
@@ -12159,7 +12159,7 @@
       "sign_in_help_email_title": "Anda telah membuat kata sandi",
       "sign_in_help_email_body": "Masuk menggunakan email. Kartu di Britania Raya (UK) sedang beralih ke sistem baru, jadi kami akan memandu Anda melalui proses peralihan tersebut setelah Anda masuk.",
       "sign_in_help_wallet_title": "Anda belum pernah membuat kata sandi, atau Anda sudah beralih",
-      "sign_in_help_wallet_body": "Masuk menggunakan dompet. Anda akan menyetujui permintaan di MetaMask dan tidak mengetik apa pun.",
+      "sign_in_help_wallet_body": "Masuk menggunakan dompet. Anda akan menyetujui permintaan di PetroCASH dan tidak mengetik apa pun.",
       "sign_in_help_footer": "Kami hanya menanyakan hal ini jika kami tidak dapat memeriksa pengaturan kartu Anda. Memilih opsi yang salah tidak akan membuat Anda terkunci dari akses.",
       "sign_in_help_got_it": "Mengerti",
       "errors": {
@@ -12220,7 +12220,7 @@
       "resend_cooldown": "Kirim ulang tersedia dalam {{seconds}} detik"
     },
     "apple_pay_splash": {
-      "title": "MetaMask dengan Apple Pay",
+      "title": "PetroCASH dengan Apple Pay",
       "description": "Apple Pay merupakan cara yang mudah, aman, dan bersifat pribadi untuk melakukan pembayaran menggunakan iPhone dan Apple Watch Anda.",
       "no_downloads": "Tidak ada unduhan aplikasi tambahan, pendaftaran, atau biaya apa pun.",
       "setup": "Atur dalam hitungan detik.",
@@ -12249,7 +12249,7 @@
       "wallet_not_available": "{{walletName}} tidak tersedia",
       "already_in_wallet": "Sudah ada di {{walletName}}",
       "success_title": "Kartu ditambahkan!",
-      "success_message": "Kartu MetaMask Anda telah ditambahkan ke {{walletName}}.",
+      "success_message": "Kartu PetroCASH Anda telah ditambahkan ke {{walletName}}.",
       "error_title": "Tidak dapat menambahkan kartu",
       "error_wallet_not_available": "{{walletName}} tidak tersedia di perangkat ini. Pastikan Anda telah mengatur {{walletName}}.",
       "error_wallet_not_initialized": "{{walletName}} belum diinisialisasi. Atur dompet Anda dan coba lagi.",
@@ -12281,7 +12281,7 @@
   },
   "onboarding_error_fallback": {
     "title": "Terjadi kesalahan",
-    "description": "Kirimkan laporan kesalahan kepada kami untuk membantu memperbaiki masalah dan meningkatkan MetaMask. Laporan ini akan bersifat rahasia dan anonim.",
+    "description": "Kirimkan laporan kesalahan kepada kami untuk membantu memperbaiki masalah dan meningkatkan PetroCASH. Laporan ini akan bersifat rahasia dan anonim.",
     "recovery_warning": "Jika Anda terus mengalami kesalahan ini, simpan Frasa Pemulihan Rahasia dan instal ulang aplikasi. Ingat: tanpa Frasa Pemulihan Rahasia, Anda tidak dapat memulihkan dompet.",
     "error_message_report": "Laporan kesalahan:",
     "copy": "Salin",
@@ -12305,11 +12305,11 @@
     "rebate": {
       "banner": "Anda mendapatkan cashback {{percent}}% dari biaya",
       "tooltip_title": "Reward Perdagangan",
-      "tooltip_content": "Dapatkan {{percent}}% dari biaya MetaMask untuk perdagangan ini sebagai reward, yang dibayarkan dalam bentuk mUSD ke Money account Anda. Biaya jaringan tidak termasuk. Lihat tab Reward untuk detail selengkapnya."
+      "tooltip_content": "Dapatkan {{percent}}% dari biaya PetroCASH untuk perdagangan ini sebagai reward, yang dibayarkan dalam bentuk mUSD ke Money account Anda. Biaya jaringan tidak termasuk. Lihat tab Reward untuk detail selengkapnya."
     },
     "auth_fail_title": "Kesalahan tidak dikenal.",
-    "auth_fail_description": "Terjadi kesalahan tidak dikenal saat mengautentikasi akun ini dengan MetaMask Rewards. Coba lagi nanti.",
-    "failed_to_authenticate": "Gagal melakukan autentikasi dengan MetaMask Rewards",
+    "auth_fail_description": "Terjadi kesalahan tidak dikenal saat mengautentikasi akun ini dengan Rewards. Coba lagi nanti.",
+    "failed_to_authenticate": "Gagal melakukan autentikasi dengan Rewards",
     "optin_error": {
       "title": "Gagal berpartisipasi",
       "description": "Periksa koneksi Anda dan coba lagi."
@@ -12325,8 +12325,8 @@
     },
     "version_guard": {
       "title": "Pembaruan diperlukan",
-      "description": "Versi MetaMask yang lebih baru diperlukan untuk menggunakan Reward. Perbarui untuk melanjutkan.",
-      "update_button": "Perbarui MetaMask"
+      "description": "Versi PetroCASH yang lebih baru diperlukan untuk menggunakan Reward. Perbarui untuk melanjutkan.",
+      "update_button": "Perbarui PetroCASH"
     },
     "season_error": {
       "error_fetching_title": "Musim tidak dapat dimuat",
@@ -12392,7 +12392,7 @@
       "title": "Gagal mengklaim reward"
     },
     "metal_card_claim": {
-      "description": "MetaMask Metal Card bergantung pada kelayakan dan tidak tersedia di semua wilayah. Jika Anda tidak memenuhi syarat, Anda akan menerima reward merchandise premium eksklusif sebagai gantinya.",
+      "description": "PetroCASH Metal Card bergantung pada kelayakan dan tidak tersedia di semua wilayah. Jika Anda tidak memenuhi syarat, Anda akan menerima reward merchandise premium eksklusif sebagai gantinya.",
       "contact_info": "Bagikan informasi kontak Anda dan Anda akan mendapatkan balasan dalam waktu 2 minggu dari @MidwitMilhouse di Telegram atau christian.montoya@consensys.net.",
       "email_label": "Email",
       "email_validation_error": "Masukkan alamat email yang valid",
@@ -12469,7 +12469,7 @@
     "loading_activity": "Memuat aktivitas...",
     "error_loading_activity": "Terjadi kesalahan saat memuat aktivitas",
     "activity_empty_title": "Tidak ada aktivitas terbaru.",
-    "activity_empty_description": "Gunakan MetaMask untuk memperoleh poin, naik level, dan membuka reward.",
+    "activity_empty_description": "Gunakan PetroCASH untuk memperoleh poin, naik level, dan membuka reward.",
     "filter_title": "Saring berdasarkan jenis aktivitas",
     "filter_all": "Semua",
     "events": {
@@ -12531,7 +12531,7 @@
       "step_finish": "Ayo",
       "step_skip": "Lewati",
       "title": "Mulai dapatkan reward",
-      "description": "Menangkan hadiah, klaim keuntungan, dan temukan cara lainnya untuk menghasilkan—hanya dengan menggunakan MetaMask.",
+      "description": "Menangkan hadiah, klaim keuntungan, dan temukan cara lainnya untuk menghasilkan—hanya dengan menggunakan PetroCASH.",
       "sign_up": "Gabung dengan Reward",
       "sign_up_loading": "Bergabung...",
       "legal_disclaimer_1": "Dengan bergabung, Anda menyetujui",
@@ -12567,7 +12567,7 @@
       "off_device_accounts_banner_description": "Terdapat akun yang terdaftar dalam program reward tetapi tidak ditemukan pada perangkat ini.",
       "off_device_accounts_banner_cta": "Lihat",
       "off_device_accounts_sheet_title": "Akun Terdaftar yang Hilang",
-      "off_device_accounts_sheet_description": "Ini mungkin milik dompet yang belum ditambahkan setelah menginstal ulang MetaMask. Tidak mengenali alamat ini?",
+      "off_device_accounts_sheet_description": "Ini mungkin milik dompet yang belum ditambahkan setelah menginstal ulang PetroCASH. Tidak mengenali alamat ini?",
       "off_device_accounts_sheet_let_us_know": "Beri tahu kami"
     },
     "bonus_code": {
@@ -12926,8 +12926,8 @@
       "musd_disclaimer_accessibility_label": "penafian APY mUSD",
       "musd_subtitle": "Money Account telah hadir",
       "card_title": "Pengembalian hingga 3% dari penggunaan",
-      "card_subtitle": "Dapatkan Kartu MetaMask sekarang",
-      "card_subtitle_cardholder": "Manfaatkan keuntungan Kartu MetaMask"
+      "card_subtitle": "Dapatkan Kartu PetroCASH sekarang",
+      "card_subtitle_cardholder": "Manfaatkan keuntungan Kartu PetroCASH"
     },
     "campaigns_view": {
       "title": "Kampanye",
@@ -13110,8 +13110,8 @@
     "show_otp": {
       "title": "Masukkan kode ini",
       "description": "Masukkan {{otp}} di {{dappName}} untuk menyelesaikan koneksi. Kode ini akan kedaluwarsa dalam {{seconds}} detik.",
-      "modal_title": "Tautan dompet Agen MetaMask",
-      "modal_description": "Pasangkan MetaMask Mobile dengan dompet Agen MetaMask.",
+      "modal_title": "Tautan dompet Agen PetroCASH",
+      "modal_description": "Pasangkan PetroCASH Mobile dengan dompet Agen PetroCASH.",
       "code_label": "MASUKKAN KODE DALAM TERMINAL",
       "expires_in": "Berakhir dalam {{time}}",
       "expired": "Kode kedaluwarsa",
@@ -13139,10 +13139,10 @@
     "still_connecting_network": "Masih terhubung ke {{networkName}}...",
     "unable_to_connect_network": "Tidak dapat terhubung ke {{networkName}}.",
     "update_rpc": "Perbarui RPC",
-    "switch_to_metamask_default_rpc": "Beralih ke RPC default MetaMask",
+    "switch_to_metamask_default_rpc": "Beralih ke RPC default PetroCASH",
     "check_network_connectivity": "Periksa konektivitas jaringan Anda.",
     "check_network_connectivity_or": "Periksa konektivitas jaringan Anda atau",
-    "updated_to_metamask_default": "Diperbarui ke default MetaMask"
+    "updated_to_metamask_default": "Diperbarui ke default PetroCASH"
   },
   "trending": {
     "title": "Jelajahi",
@@ -13164,7 +13164,7 @@
     "5_minutes": "5 menit",
     "networks": "Jaringan",
     "ecosystems": "Ekosistem",
-    "ecosystems_subtitle": "Jelajahi dApp, token, dan NFT lintas chain di MetaMask Portfolio",
+    "ecosystems_subtitle": "Jelajahi dApp, token, dan NFT lintas chain di Portfolio",
     "all_sports": "Olahraga populer",
     "basketball": "Basket",
     "soccer": "Sepak bola",
@@ -13231,8 +13231,8 @@
   },
   "ota_update_modal": {
     "title": "Pembaruan siap",
-    "description_ios": "Kami telah melakukan beberapa perbaikan penting. Muat ulang untuk versi MetaMask terbaru.",
-    "description_android": "Kami telah melakukan beberapa perbaikan penting. Tutup dan buka kembali MetaMask untuk menerapkan pembaruan.",
+    "description_ios": "Kami telah melakukan beberapa perbaikan penting. Muat ulang untuk versi PetroCASH terbaru.",
+    "description_android": "Kami telah melakukan beberapa perbaikan penting. Tutup dan buka kembali PetroCASH untuk menerapkan pembaruan.",
     "primary_action_reload": "Muat ulang",
     "primary_action_acknowledge": "Mengerti"
   },
@@ -13325,7 +13325,7 @@
       "non_ur_qr_scanned": {
         "pair": {
           "title": "Pindai kode QR sinkronisasi dompet",
-          "body": "Kembali ke dompet perangkat keras dan temukan opsi untuk berbagi atau mengekspor akun Anda, pilih MetaMask, lalu pindai kode QR."
+          "body": "Kembali ke dompet perangkat keras dan temukan opsi untuk berbagi atau mengekspor akun Anda, pilih PetroCASH, lalu pindai kode QR."
         },
         "sign": {
           "title": "Pindai kode QR tanda tangan",
@@ -13335,7 +13335,7 @@
       "wrong_ur_type": {
         "pair": {
           "title": "Kode QR salah",
-          "body": "Kembali ke dompet perangkat keras, pilih MetaMask sebagai jenis dompet, lalu buat dan pindai kode QR baru."
+          "body": "Kembali ke dompet perangkat keras, pilih PetroCASH sebagai jenis dompet, lalu buat dan pindai kode QR baru."
         },
         "sign": {
           "title": "Kode QR salah",
@@ -13457,7 +13457,7 @@
     "deactivate_error_non_zero_balance_stellar": "Anda masih memiliki {{balance}} {{symbol}} di dompet ini. Anda harus mengirim atau menukar seluruhnya sebelum menonaktifkan aset ini di Stellar."
   },
   "pro_hub": {
-    "title": "MetaMask Orange",
+    "title": "PetroCASH Orange",
     "manage": "Kelola langganan",
     "manage_membership": "Kelola keanggotaan",
     "also_included": {
@@ -13473,7 +13473,7 @@
       },
       "disclaimer": "Jatah diperbarui setiap bulan. APY bersifat variabel dan tidak dijamin. Manfaat dan ketersediaan kartu bervariasi tergantung wilayah."
     },
-    "membership_brand": "METAMASK",
+    "membership_brand": "PetroCASH",
     "membership_label": "Pro",
     "membership_status": {
       "active": "Aktif",
@@ -13512,7 +13512,7 @@
       "retry": "Coba lagi"
     },
     "physical_card": {
-      "title": "Dapatkan Kartu MetaMask gratis",
+      "title": "Dapatkan Kartu PetroCASH gratis",
       "description": "Dapatkan cashback mUSD sebesar 3% untuk setiap pembelian",
       "trial_title": "Unlock {{rate}} mUSD back",
       "trial_description": "Unlock card when you complete your free trial"
@@ -13592,7 +13592,7 @@
     }
   },
   "pro_subscription": {
-    "title": "MetaMask Orange",
+    "title": "PetroCASH Orange",
     "description": "{{monthlyPrice}}/bulan ({{annualPrice}} untuk keanggotaan tahunan)",
     "description_monthly": "{{monthlyPrice}}/bln",
     "description_annual": "{{annualPrice}} untuk keanggotaan tahunan",
@@ -13667,7 +13667,7 @@
         ]
       },
       "member_pricing": {
-        "description": "Tidak ada biaya MetaMask untuk:",
+        "description": "Tidak ada biaya PetroCASH untuk:",
         "points": [
           "$500/bln dalam swap",
           "$1.000/bln dalam perp",
@@ -13675,11 +13675,11 @@
         ]
       },
       "atm_fees": {
-        "description": "Kartu MetaMask dikirimkan gratis untuk anggota tahunan. Gunakan di 150 JT+ merchant secara global, di mana pun Mastercard diterima—tidak ada biaya ATM atau biaya transaksi luar negeri dari MetaMask.",
-        "description_monthly": "Kartu MetaMask tersedia secara terpisah untuk anggota bulanan. Gunakan di 150 Jt+ merchant secara global, di mana pun Mastercard diterima—tidak ada biaya ATM atau biaya transaksi luar negeri dari MetaMask."
+        "description": "Kartu PetroCASH dikirimkan gratis untuk anggota tahunan. Gunakan di 150 JT+ merchant secara global, di mana pun Mastercard diterima—tidak ada biaya ATM atau biaya transaksi luar negeri dari PetroCASH.",
+        "description_monthly": "Kartu PetroCASH tersedia secara terpisah untuk anggota bulanan. Gunakan di 150 Jt+ merchant secara global, di mana pun Mastercard diterima—tidak ada biaya ATM atau biaya transaksi luar negeri dari PetroCASH."
       },
       "protection": {
-        "description": "Dapatkan perlindungan hingga 100 transaksi ekstensi MetaMask per bulan, hingga $10.000. Anggota menerima pemberitahuan yang jelas di dalam aplikasi saat transaksi ditanggung.",
+        "description": "Dapatkan perlindungan hingga 100 transaksi ekstensi PetroCASH per bulan, hingga $10.000. Anggota menerima pemberitahuan yang jelas di dalam aplikasi saat transaksi ditanggung.",
         "sub_description": "Perlindungan mencakup:",
         "points": [
           "Swap DeFi",

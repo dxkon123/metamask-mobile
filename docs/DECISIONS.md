@@ -12,3 +12,9 @@
 8. 当前 LICENSE 仅授予有限检查/学习权利且限制复制、修改和分发；附件中的 10,000 MAU 说法不能套用到这个 Mobile 提交。保留 LICENSE，不声称商业发布已授权。Grotzec 有单独排除条款；从打包和使用处替换为已含的 Inter，并保留版权记录。
 9. 模拟器/真机、钱包与 Polygon 实际验收不能用 mocked 测试替代。不得生成生产钱包，不使用真实资金；有资金的交易仍需具体授权。
 10. caffeinate -dimsu 已启动；不修改系统电源设置。若重启会话需核对进程并重新启动。
+
+## M2 / owner RESUME correction
+
+- 进度事实以docs/PROGRESS.md为入口，每子步骤更新三份交接记录并push，约30分钟内保存，长CI前先push。
+- Root Mobile LICENSE grants inspection/study only; modification, derivative works and distribution need ConsenSys prior consent. Commercial launch is not authorized. Owner决定前：no public Release, no public distribution of APK/AAB, drafts only。公开Actions artifact也不能当私密渠道，下次native前调整。
+- 三项critical的lockfile候选版本已安装、audit不再报告这些ID，但全量回归未通过前只记candidate fix。

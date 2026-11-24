@@ -1,0 +1,27 @@
+/** Generate a local development signing identity. Never prints or reads back its password. */
+import { randomBytes } from 'node:crypto';
+import { mkdirSync, existsSync, writeFileSync, chmodSync } from 'node:fs';
+import { homedir } from 'node:os';
+import { join } from 'node:path';
+import { spawnSync } from 'node:child_process';
+const directory = join(homedir(), 'PetroCASH-keys');
+const keystore = join(directory, 'petrocash-development.p12');
+const passwordFile = join(directory, 'petrocash-keystore.txt');
+if (existsSync(keystore) || existsSync(passwordFile)) throw new Error('Signing files already exist; refusing overwrite and password readback.');
+mkdirSync(directory, { recursive: true, mode: 0o700 });
+chmodSync(directory, 0o700);
+const password = randomBytes(48).toString('base64url');
+writeFileSync(passwordFile, `${password}\n`, { mode: 0o600, flag: 'wx' });
+const keytool = process.env.PETROCASH_KEYTOOL || 'keytool';
+const env = { ...process.env, PETROCASH_STORE_PASSWORD: password };
+const result = spawnSync(keytool, ['-genkeypair', '-alias', 'petrocash-development', '-keyalg', 'RSA', '-keysize', '4096', '-validity', '10958', '-dname', 'CN=PetroCASH Development, O=PetroCASH', '-storetype', 'PKCS12', '-keystore', keystore, '-storepass:env', 'PETROCASH_STORE_PASSWORD', '-keypass:env', 'PETROCASH_STORE_PASSWORD', '-noprompt'], { env, stdio: 'pipe' });
+if (result.status !== 0) throw new Error('Key generation failed; private diagnostic output deliberately suppressed. Preserve local files for owner review.');
+chmodSync(keystore, 0o600);
+const certificate = join(directory, 'petrocash-development.crt');
+const exported = spawnSync(keytool, ['-exportcert', '-rfc', '-alias', 'petrocash-development', '-keystore', keystore, '-storepass:env', 'PETROCASH_STORE_PASSWORD', '-file', certificate], { env, stdio: 'pipe' });
+if (exported.status !== 0) throw new Error('Public certificate export failed; private output suppressed.');
+const fingerprint = spawnSync('/usr/bin/openssl', ['x509', '-in', certificate, '-noout', '-fingerprint', '-sha256'], { encoding: 'utf8' });
+if (fingerprint.status !== 0) throw new Error('Public certificate fingerprint failed');
+console.log('Local development keystore created: RSA-4096, 30-year validity; private files mode 600.');
+console.log(fingerprint.stdout.trim());
+console.log('This AI-generated development key is not owner production signing approval. Back up privately; never upload as an artifact.');

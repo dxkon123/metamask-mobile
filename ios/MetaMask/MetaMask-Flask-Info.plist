@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>MetaMask Flask</string>
+	<string>PetroCASH Flask</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -26,10 +26,10 @@
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>ethereum</string>
-				<string>metamask</string>
+				<string>petrocash</string>
 				<string>dapp</string>
 				<string>wc</string>
-				<string>expo-metamask</string>
+				<string>expo-petrocash</string>
 			</array>
 		</dict>
 	</array>
@@ -58,21 +58,21 @@
 		</dict>
 	</dict>
 	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>MetaMask needs Bluetooth access to connect to external devices.</string>
+	<string>PetroCASH needs Bluetooth access to connect to external devices.</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>MetaMask needs Bluetooth access to connect to external devices.</string>
+	<string>PetroCASH needs Bluetooth access to connect to external devices.</string>
 	<key>NSCameraUsageDescription</key>
-	<string>MetaMask needs camera access to scan QR codes</string>
+	<string>PetroCASH needs camera access to scan QR codes</string>
 	<key>NSFaceIDUsageDescription</key>
 	<string>$(PRODUCT_NAME) needs to authenticate</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>MetaMask needs location access to enable Bluetooth connectivity with hardware wallets.</string>
+	<string>PetroCASH needs location access to enable Bluetooth connectivity with hardware wallets.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>MetaMask needs microphone access to record audio</string>
+	<string>PetroCASH needs microphone access to record audio</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Allow MetaMask to save an image to your Photo Library</string>
+	<string>Allow PetroCASH to save an image to your Photo Library</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Allow MetaMask to access a images from your Photo Library</string>
+	<string>Allow PetroCASH to access a images from your Photo Library</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Entypo.ttf</string>
@@ -91,7 +91,6 @@
 		<string>FontAwesome5_Brands.ttf</string>
 		<string>FontAwesome5_Regular.ttf</string>
 		<string>FontAwesome5_Solid.ttf</string>
-		<string>GrotzecCond-Bold.otf</string>
 		<string>Inter-SemiBoldItalic.ttf</string>
 		<string>Inter-SemiBold.ttf</string>
 		<string>Inter-MediumItalic.ttf</string>

@@ -58,7 +58,7 @@ export const BridgeTokenMetadata: Record<CaipAssetType, BridgeToken> = {
   },
   'eip155:59144/erc20:0xaca92e438df0b2401ff60da7e4337b687a2435da': {
     decimals: 6,
-    name: 'MetaMask USD',
+    name: "mUSD",
     symbol: 'MUSD',
     address: '0xaca92e438df0b2401ff60da7e4337b687a2435da',
     image:

@@ -1,0 +1,16 @@
+{
+  "source": "https://client-config.api.cx.metamask.io/v1/flags?client=mobile&distribution=main&environment=dev",
+  "capturedAtUTC": "2026-11-23T19:48:55.791248Z",
+  "upstreamCompatibilityVersion": "8.22.0",
+  "nativeVersion": "1.0.0",
+  "originalPublicResponseSHA256": "54d0efb7c522a690c7edddd6c1516ccc6234dc8bd939e72583b818de9eb77e13",
+  "flagEntries": 375,
+  "removedCredentialFieldPaths": [
+    "[].depositConfig.providerApiKey",
+    "[].predictCryptoPriceFeed.chainlinkApiKey",
+    "[].depositConfig.providerFrontendAuth"
+  ],
+  "limits": "Anonymous upstream development snapshot; backend availability and user cohorts remain unverified. Removed service API credentials may make dependent partner features unavailable. No security flags forced off.",
+  "credentialReview": "All three API/auth credential fields are empty; credential-shaped URL/local-path patterns absent. No credential values printed.",
+  "storage": "Full snapshot is local-only and not published: automatic approval rejected public financial/service configuration upload. Original upstream fetch behavior remains active."
+}

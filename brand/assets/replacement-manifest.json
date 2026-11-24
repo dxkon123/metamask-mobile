@@ -1,0 +1,380 @@
+[
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/agent.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/astro.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/athlete.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/aviator.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/beanie.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/chrome.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/football.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/frozen.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/goth.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/hearts.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/laser.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/nerd.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/vr.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components-temp/Foxicon/assets/zombie.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "path": "app/component-library/components/Banners/Banner/variants/BannerTip/assets/fox-chat.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 200,
+    "height": 153
+  },
+  {
+    "path": "app/component-library/components/Banners/Banner/variants/BannerTip/assets/fox-greeting.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 200,
+    "height": 153
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/metamask-fox-filled.svg",
+    "type": "svg",
+    "brandCandidate": true,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/component-library/components/Icons/Icon/assets/metamask-fox-outline.svg",
+    "type": "svg",
+    "brandCandidate": true,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/images/Fox_Vipers.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 656,
+    "height": 698
+  },
+  {
+    "path": "app/images/branding/fox.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "app/images/branding/metamask-name-white.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1799,
+    "height": 891
+  },
+  {
+    "path": "app/images/branding/metamask-name.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1799,
+    "height": 891
+  },
+  {
+    "path": "app/images/branding/metamask-wordmark.svg",
+    "type": "svg",
+    "brandCandidate": true,
+    "width": 280,
+    "height": 152
+  },
+  {
+    "path": "app/images/branding/tiny-logo.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "app/images/fox-badge.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 454,
+    "height": 454
+  },
+  {
+    "path": "app/images/fox.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 21,
+    "height": 21
+  },
+  {
+    "path": "app/images/fox.svg",
+    "type": "svg",
+    "brandCandidate": true,
+    "width": 144,
+    "height": 144
+  },
+  {
+    "path": "app/images/metamask-error.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 102,
+    "height": 100
+  },
+  {
+    "path": "app/images/mm-card-onboarding-failed.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 2048,
+    "height": 3134
+  },
+  {
+    "path": "app/images/mm-card-onboarding-success.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 909,
+    "height": 1161
+  },
+  {
+    "path": "app/images/mm-card-welcome.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1179,
+    "height": 1177
+  },
+  {
+    "path": "app/images/money-splash-hero.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1083,
+    "height": 609
+  },
+  {
+    "path": "app/images/onboarding-carousel-1.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1029,
+    "height": 1444
+  },
+  {
+    "path": "app/images/onboarding-carousel-2.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1029,
+    "height": 1444
+  },
+  {
+    "path": "app/images/onboarding-carousel-3.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1029,
+    "height": 1444
+  },
+  {
+    "path": "app/images/rewards/metamask-rewards-activity-empty.svg",
+    "type": "svg",
+    "brandCandidate": true,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "path": "app/images/rewards/metamask-rewards-points-alternative.svg",
+    "type": "svg",
+    "brandCandidate": true,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "path": "app/images/rewards/metamask-rewards-points.svg",
+    "type": "svg",
+    "brandCandidate": true,
+    "width": 21,
+    "height": 20
+  },
+  {
+    "path": "app/images/rewards/vip_splash.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 352,
+    "height": 419
+  },
+  {
+    "path": "app/images/swaps_onboard_device.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 200,
+    "height": 211
+  },
+  {
+    "path": "app/images/swaps_onboard_device@2x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 400,
+    "height": 422
+  },
+  {
+    "path": "app/images/swaps_onboard_device@3x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 600,
+    "height": 633
+  },
+  {
+    "path": "app/images/welcome-bg1.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 375,
+    "height": 669
+  },
+  {
+    "path": "app/images/welcome-bg1@2x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 750,
+    "height": 1338
+  },
+  {
+    "path": "app/images/welcome-bg1@3x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1125,
+    "height": 2007
+  },
+  {
+    "path": "app/images/welcome-bg2.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 375,
+    "height": 669
+  },
+  {
+    "path": "app/images/welcome-bg2@2x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 750,
+    "height": 1338
+  },
+  {
+    "path": "app/images/welcome-bg2@3x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1125,
+    "height": 2007
+  },
+  {
+    "path": "app/images/welcome-bg3.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 375,
+    "height": 669
+  },
+  {
+    "path": "app/images/welcome-bg3@2x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 750,
+    "height": 1338
+  },
+  {
+    "path": "app/images/welcome-bg3@3x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1125,
+    "height": 2007
+  },
+  {
+    "path": "app/images/welcome-bg4.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 375,
+    "height": 669
+  },
+  {
+    "path": "app/images/welcome-bg4@2x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 750,
+    "height": 1338
+  },
+  {
+    "path": "app/images/welcome-bg4@3x.png",
+    "type": "png",
+    "brandCandidate": true,
+    "width": 1125,
+    "height": 2007
+  }
+]

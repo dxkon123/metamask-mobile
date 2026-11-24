@@ -1,3 +1,4 @@
+import { withBrandColors } from '../../core/Brand/theme';
 import React, { useCallback, useContext, useEffect, useState } from 'react';
 import {
   useColorScheme,
@@ -25,7 +26,7 @@ export const LIGHT_MODE_SUCCESS_GREEN = '#00881A';
  * TODO: Convert classes into functional components and remove contextType
  */
 export const mockTheme = {
-  colors: lightTheme.colors,
+  colors: withBrandColors(lightTheme.colors, false),
   themeAppearance: 'light' as AppThemeKey.light,
   typography: lightTheme.typography,
   shadows: lightTheme.shadows,
@@ -189,7 +190,7 @@ export const useAppTheme = (): Theme => {
       setLightStatusBar();
   }
 
-  return { colors, themeAppearance, typography, shadows, brandColors };
+  return { colors: withBrandColors(colors, themeAppearance === AppThemeKey.dark), themeAppearance, typography, shadows, brandColors };
 };
 
 export const useAppThemeFromContext = (): Theme => {

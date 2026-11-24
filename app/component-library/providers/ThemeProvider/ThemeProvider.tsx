@@ -1,3 +1,4 @@
+import { configureDesignSystemBrand } from '../../../core/Brand/theme';
 // Third party dependencies
 import React from 'react';
 
@@ -8,6 +9,8 @@ import {
   Theme,
 } from '@metamask/design-system-twrnc-preset';
 import { AppThemeKey } from '../../../util/theme/models';
+
+configureDesignSystemBrand();
 
 const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
   const theme = useAppTheme();

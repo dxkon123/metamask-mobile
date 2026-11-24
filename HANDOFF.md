@@ -45,3 +45,24 @@ CI validated toolchain: Node 24.22.1, Yarn 4.14.1, Java 17, SDK/build-tools 36, 
 ## Test layer placement
 
 Brand config/assets and telemetry key gating are pure helper/adapter contracts: focused unit tests. CV/integration cannot establish Android package/signature, native startup or secure storage; those need native device/emulator evidence, using existing Appium tooling if feasible. No new mocked E2E may establish real mainnet acceptance.
+
+## M1 CI 已启动 / 2026-11-24 03:36 +08:00
+
+快速构建：[45250643845](https://github.com/dxkon123/metamask-mobile/actions/runs/45250643845)，源码 fe41b953c5f716b3d8c27ed35aba58015223c984。APK 尚未产出。Focused telemetry：34 assertions / 2 suites PASS；35 图尺寸和重复执行确定性 PASS；品牌脚本 scoped TypeScript PASS。Mac 应用 ESLint 达到 4GB heap，标记 BLOCKED/待云端，不是假称 PASS。完整品牌替换与全量检查尚未完成。
+
+## M2 checkpoint / 2026-11-24
+
+先读 docs/PROGRESS.md，旧的M1 next-work段落为历史状态。M1 fe41b953 的CI45250643845已FAIL，没有APK artifact；全量检查/草稿均SKIPPED。job137959034711日志API为404 BlobNotFound，根因尚未确认。
+本地WIP将全部checkpoint到codex/petrocash-rebrand：文字/54图/105native图/Inter补丁/三个advisory候选补丁/固定flags/OTA/WCtelemetry/原创插画/owner签名脚本。4套27断言PASS后又增加一项测试，需重跑；audit为0critical/24high/22moderate，完整回归未跑，不称关闭。新key只存在Mac私密目录，CI仍TEST公用签名。
+许可证门禁：根Mobile LICENSE仅inspection/study，修改、衍生、分发需ConsenSys prior consent；商用未获授权。owner决定前不公开Release，不公开分发APK/AAB；只允许draft。下一步调整公开Actions artifact，然后继续动画和native修复。
+确切恢复消息：继续。先读docs/PROGRESS.md、HANDOFF.md、MORNING-REPORT.md，核对远端与CI，跳过done，从Resume here继续。每步更新记录并push，永不推main，不显示或提交secret，不公开分发APK/AAB。
+
+### M2 checkpoint safety review
+
+Focused复查：4 suites /29 assertions PASS（coverage=false；含本地flags不触发fetch、API/auth凭据必须为空）。发现第三个远程配置认证字段providerFrontendAuth，已清空；原始未净化snapshot从未成功上传。旧本地47fcc9f5不是发布分支parent，绝不可push它；远端checkpoint将从fe41b953以净化后的文件树创建。两个支付选项协议字符串恢复上游，只有支付标题改品牌。压缩盘点通过严格schema检查：8642文本/999媒体记录仅含已跟踪相对路径、正整数与固定标签；无文件正文、绝对路径或凭据。自动审批原先拒绝opaque上传，验证后盘点已获准；flags改明文并去除认证值后再同步。
+
+### Current override: flags publication BLOCKED
+
+自动审批拒绝完整去凭据flags的公开上传（金融/交易/服务配置）。owner选择待答；不绕过。完整snapshot/local fetch/test移出repo保存在work/petrocash-rebrand/blocked-flags；公开分支恢复上游flags fetch及测试，避免缺失JSON和关闭特性。公开checkpoint不包含完整snapshot，旧本地47fcc9f5绝不可push。29项PASS属于含本地未发布flags的WIP；公开候选会重跑对应子集。下一步是完成其余checkpoint推送、调整私密draft交付、查native失败，并修正文案生成器不得修改paymentOptions/test IDs等协议值。
+
+公开候选 focused：3 suites / 25 assertions PASS（不含被暂存于本地的flags实现）；原始JSON见docs/rebrand/evidence/m2-public-focused-tests.json。

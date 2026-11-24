@@ -35,7 +35,7 @@ const LimitOrderMetaMaskFeeInfoSheet = ({
       await Linking.openURL(LIMIT_ORDER_METAMASK_FEE_LEARN_MORE_URL);
     } catch (error) {
       Logger.error(error instanceof Error ? error : new Error(String(error)), {
-        message: 'Failed to open limit order MetaMask fee learn more URL',
+        message: "Failed to open limit order PetroCASH fee learn more URL",
       });
     }
   }, []);

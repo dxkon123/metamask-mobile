@@ -465,7 +465,7 @@ export const BrowserTab: React.FC<BrowserTabProps> = React.memo(
             }`;
             const response = await fetch(gatewayUrl, {
               headers: {
-                'User-Agent': 'MetaMask Mobile Browser',
+                'User-Agent': "PetroCASH Mobile Browser",
               },
             });
             const statusCode = response.status;
@@ -1918,7 +1918,7 @@ export const BrowserTab: React.FC<BrowserTabProps> = React.memo(
                         onOpenWindow={handleOpenWindow}
                         {...webViewTestProps}
                         testID={BrowserViewSelectorsIDs.BROWSER_WEBVIEW_ID}
-                        applicationNameForUserAgent={'WebView MetaMaskMobile'}
+                        applicationNameForUserAgent={'WebView PetroCASH'}
                         onFileDownload={handleOnFileDownload}
                         webviewDebuggingEnabled={isTestEnvironment}
                         paymentRequestEnabled

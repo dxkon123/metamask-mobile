@@ -24,7 +24,7 @@ const CODE_SIGNING_KEYIDS = {
 
 module.exports = {
   name: 'MetaMask',
-  displayName: 'MetaMask',
+  displayName: "PetroCASH",
   // NOTE: React Compiler is enabled via the `react-compiler` babel plugin in
   // babel.config.js, not here. This repo uses the React Native community Metro
   // transformer, which doesn't pass the `supportsReactCompiler` caller flag that
@@ -67,7 +67,6 @@ module.exports = {
           './app/fonts/Inter-RegularItalic.ttf',
           './app/fonts/Inter-MediumItalic.ttf',
           './app/fonts/Inter-SemiBoldItalic.ttf',
-          './app/fonts/GrotzecCond/GrotzecCond-Bold.otf',
         ],
       },
     ],
@@ -77,8 +76,8 @@ module.exports = {
   android: {
     package:
       process.env.METAMASK_BUILD_TYPE === 'flask'
-        ? 'io.metamask.flask'
-        : 'io.metamask', // Required for @expo/repack-app Android repacking
+        ? 'org.petrocash.wallet.flask'
+        : 'org.petrocash.wallet', // Required for @expo/repack-app Android repacking
   },
   ios: {
     bundleIdentifier:
@@ -92,6 +91,7 @@ module.exports = {
     owner: 'metamask',
     runtimeVersion: RUNTIME_VERSION,
     updates: {
+      enabled: false, // Fork: no upstream OTA changes to the local reviewed build.
       codeSigningCertificate: CODE_SIGNING_CERTS[OTA_ENV],
       codeSigningMetadata: {
         keyid: CODE_SIGNING_KEYIDS[OTA_ENV],
@@ -105,7 +105,7 @@ module.exports = {
       },
     },
     android: {
-      package: 'io.metamask',
+      package: 'org.petrocash.wallet',
     },
     ios: {
       bundleIdentifier: 'io.metamask.MetaMask',

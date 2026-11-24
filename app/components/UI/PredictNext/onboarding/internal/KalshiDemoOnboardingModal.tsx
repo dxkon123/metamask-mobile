@@ -129,7 +129,7 @@ export const KalshiDemoOnboardingModal = ({
               color={TextColor.TextAlternative}
             >
               Use your own Kalshi demo account. Linking moves it from any other
-              MetaMask profile.
+              PetroCASH profile.
             </Text>
             {message}
             <Button

@@ -116,7 +116,7 @@ export const mockQuotesData = [
       name: 'MoonPay (Staging)',
       environmentType: 'STAGING',
       description:
-        'Per MoonPay: “MoonPay provides a smooth experience for converting between fiat currencies and cryptocurrencies. Easily top-up with ETH, BNB and more directly in your MetaMask wallet via MoonPay using all major payment methods including debit and credit card, local bank transfers, Apple Pay, Google Pay, and Samsung Pay. MoonPay is active in more than 160 countries and is trusted by 250+ leading wallets, websites, and applications.”',
+        "Per MoonPay: “MoonPay provides a smooth experience for converting between fiat currencies and cryptocurrencies. Easily top-up with ETH, BNB and more directly in your PetroCASH wallet via MoonPay using all major payment methods including debit and credit card, local bank transfers, Apple Pay, Google Pay, and Samsung Pay. MoonPay is active in more than 160 countries and is trusted by 250+ leading wallets, websites, and applications.”",
       hqAddress: '8 The Green, Dover, DE, 19901, USA',
       links: [
         {

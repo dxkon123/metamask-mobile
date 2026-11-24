@@ -26,7 +26,7 @@ const MAINNET_MUSD_BRIDGE_TOKEN: BridgeToken = {
   address: MAINNET_MUSD_TOKEN_ADDRESS,
   chainId: CHAIN_IDS.MAINNET,
   symbol: 'mUSD',
-  name: 'MetaMask USD',
+  name: "mUSD",
   decimals: 6,
   image:
     'https://static.cx.metamask.io/api/v2/tokenIcons/assets/eip155/1/erc20/0xaca92e438df0b2401ff60da7e4337b687a2435da.png',

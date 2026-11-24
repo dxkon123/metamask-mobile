@@ -66,7 +66,7 @@ export const createMoneyAccountSweepstakesLocalizedText = (
   daysRemainingValue: '{count} days',
   learnHowItWorksTitle: 'How it works',
   learnHowItWorksDescription: 'Learn how to earn entries',
-  learnMusdTitle: 'MetaMask USD',
+  learnMusdTitle: "mUSD",
   learnMusdDescription: 'Learn more about mUSD',
   ...overrides,
 });

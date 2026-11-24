@@ -1,7 +1,7 @@
 {
   "sample_feature": {
     "title": "Örnek özellik",
-    "description": "Bu ekran, MetaMask’te nasıl uçtan uca örnek özellik oluşturulacağını gösterir.",
+    "description": "Bu ekran, PetroCASH’te nasıl uçtan uca örnek özellik oluşturulacağını gösterir.",
     "counter": {
       "title": "Sayaç",
       "value": "Değer: {{value}}",
@@ -22,7 +22,7 @@
   },
   "access_restricted": {
     "title": "Erişim kısıtlandı",
-    "description_line1": "Bu cüzdan adresi uygunluk taraması sırasında işaretlendi. Sonuç olarak bazı MetaMask hizmetleri kullanılamıyor.",
+    "description_line1": "Bu cüzdan adresi uygunluk taraması sırasında işaretlendi. Sonuç olarak bazı PetroCASH hizmetleri kullanılamıyor.",
     "description_line2": "Bunun bir hata olduğuna inanıyorsanız inceleme talep etmek için destek bölümü ile iletişime geçin.",
     "contact_support": "Destek ile iletişime geç"
   },
@@ -31,7 +31,7 @@
     "description": "Arc'a hoş geldiniz! Arc zincirini kullanımınızı kolaylaştırmak ve doğrulamak amacıyla Arc ekibi ile bilgi paylaşabiliriz."
   },
   "storage": {
-    "device_full_alert": "Cihazınızın depolama alanı azaldı. MetaMask'in cüzdan verilerinizi kaydedebilmesi için yer açın."
+    "device_full_alert": "Cihazınızın depolama alanı azaldı. PetroCASH'in cüzdan verilerinizi kaydedebilmesi için yer açın."
   },
   "alert_system": {
     "alert_modal": {
@@ -317,13 +317,13 @@
   },
   "onboarding": {
     "title": "Başlayalım!",
-    "sync_desc": "Zaten MetaMask uzantısı veya başka bir cüzdan aldıysanız mevcut varlıklarınızı yönetmek için onu senkronize edin veya içe aktarın.",
+    "sync_desc": "Zaten PetroCASH uzantısı veya başka bir cüzdan aldıysanız mevcut varlıklarınızı yönetmek için onu senkronize edin veya içe aktarın.",
     "create_desc": "İlk cüzdan kurulumunuzu yapın ve merkeziyetsiz uygulamaları keşfetmeye başlayın.",
     "import": "Mevcut bir cüzdanı içe aktarın veya yeni bir tane oluşturun.",
     "import_wallet_button": "Cüzdanı senkronize et veya içe aktar",
     "new_to_crypto": "Kriptoda yeni misiniz?",
     "start_exploring_now": "Yeni bir cüzdan oluştur",
-    "new_to_metamask": "MetaMask'te yeni misiniz?",
+    "new_to_metamask": "PetroCASH'te yeni misiniz?",
     "already_have_wallet": "Zaten bir cüzdanınız var mı?",
     "optin_back_title": "Dikkat!",
     "optin_back_desc": "Veri analitiklerinin kullanımını kabul edin veya reddedin. Bu seçeneği ayarlar kısmında da güncelleyebilirsiniz.",
@@ -331,15 +331,15 @@
     "warning_text_1": "İlerlediğiniz takdirde",
     "warning_text_2": "geçerli cüzdan ve hesaplarınız",
     "warning_text_3": "kaldırılacak.",
-    "warning_text_4": "Onları sadece cüzdanınızın Gizli Kurtarma İfadesi ile kurtarabilirsiniz. MetaMask onu kurtarmanıza yardımcı olamaz.",
+    "warning_text_4": "Onları sadece cüzdanınızın Gizli Kurtarma İfadesi ile kurtarabilirsiniz. PetroCASH onu kurtarmanıza yardımcı olamaz.",
     "warning_proceed": "Cüzdanı kaldır ve ilerle",
     "warning_cancel": "İptal",
     "step1": "Cüzdan kurulumu",
     "step2": "Şifre oluştur",
     "step3": "Cüzdanı güvenli hale getir",
     "already_have": "Zaten bir cüzdanınız var mı?",
-    "sync_existing": "Tarayıcı uzantısından mevcut MetaMask cüzdanınızı senkronize edin veya manuel olarak içe aktarın.",
-    "scan_title": "MetaMask uzantısı ile senkronize etme adımları",
+    "sync_existing": "Tarayıcı uzantısından mevcut PetroCASH cüzdanınızı senkronize edin veya manuel olarak içe aktarın.",
+    "scan_title": "PetroCASH uzantısı ile senkronize etme adımları",
     "scan": "Tara",
     "scan_step_1": "Uzantıyı masaüstünde aç",
     "scan_step_2": "Ayarlar > Gelişmiş kısmına gidin",
@@ -362,7 +362,7 @@
     "have_existing_wallet": "Mevcut bir cüzdanım var",
     "import_using_srp": "Gizli Kurtarma İfadesini kullanarak içe aktar",
     "import_using_srp_social_login": "Mevcut bir cüzdanım var",
-    "by_continuing": "Devam ederek MetaMask'in şu bölümünü kabul edersiniz:",
+    "by_continuing": "Devam ederek PetroCASH'in şu bölümünü kabul edersiniz:",
     "terms_of_use": "Kullanım şartları",
     "privacy_notice": "Gizlilik bildirimi",
     "and": "ve"
@@ -407,12 +407,12 @@
     "existing_user_button": "Cüzdanın kilidini aç"
   },
   "onboarding_carousel": {
-    "title1": "MetaMask'e Hoş Geldiniz",
+    "title1": "PetroCASH'e Hoş Geldiniz",
     "title2": "Dijital varlıklarını yönet",
     "title3": "web3 ağ geçidiniz",
-    "subtitle1": "Milyonların güvendiği MetaMask web3 dünyasını herkes için erişilebilir kılan güvenli bir cüzdandır.",
+    "subtitle1": "Milyonların güvendiği PetroCASH web3 dünyasını herkes için erişilebilir kılan güvenli bir cüzdandır.",
     "subtitle2": "Token, Ethereum, eşsiz koleksiyonlar gibi dijital varlıkları saklayın, harcayın ve gönderin.",
-    "subtitle3": "MetaMask ile oturum açın ve yatırım yapmak, kazanmak, oyun oynamak ve satmak ve daha fazlası için işlem yapın!",
+    "subtitle3": "PetroCASH ile oturum açın ve yatırım yapmak, kazanmak, oyun oynamak ve satmak ve daha fazlası için işlem yapın!",
     "get_started": "Başla"
   },
   "onboarding_wizard": {
@@ -442,7 +442,7 @@
     "step4": {
       "title": "Ana menü",
       "content1": "Bu menüden işlem geçmişi, ayarlar ve destek kısımlarına erişim sağlayabilirsiniz.",
-      "content2": "Hesaplarınızla daha fazla işlem yapabilir ve MetaMask ayarlarına erişim sağlayabilirsiniz."
+      "content2": "Hesaplarınızla daha fazla işlem yapabilir ve PetroCASH ayarlarına erişim sağlayabilirsiniz."
     },
     "step5": {
       "title": "Tarayıcıyı keşfet",
@@ -461,7 +461,7 @@
     },
     "step1": {
       "title": "Cüzdanınıza hoş geldiniz!",
-      "content1": "Blokzincirinde bir cüzdana ihtiyacınız vardır (ve belki biraz ETH'ye). Öyleyse, MetaMask cüzdanınızı nasıl kullanacağınıza bakalım."
+      "content1": "Blokzincirinde bir cüzdana ihtiyacınız vardır (ve belki biraz ETH'ye). Öyleyse, PetroCASH cüzdanınızı nasıl kullanacağınıza bakalım."
     },
     "step2": {
       "title": "Hesaplarınız",
@@ -493,14 +493,14 @@
     "subtitle": "Bu işlem uzun sürmeyecektir"
   },
   "import_wallet": {
-    "title": "Zaten MetaMask kullanıcısı mısınız?",
+    "title": "Zaten PetroCASH kullanıcısı mısınız?",
     "sub_title": "Uzantı ile senkronize et",
     "sync_help": "Uzantı ile cüzdanını senkronize et",
     "sync_help_step_one": "1. Uzantıyı aç",
     "sync_help_step_two": "2. Ayarlar > Gelişmiş kısmına gidin",
     "sync_help_step_three": "3. “Mobil ile Senkronize Et” düğmesine tıklayın",
     "sync_help_step_four": "4. Senkronize etmeye başlamak için QR kodunu tarayın",
-    "sync_from_browser_extension_button": "MetaMask uzantısı ile senkronize et",
+    "sync_from_browser_extension_button": "PetroCASH uzantısı ile senkronize et",
     "or": "Veya",
     "import_from_seed_button": "Gizli Kurtarma İfadesini kullanarak içe aktar"
   },
@@ -520,22 +520,22 @@
     "your_current_wallet": "Cüzdanınız, hesaplarınız ve varlıklarınız",
     "removed_from": " bu uygulamadan kalıcı olarak kaldırılacak",
     "this_action": "Bu eylem geri alınamaz.",
-    "you_can_only": "Bu cüzdanı yalnızca Gizli Kurtarma İfadeniz, Google hesabınız veya Apple hesabınız gibi cüzdanınızı oluştururken kullanılan bilgilerle geri alabilirsiniz. MetaMask bu bilgilere sahip değildir.",
+    "you_can_only": "Bu cüzdanı yalnızca Gizli Kurtarma İfadeniz, Google hesabınız veya Apple hesabınız gibi cüzdanınızı oluştururken kullanılan bilgilerle geri alabilirsiniz. PetroCASH bu bilgilere sahip değildir.",
     "recovery_phrase": "Gizli Kurtarma İfadenizle kurtarabilirsiniz",
-    "metamask_does_not": "Gizli Kurtarma İfadeniz MetaMask'in içerisinde bulunmaz.",
+    "metamask_does_not": "Gizli Kurtarma İfadeniz PetroCASH'in içerisinde bulunmaz.",
     "i_understand": "Anlıyorum, devam et",
     "passcode_not_set_error": "Hata: Parola ayarlanmadı.",
     "wrong_password_error": "Şifre yanlış. Tekrar deneyin.",
     "wrong_password_error_android": "Şifre yanlış. Tekrar deneyin.",
     "vault_error": "Hata: Önceki bir vault olmadan kilidi açılamaz.",
-    "clean_vault_error": "MetaMask, depolama limitine ulaşılmasından dolayı bir hata ile karşılaştı. Yerel veriler bozuldu. MetaMask'ı tekrar yükleyin ve Gizli Kurtarma İfadenizi kullanarak geri yükleyin.",
+    "clean_vault_error": "PetroCASH, depolama limitine ulaşılmasından dolayı bir hata ile karşılaştı. Yerel veriler bozuldu. PetroCASH'ı tekrar yükleyin ve Gizli Kurtarma İfadenizi kullanarak geri yükleyin.",
     "seedless_password_outdated": "Şifreniz yakın zamanda değiştirildi.",
     "seedless_password_outdated_modal_title": "Şifreniz değiştirildi",
-    "seedless_password_outdated_modal_content": "Şifreniz yakın zamanda değiştirildi, bu nedenle MetaMask oturumunuzun açık kalması için yeni şifrenizi girmeniz gerekiyor.",
+    "seedless_password_outdated_modal_content": "Şifreniz yakın zamanda değiştirildi, bu nedenle PetroCASH oturumunuzun açık kalması için yeni şifrenizi girmeniz gerekiyor.",
     "seedless_password_outdated_modal_confirm": "Devam et",
     "no_internet_connection": "Seed'siz hesap kurtarmak için internet bağlantısı gerekir.",
     "seedless_controller_error_prompt_title": "Bir şeyler ters gitti",
-    "seedless_controller_error_prompt_description": "Kilidi açarken bir sorun oluştu. Google ve MetaMask şifrenizle tekrar oturum açın.",
+    "seedless_controller_error_prompt_description": "Kilidi açarken bir sorun oluştu. Google ve PetroCASH şifrenizle tekrar oturum açın.",
     "seedless_controller_error_prompt_primary_button_label": "Oturum aç",
     "security_alert_title": "Güvenlik uyarısı",
     "security_alert_desc": "İlerlemek için Parolayı veya cihazınızda desteklenen herhangi bir biyometri kimlik doğrulama yöntemini (FaceID, TouchID veya Parmak İzi) açmanız gerekir",
@@ -545,20 +545,20 @@
     "google_button": "Google ile Giriş Yap",
     "other_methods": "Farklı bir oturum açma yöntemi kullanın",
     "forgot_password_desc": "Şifrenizi mi unuttunuz?",
-    "forgot_password_desc_2": "MetaMask sizin için şifrenizi kurtaramaz.",
-    "forgot_password_point_1": "Bir cihazda MetaMask oturumunuzu",
+    "forgot_password_desc_2": "PetroCASH sizin için şifrenizi kurtaramaz.",
+    "forgot_password_point_1": "Bir cihazda PetroCASH oturumunuzu",
     "forgot_password_point_1_bold": "Biyometrikler açık (Face ID gibi) ise",
     "forgot_password_point_1_1": "(Face ID gibi), şifrenizi oradan sıfırlayın.",
     "forgot_password_point_2": "Gizli Kurtarma İfadeniz",
     "forgot_password_point_2_bold": "Gizli Kurtarma İfadesi,",
     "forgot_password_point_2_1": "geçerli cüzdanınızı sıfırlayabilir ve Gizli Kurtarma İfadesi kullanarak yeniden içe aktarabilirsiniz.",
     "reset_wallet": "Cüzdanı sıfırla",
-    "reset_wallet_desc": "Cüzdan verileriniz bu cihazdaki MetaMask'ten silinecek. Bu işlem geri alınamaz.",
-    "reset_wallet_desc_login": "Cüzdanınızı geri yüklemek için Gizli Kurtarma İfadenizi veya Google ya da Apple hesap şifrenizi kullanabilirsiniz. MetaMask bu bilgilere sahip değildir.",
-    "reset_wallet_desc_srp": "Cüzdanınızı geri yüklemek için Gizli Kurtarma İfadenizin hazır bulunduğundan emin olun. MetaMask bu bilgiye sahip değildir.",
+    "reset_wallet_desc": "Cüzdan verileriniz bu cihazdaki PetroCASH'ten silinecek. Bu işlem geri alınamaz.",
+    "reset_wallet_desc_login": "Cüzdanınızı geri yüklemek için Gizli Kurtarma İfadenizi veya Google ya da Apple hesap şifrenizi kullanabilirsiniz. PetroCASH bu bilgilere sahip değildir.",
+    "reset_wallet_desc_srp": "Cüzdanınızı geri yüklemek için Gizli Kurtarma İfadenizin hazır bulunduğundan emin olun. PetroCASH bu bilgiye sahip değildir.",
     "reset_wallet_desc_srp_1": "Cüzdanınızı geri yüklemek için mutlaka olması gereken şey",
     "reset_wallet_desc_srp_bold": "Gizli Kurtarma İfadesi",
-    "reset_wallet_desc_srp_2": "MetaMask bu bilgilere erişemez.",
+    "reset_wallet_desc_srp_2": "PetroCASH bu bilgilere erişemez.",
     "biometric_authentication_cancelled": "Biyometrik doğrulama iptal edildi",
     "biometric_authentication_cancelled_title": "Biyometrik Kurulum Başarısız Oldu",
     "biometric_authentication_cancelled_description": "Ayarlar bölümünden biyometrik doğrulama kurulumunu tekrar yapın.",
@@ -581,13 +581,13 @@
   },
   "choose_password": {
     "title": "Bir şifre oluşturun",
-    "description": "Yalnızca bu cihazda MetaMask'i açar.",
-    "create_description": "Bu şifreyi kullanarak bu cihazda MetaMask'in kilidini açabilirsiniz. Gizli Kurtarma İfadenizin yerine geçmez.",
+    "description": "Yalnızca bu cihazda PetroCASH'i açar.",
+    "create_description": "Bu şifreyi kullanarak bu cihazda PetroCASH'in kilidini açabilirsiniz. Gizli Kurtarma İfadenizin yerine geçmez.",
     "description_social_login": "Tüm cihazlarda cüzdanı kurtarmak için bunu kullanın.",
     "description_social_login_update": "Bu şifreyi kaybederseniz tüm cihazlarda cüzdanınıza erişimi kaybedersiniz. Güvenli bir yerde saklayın,",
-    "description_social_login_update_ios": "Tüm cihazlarda cüzdan kurtarma için bunu kullanın. MetaMask bunu sıfırlayamaz.",
-    "description_social_login_update_bold": "MetaMask bunu sıfırlayamaz.",
-    "subtitle": "Bu şifre sadece bu cihazda MetaMask cüzdanınızın kilidini açar.",
+    "description_social_login_update_ios": "Tüm cihazlarda cüzdan kurtarma için bunu kullanın. PetroCASH bunu sıfırlayamaz.",
+    "description_social_login_update_bold": "PetroCASH bunu sıfırlayamaz.",
+    "subtitle": "Bu şifre sadece bu cihazda PetroCASH cüzdanınızın kilidini açar.",
     "password": "Şifre oluştur",
     "confirm_password": "Şifreyi onayla",
     "create_button": "Şifre oluştur",
@@ -605,7 +605,7 @@
     "remember_me": "Beni hatırla",
     "security_alert_title": "Güvenlik uyarısı",
     "security_alert_message": "İlerlemek için Parolayı veya cihazınızda desteklenen herhangi bir biyometri kimlik doğrulama yöntemini (FaceID, TouchID veya Parmak İzi) açmanız gerekir",
-    "i_understand": "MetaMask'ın benim için bu şifreyi kurtaramadığını anlıyorum.",
+    "i_understand": "PetroCASH'ın benim için bu şifreyi kurtaramadığını anlıyorum.",
     "learn_more": "Daha fazla bilgi edin",
     "secure": "Cüzdanı güvenli hale getir",
     "confirm": "Gizli Kurtarma İfadesini onayla",
@@ -616,7 +616,7 @@
     "steps": "Adım {{currentStep}}/{{totalSteps}}",
     "password_error": "Şifreler uyumlu değil.",
     "marketing_opt_in_description": "E-posta yoluyla dahil olmak üzere ürün güncellemeleri, ipuçları ve haberleri alın. Etkileşimlerinizi yaptığımız paylaşımları iyileştirmek için kullanabiliriz.",
-    "password_warning_title": "MetaMask şifrenizi sıfırlayamaz",
+    "password_warning_title": "PetroCASH şifrenizi sıfırlayamaz",
     "password_warning_description_part1": "Bu şifreyi unutursanız geri dönmenin tek yolu ",
     "password_warning_srp": "Gizli Kurtarma İfadesi",
     "password_warning_description_part2": " veya biyometri etkinleştirilmiş bir cihazdır.",
@@ -626,8 +626,8 @@
   "wallet_creation_error": {
     "title": "Bir şeyler ters gitti",
     "social_login_description_part1": "Cüzdanınız oluşturulurken bir hata oluştu. Tekrar deneyin ve sorun devam ederse iletişime geçin",
-    "srp_description_part1": "Problemi düzeltmemize ve MetaMask'i iyileştirmemize yardımcı olmak için bize anonim bir hata raporu gönderin. Sorun devam ederse iletişime geçin",
-    "metamask_support": "MetaMask Destek",
+    "srp_description_part1": "Problemi düzeltmemize ve PetroCASH'i iyileştirmemize yardımcı olmak için bize anonim bir hata raporu gönderin. Sorun devam ederse iletişime geçin",
+    "metamask_support": "PetroCASH Destek",
     "error_report": "Hata raporu",
     "copy": "Kopyala",
     "copied": "Kopyalandı",
@@ -638,7 +638,7 @@
   },
   "reset_password": {
     "title": "Şifreyi değiştir",
-    "subtitle": "Bu şifre sadece bu cihazda MetaMask cüzdanınızın kilidini açar.",
+    "subtitle": "Bu şifre sadece bu cihazda PetroCASH cüzdanınızın kilidini açar.",
     "password": "Yeni şifre",
     "confirm_password": "Şifreyi onayla",
     "reset_button": "Şifreyi sıfırla",
@@ -656,7 +656,7 @@
     "remember_me": "Beni hatırla",
     "security_alert_title": "Güvenlik uyarısı",
     "security_alert_message": "İlerlemek için Parolayı veya cihazınızda desteklenen herhangi bir biyometri kimlik doğrulama yöntemini (FaceID, TouchID veya Parmak İzi) açmanız gerekir",
-    "i_understand": "MetaMask'ın benim için bu şifreyi kurtaramadığını anlıyorum.",
+    "i_understand": "PetroCASH'ın benim için bu şifreyi kurtaramadığını anlıyorum.",
     "learn_more": "Daha fazla bilgi edin",
     "secure": "Cüzdanı güvenli hale getir",
     "confirm": "Gizli Kurtarma İfadesini onayla",
@@ -666,12 +666,12 @@
     "confirm_password_placeholder": "Şifrenizi tekrar girin",
     "confirm_btn": "Kaydet",
     "warning_password_change_title": "Emin misiniz?",
-    "warning_password_change_description": "Buradan şifrenizi değiştirdiğinizde kullandığınız diğer cihazlarda MetaMask kilitlenecek. Yeni şifrenizle tekrar oturum açmanız gerekecek",
+    "warning_password_change_description": "Buradan şifrenizi değiştirdiğinizde kullandığınız diğer cihazlarda PetroCASH kilitlenecek. Yeni şifrenizle tekrar oturum açmanız gerekecek",
     "warning_password_change_button": "Onayla",
     "warning_password_cancel_button": "İptal et",
     "changing_password": "Şifre değiştiriliyor...",
     "changing_password_subtitle": "Bu işlem uzun sürmeyecektir",
-    "checkbox_forgot_password": "Bu şifreyi unutursam cüzdanıma erişimi kalıcı olarak kaybedeceğim. MetaMask bunu benim için sıfırlayamaz.",
+    "checkbox_forgot_password": "Bu şifreyi unutursam cüzdanıma erişimi kalıcı olarak kaybedeceğim. PetroCASH bunu benim için sıfırlayamaz.",
     "seedless_change_password_error_modal_title": "Şifre değiştirme başarısız oldu",
     "seedless_change_password_error_modal_content": "Şifrenizi değiştiremedik. Tekrar deneyin.",
     "seedless_change_password_error_modal_confirm": "Tekrar dene"
@@ -692,17 +692,17 @@
     "invalid_qr_code_message": "Bu QR kodu geçerli bir Gizli Kurtarma İfadesini temsil etmiyor",
     "enter_your_secret_recovery_phrase": "Gizli Kurtarma İfadenizi girin",
     "or": "veya",
-    "import_wallet_from_extension": "MetaMask uzantısından içe aktar",
+    "import_wallet_from_extension": "PetroCASH uzantısından içe aktar",
     "import_menu_title": "İçe Aktar",
     "import_from_srp_qr": "Import from Secret Recovery Phrase QR Code",
-    "import_from_extension_menu": "MetaMask Uzantısından içe aktar",
-    "metamask_password": "MetaMask şifresi",
-    "metamask_password_description": "Yalnızca bu cihazda MetaMask'i açar.",
+    "import_from_extension_menu": "PetroCASH Uzantısından içe aktar",
+    "metamask_password": "PetroCASH şifresi",
+    "metamask_password_description": "Yalnızca bu cihazda PetroCASH'i açar.",
     "seed_phrase_required": "Gizli Kurtarma İfadesi gereklidir",
     "re_enter_password": "Şifrenizi tekrar girin",
     "use_at_least_8_characters": "En az 8 karakter kullanın",
     "unlock_with_face_id": "Face ID ile kilidi aç?",
-    "learn_more_social_login": "Bu şifreyi unutursam cüzdanıma erişimi kalıcı olarak kaybedeceğim. MetaMask bunu benim için sıfırlayamaz.",
+    "learn_more_social_login": "Bu şifreyi unutursam cüzdanıma erişimi kalıcı olarak kaybedeceğim. PetroCASH bunu benim için sıfırlayamaz.",
     "seed_phrase_length_error": "Gizli Kurtarma İfadesi 12, 15, 18, 21 veya 24 sözcükten oluşmalıdır",
     "continue": "Devam et",
     "clear_all": "Tümünü temizle",
@@ -758,7 +758,7 @@
     "lock_ok": "Evet",
     "lock_cancel": "Hayır",
     "feedback": "Geri Bildirim",
-    "metamask_support": "MetaMask Destek",
+    "metamask_support": "PetroCASH Destek",
     "public_address": "Genel adres"
   },
   "send": {
@@ -1029,7 +1029,7 @@
     },
     "privacy_section": {
       "transak": "Transak bu bilgileri şifreler ve saklar.",
-      "metamask": "MetaMask verilerinizi asla almaz veya kullanmaz."
+      "metamask": "PetroCASH verilerinizi asla almaz veya kullanmaz."
     },
     "kyc_processing": {
       "navbar_title": "Kimliğinizi doğrulayın",
@@ -1203,7 +1203,7 @@
       "copia_cola_label": "Pix Copia e Cola",
       "pix_key_label": "Pix anahtarı",
       "bank_transfer_title": "Banka transferi ile para ekle",
-      "bank_transfer_description": "Banka hesabınızdan MetaMask Money'ye para göndermek için bu bilgileri kullanın.",
+      "bank_transfer_description": "Banka hesabınızdan PetroCASH Money'ye para göndermek için bu bilgileri kullanın.",
       "account_holder_label": "Hesap sahibi",
       "routing_number_label": "Yönlendirme numarası",
       "account_number_label": "Hesap numarası",
@@ -1231,12 +1231,12 @@
       "step_answer_questions": "Birkaç soruyu cevaplayın",
       "partner_title": "Kimliğinizi doğrulamak için idOS ile iş birliği yapıyoruz.",
       "benefit_reuse_title": "Bir kez doğrulayın, daha sonra tekrar kullanın.",
-      "benefit_reuse_description": "MetaMask, doğrulanmış kimliğinizin şifrelenmiş bir kopyasını güvenli bir şekilde saklar, böylece diğer iş ortaklarına daha hızlı kaydolabilirsiniz.",
+      "benefit_reuse_description": "PetroCASH, doğrulanmış kimliğinizin şifrelenmiş bir kopyasını güvenli bir şekilde saklar, böylece diğer iş ortaklarına daha hızlı kaydolabilirsiniz.",
       "benefit_control_title": "Verileriniz sizin kontrolünüzde.",
       "benefit_control_description": "Doğrulanmış kimliğinizi yalnızca siz onay verdiğinizde bir iş ortağıyla paylaşırız.",
       "benefit_delete_title": "İstediğiniz zaman silin.",
       "benefit_delete_description": "Doğrulanmış kimliğinizi istediğiniz zaman Ayarlar'dan silin.",
-      "agreement": "Devam ederek MetaMask {{termsOfUse}} koşullarını kabul ettiğimi, MetaMask {{privacyNotice}} bildirimini okuduğumu beyan ediyor ve MetaMask'ın bilgilerimi saklamasına ve idOS'a aktarmasına onay veriyorum.",
+      "agreement": "Devam ederek PetroCASH {{termsOfUse}} koşullarını kabul ettiğimi, PetroCASH {{privacyNotice}} bildirimini okuduğumu beyan ediyor ve PetroCASH'ın bilgilerimi saklamasına ve idOS'a aktarmasına onay veriyorum.",
       "agreement_terms_of_use": "Kullanım Şartları",
       "agreement_privacy_notice": "Gizlilik Bildirisi",
       "disclaimers_error": "Şart ve koşullar yüklenemedi.",
@@ -1550,7 +1550,7 @@
       "post_and_earn_title": "Paylaş ve kazan",
       "post_and_earn_body": "Birisi işleminizi her kopyaladığında ücretlerde %15 kazanırsınız",
       "create_post": "Paylaşım yap",
-      "create_profile_title": "MetaMask şimdi sosyal medyada",
+      "create_profile_title": "PetroCASH şimdi sosyal medyada",
       "create_profile_body": "Profilinizi oluşturun ve başkaları sizin işlemlerinizi kopyaladığında siz de kazanın",
       "create_profile": "Profil oluştur",
       "view_activity": "Aktiviteyi görüntüle",
@@ -1667,8 +1667,8 @@
     "follow": "Takip Et",
     "following": "Takip Ediliyor",
     "share_link": {
-      "profile_title": "{{trader}} on MetaMask",
-      "profile_description": "See {{trader}}'s trades on MetaMask",
+      "profile_title": "{{trader}} on PetroCASH",
+      "profile_description": "See {{trader}}'s trades on PetroCASH",
       "position_title": "{{trader}}'s {{asset}} trade",
       "position_description": "{{trader}} is trading {{asset}}",
       "position_title_no_asset": "{{trader}} adlı kullanıcı adının işlemi"
@@ -1816,7 +1816,7 @@
     "terms": {
       "title": "Kullanım Şartları bölümümüzü inceleyin",
       "close": "Kapat",
-      "checkbox": "MetaMask ve tüm özelliklerini kullanırken geçerli olan Kullanım Koşulları bölümünü kabul ediyorum",
+      "checkbox": "PetroCASH ve tüm özelliklerini kullanırken geçerli olan Kullanım Koşulları bölümünü kabul ediyorum",
       "agree": "Kabul Ediyorum",
       "scroll_helper": "Tüm bölümleri okumak için lütfen kaydırın",
       "scroll_to_bottom": "En alta kaydır",
@@ -1835,7 +1835,7 @@
       "connect_x_before_logo": "Bağla",
       "connect_x_after_logo": "hesap",
       "create_manually": "Profili manuel olarak bağla",
-      "choose_x_identity": "Bir MetaMask kullanıcı adı ve avatar seçin",
+      "choose_x_identity": "Bir PetroCASH kullanıcı adı ve avatar seçin",
       "choose_x_identity_description": "Diğer yatırımcılar sizin kim olduğunuzu bu şekilde öğrenecek.",
       "use_x_username": "Kullanıcı adı olarak @{{username}} kullanın",
       "use_x_avatar": "X profil resmini kullan",
@@ -1903,7 +1903,7 @@
       "username_too_short": "En az {{min}} karakter kullanın.",
       "username_too_long": "En fazla {{max}} karakter kullanın.",
       "username_invalid": "Harf, rakam ve alt tire kullanın.",
-      "handle_helper": "Kullanıcı adınız, paylaşımlarda ve profilinizde @kullaniciadi.metamask olarak görünür.",
+      "handle_helper": "Kullanıcı adınız, paylaşımlarda ve profilinizde @kullaniciadi.PetroCASH olarak görünür.",
       "socials_helper": "X kullanıcı adınız paylaşımlarda ve profilinizde görünür.",
       "show_trading_activity": "İşlem hareketlerini göster",
       "trading_activity_footnote": "Değişiklikler anında uygulanır. Kimliğiniz ve sosyal içerikleriniz her iki durumda da görünür kalır.",
@@ -1999,7 +1999,7 @@
       "buy_mode": "Satın al",
       "with": "şununla:",
       "est_receive": "Tah. alınan",
-      "metamask_fee": "MetaMask ücreti",
+      "metamask_fee": "PetroCASH ücreti",
       "network_fee": "Ağ ücreti",
       "slippage": "Kayma",
       "minimum_received": "Alınacak minimum",
@@ -2148,8 +2148,8 @@
       "apply": "Uygula",
       "max_button": "Maksimum",
       "done_button": "Bitti",
-      "metamask_fee": "MetaMask ücreti",
-      "metamask_fee_tooltip": "MetaMask, Hyperliquid'e yapılan para yatırma işlemlerinden herhangi bir ücret almaz",
+      "metamask_fee": "PetroCASH ücreti",
+      "metamask_fee_tooltip": "PetroCASH, Hyperliquid'e yapılan para yatırma işlemlerinden herhangi bir ücret almaz",
       "minimum_deposit_error": "Yatırılması gereken minimum miktar: {{amount}} USDC",
       "processing_title": "Para yatırma işlemi gerçekleştiriliyor",
       "preview": {
@@ -2235,7 +2235,7 @@
       "success_title": "Para çekme işlemi başarılı",
       "success_description": "{{amount}} USDC Hyperliquid'den çekildi",
       "network_fee": "Ağ ücreti",
-      "metamask_fee": "MetaMask ücreti",
+      "metamask_fee": "PetroCASH ücreti",
       "total_fees": "Toplam ücretler",
       "receiving_amount": "Elinize geçecek miktar:",
       "estimated_time": "Tahmini süre",
@@ -2273,10 +2273,10 @@
       "network_fee": "Ağ ücreti",
       "estimated_time": "Tahmini süre",
       "rate": "Oran",
-      "metamask_fee": "MetaMask ücreti",
-      "metamask_fee_tooltip": "MetaMask, Hyperliquid işlemleri için herhangi bir ücret almaz",
-      "metamask_fee_tooltip_deposit": "MetaMask, Hyperliquid'e yapılan para yatırma işlemlerinden herhangi bir ücret almaz",
-      "metamask_fee_tooltip_withdrawal": "MetaMask, Hyperliquid'den yapılan para çekme işlemlerinden herhangi bir ücret almaz"
+      "metamask_fee": "PetroCASH ücreti",
+      "metamask_fee_tooltip": "PetroCASH, Hyperliquid işlemleri için herhangi bir ücret almaz",
+      "metamask_fee_tooltip_deposit": "PetroCASH, Hyperliquid'e yapılan para yatırma işlemlerinden herhangi bir ücret almaz",
+      "metamask_fee_tooltip_withdrawal": "PetroCASH, Hyperliquid'den yapılan para çekme işlemlerinden herhangi bir ücret almaz"
     },
     "pro_order_form": {
       "isolated": "İzole",
@@ -2657,7 +2657,7 @@
         "reference_price_accessibility_value": "{{orderType}}, referans fiyat {{price}}",
         "foreground_notice": "Chase emri çalışırken uygulamayı açık tutun.",
         "backgrounding_title": "Chase emirleri güvenli hale getiriliyor",
-        "backgrounding_notification": "MetaMask, bağlantıyı kesmeden önce Chase yeniden fiyatlandırmasını durduruyor.",
+        "backgrounding_notification": "PetroCASH, bağlantıyı kesmeden önce Chase yeniden fiyatlandırmasını durduruyor.",
         "backgrounded_title": "Chase emri, limit emrine dönüştü",
         "backgrounded_notification": "Chase emriniz, takip ettiği son fiyatta bir limit emri olarak beklemektedir.",
         "backgrounded_notification_multiple": "{{count}} Chase emri, takip ettikleri son fiyatlarda birer limit emri olarak beklemektedir.",
@@ -3247,7 +3247,7 @@
       "fees": {
         "title": "Ücretler",
         "content": "Bir pozisyon açtığınızda veya kapattığınızda işlem ücretleri tahsil edilir.",
-        "metamask_fee": "MetaMask ücreti",
+        "metamask_fee": "PetroCASH ücreti",
         "provider_fee": "Sağlayıcı ücreti",
         "bridge_fee": "Köprü ücreti",
         "total": "Toplam ücretler",
@@ -3256,8 +3256,8 @@
         "promotional_discount": "Promosyon indirimi",
         "original_fee_value": "was {{fee}}",
         "fee_discount": "Ücret indirimi",
-        "promotional_discount_message": "{{percentage}}% off the MetaMask fee.",
-        "fee_discount_message": "MetaMask ücretinde %{{percentage}} tasarruf ediyorsunuz."
+        "promotional_discount_message": "{{percentage}}% off the PetroCASH fee.",
+        "fee_discount_message": "PetroCASH ücretinde %{{percentage}} tasarruf ediyorsunuz."
       },
       "size_skew": {
         "title": "Boyut çarpıklığı",
@@ -3269,7 +3269,7 @@
       },
       "closing_fees": {
         "title": "Kapatma ücretleri",
-        "metamask_fee": "MetaMask ücreti",
+        "metamask_fee": "PetroCASH ücreti",
         "provider_fee": "Sağlayıcı ücreti"
       },
       "estimated_pnl": {
@@ -3330,7 +3330,7 @@
       },
       "points": {
         "title": "Puan",
-        "content": "Takas, köprü ve perps gibi işlemleri tamamladığınızda puan toplar ve MetaMask Ödülleri kazanırsınız."
+        "content": "Takas, köprü ve perps gibi işlemleri tamamladığınızda puan toplar ve PetroCASH Ödülleri kazanırsınız."
       },
       "market_hours": {
         "title": "Piyasa saatleri",
@@ -3446,7 +3446,7 @@
     },
     "support": {
       "title": "Destek ile iletişime geçin",
-      "description": "Yardım için MetaMask Destek ile iletişime geçin"
+      "description": "Yardım için PetroCASH Destek ile iletişime geçin"
     },
     "feedback": {
       "title": "Bize geri bildirim gönder"
@@ -3469,7 +3469,7 @@
         },
         "trip": {
           "title": "Ekiple yüz yüze tanışın",
-          "subtitle": "MetaMask ile sponsorlu bir seyahat, masrafları bize ait"
+          "subtitle": "PetroCASH ile sponsorlu bir seyahat, masrafları bize ait"
         }
       },
       "contact": "Telegram üzerinden {{telegramHandle}} adresine veya {{email}} adresine e-posta göndererek iletişime geçin",
@@ -3540,7 +3540,7 @@
     },
     "crossMargin": {
       "title": "Çapraz marj desteklenmiyor",
-      "message": "MetaMask Perps, yalnızca izole marj ile işlem yapılmasını destekler. MetaMask’te işlem yapabilmek için önce çapraz marj pozisyonunuzu kapatmanız gerekir.",
+      "message": "Perps, yalnızca izole marj ile işlem yapılmasını destekler. PetroCASH’te işlem yapabilmek için önce çapraz marj pozisyonunuzu kapatmanız gerekir.",
       "dismiss": "Anladım"
     },
     "crossMarginRatio": {
@@ -3646,7 +3646,7 @@
         "size": "Boyut",
         "limit_price": "Limit fiyatı",
         "filled": "Gerçekleşti",
-        "metamask_fee": "MetaMask ücreti",
+        "metamask_fee": "PetroCASH ücreti",
         "hyperliquid_fee": "Hyperliquid ücreti",
         "total_fee": "Toplam ücret",
         "liquidated": "Likide edildi",
@@ -3734,7 +3734,7 @@
       "add_funds": "Fon ekle",
       "what_are_perps": {
         "title": "Perps nedir?",
-        "description": "MetaMask artık bir token'ı satın almadan fiyat hareketinde işlem yapmanıza olanak sağlayan sürekli vadeli sözleşmeler piyasasını destekliyor.",
+        "description": "PetroCASH artık bir token'ı satın almadan fiyat hareketinde işlem yapmanıza olanak sağlayan sürekli vadeli sözleşmeler piyasasını destekliyor.",
         "subtitle": "İşte çalışma şekli."
       },
       "go_long_or_short": {
@@ -3757,7 +3757,7 @@
       "ready_to_trade": {
         "title": "İşlem yapmaya hazır mısınız?",
         "description": "Perps hesabınıza herhangi bir token ile fonlama gerçekleştirin ve saniyeler içinde ilk işleminizi yapın.",
-        "footer_text": "MetaMask, fonlarınızı Arbitrum üzerinde USDC'ye takas eder ve ek ücret olmadan HyperCore'a yatırır."
+        "footer_text": "PetroCASH, fonlarınızı Arbitrum üzerinde USDC'ye takas eder ve ek ücret olmadan HyperCore'a yatırır."
       },
       "got_it": "Anladım",
       "lets_go": "Başlayalım",
@@ -3776,13 +3776,13 @@
       "title": "K/Z Özet Kartı",
       "header_title": "İşleminizi paylaşın",
       "share_button": "Paylaş",
-      "share_message_without_referral_code": "MetaMask'te {{asset}} sürekli vadeli işlem yapın.",
+      "share_message_without_referral_code": "PetroCASH'te {{asset}} sürekli vadeli işlem yapın.",
       "share_failed": "Görüntü dışa aktarılamadı",
       "export_success": "Dışa aktarılan görüntü"
     },
     "share_position": {
       "title": "Pozisyonu paylaş",
-      "post_to_metamask": "MetaMask'te paylaş",
+      "post_to_metamask": "PetroCASH'te paylaş",
       "post_to_metamask_description": "Birisi hamlelerinizi her kopyaladığında ücretlerde %15 kazanın.",
       "new_badge": "Yeni",
       "share_externally": "Harici olarak paylaş"
@@ -3985,7 +3985,7 @@
       "potential_profit": "Potansiyel kazanç",
       "fee": "Ücret",
       "exchange_fee": "Borsa ücreti",
-      "metamask_fee": "MetaMask ücreti",
+      "metamask_fee": "PetroCASH ücreti",
       "total_debit": "Toplam borç",
       "to_win": "{{amount}} kazanmak için",
       "pay_with": "Ödeme aracı",
@@ -4046,7 +4046,7 @@
     }
   },
   "predict": {
-    "title": "MetaMask Tahminler",
+    "title": "PetroCASH Tahminler",
     "game_status": {
       "live": "CANLI",
       "scheduled": "PLANLANDI",
@@ -4439,7 +4439,7 @@
     },
     "market_unavailable": {
       "title": "Piyasa kullanılamıyor",
-      "description": "Bu piyasa şu anda kullanılamıyor. Yardım için MetaMask Destek bölümü ile iletişime geçin.",
+      "description": "Bu piyasa şu anda kullanılamıyor. Yardım için PetroCASH Destek bölümü ile iletişime geçin.",
       "button": "Anladım"
     },
     "deposit": {
@@ -4465,7 +4465,7 @@
     },
     "consent_sheet": {
       "title": "Kullanım şartları",
-      "description": "MetaMask, tahmin piyasalarını sunmak için Polymarket ile iş ortaklığı yapmaktadır. Tüm mevcut piyasalarımız, emirler ve işlemler Polymarket üzerinde gerçekleşir.",
+      "description": "PetroCASH, tahmin piyasalarını sunmak için Polymarket ile iş ortaklığı yapmaktadır. Tüm mevcut piyasalarımız, emirler ve işlemler Polymarket üzerinde gerçekleşir.",
       "learn_more": "Daha fazla bilgi edinin.",
       "agree": "Kabul Ediyorum",
       "disagree": "Katılmıyorum",
@@ -4625,11 +4625,11 @@
       "fees": "Ücretler",
       "provider_fee_label": "Polymarket ücreti",
       "provider_fee": "Sağlayıcı ücreti",
-      "metamask_fee": "MetaMask ücreti",
+      "metamask_fee": "PetroCASH ücreti",
       "total": "Toplam",
       "estimated_points": "Tah. puanlar",
       "points_tooltip": "Puan",
-      "points_tooltip_content_1": "Takas, köprü veya tahmin gibi işlemleri tamamladığınızda puan toplar ve MetaMask Ödüllerini kazanırsınız.",
+      "points_tooltip_content_1": "Takas, köprü veya tahmin gibi işlemleri tamamladığınızda puan toplar ve PetroCASH Ödüllerini kazanırsınız.",
       "points_tooltip_content_2": "Bu değerin bir tahmin olduğunu ve işlem tamamlandığında kesinleşeceğini unutmayın. Puanların Ödüller bakiyenizde onaylanması 1 saate kadar sürebilir.",
       "points_error": "Şu anda puanları yükleyemiyoruz",
       "points_error_content": "Bu işlem için puan kazanmaya devam edeceksiniz. Hesabınıza eklendiğinde sizi bilgilendireceğiz. Ayrıca yaklaşık bir saat içinde ödüller sekmenizi kontrol edebilirsiniz.",
@@ -4725,7 +4725,7 @@
       "subtitle": "Tamamı cüzdanınızın içinde 9 zincir arasında geçiş yapın"
     },
     "card": {
-      "title": "MetaMask Kartı",
+      "title": "PetroCASH Kartı",
       "subtitle": "Belirli bölgelerde mevcuttur"
     },
     "fund": {
@@ -4733,7 +4733,7 @@
       "subtitle": "Başlamak için token ekleyin veya transfer edin"
     },
     "cashout": {
-      "title": "MetaMask ile nakit çekin",
+      "title": "PetroCASH ile nakit çekin",
       "subtitle": "Nakit karşılığında kriptonuzu satın"
     },
     "aggregated": {
@@ -4742,7 +4742,7 @@
     },
     "multisrp": {
       "title": "Birden fazla Gizli Kurtarma İfadesi ekleyin",
-      "subtitle": "MetaMask'te cüzdanları içe aktarın veya kullanın"
+      "subtitle": "PetroCASH'te cüzdanları içe aktarın veya kullanın"
     },
     "solana": {
       "title": "Solana artık destekleniyor",
@@ -4822,7 +4822,7 @@
     "get_ready_for_web3": "Cüzdanınızı web3 kullanmaya hazır hale getirin",
     "home_onboarding_steps": {
       "header": "Adımlar",
-      "get_started_title": "MetaMask'e başlarken",
+      "get_started_title": "PetroCASH'e başlarken",
       "fund_title": "Cüzdanınıza para ekleyin",
       "fund_subtitle": "Boş bir cüzdanı kimse sevmez. İşlem yapmaya başlamak için kolayca para ekleyin.",
       "fund_primary": "Fon ekle",
@@ -4842,7 +4842,7 @@
     "no_tokens": "Tokeniniz yok",
     "show_tokens_without_balance": "Bakiyesi olmayan token'leri göster",
     "nfts_autodetection_title": "NFT algılama",
-    "nfts_autodetection_desc": "MetaMask'in otomatik olarak cüzdanınızdaki NFT'leri algılayıp göstermesine izin verin.",
+    "nfts_autodetection_desc": "PetroCASH'in otomatik olarak cüzdanınızdaki NFT'leri algılayıp göstermesine izin verin.",
     "network_details_check": "Ağ bilgileri kontrolü",
     "network_with_chain_id": "Zincir kimliği olan ağ",
     "chain_list_returned_different_ticker_symbol": "Bu token sembolü, girilen ağ adı veya zincir kimliği ile eşleşmiyor. Pek çok popüler token benzer sembolleri kullanır ve dolandırıcılar, karşılığında daha değerli bir token gönderecekleri yönünde sizi kandırmak için bunları kullanabilirler. Devam etmeden önce her şeyi doğrulayın.",
@@ -4943,7 +4943,7 @@
       "remove_nft": "NFT'yi kaldır"
     },
     "attributes": "Özellikler",
-    "disclaimer": "Sorumluluğun Reddi: MetaMask medya dosyasını kaynak URL adresinden çeker. Bu URL adresi bazen NFT'nin mint edildiği pazar yeri tarafından değiştirilir."
+    "disclaimer": "Sorumluluğun Reddi: PetroCASH medya dosyasını kaynak URL adresinden çeker. Bu URL adresi bazen NFT'nin mint edildiği pazar yeri tarafından değiştirilir."
   },
   "activity_view": {
     "title": "Faaliyet",
@@ -5004,8 +5004,8 @@
         "action": "Tokenlar swap işlemi yapın"
       },
       "metamask_card": {
-        "description": "MetaMask Kartınızı yönetin ve kriptonuzu her yerde harcayın.",
-        "action": "MetaMask Kartı aç"
+        "description": "PetroCASH Kartınızı yönetin ve kriptonuzu her yerde harcayın.",
+        "action": "PetroCASH Kartı aç"
       }
     }
   },
@@ -5063,7 +5063,7 @@
     "privacy_policy_button": "Gizlilik Politikası",
     "agree": "Kabul Ediyorum",
     "decline": "Hayır, istemiyorum",
-    "description_title": "MetaMask'ı iyileştirmemize yardımcı olun",
+    "description_title": "PetroCASH'ı iyileştirmemize yardımcı olun",
     "description_content_1": "Bu izinleri talep ediyoruz. Dilediğiniz zaman vazgeçebilir veya kullanım verilerinizi silebilirsiniz.",
     "description_content_2": "Topladığımız ölçümler her zaman şu şekilde olacaktır...",
     "description_content_3": "Profiliniz için kullanım verilerini toplarken gizliliğinizi nasıl koruduğumuzu öğrenin.",
@@ -5083,12 +5083,12 @@
     "cta_i_agree": "Kabul ediyorum",
     "continue": "Devam Et",
     "fine_print_1_legacy": "Bu veriler birleştirilmiştir ve bu nedenle 2016/679 sayılı Genel Veri Koruma Tüzüğü (AB) kapsamında isimsizdir.",
-    "fine_print_2a_legacy": "*MetaMask'te varsayılan RPC sağlayıcınız olarak Infura'yı kullanırsanız siz bir işlem gönderdiğinizde Infura, IP adresinizi ve Ethereum cüzdan adresinizi toplar. Bu bilgileri sistemlerimizin bu iki veri parçasını ilişkilendirmesine izin verecek şekilde saklamayız. İlerlemeden önce RPC sağlayıcınızı",
-    "fine_print_2b_legacy": "yapılandırabilirsiniz. \nMetaMask ve Infura'nın veri toplama açısından nasıl etkileşimde bulunduğu hakkında daha fazla bilgi için güncellememize bakın",
+    "fine_print_2a_legacy": "*PetroCASH'te varsayılan RPC sağlayıcınız olarak Infura'yı kullanırsanız siz bir işlem gönderdiğinizde Infura, IP adresinizi ve Ethereum cüzdan adresinizi toplar. Bu bilgileri sistemlerimizin bu iki veri parçasını ilişkilendirmesine izin verecek şekilde saklamayız. İlerlemeden önce RPC sağlayıcınızı",
+    "fine_print_2b_legacy": "yapılandırabilirsiniz. \nPetroCASH ve Infura'nın veri toplama açısından nasıl etkileşimde bulunduğu hakkında daha fazla bilgi için güncellememize bakın",
     "fine_print_2c_legacy": ". Genel olarak gizlilik uygulamalarımız hakkında daha fazla bilgi için Gizlilik Politikası bölümümüze bakın",
     "here_legacy": "bakın:",
-    "description_content_1_legacy": "MetaMask olarak kullanıcılarımızın mobil uygulama ile nasıl etkileşimde bulunduğunu daha iyi anlamak amacıyla temel kullanım verileri toplamak isteriz. Bu veriler ürünümüze ilişkin kullanılabilirliği ve kullanıcı deneyimini devamlı iyileştirmek amacıyla kullanılacaktır.",
-    "description_content_2_legacy": "MetaMask...",
+    "description_content_1_legacy": "PetroCASH olarak kullanıcılarımızın mobil uygulama ile nasıl etkileşimde bulunduğunu daha iyi anlamak amacıyla temel kullanım verileri toplamak isteriz. Bu veriler ürünümüze ilişkin kullanılabilirliği ve kullanıcı deneyimini devamlı iyileştirmek amacıyla kullanılacaktır.",
+    "description_content_2_legacy": "PetroCASH...",
     "action_description_1_legacy": "Her zaman Ayarlar kısmından vazgeçebilmenize izin verir",
     "action_description_2_legacy": "Anonim tıklama ve sayfa görüntüleme verilerini gönder",
     "action_description_3_legacy": "Ülke, bölge, şehir (belirli bir konum değil) verileri gönderir",
@@ -5099,7 +5099,7 @@
     "toast_action_button": "Kapat",
     "toast_read_more": "Daha fazlasını oku",
     "pna25_title": "Gizlilik ve ürün güncellemeleri",
-    "pna25_description": "Size daha iyi hizmet verebilmek amacıyla cüzdan adresleri ve ilgili zincir içi aktiviteler gibi herkese açık verilerin MetaMask'te gerçekleştirdiğiniz eylemlerle ilişkili olabilmesi için analizlerimizi güncelliyoruz. Bu işlem, MetaMask'i daha iyi, daha güvenli bir cüzdan haline getirebilmemiz için performansını, güvenliğini ve özelliklerini iyileştirmemize yardımcı olur.",
+    "pna25_description": "Size daha iyi hizmet verebilmek amacıyla cüzdan adresleri ve ilgili zincir içi aktiviteler gibi herkese açık verilerin PetroCASH'te gerçekleştirdiğiniz eylemlerle ilişkili olabilmesi için analizlerimizi güncelliyoruz. Bu işlem, PetroCASH'i daha iyi, daha güvenli bir cüzdan haline getirebilmemiz için performansını, güvenliğini ve özelliklerini iyileştirmemize yardımcı olur.",
     "pna25_description_2": "Gizliliği ciddiye alırız. Bu bilgileri reklam amaçlı kullanmayız veya verilerinizi üçüncü taraflara satmayız. Dilediğiniz zaman Ayarlar kısmında vazgeçebilirsiniz.",
     "pna25_description_3": "Neleri topladığımız, bunları nasıl koruduğumuz ve bu değişikliği neden yaptığımız hakkında daha fazla bilgiyi en son",
     "pna25_blog_post_link": "blog yayınımızda okuyabilirsiniz",
@@ -5111,7 +5111,7 @@
   "basic_functionality_migration": {
     "title": "Ayarlarımızı güncelledik",
     "social_title": "Sosyal giriş için güncellemeler",
-    "social_body_1": "Google, Apple veya Telegram ile giriş yaptığınız için e-posta adresiniz (veya Telegram kullanıcı adınız) artık cüzdan adreslerinizle birlikte MetaMask profilinize kaydediliyor. Bu, hesabınızın MetaMask özellikleri genelinde tutarlı şekilde çalışmasını sağlar. Sosyal giriş hesaplarında Temel İşlevler açık kalır.",
+    "social_body_1": "Google, Apple veya Telegram ile giriş yaptığınız için e-posta adresiniz (veya Telegram kullanıcı adınız) artık cüzdan adreslerinizle birlikte PetroCASH profilinize kaydediliyor. Bu, hesabınızın PetroCASH özellikleri genelinde tutarlı şekilde çalışmasını sağlar. Sosyal giriş hesaplarında Temel İşlevler açık kalır.",
     "social_body_2_prefix": "Anahtarlarınız hâlâ sadece size ait. Daha fazlasını okuyun:",
     "social_body_2_middle": " ve ",
     "social_body_2_suffix": ".",
@@ -5124,7 +5124,7 @@
     "accept_and_close": "Devam et"
   },
   "onboarding_interest_questionnaire": {
-    "title": "MetaMask'i nasıl kullanacaksınız?",
+    "title": "PetroCASH'i nasıl kullanacaksınız?",
     "description": "Geçerli olanların tümünü seçin.",
     "option_swap_tokens": "tokenlar swap işlemi yapın",
     "option_trade_perpetuals": "Sürekli vadeli işlemler yapın",
@@ -5133,7 +5133,7 @@
     "option_earn_and_spend": "Kazanmak ve harcamak",
     "option_use_other_crypto_apps": "Diğer kripto uygulamalarını kullanmak",
     "option_other": "Diğer",
-    "other_placeholder": "MetaMask'i başka nasıl kullanacaksınız?",
+    "other_placeholder": "PetroCASH'i başka nasıl kullanacaksınız?",
     "done": "Bitti",
     "skip": "Atla",
     "next": "Sonraki"
@@ -5235,7 +5235,7 @@
     "no": "Hayır",
     "yes_remove_it": "Evet, kaldır",
     "remove_hardware_account": "Donanım hesabını kaldır",
-    "remove_hw_account_alert_description": "Bu donanım cüzdanı hesabını kaldırmak istediğinizden emin misiniz? MetaMask Mobil ile bu hesabı tekrar kullanmak istiyorsanız donanım cüzdanınızı tekrar senkronize etmeniz gerekecek.",
+    "remove_hw_account_alert_description": "Bu donanım cüzdanı hesabını kaldırmak istediğinizden emin misiniz? PetroCASH Mobil ile bu hesabı tekrar kullanmak istiyorsanız donanım cüzdanınızı tekrar senkronize etmeniz gerekecek.",
     "remove_snap_account": "Snap hesabını kaldır",
     "remove_snap_account_alert_description": "Bu hesap cüzdanınızdan kaldırılacaktır. Devam etmeden önce bu içe aktarılan hesaba ait orijinal Gizli Kurtarma İfadesine veya özel anahtara sahip olduğunuzdan emin olun. Hesap açılır menüsünden hesapları yeniden içe aktarabilir veya oluşturabilirsiniz.",
     "remove_account_alert_remove_btn": "Kaldır",
@@ -5281,7 +5281,7 @@
     "learn_more": "Daha fazla bilgi edin",
     "advisory_by": "Ethereum Kimlik Avı Algılayıcı ve PhishFort tarafından sunulan uyarı",
     "potential_threat": "Potansiyel tehditler şunları içerir",
-    "fake_metamask": "Sahte MetaMask sürümleri",
+    "fake_metamask": "Sahte PetroCASH sürümleri",
     "srp_theft": "Gizli Kurtarma İfadesi veya şifre hırsızlığı",
     "malicious_transactions": "Varlıkların çalınmasına neden olan kötü amaçlı işlemler",
     "secret_recovery_phrase": "Gizli Kurtarma İfadesi",
@@ -5356,7 +5356,7 @@
   },
   "data_collection_modal": {
     "accept": "Tamam",
-    "content": "Pazarlama amacıyla veri toplama seçeneğini kapattınız. Bu, sadece bu cihaz için geçerlidir. MetaMask'i başka cihazlarda kullanırsanız orada da vazgeçtiğinizden emin olun."
+    "content": "Pazarlama amacıyla veri toplama seçeneğini kapattınız. Bu, sadece bu cihaz için geçerlidir. PetroCASH'i başka cihazlarda kullanırsanız orada da vazgeçtiğinizden emin olun."
   },
   "account_selector": {
     "prev": "Önceki",
@@ -5371,14 +5371,14 @@
     "manage": "Yönet",
     "resources": "Kaynaklar",
     "permissions": "İzinler",
-    "card_title": "MetaMask Kartı",
+    "card_title": "PetroCASH Kartı",
     "card_update_badge": "Güncelle",
     "settings": "Ayarlar",
     "networks": "Ağlar",
     "log_out": "Kilitle",
     "notifications": "Bildirimler",
-    "metamask_orange": "MetaMask Orange",
-    "join_metamask_orange": "MetaMask Orange'a katıl",
+    "metamask_orange": "PetroCASH Orange",
+    "join_metamask_orange": "PetroCASH Orange'a katıl",
     "buy": "Satın Al",
     "scan": "Tara"
   },
@@ -5413,9 +5413,9 @@
     "trading_activity_info": "İşlem hareketleri hakkında daha fazla bilgi",
     "trading_activity_info_description": "When this is on, other traders can see and copy your trades. You earn 15% of the fees from those copy trades. Turn it off to keep your positions, performance, and stats private.",
     "trading_activity_footnote": "Değişiklikler anında uygulanır. Kimliğiniz ve sosyal içerikleriniz her iki durumda da görünür kalır.",
-    "x_account_disconnect_body": "Bağlantı kesildiğinde X kullanıcı adı MetaMask profilinizden kaldırılır. Dilediğiniz zaman yeniden bağlayabilirsiniz.",
+    "x_account_disconnect_body": "Bağlantı kesildiğinde X kullanıcı adı PetroCASH profilinizden kaldırılır. Dilediğiniz zaman yeniden bağlayabilirsiniz.",
     "x_account_disconnect_sheet_title": "X hesabının bağlantısı kesilsin mi?",
-    "x_account_disconnect_sheet_body": "X üzerinde {{handle}} artık MetaMask profilinize bağlı olmayacak. Kullanıcı adınız, paylaşımlarınız, biyografiniz, cüzdanlarınız ve gizlilik ayarlarınız aynı kalacak.",
+    "x_account_disconnect_sheet_body": "X üzerinde {{handle}} artık PetroCASH profilinize bağlı olmayacak. Kullanıcı adınız, paylaşımlarınız, biyografiniz, cüzdanlarınız ve gizlilik ayarlarınız aynı kalacak.",
     "x_account_disconnect_sheet_body_no_handle": "X hesabınız profilinizden kaldırılacak. Paylaşımlarınız, biyografiniz, cüzdanlarınız ve gizlilik ayarlarınız aynı kalacak.",
     "x_account_disconnect_error": "X bağlantısı kesilemiyor. Bağlantınızı kontrol edip tekrar deneyin.",
     "x_account_disconnect_success": "X hesabınızın bağlantısı kesildi"
@@ -5430,7 +5430,7 @@
     "current_conversion": "Temel para birimi",
     "current_language": "Geçerli dil",
     "ipfs_gateway": "IPFS ağ geçidi",
-    "ipfs_gateway_content": "MetaMask, IPFS'de depolanan NFT'lerinizin görüntülerini göstermek, tarayıcınızın adres çubuğuna girilen ENS adresleri ile ilgili bilgileri göstermek ve farklı token'lerin simgelerini almak için üçüncü taraf hizmetleri kullanır. Siz bunları kullanırken IP adresiniz bu hizmetlerle paylaşılabilir.",
+    "ipfs_gateway_content": "PetroCASH, IPFS'de depolanan NFT'lerinizin görüntülerini göstermek, tarayıcınızın adres çubuğuna girilen ENS adresleri ile ilgili bilgileri göstermek ve farklı token'lerin simgelerini almak için üçüncü taraf hizmetleri kullanır. Siz bunları kullanırken IP adresiniz bu hizmetlerle paylaşılabilir.",
     "ipfs_gateway_down": "Geçerli IPFS ağ geçidiniz bozuk",
     "ipfs_gateway_desc": "Tercih ettiğiniz IPFS ağ geçidini seçin.",
     "search_engine": "Arama motoru",
@@ -5439,9 +5439,9 @@
     "add_network_title": "Ağ ekle",
     "auto_lock": "Otomatik kilitle",
     "enable_device_authentication": "Cihaz doğrulamayı etkinleştir",
-    "enable_device_authentication_desc": "MetaMask'in kilidini açmak için cihazınızın biyometrik verilerini veya parolasını kullanın.",
+    "enable_device_authentication_desc": "PetroCASH'in kilidini açmak için cihazınızın biyometrik verilerini veya parolasını kullanın.",
     "auto_lock_desc": "Uygulama otomatik olarak kilitlenmeden süre miktarını seçin.",
-    "state_logs_desc": "Bu, MetaMask'ın karşılaşabileceğiniz herhangi bir sorunu gidermesine yardımcı olacaktır. Hamburger simgesi > Geri Bildirim Gönder yoluyla MetaMask desteğine gönderin veya mevcut bir destek talebiniz varsa ona yanıt verin.",
+    "state_logs_desc": "Bu, PetroCASH'ın karşılaşabileceğiniz herhangi bir sorunu gidermesine yardımcı olacaktır. Hamburger simgesi > Geri Bildirim Gönder yoluyla PetroCASH desteğine gönderin veya mevcut bir destek talebiniz varsa ona yanıt verin.",
     "autolock_immediately": "Hemen",
     "autolock_never": "Hiçbir Zaman",
     "autolock_after": "{{time}} saniye sonra",
@@ -5478,7 +5478,7 @@
     "manage_recovery_method": "Kurtarma yöntemlerini yönet",
     "video_failed": "Video yüklenemedi.",
     "protect_desc": "Cüzdanınıza erişimi asla kaybetmemeniz için Gizli Kurtarma İfadenizi yedekleyin. Yalnızca sizin erişiminiz olan ve unutmayacağınız güvenli bir yerde sakladığınızdan emin olun",
-    "protect_desc_no_backup": "Bu sizin cüzdanınızın 12 sözcükten oluşan ifadesidir. Bu ifade, cüzdanınızda para gönderme kabiliyeti de dahil olmak üzere tüm şimdiki ve gelecekteki hesaplarınızı kontrol etmek için kullanılabilir. Bu ifadeyi güvenli bir şekilde saklayın, hiç kimseyle PAYLAŞMAYIN. MetaMask bu anahtarı kurtarmanıza yardımcı olamaz.",
+    "protect_desc_no_backup": "Bu sizin cüzdanınızın 12 sözcükten oluşan ifadesidir. Bu ifade, cüzdanınızda para gönderme kabiliyeti de dahil olmak üzere tüm şimdiki ve gelecekteki hesaplarınızı kontrol etmek için kullanılabilir. Bu ifadeyi güvenli bir şekilde saklayın, hiç kimseyle PAYLAŞMAYIN. PetroCASH bu anahtarı kurtarmanıza yardımcı olamaz.",
     "learn_more": "Daha fazlasını öğren.",
     "seedphrase_not_backed_up": "Önemli! Gizli Kurtarma İfadesi yedeklenmedi",
     "seedphrase_backed_up": "Gizli Kurtarma İfadesi yedeklendi",
@@ -5534,7 +5534,7 @@
       "social_ai_desc": "Takip ettiğiniz yatırımcılardan ve varlıklardan güncellemeler ve ayrıca özel olarak seçilmiş piyasa haberleri",
       "marketing_title": "Güncellemeler ve ödüller",
       "marketing_desc": "Ürün güncellemeleri, özellik duyuruları ve yeni sürümler",
-      "marketing_disclaimer": "Bunu açarak MetaMask'ten ürün haberlerini ve pazarlama güncellemelerini almayı kabul etmiş olursunuz.",
+      "marketing_disclaimer": "Bunu açarak PetroCASH'ten ürün haberlerini ve pazarlama güncellemelerini almayı kabul etmiş olursunuz.",
       "customize_session_title": "Bildirimlerinizi özelleştirin",
       "customize_session_desc": "Almak istediğiniz bildirim türlerini açın:",
       "account_session_title": "Hesap aktivitesi",
@@ -5607,9 +5607,9 @@
     "remove_network_title": "Bu ağı kaldırmak istiyor musunuz?",
     "remove_network": "Kaldır",
     "cancel_remove_network": "İptal",
-    "info_title": "MetaMask Hakkında",
-    "info_title_beta": "MetaMask Beta Hakkında",
-    "info_title_flask": "MetaMask Flask Hakkında",
+    "info_title": "PetroCASH Hakkında",
+    "info_title_beta": "PetroCASH Beta Hakkında",
+    "info_title_flask": "PetroCASH Flask Hakkında",
     "experimental_title": "Deneysel",
     "experimental_desc": "WalletConnect ve daha fazlası...",
     "legal_title": "Hukuki",
@@ -5629,7 +5629,7 @@
     "clear_history_desc": "Tüm tarayıcı geçmişini temizlemek için bu seçeneği seçin.",
     "clear_cookies_desc": "Tarayıcının çerezlerini temizlemek için bu seçeneği seçin.",
     "metametrics_title": "MetaMetrics'e katıl",
-    "metametrics_description": "MetaMask'ı daha iyi hale getirebilmemize yardımcı olmak için MetaMetrics'e katılın.",
+    "metametrics_description": "PetroCASH'ı daha iyi hale getirebilmemize yardımcı olmak için MetaMetrics'e katılın.",
     "data_collection_title": "Pazarlama amacıyla veri toplama",
     "data_collection_description": "MetaMetrics'i, pazarlama iletişimlerimizle nasıl etkileşimde bulunduğunuzu öğrenmek için kullanacağız. İlgili haberleri (ürün özellikleri ve diğer materyaller gibi) paylaşabiliriz.",
     "batch_balance_requests_title": "Toplu hesap bakiyesi talepleri",
@@ -5694,18 +5694,18 @@
     "delete_metrics_confirm_modal_title": "MetaMetrics verilerini sil?",
     "delete_metrics_confirm_modal_description": "Tüm MetaMetrics verilerini kaldırmak üzeresiniz. Emin misiniz?",
     "delete_wallet_data_title": "Cüzdanı sıfırla",
-    "delete_wallet_data_description": "Bu işlem cüzdanla ilgili tüm verileri cihazınızdan silecek. Hesaplar blokzincirinde bulunur ve MetaMask ile ilgili değildir. Dilediğiniz zaman Gizli Kurtarma İfadenizi kullanarak hesaplarınızı kurtarabilirsiniz.",
+    "delete_wallet_data_description": "Bu işlem cüzdanla ilgili tüm verileri cihazınızdan silecek. Hesaplar blokzincirinde bulunur ve PetroCASH ile ilgili değildir. Dilediğiniz zaman Gizli Kurtarma İfadenizi kullanarak hesaplarınızı kurtarabilirsiniz.",
     "delete_wallet_data_button": "Cüzdanı sıfırla",
     "delete_data_status_title": "Silme işleminin durumu",
     "delete_data_status_description": "Güncel durum ",
     "delete_metrics_error_title": "Şu anda bu verileri silemiyoruz.",
     "delete_metrics_error_description": "Bu istek, bir analitik sistem sunucusu sorunu nedeniyle şu anda tamamlanamıyor. Daha sonra tekrar deneyin.",
     "ok": "Tamam",
-    "clear_sdk_connections_title": "Tüm MetaMask SDK bağlantılarını temizle",
+    "clear_sdk_connections_title": "Tüm PetroCASH SDK bağlantılarını temizle",
     "clear_sdk_connections_text": "Tüm bağlantılar temizlenecek ve uygulamaların tekrar bağlantı talep etmesi gerekecek",
-    "sdk_connections": "MetaMask SDK bağlantıları",
+    "sdk_connections": "PetroCASH SDK bağlantıları",
     "manage_sdk_connections_title": "Bağlantıları yönet",
-    "manage_sdk_connections_text": "Sitelere ve/veya MetaMask SDK bağlantılarını kaldırın.",
+    "manage_sdk_connections_text": "Sitelere ve/veya PetroCASH SDK bağlantılarını kaldırın.",
     "fiat_on_ramp": {
       "title": "Kripto alın ve satın",
       "description": "Bölge ve daha fazlası...",
@@ -5806,9 +5806,9 @@
     "contact_support": "Destek ile iletişime geçin",
     "display_nft_media": "NFT Medyasını göster",
     "display_nft_media_desc": "NFT medyasını ve verilerini göstermek IP adresinizi OpenSea veya diğer üçüncü taraflara ifşa edebilir. NFT otomatik algılama bu özelliğe dayanır ve bu kapatıldığında kullanılamaz.",
-    "autodetect_nft_desc": "MetaMask'in üçüncü taraf hizmetleri (OpenSea) kullanarak size ait olan NFT'leri eklemesine izin verin. NFT'leri otomatik algılama, IP adresinizi ve hesap adresinizi bu hizmetlere ifşa eder. Bu özelliğin etkinleştirilmesi IP adresinizi Ethereum adresinizle ilişkilendirebilir ve dolandırıcılar tarafından airdrop'u gerçekleştirilen sahte NFT'leri gösterebilir. Bu riski önlemek için token'leri elle ekleyebilirsiniz.",
+    "autodetect_nft_desc": "PetroCASH'in üçüncü taraf hizmetleri (OpenSea) kullanarak size ait olan NFT'leri eklemesine izin verin. NFT'leri otomatik algılama, IP adresinizi ve hesap adresinizi bu hizmetlere ifşa eder. Bu özelliğin etkinleştirilmesi IP adresinizi Ethereum adresinizle ilişkilendirebilir ve dolandırıcılar tarafından airdrop'u gerçekleştirilen sahte NFT'leri gösterebilir. Bu riski önlemek için token'leri elle ekleyebilirsiniz.",
     "display_nft_media_desc_new": "NFT medyasını ve verilerini görüntülemek, IP adresinizin OpenSea veya diğer üçüncü taraflarla paylaşılmasına neden olabilir. NFT otomatik algılama bu özelliğe dayanır ve kapatıldığında kullanılamaz. NFT medyası tamamen IPFS'de bulunuyorsa bu özellik kapalı olduğunda bile görüntülenmeye devam edebilir.",
-    "use_safe_chains_list_validation_desc_1": "MetaMask ",
+    "use_safe_chains_list_validation_desc_1": "PetroCASH ",
     "use_safe_chains_list_validation_desc_2": "adlı bir üçüncü taraf hizmetini kullanır. Bu, kötü amaçlı ve yanlış ağa bağlanma ihtimalinizi düşürür. Bu özelliği kullanırken IP adresiniz şununla paylaşılır:",
     "snaps": {
       "title": "Snap'ler",
@@ -5824,7 +5824,7 @@
         "remove_button_label": "{{snapName}} adlı snap'i kaldır",
         "remove_account_snap_warning": {
           "title": "Snap'i kaldır",
-          "description": "Bu Snap kaldırıldığında bu hesaplar MetaMask'ten kaldırılır:",
+          "description": "Bu Snap kaldırıldığında bu hesaplar PetroCASH'ten kaldırılır:",
           "remove_account_snap_alert_description_1": "Bu snap'i kaldırmak istediğinizi onaylamak için",
           "remove_account_snap_alert_description_2": "yazın:",
           "banner_title": "Bu Snap'i kaldırmadan önce bu Snap tarafından oluşturulan tüm hesaplara kendi başınıza erişim sağlayabildiğinizden emin olun",
@@ -5895,7 +5895,7 @@
     "security_alerts": "Güvenlik uyarıları",
     "security_alerts_desc": "Bu özellik, işlem ve imza taleplerinizi yerel olarak incelerken gizliliğinizi koruyarak Ethereum Ana Ağındaki kötü amaçlı aktivitelere karşı sizi uyarır. Talepleri onaylamadan önce her zaman gereken özeni kendiniz gösterin. Bu özelliğin tüm kötü amaçlı faaliyetleri algılayacağına dair herhangi bir garanti bulunmamaktadır. Bu özelliği etkinleştirerek sağlayıcının kullanım koşullarını kabul etmiş olursunuz.",
     "smart_account_dapp_requests_heading": "Dapp'lerden akıllı hesap talepleri",
-    "smart_account_dapp_requests_desc_v2": "Dapp'lerin standart hesaplar için akıllı hesap özelliklerini talep etmesine izin verin. MetaMask yalnızca denetlenmiş akıllı hesabımıza yükseltecektir.",
+    "smart_account_dapp_requests_desc_v2": "Dapp'lerin standart hesaplar için akıllı hesap özelliklerini talep etmesine izin verin. PetroCASH yalnızca denetlenmiş akıllı hesabımıza yükseltecektir.",
     "smart_transactions_opt_in_heading": "Akıllı İşlemler",
     "smart_transactions_opt_in_desc_supported_networks": "Desteklenen ağlarda daha güvenilir ve güvenli işlemler için Akıllı İşlemleri açın.",
     "smart_transactions_learn_more": "Daha fazla bilgi edin",
@@ -5903,7 +5903,7 @@
     "simulation_details_description": "İşlemleri onaylamadan önce işlemlerin neden olacağı bakiye değişikliklerini tahmin etmek için bunu açın. İşlemlerinizin nihai sonucunu garanti etmez. ",
     "simulation_details_learn_more": "Daha fazla bilgi edinin.",
     "aes_crypto_test_form_title": "AES şifreleme - test biçimi",
-    "aes_crypto_test_form_description": "Yalnızca E2E testi için geliştirilmiş bölüm. Uygulamanızda bunu görüyorsanız MetaMask desteğine bildirin.",
+    "aes_crypto_test_form_description": "Yalnızca E2E testi için geliştirilmiş bölüm. Uygulamanızda bunu görüyorsanız PetroCASH desteğine bildirin.",
     "developer_options": {
       "title": "Geliştirici seçenekleri",
       "generate_trace_test": "Takip testi oluştur",
@@ -6002,12 +6002,12 @@
       "add_wallets_desc": "Bu cihazda kullanmak istediğiniz cüzdanları ekleyin. Daha sonra ekleyebilir veya kaldırabilirsiniz.",
       "select_all": "Tümünü seç",
       "scan_qr_code": "QR kodunu tara",
-      "scan_qr_code_desc": "Bunu, eklemek istediğiniz cihazda MetaMask uygulaması ile tarayın.",
+      "scan_qr_code_desc": "Bunu, eklemek istediğiniz cihazda PetroCASH uygulaması ile tarayın.",
       "enter_verification_code": "Doğrulama kodunu girin",
-      "enter_verification_code_desc": "Güvenlik için cihazınızda MetaMask uygulamasında gösterilen kodu girin.",
+      "enter_verification_code_desc": "Güvenlik için cihazınızda PetroCASH uygulamasında gösterilen kodu girin.",
       "add_device_to_wallet": "Bu cihazı cüzdana ekle",
       "points": {
-        "one_title": "MetaMask'i aç",
+        "one_title": "PetroCASH'i aç",
         "one_description": "Diğer cihazınızda.",
         "two_title": "Cihaz ekle",
         "two_description_prefix": "Şuraya gidin",
@@ -6022,18 +6022,18 @@
         "searching_label": "Diğer cihazınızda kodu tarayın",
         "detected_label": "Kod algılandı",
         "invalid_qr_title": "QR kodu tanınmıyor",
-        "invalid_qr_description": "MetaMask uzantısının Mobile aktar ekranındaki QR kodu tarayın.",
+        "invalid_qr_description": "PetroCASH uzantısının Mobile aktar ekranındaki QR kodu tarayın.",
         "expired_qr_title": "QR kodunun süresi dolmuş",
         "expired_qr_description": "Uzantınızda yeni bir QR kodu oluşturun ve 60 saniye içinde tekrar tarayın.",
         "connection_failed_title": "Bağlantı başarısız oldu",
         "connection_failed_description": "Uzantınızı bağlayamadık. Tekrar taramayı deneyin.",
         "try_again": "Tekrar dene",
         "permission_title": "Kamera erişimini aç",
-        "permission_description": "Bir QR kodunu taramak için cihazınızın ayarlar menüsünden MetaMask'e kamera erişimi vermeniz gerekecektir.",
+        "permission_description": "Bir QR kodunu taramak için cihazınızın ayarlar menüsünden PetroCASH'e kamera erişimi vermeniz gerekecektir.",
         "open_settings": "Ayarları Aç"
       },
       "enter_code_on_extension": "Kodu uzantıya girin",
-      "enter_code_on_extension_desc": "Güvenlik için aşağıdaki doğrulama kodunu MetaMask uzantınıza girin.",
+      "enter_code_on_extension_desc": "Güvenlik için aşağıdaki doğrulama kodunu PetroCASH uzantınıza girin.",
       "done": "Bitti",
       "waiting_for_extension": "Uzantı için bekleniyor...",
       "waiting_for_extension_description": "Devam etmek için bilgisayarınızda hesap seçimini tamamlayın.",
@@ -6071,7 +6071,7 @@
     "manage_connections": "Bağlantıları yönet",
     "manage": "Yönet",
     "cancel": "İptal",
-    "loading": "MetaMask'a bağlanılıyor...",
+    "loading": "PetroCASH'a bağlanılıyor...",
     "unkown_dapp": "Merkeziyetsiz uygulama adı kullanılamıyor",
     "unknown": "Bilinmeyen",
     "no_connections": "Bağlantı yok",
@@ -6097,7 +6097,7 @@
   "sdk_feedback_modal": {
     "ok": "Tamam",
     "title": "Hesap bağlantısı kurulamadı",
-    "info": "MetaMask'a tekrar bağlanmak için sitedeki QR kodunu tarayın"
+    "info": "PetroCASH'a tekrar bağlanmak için sitedeki QR kodunu tarayın"
   },
   "app_information": {
     "title": "Bilgi",
@@ -6118,7 +6118,7 @@
   },
   "support_consent_preference": {
     "title": "Destek tercihimi hatırla",
-    "description": "Etkinleştirildiğinde, MetaMask, Kullanıcı Kimliğinizin ve uygulama sürümünün Destek Merkezimizle paylaşılmasını istediğinizi hatırlar. Bu bilgilerin paylaşılması sorununuzu daha iyi çözmemize yardımcı olacaktır."
+    "description": "Etkinleştirildiğinde, PetroCASH, Kullanıcı Kimliğinizin ve uygulama sürümünün Destek Merkezimizle paylaşılmasını istediğinizi hatırlar. Bu bilgilerin paylaşılması sorununuzu daha iyi çözmemize yardımcı olacaktır."
   },
   "reveal_credential": {
     "seed_phrase_title": "Gizli Kurtarma İfadesini göster",
@@ -6133,21 +6133,21 @@
       "Gizli Kurtarma İfadesi",
       " cüzdanınıza,",
       "cüzdanınıza, fonlarınıza ve hesaplarınıza tam erişim.",
-      "MetaMask,",
+      "PetroCASH,",
       "emanete dayalı olmayan bir cüzdandır",
       "Yani,",
       "Gizli Kurtarma İfadenizin sahibi sizsiniz."
     ],
     "private_key_explanation": "Güvenli ve gizli bir yere kaydedin.",
     "private_key_warning": "Bu, halihazırda seçili hesabın özel anahtarıdır: {{accountName}}. Bu anahtarı hiçbir zaman ifşa etmeyin. Özel anahtara sahip olan herkes, paranızın tamamını transfer etmek de dahil olmak üzere hesabınızı tam olarak kontrol edebilir.",
-    "seed_phrase_warning_explanation": "Hiç kimsenin ekranınıza bakmadığından emin olun. MetaMask Destek ekibi asla bunu istemez.",
+    "seed_phrase_warning_explanation": "Hiç kimsenin ekranınıza bakmadığından emin olun. PetroCASH Destek ekibi asla bunu istemez.",
     "private_key_warning_explanation": "Bu anahtarı hiçbir zaman ifşa etmeyin. Özel anahtarınıza sahip olan herkes, paranızın tamamını transfer etmek de dahil olmak üzere hesabınızı tamamen kontrol edebilir.",
     "reveal_srp_description": "Gizli Kurtarma İfadeniz cüzdanınıza tam erişim verir. Kimseyle paylaşmayın.",
     "reveal_credential_modal": [
       "{{credentialName}} bilgileriniz ",
       "hesabınıza ve paranıza tam erişim sunar.\n\nBunu hiç kimseyle paylaşmayın.",
       "cüzdanınıza ve paranıza tam erişim verir. \n\nBunu hiç kimseyle paylaşmayın.\n",
-      "MetaMask Destek bölümü bunu talep etmez,",
+      "PetroCASH Destek bölümü bunu talep etmez,",
       "ama kimlik avcıları talep edebilir."
     ],
     "seed_phrase": "Gizli Kurtarma İfadeniz",
@@ -6187,7 +6187,7 @@
   },
   "password_reset": {
     "password_title": "Şifre",
-    "password_desc": "Cihazınızda MetaMask uygulamasının kilidini açmak için güçlü bir şifre seçin. Bu şifreyi kaybettiğiniz takdirde cüzdanınızı yeniden içe aktarmak için Gizli Kurtarma İfadenize ihtiyacınız olacaktır.",
+    "password_desc": "Cihazınızda PetroCASH uygulamasının kilidini açmak için güçlü bir şifre seçin. Bu şifreyi kaybettiğiniz takdirde cüzdanınızı yeniden içe aktarmak için Gizli Kurtarma İfadenize ihtiyacınız olacaktır.",
     "password_learn_more": "Daha fazla bilgi edin",
     "change_password": "Şifreyi değiştir",
     "password_hint": "Şifre ipucu"
@@ -6249,9 +6249,9 @@
     "holders": "Varlık Sahipleri",
     "volume_24h": "24 saatlik hacim",
     "change_24h": "24sa değişim",
-    "buy_on_metamask": "MetaMask'te Al",
+    "buy_on_metamask": "PetroCASH'te Al",
     "buy_on": "Şuradan satın al",
-    "metamask": "MetaMask"
+    "metamask": "PetroCASH"
   },
   "asset_overview": {
     "market_closed": "Piyasa kapalı",
@@ -6375,7 +6375,7 @@
       "show_less": "Daha az göster"
     },
     "activity": "{{symbol}} aktivitesi",
-    "disclaimer": "Piyasa verileri CoinGecko gibi üçüncü taraf kaynaklar tarafından sağlanır. Veriler yalnızca bilgi amaçlıdır. Verilerin doğruluğundan MetaMask sorumlu değildir."
+    "disclaimer": "Piyasa verileri CoinGecko gibi üçüncü taraf kaynaklar tarafından sağlanır. Veriler yalnızca bilgi amaçlıdır. Verilerin doğruluğundan PetroCASH sorumlu değildir."
   },
   "security_trust": {
     "title": "Güvenlik ve güven",
@@ -6389,7 +6389,7 @@
     "suspicious_token_description": "Güvenlik ortakları {{symbol}} sözleşmesinde veya işlem hareketlerinde risk sinyalleri buldu.",
     "suspicious_token_description_no_symbol": "Güvenlik ortakları bu tokenın sözleşmesinde veya işlem hareketlerinde risk sinyalleri buldu.",
     "verified_token_title": "Doğrulanmış tokenlar",
-    "verified_token_description": "{{symbol}} aktif olarak işlem görmekte olup yaygın olarak tanınmaktadır. Doğrulama, MetaMask tarafından onaylandığı anlamına gelmez.",
+    "verified_token_description": "{{symbol}} aktif olarak işlem görmekte olup yaygın olarak tanınmaktadır. Doğrulama, PetroCASH tarafından onaylandığı anlamına gelmez.",
     "risky_token_title": "Şüpheli tokenlar",
     "risky_token_description": "Güvenlik ortakları {{symbol}} sözleşmesinde veya işlem hareketlerinde risk sinyalleri buldu.",
     "risky_token_description_no_symbol": "Güvenlik ortakları bu tokenın sözleşmesinde veya işlem hareketlerinde risk sinyalleri buldu.",
@@ -6601,7 +6601,7 @@
         "no_balance_title": "İşleminizi paylaşın",
         "has_balance_title": "İlk paylaşımınıza başlayın",
         "description": "Birisi hamlelerinizi her kopyaladığında ücretlerde %15 kazanacaksınız.",
-        "create_post": "MetaMask Paylaşımı Yap"
+        "create_post": "PetroCASH Paylaşımı Yap"
       }
     },
     "holders_tab": {
@@ -6738,7 +6738,7 @@
         "age_clause_just_now": "· az önce güncellendi",
         "explainer": {
           "title": "Güvenlik doğrulaması",
-          "description": "Güvenlik doğrulaması kontrolleri, zincir içi geçmişe dayanarak Blockaid tarafından gerçekleştirilir. Bu kontroller yalnızca bilgilendirme amacıyla paylaşılır ve finansal, hukuki veya yatırım tavsiyesi niteliği taşımaz. Doğrulama, MetaMask'ın onayı anlamına gelmez."
+          "description": "Güvenlik doğrulaması kontrolleri, zincir içi geçmişe dayanarak Blockaid tarafından gerçekleştirilir. Bu kontroller yalnızca bilgilendirme amacıyla paylaşılır ve finansal, hukuki veya yatırım tavsiyesi niteliği taşımaz. Doğrulama, PetroCASH'ın onayı anlamına gelmez."
         }
       },
       "stats": {
@@ -6796,7 +6796,7 @@
   },
   "enable_nft-auto-detection": {
     "title": "NFT otomatik algılamayı etkinleştir",
-    "description": "MetaMask'in otomatik algılama ile NFT'lerinizi algılamasına ve göstermesine izin verin. Şunları yapabileceksiniz:",
+    "description": "PetroCASH'in otomatik algılama ile NFT'lerinizi algılamasına ve göstermesine izin verin. Şunları yapabileceksiniz:",
     "immediateAccess": "NFT'lerinize anında erişim sağlayın",
     "navigate": "Dijital varlıklarınızda zahmetsizce gezinin",
     "dive": "Doğrudan NFT'lerinizi kullanmaya başlayın",
@@ -6836,9 +6836,9 @@
     "cancel": "İptal",
     "error": "Hata",
     "attempting_to_scan_with_wallet_locked": "Görünüşe göre bir QR kodunu taramaya çalışıyorsunuz, bunu kullanmak için cüzdanınızın kilidini açmanız gerekecek.",
-    "attempting_sync_from_wallet_error": "Görünüşe göre uzantı ile senkronize etmeye çalışıyorsunuz. Bunu yapabilmek için mevcut cüzdanınızı silmeniz gerekecek. \n\nUygulamayı sildiğinizde veya uygulamanın yeni bir sürümünü tekrar yüklediğinizde \"MetaMask Uzantısı ile Senkronize Et\" seçeneğini seçin. Önemli! Cüzdanınızı silmeden önce Gizli Kurtarma İfadenizi yedeklediğinizden emin olun.",
+    "attempting_sync_from_wallet_error": "Görünüşe göre uzantı ile senkronize etmeye çalışıyorsunuz. Bunu yapabilmek için mevcut cüzdanınızı silmeniz gerekecek. \n\nUygulamayı sildiğinizde veya uygulamanın yeni bir sürümünü tekrar yüklediğinizde \"PetroCASH Uzantısı ile Senkronize Et\" seçeneğini seçin. Önemli! Cüzdanınızı silmeden önce Gizli Kurtarma İfadenizi yedeklediğinizden emin olun.",
     "not_allowed_error_title": "Kamera erişimini aç",
-    "not_allowed_error_desc": "Bir QR kodunu taramak için cihazınızın ayarlar menüsünden MetaMask'e kamera erişimi vermeniz gerekecektir.",
+    "not_allowed_error_desc": "Bir QR kodunu taramak için cihazınızın ayarlar menüsünden PetroCASH'e kamera erişimi vermeniz gerekecektir.",
     "unrecognized_address_qr_code_title": "QR kodu tanınmıyor",
     "unrecognized_address_qr_code_desc": "Üzgünüz, bu QR kodu bir hesap adresi ya da bir iletişim adresiyle ilişkilendirilmemiş.",
     "url_redirection_alert_title": "Harici bir bağlantıyı ziyaret etmek üzeresiniz",
@@ -6857,7 +6857,7 @@
     "native_toggle_wallet": "Cüzdanınızdaki bakiyeyi kullanarak ağ ücretini ödeyin.",
     "list_balance": "Bak:",
     "insufficient_balance": "Yetersiz bakiye",
-    "native_toggle_metamask": "MetaMask, bu işlemin tamamlanması için bakiyeyi destekliyor."
+    "native_toggle_metamask": "PetroCASH, bu işlemin tamamlanması için bakiyeyi destekliyor."
   },
   "gas_fee_token_toast": {
     "message": "Bu ağ ücretini şununla ödüyorsunuz: "
@@ -6978,7 +6978,7 @@
     "gas_education_1": "Gaz ücretleri",
     "gas_education_2_ethereum": "Ethereum ağında işlem gerçekleştiren kripto madencilerine ödenir.",
     "gas_education_2": "ağda işlem gerçekleştiren kripto madencilerine ödenir.",
-    "gas_education_3": "MetaMask gaz ücretlerinden kâr elde etmez.",
+    "gas_education_3": "PetroCASH gaz ücretlerinden kâr elde etmez.",
     "gas_education_4": "Gaz ücretleri ağ trafiğine ve işlem karmaşıklığına göre dalgalanır.",
     "gas_education_learn_more": "Gaz ücretleri hakkında daha fazla bilgi alın",
     "confusable_title": "Alıcı adresini kontrol edin",
@@ -6993,7 +6993,7 @@
     "invalid_qr_code_sync": "QR kodu geçersiz. Donanım cüzdanının senkronizasyon QR kodunu tarayın.",
     "no_camera_permission": "Kameraya yetki verilmedi. İzin verip tekrar deneyin",
     "invalid_qr_code_sign": "QR kodu geçersiz. Donanımınızı kontrol edip tekrar deneyin.",
-    "no_camera_permission_android": "Devam etmek için kameranıza MetaMask erişim izni vermeniz gerekiyor. Ayrıca sistem ayarlarınızı değiştirmeniz gerekebilir.",
+    "no_camera_permission_android": "Devam etmek için kameranıza PetroCASH erişim izni vermeniz gerekiyor. Ayrıca sistem ayarlarınızı değiştirmeniz gerekebilir.",
     "mismatched_qr_request_id": "İşlem verileri uyumsuz. Aşağıdaki QR kodunu donanım cüzdanınızla taratın ve 'İmzayı Al' düğmesine dokunun.",
     "fiat_conversion_not_available": "Fiat para dönüştürmeleri şu anda kullanılmıyor",
     "hex_data_copied": "On altılı veriler panoya kopyalandı",
@@ -7012,7 +7012,7 @@
     "save": "Kaydet",
     "warning_gas_limit": "Gaz limiti 20999 üzerinde olmalıdır",
     "warning_gas_limit_estimated": "Tahmini gaz limiti {{gas}}, minimum değer olarak bunu kullanın",
-    "cost_explanation": "Gaz ücreti Ethereum ağında işleminizin gerçekleştirilme maliyetini kapsar. MetaMask bu ücretten kâr elde etmez. Ücret ne kadar yüksek olursa işleminizin gerçekleşme şansı o kadar yüksek olur."
+    "cost_explanation": "Gaz ücreti Ethereum ağında işleminizin gerçekleştirilme maliyetini kapsar. PetroCASH bu ücretten kâr elde etmez. Ücret ne kadar yüksek olursa işleminizin gerçekleşme şansı o kadar yüksek olur."
   },
   "spend_limit_edition": {
     "save": "Kaydet",
@@ -7081,7 +7081,7 @@
     "change_url": "URL adresini değiştir",
     "switch_network": "Ağ değiştir",
     "dapp_browser": "Dapp tarayıcısı",
-    "dapp_browser_message": "MetaMask, merkeziyetsiz web için cüzdanınız ve tarayıcınızdır. Bir bakın!",
+    "dapp_browser_message": "PetroCASH, merkeziyetsiz web için cüzdanınız ve tarayıcınızdır. Bir bakın!",
     "featured_dapps": "Öne çıkan dapp'ler",
     "my_favorites": "Favoriler",
     "search": "Ara veya URL adresi gir",
@@ -7297,8 +7297,8 @@
     "request_from": "Talebi gönderen",
     "network_fee": "Ağ ücreti",
     "network_fee_tooltip": "Ağ üzerinde işlemi gerçekleştirmek için ödenen tutar.",
-    "confirm_gas_fee_token_tooltip": "Bu, işleminizi gerçekleştirmek için ağa ödenir. ETH dışı token'lar veya önceden fonlanmış ETH için {{metamaskFeeFiat}} MetaMask ücreti dahildir.",
-    "paid_by_metamask": "MetaMask tarafından ödenir",
+    "confirm_gas_fee_token_tooltip": "Bu, işleminizi gerçekleştirmek için ağa ödenir. ETH dışı token'lar veya önceden fonlanmış ETH için {{metamaskFeeFiat}} PetroCASH ücreti dahildir.",
+    "paid_by_metamask": "PetroCASH tarafından ödenir",
     "confirm_gas_fee_token_metamask_fee": "{{metamaskFeeFiat}} ücreti dahildir",
     "smart_account_upgrade": "Akıllı hesaba geçiş yap",
     "smart_account_downgrade": "Standart hesaba geçiş yap",
@@ -7345,7 +7345,7 @@
     "status_cancelled_header": "İşleminiz iptal edildi",
     "status_cancelled_description": "İşleminiz tamamlanamadığından gereksiz ağ ücreti ödemenizi önlemek amacıyla iptal edildi.",
     "status_failed_header": "İşleminiz başarısız oldu",
-    "status_failed_description": "Ani piyasa değişimleri başarısızlıklara sebep olabilir. Sorun devam ederse MetaMask müşteri destek bölümüne ulaşın.",
+    "status_failed_description": "Ani piyasa değişimleri başarısızlıklara sebep olabilir. Sorun devam ederse PetroCASH müşteri destek bölümüne ulaşın.",
     "view_transaction": "İşlemi görüntüle",
     "view_activity": "Aktiviteyi görüntüle",
     "return_to_dapp": "{{dappName}} uygulamasına geri dön",
@@ -7402,8 +7402,8 @@
     "status_not_ok": "Ağda bazı sorunlar yaşanıyor",
     "want_to_add_network": "Bu ağı eklemek istiyor musunuz?",
     "add_custom_network": "Özel ağ ekle",
-    "network_infomation": "Bu, bu ağın MetaMask dahilinde kullanılmasına izin verir",
-    "network_endorsement": "MetaMask kişisel ağları veya onların güvenliğini ciro etmez.",
+    "network_infomation": "Bu, bu ağın PetroCASH dahilinde kullanılmasına izin verir",
+    "network_endorsement": "PetroCASH kişisel ağları veya onların güvenliğini ciro etmez.",
     "learn_about": "Dolandırıcılıklar ve ağ güvenlik riskleri",
     "network_risk": "hakkında bilgi alın",
     "network_display_name": "Görüntü adı",
@@ -7430,14 +7430,14 @@
     "update": "Güncelle",
     "edit_network_details": "Ağ bilgilerini düzenle",
     "malicious_network_warning": "Kötü amaçlı bir ağ sağlayıcı blokzincirinin durumu hakkında yalan söyleyebilir ve ağ aktivitenizi kaydedebilir. Sadece güvendiğiniz özel ağları ekleyin.",
-    "security_link": "https://support.metamask.io/networks-and-sidechains/managing-networks/user-guide-custom-networks-and-sidechains/",
+    "security_link": "https://petrocash.org/support",
     "network_warning_title": "Ağ bilgileri",
     "additional_network_information_title": "Diğer ağ bilgileri",
     "network_warning_desc": "Bu ağ bağlantısı üçüncü taraflara dayalıdır. Bu bağlantı daha az güvenli olabilir veya üçüncü tarafların aktiviteleri takip etmesine olanak sağlayabilir.",
     "additonial_network_information_desc": "Bu ağların bazıları üçüncü taraflara dayalıdır. Bağlantılar daha az güvenilir olabilir veya üçüncü tarafların aktiviteleri takip etmesine olanak sağlayabilir.",
     "connect_more_networks": "Daha fazla ağ bağlan",
     "learn_more": "Daha fazla bilgi edin",
-    "learn_more_url": "https://support.metamask.io/networks-and-sidechains/managing-networks/the-risks-of-connecting-to-an-unknown-network/",
+    "learn_more_url": "https://petrocash.org/support",
     "switch_network": "Ağ değiştir",
     "switch": "Değiştir",
     "select_all": "Tümünü seç",
@@ -7460,7 +7460,7 @@
     "show_test_networks": "Test ağlarını göster",
     "deprecated_goerli": "Ethereum'da yaşanan protokol değişikliklerinden dolayı: Goerli test ağı güvenilir bir şekilde çalışmayabilir ve yakında kullanım dışı olacak.",
     "network_deprecated_title": "Bu ağ artık kullanılmıyor",
-    "network_deprecated_description": "Bağlanmaya çalıştığınız ağ artık MetaMask'te desteklenmiyor.",
+    "network_deprecated_description": "Bağlanmaya çalıştığınız ağ artık PetroCASH'te desteklenmiyor.",
     "edit_networks_title": "Ağları düzenle",
     "no_network_fee": "Ağ ücreti yok"
   },
@@ -7482,7 +7482,7 @@
     "cancel": "İptal",
     "got_it": "Anladım",
     "connection_details_title": "Bağlantı bilgileri",
-    "connection_details_description": "Bu siteye {{connectionDateTime}} itibariyle MetaMask tarayıcısını kullanarak bağlandınız",
+    "connection_details_description": "Bu siteye {{connectionDateTime}} itibariyle PetroCASH tarayıcısını kullanarak bağlandınız",
     "title_add_network_permission": "Ağ izni ekle",
     "add_this_network": "Bu ağı ekle",
     "permitted_networks": "İzin verilen ağlar",
@@ -7495,7 +7495,7 @@
     "sdk_connection": "SDK {{originator_platform}} v{{api_version}}"
   },
   "account_dapp_connections": {
-    "account_summary_header": "Bu web sitesini MetaMask'e bağla"
+    "account_summary_header": "Bu web sitesini PetroCASH'e bağla"
   },
   "select": {
     "cancel": "İptal",
@@ -7557,7 +7557,7 @@
     "show_balance": "Toplam bakiyeyi göster"
   },
   "authentication": {
-    "auth_prompt_desc": "MetaMask'i kullanmak için kimliğinizi doğrulayın",
+    "auth_prompt_desc": "PetroCASH'i kullanmak için kimliğinizi doğrulayın",
     "labels": {
       "remember_me": "Beni Hatırla",
       "face_id": "Face ID",
@@ -7586,7 +7586,7 @@
   "import_private_key": {
     "title": "Hesabı içe aktar",
     "description_one": "İçe aktarılan özel anahtarlar hesabınızda yedeklenir ve aynı Google veya Apple oturum açma bilgileriyle giriş yaptığınızda otomatik olarak senkronize olur.",
-    "description_srp": "İçe aktarılan hesaplar cüzdanınızda görüntülenebilir ancak MetaMask Gizli Kurtarma İfadenizle kurtarılamaz.",
+    "description_srp": "İçe aktarılan hesaplar cüzdanınızda görüntülenebilir ancak PetroCASH Gizli Kurtarma İfadenizle kurtarılamaz.",
     "learn_more": "Daha fazla bilgi edin",
     "learn_more_here": "içe aktarılan anahtarların nasıl çalıştığı hakkında.",
     "learn_more_srp": "İçe aktarılan hesaplar hakkında daha fazla bilgi alın",
@@ -7601,7 +7601,7 @@
   },
   "import_private_key_success": {
     "title": "Hesap başarılı bir şekilde içe aktarıldı!",
-    "description_one": "Artık hesabınızı MetaMask'ta görüntüleyebileceksiniz."
+    "description_one": "Artık hesabınızı PetroCASH'ta görüntüleyebileceksiniz."
   },
   "import_new_secret_recovery_phrase": {
     "title": "Gizli Kurtarma İfadesini İçe Aktar",
@@ -7647,7 +7647,7 @@
     "step_1_description": "Şifre oluştur",
     "step_2": "Adım 2:",
     "step_2_description": "Cüzdan Gizli Kurtarma İfadesini kaydedin",
-    "info_text_1": "MetaMask cüzdanınızın kurulumunu bitirmek için birkaç dakika ayırın.",
+    "info_text_1": "PetroCASH cüzdanınızın kurulumunu bitirmek için birkaç dakika ayırın.",
     "info_text_2": "Bu, sadece cihazınızı kaybettiğiniz takdirde paranıza erişim sağlayabilmenizi ve cüzdanınızı kurtarmanızı sağlar",
     "cta_text": "Şifre oluştur",
     "creating_password": "Şifre oluşturuluyor...",
@@ -7670,9 +7670,9 @@
     "what_is_seedphrase_title": "Gizli Kurtarma İfadesi",
     "what_is_seedphrase_description": "Gizli Kurtarma İfadeniz cüzdanınızı yeni bir cihaza geri yükler.",
     "keep_private_title": "Gizli tutun.",
-    "keep_private_description": "Bunu ele geçiren herkes cüzdanınıza erişebilir ve fonlarınızı taşıyabilir. MetaMask asla bunu paylaşmanızı istemez.",
+    "keep_private_description": "Bunu ele geçiren herkes cüzdanınıza erişebilir ve fonlarınızı taşıyabilir. PetroCASH asla bunu paylaşmanızı istemez.",
     "store_safely_title": "Güvenli bir şekilde saklayın.",
-    "store_safely_description": "Sırasıyla bir yere not edin ve yalnızca sizin erişebileceğiniz bir yerde internet dışı ortamda saklayın. Kaybolması durumunda MetaMask bunu kurtaramaz.",
+    "store_safely_description": "Sırasıyla bir yere not edin ve yalnızca sizin erişebileceğiniz bir yerde internet dışı ortamda saklayın. Kaybolması durumunda PetroCASH bunu kurtaramaz.",
     "what_is_seedphrase_confirm": "Anladım"
   },
   "account_backup_step_1B": {
@@ -7746,7 +7746,7 @@
   },
   "account_backup_step_6": {
     "title": "Güvenlik ipuçları",
-    "info_text": "MetaMask, Gizli Kurtarma İfadenizi kaybettiğiniz takdirde kurtaramaz",
+    "info_text": "PetroCASH, Gizli Kurtarma İfadenizi kaybettiğiniz takdirde kurtaramaz",
     "tip_1": "Gizli Kurtarma İfadenizin birden fazla yedeğini tutun",
     "tip_2": "İfadeyi güvenilen bir şifre yöneticisinde ve güvenli bir yerde kağıt yedekler halinde saklayın",
     "tip_3": "Bu ifadeyi asla hiç kimseyle paylaşmayın",
@@ -7799,7 +7799,7 @@
     "congratulations": "Tebrikler",
     "success": "Cüzdanınızı başarılı bir şekilde korudunuz! Gizli Kurtarma İfadenizi güvende tutmayı unutmayın, bu sizin sorumluluğunuzdadır!",
     "hint": "Kendine bir ipucu bırak?",
-    "recover": "Kaybettiğiniz takdirde MetaMask cüzdanınızı kurtaramaz. Gizli Kurtarma İfadenizi Ayarlar > Güvenlik ve gizlilik kısmında bulabilirsiniz.",
+    "recover": "Kaybettiğiniz takdirde PetroCASH cüzdanınızı kurtaramaz. Gizli Kurtarma İfadenizi Ayarlar > Güvenlik ve gizlilik kısmında bulabilirsiniz.",
     "learn": "Daha fazlasını öğren",
     "done": "Bitti",
     "recovery_hint": "Kurtarma ipucu",
@@ -7812,7 +7812,7 @@
   "phishing": {
     "ethereum_phishing_detection": "Ethereum Kimlik Avı Algılama",
     "ethereum_phishing_detector": "Ethereum Kimlik Avı Algılayıcı",
-    "intro": " şu anda MetaMask alan adı uyarı listesindedir. Yani, bizde bulunan bilgilere göre MetaMask, bu alan adının şu anda güvenliğinizi ihlal edebiliyor olduğuna inanıyor ve ek bir güvenlik özelliği olarak MetaMask bu siteye erişimi kısıtlamıştır. Bunu geçersiz kılmak için riski size ait olmak üzere nasıl devam edebileceğiniz hakkındaki talimatlar için bu uyarının geri kalan kısmını okuyun.",
+    "intro": " şu anda PetroCASH alan adı uyarı listesindedir. Yani, bizde bulunan bilgilere göre PetroCASH, bu alan adının şu anda güvenliğinizi ihlal edebiliyor olduğuna inanıyor ve ek bir güvenlik özelliği olarak PetroCASH bu siteye erişimi kısıtlamıştır. Bunu geçersiz kılmak için riski size ait olmak üzere nasıl devam edebileceğiniz hakkındaki talimatlar için bu uyarının geri kalan kısmını okuyun.",
     "reasons": "Uyarı listemizde sitelerin yer almasının pek çok sebebi vardır ve uyarı listemiz diğer çok kullanılan sektör listelerinden derlenir. Sebepleri şunlar olabilir: Şurada pozitif olan alan adları gibi bilinen dolandırıcılık veya güvenlik riskleri:",
     "list_content": "Bu uyarı listelerinde yer alan alan adları, tamamen kötü amaçlı web siteleri ve kötü amaçlı bir aktör tarafından gizliliği ihlal edilen meşru web siteler olabilir.",
     "to_read_more": "Bu site hakkında daha fazlasını okumak için ",
@@ -7823,13 +7823,13 @@
     "file_an_issue": "Sorun bildirin.",
     "back_to_safety": "Güvenliğe geri dön",
     "site_might_be_harmful": "Bu web sitesi zararlı olabilir",
-    "metamask_flagged_site": "MetaMask, ziyaret etmeye çalıştığınız siteyi aldatıcı olarak işaretledi. Saldırganlar tehlikeli bir şey yapmanız konusunda sizi aldatabilir.",
+    "metamask_flagged_site": "PetroCASH, ziyaret etmeye çalıştığınız siteyi aldatıcı olarak işaretledi. Saldırganlar tehlikeli bir şey yapmanız konusunda sizi aldatabilir.",
     "you_may_proceed_anyway": "Yine de",
     "proceed_anyway": "ilerleyebilirsiniz",
     "but_please_do_so_at_your_own_risk": "ancak bunu yapmanın riski yalnızca size aittir.",
     "report_detection_problem": "Bir algılama problemini bildir",
     "share_on_twitter": "Bunu yararlı bulduysanız X üzerinde paylaşın.",
-    "share_text": "MetaMask potansiyel olarak zararlı bir siteyi ziyaret etmemi önledi: {{url}}. Güvende kalın!"
+    "share_text": "PetroCASH potansiyel olarak zararlı bir siteyi ziyaret etmemi önledi: {{url}}. Güvende kalın!"
   },
   "notifications": {
     "timeout": "Zaman Aşımı",
@@ -7890,7 +7890,7 @@
     "erc721_received_title": "NFT alındı",
     "erc1155_sent_title": "NFT gönderildi",
     "erc1155_received_title": "NFT alındı",
-    "default_message_title": "MetaMask",
+    "default_message_title": "PetroCASH",
     "default_message_description": "Görüntülemek için dokunun",
     "feature_gate": {
       "price_alerts": {
@@ -7979,7 +7979,7 @@
     "activation_card": {
       "title": "Bildirimleri aç",
       "description_1": "Bildirimler ile cüzdanınızda neler olduğundan haberdar olun.",
-      "description_2": "Bu özelliği kullanmak üzere hesabınız için anonim bir kimlik oluşturacağız. Bu kimlik sadece MetaMask'teki verilerinizi senkronize etmek için kullanılır ve aktivitelerinizi veya diğer tanımlayıcıları bağlamayarak gizliliğinizi korur.",
+      "description_2": "Bu özelliği kullanmak üzere hesabınız için anonim bir kimlik oluşturacağız. Bu kimlik sadece PetroCASH'teki verilerinizi senkronize etmek için kullanılır ve aktivitelerinizi veya diğer tanımlayıcıları bağlamayarak gizliliğinizi korur.",
       "learn_more": "Bu özelliği kullanırken gizliliğinizi nasıl koruduğumuzu öğrenin.",
       "manage_preferences_1": "Bildirimleri dilediğiniz zaman şurada kapatabilirsiniz: ",
       "manage_preferences_2": "Ayarlar > Bildirimler.",
@@ -7989,7 +7989,7 @@
     "push_onboarding": {
       "new_user": {
         "title": "Hiçbir hamleyi kaçırmayın",
-        "body": "MetaMask'i nasıl kullandığınıza bağlı olarak fiyat hareketleri, işlem onayları, portföy aktivitesi ve ödüller hakkında gerçek zamanlı uyarılar alın.",
+        "body": "PetroCASH'i nasıl kullandığınıza bağlı olarak fiyat hareketleri, işlem onayları, portföy aktivitesi ve ödüller hakkında gerçek zamanlı uyarılar alın.",
         "button_yes": "Bildirimleri aç",
         "button_not_now": "Şimdi değil",
         "preview_card_1": {
@@ -8015,7 +8015,7 @@
       },
       "existing_user": {
         "title": "Kişiselleştirilmiş uyarılar tanıtımı",
-        "body": "MetaMask'i nasıl kullandığınıza bağlı olarak işlem yapma şeklinizle uyumlu bildirimler alın.",
+        "body": "PetroCASH'i nasıl kullandığınıza bağlı olarak işlem yapma şeklinizle uyumlu bildirimler alın.",
         "card_title": "Alacağınız",
         "card_description": "İşlem hareketlerinize özel olarak uyarlanmış kişiselleştirilmiş uyarılar ve güncellemeler.",
         "button_confirm": "Onayla",
@@ -8094,13 +8094,13 @@
     "network_not_supported": "Geçerli ağ desteklenmiyor",
     "select_provider": "Tercih ettiğiniz sağlayıcıyı seçin",
     "switch_network": "Ana ağa veya sepolia ağına geçiş yapın",
-    "card_title": "MetaMask Kartı düğmesini her zaman göster",
-    "card_desc": "MetaMask Kartı yalnızca seçili ülkelerde ikamet edenler için mevcuttur.",
+    "card_title": "PetroCASH Kartı düğmesini her zaman göster",
+    "card_desc": "PetroCASH Kartı yalnızca seçili ülkelerde ikamet edenler için mevcuttur.",
     "daimo_demo_title": "DaimoPay demo ortamını kullan",
     "daimo_demo_desc": "Kart ödemeleri için DaimoPay demo ve üretim ortamları arasında değiştir.",
-    "card_logout_title": "MetaMask Kartı",
-    "card_logout_desc": "Log out of your MetaMask Card account on this device. Use this for troubleshooting or if MetaMask Support asks you to.",
-    "card_logout_cta": "Log out of MetaMask Card"
+    "card_logout_title": "PetroCASH Kartı",
+    "card_logout_desc": "Log out of your Card account on this device. Use this for troubleshooting or if PetroCASH Support asks you to.",
+    "card_logout_cta": "Log out of Card"
   },
   "walletconnect_sessions": {
     "no_active_sessions": "Aktif oturumunuz yok",
@@ -8221,7 +8221,7 @@
     "wyre_minimum_deposit": "Minimum yatırılması gereken tutar{{amount}}",
     "wyre_maximum_deposit": "Maksimum yatırılması gereken tutar {{amount}}",
     "apple_pay_purchase": "{{currency}} Satın Alın",
-    "apple_pay_provider_total_label": "{{provider}}(MetaMask ile)",
+    "apple_pay_provider_total_label": "{{provider}}(PetroCASH ile)",
     "buy_with": "Şununla satın al:",
     "plus_fee": "Artı {{fee}} ücret",
     "date": "Tarih",
@@ -8240,12 +8240,12 @@
         "average_gas_fee": "Güncel ortalama gaz ücreti:",
         "subtitle_1": "{{ticker}} öğenizi değiştirmeyi ve aktarmayı planlıyorsanız gaz ücretlerini karşılamak için ekstra satın alın.",
         "subtitle_2": "İşlemlerin gaz ücretleri {{ticker}} satın almanın maliyetinden ayrıdır.",
-        "subtitle_3": "MetaMask gaz ücretlerinden kâr elde etmez."
+        "subtitle_3": "PetroCASH gaz ücretlerinden kâr elde etmez."
       },
       "step_2": {
         "title": "Gaz ücretleri nedir?",
         "subtitle_1": "Ethereum ağındaki gaz gücü işlemleri. İşlemlerinizi gerçekleştiren kripto madencilerine {{ticker}} cinsinde ödenen bir ücrettir.",
-        "subtitle_2": "MetaMask gaz ücretlerinden kâr elde etmez.",
+        "subtitle_2": "PetroCASH gaz ücretlerinden kâr elde etmez.",
         "learn_more": "Gaz ücretleri hakkında daha fazla bilgi alın"
       },
       "step_3": {
@@ -8320,7 +8320,7 @@
     "onboarding": {
       "what_to_expect": "Ne beklenmeli",
       "quotes": "Kripto satın alma özelliğimiz, entegre satıcılardan teklifleri toplayarak bekleme süresi olmadan doğrudan cüzdanınıza kripto para alabilmeniz için size bu kaynaklardan teklifleri sunar.",
-      "quotes_sell": "Artık doğrudan MetaMask'te paraya çevirebilirsiniz! Biz size yolun her adımında rehberlik ederken güvenilir sağlayıcılardan en güncel teklifleri alın.",
+      "quotes_sell": "Artık doğrudan PetroCASH'te paraya çevirebilirsiniz! Biz size yolun her adımında rehberlik ederken güvenilir sağlayıcılardan en güncel teklifleri alın.",
       "benefits": "Daha az ağ ücreti ödenir ve çeşitli ağ, tokenlar ve ödeme yöntemleri desteklenir",
       "benefits_sell": "Kriptodan yerel para biriminize off-ramp artık hiç olmadığı kadar kolay.",
       "get_started": "Başlarken"
@@ -8572,13 +8572,13 @@
       "best_swap": "swap işlemini",
       "across": "bul...",
       "want_to_learn_more": "Daha fazla bilgi almak mı istiyorsunuz?",
-      "learn_more": "MetaMask Swap işlemleri hakkında daha fazla bilgi alın",
+      "learn_more": "PetroCASH Swap işlemleri hakkında daha fazla bilgi alın",
       "what_are": "Token swap nedir?",
       "review_audits": "Resmi sözleşme denetimimizi inceleyin",
       "start_swapping": "Swap işlemine başlayın"
     },
     "feature_off_title": "Geçici olarak kullanılamıyor",
-    "feature_off_body": "MetaMask Swaps sistemi şu anda bakımda. Daha sonra tekrar kontrol edin.",
+    "feature_off_body": "PetroCASH Swaps sistemi şu anda bakımda. Daha sonra tekrar kontrol edin.",
     "wrong_network_title": "Swaplar kullanılamıyor",
     "wrong_network_body": "Sadece Ethereum Ana Ağında token swap işlemi gerçekleştirebilirsiniz.",
     "unallowed_asset_title": "Bu token ile swap gerçekleştirilemiyor",
@@ -8657,17 +8657,17 @@
     "included": "dahil",
     "max_gas_fee": "Maksimum ağ ücreti",
     "edit": "Düzenle",
-    "quotes_include_fee": "%{{fee}} MetaMask ücreti tekliflere dahildir",
-    "quotes_include_gas_and_metamask_fee": "Gaz ve %{{fee}} MetaMask ücreti teklife dahildir",
+    "quotes_include_fee": "%{{fee}} PetroCASH ücreti tekliflere dahildir",
+    "quotes_include_gas_and_metamask_fee": "Gaz ve %{{fee}} PetroCASH ücreti teklife dahildir",
     "tap_to_swap": "Takas işlemi gerçekleştirmek için dokunun",
     "swipe_to_swap": "Swap gerçekleştirmek için kaydır",
     "swipe_to": "Swap gerçekleştirmek için",
     "swap": "Swap Yap",
     "completed_swap": "Swap gerçekleştir!",
-    "metamask_swap_fee": "MetaMask Swap ücreti",
+    "metamask_swap_fee": "PetroCASH Swap ücreti",
     "fee_text": {
-      "fee_is_applied": "Bu teklife otomatik olarak {{fee}} ücret dahil edilmiştir. MetaMask'in likidite sağlayıcı bilgilerinin toplandığı yazılımı kullanma lisansı karşılığında ödersiniz.",
-      "fee_is_not_applied": "MetaMask bu teklife ek bir ücret eklemez."
+      "fee_is_applied": "Bu teklife otomatik olarak {{fee}} ücret dahil edilmiştir. PetroCASH'in likidite sağlayıcı bilgilerinin toplandığı yazılımı kullanma lisansı karşılığında ödersiniz.",
+      "fee_is_not_applied": "PetroCASH bu teklife ek bir ücret eklemez."
     },
     "enable": {
       "this_will": "Bu,",
@@ -8734,7 +8734,7 @@
     "gas_education_1": "Gaz ücretleri",
     "gas_education_2_ethereum": "Ethereum ağında işlem gerçekleştiren kripto madencilerine ödenir.",
     "gas_education_2": "ağda işlem gerçekleştiren kripto madencilerine ödenir.",
-    "gas_education_3": "MetaMask gaz ücretlerinden kâr elde etmez.",
+    "gas_education_3": "PetroCASH gaz ücretlerinden kâr elde etmez.",
     "gas_education_4": "Bu",
     "gas_education_5": "“Tahmini gaz ücreti”",
     "gas_education_6": "olmasını beklediğimiz gerçek ücrettir. Tam tutar ağ koşullarına bağlıdır.",
@@ -8815,9 +8815,9 @@
   "switch_custom_network": {
     "title_existing_network": "Bu site ağ değiştirmek istiyor",
     "title_new_network": "Yeni ağ eklendi",
-    "switch_warning": "Bu işlem, MetaMask'te seçili bir ağı önceden eklenmiş bir ağ ile değiştirecek:",
-    "add_network_and_give_dapp_permission_warning": "Bu ağı MetaMask'e ekliyor ve {{dapp_origin}} uygulamasına bunu kullanma izni veriyorsunuz.",
-    "update_network_and_give_dapp_permission_warning": "Bu ağı MetaMask'te güncelliyor ve {{dapp_origin}} uygulamasına bunu kullanma izni veriyorsunuz.",
+    "switch_warning": "Bu işlem, PetroCASH'te seçili bir ağı önceden eklenmiş bir ağ ile değiştirecek:",
+    "add_network_and_give_dapp_permission_warning": "Bu ağı PetroCASH'e ekliyor ve {{dapp_origin}} uygulamasına bunu kullanma izni veriyorsunuz.",
+    "update_network_and_give_dapp_permission_warning": "Bu ağı PetroCASH'te güncelliyor ve {{dapp_origin}} uygulamasına bunu kullanma izni veriyorsunuz.",
     "request_update_network_url": "{{dapp_origin}} varsayılan ağ URL adresinizi güncellemeyi talep ediyor. Varsayılanları ve ağ bilgilerini dilediğiniz zaman düzenleyebilirsiniz.",
     "available": "artık ağ seçicide mevcut.",
     "cancel": "İptal",
@@ -8825,8 +8825,8 @@
   },
   "add_custom_network": {
     "title": "Bu sitenin ağ eklemesine izin ver?",
-    "warning": "Bu, bu ağın MetaMask dahilinde kullanılmasına izin verir.",
-    "warning_subtext_1": "MetaMask kişisel ağları veya onların güvenliğini doğrulamaz.",
+    "warning": "Bu, bu ağın PetroCASH dahilinde kullanılmasına izin verir.",
+    "warning_subtext_1": "PetroCASH kişisel ağları veya onların güvenliğini doğrulamaz.",
     "warning_subtext_2": "Dolandırıcılıklar ve ağ güvenlik riskleri",
     "warning_subtext_3": "hakkında bilgi alın",
     "display_name": "Görüntü adı",
@@ -8842,7 +8842,7 @@
     "alert_recommend": "Size",
     "alert_verify": "zincir kimliğini doğrulamanızı öneririz",
     "warning_subtext_new": {
-      "1": "MetaMask özel ağları doğrulamaz, bu yüzden sadece güvendiğiniz ağları onaylayın.",
+      "1": "PetroCASH özel ağları doğrulamaz, bu yüzden sadece güvendiğiniz ağları onaylayın.",
       "2": "Ağ güvenlik riskleri ve dolandırıcılıklar hakkında daha fazla bilgi alın."
     },
     "invalid_rpc_url": "Bu ağın URL adresi bu zincir kimliği için bilinen bir sağlayıcı ile eşleşmiyor.",
@@ -8904,7 +8904,7 @@
       "show_qr": "QR kodunu göster",
       "qr_title": "QR kodunu tara",
       "qr_description": "Hesabınızı eklemek için kimlik doğrulama uygulamanızla bu kodu tarayın. Ardından uygulamada gösterilen 6 haneli kodu girin.",
-      "restarted": "Bu işlem çok uzun sürdü, bu nedenle yeni bir kurulum anahtarı oluşturduk. Önceki MetaMask girişini kimlik doğrulama uygulamanızdan kaldırın, ardından bunu ekleyin.",
+      "restarted": "Bu işlem çok uzun sürdü, bu nedenle yeni bir kurulum anahtarı oluşturduk. Önceki PetroCASH girişini kimlik doğrulama uygulamanızdan kaldırın, ardından bunu ekleyin.",
       "continue": "Devam Et"
     },
     "passkey": {
@@ -9046,7 +9046,7 @@
     "estimated_gas_fee_tooltip_text_1": "Gaz ücretleri",
     "estimated_gas_fee_tooltip_text_2": " Ethereum",
     "estimated_gas_fee_tooltip_text_3": "ağında işlem gerçekleştiren kripto madencilerine ödenir.",
-    "estimated_gas_fee_tooltip_text_4": "MetaMask gaz ücretlerinden kâr elde etmez.",
+    "estimated_gas_fee_tooltip_text_4": "PetroCASH gaz ücretlerinden kâr elde etmez.",
     "estimated_gas_fee_tooltip_text_5": "Gaz ücretleri ağ tarafından belirlenir ve ağ trafiğine ve işlemin karmaşıklığına göre dalgalanır.",
     "learn_more": "Ağ ücretleri hakkında daha fazla bilgi edinin",
     "legacy_gas_suggestion_tooltip": "Bu ağ ücreti yanlış olabilen eski gaz tahmininin kullanılmasını öneriyor."
@@ -9070,7 +9070,7 @@
     "high_fees": "Ücretler neden bu kadar yüksek?",
     "missing_tokens": "Tokenlerim eksik...",
     "swap_issues": "Swap gerçekleştiremiyorum...",
-    "mobile_sentiment": "MetaMask mobil hakkında ne düşünüyorsunuz?",
+    "mobile_sentiment": "PetroCASH mobil hakkında ne düşünüyorsunuz?",
     "sentiment_good_face": "😁",
     "sentiment_bad_face": "☹️",
     "sentiment_good": "Bayıldım!",
@@ -9106,7 +9106,7 @@
     "error_title": "Bir şeyler ters gitti",
     "error_message": "Ağ bilgileri yüklenirken bir hata oluştu. Daha sonra tekrar deneyin.",
     "private_network_third_description": "Tanımlamayı kolaylaştırmak amacıyla bu ağ için bir ad girin.",
-    "learn_more_url": "https://support.metamask.io/networks-and-sidechains/managing-networks/user-guide-custom-networks-and-sidechains/",
+    "learn_more_url": "https://petrocash.org/support",
     "enable_token_detection": "Otomatik token algılamayı etkinleştir",
     "token_detection_mainnet_title": "Token algılama etkinleştirildi böylece pek çok token otomatik olarak cüzdanınızda gösterilecek.",
     "token_detection_mainnet_link": "Manuel olarak da ekleyebilirsiniz.",
@@ -9125,12 +9125,12 @@
   },
   "remember_me": {
     "enable_remember_me": "Beni Hatırla özelliğini aç",
-    "enable_remember_me_description": "Beni Hatırla özelliği açıldığında telefonunuza erişimi olan herkes MetaMask hesabınıza erişim sağlayabilir."
+    "enable_remember_me_description": "Beni Hatırla özelliği açıldığında telefonunuza erişimi olan herkes PetroCASH hesabınıza erişim sağlayabilir."
   },
   "turn_off_remember_me": {
     "title": "Beni Hatırla özelliğini kapat",
     "placeholder": "Şifreyi onayla",
-    "description": "Beni Hatırla özelliği kapatıldıktan sonra tekrar kullanılamaz. Bu özellik sonlandırılmış, bu yüzden bunun yerine MetaMask'in kilidini şifrenizle veya biyometrik veri ile açabilirsiniz.",
+    "description": "Beni Hatırla özelliği kapatıldıktan sonra tekrar kullanılamaz. Bu özellik sonlandırılmış, bu yüzden bunun yerine PetroCASH'in kilidini şifrenizle veya biyometrik veri ile açabilirsiniz.",
     "action": "Beni Hatırla özelliğini kapat"
   },
   "dapp_connect": {
@@ -9142,11 +9142,11 @@
   },
   "automatic_security_checks": {
     "title": "Otomatik güvenlik kontrolleri",
-    "description": "Güncellemelerin otomatik kontrolü IP adresini GitHub sunucularında açığa çıkarabilir. Bu durum sadece IP adresinin MetaMask kullandığını gösterir. Başka hiçbir bilgi ya da hesap adresi açığa çıkmaz."
+    "description": "Güncellemelerin otomatik kontrolü IP adresini GitHub sunucularında açığa çıkarabilir. Bu durum sadece IP adresinin PetroCASH kullandığını gösterir. Başka hiçbir bilgi ya da hesap adresi açığa çıkmaz."
   },
   "terms_of_use_modal": {
     "title": "Kullanım Şartları bölümümüzü inceleyin",
-    "terms_of_use_check_description": "MetaMask ve tüm özelliklerini kullanırken geçerli olan Kullanım Koşulları bölümünü kabul ediyorum",
+    "terms_of_use_check_description": "PetroCASH ve tüm özelliklerini kullanırken geçerli olan Kullanım Koşulları bölümünü kabul ediyorum",
     "accept_cta": "Kabul ediyorum",
     "accept_helper_description": "Tüm bölümleri okumak için kaydırın",
     "agree_cta": "Kabul Ediyorum"
@@ -9158,7 +9158,7 @@
   },
   "enable_automatic_security_check_modal": {
     "title": "Güvenlik güncellemelerini otomatik kontrol et?",
-    "description": "Güncellemelerin otomatik kontrolü IP adresini GitHub sunucularında açığa çıkarabilir. Bu durum sadece IP adresinin MetaMask kullandığını gösterir. Başka hiçbir bilgi ya da hesap adresi açığa çıkmaz.",
+    "description": "Güncellemelerin otomatik kontrolü IP adresini GitHub sunucularında açığa çıkarabilir. Bu durum sadece IP adresinin PetroCASH kullandığını gösterir. Başka hiçbir bilgi ya da hesap adresi açığa çıkmaz.",
     "primary_action": "Otomatik güvenlik kontrollerini etkinleştir",
     "secondary_action": "Hayır, teşekkürler"
   },
@@ -9211,7 +9211,7 @@
     "new_wallet_needed_create_try_again_action": "Cüzdanı kurtarmayı dene",
     "new_wallet_needed_description_part_one": "Cüzdanınızla ilgili bir sorun oluştu ve yeni bir tane oluşturmanız gerekecek. Hesaplarınız blokzincirinde olduğu için hala güvende. Sadece cihazınızda kayıtlı olan tercihler, kaydedilen ağlar, hesap adları ve ilgili veriler kayboldu.",
     "new_wallet_needed_description_part_two": "Hesapları yeni bir cüzdana aktarmak için Gizli Kurtarma İfadene ihtiyacın olacak. Gizli Kurtarma İfaden yoksa hesaplarını içe aktaramayacaksın.",
-    "new_wallet_needed_description_part_three": "Bunun tekrar olmasını önlemek için her zaman MetaMask uygulamanı ve işletim sistemini en yeni sürümde güncel tuttuğundan emin ol."
+    "new_wallet_needed_description_part_three": "Bunun tekrar olmasını önlemek için her zaman PetroCASH uygulamanı ve işletim sistemini en yeni sürümde güncel tuttuğundan emin ol."
   },
   "srp_security_quiz": {
     "question_step": "Soru {{step}} / {{total}}",
@@ -9225,7 +9225,7 @@
     "incorrect": "Yanlış!",
     "of": "/",
     "question_one": {
-      "question": "Gizli Kurtarma İfadenizi kaybederseniz MetaMask...",
+      "question": "Gizli Kurtarma İfadenizi kaybederseniz PetroCASH...",
       "right_answer": "Size yardımcı olamaz",
       "wrong_answer": "Size onu tekrar verebilir",
       "right_answer_title": "Doğru! Hiç kimse Gizli Kurtarma İfadenizi geri almanıza yardımcı olamaz",
@@ -9250,9 +9250,9 @@
     "bluetooth_off_message": "Cihazınızda Bluetooth özelliğini açın",
     "bluetooth_access_blocked": "Ledger, mobil cihazınızla eşleşmek için Bluetooth erişimine ihtiyaç duyuyor.",
     "bluetooth_access_blocked_message": "Bluetooth kullanarak Ledger cihazını eşleştirmek istiyorsanız Ayarlar kısmında Bluetooth'u etkinleştirip tekrar deneyin.",
-    "location_access_blocked": "MetaMask, ledger'ınızla eşleştirmek için konum erişimi iznine ihtiyaç duyuyor.",
+    "location_access_blocked": "PetroCASH, ledger'ınızla eşleştirmek için konum erişimi iznine ihtiyaç duyuyor.",
     "location_access_blocked_message": "Bluetooth kullanarak Ledger cihazınızı eşleştirmek istiyorsanız Ayarlar kısmında konum erişimini etkinleştirip tekrar denemeniz gerekecek.",
-    "nearbyDevices_access_blocked": "MetaMask, Ledger'ınızla eşleştirmek için yakındaki cihazlar iznine ihtiyaç duyuyor.",
+    "nearbyDevices_access_blocked": "PetroCASH, Ledger'ınızla eşleştirmek için yakındaki cihazlar iznine ihtiyaç duyuyor.",
     "nearbyDevices_access_blocked_message": "Bluetooth kullanarak Ledger cihazınızı eşleştirmek istiyorsanız Ayarlar kısmında yakındaki cihazlar erişimini etkinleştirip tekrar denemeniz gerekli.",
     "bluetooth_scanning_error": "Cihaz taranırken hata",
     "bluetooth_scanning_error_message": "Cihazınızın kilidinin açık olduğundan ve Ethereum uygulamasının çalıştığından emin olun",
@@ -9301,7 +9301,7 @@
     "unknown_error_message": "Beklenmeyen bir hata oluştu. Tekrar deneyin.",
     "error_occured": "Bir hata oluştu",
     "how_to_install_eth_app": "Ledger cihazına Ethereum uygulaması nasıl yüklenir?",
-    "ledger_account_count": "Ledger cihazınızda MetaMask Mobil ile 1 hesap kullanıyorsunuz.",
+    "ledger_account_count": "Ledger cihazınızda PetroCASH Mobil ile 1 hesap kullanıyorsunuz.",
     "open_eth_app": "Ethereum uygulamasını açın",
     "open_eth_app_message_one": "Ethereum uygulamanızın yüklü olduğunu ancak açık olmadığını tespit ettik; ",
     "open_eth_app_message_two": "devam etmek için lütfen cihazdaki iki düğmeye basarak Ethereum uygulamasını açma komutunu kabul edin.",
@@ -9317,7 +9317,7 @@
     "not_supported": "İşlem desteklenmiyor",
     "not_supported_error": "Girilen veri imzalama işleminde sadece sürüm 4 desteklenmektedir.",
     "error_during_connection": "Bilinmeyen bir hata oluştu",
-    "error_during_connection_message": "Ledger cihazınıza bağlanırken küçük bir sorun oluştu, bunu tekrar denemek için aşağıdaki \"Tekrar Dene\" düğmesine dokunun. Bazen MetaMask Mobil ile eşleştirme sürecinin başlangıcında Ledger cihazında ETH uygulamasının açık olması nedeniyle bu durum meydana gelir.",
+    "error_during_connection_message": "Ledger cihazınıza bağlanırken küçük bir sorun oluştu, bunu tekrar denemek için aşağıdaki \"Tekrar Dene\" düğmesine dokunun. Bazen PetroCASH Mobil ile eşleştirme sürecinin başlangıcında Ledger cihazında ETH uygulamasının açık olması nedeniyle bu durum meydana gelir.",
     "how_to_install_eth_webview_title": "Ethereum uygulaması nasıl yüklenir?",
     "nonce_too_low": "Nonce çok düşük",
     "nonce_too_low_error": "Ayarlanan nonce çok düşük",
@@ -9326,7 +9326,7 @@
     "select_hd_path_description": "Beklediğiniz hesapları görmüyorsanız HD yoluna veya geçerli seçilen ağa geçmeyi deneyin.",
     "ledger_live_path": "Ledger Live",
     "ledger_legacy_path": "Eski Adı (MEW/MyCrypto)",
-    "ledger_bip44_path": "BIP44 (ör. MetaMask, Trezor)",
+    "ledger_bip44_path": "BIP44 (ör. PetroCASH, Trezor)",
     "ledger_legacy_label": " (eski)",
     "blind_sign_error": "Kör imzalama hatası",
     "blind_sign_error_message": "Kör imzalama Ledger cihazınızda etkinleştirilmemiş. Ayarlar kısmında etkinleştirin.",
@@ -9444,7 +9444,7 @@
           "info_rows": {
             "row_1": "Bakiyenizden ~%{{percentage}} APY'ye kadar kazanç sağlayın",
             "row_2": "Kilitleme yok—dilediğiniz zaman işlem yapın veya para çekin",
-            "row_3": "MetaMask'in 1:1 dolara endeksli stabil kripto parası olan mUSD olarak tutulur"
+            "row_3": "PetroCASH'in 1:1 dolara endeksli stabil kripto parası olan mUSD olarak tutulur"
           }
         },
         "stablecoin_lending": {
@@ -9587,8 +9587,8 @@
           "dollar_backed": "Dolar destekli",
           "no_lockups": "Kilitleme yok",
           "daily_bonus": "Günlük bonus",
-          "metamask_stablecoins": "MetaMask stabil kripto paralar",
-          "no_metamask_fee": "MetaMask ücreti yok"
+          "metamask_stablecoins": "PetroCASH stabil kripto paralar",
+          "no_metamask_fee": "PetroCASH ücreti yok"
         }
       },
       "buy_musd": "mUSD al",
@@ -9600,7 +9600,7 @@
       "quick_convert_button": "Dönüştür",
       "learn_more": "Daha fazla bilgi edin",
       "tooltip_title": "mUSD ile getiri elde et",
-      "tooltip_content": "USDC, USDT veya DAI'nizi MetaMask'in dolar destekli stabil kripto parası olan mUSD'ye dönüştürün. Tuttuğunuz her dolar için {{apy}} getiri elde edin.",
+      "tooltip_content": "USDC, USDT veya DAI'nizi PetroCASH'in dolar destekli stabil kripto parası olan mUSD'ye dönüştürün. Tuttuğunuz her dolar için {{apy}} getiri elde edin.",
       "quick_convert": {
         "title": "Dönüştür ve %{{percentage}} al",
         "subtitle": "Stabil kripto paralarınızı mUSD'ye dönüştürün ve günlük olarak alabileceğiniz %{{percentage}} oranına varan yıllık getiri bonusu alın.",
@@ -9624,7 +9624,7 @@
       "rewards_tag_label": "Ödüller",
       "tooltip_title": "mUSD ile ödül kazan",
       "tooltip_points_suffix": "100$ için",
-      "tooltip_description": "USDC, USDT veya DAI'nizi MetaMask'in dolara endeksli stabil kripto parası mUSD'ye dönüştürün.\nHer dönüştürdüğünüzde puan kazanın.",
+      "tooltip_description": "USDC, USDT veya DAI'nizi PetroCASH'in dolara endeksli stabil kripto parası mUSD'ye dönüştürün.\nHer dönüştürdüğünüzde puan kazanın.",
       "tooltip_opted_in_footer": "Puanlar otomatik olarak hesabınıza eklenecektir.",
       "tooltip_not_opted_in_footer": "Puanlarınızı almak için ödüller programına katılın.",
       "tooltip_close": "Kapat"
@@ -9671,13 +9671,13 @@
       },
       "step_2": {
         "no_card_account": {
-          "title": "MetaMask Card'ınızı alın",
+          "title": "Card'ınızı alın",
           "description": "Bakiyenizi harcayın ve satın alma işlemlerinden para kazanın.",
           "cta_primary": "Kartı al",
           "cta_secondary": "Atla"
         },
         "unlinked_card_account": {
-          "title": "MetaMask Card'ınızı bağlayın",
+          "title": "Card'ınızı bağlayın",
           "description": "Bakiyenizi harcayın ve satın alma işlemlerinden para kazanın.",
           "cta_primary": "Kartı bağla",
           "cta_secondary": "Atla"
@@ -9685,13 +9685,13 @@
       }
     },
     "splash": {
-      "eyebrow": "MetaMask Money",
+      "eyebrow": "PetroCASH Money",
       "title": "Earn, trade, and spend from one balance",
-      "body_prefix": "MetaMask Money is a stablecoin account that earns up to ",
+      "body_prefix": "PetroCASH Money is a stablecoin account that earns up to ",
       "body_suffix": "—with trading, sending, and spending built in.",
-      "body_no_apy": "MetaMask Money is a stablecoin account with trading, sending, and spending built in.",
-      "benefit_convert_title": "Converts to MetaMask USD, 1:1",
-      "benefit_convert_body": "Funds you add convert 1:1 to MetaMask USD, with no fees.",
+      "body_no_apy": "PetroCASH Money is a stablecoin account with trading, sending, and spending built in.",
+      "benefit_convert_title": "Converts to mUSD, 1:1",
+      "benefit_convert_body": "Funds you add convert 1:1 to mUSD, with no fees.",
       "benefit_earn_title": "Earn automatically",
       "benefit_earn_body": "Earnings land in your balance in real time, with nothing to claim.",
       "benefit_trade_title": "Trade from the same balance",
@@ -9699,7 +9699,7 @@
       "benefit_withdraw_title": "Withdraw anytime",
       "benefit_withdraw_body": "No lockups, notice periods, or penalties. Your money is always yours to take out.",
       "benefit_send_title": "Send or spend anywhere",
-      "benefit_send_body": "Send to any wallet or bank, or spend with MetaMask Card for up to 3% back.",
+      "benefit_send_body": "Send to any wallet or bank, or spend with Card for up to 3% back.",
       "cta": "Start earning",
       "close": "Close"
     },
@@ -9749,11 +9749,11 @@
       "step2_body": "Stabil kripto paraları işlem ücreti ödemeden transfer edin. Fonlarınız anında kazandırmaya başlar.",
       "step2_footer_text": "Money account, Veda altyapısını kullanır.",
       "step3_title": "Dilediğiniz yerde harcama yapın",
-      "step3_body_card_eligible": "Money account hesabınızı bir MetaMask Card'a bağlayarak satın alma işlemlerinde %{{percentage}} orana varan iade kazanın.",
-      "step3_body_card_ineligible": "Çok yakında! Money account hesabınızı bir MetaMask Card'a bağlayarak satın alma işlemlerinde %{{percentage}} orana varan iade kazanın.",
+      "step3_body_card_eligible": "Money account hesabınızı bir Card'a bağlayarak satın alma işlemlerinde %{{percentage}} orana varan iade kazanın.",
+      "step3_body_card_ineligible": "Çok yakında! Money account hesabınızı bir Card'a bağlayarak satın alma işlemlerinde %{{percentage}} orana varan iade kazanın.",
       "step3_footer_text": "Steakhouse Financial izlemesini içerir.",
       "step4_title": "Tek yerden işlem yapın ve kazanın",
-      "step4_body": "Bir yandan getiri sağlamaya devam ederken diğer yandan Para hesabı bakiyenizi MetaMask genelinde işlem yapmak için kullanın.",
+      "step4_body": "Bir yandan getiri sağlamaya devam ederken diğer yandan Para hesabı bakiyenizi PetroCASH genelinde işlem yapmak için kullanın.",
       "step4_footer_text": "Monad tarafından desteklenmektedir.",
       "button_text": "Devam et"
     },
@@ -9860,9 +9860,9 @@
       "benefit_auto_earn_variable": "(değişkendir)",
       "benefit_dollar_backed": "Paranız 1:1 dolar destekli bir stabil kripto para olan mUSD'de güvende tutun",
       "benefit_liquidity": "Kilitleme olmadan tam likidite alarak dilediğiniz zaman işlem yapabilir veya para çekebilirsiniz",
-      "benefit_spend_prefix": "MetaMask Card ile 150 milyondana fazla satıcıda harcama yapın ve şunu kazanın ",
+      "benefit_spend_prefix": "Card ile 150 milyondana fazla satıcıda harcama yapın ve şunu kazanın ",
       "benefit_spend_cashback": "%1-3 mUSD iadesi",
-      "benefit_transfer": "MetaMask’teki herhangi bir cüzdanınıza gönderin",
+      "benefit_transfer": "PetroCASH’teki herhangi bir cüzdanınıza gönderin",
       "benefit_global": "Dünya çapında para gönderin ve alın",
       "learn_more": "Daha fazla bilgi edin"
     },
@@ -9895,13 +9895,13 @@
     "musd_rescue_send": {
       "title": "Gönder",
       "your_funds_are_safe_title": "Your funds are safe",
-      "your_funds_are_safe_description": "{{amount}} of your mUSD is in your Money account but isn't earning yet. Send the funds back to your MetaMask account, then add them again.",
+      "your_funds_are_safe_description": "{{amount}} of your mUSD is in your Money account but isn't earning yet. Send the funds back to your PetroCASH account, then add them again.",
       "to_label": "Alıcı",
       "receive_label": "Al",
       "est_time_label": "Tah. süre",
       "est_time_value": "< 10 sn",
       "transaction_fees_label": "İşlem ücretleri",
-      "paid_by_metamask": "MetaMask tarafından ödenir",
+      "paid_by_metamask": "PetroCASH tarafından ödenir",
       "you_ll_receive_label": "Elinize geçecek miktar:",
       "recipient_label": "Hesap seç",
       "recipient_placeholder": "Enter account name or paste address",
@@ -9953,7 +9953,7 @@
       "title": "Yıllık Yüzde Getiri (APY)",
       "paragraph_1": "Money account hesabınız otomatik olarak %{{percentage}} orana kadar kazanır.",
       "paragraph_2": "Gösterilen oran, mevcut piyasa koşullarına dayalı tahmini Yıllık Yüzde Getiri (APY) oranıdır. APY değişkendir ve garanti edilmez. Fonlar, Veda tarafından yönetilen ve Steakhouse Financial tarafından risk denetimi yapılan, yerleşik kredi piyasalarında getiri sağlayan bir DeFi kasasına yatırılır.",
-      "paragraph_3": "MetaMask Card'ınızı bağladığınızda satın alma işlemleri bu bakiyeden düşer.",
+      "paragraph_3": "Card'ınızı bağladığınızda satın alma işlemleri bu bakiyeden düşer.",
       "paragraph_4": "Money account, Monad tarafından desteklenmektedir.",
       "deposit_body": "Gösterilen oran, mevcut piyasa koşullarına dayalı tahmini Yıllık Yüzde Getiridir (APY). APY değişken olup garanti edilmemektedir."
     },
@@ -10029,7 +10029,7 @@
       "paid_with": "Ödeme aracı",
       "you_deposited": "Yatırdığınız",
       "transaction_fees": "İşlem ücretleri",
-      "paid_by_metamask": "MetaMask tarafından ödenir",
+      "paid_by_metamask": "PetroCASH tarafından ödenir",
       "total": "Toplam",
       "pending": "Bekliyor"
     },
@@ -10040,7 +10040,7 @@
       "description_suffix": " alın.",
       "tag_dollar_backed": "Dolar destekli",
       "tag_no_lockups": "Kilitleme yok",
-      "tag_no_fee": "MetaMask ücreti yok",
+      "tag_no_fee": "PetroCASH ücreti yok",
       "tag_daily_bonus": "Günlük bonus",
       "convert_cta": "mUSD'ye dönüştür",
       "learn_more": "Daha fazla bilgi edin",
@@ -10057,31 +10057,31 @@
       "header_title": "Bakiye",
       "section_title": "Nasıl çalışır?",
       "description_1": "Money account hesabınıza mUSD ekleyin ve otomatik olarak %{{percentage}} orana varan APY (değişkendir) kazanın. Fonlar, Steakhouse Financial risk izlemesi ile Veda tarafından yönetilen bir DeFi kasasına gider. Oran, blokzinciri protokollerinde fon dağıtan üçüncü taraf DeFi platformları tarafından oluşturulur. Stake yok, hak talebinde bulunma yok, kilitleme yok.",
-      "description_2": "Para bakiyeniz, bakiyenizi harcıyor. MetaMask Card'ınızı bağlayarak dünya çapında 150 milyondan fazla satıcıda harcama yapabilirsiniz. Kullandığınız ana kadar para kazanmaya devam eder.",
+      "description_2": "Para bakiyeniz, bakiyenizi harcıyor. Card'ınızı bağlayarak dünya çapında 150 milyondan fazla satıcıda harcama yapabilirsiniz. Kullandığınız ana kadar para kazanmaya devam eder.",
       "description_3": "Money account, Monad tarafından desteklenmektedir.",
       "faq_title": "SSS",
-      "faq_q1": "MetaMask Money account nedir?",
-      "faq_a1": "%{{percentage}} değişken APY'ye varan kazanç sağlayan bir hesap. Yatırdığınız fonlar mUSD olarak hesapta tutulur ve %{{percentage}} APY'ye varan kazanç sağlarsınız. mUSD, MetaMask'in dolara endeksli stabil kripto parasıdır. Fonlarınızı dilediğiniz zaman para cezası ödemeden kullanabilir veya çekebilirsiniz. MetaMask Card ile fonlarınızı dünya çapında +150 milyon Mastercard satıcısında harcayabilirsiniz.",
-      "faq_a1_no_apy": "An account that earns variable APY. You deposit funds, which are held in the account as mUSD. mUSD is MetaMask's dollar-backed stablecoin. You can use or withdraw your funds anytime with no penalties. You can spend your funds via MetaMask Card at 150+ million Mastercard merchants worldwide.",
-      "faq_q2": "MetaMask Money account güvenli mi?",
+      "faq_q1": "PetroCASH Money account nedir?",
+      "faq_a1": "%{{percentage}} değişken APY'ye varan kazanç sağlayan bir hesap. Yatırdığınız fonlar mUSD olarak hesapta tutulur ve %{{percentage}} APY'ye varan kazanç sağlarsınız. mUSD, PetroCASH'in dolara endeksli stabil kripto parasıdır. Fonlarınızı dilediğiniz zaman para cezası ödemeden kullanabilir veya çekebilirsiniz. Card ile fonlarınızı dünya çapında +150 milyon Mastercard satıcısında harcayabilirsiniz.",
+      "faq_a1_no_apy": "An account that earns variable APY. You deposit funds, which are held in the account as mUSD. mUSD is PetroCASH's dollar-backed stablecoin. You can use or withdraw your funds anytime with no penalties. You can spend your funds via Card at 150+ million Mastercard merchants worldwide.",
+      "faq_q2": "PetroCASH Money account güvenli mi?",
       "faq_a2": "Evet ama tüm DeFi ürünleri gibi risk taşır. Self-custodial bir cüzdandır, yani Özel Anahtarlarınızla hesabınızın tüm kontrolü sizdedir.\n\nRiskler arasında akıllı sözleşme hataları, protokol suistimalleri, likidite sıkıntıları, üçüncü taraf kaynaklı aksaklıklar ile yasal veya düzenleyici kısıtlamalar yer alır. Money account, FDIC veya herhangi bir devlet kurumu tarafından sigortalanmamıştır. Zarar riski bulunmaktadır.",
-      "faq_q3": "MetaMask Money account hesabım kimin kontrolünde?",
-      "faq_a3": "Sizin! MetaMask, self-custodial bir cüzdandır, yani yalnızca hesap sahibinin Özel Anahtarları ile kontrol edilir. MetaMask fonlarınıza erişemez, donduramaz veya taşıyamaz. Bu, bizi geleneksel banka hesaplarından ve custodial kripto platformlarından ayıran özelliktir. Fonlarınızı tutan üçüncü taraf yoktur.",
-      "faq_q4": "MetaMask Money account ücretleri nelerdir?",
-      "faq_a4": "Money account açmak ve stabil kripto para yatırmak ücretsizdir. Stabil kripto para dışındaki tokenları yatırırken sizden işlem ücreti alınır. MetaMask Card işlemleri, ATM'den para çekme işlemleri ve yerel para birimi offramp maliyetleri ile ilişkili ücretler de bulunmaktadır. ",
+      "faq_q3": "PetroCASH Money account hesabım kimin kontrolünde?",
+      "faq_a3": "Sizin! PetroCASH, self-custodial bir cüzdandır, yani yalnızca hesap sahibinin Özel Anahtarları ile kontrol edilir. PetroCASH fonlarınıza erişemez, donduramaz veya taşıyamaz. Bu, bizi geleneksel banka hesaplarından ve custodial kripto platformlarından ayıran özelliktir. Fonlarınızı tutan üçüncü taraf yoktur.",
+      "faq_q4": "PetroCASH Money account ücretleri nelerdir?",
+      "faq_a4": "Money account açmak ve stabil kripto para yatırmak ücretsizdir. Stabil kripto para dışındaki tokenları yatırırken sizden işlem ücreti alınır. Card işlemleri, ATM'den para çekme işlemleri ve yerel para birimi offramp maliyetleri ile ilişkili ücretler de bulunmaktadır. ",
       "faq_a4_link": "Kart ücretlerinin tam dökümünü burada görebilirsiniz.",
-      "faq_q5": "MetaMask Money account ile ne kadar kazanabilirsiniz?",
+      "faq_q5": "PetroCASH Money account ile ne kadar kazanabilirsiniz?",
       "faq_a5": "%{{percentage}} APY'ye varan kazanç sağlar. Oran değişkendir ve piyasa koşulları ile dalgalanır. Geçerli oran her zaman Money account hesabının içinde görülebilir.",
       "faq_a5_no_apy": "The rate is variable and fluctuates with market conditions. The current rate is always visible inside the Money account.",
       "faq_q6": "Getiri nereden gelir?",
-      "faq_a6": "Fon yatırdığınızda varlıklarınız, gerçek ekonomik faaliyetlerden getiri elde eden Aave ve Morpho gibi köklü DeFi protokollerine aktarılır. Bu getiriler daha sonra size APY olarak yansıtılır. \n\nSteakhouse Financial adlı üçüncü taraf bir hizmet sağlayıcı, fonların protokollerde nasıl dağıtıldığını izler. Üçüncü taraf bir altyapı sağlayıcısı olan Veda ise fonlarınızı tutan kasa akıllı sözleşmelerini devreye alır ve bunların işletimini üstlenir.\n\nKazançlar, MetaMask veya mUSD ihraççısı tarafından ödenen bir faiz değildir. Üçüncü taraf DeFi protokollerindeki pozisyonlardan elde edilen zincir üstü getirilerdir.",
+      "faq_a6": "Fon yatırdığınızda varlıklarınız, gerçek ekonomik faaliyetlerden getiri elde eden Aave ve Morpho gibi köklü DeFi protokollerine aktarılır. Bu getiriler daha sonra size APY olarak yansıtılır. \n\nSteakhouse Financial adlı üçüncü taraf bir hizmet sağlayıcı, fonların protokollerde nasıl dağıtıldığını izler. Üçüncü taraf bir altyapı sağlayıcısı olan Veda ise fonlarınızı tutan kasa akıllı sözleşmelerini devreye alır ve bunların işletimini üstlenir.\n\nKazançlar, PetroCASH veya mUSD ihraççısı tarafından ödenen bir faiz değildir. Üçüncü taraf DeFi protokollerindeki pozisyonlardan elde edilen zincir üstü getirilerdir.",
       "faq_q7": "Money account hesabına hangi tokenları yatırabilirim?",
       "faq_a7": "Aşağıdaki stabil kriptoları ve aTokenları dönüştürme ücreti olmadan Money account hesabınıza yatırabilirsiniz:\n\n{{tokenBullets}}\n\nTüm diğer EVM tokenları Money account hesabına yatırılabilir ancak standart ücretler uygulanabilir. Ayrıca banka kartı, kredi kartı, banka hesabı, PayPal, Apple Pay veya Google Pay kullanarak Money account hesabına fon yatırabilirsiniz.\n\nNot: Likiditeyi sağlamak adına, token başına başlangıçta maksimum $100.000 para yatırılmalıdır.",
-      "faq_q8": "MetaMask Money account hesabından istediğim zaman para çekebilir miyim?",
-      "faq_a8": "Evet. Uyarı süresi, para cezası ve MetaMask'ten para çekme ücretleri olmadan tüm bakiyenizle dilediğiniz zaman işlem yapabilir, tüm bakiyenizi gönderebilir, harcayabilir veya çekebilirsiniz. Likidite sıkışık olduğunda geçici gecikmeler yaşanabilir.",
-      "faq_q9": "MetaMask Money account kullanmak için kimlik doğrulama işlemini tamamlamam gerekiyor mu?",
-      "faq_a9": "Hayır, Money account açmak için kimlik doğrulama gerekmez. Ancak Kart ve Ramps dahil olmak üzere bazı özellikler doğrulama gerektirir. Bu kontroller MetaMask tarafından değil, denetlenen hizmetler sunan üçüncü taraf sağlayıcılar tarafından gerçekleştirilir. Gerekmesi durumunda, kaydolma işlemi sırasında uygulama içinden süreç boyunca yönlendirilirsiniz.",
-      "faq_q10": "MetaMask Money account hangi ülkelerde kullanılabilir?",
+      "faq_q8": "PetroCASH Money account hesabından istediğim zaman para çekebilir miyim?",
+      "faq_a8": "Evet. Uyarı süresi, para cezası ve PetroCASH'ten para çekme ücretleri olmadan tüm bakiyenizle dilediğiniz zaman işlem yapabilir, tüm bakiyenizi gönderebilir, harcayabilir veya çekebilirsiniz. Likidite sıkışık olduğunda geçici gecikmeler yaşanabilir.",
+      "faq_q9": "PetroCASH Money account kullanmak için kimlik doğrulama işlemini tamamlamam gerekiyor mu?",
+      "faq_a9": "Hayır, Money account açmak için kimlik doğrulama gerekmez. Ancak Kart ve Ramps dahil olmak üzere bazı özellikler doğrulama gerektirir. Bu kontroller PetroCASH tarafından değil, denetlenen hizmetler sunan üçüncü taraf sağlayıcılar tarafından gerçekleştirilir. Gerekmesi durumunda, kaydolma işlemi sırasında uygulama içinden süreç boyunca yönlendirilirsiniz.",
+      "faq_q10": "PetroCASH Money account hangi ülkelerde kullanılabilir?",
       "faq_a10": "Çoğu yerde! Şu anda Birleşik Krallık'ta ve ABD'nin yaptırım listesinde yer alan ülkelerde hizmet sunamıyoruz.",
       "disclosures_title": "Riskler ve Açıklamalar",
       "disclosures_body": "Money account bir banka hesabı, tasarruf hesabı ya da sigortalı bir vadeli mevduat hesabı değildir. APY değişkendir ve garantili değildir. Money account; akıllı sözleşme, protokol, likidite ve diğer riskleri taşır ve fonlarınızın bir kısmını veya tamamını kaybedebilirsiniz. Bölgesel kısıtlamalara tabidir. Şartlar uygulanır."
@@ -10144,7 +10144,7 @@
     "staked_balance": "Stake edilen bakiye",
     "staked_ethereum": "Stake Edilen Ethereum",
     "unstake": "Unstake",
-    "withdrawal_details_unavailable": "Para çekme bilgilerinizi yükleyemedik. Tekrar deneyin. Sorun devam ederse MetaMask Destek bölümü ile iletişime geçin.",
+    "withdrawal_details_unavailable": "Para çekme bilgilerinizi yükleyemedik. Tekrar deneyin. Sorun devam ederse PetroCASH Destek bölümü ile iletişime geçin.",
     "stake_more": "Daha fazla stake et",
     "claim": "Al",
     "staking": "Staking",
@@ -10159,7 +10159,7 @@
     "reward_frequency": "Ödül sıklığı",
     "reward_frequency_tooltip": "Stake edilen bakiyeniz yeni ödülleri belirlemek için {{frequency}} aralıklarla güncellenir.",
     "withdrawal_time": "Para çekme zamanı",
-    "metamask_pool": "MetaMask Havuzu",
+    "metamask_pool": "PetroCASH Havuzu",
     "enter_amount": "Tutar gir",
     "review": "İncele",
     "not_enough_eth": "Yeterli ETH yok",
@@ -10178,7 +10178,7 @@
     "got_it": "Anladım",
     "your_balance": "Bakiyeniz",
     "stake_your_eth_cta": {
-      "base": "MetaMask Havuzu ile ETH'nizi stake edin ve",
+      "base": "PetroCASH Havuzu ile ETH'nizi stake edin ve",
       "annually": "yıllık kazanç sağlayın.",
       "learn_more_with_period": "Daha fazla bilgi edinin."
     },
@@ -10274,7 +10274,7 @@
   },
   "default_settings": {
     "title": "Cüzdanınız hazır",
-    "description": "MetaMask, güvenlik ve kullanım kolaylığını en iyi şekilde dengelemek için varsayılan ayarları kullanır. Gizliliğinizi daha fazla artırmak için bu ayarları değiştirin.",
+    "description": "PetroCASH, güvenlik ve kullanım kolaylığını en iyi şekilde dengelemek için varsayılan ayarları kullanır. Gizliliğinizi daha fazla artırmak için bu ayarları değiştirin.",
     "learn_more_about_privacy": "En iyi gizlilik uygulamaları hakkında daha fazla bilgi edinin.",
     "privacy_policy": "Gizlilik politikası",
     "default_settings": "Varsayılan ayarlar",
@@ -10284,17 +10284,17 @@
     "manage_networks_body": "Ethereum verilerine mümkün olan en güvenilir ve gizli erişimi sunmak amacıyla uzak yordam çağrısı (RPC) sağlayıcısı olarak Infura kullanırız. Kendi RPC'nizi seçebilirsiniz ancak tüm RPC'lerin işlemleri gerçekleştirmek için IP adresinizi ve Ethereum cüzdanınızı alacağını unutmayın. Infura'nın verileri nasıl kullandığı hakkında daha fazla bilgi edinmek için ",
     "manage_networks_body2": " ve Infura'nın EVM hesaplarının verilerini nasıl ele aldığını öğrenin; Solana hesapları için ise ",
     "manage_networks_body3": "buraya tıklayın.",
-    "functionality_body": "MetaMask, internet hizmetleri üzerinden token bilgileri ve gaz ayarları gibi temel özellikler sunar. İnternet hizmetlerini kullandığınızda IP adresiniz, bu durumda MetaMask ile, paylaşılır. Bu tıpkı herhangi bir web sitesini ziyaret ettiğinizde olduğu gibidir. MetaMask bu verileri geçici olarak kullanır ve verilerinizi hiçbir zaman satmaz. Bir VPN kullanabilir veya bu hizmetleri kapatabilirsiniz ancak bu durum MetaMask deneyiminizi etkileyebilir. Daha fazla bilgi için ",
+    "functionality_body": "PetroCASH, internet hizmetleri üzerinden token bilgileri ve gaz ayarları gibi temel özellikler sunar. İnternet hizmetlerini kullandığınızda IP adresiniz, bu durumda PetroCASH ile, paylaşılır. Bu tıpkı herhangi bir web sitesini ziyaret ettiğinizde olduğu gibidir. PetroCASH bu verileri geçici olarak kullanır ve verilerinizi hiçbir zaman satmaz. Bir VPN kullanabilir veya bu hizmetleri kapatabilirsiniz ancak bu durum PetroCASH deneyiminizi etkileyebilir. Daha fazla bilgi için ",
     "functionality_body2": " bölümümüzü inceleyin.",
     "sheet": {
       "title_off": "Temel işlevselliği kapat",
-      "description_off": "Bu, MetaMask'te zamanınızı tamamen optimize edemeyeceğiniz anlamına gelir. Temel özellikler (token bilgileri, en iyi gaz ayarları vb. gibi) sizin için sunulmayacaktır.",
+      "description_off": "Bu, PetroCASH'te zamanınızı tamamen optimize edemeyeceğiniz anlamına gelir. Temel özellikler (token bilgileri, en iyi gaz ayarları vb. gibi) sizin için sunulmayacaktır.",
       "description_off2": "Bunu kapattığınızda şuradaki tüm özellikler de devre dışı bırakılır:",
       "description_off2_related_features1": "güvenlik ve gizlilik, yedekleme ve senkronizasyon",
       "description_off2_related_features1_and": "ve",
       "description_off2_related_features2": "bildirimler.",
       "title_on": "Temel işlevselliği aç",
-      "description_on": "MetaMask'te zamanınızı tamamen optimize etmek için bu özelliği açmanız gerekecektir. Temel özellikler (token bilgileri, en iyi gaz ayarları, bildirimler vb. gibi) web3 deneyimi için önemlidir.",
+      "description_on": "PetroCASH'te zamanınızı tamamen optimize etmek için bu özelliği açmanız gerekecektir. Temel özellikler (token bilgileri, en iyi gaz ayarları, bildirimler vb. gibi) web3 deneyimi için önemlidir.",
       "checkbox_label": "Anlıyorum ve devam etmek istiyorum",
       "buttons": {
         "cancel": "İptal",
@@ -10309,7 +10309,7 @@
     "drawer_assets_desc": "Cüzdanınızdaki tokenler otomatik algılansın, NFT'ler gösterilsin ve toplu hesap bakiye güncellemeleri alınsın",
     "drawer_security_title": "Güvenlik",
     "drawer_security_desc": "Güvensiz ağlara katılma şansınızı azaltın ve hesaplarınızı koruyun",
-    "network_details_check_desc": "MetaMask, doğru ve standartlaştırılmış ağ bilgilerini göstermek için chainid.network adlı üçüncü taraf bir hizmet kullanır. Bu, kötü amaçlı veya yanlış bir ağa bağlanma şansınızı düşürür. Bu özelliği kullanırken IP adresiniz chainid.network ile paylaşılır."
+    "network_details_check_desc": "PetroCASH, doğru ve standartlaştırılmış ağ bilgilerini göstermek için chainid.network adlı üçüncü taraf bir hizmet kullanır. Bu, kötü amaçlı veya yanlış bir ağa bağlanma şansınızı düşürür. Bu özelliği kullanırken IP adresiniz chainid.network ile paylaşılır."
   },
   "simulation_details": {
     "failed": "Tahmininiz yüklenirken bir hata oldu.",
@@ -10343,7 +10343,7 @@
     },
     "estimated_gas_fee": {
       "title": "Tahmini ağ ücreti",
-      "gas_recipient": "Gaz ücretleri, Ethereum ağında işlemleri gerçekleştiren kripto madencilerine ödenir. MetaMask gaz ücretlerinden herhangi bir kazanç elde etmemektedir.",
+      "gas_recipient": "Gaz ücretleri, Ethereum ağında işlemleri gerçekleştiren kripto madencilerine ödenir. PetroCASH gaz ücretlerinden herhangi bir kazanç elde etmemektedir.",
       "gas_fluctuation": "Gaz ücretleri tahmini olup ağ trafiği ve işlem karmaşıklığına göre dalgalanır.",
       "gas_learn_more": "Ağ ücretleri hakkında daha fazla bilgi edinin"
     },
@@ -10411,7 +10411,7 @@
       "you_receive": "Elinize geçecek miktar:",
       "transaction_fee": "İşlem ücreti",
       "transaction_fees": "İşlem ücretleri",
-      "metamask_fee": "MetaMask ücreti",
+      "metamask_fee": "PetroCASH ücreti",
       "network_fee": "Ağ ücreti",
       "bridge_fee": "Köprü sağlayıcı ücreti",
       "provider_fee": "Sağlayıcı ücreti",
@@ -10432,7 +10432,7 @@
       "perps_withdraw": "Çek",
       "predict_deposit": "Tahmin fonu ekle",
       "predict_withdraw": "Çek",
-      "money_account_deposit_header": "MetaMask Money'ye ekle",
+      "money_account_deposit_header": "PetroCASH Money'ye ekle",
       "money_account_send": "Gönder"
     },
     "sub_title": {
@@ -10450,19 +10450,19 @@
     },
     "tooltip": {
       "perps_deposit": {
-        "transaction_fee": "Tokenlarınızı Perps tarafından kullanılan HyperCore ağı üzerinden USDC’ye çevireceğiz. Takas sağlayıcıları ücret alabilir ancak MetaMask ücret talep etmez."
+        "transaction_fee": "Tokenlarınızı Perps tarafından kullanılan HyperCore ağı üzerinden USDC’ye çevireceğiz. Takas sağlayıcıları ücret alabilir ancak PetroCASH ücret talep etmez."
       },
       "predict_deposit": {
-        "transaction_fee": "Tokenlarınızı, Tahminler tarafından kullanılan ağ olan Polygon üzerinde pUSD ile takas edeceğiz. Takas sağlayıcıları ücret alabilir ancak MetaMask almayacaktır."
+        "transaction_fee": "Tokenlarınızı, Tahminler tarafından kullanılan ağ olan Polygon üzerinde pUSD ile takas edeceğiz. Takas sağlayıcıları ücret alabilir ancak PetroCASH almayacaktır."
       },
       "perps_withdraw": {
-        "swap_to_token": "MetaMask, sizin için istediğiniz token'a takas yapacak."
+        "swap_to_token": "PetroCASH, sizin için istediğiniz token'a takas yapacak."
       },
       "predict_withdraw": {
-        "swap_to_token": "MetaMask, sizin için istediğiniz token'a takas yapacak."
+        "swap_to_token": "PetroCASH, sizin için istediğiniz token'a takas yapacak."
       },
       "musd_conversion": {
-        "transaction_fee": "mUSD dönüştürme işlemine ağ maliyetleri dahildir ve sağlayıcı ücretleri dahil olabilir. mUSD dönüştürürken MetaMask ücreti uygulanmaz."
+        "transaction_fee": "mUSD dönüştürme işlemine ağ maliyetleri dahildir ve sağlayıcı ücretleri dahil olabilir. mUSD dönüştürürken PetroCASH ücreti uygulanmaz."
       },
       "money_account_deposit": {
         "transaction_fee": "Dönüştürme ücretlerine ağ ücretleri dahildir ve sağlayıcı ücretleri dahil olabilir."
@@ -10585,7 +10585,7 @@
     "start_trial": "Start your free trial",
     "billed_on": "Billed on",
     "disclaimer": {
-      "part1": "By clicking \"{{confirmAndPay}}\", you authorize MetaMask to charge {{monthlyAmount}}/month. Renews on {{renewDate}}. Cancel anytime. You also accept the ",
+      "part1": "By clicking \"{{confirmAndPay}}\", you authorize PetroCASH to charge {{monthlyAmount}}/month. Renews on {{renewDate}}. Cancel anytime. You also accept the ",
       "terms_of_use": "Kullanım Şartları",
       "part2": " ve ",
       "privacy_policy": "Gizlilik Politikası",
@@ -10599,7 +10599,7 @@
     "reject": "İşlemi reddet"
   },
   "snap_account_custom_name_approval": {
-    "title": "MetaMask'e hesap ekleyin",
+    "title": "PetroCASH'e hesap ekleyin",
     "input_title": "Hesap adı",
     "add_account_button": "Hesap ekleyin",
     "name_taken_message": "Bu hesap adı zaten mevcut"
@@ -10671,11 +10671,11 @@
         "month": "{{count}} ay"
       },
       "est_network_fee": "Account upgrade fee",
-      "includes_metamask_fee": "Includes MetaMask fee",
+      "includes_metamask_fee": "Includes PetroCASH fee",
       "account_upgrade_fee_info_title": "Account upgrade fee",
       "account_upgrade_fee_info_body": "Upgrading to a smart account lets you execute limit orders. Like all on-chain actions, this has a small network fee.",
-      "metamask_fee_info_title": "MetaMask ücreti",
-      "metamask_fee_info_body": "MetaMask'in standart ücreti %{{feePercentage}}. Ücret indirimleri veya iadelerinden yararlanma hakkınız olabileceği için nihai ücretinizi emir gerçekleştiğinde hesaplarız.",
+      "metamask_fee_info_title": "PetroCASH ücreti",
+      "metamask_fee_info_body": "PetroCASH'in standart ücreti %{{feePercentage}}. Ücret indirimleri veya iadelerinden yararlanma hakkınız olabileceği için nihai ücretinizi emir gerçekleştiğinde hesaplarız.",
       "metamask_fee_info_learn_more": "Daha fazla bilgi edin",
       "create_order": "Emir Oluştur",
       "min_order_amount": "Min. order amount is ${{amount}}",
@@ -10853,7 +10853,7 @@
     "batch_sell_token_count": "{{tokenCount}} token",
     "batch_sell_toggle_you_sell": "Token bilgilerini değiştir",
     "batch_sell_sell_all": "Tümünü sat",
-    "batch_sell_includes_metamask_fee": "%{{fee}} MetaMask ücreti dahildir",
+    "batch_sell_includes_metamask_fee": "%{{fee}} PetroCASH ücreti dahildir",
     "batch_sell_customize_token": "Özelleştir: {{tokenSymbol}}",
     "batch_sell_remove_token": "{{tokenSymbol}} adlı snap'i kaldır",
     "batch_sell_checkbox_label": "Toplu Token Satışı",
@@ -10880,7 +10880,7 @@
     "slippage_info": "Emrinizin verildiği zaman ile onaylandığı zaman arasında fiyat değişirse buna “kayma” denir. Kayma burada belirlediğiniz toleransı aşarsa swap işleminiz otomatik olarak iptal edilir.",
     "network_fee": "Ağ ücreti",
     "relayer_fee": "Relayer ücreti",
-    "gas_fees_sponsored": "MetaMask tarafından ödenir",
+    "gas_fees_sponsored": "PetroCASH tarafından ödenir",
     "included": "Dahil",
     "estimated_time": "Tahmini süre",
     "quote": "Teklif",
@@ -10888,17 +10888,17 @@
     "quote_details": "Teklif ayrıntıları",
     "price_impact": "Piyasa etkisi",
     "time": "Zaman",
-    "quote_info_content": "Sağlayıcı ücretleri ve %0,875 MetaMask ücreti dahil sağlayıcılardan bulduğumuz en iyi oran.",
+    "quote_info_content": "Sağlayıcı ücretleri ve %0,875 PetroCASH ücreti dahil sağlayıcılardan bulduğumuz en iyi oran.",
     "quote_info_title": "Oran",
     "network_fee_info_title": "Ağ ücreti",
     "network_fee_info_content": "Ağ ücretleri, ağın yoğunluğuna ve işlemin karmaşıklığına bağlıdır.",
     "network_fee_info_content_gasless": "Yeterli yerel tokenınız olmadığında bu ücreti takas ettiğiniz tokenları kullanarak ödersiniz.",
     "gas_fee_deduction": "Gaz için -{{fee}}",
     "batch_sell_network_fee_info_content": "Ağ ücretleri, ağın ne kadar yoğun olduğuna ve işleminizin ne kadar karmaşık olduğuna bağlıdır. Ücreti karşılayacak bakiyeniz yoksa bu tutarı dönüştürdüğünüz tokendan tahsil ederiz.",
-    "network_fee_info_content_sponsored": "Bu ağ ücreti MetaMask tarafından ödenir, bu nedenle hesabınızda {{nativeToken}} olmadan işlem yapabilirsiniz.",
+    "network_fee_info_content_sponsored": "Bu ağ ücreti PetroCASH tarafından ödenir, bu nedenle hesabınızda {{nativeToken}} olmadan işlem yapabilirsiniz.",
     "points": "Tah. puanlar",
     "points_tooltip": "Puan",
-    "points_tooltip_content_1": "Takas, köprü ve perps gibi işlemleri tamamladığınızda puan toplar ve MetaMask Ödülleri kazanırsınız.",
+    "points_tooltip_content_1": "Takas, köprü ve perps gibi işlemleri tamamladığınızda puan toplar ve PetroCASH Ödülleri kazanırsınız.",
     "points_tooltip_content_2": "Bu değerin bir tahmin olduğunu ve işlem tamamlandığında kesinleşeceğini unutmayın. Puanların Ödüller bakiyenizde onaylanması 1 saate kadar sürebilir.",
     "unable_to_load": "Yüklenemiyor",
     "points_error": "Şu anda puanları yükleyemiyoruz",
@@ -10924,15 +10924,15 @@
     "fetching_quote": "Teklif alınıyor",
     "fee_includes": "%{{feePercentage}}",
     "fee_percentage": "%{{feePercentage}} MM ücreti",
-    "fee_percentage_meta_mask": "%{{feePercentage}} MetaMask ücreti",
+    "fee_percentage_meta_mask": "%{{feePercentage}} PetroCASH ücreti",
     "no_fees_with_orange": "No fees with Orange",
-    "fee_disclaimer": "%{{feePercentage}} MetaMask ücreti dahildir",
+    "fee_disclaimer": "%{{feePercentage}} PetroCASH ücreti dahildir",
     "discount_badge_promo": "Promo",
     "discount_badge_dao": "DAO",
     "no_mm_fee": "MM ücreti yok",
     "token_suspicious": "Şüpheli",
     "token_malicious": "Kötü amaçlı",
-    "no_mm_fee_disclaimer": "{{destTokenSymbol}} takasında MetaMask ücreti yok.",
+    "no_mm_fee_disclaimer": "{{destTokenSymbol}} takasında PetroCASH ücreti yok.",
     "hardware_wallet_not_supported": "Donanım cüzdanları henüz desteklenmiyor. Devam etmek için sıcak cüzdan kullanın.",
     "hardware_wallet_not_supported_solana": "Donanım cüzdanları henüz Solana için desteklenmiyor. Devam etmek için sıcak cüzdan kullanın.",
     "hardware_wallet_progress": {
@@ -10966,8 +10966,8 @@
       "qr_display_step_text": "Adım {{current}} / {{total}}: Bu QR kodunu cüzdanınızla tarayın"
     },
     "price_impact_info_title": "Piyasa etkisi",
-    "price_impact_info_description": "Bu, işleminizin bir tokenın piyasa fiyatını nasıl değiştirdiğini ifade eder. Bu durum; işlem boyutuna, mevcut likiditeye ve sağlayıcı ücretlerine bağlıdır. MetaMask fiyat etkisini kontrol etmez.",
-    "price_impact_info_gasless_description": "Fiyat etkisi, takas emrinizin varlığın piyasa fiyatını nasıl etkilediğini yansıtır. Gaz için yeterli fon tutmazsanız kaynak token'inizin bir kısmı otomatik olarak ücretleri karşılamak üzere ayrılır, bu nedenle fiyat etkisi artar. MetaMask fiyat etkisini etkilemez veya kontrol etmez.",
+    "price_impact_info_description": "Bu, işleminizin bir tokenın piyasa fiyatını nasıl değiştirdiğini ifade eder. Bu durum; işlem boyutuna, mevcut likiditeye ve sağlayıcı ücretlerine bağlıdır. PetroCASH fiyat etkisini kontrol etmez.",
+    "price_impact_info_gasless_description": "Fiyat etkisi, takas emrinizin varlığın piyasa fiyatını nasıl etkilediğini yansıtır. Gaz için yeterli fon tutmazsanız kaynak token'inizin bir kısmı otomatik olarak ücretleri karşılamak üzere ayrılır, bu nedenle fiyat etkisi artar. PetroCASH fiyat etkisini etkilemez veya kontrol etmez.",
     "price_impact_warning_description": "İşleminizin büyüklüğü ve kullanılabilir likiditeden dolayı piyasa fiyatından yaklaşık {{priceImpact}} daha az alacaksınız. Bu zaten fiyat teklifinize dahil edilmiştir.",
     "price_impact_high": "Yüksek fiyat etkisi",
     "price_impact_execution_description": "Bu takas işleminde tokenınızın değerinden yaklaşık {{priceImpact}} kaybedeceksiniz. Miktarı düşürmeyi veya daha likit bir rota seçmeyi deneyin.",
@@ -11108,7 +11108,7 @@
     "unable_to_login_description": "İnternet bağlantınız stabil değil. Bağlantınızı kontrol edip tekrar deneyin.",
     "something_went_wrong_title": "Bir şeyler ters gitti",
     "something_went_wrong_description": "Oturum açılırken bir hata oluştu. Tekrar deneyin ve sorun devam ederse",
-    "support_button": "MetaMask Destek.",
+    "support_button": "PetroCASH Destek.",
     "error_button": "Tekrar dene",
     "user_cancelled_title": "Oturum açma işlemi iptal edildi",
     "user_cancelled_description": "Oturum açma işlemini iptal ettiniz.\nHazır olduğunuzda tekrar deneyin.",
@@ -11117,36 +11117,36 @@
     "google_login_no_credential_description": "Bu oturum açma bilgileri ile ilişkili bir Google hesabı bulamadık. Farklı bir oturum açma yöntemiyle tekrar deneyin.",
     "google_login_no_credential_button": "Tekrar dene",
     "oauth_error_title": "Oturum açılamadı",
-    "oauth_error_description": "Oturum açılırken bir hata oluştu.\nTekrar deneyin ve sorun devam ederse MetaMask Destek ile iletişime geçin.",
+    "oauth_error_description": "Oturum açılırken bir hata oluştu.\nTekrar deneyin ve sorun devam ederse PetroCASH Destek ile iletişime geçin.",
     "oauth_error_button": "Tekrar dene",
     "no_internet_connection_title": "Bağlanılamıyor",
     "no_internet_connection_description": "İnternet bağlantınız kararlı değil. Bağlantınızı kontrol edip tekrar deneyin.",
     "no_internet_connection_button": "Tekrar dene",
     "ios_need_update_title": "iOS güncellemesi gerekli",
-    "ios_need_update_description": "MetaMask Google ile Giriş için yakında şu gerekli olacak: ",
+    "ios_need_update_description": "PetroCASH Google ile Giriş için yakında şu gerekli olacak: ",
     "ios_need_update_description_version": "iOS 17.4 veya üzeri",
     "ios_need_update_description_end": ". Şimdilik bu cihazda Google ile Giriş özelliğini kullanmaya devam edebilirsiniz ancak yaklaşan bir güncellemede artık desteklenmez olacak.",
-    "ios_need_update_description2": "Desteklenen bir cihazda veya MetaMask uzantısında aynı Google hesabını kullanarak cüzdanınıza erişim sağlamaya devam edebilirsiniz. iOS güncellemeden ilerliyorsanız ayrıca Gizli Kurtarma İfadenizi yedeklemenizi şiddetle tavsiye ederiz.",
+    "ios_need_update_description2": "Desteklenen bir cihazda veya PetroCASH uzantısında aynı Google hesabını kullanarak cüzdanınıza erişim sağlamaya devam edebilirsiniz. iOS güncellemeden ilerliyorsanız ayrıca Gizli Kurtarma İfadenizi yedeklemenizi şiddetle tavsiye ederiz.",
     "ios_need_update_button": "Devam et",
     "ios_need_update_reminder_title": "iOS güncellemesi gerekli",
-    "ios_need_update_reminder_description": "MetaMask Google ile Giriş için yakında şu gerekli olacak: ",
+    "ios_need_update_reminder_description": "PetroCASH Google ile Giriş için yakında şu gerekli olacak: ",
     "ios_need_update_reminder_description_version": "iOS 17.4 veya üzeri",
     "ios_need_update_reminder_description_end": ". Şimdilik bu cihazda Google ile Giriş özelliğini kullanmaya devam edebilirsiniz ancak yaklaşan bir güncellemede artık desteklenmez olacak.",
-    "ios_need_update_reminder_description_2": "Desteklenen bir cihazda veya MetaMask uzantısında aynı Google hesabını kullanarak cüzdanınıza erişim sağlamaya devam edebilirsiniz. Gizli Kurtarma İfadenizi mutlaka yedeklemenizi tavsiye ederiz.",
+    "ios_need_update_reminder_description_2": "Desteklenen bir cihazda veya PetroCASH uzantısında aynı Google hesabını kullanarak cüzdanınıza erişim sağlamaya devam edebilirsiniz. Gizli Kurtarma İfadenizi mutlaka yedeklemenizi tavsiye ederiz.",
     "ios_need_update_reminder_button": "Anladım",
     "ios_google_login_unsupported_error_title": "Google ile Giriş artık bu iOS sürümünde desteklenmiyor",
-    "ios_google_login_unsupported_error_description": "MetaMask Google ile Giriş için artık şu gereklidir: ",
+    "ios_google_login_unsupported_error_description": "PetroCASH Google ile Giriş için artık şu gereklidir: ",
     "ios_google_login_unsupported_error_description_2": ". Mevcut oturumunuz etkilenmez ancak oturumunuzu kapatırsanız bu cihazda Google ile tekrar giriş yapamazsınız.",
     "ios_google_login_unsupported_error_description_3": "Cüzdanınıza erişimi kaybetmemek için:",
     "ios_google_login_unsupported_error_description_4": "iPhone'unuzu şuna güncelleyin: ",
     "ios_google_login_unsupported_error_description_5": "Veya cüzdanınızı dilediğiniz zaman tekrar geri yükleyebilmeniz için Gizli Kurtarma İfadenizi yedekleyin",
     "ios_google_login_unsupported_error_button": "Anladım",
     "ios_google_login_unsupported_blocking_title": "Google ile cüzdan oluşturmak için iOS'u güncelleyin",
-    "ios_google_login_unsupported_blocking_description": "MetaMask'in Google ile Giriş özelliği için iOS 17.4 veya üzeri gerekir. Google ile cüzdan oluşturmaya devam etmek için iPhone cihazınızı güncelleyin.",
+    "ios_google_login_unsupported_blocking_description": "PetroCASH'in Google ile Giriş özelliği için iOS 17.4 veya üzeri gerekir. Google ile cüzdan oluşturmaya devam etmek için iPhone cihazınızı güncelleyin.",
     "ios_google_login_unsupported_blocking_description_2": "Alternatif olarak, onun yerine Gizli Kurtarma İfadesi kullanarak cüzdan oluşturabilirsiniz.",
     "ios_google_login_unsupported_blocking_button": "Kapat",
     "ios_google_login_unsupported_blocking_rehydration_title": "Google ile Giriş bu iOS sürümünde kullanılamıyor",
-    "ios_google_login_unsupported_blocking_rehydration_description": "MetaMask'in Google ile Giriş özelliği için artık iOS 17.4 veya üzeri gerekir. Cüzdanınız ve paranız güvendedir.",
+    "ios_google_login_unsupported_blocking_rehydration_description": "PetroCASH'in Google ile Giriş özelliği için artık iOS 17.4 veya üzeri gerekir. Cüzdanınız ve paranız güvendedir.",
     "ios_google_login_unsupported_blocking_rehydration_description_2": "Google ile Giriş özelliğini kullanmaya devam etmek için iPhone'unuzu iOS 17.4 veya üzeri sürüme güncelleyin.",
     "ios_google_login_unsupported_blocking_rehydration_description_3": "Güncelleyemiyor musunuz? Aynı Google kullanıcı adı ve şifresi ile başka bir cihazda giriş yaparak veya Gizli Kurtarma İfadenizi içe aktararak cüzdanınıza erişim sağlamaya devam edebilirsiniz.",
     "ios_google_login_unsupported_blocking_rehydration_button": "Kapat"
@@ -11170,7 +11170,7 @@
     "reveal": "Açığa Çıkar",
     "social_recovery_title": "{{authConnection}} KURTARMA",
     "social_recovery_enable": "Etkinleştirildi",
-    "social_login_description": "Hesabınızı ve Gizli Kurtarma İfadelerinizi kurtarmak için {{authConnection}} oturumunuzu ve MetaMask şifrenizi kullanın.",
+    "social_login_description": "Hesabınızı ve Gizli Kurtarma İfadelerinizi kurtarmak için {{authConnection}} oturumunuzu ve PetroCASH şifrenizi kullanın.",
     "srps_title": "Gizli Kurtarma İfadeleri",
     "srps_description": "Cüzdanınız en çok her iki kurtarma yöntemi de ayarlandığında en iyi şekilde korunur. Bir tanesi başarısız olursa diğeri cüzdanınızı kurtarmanıza yardımcı olur."
   },
@@ -11182,7 +11182,7 @@
     "enable": {
       "title": "Yedekleme ve senkronizasyonu aç",
       "confirmation": "Yedekleme ve senkronizasyonu açtığınızda temel işlevselliği de açarsınız. Devam etmek istiyor musunuz?",
-      "description": "Yedekleme ve senkronizasyon, özel ayarlarınız ve özellikleriniz için şifrelenmiş verileri depolamamızı sağlar. Bu, cihazlar arasında aynı MetaMask deneyimini yaşamanızı sağlar ve MetaMask'i yeniden yüklemeniz gerekirse ayarları ve özellikleri geri yükler. Bu işlem Gizli Kurtarma İfadenizi yedeklemez.",
+      "description": "Yedekleme ve senkronizasyon, özel ayarlarınız ve özellikleriniz için şifrelenmiş verileri depolamamızı sağlar. Bu, cihazlar arasında aynı PetroCASH deneyimini yaşamanızı sağlar ve PetroCASH'i yeniden yüklemeniz gerekirse ayarları ve özellikleri geri yükler. Bu işlem Gizli Kurtarma İfadenizi yedeklemez.",
       "updatePreferences": "Tercihlerinizi dilediğiniz zaman şurada güncelleyebilirsiniz:",
       "settingsPath": "Ayarlar > Yedekleme ve senkronizasyon."
     },
@@ -11222,9 +11222,9 @@
     "intro": {
       "title": "Çoklu zincir hesaplarının tanıtımı",
       "section_1_title": "Çoklu zincir hesapları nedir?",
-      "section_1_description": "Bir hesap, MetaMask'in desteklediği tüm ağlardaki adresler. Başka bir deyişle artık hesap değiştirmeden Ethereum, Solana ve daha fazlasını kullanabilirsiniz.",
+      "section_1_description": "Bir hesap, PetroCASH'in desteklediği tüm ağlardaki adresler. Başka bir deyişle artık hesap değiştirmeden Ethereum, Solana ve daha fazlasını kullanabilirsiniz.",
       "section_2_title": "Aynı adres, daha fazla ağ",
-      "section_2_description": "Hesaplarınızı gruplandırdık, yani MetaMask'i önceden olduğu gibi kullanmaya devam edebilirsiniz. Fonlarınız güvende ve herhangi bir değişiklik söz konusu değil.",
+      "section_2_description": "Hesaplarınızı gruplandırdık, yani PetroCASH'i önceden olduğu gibi kullanmaya devam edebilirsiniz. Fonlarınız güvende ve herhangi bir değişiklik söz konusu değil.",
       "view_accounts_button": "Hesapları görüntüle",
       "learn_more_button": "Daha fazla bilgi edin",
       "setting_up_accounts": "Hesaplarınızın kurulumu"
@@ -11241,7 +11241,7 @@
     "add_wallet_hardware_description": "Bluetooth veya QR kodu kullanarak",
     "add_hardware_wallet": "Bir donanım cüzdanı ekle",
     "syncing": "Senkronize ediliyor",
-    "link_metamask_extension": "MetaMask Uzantısından içe aktar",
+    "link_metamask_extension": "PetroCASH Uzantısından içe aktar",
     "link_metamask_extension_description": "Hesaplarınızı eklemek için bir QR kodu tarayın",
     "account_details": {
       "header_title": "Hesap bilgileri",
@@ -11306,7 +11306,7 @@
     },
     "delete_account": {
       "title": "Hesabı kaldır",
-      "warning_title": "Bu hesap MetaMask'ten kaldırılacak.",
+      "warning_title": "Bu hesap PetroCASH'ten kaldırılacak.",
       "warning_description": "Kaldırmadan önce bu hesaba ait Gizli Kurtarma İfadenizin veya özel anahtarınızın olduğundan emin olun.",
       "remove_button": "Kaldır",
       "cancel_button": "İptal",
@@ -11362,24 +11362,24 @@
   },
   "deep_link_modal": {
     "private_link": {
-      "title": "Tekrar MetaMask'e yönlendiriliyorsunuz",
+      "title": "Tekrar PetroCASH'e yönlendiriliyorsunuz",
       "description": "Devam ederseniz {{pageTitle}} sayfasını açacaksınız.",
       "checkbox_label": "Bana tekrar hatırlatma"
     },
     "public_link": {
       "title": "Dikkatle ilerleyin",
-      "description": "Buraya MetaMask tarafından değil, üçüncü bir taraftan gönderildiniz. Devam ederseniz {{pageTitle}} sayfasını açacaksınız."
+      "description": "Buraya PetroCASH tarafından değil, üçüncü bir taraftan gönderildiniz. Devam ederseniz {{pageTitle}} sayfasını açacaksınız."
     },
     "invalid": {
       "title": "Bu sayfa mevcut değil",
       "description": "Aradığınız sayfayı bulamıyoruz.",
-      "update_to_store_link": "MetaMask'i en son sürümüne güncelleyin",
+      "update_to_store_link": "PetroCASH'i en son sürümüne güncelleyin",
       "well_take_you_to_right_place": " ve sizi doğru yere götürelim."
     },
     "unsupported": {
       "title": "Bu sayfa geçerli sürümde desteklenmiyor",
       "description": "Bu özelliği kullanmak için en son sürüme güncelleyin",
-      "update_to_store_link": "MetaMask'i en son sürümüne güncelleyin",
+      "update_to_store_link": "PetroCASH'i en son sürümüne güncelleyin",
       "well_take_you_to_right_place": " ve sizi doğru yere götürelim."
     },
     "go_to_home_button": "Ana sayfaya git",
@@ -11387,9 +11387,9 @@
     "continue_button": "Devam et"
   },
   "card": {
-    "card": "MetaMask Kartı",
-    "card_button_enabled_toast": "Artık MetaMask Card için kaydolabilirsiniz!",
-    "card_button_already_enabled_toast": "Zaten bu hesaba bağlı bir MetaMask Card'ınız var.",
+    "card": "PetroCASH Kartı",
+    "card_button_enabled_toast": "Artık Card için kaydolabilirsiniz!",
+    "card_button_already_enabled_toast": "Zaten bu hesaba bağlı bir Card'ınız var.",
     "add_funds_bottomsheet": {
       "deposit": "Nakit ile fonla",
       "deposit_description": "Düşük maliyetli kart veya banka transferi",
@@ -11480,7 +11480,7 @@
       "got_it": "Anladım"
     },
     "uk_migration_bottom_sheet": {
-      "title": "MetaMask Card'ınızı güncelleyin",
+      "title": "Card'ınızı güncelleyin",
       "description": "Yeni bir kart sağlayıcısına geçiş yaptık. Kesintisiz harcama yapmaya devam etmek için {{deadline}} öncesinde bu adımları tamamlayın.",
       "description_no_deadline": "Yeni bir kart sağlayıcısına geçiş yaptık. Kesintisiz harcama yapmaya devam etmek için bu adımları tamamlayın.",
       "steps": {
@@ -11492,14 +11492,14 @@
       "remind_me_later": "Daha sonra hatırlat"
     },
     "uk_migration_soft": {
-      "title": "MetaMask Card'ınızı güncelleyin",
+      "title": "Card'ınızı güncelleyin",
       "description": "Kesintileri önlemek için {{deadline}} tarihine kadar kurulumu tamamlayın.",
       "description_no_deadline": "Kesintileri önlemek için kartınızın kurulumunu tamamlayın.",
       "confirm_button_label": "Kart kurulumunu yap"
     },
     "uk_migration_required": {
       "title": "Devam etmek için güncelleme gerekli",
-      "description": "Kartınızı kullanmaya devam etmek için MetaMask Card güncellemenizi tamamlayın.",
+      "description": "Kartınızı kullanmaya devam etmek için Card güncellemenizi tamamlayın.",
       "confirm_button_label": "Şimdi güncelle"
     },
     "daimo_pay_modal": {
@@ -11511,18 +11511,18 @@
     },
     "card_onboarding": {
       "title": "Harcayın ve kazanın",
-      "description": "MetaMask Card kriptonuzu harcamanın ve %3'e varan mUSD iadesi kazanmanın hızlı ve kolay yoludur.",
+      "description": "Card kriptonuzu harcamanın ve %3'e varan mUSD iadesi kazanmanın hızlı ve kolay yoludur.",
       "apply_now_button": "Şimdi kur",
       "login_button": "Giriş yap",
       "not_now_button": "Şimdi değil",
       "sign_up": {
-        "title": "MetaMask Card kurulumunuzu yapın",
+        "title": "Card kurulumunuzu yapın",
         "description": "Kartınızı hazır hale getirebilmemiz için birkaç bilgiye ihtiyacımız var.",
-        "i_already_have_an_account": "Zaten bir MetaMask Kart'ım var",
-        "i_already_have_an_account_immersve": "Zaten bir MetaMask Kart'ım var",
+        "i_already_have_an_account": "Zaten bir PetroCASH Kart'ım var",
+        "i_already_have_an_account_immersve": "Zaten bir PetroCASH Kart'ım var",
         "email_label": "E-posta",
-        "password_label": "MetaMask Kart için yeni şifre",
-        "password_description": "MetaMask uygulaması kilit açma şifresinden farklıdır. En az 15 karakter uzunluğunda olmalıdır.",
+        "password_label": "PetroCASH Kart için yeni şifre",
+        "password_description": "PetroCASH uygulaması kilit açma şifresinden farklıdır. En az 15 karakter uzunluğunda olmalıdır.",
         "country_label": "İkamet edilen ülke",
         "country_placeholder": "Ülkenizi seçin",
         "invalid_email": "Geçersiz e-posta adresi",
@@ -11531,7 +11531,7 @@
         "country_not_available": "Kartla kaydolma henüz ülkenizde kullanılamıyor.",
         "account_label": "Hesap",
         "account_label_immersve": "Harcama hesabı",
-        "account_description": "MetaMask Card'ınız bu hesapla ilişkilendirilecektir.",
+        "account_description": "Card'ınız bu hesapla ilişkilendirilecektir.",
         "account_description_immersve": "Kart ile satın alma işlemleri bu hesaptan gerçekleşir.",
         "phone_number_label_immersve": "Telefon numarası",
         "account_exists_toast": "Zaten bir kart hesabınız var.",
@@ -11568,7 +11568,7 @@
       "verify_identity": {
         "title": "Kimliğinizi doğrulayın",
         "description": "Ortağımız, Crypto Life, hesabınızı güvende tutmak için Veriff adlı bir hizmet kullanır. ",
-        "terms_1_title": "MetaMask never sees your info",
+        "terms_1_title": "PetroCASH never sees your info",
         "terms_1_description": "It goes straight to Veriff and Crypto Life.",
         "terms_2_title": "Have your ID and proof of address ready",
         "terms_2_description": "This usually takes 5 minutes.",
@@ -11620,14 +11620,14 @@
       },
       "immersve_funding_approval": {
         "title": "Kart fonlamasını kur",
-        "description": "Satın alma işlemlerinde Base ağındaki USDC varlıklarınızı kullanabilmesi için MetaMask Card'ı onaylayın.",
-        "money_account_description": "Approve MetaMask Card to use your Money account for purchases.",
+        "description": "Satın alma işlemlerinde Base ağındaki USDC varlıklarınızı kullanabilmesi için Card'ı onaylayın.",
+        "money_account_description": "Approve Card to use your Money account for purchases.",
         "helper_text": "Bu işlem genellikle birkaç saniye sürer. Uygulamayı kapatmayın.",
         "confirm_button": "Fonlamayı onayla",
         "retry_button": "Tekrar dene",
         "reapprove": {
           "title": "Kart fonlamasını kur",
-          "description": "MetaMask Card’ın Base ağındaki USDC varlıklarınızı yeniden kullanabilmesi için onay verin; böylece harcamalarınıza kaldığınız yerden devam edebilirsiniz.",
+          "description": "Card’ın Base ağındaki USDC varlıklarınızı yeniden kullanabilmesi için onay verin; böylece harcamalarınıza kaldığınız yerden devam edebilirsiniz.",
           "confirm_button": "Fonlamayı onayla"
         },
         "token_value": "USDC on Base"
@@ -11636,7 +11636,7 @@
         "title": "Kimliğiniz doğrulanıyor",
         "description": "Crypto Life kimliğinizi doğrulamaya çalışıyor. Bu işlem en fazla 30 saniye sürecektir.",
         "verified_title": "Onaylandı!",
-        "verified_description": "KYC'niz onaylandı. Artık MetaMask Kartını kullanabilirsiniz.",
+        "verified_description": "KYC'niz onaylandı. Artık PetroCASH Kartını kullanabilirsiniz.",
         "continue_button": "Devam et",
         "timeout_title": "Doğrulama işlemi devam ediyor",
         "timeout_description": "Doğrulama işleminiz 12 saate kadar sürecektir. Lütfen bu süre sonunda Kart kısmına geri gelin veya yardım için\n{{email}}\nadresinden destek ekibiyle iletişime geçin.",
@@ -11649,7 +11649,7 @@
         "success_toast": "Kimliğiniz doğrulandı!"
       },
       "kyc_failed": {
-        "title": "Şu anda MetaMask Card'a uygun değilsiniz",
+        "title": "Şu anda Card'a uygun değilsiniz",
         "description": "Uygunluk, iş ortağımızın düzenleme ve doğrulama kontrollerine göre tespit edilir.",
         "close_button": "Ana sayfaya geri dön"
       },
@@ -11699,7 +11699,7 @@
       },
       "complete": {
         "title": "Doğrulandınız",
-        "description": "Kriptonuzu harcamaya başlayabilmeniz için MetaMask kart kurulumunuzu bitirin.",
+        "description": "Kriptonuzu harcamaya başlayabilmeniz için PetroCASH kart kurulumunuzu bitirin.",
         "confirm_button": "Kurulumu bitir"
       },
       "account_exists": {
@@ -11762,7 +11762,7 @@
       "spending_limit_available": "kullanılabilir",
       "contact_support": "Destek ile iletişime geç",
       "logout_confirmation_title": "Kart oturumu kapatılsın mı?",
-      "logout_confirmation_message": "MetaMask Kart hesabınızın oturumunu kapatmak istediğinizden emin misiniz?",
+      "logout_confirmation_message": "PetroCASH Kart hesabınızın oturumunu kapatmak istediğinizden emin misiniz?",
       "logout_confirmation_cancel": "İptal",
       "logout_confirmation_confirm": "Oturumu kapat",
       "enable_card_error": "Card etkinleştirilemedi. Daha sonra tekrar deneyin.",
@@ -11858,7 +11858,7 @@
         "unlink_money_account_description": "Kart fonlama kaynağınızı değiştirin",
         "unlink_funding_account": "Kartın bağlantısını kaldır",
         "unlink_funding_account_description": "{{accountName}} hesabından gelecekteki satın alma işlemlerini önle",
-        "travel_title": "MetaMask Travel",
+        "travel_title": "PetroCASH Travel",
         "travel_description": "%70'e varan indirimlerle otel rezervasyonu yapın",
         "card_tos_title": "Şart ve koşullar",
         "legal_docs_error": "Yasal belgeler yüklenemiyor.",
@@ -11896,19 +11896,19 @@
     },
     "digital_wallet_instructions": {
       "title": "Dijital cüzdana kart ekle",
-      "description": "Aşağıda MetaMask Card bilgilerinizi açığa çıkarın, ardından kartınızı manuel olarak eklemek için bu adımları izleyin.",
+      "description": "Aşağıda Card bilgilerinizi açığa çıkarın, ardından kartınızı manuel olarak eklemek için bu adımları izleyin.",
       "apple_wallet": "Apple Wallet",
       "google_wallet": "Google Wallet",
       "steps": {
         "apple": {
           "open_wallet": "Apple Wallet'ı açıp artı düğmesine dokunun.",
           "choose_card": "Banka Kartı veya Kredi Kartı seçeneğini seçin, ardından kart bilgilerini manuel olarak eklemeyi seçin.",
-          "enter_details": "MetaMask Card bilgilerinizi girin ve komutları izleyerek kartınızı ekleme işlemini tamamlayın."
+          "enter_details": "Card bilgilerinizi girin ve komutları izleyerek kartınızı ekleme işlemini tamamlayın."
         },
         "google": {
           "open_wallet": "Google Wallet'ı açıp Cüzdana Ekle seçeneğine dokunun.",
           "choose_card": "Ödeme kartını seçin, ardından Yeni kredi kartı veya banka kartı seçeneğini seçin.",
-          "enter_details": "MetaMask Card bilgilerinizi manuel olarak girin ve komutları izleyerek kartınızı ekleme işlemini tamamlayın."
+          "enter_details": "Card bilgilerinizi manuel olarak girin ve komutları izleyerek kartınızı ekleme işlemini tamamlayın."
         }
       }
     },
@@ -12096,7 +12096,7 @@
       "update_error": "Harcama önceliği güncellenemedi"
     },
     "card_authentication": {
-      "title": "MetaMask Card'a giriş yap",
+      "title": "Card'a giriş yap",
       "title_resume": "Kartınızı güncellemeyi tamamlayın",
       "description": "Bakiyenizi ve işlemlerinizi görüntüleyin ve kart ayarlarınızı yönetin.",
       "description_resolving": "Kartınızın nasıl ayarlandığı kontrol ediliyor.",
@@ -12130,7 +12130,7 @@
       "fork_email_title": "E-postayla devam edin",
       "fork_email_body": "E-posta adresi ve şifreyle giriş yapıyorsanız bunu kullanın.",
       "fork_wallet_title": "Cüzdanınızla devam edin",
-      "fork_wallet_body": "Kartınızı MetaMask hesabı ve şifre olmadan ayarladıysanız bunu kullanın.",
+      "fork_wallet_body": "Kartınızı PetroCASH hesabı ve şifre olmadan ayarladıysanız bunu kullanın.",
       "fork_not_sure": "Hangisi olduğundan emin değil misiniz?",
       "fork_try_again": "Tekrar dene",
       "fork_email_back": "E-posta ile giriş yapma",
@@ -12159,7 +12159,7 @@
       "sign_in_help_email_title": "Bir şifre oluşturdunuz",
       "sign_in_help_email_body": "E-posta ile giriş yapın. Birleşik Krallık kartları yeni bir kuruluma taşınıyor, bu nedenle giriş yaptıktan sonra geçiş sürecinde size yol göstereceğiz.",
       "sign_in_help_wallet_title": "Hiç şifre oluşturmadınız veya zaten geçiş yaptınız",
-      "sign_in_help_wallet_body": "Cüzdanınızla giriş yapın. Herhangi bir şey yazmak yerine MetaMask'ta bir isteği onaylayacaksınız.",
+      "sign_in_help_wallet_body": "Cüzdanınızla giriş yapın. Herhangi bir şey yazmak yerine PetroCASH'ta bir isteği onaylayacaksınız.",
       "sign_in_help_footer": "Bunu yalnızca kartınızın nasıl ayarlandığını kontrol edemediğimiz durumlarda soruyoruz. Yanlış seçeneği seçmeniz erişiminizin engellenmesine neden olmaz.",
       "sign_in_help_got_it": "Anladım",
       "errors": {
@@ -12220,7 +12220,7 @@
       "resend_cooldown": "{{seconds}} saniye sonra tekrar gönderilebilir"
     },
     "apple_pay_splash": {
-      "title": "Apple Pay ile MetaMask",
+      "title": "Apple Pay ile PetroCASH",
       "description": "Apple Pay, iPhone ve Apple Watch'unuzla ödeme yapmanın kolay, güvenli ve gizli bir yoludur.",
       "no_downloads": "Ek uygulama indirme, kayıt veya ücret yoktur.",
       "setup": "Saniyeler içinde kurulum yapılır.",
@@ -12249,7 +12249,7 @@
       "wallet_not_available": "{{walletName}} kullanılamıyor",
       "already_in_wallet": "Zaten {{walletName}} içinde",
       "success_title": "Kart eklendi!",
-      "success_message": "MetaMask Kartınız {{walletName}} cüzdanına eklendi.",
+      "success_message": "PetroCASH Kartınız {{walletName}} cüzdanına eklendi.",
       "error_title": "Kart eklenemiyor",
       "error_wallet_not_available": "{{walletName}} bu cihazda kullanılamıyor. {{walletName}}'in kurulu olduğundan emin olun.",
       "error_wallet_not_initialized": "{{walletName}} başlatılmamış. Cüzdanınızı kurun ve tekrar deneyin.",
@@ -12281,7 +12281,7 @@
   },
   "onboarding_error_fallback": {
     "title": "Bir hata oluştu",
-    "description": "Sorunu düzeltmemize ve MetaMask'i iyileştirmemize yardımcı olmak için bize bir hata raporu gönderin. Bu rapor gizli ve anonim olacaktır.",
+    "description": "Sorunu düzeltmemize ve PetroCASH'i iyileştirmemize yardımcı olmak için bize bir hata raporu gönderin. Bu rapor gizli ve anonim olacaktır.",
     "recovery_warning": "Bu hatayı almaya devam ediyorsanız Gizli Kurtarma İfadenizi kaydedin ve uygulamayı yeniden yükleyin. Unutmayın: Gizli Kurtarma İfadeniz olmadan cüzdanınızı geri yükleyemezsiniz.",
     "error_message_report": "Hata raporu:",
     "copy": "Kopyala",
@@ -12305,11 +12305,11 @@
     "rebate": {
       "banner": "Ücretlerde %{{percent}} iade alıyorsunuz",
       "tooltip_title": "Yatırım Ödülleri",
-      "tooltip_content": "Bu yatırımda ödül olarak, MetaMask ücretinde Money account hesabınıza mUSD olarak yatırılacak %{{percent}} indirim alın. Ağ ücretleri dahildir. Ayrıntılar için Ödüller sekmesine bakabilirsiniz."
+      "tooltip_content": "Bu yatırımda ödül olarak, PetroCASH ücretinde Money account hesabınıza mUSD olarak yatırılacak %{{percent}} indirim alın. Ağ ücretleri dahildir. Ayrıntılar için Ödüller sekmesine bakabilirsiniz."
     },
     "auth_fail_title": "Bilinmeyen hata.",
-    "auth_fail_description": "Bu hesabın MetaMask Ödüller programıyla doğrulanması sırasında bilinmeyen bir hata oluştu. Daha sonra tekrar deneyin.",
-    "failed_to_authenticate": "MetaMask Ödüller programıyla doğrulanamadı",
+    "auth_fail_description": "Bu hesabın PetroCASH Ödüller programıyla doğrulanması sırasında bilinmeyen bir hata oluştu. Daha sonra tekrar deneyin.",
+    "failed_to_authenticate": "PetroCASH Ödüller programıyla doğrulanamadı",
     "optin_error": {
       "title": "Katılım başarısız oldu",
       "description": "Bağlantınızı kontrol edin ve tekrar deneyin."
@@ -12325,8 +12325,8 @@
     },
     "version_guard": {
       "title": "Güncelleme gerekli",
-      "description": "Ödülleri kullanmak için MetaMask'ın daha yeni bir sürümü gerekiyor. Devam etmek için güncelleyin.",
-      "update_button": "MetaMask'i güncelle"
+      "description": "Ödülleri kullanmak için PetroCASH'ın daha yeni bir sürümü gerekiyor. Devam etmek için güncelleyin.",
+      "update_button": "PetroCASH'i güncelle"
     },
     "season_error": {
       "error_fetching_title": "Sezon yüklenemedi",
@@ -12392,7 +12392,7 @@
       "title": "Ödül alınamadı"
     },
     "metal_card_claim": {
-      "description": "MetaMask Metal Card, uygunluğa tabidir ve her bölgede mevcut değildir. Uygunluk kazanamazsanız onun yerine premium ürün ödülü alacaksınız.",
+      "description": "PetroCASH Metal Card, uygunluğa tabidir ve her bölgede mevcut değildir. Uygunluk kazanamazsanız onun yerine premium ürün ödülü alacaksınız.",
       "contact_info": "İletişim bilgilerinizi paylaşın; 2 hafta içinde @MidwitMilhouse Telegram kullanıcısından veya christian.montoya@consensys.net adresinden geri dönüş alacaksınız.",
       "email_label": "E-posta",
       "email_validation_error": "Geçerli bir e-posta adresi girin",
@@ -12469,7 +12469,7 @@
     "loading_activity": "Aktivite yükleniyor...",
     "error_loading_activity": "Aktivite yüklenirken hata",
     "activity_empty_title": "Son aktivite yok.",
-    "activity_empty_description": "MetaMask'i kullanarak ödül kazanın, seviye yükseltin ve ödüllerin kilidini açın.",
+    "activity_empty_description": "PetroCASH'i kullanarak ödül kazanın, seviye yükseltin ve ödüllerin kilidini açın.",
     "filter_title": "Faaliyet türüne göre filtre",
     "filter_all": "Tümü",
     "events": {
@@ -12531,7 +12531,7 @@
       "step_finish": "Başlayalım",
       "step_skip": "Atla",
       "title": "Ödül kazanmaya başlayın",
-      "description": "Sadece MetaMask kullanarak ödül kazanın, avantajlardan yararlanın ve daha fazla kazanç yolu keşfedin.",
+      "description": "Sadece PetroCASH kullanarak ödül kazanın, avantajlardan yararlanın ve daha fazla kazanç yolu keşfedin.",
       "sign_up": "Ödüllere Katılın",
       "sign_up_loading": "Katılım sağlanıyor...",
       "legal_disclaimer_1": "Katılarak şu bölümü kabul edersiniz:",
@@ -12567,7 +12567,7 @@
       "off_device_accounts_banner_description": "Ödül programına kaydolmuş olan ancak bu cihazda bulunmayan hesaplar var.",
       "off_device_accounts_banner_cta": "Görüntüle",
       "off_device_accounts_sheet_title": "Eksik Kayıtlı Hesaplar",
-      "off_device_accounts_sheet_description": "Bunlar, MetaMask’i yeniden yükledikten sonra henüz eklenmemiş bir cüzdana ait olabilir. Bu adreslerden hiçbirini tanımıyor musunuz?",
+      "off_device_accounts_sheet_description": "Bunlar, PetroCASH’i yeniden yükledikten sonra henüz eklenmemiş bir cüzdana ait olabilir. Bu adreslerden hiçbirini tanımıyor musunuz?",
       "off_device_accounts_sheet_let_us_know": "Bize bildirin"
     },
     "bonus_code": {
@@ -12926,8 +12926,8 @@
       "musd_disclaimer_accessibility_label": "mUSD APY sorumluluk reddi",
       "musd_subtitle": "Money account hesapları burada",
       "card_title": "Harcamalarda %3'e varan iade",
-      "card_subtitle": "MetaMask Card'ınızı hemen alın",
-      "card_subtitle_cardholder": "MetaMask Card faydalarınıza erişim sağlayın"
+      "card_subtitle": "Card'ınızı hemen alın",
+      "card_subtitle_cardholder": "Card faydalarınıza erişim sağlayın"
     },
     "campaigns_view": {
       "title": "Kampanyalar",
@@ -13110,8 +13110,8 @@
     "show_otp": {
       "title": "Bu kodu girin",
       "description": "Bağlantıyı bitirmek için {{dappName}} içinde {{otp}} girin. Bu kodun süresinin dolmasına kalan süre {{seconds}} saniye.",
-      "modal_title": "MetaMask Ajan cüzdanını bağla",
-      "modal_description": "MetaMask Mobile uygulamasını MetaMask Ajan cüzdanınızla eşleştirin.",
+      "modal_title": "PetroCASH Ajan cüzdanını bağla",
+      "modal_description": "PetroCASH Mobile uygulamasını PetroCASH Ajan cüzdanınızla eşleştirin.",
       "code_label": "KODU TERMİNALE GİRİN",
       "expires_in": "Süresinin dolmasına kalan süre {{time}}",
       "expired": "Kodun süresi dolmuş",
@@ -13139,10 +13139,10 @@
     "still_connecting_network": "Halen {{networkName}} ağına bağlanılıyor...",
     "unable_to_connect_network": "{{networkName}} ağına bağlanılamıyor.",
     "update_rpc": "RPC'yi güncelle",
-    "switch_to_metamask_default_rpc": "MetaMask varsayılan RPC'sine geç",
+    "switch_to_metamask_default_rpc": "PetroCASH varsayılan RPC'sine geç",
     "check_network_connectivity": "Ağ bağlantınızı kontrol edin.",
     "check_network_connectivity_or": "Ağ bağlantınızı kontrol edin veya",
-    "updated_to_metamask_default": "MetaMask varsayılanına güncellendi"
+    "updated_to_metamask_default": "PetroCASH varsayılanına güncellendi"
   },
   "trending": {
     "title": "Keşfet",
@@ -13164,7 +13164,7 @@
     "5_minutes": "5 dakika",
     "networks": "Ağlar",
     "ecosystems": "Ekosistemler",
-    "ecosystems_subtitle": "MetaMask Portfolio üzerindeki zincirler genelinde dapp'leri, tokenları ve NFT'leri keşfedin.",
+    "ecosystems_subtitle": "Portfolio üzerindeki zincirler genelinde dapp'leri, tokenları ve NFT'leri keşfedin.",
     "all_sports": "Popüler sporlar",
     "basketball": "Basketbol",
     "soccer": "Futbol",
@@ -13231,8 +13231,8 @@
   },
   "ota_update_modal": {
     "title": "Güncelleme hazır",
-    "description_ios": "Bazı önemli düzeltmeler yaptık. MetaMask'in son sürümünü tekrar yükleyin.",
-    "description_android": "Bazı önemli düzeltmeler yaptık. Güncellemeyi uygulamak için MetaMask'i kapatıp tekrar açın.",
+    "description_ios": "Bazı önemli düzeltmeler yaptık. PetroCASH'in son sürümünü tekrar yükleyin.",
+    "description_android": "Bazı önemli düzeltmeler yaptık. Güncellemeyi uygulamak için PetroCASH'i kapatıp tekrar açın.",
     "primary_action_reload": "Tekrar Yükle",
     "primary_action_acknowledge": "Anladım"
   },
@@ -13325,7 +13325,7 @@
       "non_ur_qr_scanned": {
         "pair": {
           "title": "Cüzdan eşitleme QR kodunu tara",
-          "body": "Donanım cüzdanınıza geri dönün ve hesaplarınızı paylaşma veya dışa aktarma seçeneğini bulun, MetaMask seçeneğini seçin, ardından QR kodunu tarayın."
+          "body": "Donanım cüzdanınıza geri dönün ve hesaplarınızı paylaşma veya dışa aktarma seçeneğini bulun, PetroCASH seçeneğini seçin, ardından QR kodunu tarayın."
         },
         "sign": {
           "title": "İmza QR kodunu tara",
@@ -13335,7 +13335,7 @@
       "wrong_ur_type": {
         "pair": {
           "title": "QR kodu yanlış",
-          "body": "Donanım cüzdanınıza geri dönün, cüzdan türü olarak MetaMask'i seçin, ardından yeni bir QR kodu oluşturun ve tarayın."
+          "body": "Donanım cüzdanınıza geri dönün, cüzdan türü olarak PetroCASH'i seçin, ardından yeni bir QR kodu oluşturun ve tarayın."
         },
         "sign": {
           "title": "QR kodu yanlış",
@@ -13457,7 +13457,7 @@
     "deactivate_error_non_zero_balance_stellar": "Bu cüzdanda halen {{balance}} {{symbol}} varlığınız bulunuyor. Stellar üzerinde bu varlığı devre dışı bırakmadan önce tamamını göndermeli veya takas etmelisiniz."
   },
   "pro_hub": {
-    "title": "MetaMask Turuncusu",
+    "title": "PetroCASH Turuncusu",
     "manage": "Aboneliği yönet",
     "manage_membership": "Üyeliği yönetin",
     "also_included": {
@@ -13473,7 +13473,7 @@
       },
       "disclaimer": "Limitler her ay sıfırlanır. APY değişkendir ve garanti edilmez. Faydalar ve kart kullanılabilirliği bölgeye göre değişiklik gösterir."
     },
-    "membership_brand": "METAMASK",
+    "membership_brand": "PetroCASH",
     "membership_label": "Pro",
     "membership_status": {
       "active": "Aktif",
@@ -13512,7 +13512,7 @@
       "retry": "Tekrar deneyin"
     },
     "physical_card": {
-      "title": "Ücretsiz MetaMask Card'ınızı alın",
+      "title": "Ücretsiz Card'ınızı alın",
       "description": "Satın alma işlemlerinde %3 mUSD iadesi kazanın",
       "trial_title": "Unlock {{rate}} mUSD back",
       "trial_description": "Unlock card when you complete your free trial"
@@ -13592,7 +13592,7 @@
     }
   },
   "pro_subscription": {
-    "title": "MetaMask Turuncusu",
+    "title": "PetroCASH Turuncusu",
     "description": "{{monthlyPrice}}/ay (yıllık üyelik için {{annualPrice}})",
     "description_monthly": "{{monthlyPrice}}/ay",
     "description_annual": "Yıllık üyelik için {{annualPrice}}",
@@ -13667,7 +13667,7 @@
         ]
       },
       "member_pricing": {
-        "description": "MetaMask ücreti ödenmeyen yerler:",
+        "description": "PetroCASH ücreti ödenmeyen yerler:",
         "points": [
           "Takas işlemlerinde $500/ay",
           "Perps işlemlerinde $1.000/ay",
@@ -13675,11 +13675,11 @@
         ]
       },
       "atm_fees": {
-        "description": "MetaMask Card yıllık üyelere ücretsiz gönderilir. Kartı dünya çapında Mastercard kabul edilen her yerde, 150 milyondan fazla iş yerinde kullanabilirsiniz; üstelik MetaMask tarafından hiçbir ATM veya yurt dışı işlem ücreti alınmaz.",
-        "description_monthly": "MetaMask Card aylık üyelere ayrıca gönderilir. Kartı dünya çapında Mastercard kabul edilen her yerde, 150 milyondan fazla iş yerinde kullanabilirsiniz; üstelik MetaMask tarafından hiçbir ATM veya yurt dışı işlem ücreti alınmaz."
+        "description": "Card yıllık üyelere ücretsiz gönderilir. Kartı dünya çapında Mastercard kabul edilen her yerde, 150 milyondan fazla iş yerinde kullanabilirsiniz; üstelik PetroCASH tarafından hiçbir ATM veya yurt dışı işlem ücreti alınmaz.",
+        "description_monthly": "Card aylık üyelere ayrıca gönderilir. Kartı dünya çapında Mastercard kabul edilen her yerde, 150 milyondan fazla iş yerinde kullanabilirsiniz; üstelik PetroCASH tarafından hiçbir ATM veya yurt dışı işlem ücreti alınmaz."
       },
       "protection": {
-        "description": "Ayda 100 adede kadar MetaMask uzantısı işlemi için $10.000'a kadar koruma elde edin. Üyeler, bir işlem koruma kapsamına alındığında uygulama içinde net uyarılar alır.",
+        "description": "Ayda 100 adede kadar PetroCASH uzantısı işlemi için $10.000'a kadar koruma elde edin. Üyeler, bir işlem koruma kapsamına alındığında uygulama içinde net uyarılar alır.",
         "sub_description": "Koruma kapsamı:",
         "points": [
           "DeFi takas işlemleri",

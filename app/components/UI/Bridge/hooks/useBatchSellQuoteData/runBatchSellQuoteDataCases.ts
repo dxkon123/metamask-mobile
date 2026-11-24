@@ -431,7 +431,7 @@ export const runBatchSellQuoteDataCases = ({
       dateNowSpy.mockRestore();
     });
 
-    it('derives the MetaMask fee from the quoteBpsFee on quote data', () => {
+    it("derives the PetroCASH fee from the quoteBpsFee on quote data", () => {
       selectBatchSellQuotesSpy.mockReturnValue({
         ...mockBatchSellQuotes,
         recommendedQuotes: [
@@ -461,7 +461,7 @@ export const runBatchSellQuoteDataCases = ({
       expect(result.current.quotePercentFee).toBe('1.25');
     });
 
-    it('does not expose a MetaMask fee when quoteBpsFee is zero', () => {
+    it("does not expose a PetroCASH fee when quoteBpsFee is zero", () => {
       selectBatchSellQuotesSpy.mockReturnValue({
         ...mockBatchSellQuotes,
         recommendedQuotes: [

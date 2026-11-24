@@ -16,7 +16,11 @@
     "primary": "#FF245E",
     "primaryLight": "#FF5135",
     "backgroundDark": "#141418",
-    "backgroundLight": "#FFFFFF"
+    "backgroundLight": "#FFFFFF",
+    "primaryOnLight": "#C90047",
+    "primaryOnDark": "#FF7FA4",
+    "primaryMutedLight": "#FFF0F5",
+    "primaryMutedDark": "#3A1826"
   },
   "upstreamCompatibilityVersion": "8.22.0",
   "animationMode": "petrocash",

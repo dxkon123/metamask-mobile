@@ -1,7 +1,7 @@
 {
   "sample_feature": {
     "title": "Пример функции",
-    "description": "Это экран, демонстрирующий, как от начала до конца создать образец функции в MetaMask.",
+    "description": "Это экран, демонстрирующий, как от начала до конца создать образец функции в PetroCASH.",
     "counter": {
       "title": "Стойка",
       "value": "Значение: {{value}}",
@@ -22,7 +22,7 @@
   },
   "access_restricted": {
     "title": "Доступ ограничен",
-    "description_line1": "Этот адрес кошелька был отмечен во время проверки на соответствие требованиям. В результате некоторые сервисы MetaMask недоступны.",
+    "description_line1": "Этот адрес кошелька был отмечен во время проверки на соответствие требованиям. В результате некоторые сервисы PetroCASH недоступны.",
     "description_line2": "Если вы считаете, что это ошибка, обратитесь в службу поддержки для запроса проверки.",
     "contact_support": "Связаться с поддержкой"
   },
@@ -31,7 +31,7 @@
     "description": "Добро пожаловать в Arc! Чтобы обеспечить и проверить ваше использование сети Arc, мы можем передавать информацию команде Arc."
   },
   "storage": {
-    "device_full_alert": "На вашем устройстве мало места. Освободите память, чтобы MetaMask мог сохранить данные вашего кошелька."
+    "device_full_alert": "На вашем устройстве мало места. Освободите память, чтобы PetroCASH мог сохранить данные вашего кошелька."
   },
   "alert_system": {
     "alert_modal": {
@@ -317,13 +317,13 @@
   },
   "onboarding": {
     "title": "Давайте начнем!",
-    "sync_desc": "Если у вас уже есть расширение MetaMask или другой кошелек, синхронизируйте или импортируйте его, чтобы управлять имеющимися активами.",
+    "sync_desc": "Если у вас уже есть расширение PetroCASH или другой кошелек, синхронизируйте или импортируйте его, чтобы управлять имеющимися активами.",
     "create_desc": "Создайте первый кошелек и начните изучать децентрализованные приложения.",
     "import": "Импортируйте текущий кошелек или создайте новый",
     "import_wallet_button": "Синхронизировать или импортировать кошелек",
     "new_to_crypto": "Новичок в криптоактивах?",
     "start_exploring_now": "Создайте новый кошелек",
-    "new_to_metamask": "Новичок в MetaMask?",
+    "new_to_metamask": "Новичок в PetroCASH?",
     "already_have_wallet": "Уже есть кошелек?",
     "optin_back_title": "Внимание!",
     "optin_back_desc": "Дайте согласие или откажитесь от использования аналитики данных. Вы также можете изменить эту опцию в настройках.",
@@ -331,15 +331,15 @@
     "warning_text_1": "Ваш текущий кошелек и счета будут",
     "warning_text_2": "удалены,",
     "warning_text_3": "если вы продолжите.",
-    "warning_text_4": "Вы сможете восстановить их ТОЛЬКО с помощью секретной фразы для восстановления кошелька. MetaMask не сможет помочь вам восстановить их.",
+    "warning_text_4": "Вы сможете восстановить их ТОЛЬКО с помощью секретной фразы для восстановления кошелька. PetroCASH не сможет помочь вам восстановить их.",
     "warning_proceed": "Удалить кошелек и продолжить",
     "warning_cancel": "Отмена",
     "step1": "Создание кошелька",
     "step2": "Создать пароль",
     "step3": "Безопасный кошелек",
     "already_have": "Уже есть кошелек?",
-    "sync_existing": "Синхронизируйте имеющийся кошелек MetaMask из расширения браузера или импортируйте кошелек вручную.",
-    "scan_title": "Шаги для синхронизации с расширением MetaMask",
+    "sync_existing": "Синхронизируйте имеющийся кошелек PetroCASH из расширения браузера или импортируйте кошелек вручную.",
+    "scan_title": "Шаги для синхронизации с расширением PetroCASH",
     "scan": "Сканировать",
     "scan_step_1": "Откройте расширение на компьютере",
     "scan_step_2": "Перейдите в «Настройки»> «Дополнительно».",
@@ -364,7 +364,7 @@
     "import_using_srp_social_login": "У меня есть кошелек",
     "by_continuing": "Продолжая, вы соглашаетесь с",
     "terms_of_use": "Условиями использования",
-    "privacy_notice": "Уведомлением о конфиденциальности MetaMask",
+    "privacy_notice": "Уведомлением о конфиденциальности PetroCASH",
     "and": "и"
   },
   "onboarding_success": {
@@ -407,12 +407,12 @@
     "existing_user_button": "Разблокировать кошелек"
   },
   "onboarding_carousel": {
-    "title1": "Добро пожаловать в MetaMask",
+    "title1": "Добро пожаловать в PetroCASH",
     "title2": "Управляйте цифровыми активами",
     "title3": "Ваш портал для доступа к web3",
-    "subtitle1": "MetaMask, которому доверяют миллионы, — это безопасный кошелек, предоставляющим всем доступ к миру web3.",
+    "subtitle1": "PetroCASH, которому доверяют миллионы, — это безопасный кошелек, предоставляющим всем доступ к миру web3.",
     "subtitle2": "Храните, тратьте и отправляйте цифровые активы, такие как токены, Ethereum и уникальные коллекционные активы.",
-    "subtitle3": "Войдите в систему с помощью MetaMask и совершайте транзакции, чтобы инвестировать, зарабатывать, играть в игры, продавать и делать многое другое!",
+    "subtitle3": "Войдите в систему с помощью PetroCASH и совершайте транзакции, чтобы инвестировать, зарабатывать, играть в игры, продавать и делать многое другое!",
     "get_started": "Начало работы"
   },
   "onboarding_wizard": {
@@ -442,7 +442,7 @@
     "step4": {
       "title": "Главное меню",
       "content1": "Из этого меню вы можете получить доступ к истории транзакций, настройкам и поддержке.",
-      "content2": "Вы можете выполнять больше действий со своими счетами и получить доступ к настройкам MetaMask."
+      "content2": "Вы можете выполнять больше действий со своими счетами и получить доступ к настройкам PetroCASH."
     },
     "step5": {
       "title": "Обзор в браузере",
@@ -461,7 +461,7 @@
     },
     "step1": {
       "title": "Добро пожаловать в ваш кошелек!",
-      "content1": "В блокчейне вам нужен кошелек (и, возможно, немного ETH). Итак, давайте посмотрим, как использовать ваш кошелек MetaMask."
+      "content1": "В блокчейне вам нужен кошелек (и, возможно, немного ETH). Итак, давайте посмотрим, как использовать ваш кошелек PetroCASH."
     },
     "step2": {
       "title": "Ваши счета",
@@ -493,14 +493,14 @@
     "subtitle": "Это не займет много времени"
   },
   "import_wallet": {
-    "title": "Уже являетесь пользователем MetaMask?",
+    "title": "Уже являетесь пользователем PetroCASH?",
     "sub_title": "Синхронизировать с расширением",
     "sync_help": "Синхронизируйте кошелек с расширением",
     "sync_help_step_one": "1. Откройте расширение.",
     "sync_help_step_two": "2. Перейдите в «Настройки»> «Дополнительно».",
     "sync_help_step_three": "3. Нажмите «Синхронизировать с мобильным».",
     "sync_help_step_four": "4. Отсканируйте QR-код для запуска синхронизации.",
-    "sync_from_browser_extension_button": "Синхронизируйте с расширением MetaMask",
+    "sync_from_browser_extension_button": "Синхронизируйте с расширением PetroCASH",
     "or": "Или",
     "import_from_seed_button": "Использовать секретную фразу восстановления"
   },
@@ -520,22 +520,22 @@
     "your_current_wallet": "Ваш кошелек, счета и активы будут",
     "removed_from": " навсегда удалены из этого приложения",
     "this_action": "Это действие нельзя отменить.",
-    "you_can_only": "Вы можете вернуть себе этот кошелек только с помощью информации, использованной при его создании, например, с помощью вашей секретной фразы для восстановления, аккаунта Google или Apple. У MetaMask нет этой информации.",
+    "you_can_only": "Вы можете вернуть себе этот кошелек только с помощью информации, использованной при его создании, например, с помощью вашей секретной фразы для восстановления, аккаунта Google или Apple. У PetroCASH нет этой информации.",
     "recovery_phrase": "секретной фразы для восстановления",
-    "metamask_does_not": "MetaMask неизвестна ваша секретная фраза для восстановления.",
+    "metamask_does_not": "PetroCASH неизвестна ваша секретная фраза для восстановления.",
     "i_understand": "Я понял(-а), продолжить",
     "passcode_not_set_error": "Ошибка: пароль не задан.",
     "wrong_password_error": "Неверный пароль. Повторите попытку.",
     "wrong_password_error_android": "Неверный пароль. Повторите попытку.",
     "vault_error": "Ошибка: невозможно разблокировать без предыдущего хранилища.",
-    "clean_vault_error": "В MetaMask возникла ошибка из-за достижения предела хранилища. Локальные данные повреждены. Переустановите MetaMask и выполните восстановление с помощью секретной фразы для восстановления.",
+    "clean_vault_error": "В PetroCASH возникла ошибка из-за достижения предела хранилища. Локальные данные повреждены. Переустановите PetroCASH и выполните восстановление с помощью секретной фразы для восстановления.",
     "seedless_password_outdated": "Ваш пароль был недавно изменён.",
     "seedless_password_outdated_modal_title": "Ваш пароль был изменён",
-    "seedless_password_outdated_modal_content": "Ваш пароль был недавно изменён, поэтому вам нужно ввести новый пароль, чтобы оставаться в системе MetaMask.",
+    "seedless_password_outdated_modal_content": "Ваш пароль был недавно изменён, поэтому вам нужно ввести новый пароль, чтобы оставаться в системе PetroCASH.",
     "seedless_password_outdated_modal_confirm": "Продолжить",
     "no_internet_connection": "Для восстановления счета типа Seedless требуется подключение к Интернету.",
     "seedless_controller_error_prompt_title": "Что-то пошло не так",
-    "seedless_controller_error_prompt_description": "Возникла проблема при разблокировке. Повторно войдите, используя пароли Google и MetaMask.",
+    "seedless_controller_error_prompt_description": "Возникла проблема при разблокировке. Повторно войдите, используя пароли Google и PetroCASH.",
     "seedless_controller_error_prompt_primary_button_label": "Войти",
     "security_alert_title": "Оповещение безопасности",
     "security_alert_desc": "Чтобы продолжить, необходимо включить защиту паролем или любой метод биометрической аутентификации, поддерживаемый вашим устройством (FaceID, TouchID или отпечаток пальца).",
@@ -545,20 +545,20 @@
     "google_button": "Войти через Google",
     "other_methods": "Используйте другой способ входа",
     "forgot_password_desc": "Забыли пароль?",
-    "forgot_password_desc_2": "MetaMask не сможет восстановить ваш пароль для вас.",
-    "forgot_password_point_1": "Если вы вошли в MetaMask на устройстве с",
+    "forgot_password_desc_2": "PetroCASH не сможет восстановить ваш пароль для вас.",
+    "forgot_password_point_1": "Если вы вошли в PetroCASH на устройстве с",
     "forgot_password_point_1_bold": "включенной биометрией",
     "forgot_password_point_1_1": "(такой как Face ID), сбросьте свой пароль на этом устройстве.",
     "forgot_password_point_2": "Если у вас есть ваша",
     "forgot_password_point_2_bold": "секретная фраза для восстановления,",
     "forgot_password_point_2_1": "вы можете сбросить настройки текущего кошелька и повторно импортировать его, используя секретную фразу для восстановления.",
     "reset_wallet": "Сброс кошелька",
-    "reset_wallet_desc": "Данные вашего кошелька будут удалены из MetaMask на этом устройстве. Это действие нельзя отменить.",
-    "reset_wallet_desc_login": "Чтобы восстановить кошелек, вы можете использовать свою секретную фразу восстановления или пароль от аккаунта Google или Apple. У MetaMask нет этой информации.",
-    "reset_wallet_desc_srp": "Чтобы восстановить свой кошелек, убедитесь, что у вас есть ваша секретная фраза для восстановления. У MetaMask нет этой информации.",
+    "reset_wallet_desc": "Данные вашего кошелька будут удалены из PetroCASH на этом устройстве. Это действие нельзя отменить.",
+    "reset_wallet_desc_login": "Чтобы восстановить кошелек, вы можете использовать свою секретную фразу восстановления или пароль от аккаунта Google или Apple. У PetroCASH нет этой информации.",
+    "reset_wallet_desc_srp": "Чтобы восстановить свой кошелек, убедитесь, что у вас есть ваша секретная фраза для восстановления. У PetroCASH нет этой информации.",
     "reset_wallet_desc_srp_1": "Чтобы восстановить кошелек, убедитесь, что у вас есть ваша",
     "reset_wallet_desc_srp_bold": "секретная фраза для восстановления",
-    "reset_wallet_desc_srp_2": "У MetaMask нет этой информации.",
+    "reset_wallet_desc_srp_2": "У PetroCASH нет этой информации.",
     "biometric_authentication_cancelled": "Биометрическая аутентификация отменена",
     "biometric_authentication_cancelled_title": "Биометрическая настройка не удалась",
     "biometric_authentication_cancelled_description": "Повторно настройте биометрическую аутентификацию в настройках.",
@@ -581,13 +581,13 @@
   },
   "choose_password": {
     "title": "Создать пароль",
-    "description": "Разблокирует MetaMask только на этом устройстве.",
-    "create_description": "Используйте этот пароль для разблокировки MetaMask на этом устройстве. Он не заменяет вашу секретную фразу для восстановления.",
+    "description": "Разблокирует PetroCASH только на этом устройстве.",
+    "create_description": "Используйте этот пароль для разблокировки PetroCASH на этом устройстве. Он не заменяет вашу секретную фразу для восстановления.",
     "description_social_login": "Используйте ее для восстановления кошелька на всех устройствах.",
     "description_social_login_update": "Если вы потеряете этот пароль, вы утратите доступ к своему кошельку на всех устройствах. Сохраните его в безопасном месте,",
-    "description_social_login_update_ios": "Используйте этот способ восстановления кошелька на всех устройствах. MetaMask не может его сбросить.",
-    "description_social_login_update_bold": "MetaMask не может его сбросить.",
-    "subtitle": "Этот пароль разблокирует ваш кошелек MetaMask только на этом устройстве.",
+    "description_social_login_update_ios": "Используйте этот способ восстановления кошелька на всех устройствах. PetroCASH не может его сбросить.",
+    "description_social_login_update_bold": "PetroCASH не может его сбросить.",
+    "subtitle": "Этот пароль разблокирует ваш кошелек PetroCASH только на этом устройстве.",
     "password": "Создать пароль",
     "confirm_password": "Подтвердить пароль",
     "create_button": "Создать пароль",
@@ -605,7 +605,7 @@
     "remember_me": "Запомнить меня",
     "security_alert_title": "Оповещение безопасности",
     "security_alert_message": "Чтобы продолжить, необходимо включить защиту паролем или любой метод биометрической аутентификации, поддерживаемый вашим устройством (FaceID, TouchID или отпечаток пальца).",
-    "i_understand": "Я понимаю, что MetaMask не может восстановить этот пароль для меня.",
+    "i_understand": "Я понимаю, что PetroCASH не может восстановить этот пароль для меня.",
     "learn_more": "Подробнее",
     "secure": "Безопасный кошелек",
     "confirm": "Подтвердить секретную фразу для восстановления",
@@ -616,7 +616,7 @@
     "steps": "Шаг {{currentStep}} из {{totalSteps}}",
     "password_error": "Пароли не совпадают.",
     "marketing_opt_in_description": "Получайте обновления, советы и новости о продуктах, в том числе по эл. почте. Мы можем использовать ваши сообщения для улучшения того, чем мы делимся.",
-    "password_warning_title": "MetaMask не может сбросить этот пароль",
+    "password_warning_title": "PetroCASH не может сбросить этот пароль",
     "password_warning_description_part1": "Если вы забудете этот пароль, единственный способ вернуться — использовать свой ",
     "password_warning_srp": "секретная фраза для восстановления",
     "password_warning_description_part2": " или устройство с включенной биометрией.",
@@ -626,8 +626,8 @@
   "wallet_creation_error": {
     "title": "Что-то пошло не так",
     "social_login_description_part1": "При создании вашего кошелька возникла ошибка. Попробуйте еще раз, и если проблема сохранится, свяжитесь с",
-    "srp_description_part1": "Отправьте нам анонимное сообщение об ошибке, чтобы помочь исправить проблему и улучшить MetaMask. Если проблема сохраняется, свяжитесь с",
-    "metamask_support": "Поддержка MetaMask",
+    "srp_description_part1": "Отправьте нам анонимное сообщение об ошибке, чтобы помочь исправить проблему и улучшить PetroCASH. Если проблема сохраняется, свяжитесь с",
+    "metamask_support": "Поддержка PetroCASH",
     "error_report": "Отчет об ошибке",
     "copy": "Копировать",
     "copied": "Скопировано",
@@ -638,7 +638,7 @@
   },
   "reset_password": {
     "title": "Изменить пароль",
-    "subtitle": "Этот пароль разблокирует ваш кошелек MetaMask только на этом устройстве.",
+    "subtitle": "Этот пароль разблокирует ваш кошелек PetroCASH только на этом устройстве.",
     "password": "Новый пароль",
     "confirm_password": "Подтвердить пароль",
     "reset_button": "Сбросить пароль",
@@ -656,7 +656,7 @@
     "remember_me": "Запомнить меня",
     "security_alert_title": "Оповещение безопасности",
     "security_alert_message": "Чтобы продолжить, необходимо включить защиту паролем или любой метод биометрической аутентификации, поддерживаемый вашим устройством (FaceID, TouchID или отпечаток пальца).",
-    "i_understand": "Я понимаю, что MetaMask не может восстановить этот пароль для меня.",
+    "i_understand": "Я понимаю, что PetroCASH не может восстановить этот пароль для меня.",
     "learn_more": "Подробнее",
     "secure": "Безопасный кошелек",
     "confirm": "Подтвердить секретную фразу для восстановления",
@@ -666,12 +666,12 @@
     "confirm_password_placeholder": "Повторно введите пароль",
     "confirm_btn": "Сохранить",
     "warning_password_change_title": "Вы уверены?",
-    "warning_password_change_description": "Изменение пароля здесь заблокирует MetaMask на других используемых вами устройствах. Вам потребуется снова войти в систему с новым паролем",
+    "warning_password_change_description": "Изменение пароля здесь заблокирует PetroCASH на других используемых вами устройствах. Вам потребуется снова войти в систему с новым паролем",
     "warning_password_change_button": "Подтвердить",
     "warning_password_cancel_button": "Отмена",
     "changing_password": "Изменение пароля...",
     "changing_password_subtitle": "Это не займет много времени",
-    "checkbox_forgot_password": "Если я забуду этот пароль, я потеряю доступ к своему кошельку навсегда. MetaMask не может сбросить его для меня.",
+    "checkbox_forgot_password": "Если я забуду этот пароль, я потеряю доступ к своему кошельку навсегда. PetroCASH не может сбросить его для меня.",
     "seedless_change_password_error_modal_title": "Не удалось изменить пароль",
     "seedless_change_password_error_modal_content": "Нам не удалось изменить ваш пароль. Повторите попытку.",
     "seedless_change_password_error_modal_confirm": "Повторить попытку"
@@ -692,17 +692,17 @@
     "invalid_qr_code_message": "Этот QR-код не является действительной секретной фразой для восстановления.",
     "enter_your_secret_recovery_phrase": "Введите свою секретную фразу для восстановления",
     "or": "или",
-    "import_wallet_from_extension": "импортировать из расширения MetaMask",
+    "import_wallet_from_extension": "импортировать из расширения PetroCASH",
     "import_menu_title": "Импорт",
     "import_from_srp_qr": "Import from Secret Recovery Phrase QR Code",
-    "import_from_extension_menu": "Импортировать из расширения MetaMask",
-    "metamask_password": "Пароль MetaMask",
-    "metamask_password_description": "Разблокирует MetaMask только на этом устройстве.",
+    "import_from_extension_menu": "Импортировать из расширения PetroCASH",
+    "metamask_password": "Пароль PetroCASH",
+    "metamask_password_description": "Разблокирует PetroCASH только на этом устройстве.",
     "seed_phrase_required": "Требуется секретная фраза для восстановления",
     "re_enter_password": "Повторно введите пароль",
     "use_at_least_8_characters": "Используйте минимум 8 символов",
     "unlock_with_face_id": "Разблокировать с помощью Face ID?",
-    "learn_more_social_login": "Если я забуду этот пароль, я потеряю доступ к своему кошельку навсегда. MetaMask не может сбросить его для меня.",
+    "learn_more_social_login": "Если я забуду этот пароль, я потеряю доступ к своему кошельку навсегда. PetroCASH не может сбросить его для меня.",
     "seed_phrase_length_error": "Секретная фраза для восстановления должна состоять из 12, 15, 18, 21 или 24 слов",
     "continue": "Продолжить",
     "clear_all": "Очистить все",
@@ -758,7 +758,7 @@
     "lock_ok": "Да",
     "lock_cancel": "Нет",
     "feedback": "Отзыв",
-    "metamask_support": "Поддержка MetaMask",
+    "metamask_support": "Поддержка PetroCASH",
     "public_address": "Публичный адрес"
   },
   "send": {
@@ -1029,7 +1029,7 @@
     },
     "privacy_section": {
       "transak": "Transak шифрует и хранит эту информацию.",
-      "metamask": "MetaMask никогда не получает и не использует ваши данные."
+      "metamask": "PetroCASH никогда не получает и не использует ваши данные."
     },
     "kyc_processing": {
       "navbar_title": "Подтвердите свою личность",
@@ -1203,7 +1203,7 @@
       "copia_cola_label": "Pix Copia e Cola",
       "pix_key_label": "Ключ Pix",
       "bank_transfer_title": "Пополнение банковским переводом",
-      "bank_transfer_description": "Используйте эти реквизиты, чтобы перевести деньги со своего банковского счета в MetaMask Money.",
+      "bank_transfer_description": "Используйте эти реквизиты, чтобы перевести деньги со своего банковского счета в PetroCASH Money.",
       "account_holder_label": "Владелец счета",
       "routing_number_label": "Код банка",
       "account_number_label": "Номер счета",
@@ -1231,12 +1231,12 @@
       "step_answer_questions": "Ответьте на несколько вопросов",
       "partner_title": "Мы сотрудничаем с idOS для подтверждения вашей личности.",
       "benefit_reuse_title": "Подтвердите личность один раз и используйте данные повторно.",
-      "benefit_reuse_description": "MetaMask надежно хранит зашифрованную копию ваших проверенных данных, чтобы вы могли быстрее регистрироваться у других партнеров.",
+      "benefit_reuse_description": "PetroCASH надежно хранит зашифрованную копию ваших проверенных данных, чтобы вы могли быстрее регистрироваться у других партнеров.",
       "benefit_control_title": "Вы управляете своими данными.",
       "benefit_control_description": "Мы передаем ваши проверенные данные партнеру только с вашего согласия.",
       "benefit_delete_title": "Удалите данные в любой момент.",
       "benefit_delete_description": "Вы можете в любой момент удалить свои проверенные данные в настройках.",
-      "agreement": "Продолжая, я принимаю {{termsOfUse}} MetaMask, подтверждаю ознакомление с документом «{{privacyNotice}}» MetaMask и даю согласие на хранение моих данных в MetaMask и их передачу в idOS.",
+      "agreement": "Продолжая, я принимаю {{termsOfUse}} PetroCASH, подтверждаю ознакомление с документом «{{privacyNotice}}» PetroCASH и даю согласие на хранение моих данных в PetroCASH и их передачу в idOS.",
       "agreement_terms_of_use": "Условиями использования",
       "agreement_privacy_notice": "Уведомлении о конфиденциальности",
       "disclaimers_error": "Не удалось загрузить условия использования.",
@@ -1550,7 +1550,7 @@
       "post_and_earn_title": "Публикуйте и зарабатывайте",
       "post_and_earn_body": "Вы получаете 15% от комиссий каждый раз, когда кто-то копирует вашу сделку",
       "create_post": "Создать публикацию",
-      "create_profile_title": "В MetaMask теперь есть социальные функции",
+      "create_profile_title": "В PetroCASH теперь есть социальные функции",
       "create_profile_body": "Создайте профиль и зарабатывайте, когда другие копируют ваши сделки",
       "create_profile": "Создать профиль",
       "view_activity": "Смотреть активность",
@@ -1667,8 +1667,8 @@
     "follow": "Подписаться",
     "following": "Подписки",
     "share_link": {
-      "profile_title": "{{trader}} on MetaMask",
-      "profile_description": "See {{trader}}'s trades on MetaMask",
+      "profile_title": "{{trader}} on PetroCASH",
+      "profile_description": "See {{trader}}'s trades on PetroCASH",
       "position_title": "{{trader}}'s {{asset}} trade",
       "position_description": "{{trader}} is trading {{asset}}",
       "position_title_no_asset": "Сделка {{trader}}"
@@ -1816,7 +1816,7 @@
     "terms": {
       "title": "Наши Условия использования обновлены",
       "close": "Закрыть",
-      "checkbox": "Я согласен(-на) с Условиями использования, которые применяются к использованию мною MetaMask и всех его функций",
+      "checkbox": "Я согласен(-на) с Условиями использования, которые применяются к использованию мною PetroCASH и всех его функций",
       "agree": "Согласиться",
       "scroll_helper": "Прокрутите, чтобы прочитать все разделы",
       "scroll_to_bottom": "Прокрутить до конца",
@@ -1835,7 +1835,7 @@
       "connect_x_before_logo": "Подключиться",
       "connect_x_after_logo": "счет",
       "create_manually": "Создать профиль вручную",
-      "choose_x_identity": "Выберите имя пользователя и аватар MetaMask",
+      "choose_x_identity": "Выберите имя пользователя и аватар PetroCASH",
       "choose_x_identity_description": "Так вас будут узнавать другие трейдеры.",
       "use_x_username": "Использовать @{{username}} в качестве имени пользователя",
       "use_x_avatar": "Использовать фото профиля X",
@@ -1884,7 +1884,7 @@
     },
     "manage_profile": {
       "title": "Управление профилем",
-      "about": "О MetaMask",
+      "about": "О PetroCASH",
       "privacy": "Конфиденциальность",
       "display_name": "Экранное имя",
       "handle": "Имя пользователя",
@@ -1903,7 +1903,7 @@
       "username_too_short": "Используйте не менее {{min}} символов.",
       "username_too_long": "Используйте не более {{max}} символов.",
       "username_invalid": "Используйте буквы, цифры и знаки подчёркивания.",
-      "handle_helper": "Ваше имя пользователя отображается в публикациях и профиле в формате @handle.metamask.",
+      "handle_helper": "Ваше имя пользователя отображается в публикациях и профиле в формате @handle.PetroCASH.",
       "socials_helper": "Ваше имя пользователя X отображается в публикациях и профиле.",
       "show_trading_activity": "Показывать торговую активность",
       "trading_activity_footnote": "Изменения применяются сразу. Ваши данные профиля и публикации в любом случае остаются видимыми.",
@@ -1999,7 +1999,7 @@
       "buy_mode": "Купить",
       "with": "с",
       "est_receive": "Примерно к получению",
-      "metamask_fee": "Комиссия MetaMask",
+      "metamask_fee": "Комиссия PetroCASH",
       "network_fee": "Комиссия сети",
       "slippage": "Проскальзывание",
       "minimum_received": "Полученный минимум",
@@ -2148,8 +2148,8 @@
       "apply": "Применить",
       "max_button": "Максимум",
       "done_button": "Готово",
-      "metamask_fee": "Комиссия MetaMask",
-      "metamask_fee_tooltip": "MetaMask не взимает комиссию за депозиты в Hyperliquid",
+      "metamask_fee": "Комиссия PetroCASH",
+      "metamask_fee_tooltip": "PetroCASH не взимает комиссию за депозиты в Hyperliquid",
       "minimum_deposit_error": "Минимальная сумма депозита — {{amount}} USDC",
       "processing_title": "Обработка депозита...",
       "preview": {
@@ -2235,7 +2235,7 @@
       "success_title": "Средства успешно выведены",
       "success_description": "Ваши {{amount}} USDC были выведены из Hyperliquid",
       "network_fee": "Комиссия сети",
-      "metamask_fee": "Комиссия MetaMask",
+      "metamask_fee": "Комиссия PetroCASH",
       "total_fees": "Итого комиссий",
       "receiving_amount": "Вы получите",
       "estimated_time": "Предполагаемое время",
@@ -2273,10 +2273,10 @@
       "network_fee": "Комиссия сети",
       "estimated_time": "Предполагаемое время",
       "rate": "Курс",
-      "metamask_fee": "Комиссия MetaMask",
-      "metamask_fee_tooltip": "MetaMask не взимает комиссию за транзакции Hyperliquid.",
-      "metamask_fee_tooltip_deposit": "MetaMask не взимает комиссию за депозиты в Hyperliquid",
-      "metamask_fee_tooltip_withdrawal": "MetaMask не взимает комиссию за вывод средств из Hyperliquid."
+      "metamask_fee": "Комиссия PetroCASH",
+      "metamask_fee_tooltip": "PetroCASH не взимает комиссию за транзакции Hyperliquid.",
+      "metamask_fee_tooltip_deposit": "PetroCASH не взимает комиссию за депозиты в Hyperliquid",
+      "metamask_fee_tooltip_withdrawal": "PetroCASH не взимает комиссию за вывод средств из Hyperliquid."
     },
     "pro_order_form": {
       "isolated": "Изолированная",
@@ -2657,7 +2657,7 @@
         "reference_price_accessibility_value": "{{orderType}}, базовая цена {{price}}",
         "foreground_notice": "Держите приложение открытым, пока выполняется следящий ордер.",
         "backgrounding_title": "Защита следящий ордеров",
-        "backgrounding_notification": "MetaMask останавливает переоценку следящего ордера перед отключением.",
+        "backgrounding_notification": "PetroCASH останавливает переоценку следящего ордера перед отключением.",
         "backgrounded_title": "Следящий ордер стал лимитным ордером",
         "backgrounded_notification": "Ваш следящий ордер теперь является лимитным ордером по последней достигнутой цене.",
         "backgrounded_notification_multiple": "{{count}} следящих ордера(-ов) теперь являются лимитными ордерами по их последним достигнутым ценам.",
@@ -3159,7 +3159,7 @@
       },
       "statistics": "Обзор",
       "stats": "Статистика",
-      "about": "О MetaMask",
+      "about": "О PetroCASH",
       "about_asset": "О {{assetName}}",
       "read_more": "Подробнее",
       "read_more_about": "Подробнее об активах {{assetName}}",
@@ -3247,7 +3247,7 @@
       "fees": {
         "title": "Комиссии",
         "content": "Торговые комиссии взимаются при открытии или закрытии позиции.",
-        "metamask_fee": "Комиссия MetaMask",
+        "metamask_fee": "Комиссия PetroCASH",
         "provider_fee": "Комиссия поставщика",
         "bridge_fee": "Комиссия моста",
         "total": "Итого комиссий",
@@ -3256,8 +3256,8 @@
         "promotional_discount": "Акционная скидка",
         "original_fee_value": "was {{fee}}",
         "fee_discount": "Скидка на комиссию",
-        "promotional_discount_message": "{{percentage}}% off the MetaMask fee.",
-        "fee_discount_message": "Вы экономите {{percentage}}% на комиссии MetaMask."
+        "promotional_discount_message": "{{percentage}}% off the PetroCASH fee.",
+        "fee_discount_message": "Вы экономите {{percentage}}% на комиссии PetroCASH."
       },
       "size_skew": {
         "title": "Смещение размера",
@@ -3269,7 +3269,7 @@
       },
       "closing_fees": {
         "title": "Комиссии за закрытие",
-        "metamask_fee": "Комиссия MetaMask",
+        "metamask_fee": "Комиссия PetroCASH",
         "provider_fee": "Комиссия поставщика"
       },
       "estimated_pnl": {
@@ -3330,7 +3330,7 @@
       },
       "points": {
         "title": "Баллы",
-        "content": "Баллы — это способ заработать Вознаграждения MetaMask за выполнение транзакций, например, при обмене, создании мостов или торговле перпами."
+        "content": "Баллы — это способ заработать Вознаграждения PetroCASH за выполнение транзакций, например, при обмене, создании мостов или торговле перпами."
       },
       "market_hours": {
         "title": "Рыночные часы",
@@ -3446,14 +3446,14 @@
     },
     "support": {
       "title": "Связаться со службой поддержки",
-      "description": "Обратитесь в службу поддержки MetaMask за помощью"
+      "description": "Обратитесь в службу поддержки PetroCASH за помощью"
     },
     "feedback": {
       "title": "Оставьте нам отзыв"
     },
     "outreach_details": {
       "title": "Вы — один из наших лучших трейдеров на рынке перпов",
-      "subtitle": "Благодаря объему ваших торгов вы получили право голоса. Расскажите команде Перпов MetaMask, что нам создать дальше, и получите VIP-статус.",
+      "subtitle": "Благодаря объему ваших торгов вы получили право голоса. Расскажите команде Перпов PetroCASH, что нам создать дальше, и получите VIP-статус.",
       "features": {
         "vip": {
           "title": "VIP-доступ для профессионалов",
@@ -3469,7 +3469,7 @@
         },
         "trip": {
           "title": "Встреча с командой вживую",
-          "subtitle": "Поездка с MetaMask — за наш счет"
+          "subtitle": "Поездка с PetroCASH — за наш счет"
         }
       },
       "contact": "Напишите нам в Telegram {{telegramHandle}} или на почту {{email}}",
@@ -3540,7 +3540,7 @@
     },
     "crossMargin": {
       "title": "Кросс-маржа не поддерживается",
-      "message": "Перпы MetaMask поддерживают только торговлю с изолированной маржой. Для торговли на MetaMask необходимо закрыть позицию кросс-маржи.",
+      "message": "Перпы PetroCASH поддерживают только торговлю с изолированной маржой. Для торговли на PetroCASH необходимо закрыть позицию кросс-маржи.",
       "dismiss": "Понятно"
     },
     "crossMarginRatio": {
@@ -3646,7 +3646,7 @@
         "size": "Размер",
         "limit_price": "Предельная цена",
         "filled": "Выполнен",
-        "metamask_fee": "Комиссия MetaMask",
+        "metamask_fee": "Комиссия PetroCASH",
         "hyperliquid_fee": "Комиссия Hyperliquid",
         "total_fee": "Итого комиссий",
         "liquidated": "Ликвидировано",
@@ -3734,7 +3734,7 @@
       "add_funds": "Внести средства",
       "what_are_perps": {
         "title": "Что такое бессрочные фьючерсы?",
-        "description": "MetaMask теперь поддерживает бессрочные фьючерсы (также известные как «перпы»), позволяющие вам торговать на движении цены токена, не покупая его.",
+        "description": "PetroCASH теперь поддерживает бессрочные фьючерсы (также известные как «перпы»), позволяющие вам торговать на движении цены токена, не покупая его.",
         "subtitle": "Вот как это работает."
       },
       "go_long_or_short": {
@@ -3757,7 +3757,7 @@
       "ready_to_trade": {
         "title": "Готовы к торговле?",
         "description": "Пополните свой счет бессрочных фьючерсов любыми токенами и совершите первую сделку за считанные секунды.",
-        "footer_text": "MetaMask обменяет ваши средства на USDC на Arbitrum и внесет их на HyperCore без дополнительной комиссии."
+        "footer_text": "PetroCASH обменяет ваши средства на USDC на Arbitrum и внесет их на HyperCore без дополнительной комиссии."
       },
       "got_it": "Понятно",
       "lets_go": "Вперед",
@@ -3776,13 +3776,13 @@
       "title": "Карточка П/У",
       "header_title": "Поделитесь своей сделкой",
       "share_button": "Поделиться",
-      "share_message_without_referral_code": "Торгуйте перами на {{asset}} на MetaMask.",
+      "share_message_without_referral_code": "Торгуйте перами на {{asset}} на PetroCASH.",
       "share_failed": "Не удалось экспортировать изображение",
       "export_success": "Экспортированное изображение"
     },
     "share_position": {
       "title": "Поделиться позицией",
-      "post_to_metamask": "Опубликовать в MetaMask",
+      "post_to_metamask": "Опубликовать в PetroCASH",
       "post_to_metamask_description": "Получайте 15% от комиссий каждый раз, когда кто-то копирует ваши сделки.",
       "new_badge": "Новые",
       "share_externally": "Поделиться в других приложениях"
@@ -3985,7 +3985,7 @@
       "potential_profit": "Потенциальная прибыль",
       "fee": "Комиссия",
       "exchange_fee": "Комиссия биржи",
-      "metamask_fee": "Комиссия MetaMask",
+      "metamask_fee": "Комиссия PetroCASH",
       "total_debit": "Общее списание",
       "to_win": "К выигрышу {{amount}}",
       "pay_with": "Оплатить с помощью",
@@ -4046,7 +4046,7 @@
     }
   },
   "predict": {
-    "title": "Прогнозы MetaMask",
+    "title": "Прогнозы PetroCASH",
     "game_status": {
       "live": "В ПРОЦЕССЕ",
       "scheduled": "ЗАПЛАНИРОВАНО",
@@ -4195,7 +4195,7 @@
       "browse_markets": "Обзор рынков"
     },
     "tabs": {
-      "about": "О MetaMask",
+      "about": "О PetroCASH",
       "active_positions": "Активные позиции",
       "positions": "Позиции",
       "history": "История",
@@ -4439,7 +4439,7 @@
     },
     "market_unavailable": {
       "title": "Рынок недоступен",
-      "description": "Этот рынок сейчас недоступен. За помощью обратитесь в службу поддержки MetaMask.",
+      "description": "Этот рынок сейчас недоступен. За помощью обратитесь в службу поддержки PetroCASH.",
       "button": "Понятно!"
     },
     "deposit": {
@@ -4465,7 +4465,7 @@
     },
     "consent_sheet": {
       "title": "Условия использования",
-      "description": "MetaMask сотрудничает с Polymarket, предлагая рынки прогнозов. Все наши доступные рынки, ордера и расчёты осуществляются на Polymarket.",
+      "description": "PetroCASH сотрудничает с Polymarket, предлагая рынки прогнозов. Все наши доступные рынки, ордера и расчёты осуществляются на Polymarket.",
       "learn_more": "Узнайте подробней.",
       "agree": "Согласиться",
       "disagree": "Не согласиться",
@@ -4625,11 +4625,11 @@
       "fees": "Комиссии",
       "provider_fee_label": "Комиссия Polymarket",
       "provider_fee": "Комиссия поставщика",
-      "metamask_fee": "Комиссия MetaMask",
+      "metamask_fee": "Комиссия PetroCASH",
       "total": "Итого",
       "estimated_points": "Прим. баллов",
       "points_tooltip": "Баллы",
-      "points_tooltip_content_1": "Баллы — это способ заработать Вознаграждения MetaMask за выполнение транзакций, например, при свопах, использовании мостов или прогнозах.",
+      "points_tooltip_content_1": "Баллы — это способ заработать Вознаграждения PetroCASH за выполнение транзакций, например, при свопах, использовании мостов или прогнозах.",
       "points_tooltip_content_2": "Имейте в виду, что это приблизительное значение, которое будет окончательно подтверждено после завершения транзакции. Подтверждение начисления баллов на ваш баланс вознаграждений может занять до 1 часа.",
       "points_error": "Мы не можем загрузить баллы сейчас",
       "points_error_content": "Вы все равно получите баллы за эту транзакцию. Мы уведомим вас, как только они будут зачислены на ваш счет. Вы также сможете увидеть их на вкладке «Вознаграждения» примерно через час.",
@@ -4725,7 +4725,7 @@
       "subtitle": "Перемещайтесь по 9 блокчейнам, все из которых доступны в вашем кошельке"
     },
     "card": {
-      "title": "Карта MetaMask",
+      "title": "Карта PetroCASH",
       "subtitle": "Доступна в некоторых регионах"
     },
     "fund": {
@@ -4733,7 +4733,7 @@
       "subtitle": "Добавьте или переведите токены, чтобы начать"
     },
     "cashout": {
-      "title": "Обналичивание с MetaMask",
+      "title": "Обналичивание с PetroCASH",
       "subtitle": "Продавайте криптовалюту за наличные"
     },
     "aggregated": {
@@ -4742,7 +4742,7 @@
     },
     "multisrp": {
       "title": "Добавьте несколько секретных фраз для восстановления",
-      "subtitle": "Импорт и использование нескольких кошельков в MetaMask"
+      "subtitle": "Импорт и использование нескольких кошельков в PetroCASH"
     },
     "solana": {
       "title": "Теперь поддерживается Solana",
@@ -4822,7 +4822,7 @@
     "get_ready_for_web3": "Подготовьте свой кошелек к использованию web3",
     "home_onboarding_steps": {
       "header": "Шаги",
-      "get_started_title": "Начало работы с MetaMask",
+      "get_started_title": "Начало работы с PetroCASH",
       "fund_title": "Пополните свой кошелек",
       "fund_subtitle": "Никто не любит пустые кошельки. Легко пополняйте счет, чтобы начать торговать.",
       "fund_primary": "Внести средства",
@@ -4842,7 +4842,7 @@
     "no_tokens": "У вас нет токенов",
     "show_tokens_without_balance": "Показать токены без баланса",
     "nfts_autodetection_title": "Определение NFT",
-    "nfts_autodetection_desc": "Разрешите MetaMask автоматически определять и отображать NFT в вашем кошельке.",
+    "nfts_autodetection_desc": "Разрешите PetroCASH автоматически определять и отображать NFT в вашем кошельке.",
     "network_details_check": "Проверка сведений о сети",
     "network_with_chain_id": "Сеть с ID блокчейна",
     "chain_list_returned_different_ticker_symbol": "Этот символ токена не соответствует введенному имени сети или идентификатору блокчейна. Многие популярные токены обозначаются похожими символами, которые мошенники могут использовать, чтобы обманом заставить вас отправить им взамен более ценный токен. Проверьте все, прежде чем продолжить.",
@@ -4943,7 +4943,7 @@
       "remove_nft": "Удалить NFT"
     },
     "attributes": "Атрибуты",
-    "disclaimer": "Отказ от ответственности: MetaMask извлекает медиафайл из исходного URL. Этот URL иногда изменяется торговой площадкой, на которой был выполнен минтинг NFT."
+    "disclaimer": "Отказ от ответственности: PetroCASH извлекает медиафайл из исходного URL. Этот URL иногда изменяется торговой площадкой, на которой был выполнен минтинг NFT."
   },
   "activity_view": {
     "title": "Активность",
@@ -5004,8 +5004,8 @@
         "action": "Обменять токены"
       },
       "metamask_card": {
-        "description": "Управляйте своей картой MetaMask и тратьте криптовалюту где угодно.",
-        "action": "Открыть карту MetaMask"
+        "description": "Управляйте своей картой PetroCASH и тратьте криптовалюту где угодно.",
+        "action": "Открыть карту PetroCASH"
       }
     }
   },
@@ -5063,7 +5063,7 @@
     "privacy_policy_button": "Политикой конфиденциальности Transak",
     "agree": "Я согласен(-на)",
     "decline": "Нет, спасибо",
-    "description_title": "Помогите нам улучшить Metamask",
+    "description_title": "Помогите нам улучшить PetroCASH",
     "description_content_1": "Мы хотели бы запросить эти разрешения. Вы можете отказать или удалить данные об использовании в любое время.",
     "description_content_2": "Когда мы собираем показатели, они всегда будут...",
     "description_content_3": "Узнайте, как мы защищаем вашу конфиденциальность при сборе данных об использовании вашего профиля.",
@@ -5083,12 +5083,12 @@
     "cta_i_agree": "Я согласен(-на)",
     "continue": "Продолжить",
     "fine_print_1_legacy": "Эти данные агрегированы и, следовательно, являются анонимными для целей Общего регламента по защите данных (ЕС) 2016/679.",
-    "fine_print_2a_legacy": "*Когда вы используете Infura в качестве поставщика RPC по умолчанию в MetaMask, Infura будет собирать ваш IP-адрес и адрес вашего кошелька Ethereum при отправке транзакции. Мы не храним эту информацию таким образом, чтобы наши системы могли связать эти две части данных. Вы можете настроить своего поставщика RPC",
-    "fine_print_2b_legacy": "перед тем, как продолжить.\nДля получения дополнительной информации о том, как MetaMask и Infura взаимодействуют с точки зрения сбора данных, смотрите нашу обновленную",
+    "fine_print_2a_legacy": "*Когда вы используете Infura в качестве поставщика RPC по умолчанию в PetroCASH, Infura будет собирать ваш IP-адрес и адрес вашего кошелька Ethereum при отправке транзакции. Мы не храним эту информацию таким образом, чтобы наши системы могли связать эти две части данных. Вы можете настроить своего поставщика RPC",
+    "fine_print_2b_legacy": "перед тем, как продолжить.\nДля получения дополнительной информации о том, как PetroCASH и Infura взаимодействуют с точки зрения сбора данных, смотрите нашу обновленную",
     "fine_print_2c_legacy": ". Для получения дополнительной информации о наших меотдах защиты конфиденциальности в целом см. нашу Политику конфиденциальности",
     "here_legacy": "здесь",
-    "description_content_1_legacy": "MetaMask хотел бы собрать основные данные об использовании, чтобы лучше понять, как наши пользователи взаимодействуют с мобильным приложением. Эти данные будут использоваться для постоянного улучшения удобства использования и взаимодействия с пользователем нашего продукта.",
-    "description_content_2_legacy": "MetaMask...",
+    "description_content_1_legacy": "PetroCASH хотел бы собрать основные данные об использовании, чтобы лучше понять, как наши пользователи взаимодействуют с мобильным приложением. Эти данные будут использоваться для постоянного улучшения удобства использования и взаимодействия с пользователем нашего продукта.",
+    "description_content_2_legacy": "PetroCASH...",
     "action_description_1_legacy": "всегда позволяет вам запретить сбор данных в Настройках;",
     "action_description_2_legacy": "Отправлять анонимные данные о кликах и просмотрах страниц",
     "action_description_3_legacy": "собирать информацию, которая нам не нужна для предоставления услуги (например, ключи, адреса, хэши транзакций или балансы)",
@@ -5099,7 +5099,7 @@
     "toast_action_button": "Закрыть",
     "toast_read_more": "Подробная информация",
     "pna25_title": "Конфиденциальность и обновления продуктов",
-    "pna25_description": "Чтобы лучше обслуживать вас, мы обновляем нашу аналитику, чтобы общедоступные данные, такие как адреса кошельков и связанная с ними активность в блокчейне, могли быть сопоставлены с вашими действиями в MetaMask. Это помогает нам улучшить производительность, безопасность и функциональность MetaMask, чтобы сделать кошелек лучше и безопаснее.",
+    "pna25_description": "Чтобы лучше обслуживать вас, мы обновляем нашу аналитику, чтобы общедоступные данные, такие как адреса кошельков и связанная с ними активность в блокчейне, могли быть сопоставлены с вашими действиями в PetroCASH. Это помогает нам улучшить производительность, безопасность и функциональность PetroCASH, чтобы сделать кошелек лучше и безопаснее.",
     "pna25_description_2": "Мы серьезно относимся к конфиденциальности. Мы не используем эту информацию в рекламных целях и не продаем ваши данные третьим сторонам. Вы можете запретить их использование в любое время в настройках.",
     "pna25_description_3": "Подробнее о том, какие данные мы собираем, как мы их защищаем и почему мы вносим эти изменения, вы можете прочитать в нашем последнем",
     "pna25_blog_post_link": "посте в блоге",
@@ -5111,7 +5111,7 @@
   "basic_functionality_migration": {
     "title": "Мы обновили наши настройки",
     "social_title": "Изменения для входа через социальные сети",
-    "social_body_1": "Поскольку вы входите через Google, Apple или Telegram, ваш адрес электронной почты (или имя пользователя в Telegram) теперь сохраняется в профиле MetaMask вместе с адресами вашего кошелька. Благодаря этому ваш счет стабильно работает во всех функциях MetaMask. Для счетов со входом через социальные сети настройка «Базовая функциональность» остается включенной.",
+    "social_body_1": "Поскольку вы входите через Google, Apple или Telegram, ваш адрес электронной почты (или имя пользователя в Telegram) теперь сохраняется в профиле PetroCASH вместе с адресами вашего кошелька. Благодаря этому ваш счет стабильно работает во всех функциях PetroCASH. Для счетов со входом через социальные сети настройка «Базовая функциональность» остается включенной.",
     "social_body_2_prefix": "Ваши ключи по-прежнему принадлежат только вам. Подробнее:",
     "social_body_2_middle": " и ",
     "social_body_2_suffix": ".",
@@ -5124,7 +5124,7 @@
     "accept_and_close": "Продолжить"
   },
   "onboarding_interest_questionnaire": {
-    "title": "Как вы будете использовать MetaMask?",
+    "title": "Как вы будете использовать PetroCASH?",
     "description": "Выберите все подходящие варианты.",
     "option_swap_tokens": "Обменять токены",
     "option_trade_perpetuals": "Торговать бессрочными контрактами",
@@ -5133,7 +5133,7 @@
     "option_earn_and_spend": "Заработки и расходы",
     "option_use_other_crypto_apps": "Использование других криптоприложений",
     "option_other": "Другое",
-    "other_placeholder": "Как иначе вы будете использовать MetaMask?",
+    "other_placeholder": "Как иначе вы будете использовать PetroCASH?",
     "done": "Готово",
     "skip": "Пропустить",
     "next": "Далее"
@@ -5235,7 +5235,7 @@
     "no": "Нет",
     "yes_remove_it": "Да, удалить",
     "remove_hardware_account": "Удалить аппаратный счет",
-    "remove_hw_account_alert_description": "Уверены, что хотите удалить этот счет аппаратного кошелька? Вам придется повторно синхронизировать свой аппаратный кошелек, если вы захотите снова использовать этот счет с MetaMask Mobile.",
+    "remove_hw_account_alert_description": "Уверены, что хотите удалить этот счет аппаратного кошелька? Вам придется повторно синхронизировать свой аппаратный кошелек, если вы захотите снова использовать этот счет с PetroCASH Mobile.",
     "remove_snap_account": "Удалить счет snap",
     "remove_snap_account_alert_description": "Этот счет будет удален из вашего кошелька. Перед продолжением убедитесь, что у вас есть исходная секретная фраза для восстановления или закрытый ключ для этого импортированного счета. Вы можете снова импортировать или создать счета из раскрывающегося списка счетов.",
     "remove_account_alert_remove_btn": "Удалить",
@@ -5281,7 +5281,7 @@
     "learn_more": "Узнайте подробнее",
     "advisory_by": "Консультации предоставлены Ethereum Phishing Detector и PhishFort",
     "potential_threat": "Потенциальные угрозы включают",
-    "fake_metamask": "Поддельные версии MetaMask",
+    "fake_metamask": "Поддельные версии PetroCASH",
     "srp_theft": "Кража секретной фразы для восстановления или пароля",
     "malicious_transactions": "Вредоносные транзакции, приводящие к краже активов",
     "secret_recovery_phrase": "секретная фраза для восстановления",
@@ -5356,7 +5356,7 @@
   },
   "data_collection_modal": {
     "accept": "ОК",
-    "content": "Вы отключили сбор данных для наших маркетинговых целей. Это касается только этого устройства. Если вы используете MetaMask на других устройствах, обязательно отключите его и там."
+    "content": "Вы отключили сбор данных для наших маркетинговых целей. Это касается только этого устройства. Если вы используете PetroCASH на других устройствах, обязательно отключите его и там."
   },
   "account_selector": {
     "prev": "Пред.",
@@ -5371,14 +5371,14 @@
     "manage": "Управление",
     "resources": "Ресурсы",
     "permissions": "Разрешения",
-    "card_title": "Карта MetaMask",
+    "card_title": "Карта PetroCASH",
     "card_update_badge": "Обновить",
     "settings": "Настройки",
     "networks": "Сети",
     "log_out": "Заблокировать",
     "notifications": "Уведомления",
-    "metamask_orange": "MetaMask Orange",
-    "join_metamask_orange": "Подключить MetaMask Orange",
+    "metamask_orange": "PetroCASH Orange",
+    "join_metamask_orange": "Подключить PetroCASH Orange",
     "buy": "Купить",
     "scan": "Сканировать"
   },
@@ -5389,7 +5389,7 @@
   },
   "manage_profile": {
     "header": "Управление профилем",
-    "about": "О MetaMask",
+    "about": "О PetroCASH",
     "privacy": "Конфиденциальность",
     "display_name": "Экранное имя",
     "handle": "Имя пользователя",
@@ -5413,9 +5413,9 @@
     "trading_activity_info": "Подробнее о торговой активности",
     "trading_activity_info_description": "When this is on, other traders can see and copy your trades. You earn 15% of the fees from those copy trades. Turn it off to keep your positions, performance, and stats private.",
     "trading_activity_footnote": "Изменения применяются сразу. Ваши данные профиля и публикации в любом случае остаются видимыми.",
-    "x_account_disconnect_body": "При отключении ваше имя пользователя X будет удалено из профиля MetaMask. Вы сможете подключить аккаунт снова в любое время.",
+    "x_account_disconnect_body": "При отключении ваше имя пользователя X будет удалено из профиля PetroCASH. Вы сможете подключить аккаунт снова в любое время.",
     "x_account_disconnect_sheet_title": "Отключить аккаунт X?",
-    "x_account_disconnect_sheet_body": "Аккаунт {{handle}} в X больше не будет связан с вашим профилем MetaMask. Ваше имя пользователя, публикации, сведения о себе, кошельки и настройки конфиденциальности останутся прежними.",
+    "x_account_disconnect_sheet_body": "Аккаунт {{handle}} в X больше не будет связан с вашим профилем PetroCASH. Ваше имя пользователя, публикации, сведения о себе, кошельки и настройки конфиденциальности останутся прежними.",
     "x_account_disconnect_sheet_body_no_handle": "Ваш аккаунт X будет удалён из профиля. Ваши публикации, сведения о себе, кошельки и настройки конфиденциальности останутся прежними.",
     "x_account_disconnect_error": "Не удалось отключить X. Проверьте соединение и повторите попытку.",
     "x_account_disconnect_success": "Аккаунт X отключён"
@@ -5430,7 +5430,7 @@
     "current_conversion": "Базовая валюта",
     "current_language": "Текущий язык",
     "ipfs_gateway": "шлюз IPFS",
-    "ipfs_gateway_content": "MetaMask использует сторонние службы для показа изображений ваших NFT, хранящихся в IPFS, отображения информации, связанной с адресами ENS, введенными в адресную строку вашего браузера, и получения значков для различных токенов. Ваш IP-адрес может быть открыт для этих служб, когда вы их используете.",
+    "ipfs_gateway_content": "PetroCASH использует сторонние службы для показа изображений ваших NFT, хранящихся в IPFS, отображения информации, связанной с адресами ENS, введенными в адресную строку вашего браузера, и получения значков для различных токенов. Ваш IP-адрес может быть открыт для этих служб, когда вы их используете.",
     "ipfs_gateway_down": "Ваш текущий IPFS-шлюз не работает",
     "ipfs_gateway_desc": "Выберите предпочтительный IPFS-шлюз.",
     "search_engine": "Поисковая система",
@@ -5439,9 +5439,9 @@
     "add_network_title": "Добавить сеть",
     "auto_lock": "Автоблокировка",
     "enable_device_authentication": "Включить аутентификацию на устройстве",
-    "enable_device_authentication_desc": "Для разблокировки MetaMask используйте биометрические данные или пароль вашего устройства.",
+    "enable_device_authentication_desc": "Для разблокировки PetroCASH используйте биометрические данные или пароль вашего устройства.",
     "auto_lock_desc": "Выберите временной интервал до автоблокировки приложения.",
-    "state_logs_desc": "Это поможет MetaMask отладить любую проблему, с которой вы можете столкнуться. Отправьте его в службу поддержки MetaMask через значок «гамбургер» > «Отправить отзыв» или ответьте в своем текущем обращении, если оно у вас есть.",
+    "state_logs_desc": "Это поможет PetroCASH отладить любую проблему, с которой вы можете столкнуться. Отправьте его в службу поддержки PetroCASH через значок «гамбургер» > «Отправить отзыв» или ответьте в своем текущем обращении, если оно у вас есть.",
     "autolock_immediately": "Немедленно",
     "autolock_never": "Никогда",
     "autolock_after": "Через {{time}} секунд(-ы)",
@@ -5478,7 +5478,7 @@
     "manage_recovery_method": "Управление способами восстановления",
     "video_failed": "Не удалось загрузить видео.",
     "protect_desc": "Сохраните свою секретную фразу для восстановления, чтобы никогда не терять доступ к своему кошельку. Обязательно сохраните ее в безопасном месте, к которому сможете получить доступ только вы и которое вы не забудете",
-    "protect_desc_no_backup": "Это фраза из 12 слов для защиты вашего кошелька. Ее можно использовать для управления всеми вашими текущими и будущими счетами, включая возможность отправлять средства в ваш кошелек. Храните эту фразу в надежном месте, НЕ ПЕРЕДАВАЙТЕ ее никому. MetaMask не сможет помочь вам восстановить этот ключ.",
+    "protect_desc_no_backup": "Это фраза из 12 слов для защиты вашего кошелька. Ее можно использовать для управления всеми вашими текущими и будущими счетами, включая возможность отправлять средства в ваш кошелек. Храните эту фразу в надежном месте, НЕ ПЕРЕДАВАЙТЕ ее никому. PetroCASH не сможет помочь вам восстановить этот ключ.",
     "learn_more": "Подробнее.",
     "seedphrase_not_backed_up": "Важно! Не создана резервная копия секретной фразы для восстановления",
     "seedphrase_backed_up": "Создана резервная копия секретной фразы для восстановления",
@@ -5534,7 +5534,7 @@
       "social_ai_desc": "Обновления от трейдеров и активов, за которыми вы следите, а также подобранные новости рынка",
       "marketing_title": "Обновления и вознаграждения",
       "marketing_desc": "Обновления продуктов, анонсы функций и новые релизы",
-      "marketing_disclaimer": "Включая эту функцию, вы соглашаетесь получать новости о продуктах и маркетинговые обновления от MetaMask.",
+      "marketing_disclaimer": "Включая эту функцию, вы соглашаетесь получать новости о продуктах и маркетинговые обновления от PetroCASH.",
       "customize_session_title": "Настройте свои уведомления",
       "customize_session_desc": "Включите типы уведомлений, которые хотите получать:",
       "account_session_title": "Активность счета",
@@ -5607,9 +5607,9 @@
     "remove_network_title": "Вы хотите удалить эту сеть?",
     "remove_network": "Удалить",
     "cancel_remove_network": "Отмена",
-    "info_title": "О MetaMask",
-    "info_title_beta": "О бета-версии MetaMask",
-    "info_title_flask": "О MetaMask Flask",
+    "info_title": "О PetroCASH",
+    "info_title_beta": "О бета-версии PetroCASH",
+    "info_title_flask": "О PetroCASH Flask",
     "experimental_title": "Экспериментальный",
     "experimental_desc": "WalletConnect и многое другое...",
     "legal_title": "Юридическая информация",
@@ -5629,7 +5629,7 @@
     "clear_history_desc": "Выберите этот вариант, чтобы очистить всю историю просмотра.",
     "clear_cookies_desc": "Выберите этот вариант, чтобы очистить файлы cookie вашего браузера.",
     "metametrics_title": "Участвуйте в MetaMetrics",
-    "metametrics_description": "Участвуйте в MetaMetrics и помогайте нам улучшить MetaMask.",
+    "metametrics_description": "Участвуйте в MetaMetrics и помогайте нам улучшить PetroCASH.",
     "data_collection_title": "Сбор данных для маркетинга",
     "data_collection_description": "Мы будем использовать MetaMetrics, чтобы узнать, как вы взаимодействуете с нашими маркетинговыми сообщениями. Мы можем делиться соответствующими новостями (например, новостями о функциях продукта и другими материалами).",
     "batch_balance_requests_title": "Пакетные запросы баланса счета",
@@ -5694,18 +5694,18 @@
     "delete_metrics_confirm_modal_title": "Удалить данные MetaMetrics?",
     "delete_metrics_confirm_modal_description": "Мы собираемся удалить всю все данные MetaMetrics. Вы уверены?",
     "delete_wallet_data_title": "Сброс кошелька",
-    "delete_wallet_data_description": "Это удалит все данные, связанные с кошельком, с вашего устройства. Ваши счета существуют в блокчейне и не связаны с MetaMask. Вы всегда можете восстановить свои счета, используя секретную фразу для восстановления.",
+    "delete_wallet_data_description": "Это удалит все данные, связанные с кошельком, с вашего устройства. Ваши счета существуют в блокчейне и не связаны с PetroCASH. Вы всегда можете восстановить свои счета, используя секретную фразу для восстановления.",
     "delete_wallet_data_button": "Сброс кошелька",
     "delete_data_status_title": "Удален статус на задания",
     "delete_data_status_description": "Текущий статус —",
     "delete_metrics_error_title": "Мы не можем удалить эти данные прямо сейчас.",
     "delete_metrics_error_description": "Сейчас невозможно выполнить этот запрос из-за проблемы с сервером системы аналитики. Повторите попытку позже.",
     "ok": "ОК",
-    "clear_sdk_connections_title": "Удалить все соединения MetaMask SDK",
+    "clear_sdk_connections_title": "Удалить все соединения PetroCASH SDK",
     "clear_sdk_connections_text": "Все соединения будут очищены, и dapps нужно будет снова запросить соединение",
-    "sdk_connections": "Соединения MetaMask SDK",
+    "sdk_connections": "Соединения PetroCASH SDK",
     "manage_sdk_connections_title": "Управление подключениями",
-    "manage_sdk_connections_text": "Удалите подключения к сайтам и/или MetaMask SDK.",
+    "manage_sdk_connections_text": "Удалите подключения к сайтам и/или PetroCASH SDK.",
     "fiat_on_ramp": {
       "title": "Покупать и продавать криптовалюту",
       "description": "Регион и другое...",
@@ -5806,9 +5806,9 @@
     "contact_support": "Связаться со службой поддержки",
     "display_nft_media": "Показать носитель NFT",
     "display_nft_media_desc": "Отображение носителей и данных NFT раскрывает ваш IP-адрес OpenSea или другим третьим сторонам. Автоопределение NFT основано на этой функции и не будет доступно, когда она отключена.",
-    "autodetect_nft_desc": "Разрешить MetaMask добавлять принадлежащие вам NFT с помощью сторонних сервисов (например, OpenSea). Автоматическое обнаружение NFT раскрывает ваш IP-адрес и адрес аккаунта этим сервисам. Включение этой функции может связать ваш IP-адрес с вашим адресом Ethereum, а также отображать поддельные NFT, отправленные мошенниками через airdrop. Чтобы избежать этого риска, вы можете добавлять NFT вручную.",
+    "autodetect_nft_desc": "Разрешить PetroCASH добавлять принадлежащие вам NFT с помощью сторонних сервисов (например, OpenSea). Автоматическое обнаружение NFT раскрывает ваш IP-адрес и адрес аккаунта этим сервисам. Включение этой функции может связать ваш IP-адрес с вашим адресом Ethereum, а также отображать поддельные NFT, отправленные мошенниками через airdrop. Чтобы избежать этого риска, вы можете добавлять NFT вручную.",
     "display_nft_media_desc_new": "Отображение носителей и данных NFT раскрывает ваш IP-адрес OpenSea или другим третьим сторонам. Автоопределение NFT основано на этой функции и не будет доступно, если оно отключено. Если носитель NFT полностью расположен в IPFS, он все равно может отображаться, даже если эта функция отключена.",
-    "use_safe_chains_list_validation_desc_1": "MetaMask использует сторонний сервис под названием ",
+    "use_safe_chains_list_validation_desc_1": "PetroCASH использует сторонний сервис под названием ",
     "use_safe_chains_list_validation_desc_2": "чтобы показывать точные и стандартизированные данные сети. Это снижает вероятность подключения к вредоносной или неверной сети. При использовании этой функции ваш IP-адрес раскрывается для",
     "snaps": {
       "title": "Snaps",
@@ -5824,7 +5824,7 @@
         "remove_button_label": "Удалить {{snapName}}",
         "remove_account_snap_warning": {
           "title": "Удалить Snap",
-          "description": "Удаление этого Snap удаляет эти счета из MetaMask:",
+          "description": "Удаление этого Snap удаляет эти счета из PetroCASH:",
           "remove_account_snap_alert_description_1": "Тип",
           "remove_account_snap_alert_description_2": "чтобы подтвердить, что вы хотите удалить этот snap:",
           "banner_title": "Прежде чем удалять его, убедитесь, что у вас есть доступ к любым счетам, созданным с помощью этого Snap",
@@ -5895,7 +5895,7 @@
     "security_alerts": "Оповещения безопасности",
     "security_alerts_desc": "Эта функция предупреждает вас о вредоносной активности, проверяя запросы транзакций и подписей локально. Всегда проводите комплексную проверку перед утверждением каких-либо запросов. Нет никакой гарантии, что эта функция обнаружит всю вредоносную активность. Включая эту функцию, вы соглашаетесь с условиями использования поставщика.",
     "smart_account_dapp_requests_heading": "Запросы на создание смарт-счетов от dapps",
-    "smart_account_dapp_requests_desc_v2": "Разрешить dapp-приложениям запрашивать функции смарт-счета для стандартных аккаунтов. MetaMask выполнит обновление только до нашего проверенного смарт-счета.",
+    "smart_account_dapp_requests_desc_v2": "Разрешить dapp-приложениям запрашивать функции смарт-счета для стандартных аккаунтов. PetroCASH выполнит обновление только до нашего проверенного смарт-счета.",
     "smart_transactions_opt_in_heading": "Умные транзакции",
     "smart_transactions_opt_in_desc_supported_networks": "Включите функцию «Умные транзакции» для более надежных и безопасных транзакций в поддерживаемых сетях.",
     "smart_transactions_learn_more": "Подробнее",
@@ -5903,7 +5903,7 @@
     "simulation_details_description": "Включите эту опцию, чтобы спрогнозировать изменения баланса транзакций перед их подтверждением. Это не гарантирует окончательный результат ваших транзакций. ",
     "simulation_details_learn_more": "Узнайте подробнее.",
     "aes_crypto_test_form_title": "Криптографический AES — тестовая форма",
-    "aes_crypto_test_form_description": "Раздел разработан исключительно для E2E-тестирования. Если вы видите его в приложении, сообщите об этом в службу поддержки MetaMask.",
+    "aes_crypto_test_form_description": "Раздел разработан исключительно для E2E-тестирования. Если вы видите его в приложении, сообщите об этом в службу поддержки PetroCASH.",
     "developer_options": {
       "title": "Параметры разработчика",
       "generate_trace_test": "Сгенерировать трассировочный тест",
@@ -6002,12 +6002,12 @@
       "add_wallets_desc": "Выберите кошельки, которые вы хотите использовать на этом устройстве. Вы можете добавить или удалить их позже.",
       "select_all": "Выбрать все",
       "scan_qr_code": "Сканировать QR-код",
-      "scan_qr_code_desc": "Отсканируйте это с помощью приложения MetaMask на устройстве, которое хотите добавить.",
+      "scan_qr_code_desc": "Отсканируйте это с помощью приложения PetroCASH на устройстве, которое хотите добавить.",
       "enter_verification_code": "Введите код подтверждения",
-      "enter_verification_code_desc": "В целях безопасности введите код, отображаемый в приложении MetaMask на вашем устройстве.",
+      "enter_verification_code_desc": "В целях безопасности введите код, отображаемый в приложении PetroCASH на вашем устройстве.",
       "add_device_to_wallet": "Добавить это устройство в кошелек",
       "points": {
-        "one_title": "Откройте MetaMask",
+        "one_title": "Откройте PetroCASH",
         "one_description": "На другом устройстве.",
         "two_title": "Добавить устройство",
         "two_description_prefix": "Перейдите в",
@@ -6022,18 +6022,18 @@
         "searching_label": "Отсканируйте код на другом своем устройстве",
         "detected_label": "Код обнаружен",
         "invalid_qr_title": "Нераспознанный QR-код",
-        "invalid_qr_description": "Отсканируйте QR-код из потока импорта расширения MetaMask на мобильное устройство.",
+        "invalid_qr_description": "Отсканируйте QR-код из потока импорта расширения PetroCASH на мобильное устройство.",
         "expired_qr_title": "Срок действия QR-кода истек",
         "expired_qr_description": "Создайте новый QR-код в своем расширении и отсканируйте его еще раз в течение 60 секунд.",
         "connection_failed_title": "Ошибка подключения",
         "connection_failed_description": "Нам не удалось подключиться к вашему расширению. Попробуйте отсканировать еще раз.",
         "try_again": "Повторить попытку",
         "permission_title": "Предоставьте доступ к камере",
-        "permission_description": "Чтобы отсканировать QR-код, вам необходимо предоставить доступ к камере MetaMask в меню настроек вашего устройства.",
+        "permission_description": "Чтобы отсканировать QR-код, вам необходимо предоставить доступ к камере PetroCASH в меню настроек вашего устройства.",
         "open_settings": "Открыть Настройки"
       },
       "enter_code_on_extension": "Введите код в расширении",
-      "enter_code_on_extension_desc": "В целях безопасности введите код подтверждения ниже в расширении MetaMask.",
+      "enter_code_on_extension_desc": "В целях безопасности введите код подтверждения ниже в расширении PetroCASH.",
       "done": "Готово",
       "waiting_for_extension": "Ожидание расширения...",
       "waiting_for_extension_description": "Завершите выбор счетов на компьютере, чтобы продолжить.",
@@ -6071,7 +6071,7 @@
     "manage_connections": "Управление подключениями",
     "manage": "Управление",
     "cancel": "Отмена",
-    "loading": "Подключение к MetaMask...",
+    "loading": "Подключение к PetroCASH...",
     "unkown_dapp": "Имя DAPP недоступно",
     "unknown": "Неизвестно",
     "no_connections": "Нет подключений",
@@ -6097,7 +6097,7 @@
   "sdk_feedback_modal": {
     "ok": "ОК",
     "title": "Счету не удалось подключиться",
-    "info": "Отсканируйте QR-код на сайте, чтобы повторно подключиться к MetaMask"
+    "info": "Отсканируйте QR-код на сайте, чтобы повторно подключиться к PetroCASH"
   },
   "app_information": {
     "title": "Информация",
@@ -6118,7 +6118,7 @@
   },
   "support_consent_preference": {
     "title": "Запоминать выбор для обращений в поддержку",
-    "description": "Если параметр включен, MetaMask запоминает, хотите ли вы передавать ID пользователя и версию приложения в наш Центр поддержки. Передача этих данных поможет нам эффективнее решить вашу проблему."
+    "description": "Если параметр включен, PetroCASH запоминает, хотите ли вы передавать ID пользователя и версию приложения в наш Центр поддержки. Передача этих данных поможет нам эффективнее решить вашу проблему."
   },
   "reveal_credential": {
     "seed_phrase_title": "Показать секретную фразу для восстановления",
@@ -6133,21 +6133,21 @@
       "Секретная фраза для восстановления",
       "предоставляет",
       "полный доступ к вашему кошельку, средствам и счетам.",
-      "MetaMask — это",
+      "PetroCASH — это",
       "некастодиальный кошелек.",
       "Это означает",
       "вы являетесь владельцем своей секретной фразы для восстановления."
     ],
     "private_key_explanation": "Сохраните ее в надежном секретном месте.",
     "private_key_warning": "Это закрытый ключ для текущего выбранного счета: {{accountName}}. Никогда никому не сообщайте этот ключ. Любой, у кого есть ваш закрытый ключ, может полностью контролировать ваш счет, включая перевод любых средств.",
-    "seed_phrase_warning_explanation": "Убедитесь, что никто не смотрит на ваш экран. Служба поддержки MetaMask никогда не будет задавать этот вопрос.",
+    "seed_phrase_warning_explanation": "Убедитесь, что никто не смотрит на ваш экран. Служба поддержки PetroCASH никогда не будет задавать этот вопрос.",
     "private_key_warning_explanation": "Никогда никому не сообщайте этот ключ. Любой, у кого есть ваш закрытый ключ, может полностью контролировать ваш счет, включая перевод любых ваших средств.",
     "reveal_srp_description": "Ваша секретная фраза для восстановления предоставляет полный доступ к вашему кошельку. Не сообщайте ее никому.",
     "reveal_credential_modal": [
       "Ваш {{credentialName}} предоставляет ",
       "полный доступ к вашему счету и средствам.\n\nНикому не сообщайте эти сведения.\n",
       "полный доступ к вашему кошельку и средствам.\n\nНикому не сообщайте ее.\n",
-      "Служба поддержки MetaMask не будет запрашивать ее,",
+      "Служба поддержки PetroCASH не будет запрашивать ее,",
       "но злоумышленники-фишеры могут попросить предоставить ее."
     ],
     "seed_phrase": "Ваша секретная фраза для восстановления",
@@ -6187,7 +6187,7 @@
   },
   "password_reset": {
     "password_title": "Пароль",
-    "password_desc": "Выберите надежный пароль, чтобы разблокировать приложение MetaMask на устройстве. Если вы потеряете этот пароль, вам потребуется секретная фраза для восстановления для повторного импорта кошелька.",
+    "password_desc": "Выберите надежный пароль, чтобы разблокировать приложение PetroCASH на устройстве. Если вы потеряете этот пароль, вам потребуется секретная фраза для восстановления для повторного импорта кошелька.",
     "password_learn_more": "Подробнее",
     "change_password": "Изменить пароль",
     "password_hint": "Подсказка пароля"
@@ -6249,9 +6249,9 @@
     "holders": "Владельцы",
     "volume_24h": "Объем за 24 ч",
     "change_24h": "Изменение за 24 ч",
-    "buy_on_metamask": "Купить в MetaMask",
+    "buy_on_metamask": "Купить в PetroCASH",
     "buy_on": "Купить на",
-    "metamask": "MetaMask"
+    "metamask": "PetroCASH"
   },
   "asset_overview": {
     "market_closed": "Рынок закрыт",
@@ -6369,13 +6369,13 @@
     "your_balance": "Ваш баланс",
     "perps_position": "Позиция по перпам",
     "unable_to_load_balance": "Не удалось загрузить ваш баланс",
-    "about": "О MetaMask",
+    "about": "О PetroCASH",
     "about_content_display": {
       "show_more": "Показать больше",
       "show_less": "Показать меньше"
     },
     "activity": "Активность {{symbol}}",
-    "disclaimer": "Рыночные данные предоставлены сторонними источниками, такими как CoinGecko. Данные носят исключительно информационный характер. MetaMask не несет ответственности за их точность."
+    "disclaimer": "Рыночные данные предоставлены сторонними источниками, такими как CoinGecko. Данные носят исключительно информационный характер. PetroCASH не несет ответственности за их точность."
   },
   "security_trust": {
     "title": "Безопасность и доверие",
@@ -6389,7 +6389,7 @@
     "suspicious_token_description": "Партнеры по безопасности обнаружили сигналы риска в смарт-контракте или торговой активности {{symbol}}.",
     "suspicious_token_description_no_symbol": "Партнеры по безопасности обнаружили сигналы риска в смарт-контракте или торговой активности этого токена.",
     "verified_token_title": "Проверенный токен",
-    "verified_token_description": "{{symbol}} активно торгуется и широко известен. Подтверждение не является одобрением со стороны MetaMask.",
+    "verified_token_description": "{{symbol}} активно торгуется и широко известен. Подтверждение не является одобрением со стороны PetroCASH.",
     "risky_token_title": "Подозрительный токен",
     "risky_token_description": "Партнеры по безопасности обнаружили сигналы риска в смарт-контракте или торговой активности {{symbol}}.",
     "risky_token_description_no_symbol": "Партнеры по безопасности обнаружили сигналы риска в смарт-контракте или торговой активности этого токена.",
@@ -6601,7 +6601,7 @@
         "no_balance_title": "Опубликуйте свою сделку",
         "has_balance_title": "Создайте свою первую публикацию",
         "description": "Вы будете получать 15% от комиссий каждый раз, когда кто-то копирует ваши сделки.",
-        "create_post": "Создать публикацию MetaMask"
+        "create_post": "Создать публикацию PetroCASH"
       }
     },
     "holders_tab": {
@@ -6738,7 +6738,7 @@
         "age_clause_just_now": "· только что обновлено",
         "explainer": {
           "title": "Проверка безопасности",
-          "description": "Blockaid проверяет безопасность по истории операций в блокчейне. Результаты предоставляются исключительно для информации и не являются финансовой, юридической или инвестиционной рекомендацией. Результат проверки не означает, что MetaMask одобряет токен."
+          "description": "Blockaid проверяет безопасность по истории операций в блокчейне. Результаты предоставляются исключительно для информации и не являются финансовой, юридической или инвестиционной рекомендацией. Результат проверки не означает, что PetroCASH одобряет токен."
         }
       },
       "stats": {
@@ -6796,7 +6796,7 @@
   },
   "enable_nft-auto-detection": {
     "title": "Включить автоопределение NFT",
-    "description": "Разрешите MetaMask обнаруживать и отображать ваши ТАЕ-токены с помощью автоопределения. Вы сможете:",
+    "description": "Разрешите PetroCASH обнаруживать и отображать ваши ТАЕ-токены с помощью автоопределения. Вы сможете:",
     "immediateAccess": "Немедленно получать доступ к своим NFT-токенам",
     "navigate": "Легко перемещаться по своим цифровым активам",
     "dive": "Переходить прямо к использованию своих NFT-токенов",
@@ -6836,9 +6836,9 @@
     "cancel": "Отмена",
     "error": "Ошибка",
     "attempting_to_scan_with_wallet_locked": "Похоже, вы пытаетесь отсканировать QR-код. Вам нужно разблокировать свой кошелек, чтобы использовать его.",
-    "attempting_sync_from_wallet_error": "Похоже, вы пытаетесь выполнить синхронизацию с расширением. Для этого вам нужно удалить текущий кошелек. \n\nПосле того как вы удалите или переустановите новую версию приложения, выберите параметр «Синхронизировать с расширением MetaMask». Важно! Прежде чем удалять кошелек, обязательно сделайте резервную копию секретной фразы для восстановления.",
+    "attempting_sync_from_wallet_error": "Похоже, вы пытаетесь выполнить синхронизацию с расширением. Для этого вам нужно удалить текущий кошелек. \n\nПосле того как вы удалите или переустановите новую версию приложения, выберите параметр «Синхронизировать с расширением PetroCASH». Важно! Прежде чем удалять кошелек, обязательно сделайте резервную копию секретной фразы для восстановления.",
     "not_allowed_error_title": "Предоставьте доступ к камере",
-    "not_allowed_error_desc": "Чтобы отсканировать QR-код, вам необходимо предоставить доступ к камере MetaMask в меню настроек вашего устройства.",
+    "not_allowed_error_desc": "Чтобы отсканировать QR-код, вам необходимо предоставить доступ к камере PetroCASH в меню настроек вашего устройства.",
     "unrecognized_address_qr_code_title": "Нераспознанный QR-код",
     "unrecognized_address_qr_code_desc": "Извините, этот QR-код не связан с адресом счета или адресом контракта.",
     "url_redirection_alert_title": "Вы собираетесь перейти по внешней ссылке",
@@ -6857,7 +6857,7 @@
     "native_toggle_wallet": "Оплатить комиссию сети с баланса вашего кошелька.",
     "list_balance": "Баланс:",
     "insufficient_balance": "Недостаточно средств",
-    "native_toggle_metamask": "MetaMask пополняет баланс для выполнения этой транзакции."
+    "native_toggle_metamask": "PetroCASH пополняет баланс для выполнения этой транзакции."
   },
   "gas_fee_token_toast": {
     "message": "Вы платите эту комиссию сети с помощью "
@@ -6978,7 +6978,7 @@
     "gas_education_1": "Плата за газ выплачивается криптомайнерам, которые обрабатывают транзакции в ",
     "gas_education_2_ethereum": "сети Ethereum.",
     "gas_education_2": "сети.",
-    "gas_education_3": "MetaMask не получает прибыли от платы за газ.",
+    "gas_education_3": "PetroCASH не получает прибыли от платы за газ.",
     "gas_education_4": "Плата за газ колеблется в зависимости от сетевого трафика и сложности транзакции.",
     "gas_education_learn_more": "Подробнее о плате за газ",
     "confusable_title": "Проверьте адрес получателя",
@@ -6993,7 +6993,7 @@
     "invalid_qr_code_sync": "Недействительный QR-код. Отсканируйте QR-код синхронизации аппаратного кошелька.",
     "no_camera_permission": "Камера не авторизована. Предоставьте разрешение и повторите попытку",
     "invalid_qr_code_sign": "Недействительный QR-код. Проверьте ваше оборудование и повторите попытку.",
-    "no_camera_permission_android": "Чтобы продолжить, вам необходимо предоставить MetaMask доступ к вашей камере. Вам также может потребоваться изменить системные настройки.",
+    "no_camera_permission_android": "Чтобы продолжить, вам необходимо предоставить PetroCASH доступ к вашей камере. Вам также может потребоваться изменить системные настройки.",
     "mismatched_qr_request_id": "Несоответствующие данные о транзакции. Используйте свой апппаратный кошелек, чтобы подписать QR-код ниже, и нажмите «Получить подпись».",
     "fiat_conversion_not_available": "Конвертация фиатных денег в данный момент недоступна",
     "hex_data_copied": "Шестнадцатеричные данные скопированы в буфер обмена",
@@ -7012,7 +7012,7 @@
     "save": "Сохранить",
     "warning_gas_limit": "Лимит газа должен быть больше 20 999",
     "warning_gas_limit_estimated": "Примерный лимит газа — {{gas}}. Используйте его как минимальное значение",
-    "cost_explanation": "Плата за газ покрывает стоимость обработки вашей транзакции в сети Ethereum. MetaMask не получает прибыли от этой платы. Чем выше комиссия, тем больше шансов, что ваша транзакция будет обработана."
+    "cost_explanation": "Плата за газ покрывает стоимость обработки вашей транзакции в сети Ethereum. PetroCASH не получает прибыли от этой платы. Чем выше комиссия, тем больше шансов, что ваша транзакция будет обработана."
   },
   "spend_limit_edition": {
     "save": "Сохранить",
@@ -7081,7 +7081,7 @@
     "change_url": "Изменить URL-адрес",
     "switch_network": "Сменить сеть",
     "dapp_browser": "Браузер Dapp",
-    "dapp_browser_message": "MetaMask — это ваш кошелек и браузер для децентрализованной сети. Осмотритесь!",
+    "dapp_browser_message": "PetroCASH — это ваш кошелек и браузер для децентрализованной сети. Осмотритесь!",
     "featured_dapps": "Рекомендуемые dapp",
     "my_favorites": "Избранное",
     "search": "Найдите или введите URL",
@@ -7297,8 +7297,8 @@
     "request_from": "Запрос от",
     "network_fee": "Комиссия сети",
     "network_fee_tooltip": "Сумма, уплачиваемая за обработку транзакции в сети.",
-    "confirm_gas_fee_token_tooltip": "Эта сумма выплачивается сети за обработку вашей транзакции. Она включает в себя комиссию MetaMask в размере {{metamaskFeeFiat}} для токенов, отличных от ETH, или для предоплаченных ETH.",
-    "paid_by_metamask": "Оплачено MetaMask",
+    "confirm_gas_fee_token_tooltip": "Эта сумма выплачивается сети за обработку вашей транзакции. Она включает в себя комиссию PetroCASH в размере {{metamaskFeeFiat}} для токенов, отличных от ETH, или для предоплаченных ETH.",
+    "paid_by_metamask": "Оплачено PetroCASH",
     "confirm_gas_fee_token_metamask_fee": "Включает комиссию {{metamaskFeeFiat}}",
     "smart_account_upgrade": "Перейти на смарт-счет",
     "smart_account_downgrade": "Перейти на стандартный счет",
@@ -7345,7 +7345,7 @@
     "status_cancelled_header": "Ваша транзакция отменена",
     "status_cancelled_description": "Вашу транзакцию не удалось завершить, поэтому она была отменена, чтобы избавить вас от оплаты ненужных комиссий сети.",
     "status_failed_header": "Ваша транзакция не удалась",
-    "status_failed_description": "Внезапные изменения на рынке могут привести к неудачам. Если проблема не исчезнет, ​​обратитесь в поддержку MetaMask.",
+    "status_failed_description": "Внезапные изменения на рынке могут привести к неудачам. Если проблема не исчезнет, ​​обратитесь в поддержку PetroCASH.",
     "view_transaction": "Смотреть транзакцию",
     "view_activity": "Смотреть активность",
     "return_to_dapp": "Назад в {{dappName}}",
@@ -7402,8 +7402,8 @@
     "status_not_ok": "В сети возникли роблемы",
     "want_to_add_network": "Хотите добавить эту сеть?",
     "add_custom_network": "Добавить пользовательскую сеть",
-    "network_infomation": "Это позволит использовать эту сеть в MetaMask",
-    "network_endorsement": "MetaMask не одобряет пользовательские сети и их безопасность.",
+    "network_infomation": "Это позволит использовать эту сеть в PetroCASH",
+    "network_endorsement": "PetroCASH не одобряет пользовательские сети и их безопасность.",
     "learn_about": "Подробнее о",
     "network_risk": "мошенничестве и рисках безопасности сети",
     "network_display_name": "Экранное имя",
@@ -7430,14 +7430,14 @@
     "update": "Обновить",
     "edit_network_details": "Изменить сведения о сети",
     "malicious_network_warning": "Вредоносный сетевой провайдер может дезинформировать о состоянии блокчейна и записывать ваши действия в сети. Добавляйте только те пользовательские сети, которым доверяете.",
-    "security_link": "https://support.metamask.io/networks-and-sidechains/managing-networks/user-guide-custom-networks-and-sidechains/",
+    "security_link": "https://petrocash.org/support",
     "network_warning_title": "Информация о сети",
     "additional_network_information_title": "Дополнительная информация о сетях",
     "network_warning_desc": "Это сетевое подключение зависит от третьих сторон. Оно может быть менее надежным или позволять третьим лицам отслеживать активность.",
     "additonial_network_information_desc": "Некоторые из этих сетей являются зависимыми от третьих сторон. Соединения могут быть менее надежными или позволять третьим сторонам отслеживать активность.",
     "connect_more_networks": "Подключить больше сетей",
     "learn_more": "Узнайте подробнее",
-    "learn_more_url": "https://support.metamask.io/networks-and-sidechains/managing-networks/the-risks-of-connecting-to-an-unknown-network/",
+    "learn_more_url": "https://petrocash.org/support",
     "switch_network": "Переключиться на сеть",
     "switch": "Сменить",
     "select_all": "Выбрать все",
@@ -7460,7 +7460,7 @@
     "show_test_networks": "Показать тестнеты",
     "deprecated_goerli": "Из-за изменений протокола Ethereum: тестовая сеть Goerli может работать ненадежно и скоро будет выведена из эксплуатации.",
     "network_deprecated_title": "Эта сеть устарела",
-    "network_deprecated_description": "Сеть, к которой вы пытаетесь подключиться, больше не поддерживается в MetaMask.",
+    "network_deprecated_description": "Сеть, к которой вы пытаетесь подключиться, больше не поддерживается в PetroCASH.",
     "edit_networks_title": "Изменить сети",
     "no_network_fee": "Без комиссии сети"
   },
@@ -7482,7 +7482,7 @@
     "cancel": "Отмена",
     "got_it": "Понятно",
     "connection_details_title": "Сведения о подключении",
-    "connection_details_description": "Вы подключились к этому сайту с помощью браузера MetaMask {{connectionDateTime}}",
+    "connection_details_description": "Вы подключились к этому сайту с помощью браузера PetroCASH {{connectionDateTime}}",
     "title_add_network_permission": "Добавить сетевое разрешение",
     "add_this_network": "Добавить эту сеть",
     "permitted_networks": "Разрешенные сети",
@@ -7495,7 +7495,7 @@
     "sdk_connection": "SDK {{originator_platform}} вер. {{api_version}}"
   },
   "account_dapp_connections": {
-    "account_summary_header": "Подключить этот сайт к MetaMask"
+    "account_summary_header": "Подключить этот сайт к PetroCASH"
   },
   "select": {
     "cancel": "Отмена",
@@ -7557,7 +7557,7 @@
     "show_balance": "Показать общий баланс"
   },
   "authentication": {
-    "auth_prompt_desc": "Авторизуйтесь, чтобы использовать MetaMask",
+    "auth_prompt_desc": "Авторизуйтесь, чтобы использовать PetroCASH",
     "labels": {
       "remember_me": "Запомнить меня",
       "face_id": "Face ID",
@@ -7586,7 +7586,7 @@
   "import_private_key": {
     "title": "Импорт счета",
     "description_one": "Импортированные закрытые ключи сохраняются в вашем счете и автоматически синхронизируются при входе в систему с использованием того же имени пользователя Google или Apple.",
-    "description_srp": "Импортированные счета можно просмотреть в вашем кошельке, но их нельзя восстановить с помощью секретной фразы для восстановления MetaMask.",
+    "description_srp": "Импортированные счета можно просмотреть в вашем кошельке, но их нельзя восстановить с помощью секретной фразы для восстановления PetroCASH.",
     "learn_more": "Узнайте подробнее",
     "learn_more_here": "о том, как работают импортированные ключи.",
     "learn_more_srp": "Узнайте больше об импортированных счетах",
@@ -7601,7 +7601,7 @@
   },
   "import_private_key_success": {
     "title": "Счет успешно импортирован!",
-    "description_one": "Теперь вы сможете просматривать свой счет в MetaMask."
+    "description_one": "Теперь вы сможете просматривать свой счет в PetroCASH."
   },
   "import_new_secret_recovery_phrase": {
     "title": "Импорт секретной фразы для восстановления",
@@ -7647,7 +7647,7 @@
     "step_1_description": "Создать пароль",
     "step_2": "Шаг 2.",
     "step_2_description": "Сохранить секретную фразу для восстановления кошелька",
-    "info_text_1": "Уделите несколько минут завершению настройки кошелька MetaMask.",
+    "info_text_1": "Уделите несколько минут завершению настройки кошелька PetroCASH.",
     "info_text_2": "Это гарантирует, что только вы сможете получить доступ к своим средствам, и позволит вам восстановить кошелек, если вы потеряете устройство.",
     "cta_text": "Создать пароль",
     "creating_password": "Создание пароля...",
@@ -7670,9 +7670,9 @@
     "what_is_seedphrase_title": "секретная фраза для восстановления",
     "what_is_seedphrase_description": "Ваша секретная фраза для восстановления восстанавливает ваш кошелек на новом устройстве.",
     "keep_private_title": "Храните ее в тайне.",
-    "keep_private_description": "Любой, у кого она есть, может получить доступ к вашему кошельку и перевести ваши средства. MetaMask никогда не попросит вас поделиться ею.",
+    "keep_private_description": "Любой, у кого она есть, может получить доступ к вашему кошельку и перевести ваши средства. PetroCASH никогда не попросит вас поделиться ею.",
     "store_safely_title": "Храните ее в надежном месте.",
-    "store_safely_description": "Запишите ее по порядку и храните оффлайн там, куда есть доступ только у вас. MetaMask не сможет восстановить ее в случае утери.",
+    "store_safely_description": "Запишите ее по порядку и храните оффлайн там, куда есть доступ только у вас. PetroCASH не сможет восстановить ее в случае утери.",
     "what_is_seedphrase_confirm": "Понятно"
   },
   "account_backup_step_1B": {
@@ -7746,7 +7746,7 @@
   },
   "account_backup_step_6": {
     "title": "Советы по безопасности",
-    "info_text": "MetaMask не сможет восстановить вашу секретную фразу для восстановления, если вы ее потеряете",
+    "info_text": "PetroCASH не сможет восстановить вашу секретную фразу для восстановления, если вы ее потеряете",
     "tip_1": "Сохраните несколько резервных копий вашей секретной фразы для восстановления",
     "tip_2": "Сохраните фразу в надежном менеджере паролей, а бумажные резервные копии в надежном месте.",
     "tip_3": "Никогда не сообщайте никому эту фразу",
@@ -7799,7 +7799,7 @@
     "congratulations": "Поздравляем",
     "success": "Вы успешно защитили свой кошелек. Храните секретную фразу для восстановления в тайне — вы отвечаете за ее сохранность!",
     "hint": "Оставить себе подсказку?",
-    "recover": "MetaMask не сможет восстановить ваш кошелек, если вы потеряете секретную фразу для восстановления. Ее можно найти в разделе «Настройки» > «Безопасность и конфиденциальность».",
+    "recover": "PetroCASH не сможет восстановить ваш кошелек, если вы потеряете секретную фразу для восстановления. Ее можно найти в разделе «Настройки» > «Безопасность и конфиденциальность».",
     "learn": "Подробнее",
     "done": "Готово",
     "recovery_hint": "Подсказка по восстановлению",
@@ -7812,7 +7812,7 @@
   "phishing": {
     "ethereum_phishing_detection": "Обнаружение фишинга Ethereum",
     "ethereum_phishing_detector": "Детектор фишинга Ethereum",
-    "intro": " в настоящее время находится в предупредительном списке домена MetaMask. Это означает, что, основываясь на доступной нам информации, MetaMask считает, что этот домен в настоящее время может поставить под угрозу вашу безопасность, и в качестве дополнительной функции безопасности MetaMask ограничил доступ к сайту. Чтобы отменить ограничение, прочитайте остальную часть этого предупреждения и получите инструкции о том, как продолжить действия на свой страх и риск.",
+    "intro": " в настоящее время находится в предупредительном списке домена PetroCASH. Это означает, что, основываясь на доступной нам информации, PetroCASH считает, что этот домен в настоящее время может поставить под угрозу вашу безопасность, и в качестве дополнительной функции безопасности PetroCASH ограничил доступ к сайту. Чтобы отменить ограничение, прочитайте остальную часть этого предупреждения и получите инструкции о том, как продолжить действия на свой страх и риск.",
     "reasons": "Есть много причин, по которым сайты могут отображаться в нашем предупредительном списке. Этот список составляется на основе других широко используемых отраслевых списков. К числу причин включения в список относятся известные риски мошенничества или безопасности, например, если домены дали положительный результат на",
     "list_content": "Домены в этих предупредительных списках могут включать явно вредоносные сайты и законные сайты, взломанные злоумышленниками.",
     "to_read_more": "Подробнее об этом рассказано на данном сайте",
@@ -7823,13 +7823,13 @@
     "file_an_issue": "Зарегистрируйте проблему.",
     "back_to_safety": "Назад в безопасное место",
     "site_might_be_harmful": "Этот веб-сайт может быть вредоносным",
-    "metamask_flagged_site": "MetaMask пометил сайт, который вы пытаетесь посетить, как потенциально мошеннический. Злоумышленники могут обманом заставить вас сделать что-то опасное.",
+    "metamask_flagged_site": "PetroCASH пометил сайт, который вы пытаетесь посетить, как потенциально мошеннический. Злоумышленники могут обманом заставить вас сделать что-то опасное.",
     "you_may_proceed_anyway": "Вы также можете",
     "proceed_anyway": "все равно продолжить",
     "but_please_do_so_at_your_own_risk": "но, пожалуйста, делайте это на свой страх и риск.",
     "report_detection_problem": "Сообщить о проблеме обнаружения",
     "share_on_twitter": "Если вы сочли это полезным, поделитесь на X.",
-    "share_text": "MetaMask защитил меня от посещения потенциально опасного сайта: {{url}}. Берегите себя!"
+    "share_text": "PetroCASH защитил меня от посещения потенциально опасного сайта: {{url}}. Берегите себя!"
   },
   "notifications": {
     "timeout": "Время истекло",
@@ -7890,7 +7890,7 @@
     "erc721_received_title": "NFT получен",
     "erc1155_sent_title": "NFT отправлен",
     "erc1155_received_title": "NFT получен",
-    "default_message_title": "MetaMask",
+    "default_message_title": "PetroCASH",
     "default_message_description": "Нажмите для просмотра",
     "feature_gate": {
       "price_alerts": {
@@ -7979,7 +7979,7 @@
     "activation_card": {
       "title": "Включить уведомления",
       "description_1": "Будьте в курсе того, что происходит в вашем кошельке, с помощью уведомлений.",
-      "description_2": "Чтобы использовать эту функцию, мы сгенерируем анонимный ID для вашего счета. Он используется только для синхронизации ваших данных в MetaMask и не связывается с вашими действиями или другими ID, обеспечивая вашу конфиденциальность.",
+      "description_2": "Чтобы использовать эту функцию, мы сгенерируем анонимный ID для вашего счета. Он используется только для синхронизации ваших данных в PetroCASH и не связывается с вашими действиями или другими ID, обеспечивая вашу конфиденциальность.",
       "learn_more": "Узнайте, как мы защищаем вашу конфиденциальность при использовании этой функции.",
       "manage_preferences_1": "Вы можете отключить уведомления в любое время в ",
       "manage_preferences_2": "Настройки > Уведомления.",
@@ -7989,7 +7989,7 @@
     "push_onboarding": {
       "new_user": {
         "title": "Не упускайте ни одного движения",
-        "body": "Получайте оповещения в реальном времени об изменениях цен, подтверждениях сделок, активности портфеля и наградах на основе того, как вы используете MetaMask.",
+        "body": "Получайте оповещения в реальном времени об изменениях цен, подтверждениях сделок, активности портфеля и наградах на основе того, как вы используете PetroCASH.",
         "button_yes": "Включить уведомления",
         "button_not_now": "Не сейчас",
         "preview_card_1": {
@@ -8015,7 +8015,7 @@
       },
       "existing_user": {
         "title": "Представляем персонализированные оповещения",
-        "body": "Получайте уведомления, соответствующие вашему стилю торговли, на основе того, как вы используете MetaMask.",
+        "body": "Получайте уведомления, соответствующие вашему стилю торговли, на основе того, как вы используете PetroCASH.",
         "card_title": "Что вы получите",
         "card_description": "Персонализированные оповещения и обновления, адаптированные к вашей торговой активности.",
         "button_confirm": "Подтвердить",
@@ -8094,13 +8094,13 @@
     "network_not_supported": "Текущая сеть не поддерживается",
     "select_provider": "Выберите предпочитаемого поставщика",
     "switch_network": "Переключитесь на мейн-нет или Sepolia",
-    "card_title": "Всегда показывать кнопку Карты MetaMask",
-    "card_desc": "Карта MetaMask доступна только для жителей отдельных стран.",
+    "card_title": "Всегда показывать кнопку Карты PetroCASH",
+    "card_desc": "Карта PetroCASH доступна только для жителей отдельных стран.",
     "daimo_demo_title": "Использовать демо-среду DaimoPay",
     "daimo_demo_desc": "Переключение между демо- и рабочей средой DaimoPay для платежей по картам.",
-    "card_logout_title": "Карта MetaMask",
-    "card_logout_desc": "Log out of your MetaMask Card account on this device. Use this for troubleshooting or if MetaMask Support asks you to.",
-    "card_logout_cta": "Log out of MetaMask Card"
+    "card_logout_title": "Карта PetroCASH",
+    "card_logout_desc": "Log out of your Card account on this device. Use this for troubleshooting or if PetroCASH Support asks you to.",
+    "card_logout_cta": "Log out of Card"
   },
   "walletconnect_sessions": {
     "no_active_sessions": "У вас нет активных сеансов",
@@ -8221,7 +8221,7 @@
     "wyre_minimum_deposit": "Минимальный депозит равен {{amount}}",
     "wyre_maximum_deposit": "Максимальный депозит равен {{amount}}",
     "apple_pay_purchase": "{{currency}} покупка",
-    "apple_pay_provider_total_label": "{{provider}} (через MetaMask)",
+    "apple_pay_provider_total_label": "{{provider}} (через PetroCASH)",
     "buy_with": "Купить с помощью",
     "plus_fee": "Плюс комиссия {{fee}} ",
     "date": "Дата",
@@ -8240,12 +8240,12 @@
         "average_gas_fee": "Текущая средняя плата за газ:",
         "subtitle_1": "Если вы планируете выполнить своп или перевести свои {{ticker}}, докупите их, чтобы покрыть плату за газ.",
         "subtitle_2": "Плата за газ по транзакциям не зависит от суммы покупаемых {{ticker}}.",
-        "subtitle_3": "MetaMask не получает прибыли от платы за газ."
+        "subtitle_3": "PetroCASH не получает прибыли от платы за газ."
       },
       "step_2": {
         "title": "Какой размер платы за газ?",
         "subtitle_1": "Газ обеспечивает выполнение транзакций в сети Ethereum. Это плата в {{ticker}}.переводимая криптомайнерам, обрабатывающим ваши транзакции.",
-        "subtitle_2": "MetaMask не получает прибыли от платы за газ.",
+        "subtitle_2": "PetroCASH не получает прибыли от платы за газ.",
         "learn_more": "Подробнее о плате за газ"
       },
       "step_3": {
@@ -8320,7 +8320,7 @@
     "onboarding": {
       "what_to_expect": "Чего ожидать",
       "quotes": "Наша функция покупки криптовалюты объединяет котировки от интегрированных поставщиков, предоставляя котировки из этих источников, чтобы вы могли получить криптовалюту прямо в ваш кошелек без периода ожидания.",
-      "quotes_sell": "Теперь вы можете вывести деньги прямо в MetaMask! Получайте самые свежие котировки от надежных поставщиков, пока мы будем сопровождать вас на каждом этапе пути.",
+      "quotes_sell": "Теперь вы можете вывести деньги прямо в PetroCASH! Получайте самые свежие котировки от надежных поставщиков, пока мы будем сопровождать вас на каждом этапе пути.",
       "benefits": "Меньше комиссий сети для оплаты, а также поддержка множества сетей, токенов и способов оплаты",
       "benefits_sell": "Вывод криптовалюты в вашу местную валюту теперь стал проще, чем когда-либо прежде.",
       "get_started": "С чего начать"
@@ -8572,13 +8572,13 @@
       "best_swap": "лучший вариант обмена",
       "across": "среди...",
       "want_to_learn_more": "Хотите узнать подробнее?",
-      "learn_more": "Узнайте больше об обмене в MetaMask",
+      "learn_more": "Узнайте больше об обмене в PetroCASH",
       "what_are": "Что такое обмен токенов?",
       "review_audits": "Ознакомьтесь с нашим аудитом официальных контрактов",
       "start_swapping": "Начать обмен"
     },
     "feature_off_title": "Временно недоступен",
-    "feature_off_body": "Проводится техобслуживание службы свопов MetaMask. Зайдите позже.",
+    "feature_off_body": "Проводится техобслуживание службы свопов PetroCASH. Зайдите позже.",
     "wrong_network_title": "Обмен недоступен",
     "wrong_network_body": "Вы можете обменивать токены только в главной сети Ethereum.",
     "unallowed_asset_title": "Невозможно обменять этот токен",
@@ -8657,17 +8657,17 @@
     "included": "включен",
     "max_gas_fee": "Макс. комиссия сети",
     "edit": "Изменить",
-    "quotes_include_fee": "Котировки включают комиссию MetaMask в размере {{fee}}%",
-    "quotes_include_gas_and_metamask_fee": "В стоимость включен газ и комиссия MetaMask {{fee}}%",
+    "quotes_include_fee": "Котировки включают комиссию PetroCASH в размере {{fee}}%",
+    "quotes_include_gas_and_metamask_fee": "В стоимость включен газ и комиссия PetroCASH {{fee}}%",
     "tap_to_swap": "Нажмите для свопа",
     "swipe_to_swap": "Проведите для обмена",
     "swipe_to": "Проведите, чтобы",
     "swap": "Своп",
     "completed_swap": "Обмен!",
-    "metamask_swap_fee": "Комиссия за обмен на MetaMask",
+    "metamask_swap_fee": "Комиссия за обмен на PetroCASH",
     "fee_text": {
-      "fee_is_applied": "Комиссия в размере {{fee}} автоматически учтена в этой котировке. Вы платите ее в обмен на лицензию на использование программу MetaMask для агрегирования информации о поставщиках ликвидности.",
-      "fee_is_not_applied": "MetaMask не включает дополнительную комиссию в это предложение."
+      "fee_is_applied": "Комиссия в размере {{fee}} автоматически учтена в этой котировке. Вы платите ее в обмен на лицензию на использование программу PetroCASH для агрегирования информации о поставщиках ликвидности.",
+      "fee_is_not_applied": "PetroCASH не включает дополнительную комиссию в это предложение."
     },
     "enable": {
       "this_will": "Это ",
@@ -8734,7 +8734,7 @@
     "gas_education_1": "Плата за газ выплачивается криптомайнерам, которые обрабатывают транзакции в ",
     "gas_education_2_ethereum": "сети Ethereum.",
     "gas_education_2": "сети.",
-    "gas_education_3": "MetaMask не получает прибыли от платы за газ.",
+    "gas_education_3": "PetroCASH не получает прибыли от платы за газ.",
     "gas_education_4": "Секретная",
     "gas_education_5": "«Примерная плата за газ»",
     "gas_education_6": "— это ожидаемый нами размер фактической платы. Точная сумма зависит от условий сети.",
@@ -8815,9 +8815,9 @@
   "switch_custom_network": {
     "title_existing_network": "Этот сайт хотел бы сменить сеть",
     "title_new_network": "Добавлена новая сеть",
-    "switch_warning": "В результате этого сеть, выбранная в MetaMask, будет изменена на ранее добавленную:",
-    "add_network_and_give_dapp_permission_warning": "Вы добавляете эту сеть в MetaMask и даете разрешение {{dapp_origin}} на ее использование.",
-    "update_network_and_give_dapp_permission_warning": "Вы обновляете эту сеть в MetaMask и предоставляете {{dapp_origin}} разрешение на ее использование.",
+    "switch_warning": "В результате этого сеть, выбранная в PetroCASH, будет изменена на ранее добавленную:",
+    "add_network_and_give_dapp_permission_warning": "Вы добавляете эту сеть в PetroCASH и даете разрешение {{dapp_origin}} на ее использование.",
+    "update_network_and_give_dapp_permission_warning": "Вы обновляете эту сеть в PetroCASH и предоставляете {{dapp_origin}} разрешение на ее использование.",
     "request_update_network_url": "{{dapp_origin}} запрашивает обновление вашего сетевого URL по умолчанию. Вы можете редактировать настройки по умолчанию и информацию о сети в любое время.",
     "available": "теперь доступно в селекторе сети.",
     "cancel": "Отмена",
@@ -8825,8 +8825,8 @@
   },
   "add_custom_network": {
     "title": "Разрешить этому сайту добавить сеть?",
-    "warning": "Это позволит использовать эту сеть в MetaMask.",
-    "warning_subtext_1": "MetaMask не проверяет пользовательские сети и их безопасность.",
+    "warning": "Это позволит использовать эту сеть в PetroCASH.",
+    "warning_subtext_1": "PetroCASH не проверяет пользовательские сети и их безопасность.",
     "warning_subtext_2": "Подробнее о",
     "warning_subtext_3": "мошенничестве и рисках безопасности сети",
     "display_name": "Экранное имя",
@@ -8842,7 +8842,7 @@
     "alert_recommend": "Рекомендуем вам",
     "alert_verify": "проверить идентификатор блокчейна",
     "warning_subtext_new": {
-      "1": "MetaMask не проверяет пользовательские сети, так что одобряйте только сети, которым вы доверяете.",
+      "1": "PetroCASH не проверяет пользовательские сети, так что одобряйте только сети, которым вы доверяете.",
       "2": "Узнайте подробнее об угрозах безопасности сетей и мошенничестве."
     },
     "invalid_rpc_url": "URL сети не соответствует известному поставщику этого ID блокчейна.",
@@ -8904,7 +8904,7 @@
       "show_qr": "Показать QR-код",
       "qr_title": "Сканировать QR-код",
       "qr_description": "Отсканируйте этот код с помощью приложения-аутентификатора, чтобы добавить свою учётную запись. Затем введите 6-значный код, который оно покажет.",
-      "restarted": "Время ожидания истекло, поэтому мы создали новый ключ настройки. Удалите прежнюю запись MetaMask из приложения-аутентификатора, а затем добавьте эту.",
+      "restarted": "Время ожидания истекло, поэтому мы создали новый ключ настройки. Удалите прежнюю запись PetroCASH из приложения-аутентификатора, а затем добавьте эту.",
       "continue": "Продолжить"
     },
     "passkey": {
@@ -9046,7 +9046,7 @@
     "estimated_gas_fee_tooltip_text_1": "Плата за газ выплачивается криптомайнерам, которые обрабатывают транзакции в",
     "estimated_gas_fee_tooltip_text_2": " Ethereum",
     "estimated_gas_fee_tooltip_text_3": "сети.",
-    "estimated_gas_fee_tooltip_text_4": "MetaMask не получает прибыли от платы за газ.",
+    "estimated_gas_fee_tooltip_text_4": "PetroCASH не получает прибыли от платы за газ.",
     "estimated_gas_fee_tooltip_text_5": "Плата за газ устанавливается сетью и колеблется в зависимости от сетевого трафика и сложности транзакции.",
     "learn_more": "Узнать больше о комиссиях сети",
     "legacy_gas_suggestion_tooltip": "Это предложение комиссии сети использует устаревшую оценку газа, которая может быть неточной."
@@ -9070,7 +9070,7 @@
     "high_fees": "Почему комиссии такие высокие?",
     "missing_tokens": "Мне не хватает токенов...",
     "swap_issues": "Не могу выполнить своп...",
-    "mobile_sentiment": "Что вы думаете о мобильной версии MetaMask?",
+    "mobile_sentiment": "Что вы думаете о мобильной версии PetroCASH?",
     "sentiment_good_face": "😁",
     "sentiment_bad_face": "☹️",
     "sentiment_good": "Обожаю ее!",
@@ -9106,7 +9106,7 @@
     "error_title": "Что-то пошло не так",
     "error_message": "При загрузке информации сети произошла ошибка. Повторите попытку.",
     "private_network_third_description": "Введите название для этой сети, чтобы ее было проще идентифицировать.",
-    "learn_more_url": "https://support.metamask.io/networks-and-sidechains/managing-networks/user-guide-custom-networks-and-sidechains/",
+    "learn_more_url": "https://petrocash.org/support",
     "enable_token_detection": "Включить автоопределение токенов",
     "token_detection_mainnet_title": "Определение токенов включено, поэтому многие токены автоматически появятся в вашем кошельке.",
     "token_detection_mainnet_link": "Вы также можете добавлять токены вручную.",
@@ -9125,12 +9125,12 @@
   },
   "remember_me": {
     "enable_remember_me": "Включить \"Запомнить меня\"",
-    "enable_remember_me_description": "Когда функция \"Запомнить меня\" включена, любой, у кого есть доступ к вашему телефону, может получить доступ к вашему счету MetaMask."
+    "enable_remember_me_description": "Когда функция \"Запомнить меня\" включена, любой, у кого есть доступ к вашему телефону, может получить доступ к вашему счету PetroCASH."
   },
   "turn_off_remember_me": {
     "title": "Выключить «Запомнить меня»",
     "placeholder": "Подтвердите пароль",
-    "description": "После отключения функция «Запомнить меня» больше недоступна. Эта функция больше не работает, поэтому вы можете разблокировать MetaMask с помощью пароля или биометрических данных.",
+    "description": "После отключения функция «Запомнить меня» больше недоступна. Эта функция больше не работает, поэтому вы можете разблокировать PetroCASH с помощью пароля или биометрических данных.",
     "action": "Выключить «Запомнить меня»"
   },
   "dapp_connect": {
@@ -9142,11 +9142,11 @@
   },
   "automatic_security_checks": {
     "title": "Автопроверки безопасности",
-    "description": "Автоматическая проверка обновлений может привести к тому, что ваш IP-адрес станет доступен серверам GitHub. Это указывает только на то, что ваш IP-адрес использует MetaMask. Никакая другая информация или адреса счетов не раскрываются."
+    "description": "Автоматическая проверка обновлений может привести к тому, что ваш IP-адрес станет доступен серверам GitHub. Это указывает только на то, что ваш IP-адрес использует PetroCASH. Никакая другая информация или адреса счетов не раскрываются."
   },
   "terms_of_use_modal": {
     "title": "Ознакомьтесь с нашими Условиями использования",
-    "terms_of_use_check_description": "Я согласен(-на) с Условиями использования, которые применяются к использованию мною MetaMask и всех его функций",
+    "terms_of_use_check_description": "Я согласен(-на) с Условиями использования, которые применяются к использованию мною PetroCASH и всех его функций",
     "accept_cta": "Согласиться",
     "accept_helper_description": "Прокрутите, чтобы прочитать все разделы",
     "agree_cta": "Согласиться"
@@ -9158,7 +9158,7 @@
   },
   "enable_automatic_security_check_modal": {
     "title": "Автоматически проверять наличие обновлений безопасности?",
-    "description": "Автоматическая проверка обновлений может привести к тому, что ваш IP-адрес станет доступен серверам GitHub. Это указывает только на то, что ваш IP-адрес использует MetaMask. Никакая другая информация или адреса счетов не раскрываются.",
+    "description": "Автоматическая проверка обновлений может привести к тому, что ваш IP-адрес станет доступен серверам GitHub. Это указывает только на то, что ваш IP-адрес использует PetroCASH. Никакая другая информация или адреса счетов не раскрываются.",
     "primary_action": "Включить автоматические проверки безопасности",
     "secondary_action": "Нет, спасибо"
   },
@@ -9211,7 +9211,7 @@
     "new_wallet_needed_create_try_again_action": "Попробуйте восстановить кошелек",
     "new_wallet_needed_description_part_one": "Что-то не так с вашим кошельком, и вам нужно создать новый. Поскольку ваши счета находятся в блокчейне, они по-прежнему в безопасности. Исчезнут только настройки, сохраненные сети, имена счетов и связанные данные, сохраненные на вашем устройстве.",
     "new_wallet_needed_description_part_two": "Для импорта своих счетов в новый кошелек, вам понадобится секретная фраза для восстановления. Если у вас ее нет, вы не сможете импортировать свои счета.",
-    "new_wallet_needed_description_part_three": "Чтобы этого больше не повторилось, всегда обновляйте приложение MetaMask и ОС до последней версии."
+    "new_wallet_needed_description_part_three": "Чтобы этого больше не повторилось, всегда обновляйте приложение PetroCASH и ОС до последней версии."
   },
   "srp_security_quiz": {
     "question_step": "Вопрос {{step}} из {{total}}",
@@ -9225,7 +9225,7 @@
     "incorrect": "Неправильно!",
     "of": "из",
     "question_one": {
-      "question": "Если вы потеряете свою секретную фразу для восстановления, MetaMask...",
+      "question": "Если вы потеряете свою секретную фразу для восстановления, PetroCASH...",
       "right_answer": "Не сможет вам помочь",
       "wrong_answer": "Не сможет вернуть ее вам",
       "right_answer_title": "Правильно! Никто не может помочь вернуть вашу секретную фразу для восстановления",
@@ -9250,9 +9250,9 @@
     "bluetooth_off_message": "Включите Bluetooth на своем устройстве",
     "bluetooth_access_blocked": "Леджеру требуется доступ к Bluetooth для сопряжения с вашим мобильным устройством.",
     "bluetooth_access_blocked_message": "Если вы хотите сопрячь устройство Ledger по Bluetooth, включите его в Настройках и попробуйте снова.",
-    "location_access_blocked": "MetaMask требуется разрешение на доступ к местоположению для сопряжения с вашим ledger.",
+    "location_access_blocked": "PetroCASH требуется разрешение на доступ к местоположению для сопряжения с вашим ledger.",
     "location_access_blocked_message": "Если вы хотите сопрячь устройство Ledger по Bluetooth, вам нужно разрешить доступ к местоположению в Настройках и попробовать снова.",
-    "nearbyDevices_access_blocked": "MetaMask требуется разрешение на доступ к устройствам поблизости для сопряжения с вашим ledger.",
+    "nearbyDevices_access_blocked": "PetroCASH требуется разрешение на доступ к устройствам поблизости для сопряжения с вашим ledger.",
     "nearbyDevices_access_blocked_message": "Если вы хотите сопрячь устройство Ledger по Bluetooth, вам нужно разрешить доступ к устройствам поблизости в Настройках и попробовать снова.",
     "bluetooth_scanning_error": "Ошибка при сканировании устройства",
     "bluetooth_scanning_error_message": "Убедитесь, что ваше устройство разблокировано и запущено приложение Ethereum",
@@ -9301,7 +9301,7 @@
     "unknown_error_message": "Произошла непредвиденная ошибка. Попробуйте еще раз.",
     "error_occured": "Произошла ошибка",
     "how_to_install_eth_app": "Как установить приложение Ethereum на устройство Ledger",
-    "ledger_account_count": "Вы используете 1 счет из своего Ledger с MetaMask Mobile.",
+    "ledger_account_count": "Вы используете 1 счет из своего Ledger с PetroCASH Mobile.",
     "open_eth_app": "Откройте приложение Ethereum",
     "open_eth_app_message_one": "Мы обнаружили, что у вас установлено приложение Ethereum, но оно не открыто. Пожалуйста, ",
     "open_eth_app_message_two": "нажмите две кнопки на устройстве, чтобы принять предложение открыть приложение Ethereum и продолжить.",
@@ -9317,7 +9317,7 @@
     "not_supported": "Операция не поддерживается",
     "not_supported_error": "Поддерживается только 4-я версия подписи типизированных данных.",
     "error_during_connection": "Произошла неизвестная ошибка",
-    "error_during_connection_message": "При подключении устройства Ledger возникла небольшая проблема. Нажмите «Повтор» ниже, чтобы попробовать еще раз. Иногда это происходит из-за того, что приложение ETH на вашем устройстве Ledger открыто в начале процесса сопряжения с MetaMask Mobile.",
+    "error_during_connection_message": "При подключении устройства Ledger возникла небольшая проблема. Нажмите «Повтор» ниже, чтобы попробовать еще раз. Иногда это происходит из-за того, что приложение ETH на вашем устройстве Ledger открыто в начале процесса сопряжения с PetroCASH Mobile.",
     "how_to_install_eth_webview_title": "Как установить приложение Ethereum",
     "nonce_too_low": "Одноразовый код слишком короткий",
     "nonce_too_low_error": "Установлен слишком короткий одноразовый код",
@@ -9326,7 +9326,7 @@
     "select_hd_path_description": "Если вы не видите ожидаемые счета, попробуйте переключиться на путь HD или текущую выбранную сеть.",
     "ledger_live_path": "Ledger Live",
     "ledger_legacy_path": "Устаревшие (MEW/MyCrypto)",
-    "ledger_bip44_path": "BIP44 (например, MetaMask, Trezor)",
+    "ledger_bip44_path": "BIP44 (например, PetroCASH, Trezor)",
     "ledger_legacy_label": " (устаревшие)",
     "blind_sign_error": "Ошибка слепого подписания",
     "blind_sign_error_message": "Слепое подписание не включено на вашем устройстве Ledger. Включите его в настройках.",
@@ -9444,7 +9444,7 @@
           "info_rows": {
             "row_1": "Зарабатывайте до ~{{percentage}}% годовых на вашем балансе",
             "row_2": "Без блокировок — торгуйте или выводите в любое время",
-            "row_3": "Хранится в mUSD, стейблкойне MetaMask, обеспеченном долларами в соотношении 1:1"
+            "row_3": "Хранится в mUSD, стейблкойне PetroCASH, обеспеченном долларами в соотношении 1:1"
           }
         },
         "stablecoin_lending": {
@@ -9587,8 +9587,8 @@
           "dollar_backed": "Обеспечено долларом",
           "no_lockups": "Без блокировки",
           "daily_bonus": "Ежедневный бонус",
-          "metamask_stablecoins": "Стейблкоины MetaMask",
-          "no_metamask_fee": "Без комиссии MetaMask"
+          "metamask_stablecoins": "Стейблкоины PetroCASH",
+          "no_metamask_fee": "Без комиссии PetroCASH"
         }
       },
       "buy_musd": "Купить mUSD",
@@ -9600,7 +9600,7 @@
       "quick_convert_button": "Конвертировать",
       "learn_more": "Узнайте подробнее",
       "tooltip_title": "Получайте доходность с mUSD",
-      "tooltip_content": "Конвертируйте свои USDC, USDT или DAI в mUSD, стейблкоин MetaMask, обеспеченный долларом. Получайте доходность в размере {{apy}} с каждого имеющегося у вас доллара.",
+      "tooltip_content": "Конвертируйте свои USDC, USDT или DAI в mUSD, стейблкоин PetroCASH, обеспеченный долларом. Получайте доходность в размере {{apy}} с каждого имеющегося у вас доллара.",
       "quick_convert": {
         "title": "Конвертируйте и получите {{percentage}}%",
         "subtitle": "Конвертируйте свои стейблкоины в mUSD и получайте бонус до {{percentage}}% годовых, который можно забирать ежедневно.",
@@ -9624,7 +9624,7 @@
       "rewards_tag_label": "Награды",
       "tooltip_title": "Зарабатывайте бонусы с mUSD",
       "tooltip_points_suffix": "на 100 $",
-      "tooltip_description": "Конвертируйте свои USDC, USDT или DAI в mUSD, стейблкоин MetaMask, обеспеченный долларом. За каждую конвертацию вы получаете баллы.",
+      "tooltip_description": "Конвертируйте свои USDC, USDT или DAI в mUSD, стейблкоин PetroCASH, обеспеченный долларом. За каждую конвертацию вы получаете баллы.",
       "tooltip_opted_in_footer": "Баллы автоматически зачисляются на ваш счет.",
       "tooltip_not_opted_in_footer": "Чтобы получать баллы, согласитесь с получением бонусов.",
       "tooltip_close": "Закрыть"
@@ -9671,13 +9671,13 @@
       },
       "step_2": {
         "no_card_account": {
-          "title": "Получите карту MetaMask Card",
+          "title": "Получите карту Card",
           "description": "Тратьте баланс и зарабатывайте на покупках.",
           "cta_primary": "Получить карту",
           "cta_secondary": "Пропустить"
         },
         "unlinked_card_account": {
-          "title": "Привяжите карту MetaMask Card",
+          "title": "Привяжите карту Card",
           "description": "Тратьте баланс и зарабатывайте на покупках.",
           "cta_primary": "Привязать карту",
           "cta_secondary": "Пропустить"
@@ -9685,13 +9685,13 @@
       }
     },
     "splash": {
-      "eyebrow": "MetaMask Money",
+      "eyebrow": "PetroCASH Money",
       "title": "Earn, trade, and spend from one balance",
-      "body_prefix": "MetaMask Money is a stablecoin account that earns up to ",
+      "body_prefix": "PetroCASH Money is a stablecoin account that earns up to ",
       "body_suffix": "—with trading, sending, and spending built in.",
-      "body_no_apy": "MetaMask Money is a stablecoin account with trading, sending, and spending built in.",
-      "benefit_convert_title": "Converts to MetaMask USD, 1:1",
-      "benefit_convert_body": "Funds you add convert 1:1 to MetaMask USD, with no fees.",
+      "body_no_apy": "PetroCASH Money is a stablecoin account with trading, sending, and spending built in.",
+      "benefit_convert_title": "Converts to mUSD, 1:1",
+      "benefit_convert_body": "Funds you add convert 1:1 to mUSD, with no fees.",
       "benefit_earn_title": "Earn automatically",
       "benefit_earn_body": "Earnings land in your balance in real time, with nothing to claim.",
       "benefit_trade_title": "Trade from the same balance",
@@ -9699,7 +9699,7 @@
       "benefit_withdraw_title": "Withdraw anytime",
       "benefit_withdraw_body": "No lockups, notice periods, or penalties. Your money is always yours to take out.",
       "benefit_send_title": "Send or spend anywhere",
-      "benefit_send_body": "Send to any wallet or bank, or spend with MetaMask Card for up to 3% back.",
+      "benefit_send_body": "Send to any wallet or bank, or spend with Card for up to 3% back.",
       "cta": "Start earning",
       "close": "Close"
     },
@@ -9749,11 +9749,11 @@
       "step2_body": "Переводите стейблкоины без комиссий за обмен. Средства начинают приносить доход сразу же.",
       "step2_footer_text": "Money Account использует инфраструктуру Veda.",
       "step3_title": "Тратьте где угодно",
-      "step3_body_card_eligible": "Получайте до {{percentage}}% кэшбэка за покупки, привязав Money Account к карте MetaMask.",
-      "step3_body_card_ineligible": "Скоро! Получите возврат до {{percentage}}% от покупок, привязав свой Money Account к карте MetaMask.",
+      "step3_body_card_eligible": "Получайте до {{percentage}}% кэшбэка за покупки, привязав Money Account к карте PetroCASH.",
+      "step3_body_card_ineligible": "Скоро! Получите возврат до {{percentage}}% от покупок, привязав свой Money Account к карте PetroCASH.",
       "step3_footer_text": "Включает мониторинг от Steakhouse Financial.",
       "step4_title": "Торгуйте и зарабатывайте в одном месте",
-      "step4_body": "Используйте свой денежный баланс для торговли в MetaMask, продолжая получать доходность.",
+      "step4_body": "Используйте свой денежный баланс для торговли в PetroCASH, продолжая получать доходность.",
       "step4_footer_text": "Работает на базе Monad.",
       "button_text": "Продолжить"
     },
@@ -9860,9 +9860,9 @@
       "benefit_auto_earn_variable": "(переменная ставка)",
       "benefit_dollar_backed": "Храните свои деньги в безопасности в mUSD, стейблкоине, обеспеченном долларом 1:1",
       "benefit_liquidity": "Получите полную ликвидность без блокировок, чтобы вы могли торговать или выводить средства в любое время",
-      "benefit_spend_prefix": "Тратьте средства у более чем 150 млн продавцов с картой MetaMask и зарабатывайте ",
+      "benefit_spend_prefix": "Тратьте средства у более чем 150 млн продавцов с картой PetroCASH и зарабатывайте ",
       "benefit_spend_cashback": "1-3% кэшбэка в mUSD",
-      "benefit_transfer": "Отправляйте на любые ваши кошельки в MetaMask",
+      "benefit_transfer": "Отправляйте на любые ваши кошельки в PetroCASH",
       "benefit_global": "Отправляйте и получайте средства по всему миру",
       "learn_more": "Подробнее"
     },
@@ -9895,13 +9895,13 @@
     "musd_rescue_send": {
       "title": "Отправить",
       "your_funds_are_safe_title": "Your funds are safe",
-      "your_funds_are_safe_description": "{{amount}} of your mUSD is in your Money account but isn't earning yet. Send the funds back to your MetaMask account, then add them again.",
+      "your_funds_are_safe_description": "{{amount}} of your mUSD is in your Money account but isn't earning yet. Send the funds back to your PetroCASH account, then add them again.",
       "to_label": "В",
       "receive_label": "Получить",
       "est_time_label": "Прим. время",
       "est_time_value": "< 10 с",
       "transaction_fees_label": "Комиссии за транзакцию",
-      "paid_by_metamask": "Оплачено MetaMask",
+      "paid_by_metamask": "Оплачено PetroCASH",
       "you_ll_receive_label": "Вы получите",
       "recipient_label": "Выбрать счет",
       "recipient_placeholder": "Enter account name or paste address",
@@ -9953,7 +9953,7 @@
       "title": "Годовая процентная доходность (годовые)",
       "paragraph_1": "Ваш Money Account автоматически зарабатывает до {{percentage}}%.",
       "paragraph_2": "Указанная ставка — это ориентировочная годовая процентная доходность (APY), основанная на текущих рыночных условиях. APY является переменной и не гарантируется. Средства поступают в хранилище DeFi, управляемое Veda с контролем рисков от Steakhouse Financial, которое генерирует доходность на устоявшихся рынках кредитования.",
-      "paragraph_3": "При привязке карты MetaMask Card покупки будут списываться с этого баланса.",
+      "paragraph_3": "При привязке карты Card покупки будут списываться с этого баланса.",
       "paragraph_4": "Money Account работает на базе Monad.",
       "deposit_body": "Указанная ставка является предполагаемой годовой процентной доходностью (APY), основанной на текущих рыночных условиях. APY может меняться и не гарантируется."
     },
@@ -10029,7 +10029,7 @@
       "paid_with": "Оплачено с помощью",
       "you_deposited": "Вы внесли",
       "transaction_fees": "Комиссии за транзакцию",
-      "paid_by_metamask": "Оплачено MetaMask",
+      "paid_by_metamask": "Оплачено PetroCASH",
       "total": "Итого",
       "pending": "Ожидающий"
     },
@@ -10040,7 +10040,7 @@
       "description_suffix": " за конвертацию USDC, USDT и DAI в mUSD.",
       "tag_dollar_backed": "Обеспечено долларом",
       "tag_no_lockups": "Без блокировки",
-      "tag_no_fee": "Без комиссии MetaMask",
+      "tag_no_fee": "Без комиссии PetroCASH",
       "tag_daily_bonus": "Ежедневный бонус",
       "convert_cta": "Конвертировать в mUSD",
       "learn_more": "Подробнее",
@@ -10057,31 +10057,31 @@
       "header_title": "Финансы",
       "section_title": "Как это работает",
       "description_1": "Внесите mUSD на свой Money Account и автоматически зарабатывайте до {{percentage}}% годовых (переменная ставка). Средства поступают в хранилище DeFi, администрируемое Veda с мониторингом рисков от Steakhouse Financial. Ставка генерируется сторонними платформами DeFi, которые размещают средства в протоколах блокчейна. Никакого стейкинга, никаких клеймов, никаких блокировок.",
-      "description_2": "Ваш Денежный баланс — это ваш баланс для расходов. Привяжите свою карту MetaMask, чтобы расплачиваться в более чем 150 млн магазинов по всему миру. Ваши деньги продолжают приносить доход до того момента, пока вы их не потратите.",
+      "description_2": "Ваш Денежный баланс — это ваш баланс для расходов. Привяжите свою карту PetroCASH, чтобы расплачиваться в более чем 150 млн магазинов по всему миру. Ваши деньги продолжают приносить доход до того момента, пока вы их не потратите.",
       "description_3": "Money Account работает на базе Monad.",
       "faq_title": "Часто задаваемые вопросы",
-      "faq_q1": "Что такое счет MetaMask Money Account?",
-      "faq_a1": "Счет, который приносит до {{percentage}}% переменной годовой доходности (APY). Вы вносите средства, которые хранятся на счете в виде mUSD, и получаете до {{percentage}}% APY. mUSD — это обеспеченный долларом стейблкоин от MetaMask. Вы можете использовать или выводить свои средства в любое время без штрафов. Вы можете тратить свои средства с помощью карты MetaMask Card у более чем 150 миллионов продавцов, принимающихся Mastercard, по всему миру.",
-      "faq_a1_no_apy": "An account that earns variable APY. You deposit funds, which are held in the account as mUSD. mUSD is MetaMask's dollar-backed stablecoin. You can use or withdraw your funds anytime with no penalties. You can spend your funds via MetaMask Card at 150+ million Mastercard merchants worldwide.",
-      "faq_q2": "Безопасен ли счет MetaMask Money Account?",
+      "faq_q1": "Что такое счет PetroCASH Money Account?",
+      "faq_a1": "Счет, который приносит до {{percentage}}% переменной годовой доходности (APY). Вы вносите средства, которые хранятся на счете в виде mUSD, и получаете до {{percentage}}% APY. mUSD — это обеспеченный долларом стейблкоин от PetroCASH. Вы можете использовать или выводить свои средства в любое время без штрафов. Вы можете тратить свои средства с помощью карты Card у более чем 150 миллионов продавцов, принимающихся Mastercard, по всему миру.",
+      "faq_a1_no_apy": "An account that earns variable APY. You deposit funds, which are held in the account as mUSD. mUSD is PetroCASH's dollar-backed stablecoin. You can use or withdraw your funds anytime with no penalties. You can spend your funds via Card at 150+ million Mastercard merchants worldwide.",
+      "faq_q2": "Безопасен ли счет PetroCASH Money Account?",
       "faq_a2": "Да, но как и все продукты DeFi, он несет в себе риски. Это некастодиальный кошелек, что означает, что вы полностью контролируете свой счет с помощью своих приватных ключей.\n\nРиски включают сбои смарт-контрактов, уязвимости протоколов, нехватку ликвидности, сбои третьих сторон, а также юридические или регуляторные ограничения. Money Account не застрахован FDIC или каким-либо правительственным агентством. Существует риск потери средств.",
-      "faq_q3": "Кто контролирует мой MetaMask Money Account?",
-      "faq_a3": "Вы! MetaMask — это некастодиальный кошелек, то есть им управляют только закрытые ключи владельца счета. MetaMask не может получить доступ к вашим средствам, заморозить или переместить их. Это то, что отличает нас от традиционных банковских счетов и кастодиальных криптоплатформ — здесь нет третьей стороны, хранящей ваши средства.",
-      "faq_q4": "Какие комиссии по MetaMask Money Account?",
-      "faq_a4": "За открытие Money Account и за внесение стейблкоинов комиссия не взимается. Комиссия будет взиматься при внесении токенов, не являющихся стейблкоинами. Также существуют комиссии, связанные с транзакциями по карте MetaMask Card, снятием наличных в банкоматах и расходами на вывод средств в местную валюту. ",
+      "faq_q3": "Кто контролирует мой PetroCASH Money Account?",
+      "faq_a3": "Вы! PetroCASH — это некастодиальный кошелек, то есть им управляют только закрытые ключи владельца счета. PetroCASH не может получить доступ к вашим средствам, заморозить или переместить их. Это то, что отличает нас от традиционных банковских счетов и кастодиальных криптоплатформ — здесь нет третьей стороны, хранящей ваши средства.",
+      "faq_q4": "Какие комиссии по PetroCASH Money Account?",
+      "faq_a4": "За открытие Money Account и за внесение стейблкоинов комиссия не взимается. Комиссия будет взиматься при внесении токенов, не являющихся стейблкоинами. Также существуют комиссии, связанные с транзакциями по карте Card, снятием наличных в банкоматах и расходами на вывод средств в местную валюту. ",
       "faq_a4_link": "Полную разбивку комиссий по карте смотрите здесь.",
-      "faq_q5": "Сколько я могу заработать с MetaMask Money Account?",
+      "faq_q5": "Сколько я могу заработать с PetroCASH Money Account?",
       "faq_a5": "До {{percentage}}% годовых. Ставка является переменной и колеблется в зависимости от рыночных условий. Текущая ставка всегда видна внутри Money Account.",
       "faq_a5_no_apy": "The rate is variable and fluctuates with market conditions. The current rate is always visible inside the Money account.",
       "faq_q6": "Откуда берется доходность?",
-      "faq_a6": "Когда вы вносите средства, они направляются в проверенные протоколы DeFi, такие как Aave и Morpho, где они приносят доход от реальной экономической деятельности. Этот доход затем предоставляется вам в виде годовой процентной ставки (APY).\n\nСторонний поставщик услуг Steakhouse Financial контролирует распределение средств в протоколах. Veda, сторонний поставщик инфраструктуры, развертывает и поддерживает смарт-контракты хранилища, в которых находятся ваши средства.\n\nДоход не является процентами, выплачиваемыми MetaMask или эмитентом mUSD. Это ончейн-доход, генерируемый позициями в сторонних протоколах DeFi.",
+      "faq_a6": "Когда вы вносите средства, они направляются в проверенные протоколы DeFi, такие как Aave и Morpho, где они приносят доход от реальной экономической деятельности. Этот доход затем предоставляется вам в виде годовой процентной ставки (APY).\n\nСторонний поставщик услуг Steakhouse Financial контролирует распределение средств в протоколах. Veda, сторонний поставщик инфраструктуры, развертывает и поддерживает смарт-контракты хранилища, в которых находятся ваши средства.\n\nДоход не является процентами, выплачиваемыми PetroCASH или эмитентом mUSD. Это ончейн-доход, генерируемый позициями в сторонних протоколах DeFi.",
       "faq_q7": "Какие токены я могу внести на Money Account?",
       "faq_a7": "Вы можете внести следующие стейблкоины и a-токены на свой Money Account без комиссий за конвертацию:\n\n{{tokenBullets}}\n\nВсе остальные токены EVM также можно внести на Money Account, но могут применяться стандартные комиссии. Вы также можете пополнить свой Money Account с помощью дебетовой карты, кредитной карты, банковского счета, PayPal, Apple Pay или Google Pay.\n\nПримечание: установлен первоначальный максимальный лимит на депозит в размере 100 000 $ на один токен для обеспечения ликвидности.",
-      "faq_q8": "Могу ли я вывести средства с MetaMask Money Account в любое время?",
-      "faq_a8": "Да. Вы можете торговать, отправлять, тратить или выводить весь свой баланс в любое время без периодов уведомления, штрафов и комиссий за вывод средств со стороны MetaMask. В случае нехватки ликвидности возможны временные задержки.",
-      "faq_q9": "Нужно ли мне проходить верификацию личности, чтобы использовать счет MetaMask Money Account?",
-      "faq_a9": "Нет, открытие Money Account не требует верификации личности. Однако некоторые функции, включая карту (Card) и фиатные шлюзы (Ramps), требуют верификации. Проверки проводятся сторонними поставщиками, предоставляющими регулируемые услуги, а не MetaMask. При необходимости вы пройдете этот процесс внутри приложения во время регистрации.",
-      "faq_q10": "В каких странах доступен MetaMask Money Account?",
+      "faq_q8": "Могу ли я вывести средства с PetroCASH Money Account в любое время?",
+      "faq_a8": "Да. Вы можете торговать, отправлять, тратить или выводить весь свой баланс в любое время без периодов уведомления, штрафов и комиссий за вывод средств со стороны PetroCASH. В случае нехватки ликвидности возможны временные задержки.",
+      "faq_q9": "Нужно ли мне проходить верификацию личности, чтобы использовать счет PetroCASH Money Account?",
+      "faq_a9": "Нет, открытие Money Account не требует верификации личности. Однако некоторые функции, включая карту (Card) и фиатные шлюзы (Ramps), требуют верификации. Проверки проводятся сторонними поставщиками, предоставляющими регулируемые услуги, а не PetroCASH. При необходимости вы пройдете этот процесс внутри приложения во время регистрации.",
+      "faq_q10": "В каких странах доступен PetroCASH Money Account?",
       "faq_a10": "Почти везде! В настоящее время мы недоступны в Великобритании и странах, находящихся в санкционном списке США.",
       "disclosures_title": "Риски и раскрытие информации",
       "disclosures_body": "Money Account не является банковским счетом, сберегательным счетом или застрахованным депозитным продуктом. Годовая процентная ставка (APY) является переменной величиной и не гарантируется. Использование Money Account сопряжено с рисками смарт-контрактов, протоколов, ликвидности и другими рисками, и вы можете потерять часть или все свои средства. Действуют региональные ограничения. Применяются Условия использования."
@@ -10144,7 +10144,7 @@
     "staked_balance": "Баланс стейкинга",
     "staked_ethereum": "Ethereum в стейкинге",
     "unstake": "Отменить стейкинг",
-    "withdrawal_details_unavailable": "Не удалось загрузить сведения о выводе средств. Повторите попытку. Если проблема не исчезнет, обратитесь в службу поддержки MetaMask.",
+    "withdrawal_details_unavailable": "Не удалось загрузить сведения о выводе средств. Повторите попытку. Если проблема не исчезнет, обратитесь в службу поддержки PetroCASH.",
     "stake_more": "Добавить в стейкинг",
     "claim": "Востребовать",
     "staking": "Staking",
@@ -10159,7 +10159,7 @@
     "reward_frequency": "Частота вознаграждений",
     "reward_frequency_tooltip": "Ваш баланс стейкинга обновляется каждые {{frequency}} часа(-ов) для учета новых вознаграждений.",
     "withdrawal_time": "Время вывода средств",
-    "metamask_pool": "Пул MetaMask",
+    "metamask_pool": "Пул PetroCASH",
     "enter_amount": "Укажите сумму",
     "review": "Проверить",
     "not_enough_eth": "Недостаточно ETH",
@@ -10178,7 +10178,7 @@
     "got_it": "Понятно",
     "your_balance": "Ваш баланс",
     "stake_your_eth_cta": {
-      "base": "Выполняйте стейкинг своих ETH с помощью Пула MetaMask и зарабатывайте",
+      "base": "Выполняйте стейкинг своих ETH с помощью Пула PetroCASH и зарабатывайте",
       "annually": "каждый год.",
       "learn_more_with_period": "Узнайте подробней."
     },
@@ -10274,7 +10274,7 @@
   },
   "default_settings": {
     "title": "Ваш кошелек готов",
-    "description": "MetaMask использует настройки по умолчанию, чтобы наилучшим образом сбалансировать безопасность и простоту использования. Измените эти настройки, чтобы еще больше повысить свою конфиденциальность.",
+    "description": "PetroCASH использует настройки по умолчанию, чтобы наилучшим образом сбалансировать безопасность и простоту использования. Измените эти настройки, чтобы еще больше повысить свою конфиденциальность.",
     "learn_more_about_privacy": "Узнайте больше о лучших методах обеспечения конфиденциальности.",
     "privacy_policy": "Политика конфиденциальности",
     "default_settings": "Настройки по умолчанию",
@@ -10284,17 +10284,17 @@
     "manage_networks_body": "Мы используем Infura в качестве нашего поставщика удаленного вызова процедур (RPC), чтобы предложить наиболее надежный и конфиденциальный доступ к данным Ethereum из возможных. Вы можете выбрать свой собственного RPC, но помните, что любой RPC получит ваш IP-адрес и номер кошелька Ethereum для совершения транзакций. См. наши ",
     "manage_networks_body2": " чтобы узнать больше о том, как Infura обрабатывает данные счетов EVM, для счетов Solana ",
     "manage_networks_body3": "Нажмите здесь,",
-    "functionality_body": "MetaMask предлагает базовые функции, такие как сведения о токенах и настройки газа, через интернет-службы. Когда вы пользуетесь интернет-службами, ваш IP-адрес передается, в данном случае MetaMask. Это похоже на посещение любого веб-сайта. MetaMask временно использует ваши данные и никогда не продает их. Вы можете использовать VPN или отключить эти службы, но это может негативно повлиять на вашу работу с MetaMask. Прочитайте нашу ",
+    "functionality_body": "PetroCASH предлагает базовые функции, такие как сведения о токенах и настройки газа, через интернет-службы. Когда вы пользуетесь интернет-службами, ваш IP-адрес передается, в данном случае PetroCASH. Это похоже на посещение любого веб-сайта. PetroCASH временно использует ваши данные и никогда не продает их. Вы можете использовать VPN или отключить эти службы, но это может негативно повлиять на вашу работу с PetroCASH. Прочитайте нашу ",
     "functionality_body2": " для получения дополнительной информации.",
     "sheet": {
       "title_off": "Выключить базовый функционал",
-      "description_off": "Это означает, что вы не сможете полностью оптимизировать свое время в MetaMask. Вам будут недоступны базовые функции (например, сведения о токенах, оптимальные настройки газа и т. д.).",
+      "description_off": "Это означает, что вы не сможете полностью оптимизировать свое время в PetroCASH. Вам будут недоступны базовые функции (например, сведения о токенах, оптимальные настройки газа и т. д.).",
       "description_off2": "Отключение этого параметра также отключает все функции",
       "description_off2_related_features1": "безопасности и конфиденциальности, резервного копирования и синхронизации",
       "description_off2_related_features1_and": "и",
       "description_off2_related_features2": "уведомления.",
       "title_on": "Включить базовый функционал",
-      "description_on": "Чтобы оптимизировать свое время в MetaMask, вам необходимо включить эту функцию. Базовые функции (например, сведения о токенах, оптимальные настройки газа, уведомления и другие) важны для работы с web3.",
+      "description_on": "Чтобы оптимизировать свое время в PetroCASH, вам необходимо включить эту функцию. Базовые функции (например, сведения о токенах, оптимальные настройки газа, уведомления и другие) важны для работы с web3.",
       "checkbox_label": "Я понимаю и хочу продолжить",
       "buttons": {
         "cancel": "Отмена",
@@ -10309,7 +10309,7 @@
     "drawer_assets_desc": "Автоматически обнаруживайте токены в своем кошельке, отображайте NFT и получайте пакетные обновления баланса счета",
     "drawer_security_title": "Безопасность",
     "drawer_security_desc": "Уменьшите свои шансы присоединиться к небезопасным сетям и защитите свои счета",
-    "network_details_check_desc": "MetaMask использует сторонний сервис под названием chainid.network для отображения точной и стандартизированной информации о сети. Это снижает вероятность подключения к вредоносной или неверной сети. При использовании этой функции ваш IP-адрес раскрывается для chainid.network."
+    "network_details_check_desc": "PetroCASH использует сторонний сервис под названием chainid.network для отображения точной и стандартизированной информации о сети. Это снижает вероятность подключения к вредоносной или неверной сети. При использовании этой функции ваш IP-адрес раскрывается для chainid.network."
   },
   "simulation_details": {
     "failed": "Не удалось загрузить прогноз.",
@@ -10343,7 +10343,7 @@
     },
     "estimated_gas_fee": {
       "title": "Примерная комиссия сети",
-      "gas_recipient": "Плата за газ переводится криптомайнерам, которые обрабатывают транзакции в сети Ethereum. MetaMask не получает прибыли от платы за газ.",
+      "gas_recipient": "Плата за газ переводится криптомайнерам, которые обрабатывают транзакции в сети Ethereum. PetroCASH не получает прибыли от платы за газ.",
       "gas_fluctuation": "Плата за газ является примерной и будет меняться в зависимости от сетевого трафика и сложности транзакции.",
       "gas_learn_more": "Узнать больше о комиссиях сети"
     },
@@ -10411,7 +10411,7 @@
       "you_receive": "Вы получите",
       "transaction_fee": "Комиссия за транзакцию",
       "transaction_fees": "Комиссии за транзакцию",
-      "metamask_fee": "Комиссия MetaMask",
+      "metamask_fee": "Комиссия PetroCASH",
       "network_fee": "Комиссия сети",
       "bridge_fee": "Комиссия поставщика моста",
       "provider_fee": "Комиссия поставщика",
@@ -10432,7 +10432,7 @@
       "perps_withdraw": "Вывести средства",
       "predict_deposit": "Внести средства для прогнозирования",
       "predict_withdraw": "Вывести средства",
-      "money_account_deposit_header": "Пополнить MetaMask Money",
+      "money_account_deposit_header": "Пополнить PetroCASH Money",
       "money_account_send": "Отправить"
     },
     "sub_title": {
@@ -10450,19 +10450,19 @@
     },
     "tooltip": {
       "perps_deposit": {
-        "transaction_fee": "Мы обменяем ваши токены на USDC в HyperCore, сети, используемой перпами. Поставщики услуг свопов могут взимать комиссию, но MetaMask не взимает ее."
+        "transaction_fee": "Мы обменяем ваши токены на USDC в HyperCore, сети, используемой перпами. Поставщики услуг свопов могут взимать комиссию, но PetroCASH не взимает ее."
       },
       "predict_deposit": {
-        "transaction_fee": "Мы обменяем ваши токены на pUSD в Polygon — сети, используемой Прогнозами. Поставщикик услуг обмена могут взимать комиссию, но MetaMask — нет."
+        "transaction_fee": "Мы обменяем ваши токены на pUSD в Polygon — сети, используемой Прогнозами. Поставщикик услуг обмена могут взимать комиссию, но PetroCASH — нет."
       },
       "perps_withdraw": {
-        "swap_to_token": "MetaMask обменяет средства на нужный вам токен."
+        "swap_to_token": "PetroCASH обменяет средства на нужный вам токен."
       },
       "predict_withdraw": {
-        "swap_to_token": "MetaMask обменяет средства на нужный вам токен."
+        "swap_to_token": "PetroCASH обменяет средства на нужный вам токен."
       },
       "musd_conversion": {
-        "transaction_fee": "В стоимость конвертации mUSD входят расходы сети, а также могут входить комиссии поставщика. При обмене на mUSD комиссия MetaMask не взимается."
+        "transaction_fee": "В стоимость конвертации mUSD входят расходы сети, а также могут входить комиссии поставщика. При обмене на mUSD комиссия PetroCASH не взимается."
       },
       "money_account_deposit": {
         "transaction_fee": "Комиссии за конвертацию включают сетевые сборы и могут включать комиссии поставщиков."
@@ -10585,7 +10585,7 @@
     "start_trial": "Start your free trial",
     "billed_on": "Billed on",
     "disclaimer": {
-      "part1": "By clicking \"{{confirmAndPay}}\", you authorize MetaMask to charge {{monthlyAmount}}/month. Renews on {{renewDate}}. Cancel anytime. You also accept the ",
+      "part1": "By clicking \"{{confirmAndPay}}\", you authorize PetroCASH to charge {{monthlyAmount}}/month. Renews on {{renewDate}}. Cancel anytime. You also accept the ",
       "terms_of_use": "Условиями использования",
       "part2": " и ",
       "privacy_policy": "Политикой конфиденциальности",
@@ -10599,7 +10599,7 @@
     "reject": "Отклонить транзакцию"
   },
   "snap_account_custom_name_approval": {
-    "title": "Добавить счет в MetaMask",
+    "title": "Добавить счет в PetroCASH",
     "input_title": "Имя счета",
     "add_account_button": "Добавить аккаунт",
     "name_taken_message": "Имя этого счета уже существует"
@@ -10671,11 +10671,11 @@
         "month": "{{count}} мес."
       },
       "est_network_fee": "Account upgrade fee",
-      "includes_metamask_fee": "Includes MetaMask fee",
+      "includes_metamask_fee": "Includes PetroCASH fee",
       "account_upgrade_fee_info_title": "Account upgrade fee",
       "account_upgrade_fee_info_body": "Upgrading to a smart account lets you execute limit orders. Like all on-chain actions, this has a small network fee.",
-      "metamask_fee_info_title": "Комиссия MetaMask",
-      "metamask_fee_info_body": "Стандартная комиссия MetaMask составляет {{feePercentage}}%. Вам могут быть доступны скидки или частичный возврат комиссии, поэтому итоговая комиссия рассчитывается при исполнении ордера.",
+      "metamask_fee_info_title": "Комиссия PetroCASH",
+      "metamask_fee_info_body": "Стандартная комиссия PetroCASH составляет {{feePercentage}}%. Вам могут быть доступны скидки или частичный возврат комиссии, поэтому итоговая комиссия рассчитывается при исполнении ордера.",
       "metamask_fee_info_learn_more": "Узнайте подробнее.",
       "create_order": "Создать ордер",
       "min_order_amount": "Min. order amount is ${{amount}}",
@@ -10853,7 +10853,7 @@
     "batch_sell_token_count": "{{tokenCount}} токенов",
     "batch_sell_toggle_you_sell": "Переключить детали токена",
     "batch_sell_sell_all": "Продать все",
-    "batch_sell_includes_metamask_fee": "Включает {{fee}}% комиссии MetaMask",
+    "batch_sell_includes_metamask_fee": "Включает {{fee}}% комиссии PetroCASH",
     "batch_sell_customize_token": "Настроить {{tokenSymbol}}",
     "batch_sell_remove_token": "Удалить {{tokenSymbol}}",
     "batch_sell_checkbox_label": "Пакетная продажа токена",
@@ -10880,7 +10880,7 @@
     "slippage_info": "Если цена меняется между моментом размещения и подтверждения вашего ордера, это называется «проскальзывание». Ваш своп будет автоматически отменен, если проскальзывание превысит значение, которое вы установили здесь .",
     "network_fee": "Комиссия сети",
     "relayer_fee": "Комиссия ретранслятора",
-    "gas_fees_sponsored": "Оплачено MetaMask",
+    "gas_fees_sponsored": "Оплачено PetroCASH",
     "included": "Включен",
     "estimated_time": "Предполагаемое время",
     "quote": "Предлагаемая цена",
@@ -10888,17 +10888,17 @@
     "quote_details": "Сведения о котировке",
     "price_impact": "Влияние на цену",
     "time": "Время",
-    "quote_info_content": "Лучший тариф, который мы нашли у поставщиков, включая комиссию поставщика и комиссию MetaMask в размере 0,875%.",
+    "quote_info_content": "Лучший тариф, который мы нашли у поставщиков, включая комиссию поставщика и комиссию PetroCASH в размере 0,875%.",
     "quote_info_title": "Курс",
     "network_fee_info_title": "Комиссия сети",
     "network_fee_info_content": "Комиссии сети зависят от загруженности сети и сложности транзакции.",
     "network_fee_info_content_gasless": "Если у вас недостаточно нативных токенов, вы оплатите эту комиссию токенами из вашего свопа.",
     "gas_fee_deduction": "-{{fee}} за газ",
     "batch_sell_network_fee_info_content": "Комиссии сети зависят от загруженности сети и сложности вашей транзакции. Если у вас недостаточно средств для оплаты комиссии, мы спишем ее из токена, в который вы конвертируете.",
-    "network_fee_info_content_sponsored": "Комиссию сети оплачивает MetaMask, поэтому вы можете совершать транзакции, даже если у вас на счету нет {{nativeToken}}.",
+    "network_fee_info_content_sponsored": "Комиссию сети оплачивает PetroCASH, поэтому вы можете совершать транзакции, даже если у вас на счету нет {{nativeToken}}.",
     "points": "Прим. баллов",
     "points_tooltip": "Баллы",
-    "points_tooltip_content_1": "Баллы — это способ заработать Вознаграждения MetaMask за выполнение транзакций, например, при обмене, создании мостов или торговле перпами.",
+    "points_tooltip_content_1": "Баллы — это способ заработать Вознаграждения PetroCASH за выполнение транзакций, например, при обмене, создании мостов или торговле перпами.",
     "points_tooltip_content_2": "Имейте в виду, что это приблизительное значение, которое будет окончательно подтверждено после завершения транзакции. Подтверждение начисления баллов на ваш баланс вознаграждений может занять до 1 часа.",
     "unable_to_load": "Не удалось загрузить",
     "points_error": "Мы не можем загрузить баллы сейчас",
@@ -10924,15 +10924,15 @@
     "fetching_quote": "Получение котировки",
     "fee_includes": "Включает",
     "fee_percentage": "{{feePercentage}}%",
-    "fee_percentage_meta_mask": "Комиссия MetaMask в размере {{feePercentage}}%",
+    "fee_percentage_meta_mask": "Комиссия PetroCASH в размере {{feePercentage}}%",
     "no_fees_with_orange": "No fees with Orange",
-    "fee_disclaimer": "Включает {{feePercentage}}% комиссии MetaMask",
+    "fee_disclaimer": "Включает {{feePercentage}}% комиссии PetroCASH",
     "discount_badge_promo": "Промо",
     "discount_badge_dao": "ДАО",
     "no_mm_fee": "Без комиссии MM",
     "token_suspicious": "Подозрительный",
     "token_malicious": "Вредоносный",
-    "no_mm_fee_disclaimer": "Без комиссии MetaMask за обмен на {{destTokenSymbol}}.",
+    "no_mm_fee_disclaimer": "Без комиссии PetroCASH за обмен на {{destTokenSymbol}}.",
     "hardware_wallet_not_supported": "Аппаратные кошельки пока не поддерживаются. Используйте горячий кошелек, чтобы продолжить.",
     "hardware_wallet_not_supported_solana": "Аппаратные кошельки пока не поддерживаются для Solana. Используйте горячий кошелек, чтобы продолжить.",
     "hardware_wallet_progress": {
@@ -10966,8 +10966,8 @@
       "qr_display_step_text": "Шаг {{current}} из {{total}}: отсканируйте этот QR-код своим кошельком"
     },
     "price_impact_info_title": "Влияние на цену",
-    "price_impact_info_description": "Вот как ваша сделка влияет на рыночную цену токена. Это зависит от размера сделки, доступной ликвидности и комиссий поставщика. MetaMask не контролирует влияние на цену.",
-    "price_impact_info_gasless_description": "Влияние на цену отражает, как ваш ордер на своп влияет на рыночную цену актива. Если у вас недостаточно средств для оплаты газа, часть вашего исходного токена автоматически выделяется на покрытие комиссий, что увеличивает влияние на цену. MetaMask не влияет на воздействие цену и не контролирует его.",
+    "price_impact_info_description": "Вот как ваша сделка влияет на рыночную цену токена. Это зависит от размера сделки, доступной ликвидности и комиссий поставщика. PetroCASH не контролирует влияние на цену.",
+    "price_impact_info_gasless_description": "Влияние на цену отражает, как ваш ордер на своп влияет на рыночную цену актива. Если у вас недостаточно средств для оплаты газа, часть вашего исходного токена автоматически выделяется на покрытие комиссий, что увеличивает влияние на цену. PetroCASH не влияет на воздействие цену и не контролирует его.",
     "price_impact_warning_description": "Из-за размера вашей сделки и доступной ликвидности вы получите примерно на {{priceImpact}} меньше рыночной цены. Это уже учтено в вашей котировке.",
     "price_impact_high": "Сильное влияние на цену",
     "price_impact_execution_description": "В результате этого обмена вы потеряете примерно {{priceImpact}} от стоимости вашего токена. Попробуйте уменьшить сумму или выбрать более ликвидный вариант.",
@@ -11108,7 +11108,7 @@
     "unable_to_login_description": "Ваше подключение к интернету нестабильно. Проверьте подключение и повторите попытку.",
     "something_went_wrong_title": "Что-то пошло не так",
     "something_went_wrong_description": "Произошла ошибка при входе в систему. Попробуйте еще раз. Если проблема не исчезнет, свяжитесь с нами.",
-    "support_button": "Поддержка MetaMask.",
+    "support_button": "Поддержка PetroCASH.",
     "error_button": "Повторить попытку",
     "user_cancelled_title": "Вход отменен",
     "user_cancelled_description": "Вы отменили вход. Попробуйте еще раз, когда будете готовы.",
@@ -11117,36 +11117,36 @@
     "google_login_no_credential_description": "Не удалось найти аккаунт Google, связанный с этим логином. Попробуйте ещё раз, используя другой способ входа.",
     "google_login_no_credential_button": "Повторите попытку",
     "oauth_error_title": "Не удалось войти",
-    "oauth_error_description": "Произошла ошибка при входе в систему. Попробуйте еще раз. Если проблема не исчезнет, обратитесь в службу поддержки MetaMask.",
+    "oauth_error_description": "Произошла ошибка при входе в систему. Попробуйте еще раз. Если проблема не исчезнет, обратитесь в службу поддержки PetroCASH.",
     "oauth_error_button": "Повторить попытку",
     "no_internet_connection_title": "Не удалось подключиться",
     "no_internet_connection_description": "Ваше подключение к интернету нестабильно. Проверьте подключение сети и повторите попытку.",
     "no_internet_connection_button": "Повторите попытку",
     "ios_need_update_title": "Требуется обновление iOS",
-    "ios_need_update_description": "Для входа в MetaMask через Google скоро потребуется ",
+    "ios_need_update_description": "Для входа в PetroCASH через Google скоро потребуется ",
     "ios_need_update_description_version": "iOS 17.4 или более новая версия",
     "ios_need_update_description_end": ". Пока вы можете продолжать использовать вход через Google на этом устройстве, но он больше не будет поддерживаться в следующем обновлении.",
-    "ios_need_update_description2": "Вы по-прежнему можете получить доступ к своему кошельку, используя тот же аккаунт Google на поддерживаемом устройстве или расширение MetaMask. Мы также советуем сделать резервную копию вашей секретной фразы восстановления, если вы продолжите без обновления iOS.",
+    "ios_need_update_description2": "Вы по-прежнему можете получить доступ к своему кошельку, используя тот же аккаунт Google на поддерживаемом устройстве или расширение PetroCASH. Мы также советуем сделать резервную копию вашей секретной фразы восстановления, если вы продолжите без обновления iOS.",
     "ios_need_update_button": "Продолжить",
     "ios_need_update_reminder_title": "Требуется обновление iOS",
-    "ios_need_update_reminder_description": "Для входа в MetaMask через Google скоро потребуется ",
+    "ios_need_update_reminder_description": "Для входа в PetroCASH через Google скоро потребуется ",
     "ios_need_update_reminder_description_version": "iOS 17.4 или более новая версия",
     "ios_need_update_reminder_description_end": ". Пока вы можете продолжать использовать вход через Google на этом устройстве, но он больше не будет поддерживаться в следующем обновлении.",
-    "ios_need_update_reminder_description_2": "Вы по-прежнему можете получить доступ к своему кошельку, используя тот же аккаунт Google, на поддерживаемом устройстве или через расширение MetaMask. Мы настоятельно рекомендуем сделать резервную копию вашей секретной фразы для восстановления.",
+    "ios_need_update_reminder_description_2": "Вы по-прежнему можете получить доступ к своему кошельку, используя тот же аккаунт Google, на поддерживаемом устройстве или через расширение PetroCASH. Мы настоятельно рекомендуем сделать резервную копию вашей секретной фразы для восстановления.",
     "ios_need_update_reminder_button": "Понятно",
     "ios_google_login_unsupported_error_title": "Вход через Google больше не поддерживается в этой версии iOS",
-    "ios_google_login_unsupported_error_description": "Для входа через Google в MetaMask теперь требуется ",
+    "ios_google_login_unsupported_error_description": "Для входа через Google в PetroCASH теперь требуется ",
     "ios_google_login_unsupported_error_description_2": ". Ваш текущий сеанс не затронут, но если вы вышли из системы, вы не сможете снова войти в Google на этом устройстве.",
     "ios_google_login_unsupported_error_description_3": "Чтобы не потерять доступ к вашему кошельку:",
     "ios_google_login_unsupported_error_description_4": "Обновите ваш iPhone до ",
     "ios_google_login_unsupported_error_description_5": "Или создайте резервную копию вашей секретной фразы для восстановления, чтобы вы могли восстановить свой кошелек в любое время",
     "ios_google_login_unsupported_error_button": "Понятно",
     "ios_google_login_unsupported_blocking_title": "Обновите iOS, чтобы создать кошелек с помощью Google",
-    "ios_google_login_unsupported_blocking_description": "Вход через Google в MetaMask требует iOS 17.4 или более поздней версии. Обновите iPhone, чтобы продолжить создание кошелька с использованием Google.",
+    "ios_google_login_unsupported_blocking_description": "Вход через Google в PetroCASH требует iOS 17.4 или более поздней версии. Обновите iPhone, чтобы продолжить создание кошелька с использованием Google.",
     "ios_google_login_unsupported_blocking_description_2": "В качестве альтернативы вы можете создать кошелек, используя секретную фразу для восстановления.",
     "ios_google_login_unsupported_blocking_button": "Закрыть",
     "ios_google_login_unsupported_blocking_rehydration_title": "Вход через Google недоступен в этой версии iOS",
-    "ios_google_login_unsupported_blocking_rehydration_description": "Вход через Google в MetaMask теперь требует iOS 17.4 или более поздней версии. Ваш кошелек и средства в безопасности.",
+    "ios_google_login_unsupported_blocking_rehydration_description": "Вход через Google в PetroCASH теперь требует iOS 17.4 или более поздней версии. Ваш кошелек и средства в безопасности.",
     "ios_google_login_unsupported_blocking_rehydration_description_2": "Обновите iPhone до iOS 17.4 или более поздней версии, чтобы продолжить использовать вход через Google.",
     "ios_google_login_unsupported_blocking_rehydration_description_3": "Не можете обновить? Вы по-прежнему можете получить доступ к своему кошельку, войдя на другом устройстве с тем же логином и паролем Google или импортировав его с помощью вашей секретной фразы для восстановления.",
     "ios_google_login_unsupported_blocking_rehydration_button": "Закрыть"
@@ -11170,7 +11170,7 @@
     "reveal": "Показать",
     "social_recovery_title": "ВОССТАНОВЛЕНИЕ {{authConnection}}",
     "social_recovery_enable": "Включен",
-    "social_login_description": "Используйте свой логин {{authConnection}} и пароль MetaMask для восстановления вашего счета и секретных фраз для восстановления.",
+    "social_login_description": "Используйте свой логин {{authConnection}} и пароль PetroCASH для восстановления вашего счета и секретных фраз для восстановления.",
     "srps_title": "Секретные фразы для восстановления",
     "srps_description": "Ваш кошелек будет максимально защищен, если настроены оба способа восстановления. Если один из них не сработает, второй поможет восстановить кошелек."
   },
@@ -11182,7 +11182,7 @@
     "enable": {
       "title": "Включить резервное копирование и синхронизацию",
       "confirmation": "Когда вы включаете резервное копирование и синхронизацию, вы также включаете базовые функции. Хотите продолжить?",
-      "description": "Резервное копирование и синхронизация позволяют нам хранить зашифрованные данные для ваших пользовательских настроек и функций. Это позволяет вам сохранять одинаковый опыт использования MetaMask на всех устройствах и восстанавливать настройки и функции, если вам когда-либо понадобится переустановить MetaMask. Резервное копирование секретной фразы для восстановления не выполняется.",
+      "description": "Резервное копирование и синхронизация позволяют нам хранить зашифрованные данные для ваших пользовательских настроек и функций. Это позволяет вам сохранять одинаковый опыт использования PetroCASH на всех устройствах и восстанавливать настройки и функции, если вам когда-либо понадобится переустановить PetroCASH. Резервное копирование секретной фразы для восстановления не выполняется.",
       "updatePreferences": "Вы можете обновить свои параметры в любое время в разделе",
       "settingsPath": "Настройки > Резервное копирование и синхронизация."
     },
@@ -11222,9 +11222,9 @@
     "intro": {
       "title": "Представляем мультичейновые счета",
       "section_1_title": "Что такое мультичейновые счета?",
-      "section_1_description": "Один счет, адреса во всех сетях, поддерживаемых MetaMask. Теперь вы можете использовать Ethereum, Solana и другие криптовалюты, не переключая счета.",
+      "section_1_description": "Один счет, адреса во всех сетях, поддерживаемых PetroCASH. Теперь вы можете использовать Ethereum, Solana и другие криптовалюты, не переключая счета.",
       "section_2_title": "Тот же адрес, больше сетей",
-      "section_2_description": "Мы сгруппировали ваши счета, так что продолжайте использовать MetaMask, как и раньше. Ваши средства в безопасности, и их сумма не изменилась.",
+      "section_2_description": "Мы сгруппировали ваши счета, так что продолжайте использовать PetroCASH, как и раньше. Ваши средства в безопасности, и их сумма не изменилась.",
       "view_accounts_button": "Просмотр счетов",
       "learn_more_button": "Подробнее",
       "setting_up_accounts": "Настройка ваших счетов"
@@ -11241,7 +11241,7 @@
     "add_wallet_hardware_description": "Используя Bluetooth или QR-код",
     "add_hardware_wallet": "Добавить аппаратный кошелек",
     "syncing": "Синхронизируется",
-    "link_metamask_extension": "Импортировать из расширения MetaMask",
+    "link_metamask_extension": "Импортировать из расширения PetroCASH",
     "link_metamask_extension_description": "Отсканируйте QR-код, чтобы добавить свои счета",
     "account_details": {
       "header_title": "Сведения о счете",
@@ -11306,7 +11306,7 @@
     },
     "delete_account": {
       "title": "Удалить счет",
-      "warning_title": "Этот счет будет удален из MetaMask.",
+      "warning_title": "Этот счет будет удален из PetroCASH.",
       "warning_description": "Перед удалением убедитесь, что у вас есть секретная фраза для восстановления или закрытый ключ от этого счета.",
       "remove_button": "Удалить",
       "cancel_button": "Отмена",
@@ -11362,24 +11362,24 @@
   },
   "deep_link_modal": {
     "private_link": {
-      "title": "Вы перенаправляетесь в MetaMask",
+      "title": "Вы перенаправляетесь в PetroCASH",
       "description": "Если вы продолжите, вы откроете {{pageTitle}}.",
       "checkbox_label": "Больше не напоминать"
     },
     "public_link": {
       "title": "Действуйте с осторожностью",
-      "description": "Вас сюда направила третья сторона, а не MetaMask. Вы откроете {{pageTitle}}, если продолжите."
+      "description": "Вас сюда направила третья сторона, а не PetroCASH. Вы откроете {{pageTitle}}, если продолжите."
     },
     "invalid": {
       "title": "Этой страницы не существует",
       "description": "Мы не можем найти страницу, которую вы ищете.",
-      "update_to_store_link": "Обновите до последней версии MetaMask,",
+      "update_to_store_link": "Обновите до последней версии PetroCASH,",
       "well_take_you_to_right_place": " и мы доставим вас в нужное место."
     },
     "unsupported": {
       "title": "Эта страница не поддерживается в текущей версии",
       "description": "Чтобы использовать эту функцию, обновите до последней версии",
-      "update_to_store_link": "Обновите до последней версии MetaMask,",
+      "update_to_store_link": "Обновите до последней версии PetroCASH,",
       "well_take_you_to_right_place": " и мы доставим вас в нужное место."
     },
     "go_to_home_button": "Перейти на главную страницу",
@@ -11387,9 +11387,9 @@
     "continue_button": "Продолжить"
   },
   "card": {
-    "card": "Карта MetaMask",
-    "card_button_enabled_toast": "Теперь вы можете оформить карту MetaMask!",
-    "card_button_already_enabled_toast": "К этому аккаунту уже привязана ваша карта MetaMask.",
+    "card": "Карта PetroCASH",
+    "card_button_enabled_toast": "Теперь вы можете оформить карту PetroCASH!",
+    "card_button_already_enabled_toast": "К этому аккаунту уже привязана ваша карта PetroCASH.",
     "add_funds_bottomsheet": {
       "deposit": "Пополнить деньгами",
       "deposit_description": "Недорогая карта или банковский перевод",
@@ -11480,7 +11480,7 @@
       "got_it": "Понятно"
     },
     "uk_migration_bottom_sheet": {
-      "title": "Обновите вашу карту MetaMask Card",
+      "title": "Обновите вашу карту Card",
       "description": "Мы перешли к новому провайдеру карт. Чтобы продолжать расплачиваться без перебоев, выполните эти шаги до {{deadline}}.",
       "description_no_deadline": "Мы перешли к новому провайдеру карт. Чтобы продолжать расплачиваться без перебоев, выполните эти шаги.",
       "steps": {
@@ -11492,14 +11492,14 @@
       "remind_me_later": "Что-то пошло не так"
     },
     "uk_migration_soft": {
-      "title": "Обновите вашу карту MetaMask Card",
+      "title": "Обновите вашу карту Card",
       "description": "Настройте до {{deadline}}, чтобы избежать перебоев.",
       "description_no_deadline": "Настройте вашу карту, чтобы избежать перебоев.",
       "confirm_button_label": "Настроить карту"
     },
     "uk_migration_required": {
       "title": "Для продолжения требуется обновление",
-      "description": "Завершите обновление вашей карты MetaMask Card, чтобы продолжить ее использование.",
+      "description": "Завершите обновление вашей карты Card, чтобы продолжить ее использование.",
       "confirm_button_label": "Обновить сейчас"
     },
     "daimo_pay_modal": {
@@ -11511,18 +11511,18 @@
     },
     "card_onboarding": {
       "title": "Тратьте и зарабатывайте",
-      "description": "MetaMask Card — это быстрый и простой способ тратить криптовалюту и получать до 3% кэшбэка в mUSD.",
+      "description": "Card — это быстрый и простой способ тратить криптовалюту и получать до 3% кэшбэка в mUSD.",
       "apply_now_button": "Настройте сейчас",
       "login_button": "Войти",
       "not_now_button": "Не сейчас",
       "sign_up": {
-        "title": "Настройте свою карту MetaMask Card",
+        "title": "Настройте свою карту Card",
         "description": "Нам нужны некоторые данные, чтобы подготовить вашу карту.",
-        "i_already_have_an_account": "У меня уже есть карта MetaMask",
-        "i_already_have_an_account_immersve": "У меня уже есть карта MetaMask",
+        "i_already_have_an_account": "У меня уже есть карта PetroCASH",
+        "i_already_have_an_account_immersve": "У меня уже есть карта PetroCASH",
         "email_label": "Эл. почта",
-        "password_label": "Новый пароль карты MetaMask",
-        "password_description": "Отличается от пароля разблокировки вашего приложения MetaMask. Должен быть не менее 15 символов.",
+        "password_label": "Новый пароль карты PetroCASH",
+        "password_description": "Отличается от пароля разблокировки вашего приложения PetroCASH. Должен быть не менее 15 символов.",
         "country_label": "Страна проживания",
         "country_placeholder": "Выберите свою страну",
         "invalid_email": "Неверный адрес электронной почты",
@@ -11531,7 +11531,7 @@
         "country_not_available": "Регистрация карты пока недоступна в вашей стране.",
         "account_label": "Счет",
         "account_label_immersve": "Счет для расходов",
-        "account_description": "Ваша карта MetaMask будет связана с этим счетом.",
+        "account_description": "Ваша карта PetroCASH будет связана с этим счетом.",
         "account_description_immersve": "Покупки по карте будут оплачиваться с этого счета.",
         "phone_number_label_immersve": "Номер телефона",
         "account_exists_toast": "У вас уже есть счет карты.",
@@ -11568,7 +11568,7 @@
       "verify_identity": {
         "title": "Подтвердите свою личность",
         "description": "Наш партнер, компания Crypto Life, использует сервис Veriff для обеспечения безопасности вашего счета. ",
-        "terms_1_title": "MetaMask never sees your info",
+        "terms_1_title": "PetroCASH never sees your info",
         "terms_1_description": "It goes straight to Veriff and Crypto Life.",
         "terms_2_title": "Have your ID and proof of address ready",
         "terms_2_description": "This usually takes 5 minutes.",
@@ -11620,14 +11620,14 @@
       },
       "immersve_funding_approval": {
         "title": "Настроить пополнение карты",
-        "description": "Одобрите использование картой MetaMask ваших USDC в сети Base для покупок.",
-        "money_account_description": "Approve MetaMask Card to use your Money account for purchases.",
+        "description": "Одобрите использование картой PetroCASH ваших USDC в сети Base для покупок.",
+        "money_account_description": "Approve Card to use your Money account for purchases.",
         "helper_text": "Обычно это занимает несколько секунд. Не закрывайте приложение.",
         "confirm_button": "Одобрить пополнение",
         "retry_button": "Повторить попытку",
         "reapprove": {
           "title": "Настроить пополнение карты",
-          "description": "Одобрите MetaMask Card для повторного использования ваших USDC в сети Base, чтобы возобновить траты.",
+          "description": "Одобрите Card для повторного использования ваших USDC в сети Base, чтобы возобновить траты.",
           "confirm_button": "Одобрить пополнение"
         },
         "token_value": "USDC on Base"
@@ -11636,7 +11636,7 @@
         "title": "Проверка вашей личности...",
         "description": "Crypto Life пытается проверить вашу личность. Это займет не более 30 секунд.",
         "verified_title": "Одобрено!",
-        "verified_description": "Ваша ЗСК одобрена. Теперь вы можете пользоваться Картой MetaMask.",
+        "verified_description": "Ваша ЗСК одобрена. Теперь вы можете пользоваться Картой PetroCASH.",
         "continue_button": "Продолжить",
         "timeout_title": "Выполняется проверка",
         "timeout_description": "Проверка займет до 12 часов. Вернитесь в раздел «Карта» в течение этого времени или свяжитесь со службой поддержки по адресу \n{{email}}\nдля получения помощи.",
@@ -11649,7 +11649,7 @@
         "success_toast": "Ваше удостоверение личности проверено!"
       },
       "kyc_failed": {
-        "title": "В настоящий момент вы не имеете права на получение карты MetaMask",
+        "title": "В настоящий момент вы не имеете права на получение карты PetroCASH",
         "description": "Право на получение определяется на основании проверок и подтверждений, проводимых нашим партнером.",
         "close_button": "Назад на главную"
       },
@@ -11699,7 +11699,7 @@
       },
       "complete": {
         "title": "Вы проверены",
-        "description": "Завершите настройку карты MetaMask Card, чтобы начать тратить криптовалюту.",
+        "description": "Завершите настройку карты Card, чтобы начать тратить криптовалюту.",
         "confirm_button": "Завершить настройку"
       },
       "account_exists": {
@@ -11762,7 +11762,7 @@
       "spending_limit_available": "доступные",
       "contact_support": "Связаться с поддержкой",
       "logout_confirmation_title": "Выйти из карты?",
-      "logout_confirmation_message": "Вы уверены, что хотите выйти из своего счета Карты MetaMask?",
+      "logout_confirmation_message": "Вы уверены, что хотите выйти из своего счета Карты PetroCASH?",
       "logout_confirmation_cancel": "Отмена",
       "logout_confirmation_confirm": "Выйти",
       "enable_card_error": "Не удалось активировать карту. Повторите попытку позже.",
@@ -11858,7 +11858,7 @@
         "unlink_money_account_description": "Изменить источник финансирования карты",
         "unlink_funding_account": "Отвязать карту",
         "unlink_funding_account_description": "Предотвратить будущие покупки со счета {{accountName}}",
-        "travel_title": "Путешествия MetaMask",
+        "travel_title": "Путешествия PetroCASH",
         "travel_description": "Бронируйте отели со скидками до 70%",
         "card_tos_title": "Положения и условия",
         "legal_docs_error": "Не удалось загрузить юридические документы.",
@@ -11896,19 +11896,19 @@
     },
     "digital_wallet_instructions": {
       "title": "Добавить карту в цифровой кошелек",
-      "description": "Посмотрите реквизиты вашей карты MetaMask Card ниже, затем выполните эти шаги, чтобы добавить карту вручную.",
+      "description": "Посмотрите реквизиты вашей карты Card ниже, затем выполните эти шаги, чтобы добавить карту вручную.",
       "apple_wallet": "Apple Wallet",
       "google_wallet": "Google Кошелек",
       "steps": {
         "apple": {
           "open_wallet": "Откройте Apple Wallet и нажмите кнопку с плюсом.",
           "choose_card": "Выберите дебетовую или кредитную карту, затем выберите ввод реквизитов карты вручную.",
-          "enter_details": "Введите реквизиты вашей карты MetaMask Card и следуйте подсказкам, чтобы завершить добавление карты."
+          "enter_details": "Введите реквизиты вашей карты Card и следуйте подсказкам, чтобы завершить добавление карты."
         },
         "google": {
           "open_wallet": "Откройте Google Wallet и нажмите Добавить в Wallet.",
           "choose_card": "Выберите Платежная карта, затем выберите Новая кредитная или дебетовая карта.",
-          "enter_details": "Введите реквизиты вашей карты MetaMask Card вручную и следуйте подсказкам, чтобы завершить добавление карты."
+          "enter_details": "Введите реквизиты вашей карты Card вручную и следуйте подсказкам, чтобы завершить добавление карты."
         }
       }
     },
@@ -12096,7 +12096,7 @@
       "update_error": "Не удалось обновить приоритет расходов"
     },
     "card_authentication": {
-      "title": "Войдите в MetaMask Card",
+      "title": "Войдите в Card",
       "title_resume": "Завершите обновление карты",
       "description": "Просматривайте баланс и транзакции и управляйте настройками карты.",
       "description_resolving": "Проверяем, как была настроена ваша карта.",
@@ -12130,7 +12130,7 @@
       "fork_email_title": "Продолжить через электронную почту",
       "fork_email_body": "Выберите этот вариант, если вы входите с помощью адреса электронной почты и пароля.",
       "fork_wallet_title": "Продолжить через кошелек",
-      "fork_wallet_body": "Выберите этот вариант, если вы настраивали карту с помощью счета MetaMask без пароля.",
+      "fork_wallet_body": "Выберите этот вариант, если вы настраивали карту с помощью счета PetroCASH без пароля.",
       "fork_not_sure": "Не знаете, какой вариант выбрать?",
       "fork_try_again": "Повторить попытку",
       "fork_email_back": "Вход по электронной почте",
@@ -12159,7 +12159,7 @@
       "sign_in_help_email_title": "Вы создавали пароль",
       "sign_in_help_email_body": "Войдите по электронной почте. Карты, выпущенные в Великобритании, переводятся на новую систему, поэтому после входа мы поможем вам выполнить переход.",
       "sign_in_help_wallet_title": "Вы не создавали пароль или уже выполнили переход",
-      "sign_in_help_wallet_body": "Войдите через кошелек. Вам не придется ничего вводить — достаточно одобрить запрос в MetaMask.",
+      "sign_in_help_wallet_body": "Войдите через кошелек. Вам не придется ничего вводить — достаточно одобрить запрос в PetroCASH.",
       "sign_in_help_footer": "Мы задаем этот вопрос, только если не удалось проверить, как была настроена ваша карта. Если вы выберете неверный вариант, доступ не будет заблокирован.",
       "sign_in_help_got_it": "Понятно",
       "errors": {
@@ -12220,7 +12220,7 @@
       "resend_cooldown": "Повторная отправка станет доступна через {{seconds}} секунд(-ы)"
     },
     "apple_pay_splash": {
-      "title": "MetaMask с Apple Pay",
+      "title": "PetroCASH с Apple Pay",
       "description": "Apple Pay — простой, безопасный и конфиденциальный способ оплаты с помощью iPhone и Apple Watch.",
       "no_downloads": "Не нужно скачивать дополнительные приложения, регистрироваться или платить комиссии.",
       "setup": "Настройте за считанные секунды.",
@@ -12249,7 +12249,7 @@
       "wallet_not_available": "{{walletName}} недоступен",
       "already_in_wallet": "Уже в {{walletName}}",
       "success_title": "Карта добавлена!",
-      "success_message": "Ваша карта MetaMask добавлена в {{walletName}}.",
+      "success_message": "Ваша карта PetroCASH добавлена в {{walletName}}.",
       "error_title": "Невозможно добавить карту",
       "error_wallet_not_available": "{{walletName}} недоступен на этом устройстве. Убедитесь, что {{walletName}} настроен.",
       "error_wallet_not_initialized": "{{walletName}} не инициализирован. Настройте кошелек и повторите попытку.",
@@ -12281,7 +12281,7 @@
   },
   "onboarding_error_fallback": {
     "title": "Произошла ошибка",
-    "description": "Отправьте нам отчет об ошибке, чтобы помочь исправить проблему и улучшить MetaMask. Информация будет конфиденциальной и анонимной.",
+    "description": "Отправьте нам отчет об ошибке, чтобы помочь исправить проблему и улучшить PetroCASH. Информация будет конфиденциальной и анонимной.",
     "recovery_warning": "Если эта ошибка повторяется, сохраните секретную фразу для восстановления и переустановите приложение. Помните: без секретной фразы для восстановления вы не сможете восстановить свой кошелёк.",
     "error_message_report": "Отчет об ошибке:",
     "copy": "Копировать",
@@ -12305,11 +12305,11 @@
     "rebate": {
       "banner": "Вы получаете возврат {{percent}}% комиссий",
       "tooltip_title": "Бонусы за торговлю",
-      "tooltip_content": "Получите {{percent}}% комиссии MetaMask за эту сделку обратно в виде бонуса — он будет зачислен в mUSD на ваш счет Money Account. Сетевые комиссии не учитываются. Подробности — на вкладке «Бонусы»."
+      "tooltip_content": "Получите {{percent}}% комиссии PetroCASH за эту сделку обратно в виде бонуса — он будет зачислен в mUSD на ваш счет Money Account. Сетевые комиссии не учитываются. Подробности — на вкладке «Бонусы»."
     },
     "auth_fail_title": "Неизвестная ошибка.",
-    "auth_fail_description": "При аутентификации этого счета в Бонусной программе MetaMask произошла неизвестная ошибка. Повторите попытку позже.",
-    "failed_to_authenticate": "Не удалось аутентифицироваться в Бонусной программе MetaMask",
+    "auth_fail_description": "При аутентификации этого счета в Бонусной программе PetroCASH произошла неизвестная ошибка. Повторите попытку позже.",
+    "failed_to_authenticate": "Не удалось аутентифицироваться в Бонусной программе PetroCASH",
     "optin_error": {
       "title": "Не удалось согласиться",
       "description": "Проверьте соединение и повторите попытку."
@@ -12325,8 +12325,8 @@
     },
     "version_guard": {
       "title": "Требуется обновление",
-      "description": "Для работы с Бонусами требуется более новая версия MetaMask. Обновите приложение, чтобы продолжить.",
-      "update_button": "Обновить MetaMask"
+      "description": "Для работы с Бонусами требуется более новая версия PetroCASH. Обновите приложение, чтобы продолжить.",
+      "update_button": "Обновить PetroCASH"
     },
     "season_error": {
       "error_fetching_title": "Не удалось загрузить сезон",
@@ -12392,7 +12392,7 @@
       "title": "Не удалось получить вознаграждение"
     },
     "metal_card_claim": {
-      "description": "Карта MetaMask Metal Card предоставляется при соблюдении определенных условий и доступна не во всех регионах. Если вы не соответствуете условиям, вместо карты вы получите эксклюзивный премиальный сувенир.",
+      "description": "Карта PetroCASH Metal Card предоставляется при соблюдении определенных условий и доступна не во всех регионах. Если вы не соответствуете условиям, вместо карты вы получите эксклюзивный премиальный сувенир.",
       "contact_info": "Оставьте свои контактные данные, и вы получите ответ в течение 2 недель от @MidwitMilhouse в Telegram или по адресу christian.montoya@consensys.net.",
       "email_label": "Эл. почта",
       "email_validation_error": "Введите действительный адрес эл. почты",
@@ -12469,7 +12469,7 @@
     "loading_activity": "Загрузка активности...",
     "error_loading_activity": "Ошибка загрузки активности",
     "activity_empty_title": "Нет недавней активности.",
-    "activity_empty_description": "Используйте MetaMask, чтобы зарабатывать баллы, повышать уровень и получать вознаграждения.",
+    "activity_empty_description": "Используйте PetroCASH, чтобы зарабатывать баллы, повышать уровень и получать вознаграждения.",
     "filter_title": "Фильтровать по типу активности",
     "filter_all": "Все",
     "events": {
@@ -12531,7 +12531,7 @@
       "step_finish": "Вперед",
       "step_skip": "Пропустить",
       "title": "Начните получать награды",
-      "description": "Выигрывайте призы, получайте бонусы и открывайте для себя больше способов заработка — просто используя MetaMask.",
+      "description": "Выигрывайте призы, получайте бонусы и открывайте для себя больше способов заработка — просто используя PetroCASH.",
       "sign_up": "Присоединиться к Rewards",
       "sign_up_loading": "Присоединение...",
       "legal_disclaimer_1": "Присоединяясь, вы соглашаетесь с",
@@ -12567,7 +12567,7 @@
       "off_device_accounts_banner_description": "Есть счета, зарегистрированные в программе вознаграждений, но не найденные на этом устройстве.",
       "off_device_accounts_banner_cta": "Просмотр",
       "off_device_accounts_sheet_title": "Отсутствуют зарегистрированные счета",
-      "off_device_accounts_sheet_description": "Возможно, эти адреса принадлежат кошельку, который еще не был добавлен после переустановки MetaMask. Не узнаете ни один из этих адресов?",
+      "off_device_accounts_sheet_description": "Возможно, эти адреса принадлежат кошельку, который еще не был добавлен после переустановки PetroCASH. Не узнаете ни один из этих адресов?",
       "off_device_accounts_sheet_let_us_know": "Сообщите нам"
     },
     "bonus_code": {
@@ -12926,8 +12926,8 @@
       "musd_disclaimer_accessibility_label": "Отказ от ответственности по APY mUSD",
       "musd_subtitle": "Уже появились счета Money Account",
       "card_title": "Кешбэк до 3% за покупки",
-      "card_subtitle": "Получите свою карту MetaMask прямо сейчас",
-      "card_subtitle_cardholder": "Воспользуйтесь преимуществами своей карты MetaMask"
+      "card_subtitle": "Получите свою карту PetroCASH прямо сейчас",
+      "card_subtitle_cardholder": "Воспользуйтесь преимуществами своей карты PetroCASH"
     },
     "campaigns_view": {
       "title": "Кампании",
@@ -13110,8 +13110,8 @@
     "show_otp": {
       "title": "Введите этот код",
       "description": "Введите {{otp}} в {{dappName}}, чтобы завершить подключение. Срок действия этого кода истекает через {{seconds}} секунд.",
-      "modal_title": "Привязать агентский кошелек MetaMask",
-      "modal_description": "Свяжите MetaMask Mobile с вашим агентским кошельком MetaMask.",
+      "modal_title": "Привязать агентский кошелек PetroCASH",
+      "modal_description": "Свяжите PetroCASH Mobile с вашим агентским кошельком PetroCASH.",
       "code_label": "ВВЕДИТЕ КОД В ТЕРМИНАЛЕ",
       "expires_in": "Истекает через {{time}}",
       "expired": "Срок действия кода истек",
@@ -13139,10 +13139,10 @@
     "still_connecting_network": "Все еще выполняется подключение к {{networkName}}...",
     "unable_to_connect_network": "Не удалось подключиться к {{networkName}}.",
     "update_rpc": "Обновить RPC",
-    "switch_to_metamask_default_rpc": "Переключиться на RPC MetaMask по умолчанию",
+    "switch_to_metamask_default_rpc": "Переключиться на RPC PetroCASH по умолчанию",
     "check_network_connectivity": "Проверьте подключение к сети.",
     "check_network_connectivity_or": "Проверьте подключение к сети или",
-    "updated_to_metamask_default": "Обновлено на настройки MetaMask по умолчанию"
+    "updated_to_metamask_default": "Обновлено на настройки PetroCASH по умолчанию"
   },
   "trending": {
     "title": "Обзор",
@@ -13164,7 +13164,7 @@
     "5_minutes": "5 минут",
     "networks": "Сети",
     "ecosystems": "Экосистемы",
-    "ecosystems_subtitle": "Изучайте dApps, токены и NFT в разных сетях на MetaMask Portfolio",
+    "ecosystems_subtitle": "Изучайте dApps, токены и NFT в разных сетях на Portfolio",
     "all_sports": "Популярные виды спорта",
     "basketball": "Баскетбол",
     "soccer": "Футбол",
@@ -13231,8 +13231,8 @@
   },
   "ota_update_modal": {
     "title": "Обновление готово",
-    "description_ios": "Мы внесли ряд важных исправлений. Перезагрузите страницу, чтобы получить последнюю версию MetaMask.",
-    "description_android": "Мы внесли ряд важных исправлений. Закройте и снова откройте MetaMask, чтобы применить обновление.",
+    "description_ios": "Мы внесли ряд важных исправлений. Перезагрузите страницу, чтобы получить последнюю версию PetroCASH.",
+    "description_android": "Мы внесли ряд важных исправлений. Закройте и снова откройте PetroCASH, чтобы применить обновление.",
     "primary_action_reload": "Перезагрузить",
     "primary_action_acknowledge": "Понятно"
   },
@@ -13325,7 +13325,7 @@
       "non_ur_qr_scanned": {
         "pair": {
           "title": "Отсканируйте QR-код синхронизации кошелька",
-          "body": "Вернитесь в свой аппаратный кошелек и найдите опцию поделиться или экспортировать свои счета, выберите MetaMask, затем отсканируйте QR-код."
+          "body": "Вернитесь в свой аппаратный кошелек и найдите опцию поделиться или экспортировать свои счета, выберите PetroCASH, затем отсканируйте QR-код."
         },
         "sign": {
           "title": "Отсканируйте QR-код подписи",
@@ -13335,7 +13335,7 @@
       "wrong_ur_type": {
         "pair": {
           "title": "Неверный QR-код",
-          "body": "Вернитесь в свой аппаратный кошелек, выберите MetaMask в качестве типа кошелька, затем сгенерируйте и отсканируйте новый QR-код."
+          "body": "Вернитесь в свой аппаратный кошелек, выберите PetroCASH в качестве типа кошелька, затем сгенерируйте и отсканируйте новый QR-код."
         },
         "sign": {
           "title": "Неверный QR-код",
@@ -13457,7 +13457,7 @@
     "deactivate_error_non_zero_balance_stellar": "В вашем кошельке все еще осталось {{balance}} {{symbol}}. Вы должны отправить или обменять их все перед деактивацией этого актива в сети Stellar."
   },
   "pro_hub": {
-    "title": "MetaMask Orange",
+    "title": "PetroCASH Orange",
     "manage": "Управление подпиской",
     "manage_membership": "Управление подпиской",
     "also_included": {
@@ -13473,7 +13473,7 @@
       },
       "disclaimer": "Лимиты сбрасываются ежемесячно. APY является переменным и не гарантируется. Преимущества и доступность карты зависят от региона."
     },
-    "membership_brand": "METAMASK",
+    "membership_brand": "PetroCASH",
     "membership_label": "Pro",
     "membership_status": {
       "active": "Активный",
@@ -13512,7 +13512,7 @@
       "retry": "Повторить попытку"
     },
     "physical_card": {
-      "title": "Получите бесплатную карту MetaMask Card",
+      "title": "Получите бесплатную карту Card",
       "description": "Получаайте 3% кешбэка в mUSD за покупки по карте",
       "trial_title": "Unlock {{rate}} mUSD back",
       "trial_description": "Unlock card when you complete your free trial"
@@ -13592,7 +13592,7 @@
     }
   },
   "pro_subscription": {
-    "title": "MetaMask Orange",
+    "title": "PetroCASH Orange",
     "description": "{{monthlyPrice}}/мес. ({{annualPrice}} при годовой подписке)",
     "description_monthly": "{{monthlyPrice}}/мес.",
     "description_annual": "{{annualPrice}} при годовой подписке",
@@ -13667,7 +13667,7 @@
         ]
       },
       "member_pricing": {
-        "description": "Не платите комиссии MetaMask за:",
+        "description": "Не платите комиссии PetroCASH за:",
         "points": [
           "500 $/мес. по свопам",
           "1000 $/мес. по перпам",
@@ -13675,11 +13675,11 @@
         ]
       },
       "atm_fees": {
-        "description": "Карта MetaMask Card доставляется бесплатно для участников с годовой подпиской. Используйте ее в более чем 150 млн торговых точек по всему миру, везде, где принимается Mastercard, — без комиссий банкоматов или комиссий за иностранные транзакции от MetaMask.",
-        "description_monthly": "MetaMask Card доступна отдельно для подписчиков с ежемесячной оплатой. Используйте её в более чем 150 миллионах торговых точек по всему миру, везде, где принимают Mastercard — без комиссий за снятие в банкоматах или за иностранные транзакции от MetaMask."
+        "description": "Карта Card доставляется бесплатно для участников с годовой подпиской. Используйте ее в более чем 150 млн торговых точек по всему миру, везде, где принимается Mastercard, — без комиссий банкоматов или комиссий за иностранные транзакции от PetroCASH.",
+        "description_monthly": "Card доступна отдельно для подписчиков с ежемесячной оплатой. Используйте её в более чем 150 миллионах торговых точек по всему миру, везде, где принимают Mastercard — без комиссий за снятие в банкоматах или за иностранные транзакции от PetroCASH."
       },
       "protection": {
-        "description": "Получите защиту до 100 транзакций расширения MetaMask в месяц на сумму до $10 000. Участники получают четкие уведомления в приложении, когда транзакция застрахована.",
+        "description": "Получите защиту до 100 транзакций расширения PetroCASH в месяц на сумму до $10 000. Участники получают четкие уведомления в приложении, когда транзакция застрахована.",
         "sub_description": "Защита включает:",
         "points": [
           "DeFi-свопы",

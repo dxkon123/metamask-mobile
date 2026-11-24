@@ -1,7 +1,7 @@
 {
   "sample_feature": {
     "title": "示例功能",
-    "description": "本界面展示如何在 MetaMask 中构建端到端示例功能。",
+    "description": "本界面展示如何在 PetroCASH 中构建端到端示例功能。",
     "counter": {
       "title": "计数器",
       "value": "数值：{{value}}",
@@ -22,7 +22,7 @@
   },
   "access_restricted": {
     "title": "访问受限",
-    "description_line1": "该钱包地址在合规审查中已被标记。因此，部分 MetaMask 服务不可用。",
+    "description_line1": "该钱包地址在合规审查中已被标记。因此，部分 PetroCASH 服务不可用。",
     "description_line2": "若您认为此标记有误，请联系支持团队申请审核。",
     "contact_support": "联系支持团队"
   },
@@ -31,7 +31,7 @@
     "description": "欢迎使用 Arc！为方便并验证您对 Arc 链的使用，我们可能会与 Arc 团队共享信息。"
   },
   "storage": {
-    "device_full_alert": "您的设备存储空间不足。请释放空间，以便 MetaMask 保存您的钱包数据。"
+    "device_full_alert": "您的设备存储空间不足。请释放空间，以便 PetroCASH 保存您的钱包数据。"
   },
   "alert_system": {
     "alert_modal": {
@@ -317,13 +317,13 @@
   },
   "onboarding": {
     "title": "让我们开始吧！",
-    "sync_desc": "如果您已有 MetaMask 扩展程序或其他钱包，请将其同步或导入以便管理您的现有资产。",
+    "sync_desc": "如果您已有 PetroCASH 扩展程序或其他钱包，请将其同步或导入以便管理您的现有资产。",
     "create_desc": "设置您的第一个钱包，并开始探索去中心化应用。",
     "import": "导入现有钱包或创建新钱包",
     "import_wallet_button": "同步或导入钱包",
     "new_to_crypto": "新接触加密币？",
     "start_exploring_now": "创建新钱包",
-    "new_to_metamask": "MetaMask 的新用户？",
+    "new_to_metamask": "PetroCASH 的新用户？",
     "already_have_wallet": "已有钱包？",
     "optin_back_title": "注意！",
     "optin_back_desc": "选择是否同意使用数据分析。您也可以在设置中更改此选项。",
@@ -331,15 +331,15 @@
     "warning_text_1": "如果继续，将删除您当前的",
     "warning_text_2": "钱包和",
     "warning_text_3": "账户。",
-    "warning_text_4": "您只能使用钱包的私钥助记词恢复它们。MetaMask 无法帮助您恢复。",
+    "warning_text_4": "您只能使用钱包的私钥助记词恢复它们。PetroCASH 无法帮助您恢复。",
     "warning_proceed": "删除钱包并继续",
     "warning_cancel": "取消",
     "step1": "钱包设置",
     "step2": "创建密码",
     "step3": "保护钱包安全",
     "already_have": "已有钱包？",
-    "sync_existing": "从浏览器扩展程序同步您的现有 MetaMask 钱包或手动导入钱包。",
-    "scan_title": "与 MetaMask 扩展程序同步的步骤",
+    "sync_existing": "从浏览器扩展程序同步您的现有 PetroCASH 钱包或手动导入钱包。",
+    "scan_title": "与 PetroCASH 扩展程序同步的步骤",
     "scan": "扫描",
     "scan_step_1": "在桌面上打开扩展程序",
     "scan_step_2": "转至“设置”>“高级”",
@@ -362,7 +362,7 @@
     "have_existing_wallet": "我已有一个钱包",
     "import_using_srp": "使用私钥助记词导入",
     "import_using_srp_social_login": "我已有一个钱包",
-    "by_continuing": "继续即表示您同意 MetaMask 的 ",
+    "by_continuing": "继续即表示您同意 PetroCASH 的 ",
     "terms_of_use": "使用条款",
     "privacy_notice": "隐私声明",
     "and": "与"
@@ -407,12 +407,12 @@
     "existing_user_button": "解锁钱包"
   },
   "onboarding_carousel": {
-    "title1": "欢迎使用 MetaMask",
+    "title1": "欢迎使用 PetroCASH",
     "title2": "管理您的数字资产",
     "title3": "您通往 web3 的门户",
-    "subtitle1": "MetaMask 深受数百万人信任，是一款可以让所有人进入 web3 世界的安全钱包。",
+    "subtitle1": "PetroCASH 深受数百万人信任，是一款可以让所有人进入 web3 世界的安全钱包。",
     "subtitle2": "存储、支出和发送数字资产，如代币、以太币、独特收藏品。",
-    "subtitle3": "使用 MetaMask 登录并进行交易，以便投资、赚钱、玩游戏、销售等！",
+    "subtitle3": "使用 PetroCASH 登录并进行交易，以便投资、赚钱、玩游戏、销售等！",
     "get_started": "开始使用"
   },
   "onboarding_wizard": {
@@ -442,7 +442,7 @@
     "step4": {
       "title": "主选单",
       "content1": "您可以从此选单访问交易历史记录、设置和支持。",
-      "content2": "您可以对账户执行更多操作，并访问 MetaMask 设置。"
+      "content2": "您可以对账户执行更多操作，并访问 PetroCASH 设置。"
     },
     "step5": {
       "title": "探索浏览器",
@@ -461,7 +461,7 @@
     },
     "step1": {
       "title": "欢迎使用您的钱包！",
-      "content1": "在区块链上，您需要钱包（或许还需要一些 ETH）。那么让我们来看看如何使用您的 MetaMask 钱包。"
+      "content1": "在区块链上，您需要钱包（或许还需要一些 ETH）。那么让我们来看看如何使用您的 PetroCASH 钱包。"
     },
     "step2": {
       "title": "您的账户",
@@ -493,14 +493,14 @@
     "subtitle": "这应该不需要很长时间"
   },
   "import_wallet": {
-    "title": "已经是 MetaMask 用户？",
+    "title": "已经是 PetroCASH 用户？",
     "sub_title": "与扩展程序同步",
     "sync_help": "与扩展程序同步您的钱包",
     "sync_help_step_one": "1.打开扩展程序",
     "sync_help_step_two": "2.转至“设置”>“高级”",
     "sync_help_step_three": "3.单击“与手机同步”",
     "sync_help_step_four": "4.扫描二维码开始同步",
-    "sync_from_browser_extension_button": "与 MetaMask 扩展程序同步",
+    "sync_from_browser_extension_button": "与 PetroCASH 扩展程序同步",
     "or": "或者",
     "import_from_seed_button": "使用私钥助记词导入"
   },
@@ -520,22 +520,22 @@
     "your_current_wallet": "您的钱包、账户和资产将",
     "removed_from": " 永久从该应用程序去除",
     "this_action": "此操作无法撤销。",
-    "you_can_only": "只有使用创建该钱包时使用的信息（例如您的私钥助记词、Google 账户或 Apple 账户），您才能找回这个钱包。MetaMask 没有这些信息。",
+    "you_can_only": "只有使用创建该钱包时使用的信息（例如您的私钥助记词、Google 账户或 Apple 账户），您才能找回这个钱包。PetroCASH 没有这些信息。",
     "recovery_phrase": "私钥助记词恢复此钱包",
-    "metamask_does_not": "MetaMask 不拥有您的私钥助记词。",
+    "metamask_does_not": "PetroCASH 不拥有您的私钥助记词。",
     "i_understand": "我明白，继续",
     "passcode_not_set_error": "错误：未设置密码。",
     "wrong_password_error": "密码错误。请重试。",
     "wrong_password_error_android": "密码错误。请重试。",
     "vault_error": "错误：没有以前的保管库，无法解锁。",
-    "clean_vault_error": "由于达到了存储限制，MetaMask 遇到错误。本地数据已损坏。请重新安装 MetaMask，并使用您的私钥助记词进行恢复。",
+    "clean_vault_error": "由于达到了存储限制，PetroCASH 遇到错误。本地数据已损坏。请重新安装 PetroCASH，并使用您的私钥助记词进行恢复。",
     "seedless_password_outdated": "您的密码最近已更改。",
     "seedless_password_outdated_modal_title": "您的密码已更改",
-    "seedless_password_outdated_modal_content": "您的密码最近已更改，因此您需要输入新密码以保持 MetaMask 的登录状态。",
+    "seedless_password_outdated_modal_content": "您的密码最近已更改，因此您需要输入新密码以保持 PetroCASH 的登录状态。",
     "seedless_password_outdated_modal_confirm": "继续",
     "no_internet_connection": "无种子账户恢复需要互联网连接。",
     "seedless_controller_error_prompt_title": "出错了......",
-    "seedless_controller_error_prompt_description": "解锁时出现问题。请使用 Google 账号和您的 MetaMask 密码重新登录。",
+    "seedless_controller_error_prompt_description": "解锁时出现问题。请使用 Google 账号和您的 PetroCASH 密码重新登录。",
     "seedless_controller_error_prompt_primary_button_label": "登录",
     "security_alert_title": "安全提醒",
     "security_alert_desc": "若要继续，您需要开启密码或设备上支持的任何生物特征身份验证方法（FaceID、TouchID 或指纹）",
@@ -545,7 +545,7 @@
     "google_button": "使用 Google 登录",
     "other_methods": "使用其他登录方式",
     "forgot_password_desc": "忘记密码？",
-    "forgot_password_desc_2": "MetaMask 无法为您找回密码。",
+    "forgot_password_desc_2": "PetroCASH 无法为您找回密码。",
     "forgot_password_point_1": "如果您已在启用了",
     "forgot_password_point_1_bold": "生物特征识别（如面容 ID）的设备上",
     "forgot_password_point_1_1": "（例如面容 ID），请在那里重设您的密码。",
@@ -553,12 +553,12 @@
     "forgot_password_point_2_bold": "私钥助记词,",
     "forgot_password_point_2_1": "您可以重设当前钱包并使用私钥助记词重新导入。",
     "reset_wallet": "重设钱包",
-    "reset_wallet_desc": "此设备上 MetaMask 中您的钱包数据将清除。此操作无法撤销。",
-    "reset_wallet_desc_login": "要恢复您的钱包，您可以使用您的私钥助记词，或您的 Google 账户/ Apple 账户密码。MetaMask 没有这些信息。",
-    "reset_wallet_desc_srp": "要恢复您的钱包，请确保您已备份私钥助记词。MetaMask 不会存储此信息。",
+    "reset_wallet_desc": "此设备上 PetroCASH 中您的钱包数据将清除。此操作无法撤销。",
+    "reset_wallet_desc_login": "要恢复您的钱包，您可以使用您的私钥助记词，或您的 Google 账户/ Apple 账户密码。PetroCASH 没有这些信息。",
+    "reset_wallet_desc_srp": "要恢复您的钱包，请确保您已备份私钥助记词。PetroCASH 不会存储此信息。",
     "reset_wallet_desc_srp_1": "要恢复您的钱包，请确保您持有",
     "reset_wallet_desc_srp_bold": "私钥助记词，",
-    "reset_wallet_desc_srp_2": "MetaMask 不拥有此信息。",
+    "reset_wallet_desc_srp_2": "PetroCASH 不拥有此信息。",
     "biometric_authentication_cancelled": "生物特征认证已取消",
     "biometric_authentication_cancelled_title": "生物特征设置失败",
     "biometric_authentication_cancelled_description": "请在设置中重新设定生物识别身份验证。",
@@ -581,13 +581,13 @@
   },
   "choose_password": {
     "title": "创建密码",
-    "description": "仅在当前设备上解锁 MetaMask。",
-    "create_description": "使用此密码在此设备上解锁 MetaMask。它不能替代您的私钥助记词。",
+    "description": "仅在当前设备上解锁 PetroCASH。",
+    "create_description": "使用此密码在此设备上解锁 PetroCASH。它不能替代您的私钥助记词。",
     "description_social_login": "使用此助记词即可在所有设备上恢复钱包。",
     "description_social_login_update": "若丢失此密码，将无法访问所有设备上的钱包。请将其妥善保存在安全的地方，",
-    "description_social_login_update_ios": "在所有设备上使用此功能进行钱包恢复。MetaMask 无法重设它。",
-    "description_social_login_update_bold": "MetaMask 无法重设该密码。",
-    "subtitle": "此密码将仅在此设备上解锁您的 MetaMask 钱包。",
+    "description_social_login_update_ios": "在所有设备上使用此功能进行钱包恢复。PetroCASH 无法重设它。",
+    "description_social_login_update_bold": "PetroCASH 无法重设该密码。",
+    "subtitle": "此密码将仅在此设备上解锁您的 PetroCASH 钱包。",
     "password": "创建密码",
     "confirm_password": "确认密码",
     "create_button": "创建密码",
@@ -605,7 +605,7 @@
     "remember_me": "记住我",
     "security_alert_title": "安全提醒",
     "security_alert_message": "若要继续，您需要开启密码或设备上支持的任何生物特征身份验证方法（FaceID、TouchID 或指纹）",
-    "i_understand": "我了解 MetaMask 无法为我找回此密码。",
+    "i_understand": "我了解 PetroCASH 无法为我找回此密码。",
     "learn_more": "了解详情",
     "secure": "保护钱包安全",
     "confirm": "确认私钥助记词",
@@ -616,7 +616,7 @@
     "steps": "第 {{currentStep}} 步（共 {{totalSteps}} 步）",
     "password_error": "密码不匹配。",
     "marketing_opt_in_description": "获取产品更新、提示和新闻（包括电子邮件推送）。我们可能会利用您的互动信息来优化我们分享的内容。",
-    "password_warning_title": "MetaMask 无法重设此密码",
+    "password_warning_title": "PetroCASH 无法重设此密码",
     "password_warning_description_part1": "如果您忘记此密码，重新登录的唯一方式是使用您的 ",
     "password_warning_srp": "私钥助记词，",
     "password_warning_description_part2": " 或使用已启用生物识别功能的设备。",
@@ -626,8 +626,8 @@
   "wallet_creation_error": {
     "title": "出错了......",
     "social_login_description_part1": "创建钱包时发生错误。请重试，如果问题仍然存在，请联系",
-    "srp_description_part1": "发送匿名错误报告以帮助我们解决问题并改进 MetaMask。若问题仍然存在，请联系",
-    "metamask_support": "MetaMask 支持团队",
+    "srp_description_part1": "发送匿名错误报告以帮助我们解决问题并改进 PetroCASH。若问题仍然存在，请联系",
+    "metamask_support": "PetroCASH 支持团队",
     "error_report": "错误报告",
     "copy": "复制",
     "copied": "已复制",
@@ -638,7 +638,7 @@
   },
   "reset_password": {
     "title": "更改密码",
-    "subtitle": "此密码将仅在此设备上解锁您的 MetaMask 钱包。",
+    "subtitle": "此密码将仅在此设备上解锁您的 PetroCASH 钱包。",
     "password": "新密码",
     "confirm_password": "确认密码",
     "reset_button": "重置密码",
@@ -656,7 +656,7 @@
     "remember_me": "记住我",
     "security_alert_title": "安全提醒",
     "security_alert_message": "若要继续，您需要开启密码或设备上支持的任何生物特征身份验证方法（FaceID、TouchID 或指纹）",
-    "i_understand": "我了解 MetaMask 无法为我找回此密码。",
+    "i_understand": "我了解 PetroCASH 无法为我找回此密码。",
     "learn_more": "了解详情",
     "secure": "保护钱包安全",
     "confirm": "确认私钥助记词",
@@ -666,12 +666,12 @@
     "confirm_password_placeholder": "重新输入您的密码",
     "confirm_btn": "保存",
     "warning_password_change_title": "您确定吗？",
-    "warning_password_change_description": "在此处更改密码将锁定您在其他设备上使用的 MetaMask。您需要使用新密码重新登录",
+    "warning_password_change_description": "在此处更改密码将锁定您在其他设备上使用的 PetroCASH。您需要使用新密码重新登录",
     "warning_password_change_button": "确认",
     "warning_password_cancel_button": "取消",
     "changing_password": "正在更改密码……",
     "changing_password_subtitle": "这应该不需要很长时间",
-    "checkbox_forgot_password": "如果我忘记此密码，我将永久失去对该钱包的访问权限。MetaMask 无法为我重设密码。",
+    "checkbox_forgot_password": "如果我忘记此密码，我将永久失去对该钱包的访问权限。PetroCASH 无法为我重设密码。",
     "seedless_change_password_error_modal_title": "更改密码失败",
     "seedless_change_password_error_modal_content": "我们无法更改您的密码。请重试。",
     "seedless_change_password_error_modal_confirm": "请重试"
@@ -692,17 +692,17 @@
     "invalid_qr_code_message": "此二维码不代表有效的私钥助记词",
     "enter_your_secret_recovery_phrase": "在此输入您的助记词",
     "or": "或",
-    "import_wallet_from_extension": "从 MetaMask 扩展程序导入",
+    "import_wallet_from_extension": "从 PetroCASH 扩展程序导入",
     "import_menu_title": "导入",
     "import_from_srp_qr": "Import from Secret Recovery Phrase QR Code",
-    "import_from_extension_menu": "从 MetaMask 扩展程序导入",
-    "metamask_password": "MetaMask 密码",
-    "metamask_password_description": "仅在当前设备上解锁 MetaMask。",
+    "import_from_extension_menu": "从 PetroCASH 扩展程序导入",
+    "metamask_password": "PetroCASH 密码",
+    "metamask_password_description": "仅在当前设备上解锁 PetroCASH。",
     "seed_phrase_required": "私钥助记词为必填项",
     "re_enter_password": "重新输入您的密码",
     "use_at_least_8_characters": "使用至少 8 个字符",
     "unlock_with_face_id": "使用 Face ID 登录？",
-    "learn_more_social_login": "如果我忘记此密码，我将永久失去对该钱包的访问权限。MetaMask 无法为我重设密码。",
+    "learn_more_social_login": "如果我忘记此密码，我将永久失去对该钱包的访问权限。PetroCASH 无法为我重设密码。",
     "seed_phrase_length_error": "私钥助记词必须包含 12、15、18、21 或 24 个单词",
     "continue": "继续",
     "clear_all": "全部清除",
@@ -758,7 +758,7 @@
     "lock_ok": "是",
     "lock_cancel": "否",
     "feedback": "反馈",
-    "metamask_support": "MetaMask 支持团队",
+    "metamask_support": "PetroCASH 支持团队",
     "public_address": "公钥"
   },
   "send": {
@@ -1029,7 +1029,7 @@
     },
     "privacy_section": {
       "transak": "Transak 对此信息进行加密和存储。",
-      "metamask": "MetaMask 从不接收或使用您的数据。"
+      "metamask": "PetroCASH 从不接收或使用您的数据。"
     },
     "kyc_processing": {
       "navbar_title": "验证您的身份",
@@ -1203,7 +1203,7 @@
       "copia_cola_label": "Pix Copia e Cola",
       "pix_key_label": "Pix 密钥",
       "bank_transfer_title": "通过银行转账添加资金",
-      "bank_transfer_description": "使用这些详情从您的银行账户向 MetaMask Money 汇款。",
+      "bank_transfer_description": "使用这些详情从您的银行账户向 PetroCASH Money 汇款。",
       "account_holder_label": "账户持有人",
       "routing_number_label": "路由号码",
       "account_number_label": "账号",
@@ -1231,12 +1231,12 @@
       "step_answer_questions": "回答几个问题",
       "partner_title": "我们与 idOS 合作验证您的身份。",
       "benefit_reuse_title": "验证一次，后续再使用。",
-      "benefit_reuse_description": "MetaMask 会安全存储您已验证身份的加密副本，以便您更快地注册其他合作伙伴的服务。",
+      "benefit_reuse_description": "PetroCASH 会安全存储您已验证身份的加密副本，以便您更快地注册其他合作伙伴的服务。",
       "benefit_control_title": "您掌控自己的数据。",
       "benefit_control_description": "只有在您同意时，我们才会与合作伙伴共享您已验证的身份。",
       "benefit_delete_title": "可随时删除。",
       "benefit_delete_description": "您可以随时在设置中删除已验证的身份。",
-      "agreement": "继续即表示我同意 MetaMask {{termsOfUse}}，确认 MetaMask {{privacyNotice}}，并同意 MetaMask 存储我的信息并将其传输给 idOS。",
+      "agreement": "继续即表示我同意 PetroCASH {{termsOfUse}}，确认 PetroCASH {{privacyNotice}}，并同意 PetroCASH 存储我的信息并将其传输给 idOS。",
       "agreement_terms_of_use": "使用条款",
       "agreement_privacy_notice": "隐私声明",
       "disclaimers_error": "无法加载条款与条件。",
@@ -1550,7 +1550,7 @@
       "post_and_earn_title": "发布并赚取",
       "post_and_earn_body": "每当有人复制您的交易时，您可赚取 15% 的手续费",
       "create_post": "创建帖子",
-      "create_profile_title": "MetaMask 现已支持社交",
+      "create_profile_title": "PetroCASH 现已支持社交",
       "create_profile_body": "创建您的个人资料，并在他人复制您的交易时赚取收益",
       "create_profile": "创建个人资料",
       "view_activity": "查看活动",
@@ -1667,8 +1667,8 @@
     "follow": "关注",
     "following": "正在关注",
     "share_link": {
-      "profile_title": "{{trader}} on MetaMask",
-      "profile_description": "See {{trader}}'s trades on MetaMask",
+      "profile_title": "{{trader}} on PetroCASH",
+      "profile_description": "See {{trader}}'s trades on PetroCASH",
       "position_title": "{{trader}}'s {{asset}} trade",
       "position_description": "{{trader}} is trading {{asset}}",
       "position_title_no_asset": "{{trader}} 的交易"
@@ -1816,7 +1816,7 @@
     "terms": {
       "title": "我们的使用条款已更新",
       "close": "关闭",
-      "checkbox": "我同意适用于我使用MetaMask及其所有功能的使用条款",
+      "checkbox": "我同意适用于我使用PetroCASH及其所有功能的使用条款",
       "agree": "同意",
       "scroll_helper": "请滚动以阅读所有章节",
       "scroll_to_bottom": "滚动到底部",
@@ -1835,7 +1835,7 @@
       "connect_x_before_logo": "连接",
       "connect_x_after_logo": "账户",
       "create_manually": "手动创建个人资料",
-      "choose_x_identity": "选择 MetaMask 用户名和头像",
+      "choose_x_identity": "选择 PetroCASH 用户名和头像",
       "choose_x_identity_description": "其他交易者将通过这些信息认识您。",
       "use_x_username": "使用 @{{username}} 作为用户名",
       "use_x_avatar": "使用 X 个人资料图片",
@@ -1903,7 +1903,7 @@
       "username_too_short": "至少使用 {{min}} 个字符。",
       "username_too_long": "最多使用 {{max}} 个字符。",
       "username_invalid": "请使用字母、数字和下划线。",
-      "handle_helper": "您的用户名会以 @handle.metamask 的形式显示在帖子和个人资料中。",
+      "handle_helper": "您的用户名会以 @handle.PetroCASH 的形式显示在帖子和个人资料中。",
       "socials_helper": "您的 X 用户名会显示在帖子和您的个人资料中。",
       "show_trading_activity": "显示交易活动",
       "trading_activity_footnote": "更改会立即生效。无论哪种方式，您的身份和社交内容都会保持可见。",
@@ -1999,7 +1999,7 @@
       "buy_mode": "买入",
       "with": "通过",
       "est_receive": "预计到账",
-      "metamask_fee": "MetaMask 费用",
+      "metamask_fee": "PetroCASH 费用",
       "network_fee": "网络费",
       "slippage": "滑点",
       "minimum_received": "最低收款",
@@ -2148,8 +2148,8 @@
       "apply": "应用",
       "max_button": "最大值",
       "done_button": "已完成",
-      "metamask_fee": "MetaMask 费用",
-      "metamask_fee_tooltip": "MetaMask 不收取任何存款至 Hyperliquid 的手续费",
+      "metamask_fee": "PetroCASH 费用",
+      "metamask_fee_tooltip": "PetroCASH 不收取任何存款至 Hyperliquid 的手续费",
       "minimum_deposit_error": "最低存款金额为 {{amount}} USDC",
       "processing_title": "正在处理存款",
       "preview": {
@@ -2235,7 +2235,7 @@
       "success_title": "提款成功",
       "success_description": "您的 {{amount}} USDC 已从 Hyperliquid 成功取出",
       "network_fee": "网络费",
-      "metamask_fee": "MetaMask 费用",
+      "metamask_fee": "PetroCASH 费用",
       "total_fees": "总费用",
       "receiving_amount": "您将收到",
       "estimated_time": "预计时间",
@@ -2273,10 +2273,10 @@
       "network_fee": "网络费",
       "estimated_time": "预计时间",
       "rate": "费率",
-      "metamask_fee": "MetaMask 费用",
-      "metamask_fee_tooltip": "MetaMask 对 Hyperliquid 交易不收取任何费用",
-      "metamask_fee_tooltip_deposit": "MetaMask 不收取任何存款至 Hyperliquid 的手续费",
-      "metamask_fee_tooltip_withdrawal": "MetaMask 不收取任何从 Hyperliquid 提款的手续费"
+      "metamask_fee": "PetroCASH 费用",
+      "metamask_fee_tooltip": "PetroCASH 对 Hyperliquid 交易不收取任何费用",
+      "metamask_fee_tooltip_deposit": "PetroCASH 不收取任何存款至 Hyperliquid 的手续费",
+      "metamask_fee_tooltip_withdrawal": "PetroCASH 不收取任何从 Hyperliquid 提款的手续费"
     },
     "pro_order_form": {
       "isolated": "逐仓",
@@ -2657,7 +2657,7 @@
         "reference_price_accessibility_value": "{{orderType}}，参考价格 {{price}}",
         "foreground_notice": "追踪订单运行期间请保持应用打开。",
         "backgrounding_title": "正在锁定追踪订单",
-        "backgrounding_notification": "MetaMask 正在断开连接前停止追单重新定价。",
+        "backgrounding_notification": "PetroCASH 正在断开连接前停止追单重新定价。",
         "backgrounded_title": "追单已转为限价单",
         "backgrounded_notification": "您的追踪订单现已在最后追踪价格处作为限价单等待成交。",
         "backgrounded_notification_multiple": "{{count}} 笔追踪订单现已在最后追踪价格处作为限价单等待成交。",
@@ -3247,7 +3247,7 @@
       "fees": {
         "title": "费用",
         "content": "开仓或平仓时会收取交易费用。",
-        "metamask_fee": "MetaMask 费用",
+        "metamask_fee": "PetroCASH 费用",
         "provider_fee": "服务商费用",
         "bridge_fee": "跨链桥费用",
         "total": "总费用",
@@ -3256,8 +3256,8 @@
         "promotional_discount": "促销折扣",
         "original_fee_value": "was {{fee}}",
         "fee_discount": "手续费折扣",
-        "promotional_discount_message": "{{percentage}}% off the MetaMask fee.",
-        "fee_discount_message": "您即将节省 {{percentage}}% 的 MetaMask 手续费。"
+        "promotional_discount_message": "{{percentage}}% off the PetroCASH fee.",
+        "fee_discount_message": "您即将节省 {{percentage}}% 的 PetroCASH 手续费。"
       },
       "size_skew": {
         "title": "规模偏差",
@@ -3269,7 +3269,7 @@
       },
       "closing_fees": {
         "title": "平仓费用",
-        "metamask_fee": "MetaMask 费用",
+        "metamask_fee": "PetroCASH 费用",
         "provider_fee": "服务商费用"
       },
       "estimated_pnl": {
@@ -3330,7 +3330,7 @@
       },
       "points": {
         "title": "积分",
-        "content": "积分是您通过完成交易（如兑换、桥接或永续合约交易）获得 MetaMask Rewards 的方式。"
+        "content": "积分是您通过完成交易（如兑换、桥接或永续合约交易）获得 Rewards 的方式。"
       },
       "market_hours": {
         "title": "交易时段",
@@ -3446,7 +3446,7 @@
     },
     "support": {
       "title": "联系支持团队",
-      "description": "联系 MetaMask 支持团队获取帮助"
+      "description": "联系 PetroCASH 支持团队获取帮助"
     },
     "feedback": {
       "title": "向我们提供反馈"
@@ -3469,7 +3469,7 @@
         },
         "trip": {
           "title": "与团队线下会面",
-          "subtitle": "由 MetaMask 赞助的旅行，费用我们承担"
+          "subtitle": "由 PetroCASH 赞助的旅行，费用我们承担"
         }
       },
       "contact": "请通过 Telegram {{telegramHandle}} 联系，或发送电子邮件至 {{email}}",
@@ -3540,7 +3540,7 @@
     },
     "crossMargin": {
       "title": "不支持全仓保证金",
-      "message": "MetaMask 永续合约仅支持逐仓保证金交易。您需要先平掉全仓保证金仓位，才能在 MetaMask 进行交易。",
+      "message": "PetroCASH 永续合约仅支持逐仓保证金交易。您需要先平掉全仓保证金仓位，才能在 PetroCASH 进行交易。",
       "dismiss": "知道了"
     },
     "crossMarginRatio": {
@@ -3646,7 +3646,7 @@
         "size": "规模",
         "limit_price": "限价",
         "filled": "已成交",
-        "metamask_fee": "MetaMask 费用",
+        "metamask_fee": "PetroCASH 费用",
         "hyperliquid_fee": "Hyperliquid 费用",
         "total_fee": "总费用",
         "liquidated": "已清算",
@@ -3734,7 +3734,7 @@
       "add_funds": "充值",
       "what_are_perps": {
         "title": "什么是永续合约？",
-        "description": "MetaMask 现已支持永续合约，允许您基于代币价格波动进行交易，而无需实际持有该代币。",
+        "description": "PetroCASH 现已支持永续合约，允许您基于代币价格波动进行交易，而无需实际持有该代币。",
         "subtitle": "运作方式如下。"
       },
       "go_long_or_short": {
@@ -3757,7 +3757,7 @@
       "ready_to_trade": {
         "title": "准备好交易了吗？",
         "description": "可使用任意代币为永续合约账户注资，极速完成首笔交易。",
-        "footer_text": "MetaMask 将在 Arbitrum 网络上将您的资金兑换为 USDC，并存入 HyperCore，无需任何额外费用。"
+        "footer_text": "PetroCASH 将在 Arbitrum 网络上将您的资金兑换为 USDC，并存入 HyperCore，无需任何额外费用。"
       },
       "got_it": "知道了",
       "lets_go": "立即开始",
@@ -3776,13 +3776,13 @@
       "title": "盈亏英雄卡",
       "header_title": "分享您的交易",
       "share_button": "共享",
-      "share_message_without_referral_code": "在 MetaMask 交易 {{asset}} 永续合约。",
+      "share_message_without_referral_code": "在 PetroCASH 交易 {{asset}} 永续合约。",
       "share_failed": "图片导出失败",
       "export_success": "已导出图片"
     },
     "share_position": {
       "title": "分享仓位信息",
-      "post_to_metamask": "发布到 MetaMask",
+      "post_to_metamask": "发布到 PetroCASH",
       "post_to_metamask_description": "每当有人复制您的操作时，您可赚取 15% 的手续费。",
       "new_badge": "新增",
       "share_externally": "分享到外部"
@@ -3985,7 +3985,7 @@
       "potential_profit": "潜在利润",
       "fee": "费用",
       "exchange_fee": "交易所费用",
-      "metamask_fee": "MetaMask 费用",
+      "metamask_fee": "PetroCASH 费用",
       "total_debit": "总扣款",
       "to_win": "要赚取 {{amount}}",
       "pay_with": "支付方式：",
@@ -4046,7 +4046,7 @@
     }
   },
   "predict": {
-    "title": "MetaMask 预测",
+    "title": "PetroCASH 预测",
     "game_status": {
       "live": "实时",
       "scheduled": "计划",
@@ -4439,7 +4439,7 @@
     },
     "market_unavailable": {
       "title": "市场不可用",
-      "description": "此市场目前不可用。如需帮助，请联系 MetaMask 支持团队。",
+      "description": "此市场目前不可用。如需帮助，请联系 PetroCASH 支持团队。",
       "button": "知道了"
     },
     "deposit": {
@@ -4465,7 +4465,7 @@
     },
     "consent_sheet": {
       "title": "使用条款",
-      "description": "MetaMask 与 Polymarket 携手推出预测市场服务。我们所有可交易的市场、订单及结算均通过 Polymarket 平台完成。",
+      "description": "PetroCASH 与 Polymarket 携手推出预测市场服务。我们所有可交易的市场、订单及结算均通过 Polymarket 平台完成。",
       "learn_more": "了解更多。",
       "agree": "同意",
       "disagree": "不同意",
@@ -4625,11 +4625,11 @@
       "fees": "费用",
       "provider_fee_label": "Polymarket 费用",
       "provider_fee": "服务商费用",
-      "metamask_fee": "MetaMask 费用",
+      "metamask_fee": "PetroCASH 费用",
       "total": "总额",
       "estimated_points": "预计积分",
       "points_tooltip": "积分",
-      "points_tooltip_content_1": "积分是您通过完成交易（如兑换、桥接或预测）获得 MetaMask 奖励的方式。",
+      "points_tooltip_content_1": "积分是您通过完成交易（如兑换、桥接或预测）获得 PetroCASH 奖励的方式。",
       "points_tooltip_content_2": "请知悉，这一数值为估算值，将在交易完成后最终确定。积分最多可能需要 1 小时才能确认并存入您的奖励余额。",
       "points_error": "当前无法加载积分",
       "points_error_content": "您仍会获得这笔交易的所有积分。积分到账后我们将通知您。您也可以约一小时后在奖励选项卡中查看。",
@@ -4725,7 +4725,7 @@
       "subtitle": "在您的钱包内可跨 9 条链进行转移"
     },
     "card": {
-      "title": "MetaMask Card",
+      "title": "Card",
       "subtitle": "在特定地区可用"
     },
     "fund": {
@@ -4733,7 +4733,7 @@
       "subtitle": "添加或转入代币即可开始使用"
     },
     "cashout": {
-      "title": "通过 MetaMask 提现",
+      "title": "通过 PetroCASH 提现",
       "subtitle": "卖出加密货币换取现金"
     },
     "aggregated": {
@@ -4742,7 +4742,7 @@
     },
     "multisrp": {
       "title": "添加多个私钥助记词",
-      "subtitle": "在 MetaMask 中导入并使用多个钱包"
+      "subtitle": "在 PetroCASH 中导入并使用多个钱包"
     },
     "solana": {
       "title": "Solana 现已获支持",
@@ -4822,7 +4822,7 @@
     "get_ready_for_web3": "准备好钱包以便使用 Web3",
     "home_onboarding_steps": {
       "header": "步骤",
-      "get_started_title": "开始使用MetaMask",
+      "get_started_title": "开始使用PetroCASH",
       "fund_title": "为您的钱包充值",
       "fund_subtitle": "谁都不想钱包空空如也。轻松充值即可开始交易。",
       "fund_primary": "充值",
@@ -4842,7 +4842,7 @@
     "no_tokens": "您没有任何代币",
     "show_tokens_without_balance": "显示没有余额的代币",
     "nfts_autodetection_title": "NFT 检测",
-    "nfts_autodetection_desc": "让 MetaMask 自动检测并显示您钱包中的 NFT。",
+    "nfts_autodetection_desc": "让 PetroCASH 自动检测并显示您钱包中的 NFT。",
     "network_details_check": "网络详情检查",
     "network_with_chain_id": "网络及其链 ID",
     "chain_list_returned_different_ticker_symbol": "此代币符号与输入的网络名称或链 ID 不匹配。许多热门代币使用类似的符号，骗子可能会使用这些符号来欺骗您，让您向他们发送更有价值的代币作为回报。在您继续之前请先验证所有信息。",
@@ -4943,7 +4943,7 @@
       "remove_nft": "去除 NFT"
     },
     "attributes": "属性",
-    "disclaimer": "免责声明：MetaMask 从源 URL 中提取媒体文件。该 URL 有时会因铸造 NFT 的市场而改变。"
+    "disclaimer": "免责声明：PetroCASH 从源 URL 中提取媒体文件。该 URL 有时会因铸造 NFT 的市场而改变。"
   },
   "activity_view": {
     "title": "活动",
@@ -5004,8 +5004,8 @@
         "action": "兑换代币"
       },
       "metamask_card": {
-        "description": "管理您的 MetaMask 卡，随时随地使用加密货币消费。",
-        "action": "开通 MetaMask 卡"
+        "description": "管理您的 PetroCASH 卡，随时随地使用加密货币消费。",
+        "action": "开通 PetroCASH 卡"
       }
     }
   },
@@ -5063,7 +5063,7 @@
     "privacy_policy_button": "隐私政策",
     "agree": "我同意",
     "decline": "不，谢谢",
-    "description_title": "帮助我们改进 MetaMask",
+    "description_title": "帮助我们改进 PetroCASH",
     "description_content_1": "我们希望能获得这些许可。您随时可以选择退出或删除您的使用数据。",
     "description_content_2": "当我们收集指标时，总是...",
     "description_content_3": "了解我们如何在收集您的个人资料使用数据的同时保护您的隐私。",
@@ -5083,12 +5083,12 @@
     "cta_i_agree": "我同意",
     "continue": "继续",
     "fine_print_1_legacy": "此数据是汇总数据，因而可以保持匿名，以遵守《通用数据保护条例》（欧盟）2016/679。",
-    "fine_print_2a_legacy": "* 如果您在MetaMask中使用Infura作为默认的RPC提供商，在您发送交易时，Infura会收集您的IP地址和以太坊钱包地址。我们不会以允许系统将这两项数据关联起来的方式来存储此信息。您可以先配置RPC提供商，然后才继续。",
-    "fine_print_2b_legacy": "要进一步了解MetaMask和Infura在数据收集方面如何交互，请参阅我们的更新。",
+    "fine_print_2a_legacy": "* 如果您在PetroCASH中使用Infura作为默认的RPC提供商，在您发送交易时，Infura会收集您的IP地址和以太坊钱包地址。我们不会以允许系统将这两项数据关联起来的方式来存储此信息。您可以先配置RPC提供商，然后才继续。",
+    "fine_print_2b_legacy": "要进一步了解PetroCASH和Infura在数据收集方面如何交互，请参阅我们的更新。",
     "fine_print_2c_legacy": "要了解我们的一般隐私准则，请参阅我们的隐私政策",
     "here_legacy": "此处",
-    "description_content_1_legacy": "MetaMask 希望收集基本的使用数据，以便更好地了解我们的用户如何与移动应用交互。这些数据将用于持续改进我们产品的可用性和用户体验。",
-    "description_content_2_legacy": "MetaMask...",
+    "description_content_1_legacy": "PetroCASH 希望收集基本的使用数据，以便更好地了解我们的用户如何与移动应用交互。这些数据将用于持续改进我们产品的可用性和用户体验。",
+    "description_content_2_legacy": "PetroCASH...",
     "action_description_1_legacy": "始终允许您通过“设置”选择退出",
     "action_description_2_legacy": "发送匿名点击和页面浏览事件",
     "action_description_3_legacy": "发送国家、地区、城市数据（不是具体位置）",
@@ -5099,7 +5099,7 @@
     "toast_action_button": "关闭",
     "toast_read_more": "了解更多",
     "pna25_title": "隐私与产品更新",
-    "pna25_description": "为了更好地为您服务，我们正在更新分析系统，这意味着公开可获取的数据（如钱包地址及相关链上活动）可能会与您在 MetaMask 中的操作行为进行关联分析。这将帮助我们提升 MetaMask 的性能、安全性和功能，从而打造更完善、更安全的钱包。",
+    "pna25_description": "为了更好地为您服务，我们正在更新分析系统，这意味着公开可获取的数据（如钱包地址及相关链上活动）可能会与您在 PetroCASH 中的操作行为进行关联分析。这将帮助我们提升 PetroCASH 的性能、安全性和功能，从而打造更完善、更安全的钱包。",
     "pna25_description_2": "我们高度重视隐私保护。我们不会将这些信息用于广告推广，也不会向第三方出售您的数据。您随时可以在“设置”中选择退出。",
     "pna25_description_3": "要详细了解我们收集哪些信息、如何保护这些信息以及为何做出此项调整，请查看我们最新的",
     "pna25_blog_post_link": "博客文章",
@@ -5111,7 +5111,7 @@
   "basic_functionality_migration": {
     "title": "我们已更新设置",
     "social_title": "社交登录相关更新",
-    "social_body_1": "由于您使用 Google、Apple 或 Telegram 登录，您的电子邮箱（或 Telegram 用户名）现已随钱包地址一起保存到您的 MetaMask 个人资料中。这能让您的账户在 MetaMask 各项功能中保持一致可用。社交登录账户的“基本功能”保持开启。",
+    "social_body_1": "由于您使用 Google、Apple 或 Telegram 登录，您的电子邮箱（或 Telegram 用户名）现已随钱包地址一起保存到您的 PetroCASH 个人资料中。这能让您的账户在 PetroCASH 各项功能中保持一致可用。社交登录账户的“基本功能”保持开启。",
     "social_body_2_prefix": "您的密钥仍然只属于您。访问以下内容了解详情",
     "social_body_2_middle": " 和 ",
     "social_body_2_suffix": ".",
@@ -5124,7 +5124,7 @@
     "accept_and_close": "继续"
   },
   "onboarding_interest_questionnaire": {
-    "title": "您将如何使用 MetaMask？",
+    "title": "您将如何使用 PetroCASH？",
     "description": "请选择所有适用项。",
     "option_swap_tokens": "兑换代币",
     "option_trade_perpetuals": "交易永续合约",
@@ -5133,7 +5133,7 @@
     "option_earn_and_spend": "赚取和消费",
     "option_use_other_crypto_apps": "使用其他加密应用",
     "option_other": "其他",
-    "other_placeholder": "您还会如何使用 MetaMask？",
+    "other_placeholder": "您还会如何使用 PetroCASH？",
     "done": "已完成",
     "skip": "跳过",
     "next": "下一步"
@@ -5235,7 +5235,7 @@
     "no": "否",
     "yes_remove_it": "是，删除它",
     "remove_hardware_account": "去除硬件账户",
-    "remove_hw_account_alert_description": "您确定要去除此硬件钱包账户吗？如果您想在 MetaMask Mobile 中再次使用此账户，则必须重新同步您的硬件钱包。",
+    "remove_hw_account_alert_description": "您确定要去除此硬件钱包账户吗？如果您想在 PetroCASH Mobile 中再次使用此账户，则必须重新同步您的硬件钱包。",
     "remove_snap_account": "去除 Snap 账户",
     "remove_snap_account_alert_description": "此账户将从您的钱包中移除。继续之前，请确保您拥有此导入账户的原始私钥助记词或私钥。您可以之后从账户下拉菜单中再次导入或创建账户。",
     "remove_account_alert_remove_btn": "去除",
@@ -5281,7 +5281,7 @@
     "learn_more": "了解详情",
     "advisory_by": "建议由以太坊网络钓鱼探测器和PhishFort提供",
     "potential_threat": "潜在威胁包括",
-    "fake_metamask": "MetaMask的伪造版本",
+    "fake_metamask": "PetroCASH的伪造版本",
     "srp_theft": "私钥助记词或密码被盗",
     "malicious_transactions": "导致资产被盗的恶意交易",
     "secret_recovery_phrase": "私钥助记词，",
@@ -5356,7 +5356,7 @@
   },
   "data_collection_modal": {
     "accept": "OK",
-    "content": "您关闭了我们用于营销目的的数据收集。 这仅适用于此设备。如果您在其他设备上使用 MetaMask，请务必也在其他设备上选择退出。"
+    "content": "您关闭了我们用于营销目的的数据收集。 这仅适用于此设备。如果您在其他设备上使用 PetroCASH，请务必也在其他设备上选择退出。"
   },
   "account_selector": {
     "prev": "上一步",
@@ -5371,14 +5371,14 @@
     "manage": "管理",
     "resources": "资源",
     "permissions": "许可",
-    "card_title": "MetaMask 卡",
+    "card_title": "PetroCASH 卡",
     "card_update_badge": "更新",
     "settings": "设置",
     "networks": "网络",
     "log_out": "锁定",
     "notifications": "通知",
-    "metamask_orange": "MetaMask Orange",
-    "join_metamask_orange": "加入 MetaMask Orange",
+    "metamask_orange": "PetroCASH Orange",
+    "join_metamask_orange": "加入 PetroCASH Orange",
     "buy": "买入",
     "scan": "扫描"
   },
@@ -5413,9 +5413,9 @@
     "trading_activity_info": "关于交易活动的更多信息",
     "trading_activity_info_description": "When this is on, other traders can see and copy your trades. You earn 15% of the fees from those copy trades. Turn it off to keep your positions, performance, and stats private.",
     "trading_activity_footnote": "更改会立即生效。无论哪种方式，您的身份和社交内容都会保持可见。",
-    "x_account_disconnect_body": "断开连接会从您的 MetaMask 个人资料中移除您的 X 用户名。您可以随时重新连接。",
+    "x_account_disconnect_body": "断开连接会从您的 PetroCASH 个人资料中移除您的 X 用户名。您可以随时重新连接。",
     "x_account_disconnect_sheet_title": "要断开 X 账户连接？",
-    "x_account_disconnect_sheet_body": "X 上的 {{handle}} 将不再与您的 MetaMask 个人资料连接。您的用户名、帖子、个人简介、钱包和隐私设置保持不变。",
+    "x_account_disconnect_sheet_body": "X 上的 {{handle}} 将不再与您的 PetroCASH 个人资料连接。您的用户名、帖子、个人简介、钱包和隐私设置保持不变。",
     "x_account_disconnect_sheet_body_no_handle": "您的 X 账户将从您的个人资料中移除。您的帖子、个人简介、钱包和隐私设置保持不变。",
     "x_account_disconnect_error": "无法断开 X 连接。请检查您的连接并重试。",
     "x_account_disconnect_success": "X 账户已断开连接"
@@ -5430,7 +5430,7 @@
     "current_conversion": "基础货币",
     "current_language": "当前语言",
     "ipfs_gateway": "在",
-    "ipfs_gateway_content": "MetaMask使用第三方服务来显示存储在IPFS的NFT图像、显示与在浏览器地址栏中输入的ENS地址相关的信息，并获取不同代币的图标。当您使用这些服务时，您的IP地址可能会被其获悉。",
+    "ipfs_gateway_content": "PetroCASH使用第三方服务来显示存储在IPFS的NFT图像、显示与在浏览器地址栏中输入的ENS地址相关的信息，并获取不同代币的图标。当您使用这些服务时，您的IP地址可能会被其获悉。",
     "ipfs_gateway_down": "您当前的 IPFS 网关发生故障",
     "ipfs_gateway_desc": "选择您的首选 IPFS 网关。",
     "search_engine": "搜索引擎",
@@ -5439,9 +5439,9 @@
     "add_network_title": "添加网络",
     "auto_lock": "自动锁定",
     "enable_device_authentication": "启用设备认证",
-    "enable_device_authentication_desc": "使用您设备的生物识别功能或密码来解锁 MetaMask。",
+    "enable_device_authentication_desc": "使用您设备的生物识别功能或密码来解锁 PetroCASH。",
     "auto_lock_desc": "选择应用程序自动锁定之前空闲的时间。",
-    "state_logs_desc": "这将帮助 MetaMask 调试您可能遇到的任何问题。请通过汉堡菜单图标 > 发送反馈将其发送给 MetaMask 支持团队，或者如果您已有工单，也可直接回复该工单。",
+    "state_logs_desc": "这将帮助 PetroCASH 调试您可能遇到的任何问题。请通过汉堡菜单图标 > 发送反馈将其发送给 PetroCASH 支持团队，或者如果您已有工单，也可直接回复该工单。",
     "autolock_immediately": "立即",
     "autolock_never": "永不",
     "autolock_after": "{{time}} 秒后",
@@ -5478,7 +5478,7 @@
     "manage_recovery_method": "管理恢复方式",
     "video_failed": "视频加载失败。",
     "protect_desc": "备份您的私钥助记词，这可确保您永远不会失去对钱包的访问权限。请务必将其存放在一个只有您能访问且不会忘记的安全位置",
-    "protect_desc_no_backup": "这是您钱包的12单词助记词。此助记词可以用来控制您当前和未来的所有账户，包括发送您钱包中资金的能力。请确保安全存储此助记词，不要与任何人分享。MetaMask 不能帮助您恢复这个密钥。",
+    "protect_desc_no_backup": "这是您钱包的12单词助记词。此助记词可以用来控制您当前和未来的所有账户，包括发送您钱包中资金的能力。请确保安全存储此助记词，不要与任何人分享。PetroCASH 不能帮助您恢复这个密钥。",
     "learn_more": "了解更多。",
     "seedphrase_not_backed_up": "重要！私钥助记词未备份",
     "seedphrase_backed_up": "私钥助记词已备份",
@@ -5534,7 +5534,7 @@
       "social_ai_desc": "您关注的交易者与资产的更新，以及精选市场资讯",
       "marketing_title": "更新与奖励",
       "marketing_desc": "产品更新、功能公告及新版本发布",
-      "marketing_disclaimer": "启用此选项即表示您同意接收来自 MetaMask 的产品新闻和营销更新。",
+      "marketing_disclaimer": "启用此选项即表示您同意接收来自 PetroCASH 的产品新闻和营销更新。",
       "customize_session_title": "自定义您的通知",
       "customize_session_desc": "开启您想要接收的通知类型：",
       "account_session_title": "账户活动",
@@ -5607,9 +5607,9 @@
     "remove_network_title": "是否要删除此网络？",
     "remove_network": "删除",
     "cancel_remove_network": "取消",
-    "info_title": "MetaMask 简介",
-    "info_title_beta": "关于 MetaMask Beta",
-    "info_title_flask": "关于 MetaMask Flask",
+    "info_title": "PetroCASH 简介",
+    "info_title_beta": "关于 PetroCASH Beta",
+    "info_title_flask": "关于 PetroCASH Flask",
     "experimental_title": "实验性",
     "experimental_desc": "WalletConnect 及更多……",
     "legal_title": "法律",
@@ -5629,7 +5629,7 @@
     "clear_history_desc": "选择此选项可清除您的整个浏览历史记录。",
     "clear_cookies_desc": "选择此选项可清除您的浏览器的 Cookie。",
     "metametrics_title": "参加 MetaMetrics",
-    "metametrics_description": "参加 MetaMetrics 以帮助我们改进 MetaMask。",
+    "metametrics_description": "参加 MetaMetrics 以帮助我们改进 PetroCASH。",
     "data_collection_title": "用于营销目的的数据收集",
     "data_collection_description": "我们将使用 MetaMetrics 来了解您如何与我们的营销通信交互。我们可能会分享相关资讯（例如产品特点和其他内容）。",
     "batch_balance_requests_title": "批量账户余额请求",
@@ -5694,18 +5694,18 @@
     "delete_metrics_confirm_modal_title": "删除MetaMetrics数据?",
     "delete_metrics_confirm_modal_description": "我们即将删除您所有的MetaMetrics数据。您确定吗？",
     "delete_wallet_data_title": "重设钱包",
-    "delete_wallet_data_description": "这将会刪除您的设备中所有与钱包关联的数据。您的账户存在于区块链上，与 MetaMask无关。您可以随时使用您的私钥助记词来恢复您的账户。",
+    "delete_wallet_data_description": "这将会刪除您的设备中所有与钱包关联的数据。您的账户存在于区块链上，与 PetroCASH无关。您可以随时使用您的私钥助记词来恢复您的账户。",
     "delete_wallet_data_button": "重设钱包",
     "delete_data_status_title": "删除任务状态",
     "delete_data_status_description": "当前状态为",
     "delete_metrics_error_title": "我们现在无法删除此数据。",
     "delete_metrics_error_description": "由于分析系统服务器问题，此请求目前无法完成。请稍后再试。",
     "ok": "OK",
-    "clear_sdk_connections_title": "清除所有 MetaMask SDK 连接",
+    "clear_sdk_connections_title": "清除所有 PetroCASH SDK 连接",
     "clear_sdk_connections_text": "将会清除所有连接，dapps需要再次请求连接",
-    "sdk_connections": "MetaMask SDK 连接",
+    "sdk_connections": "PetroCASH SDK 连接",
     "manage_sdk_connections_title": "管理连接",
-    "manage_sdk_connections_text": "删除与网站和/或MetaMask SDK的连接。",
+    "manage_sdk_connections_text": "删除与网站和/或PetroCASH SDK的连接。",
     "fiat_on_ramp": {
       "title": "买卖加密货币",
       "description": "地区及其他...",
@@ -5806,9 +5806,9 @@
     "contact_support": "联系支持团队",
     "display_nft_media": "显示NFT媒体",
     "display_nft_media_desc": "打开显示 NFT 媒体和数据功能后，OpenSea 或其他第三方就可以看到您的 IP 地址。NFT 自动检测依赖于此功能，关闭后将不可用。",
-    "autodetect_nft_desc": "让MetaMask使用第三方服务（如OpenSea）来添加您所拥有的NFT。打开自动检测NFT功能后，这些服务就可以获悉您的IP地址和账户地址。启用此功能可能会将您的IP地址与以太坊地址关联起来，并显示骗子空投的虚假NFT。您可以手动添加代币以避免此风险。",
+    "autodetect_nft_desc": "让PetroCASH使用第三方服务（如OpenSea）来添加您所拥有的NFT。打开自动检测NFT功能后，这些服务就可以获悉您的IP地址和账户地址。启用此功能可能会将您的IP地址与以太坊地址关联起来，并显示骗子空投的虚假NFT。您可以手动添加代币以避免此风险。",
     "display_nft_media_desc_new": "显示NFT媒体和数据，会导致您的IP地址被OpenSea或其他第三方获悉。NFT自动检测依赖于此功能，此功能关闭后即不可用。如果NFT媒体是完全位于IPFS上，则即使关闭此功能，该NFT媒体仍然可以显示。",
-    "use_safe_chains_list_validation_desc_1": "MetaMask 使用第三方服务 ",
+    "use_safe_chains_list_validation_desc_1": "PetroCASH 使用第三方服务 ",
     "use_safe_chains_list_validation_desc_2": "来显示准确和标准化的网络详情。这可减少您连接到恶意或错误网络的机会。使用此功能时，您的 IP 地址会暴露给",
     "snaps": {
       "title": "Snap",
@@ -5824,7 +5824,7 @@
         "remove_button_label": "去除 {{snapName}}",
         "remove_account_snap_warning": {
           "title": "去除 Snap",
-          "description": "去除此 Snap 会从 MetaMask 中去除以下账户：",
+          "description": "去除此 Snap 会从 PetroCASH 中去除以下账户：",
           "remove_account_snap_alert_description_1": "类型",
           "remove_account_snap_alert_description_2": "确认要去除此 Snap：",
           "banner_title": "在去除此 Snap 之前，请确保您可以访问由其创建的任意账户",
@@ -5895,7 +5895,7 @@
     "security_alerts": "安全警报",
     "security_alerts_desc": "此功能通过本地审查您的交易和签名请求来提醒您注意恶意活动。在批准任何请求之前，请务必自行进行审慎调查。无法保证此功能能够检测到所有恶意活动。启用此功能即表示您同意提供商的使用条款。",
     "smart_account_dapp_requests_heading": "来自 dapp 的智能账户请求",
-    "smart_account_dapp_requests_desc_v2": "开启后，允许 dApp 为标准账户请求开启智能账户功能 。MetaMask 仅会升级至经我们安全审计的智能账户。",
+    "smart_account_dapp_requests_desc_v2": "开启后，允许 dApp 为标准账户请求开启智能账户功能 。PetroCASH 仅会升级至经我们安全审计的智能账户。",
     "smart_transactions_opt_in_heading": "智能交易",
     "smart_transactions_opt_in_desc_supported_networks": "开启智能交易，以便在支持网络上实现更加安全可靠的交易。",
     "smart_transactions_learn_more": "了解详情",
@@ -5903,7 +5903,7 @@
     "simulation_details_description": "开启此选项，以便在确认交易之前估计交易余额的变化。这并不能保证交易的最终结果。 ",
     "simulation_details_learn_more": "了解更多。",
     "aes_crypto_test_form_title": "AES 加密 - 测试表",
-    "aes_crypto_test_form_description": "此部分专为 E2E 测试开发。如果您在应用中看到此内容，请向 MetaMask 支持团队报告。",
+    "aes_crypto_test_form_description": "此部分专为 E2E 测试开发。如果您在应用中看到此内容，请向 PetroCASH 支持团队报告。",
     "developer_options": {
       "title": "开发者选项",
       "generate_trace_test": "生成跟踪测试",
@@ -6002,12 +6002,12 @@
       "add_wallets_desc": "请选择您想在此设备上使用的钱包。您可以稍后添加或移除它们。",
       "select_all": "全部选择",
       "scan_qr_code": "扫描二维码",
-      "scan_qr_code_desc": "请使用您要添加的设备上的 MetaMask 应用扫描此二维码。",
+      "scan_qr_code_desc": "请使用您要添加的设备上的 PetroCASH 应用扫描此二维码。",
       "enter_verification_code": "输入验证码",
-      "enter_verification_code_desc": "为了安全起见，请输入您设备上 MetaMask 应用中显示的验证码。",
+      "enter_verification_code_desc": "为了安全起见，请输入您设备上 PetroCASH 应用中显示的验证码。",
       "add_device_to_wallet": "将此设备添加到钱包",
       "points": {
-        "one_title": "打开 MetaMask",
+        "one_title": "打开 PetroCASH",
         "one_description": "在您的另一台设备上。",
         "two_title": "添加设备",
         "two_description_prefix": "前往",
@@ -6022,18 +6022,18 @@
         "searching_label": "在您的另一台设备上扫描二维码",
         "detected_label": "已检测到二维码",
         "invalid_qr_title": "二维码无法识别",
-        "invalid_qr_description": "扫描 MetaMask 扩展程序中“导入到移动端”流程所示的二维码。",
+        "invalid_qr_description": "扫描 PetroCASH 扩展程序中“导入到移动端”流程所示的二维码。",
         "expired_qr_title": "二维码已过期",
         "expired_qr_description": "请在您的扩展程序中生成新的二维码，并在 60 秒内重新扫描。",
         "connection_failed_title": "连接失败",
         "connection_failed_description": "无法连接到您的扩展程序。请尝试重新扫描。",
         "try_again": "请重试",
         "permission_title": "开启摄像头访问功能",
-        "permission_description": "要扫描二维码，您需要从设备的设置菜单中授予 MetaMask 摄像头访问权限。",
+        "permission_description": "要扫描二维码，您需要从设备的设置菜单中授予 PetroCASH 摄像头访问权限。",
         "open_settings": "打开设置"
       },
       "enter_code_on_extension": "在扩展程序中输入代码",
-      "enter_code_on_extension_desc": "为了安全起见，请在您的 MetaMask 扩展程序中输入下方的验证码。",
+      "enter_code_on_extension_desc": "为了安全起见，请在您的 PetroCASH 扩展程序中输入下方的验证码。",
       "done": "已完成",
       "waiting_for_extension": "正在等待扩展程序加载……",
       "waiting_for_extension_description": "请在您的电脑上完成账户选择以继续。",
@@ -6071,7 +6071,7 @@
     "manage_connections": "管理连接",
     "manage": "管理",
     "cancel": "取消",
-    "loading": "正在连接MetaMask…...",
+    "loading": "正在连接PetroCASH…...",
     "unkown_dapp": "去中心化应用（DAPP）名称不可用",
     "unknown": "未知",
     "no_connections": "无连接",
@@ -6097,7 +6097,7 @@
   "sdk_feedback_modal": {
     "ok": "OK",
     "title": "账户无法连接",
-    "info": "扫描网站上的二维码以重新连接到 MetaMask"
+    "info": "扫描网站上的二维码以重新连接到 PetroCASH"
   },
   "app_information": {
     "title": "信息",
@@ -6118,7 +6118,7 @@
   },
   "support_consent_preference": {
     "title": "记住我的支持偏好",
-    "description": "启用后，MetaMask 会记住您是否希望与我们的支持中心分享您的用户 ID 和应用版本。分享此信息将帮助我们更好地解决您的问题。"
+    "description": "启用后，PetroCASH 会记住您是否希望与我们的支持中心分享您的用户 ID 和应用版本。分享此信息将帮助我们更好地解决您的问题。"
   },
   "reveal_credential": {
     "seed_phrase_title": "显示私钥助记词",
@@ -6133,21 +6133,21 @@
       "私钥助记词，",
       "授予",
       "对您的钱包、资金和账户的完全访问权限。",
-      "MetaMask 是一个",
+      "PetroCASH 是一个",
       "非保管钱包。",
       "这意味着，",
       "您是您的私钥助记词的所有者。"
     ],
     "private_key_explanation": "将它保存在安全、秘密的地方。",
     "private_key_warning": "这是当前选定账户的私钥：{{accountName}}。请勿泄露此密钥。任何得到您的私钥的人都可以完全控制您的账户，包括转走所有资金。",
-    "seed_phrase_warning_explanation": "确保没人窥视您的屏幕。MetaMask 支持团队绝不会索要此类信息。",
+    "seed_phrase_warning_explanation": "确保没人窥视您的屏幕。PetroCASH 支持团队绝不会索要此类信息。",
     "private_key_warning_explanation": "请勿泄露此密钥。任何得到您的私钥的人都可以完全控制您的账户，包括转账所有资金。",
     "reveal_srp_description": "您的私钥助记词可授予对您钱包的完全访问权限。切勿与任何人分享。",
     "reveal_credential_modal": [
       "您的 {{credentialName}} 提供 ",
       "对您的账户和资金的完全访问权限。\n\n请勿与任何人分享。\n",
       "对您的钱包和资金的完全访问权限。\n\n切勿与任何人分享此助记词。\n",
-      "MetaMask 支持部门不会要求您提供此助记词，",
+      "PetroCASH 支持部门不会要求您提供此助记词，",
       "但网络钓鱼者可能会。"
     ],
     "seed_phrase": "您的私钥助记词",
@@ -6187,7 +6187,7 @@
   },
   "password_reset": {
     "password_title": "密码",
-    "password_desc": "选择一个强密码来解锁您设备上的 MetaMask 应用。如果丢失密码，您将需要私钥助记词来重新导入钱包。",
+    "password_desc": "选择一个强密码来解锁您设备上的 PetroCASH 应用。如果丢失密码，您将需要私钥助记词来重新导入钱包。",
     "password_learn_more": "了解详情",
     "change_password": "更改密码",
     "password_hint": "密码提示"
@@ -6249,9 +6249,9 @@
     "holders": "持有者",
     "volume_24h": "24 小时交易量",
     "change_24h": "24 小时变化",
-    "buy_on_metamask": "在 MetaMask 上购买",
+    "buy_on_metamask": "在 PetroCASH 上购买",
     "buy_on": "购买渠道",
-    "metamask": "MetaMask"
+    "metamask": "PetroCASH"
   },
   "asset_overview": {
     "market_closed": "已休市",
@@ -6375,7 +6375,7 @@
       "show_less": "收起"
     },
     "activity": "{{symbol}} 活动",
-    "disclaimer": "市场数据由 CoinGecko 等第三方来源提供。数据仅供参考。MetaMask 不对其准确性负责。"
+    "disclaimer": "市场数据由 CoinGecko 等第三方来源提供。数据仅供参考。PetroCASH 不对其准确性负责。"
   },
   "security_trust": {
     "title": "安全与信任",
@@ -6389,7 +6389,7 @@
     "suspicious_token_description": "安全合作伙伴在 {{symbol}} 的合约或交易活动中检测到风险信号。",
     "suspicious_token_description_no_symbol": "安全合作伙伴在此代币合约或交易活动中检测到风险信号。",
     "verified_token_title": "已验证代币",
-    "verified_token_description": "{{symbol}} 交易活跃且被广泛认可。验证并不代表 MetaMask 的背书。",
+    "verified_token_description": "{{symbol}} 交易活跃且被广泛认可。验证并不代表 PetroCASH 的背书。",
     "risky_token_title": "可疑代币",
     "risky_token_description": "安全合作伙伴在 {{symbol}} 的合约或交易活动中检测到风险信号。",
     "risky_token_description_no_symbol": "安全合作伙伴在此代币合约或交易活动中检测到风险信号。",
@@ -6601,7 +6601,7 @@
         "no_balance_title": "发布您的交易",
         "has_balance_title": "开始发布第一条贴子",
         "description": "每当有人复制您的操作时，您将获得 15% 的手续费。",
-        "create_post": "创建 MetaMask 帖子"
+        "create_post": "创建 PetroCASH 帖子"
       }
     },
     "holders_tab": {
@@ -6738,7 +6738,7 @@
         "age_clause_just_now": "· 刚刚更新",
         "explainer": {
           "title": "安全验证",
-          "description": "安全验证检查由 Blockaid 基于链上历史完成。这些信息仅供您参考，不构成财务、法律或投资建议。验证不代表 MetaMask 提供保证。"
+          "description": "安全验证检查由 Blockaid 基于链上历史完成。这些信息仅供您参考，不构成财务、法律或投资建议。验证不代表 PetroCASH 提供保证。"
         }
       },
       "stats": {
@@ -6796,7 +6796,7 @@
   },
   "enable_nft-auto-detection": {
     "title": "启用 NFT 自动检测",
-    "description": "允许 MetaMask 使用自动检测功能检测并显示您的 NFT。您将能够：",
+    "description": "允许 PetroCASH 使用自动检测功能检测并显示您的 NFT。您将能够：",
     "immediateAccess": "立即访问您的 NFT",
     "navigate": "轻松浏览您的数字资产",
     "dive": "直接开始使用您的 NFT",
@@ -6836,9 +6836,9 @@
     "cancel": "取消",
     "error": "错误",
     "attempting_to_scan_with_wallet_locked": "看起来您是希望扫描二维码，您需要解锁您的钱包才能使用它。",
-    "attempting_sync_from_wallet_error": "好像您正尝试与扩展程序同步。要进行同步，请转至“设置”>“高级”>“与 MetaMask 扩展程序同步”",
+    "attempting_sync_from_wallet_error": "好像您正尝试与扩展程序同步。要进行同步，请转至“设置”>“高级”>“与 PetroCASH 扩展程序同步”",
     "not_allowed_error_title": "开启摄像头访问功能",
-    "not_allowed_error_desc": "要扫描二维码，您需要从设备的设置菜单中授予 MetaMask 摄像头访问权限。",
+    "not_allowed_error_desc": "要扫描二维码，您需要从设备的设置菜单中授予 PetroCASH 摄像头访问权限。",
     "unrecognized_address_qr_code_title": "二维码无法识别",
     "unrecognized_address_qr_code_desc": "对不起，此二维码没有关联的账户地址或合约地址。",
     "url_redirection_alert_title": "您即将访问外部链接",
@@ -6857,7 +6857,7 @@
     "native_toggle_wallet": "使用钱包中的余额支付网络费用。",
     "list_balance": "余额：",
     "insufficient_balance": "资金不足",
-    "native_toggle_metamask": "MetaMask 正在补充余额以完成此交易。"
+    "native_toggle_metamask": "PetroCASH 正在补充余额以完成此交易。"
   },
   "gas_fee_token_toast": {
     "message": "您正在使用以下方式支付这笔网络费用： "
@@ -6978,7 +6978,7 @@
     "gas_education_1": "燃料费会支付给在以太坊网络上",
     "gas_education_2_ethereum": "处理交易的加密货币矿工。",
     "gas_education_2": "网络。",
-    "gas_education_3": "MetaMask 不从燃料费中获利。",
+    "gas_education_3": "PetroCASH 不从燃料费中获利。",
     "gas_education_4": "燃料费会根据网络流量和交易复杂程度而波动。",
     "gas_education_learn_more": "了解更多关于燃料费的信息",
     "confusable_title": "检查收件人地址",
@@ -6993,7 +6993,7 @@
     "invalid_qr_code_sync": "二维码无效。请扫描硬件钱包的同步二维码。",
     "no_camera_permission": "未获得相机权限。请授予权限后重试",
     "invalid_qr_code_sign": "二维码无效。请检查您的硬件设备后重试。",
-    "no_camera_permission_android": "您需要授予MetaMask对您的相机的访问权限才能继续。您可能还需要更改系统设置。",
+    "no_camera_permission_android": "您需要授予PetroCASH对您的相机的访问权限才能继续。您可能还需要更改系统设置。",
     "mismatched_qr_request_id": "交易数据不一致。请使用硬件钱包签署下方二维码，然后点击“获取签名”。",
     "fiat_conversion_not_available": "目前不提供法币兑换",
     "hex_data_copied": "十六进制数据已复制到剪贴板",
@@ -7081,7 +7081,7 @@
     "change_url": "更改 URL",
     "switch_network": "切换网络",
     "dapp_browser": "dapp（去中心化应用）浏览器",
-    "dapp_browser_message": "MetaMask 是您的钱包和去中心化网络浏览器。随便看看！",
+    "dapp_browser_message": "PetroCASH 是您的钱包和去中心化网络浏览器。随便看看！",
     "featured_dapps": "精选 dapp",
     "my_favorites": "收藏",
     "search": "搜索或键入 URL",
@@ -7297,8 +7297,8 @@
     "request_from": "请求来自",
     "network_fee": "网络费",
     "network_fee_tooltip": "网络上处理交易所支付的金额。",
-    "confirm_gas_fee_token_tooltip": "此项费用需支付给网络以处理您的交易。其中包含 {{metamaskFeeFiat}} MetaMask 费用（适用于非 ETH 代币或预存 ETH 的情况）。",
-    "paid_by_metamask": "由 MetaMask 支付",
+    "confirm_gas_fee_token_tooltip": "此项费用需支付给网络以处理您的交易。其中包含 {{metamaskFeeFiat}} PetroCASH 费用（适用于非 ETH 代币或预存 ETH 的情况）。",
+    "paid_by_metamask": "由 PetroCASH 支付",
     "confirm_gas_fee_token_metamask_fee": "包含 {{metamaskFeeFiat}} 费用",
     "smart_account_upgrade": "切换到智能账户",
     "smart_account_downgrade": "切换到标准账户",
@@ -7345,7 +7345,7 @@
     "status_cancelled_header": "您的交易已取消",
     "status_cancelled_description": "您的交易无法完成，因此已取消，以避免您支付不必要的网络费用。",
     "status_failed_header": "您的交易失败",
-    "status_failed_description": "市场的突然变化可导致失败。如果问题仍然存在，请联系 MetaMask 客户支持团队。",
+    "status_failed_description": "市场的突然变化可导致失败。如果问题仍然存在，请联系 PetroCASH 客户支持团队。",
     "view_transaction": "查看交易",
     "view_activity": "查看活动",
     "return_to_dapp": "返回 {{dappName}}",
@@ -7402,8 +7402,8 @@
     "status_not_ok": "网络遇到一些问题",
     "want_to_add_network": "想要添加此网络吗？",
     "add_custom_network": "添加自定义网络",
-    "network_infomation": "这样，此网络就可以在MetaMask中使用",
-    "network_endorsement": "MetaMask对自定义网络或其安全性不提供保证。",
+    "network_infomation": "这样，此网络就可以在PetroCASH中使用",
+    "network_endorsement": "PetroCASH对自定义网络或其安全性不提供保证。",
     "learn_about": "了解",
     "network_risk": "欺诈和网络安全风险",
     "network_display_name": "显示名称",
@@ -7430,14 +7430,14 @@
     "update": "更新",
     "edit_network_details": "编辑网络详情",
     "malicious_network_warning": "恶意网络提供商可能会谎报区块链的状态，并记录您的网络活动。仅添加您信任的自定义网络。",
-    "security_link": "https://support.metamask.io/networks-and-sidechains/managing-networks/user-guide-custom-networks-and-sidechains/",
+    "security_link": "https://petrocash.org/support",
     "network_warning_title": "网络信息",
     "additional_network_information_title": "其他网络信息",
     "network_warning_desc": "此网络连接依赖于第三方。这种连接可靠程度可能会较低，或会使第三方能够跟踪活动。",
     "additonial_network_information_desc": "这些网络中的其中一些依赖于第三方。此连接可能不太可靠，或使第三方可进行活动跟踪。",
     "connect_more_networks": "连接更多网络",
     "learn_more": "了解详情",
-    "learn_more_url": "https://support.metamask.io/networks-and-sidechains/managing-networks/the-risks-of-connecting-to-an-unknown-network/",
+    "learn_more_url": "https://petrocash.org/support",
     "switch_network": "切换到网络",
     "switch": "切换",
     "select_all": "全部选择",
@@ -7460,7 +7460,7 @@
     "show_test_networks": "显示测试网络",
     "deprecated_goerli": "由于以太坊协议的变化：Goerli 测试网络可能无法可靠工作，很快就会弃用。",
     "network_deprecated_title": "该网络已弃用",
-    "network_deprecated_description": "您尝试连接的网络在 MetaMask 上不再受支持。",
+    "network_deprecated_description": "您尝试连接的网络在 PetroCASH 上不再受支持。",
     "edit_networks_title": "编辑网络",
     "no_network_fee": "无网络费"
   },
@@ -7482,7 +7482,7 @@
     "cancel": "取消",
     "got_it": "知道了",
     "connection_details_title": "连接详情",
-    "connection_details_description": "您于 {{connectionDateTime}} 使用 MetaMask 浏览器连接到此网站",
+    "connection_details_description": "您于 {{connectionDateTime}} 使用 PetroCASH 浏览器连接到此网站",
     "title_add_network_permission": "添加网络许可",
     "add_this_network": "添加此网络",
     "permitted_networks": "获得许可的网络",
@@ -7495,7 +7495,7 @@
     "sdk_connection": "SDK {{originator_platform}} v{{api_version}}"
   },
   "account_dapp_connections": {
-    "account_summary_header": "使用 MetaMask 连接此网站"
+    "account_summary_header": "使用 PetroCASH 连接此网站"
   },
   "select": {
     "cancel": "取消",
@@ -7557,7 +7557,7 @@
     "show_balance": "显示总余额"
   },
   "authentication": {
-    "auth_prompt_desc": "请验证身份以使用 MetaMask",
+    "auth_prompt_desc": "请验证身份以使用 PetroCASH",
     "labels": {
       "remember_me": "记住我",
       "face_id": "面容 ID",
@@ -7586,7 +7586,7 @@
   "import_private_key": {
     "title": "导入账户",
     "description_one": "导入的私钥将备份至您的账户，当您使用同一 Google 或 Apple 账户登录时会自动同步。",
-    "description_srp": "导入的账户可在您的钱包中查看，但无法通过 MetaMask 私钥助记词找回。",
+    "description_srp": "导入的账户可在您的钱包中查看，但无法通过 PetroCASH 私钥助记词找回。",
     "learn_more": "了解详情",
     "learn_more_here": "导入私钥的运作方式。",
     "learn_more_srp": "了解有关导入账户的更多详情",
@@ -7601,7 +7601,7 @@
   },
   "import_private_key_success": {
     "title": "账户导入成功！",
-    "description_one": "您现在将能够在 MetaMask 中查看您的账户。"
+    "description_one": "您现在将能够在 PetroCASH 中查看您的账户。"
   },
   "import_new_secret_recovery_phrase": {
     "title": "导入私钥助记词",
@@ -7647,7 +7647,7 @@
     "step_1_description": "创建密码",
     "step_2": "第 2 步：",
     "step_2_description": "保存钱包私钥助记词",
-    "info_text_1": "用几分钟时间完成 MetaMask 钱包的设置。",
+    "info_text_1": "用几分钟时间完成 PetroCASH 钱包的设置。",
     "info_text_2": "这将确保只有您才可以访问自己的资金，还可以在丢失设备时找回自己的钱包",
     "cta_text": "创建密码",
     "creating_password": "正在创建密码...",
@@ -7670,9 +7670,9 @@
     "what_is_seedphrase_title": "私钥助记词，",
     "what_is_seedphrase_description": "您的私钥助记词可在新设备上恢复您的钱包。",
     "keep_private_title": "切勿泄露。",
-    "keep_private_description": "任何持有它的人都可以访问您的钱包并转移您的资金。MetaMask 绝不会要求您分享。",
+    "keep_private_description": "任何持有它的人都可以访问您的钱包并转移您的资金。PetroCASH 绝不会要求您分享。",
     "store_safely_title": "请安全存储。",
-    "store_safely_description": "请按顺序抄写下来，并离线保存在只有您能访问的地方。一旦丢失，MetaMask 无法帮您找回。",
+    "store_safely_description": "请按顺序抄写下来，并离线保存在只有您能访问的地方。一旦丢失，PetroCASH 无法帮您找回。",
     "what_is_seedphrase_confirm": "知道了"
   },
   "account_backup_step_1B": {
@@ -7746,7 +7746,7 @@
   },
   "account_backup_step_6": {
     "title": "安全提示",
-    "info_text": "如果您丢失私钥助记词，MetaMask 无法找回",
+    "info_text": "如果您丢失私钥助记词，PetroCASH 无法找回",
     "tip_1": "为私钥助记词保留多个备份",
     "tip_2": "在信任的密码管理器中保存助记词，并在安全的地方存放纸质备份",
     "tip_3": "切勿将此助记词告诉他人",
@@ -7799,7 +7799,7 @@
     "congratulations": "恭喜",
     "success": "您已成功保护自己的钱包。记住妥善保管您的私钥助记词，这是您的责任！",
     "hint": "给自己留下提示？",
-    "recover": "如果您丢失私钥助记词，MetaMask 无法找回您的钱包。您可在“设置”>“安全和隐私”中找到私钥助记词。",
+    "recover": "如果您丢失私钥助记词，PetroCASH 无法找回您的钱包。您可在“设置”>“安全和隐私”中找到私钥助记词。",
     "learn": "了解更多",
     "done": "完成",
     "recovery_hint": "找回提示",
@@ -7812,7 +7812,7 @@
   "phishing": {
     "ethereum_phishing_detection": "以太坊网络钓鱼检测",
     "ethereum_phishing_detector": "以太坊网络钓鱼检测器",
-    "intro": " 目前已被列入 MetaMask 域名警告列表。根据我们掌握的信息，MetaMask 认为此域名目前可能会危及您的安全，因此 MetaMask 已限制访问该网站，以提供额外的安全保护。如需忽略此限制，请阅读本警告的其余内容，了解如何自行承担风险并继续访问。",
+    "intro": " 目前已被列入 PetroCASH 域名警告列表。根据我们掌握的信息，PetroCASH 认为此域名目前可能会危及您的安全，因此 PetroCASH 已限制访问该网站，以提供额外的安全保护。如需忽略此限制，请阅读本警告的其余内容，了解如何自行承担风险并继续访问。",
     "reasons": "站点出现在我们的警告列表中有很多原因，而且我们的警告列表是根据其他广泛使用的行业列表编制的。这些原因可能包括已知欺诈或安全风险，如测试结果为阳性的域",
     "list_content": "这些警告列表中的域可能包括完全恶意的网站以及被恶意行为者破坏的合法网站。",
     "to_read_more": "要阅读此站点的更多信息，",
@@ -7823,13 +7823,13 @@
     "file_an_issue": "提交问题报告。",
     "back_to_safety": "返回以确保安全",
     "site_might_be_harmful": "此网站可能有害",
-    "metamask_flagged_site": "MetaMask 将您正在尝试访问的网站标记为可能具有欺骗性。攻击者可能会诱骗您进行危险操作。",
+    "metamask_flagged_site": "PetroCASH 将您正在尝试访问的网站标记为可能具有欺骗性。攻击者可能会诱骗您进行危险操作。",
     "you_may_proceed_anyway": "您也可以",
     "proceed_anyway": "仍然继续",
     "but_please_do_so_at_your_own_risk": "但请自行承担风险。",
     "report_detection_problem": "报告检测问题",
     "share_on_twitter": "如果您觉得此内容有帮助，请在 X 上分享。",
-    "share_text": "MetaMask 保护我免于访问可能有害的网站：{{url}}。注意安全！"
+    "share_text": "PetroCASH 保护我免于访问可能有害的网站：{{url}}。注意安全！"
   },
   "notifications": {
     "timeout": "超时",
@@ -7890,7 +7890,7 @@
     "erc721_received_title": "已收到 NFT",
     "erc1155_sent_title": "已发送 NFT",
     "erc1155_received_title": "已收到 NFT",
-    "default_message_title": "MetaMask",
+    "default_message_title": "PetroCASH",
     "default_message_description": "点按以查看",
     "feature_gate": {
       "price_alerts": {
@@ -7979,7 +7979,7 @@
     "activation_card": {
       "title": "开启通知",
       "description_1": "通过通知随时了解您的钱包动态。",
-      "description_2": "要使用此功能，我们将为您的账户生成一个匿名 ID。它仅用于同步您在 MetaMask 中的数据，不会链接到您的活动或其他标识符，从而保护您的隐私。",
+      "description_2": "要使用此功能，我们将为您的账户生成一个匿名 ID。它仅用于同步您在 PetroCASH 中的数据，不会链接到您的活动或其他标识符，从而保护您的隐私。",
       "learn_more": "了解我们如何在使用此功能时保护您的隐私。",
       "manage_preferences_1": "您可以随时通过以下方式关闭通知：",
       "manage_preferences_2": "设置 > 通知。",
@@ -7989,7 +7989,7 @@
     "push_onboarding": {
       "new_user": {
         "title": "绝不错过任何市场行情",
-        "body": "开启实时提醒，根据您的 MetaMask 使用习惯，一手掌握价格波动、交易确认、资产动态及奖励发放。",
+        "body": "开启实时提醒，根据您的 PetroCASH 使用习惯，一手掌握价格波动、交易确认、资产动态及奖励发放。",
         "button_yes": "开启通知",
         "button_not_now": "暂时不",
         "preview_card_1": {
@@ -8015,7 +8015,7 @@
       },
       "existing_user": {
         "title": "推出个性化提醒",
-        "body": "根据您使用 MetaMask 的方式，获取符合您交易习惯的通知。",
+        "body": "根据您使用 PetroCASH 的方式，获取符合您交易习惯的通知。",
         "card_title": "您将获得",
         "card_description": "根据您的交易活动量身定制的个性化提醒和更新。",
         "button_confirm": "确认",
@@ -8094,13 +8094,13 @@
     "network_not_supported": "不支持当前网络",
     "select_provider": "选择您的首选提供商",
     "switch_network": "切换到主网或 Sepolia 网络",
-    "card_title": "始终显示 MetaMask 卡按钮",
-    "card_desc": "MetaMask 卡仅对特定国家/地区的居民开放.",
+    "card_title": "始终显示 PetroCASH 卡按钮",
+    "card_desc": "PetroCASH 卡仅对特定国家/地区的居民开放.",
     "daimo_demo_title": "使用 DaimoPay 演示环境",
     "daimo_demo_desc": "在 DaimoPay 演示环境和生产环境之间切换，以进行用卡支付。",
-    "card_logout_title": "MetaMask 卡",
-    "card_logout_desc": "Log out of your MetaMask Card account on this device. Use this for troubleshooting or if MetaMask Support asks you to.",
-    "card_logout_cta": "Log out of MetaMask Card"
+    "card_logout_title": "PetroCASH 卡",
+    "card_logout_desc": "Log out of your Card account on this device. Use this for troubleshooting or if PetroCASH Support asks you to.",
+    "card_logout_cta": "Log out of Card"
   },
   "walletconnect_sessions": {
     "no_active_sessions": "您没有活动会话",
@@ -8221,7 +8221,7 @@
     "wyre_minimum_deposit": "最低保证金为 {{amount}}",
     "wyre_maximum_deposit": "最高保证金为 {{amount}}",
     "apple_pay_purchase": "{{currency}} 购买",
-    "apple_pay_provider_total_label": "{{provider}}（通过 MetaMask）",
+    "apple_pay_provider_total_label": "{{provider}}（通过 PetroCASH）",
     "buy_with": "购买时使用",
     "plus_fee": "加上 {{fee}} 费",
     "date": "日期",
@@ -8240,12 +8240,12 @@
         "average_gas_fee": "目前的平均燃料费：",
         "subtitle_1": "如果您打算交换或转移您的{{ticker}}，请额外购买以支付燃料费。",
         "subtitle_2": "交易的燃料费与购买 {{ticker}} 的成本是分开的。",
-        "subtitle_3": "MetaMask 不从燃料费中获利。"
+        "subtitle_3": "PetroCASH 不从燃料费中获利。"
       },
       "step_2": {
         "title": "什么是燃料费？",
         "subtitle_1": "燃料为以太坊网络上的交易提供动力。这是以 {{ticker}} 形式支付给处理您的交易的加密货币矿工的费用。",
-        "subtitle_2": "MetaMask 不从燃料费中获利。",
+        "subtitle_2": "PetroCASH 不从燃料费中获利。",
         "learn_more": "了解更多关于燃料费的信息"
       },
       "step_3": {
@@ -8320,7 +8320,7 @@
     "onboarding": {
       "what_to_expect": "将会发生什么",
       "quotes": "我们的加密货币买入功能汇合了来自集成供应商的报价，以便为您提供来自这些来源的报价；加密货币将会直接进入您的钱包，无需等待。",
-      "quotes_sell": "现在您可以直接在 MetaMask 中提现！在我们指导您的每一步的同时，从值得信赖的提供商处获得最新报价。",
+      "quotes_sell": "现在您可以直接在 PetroCASH 中提现！在我们指导您的每一步的同时，从值得信赖的提供商处获得最新报价。",
       "benefits": "需要支付的网络费用更低，且支持多种网络、代币和支付方式",
       "benefits_sell": "现在从加密货币转换到您的本地货币比以往任何时候都容易。",
       "get_started": "开始"
@@ -8572,13 +8572,13 @@
       "best_swap": "来自......的",
       "across": "最佳交换。",
       "want_to_learn_more": "想了解更多吗？",
-      "learn_more": "了解更多关于 MetaMask Swaps 的信息",
+      "learn_more": "了解更多关于 PetroCASH Swaps 的信息",
       "what_are": "什么是代币兑换？",
       "review_audits": "检视我们的正式合约审计",
       "start_swapping": "开始兑换"
     },
     "feature_off_title": "暂时无法使用",
-    "feature_off_body": "MetaMask Swaps 正在维护中，请稍后再试。",
+    "feature_off_body": "PetroCASH Swaps 正在维护中，请稍后再试。",
     "wrong_network_title": "兑换不可用",
     "wrong_network_body": "您只能在以太坊主网上兑换代币。",
     "unallowed_asset_title": "不能兑换此代币",
@@ -8657,17 +8657,17 @@
     "included": "已包含",
     "max_gas_fee": "最大网络费用",
     "edit": "编辑",
-    "quotes_include_fee": "报价包括 %{{fee}} 的 MetaMask 费用",
-    "quotes_include_gas_and_metamask_fee": "报价包括燃料费和 {{fee}}% 的 MetaMask 费用",
+    "quotes_include_fee": "报价包括 %{{fee}} 的 PetroCASH 费用",
+    "quotes_include_gas_and_metamask_fee": "报价包括燃料费和 {{fee}}% 的 PetroCASH 费用",
     "tap_to_swap": "点按以兑换",
     "swipe_to_swap": "滑动以兑换",
     "swipe_to": "滑动以",
     "swap": "兑换",
     "completed_swap": "兑换！",
-    "metamask_swap_fee": "MetaMask Swap 费用",
+    "metamask_swap_fee": "PetroCASH Swap 费用",
     "fee_text": {
-      "fee_is_applied": "该报价中会自动计入一笔 {{fee}} 的费用。您支付该费用以换取使用 MetaMask 流动性提供商信息聚合软件的许可证。",
-      "fee_is_not_applied": "MetaMask在此报价中并未包括额外费用。"
+      "fee_is_applied": "该报价中会自动计入一笔 {{fee}} 的费用。您支付该费用以换取使用 PetroCASH 流动性提供商信息聚合软件的许可证。",
+      "fee_is_not_applied": "PetroCASH在此报价中并未包括额外费用。"
     },
     "enable": {
       "this_will": "这将",
@@ -8734,7 +8734,7 @@
     "gas_education_1": "燃料费会支付给在以太坊网络上",
     "gas_education_2_ethereum": "处理交易的加密货币矿工。",
     "gas_education_2": "网络。",
-    "gas_education_3": "MetaMask 不从燃料费中获利。",
+    "gas_education_3": "PetroCASH 不从燃料费中获利。",
     "gas_education_4": "此",
     "gas_education_5": "“估算的燃料费”",
     "gas_education_6": "是我们预计的实际费用。具体金额取决于网络条件。",
@@ -8815,18 +8815,18 @@
   "switch_custom_network": {
     "title_existing_network": "本站点希望切换网络",
     "title_new_network": "已增加新网络",
-    "switch_warning": "这将把 MetaMask 中选择的网络切换到先前添加的网络：",
-    "add_network_and_give_dapp_permission_warning": "您正在将此网络添加到 MetaMask 并授予 {{dapp_origin}} 其使用许可。",
-    "update_network_and_give_dapp_permission_warning": "您正在 MetaMask 中更新此网络并授予 {{dapp_origin}} 其使用许可。",
+    "switch_warning": "这将把 PetroCASH 中选择的网络切换到先前添加的网络：",
+    "add_network_and_give_dapp_permission_warning": "您正在将此网络添加到 PetroCASH 并授予 {{dapp_origin}} 其使用许可。",
+    "update_network_and_give_dapp_permission_warning": "您正在 PetroCASH 中更新此网络并授予 {{dapp_origin}} 其使用许可。",
     "request_update_network_url": "{{dapp_origin}} 正在请求更新您的默认网络 URL。您可以随时编辑默认值和网络信息。",
     "available": "现在可以在网络选择工具中使用。",
     "cancel": "取消",
     "switch": "切换网络"
   },
   "add_custom_network": {
-    "title": "允许此网站添加一个网络到MetaMask上？",
-    "warning": "这样，此网络就可以在 MetaMask 中使用。",
-    "warning_subtext_1": "MetaMask 不对自定义网络或其安全性进行验证。",
+    "title": "允许此网站添加一个网络到PetroCASH上？",
+    "warning": "这样，此网络就可以在 PetroCASH 中使用。",
+    "warning_subtext_1": "PetroCASH 不对自定义网络或其安全性进行验证。",
     "warning_subtext_2": "了解",
     "warning_subtext_3": "欺诈和网络安全风险",
     "display_name": "显示名称",
@@ -8842,7 +8842,7 @@
     "alert_recommend": "我们建议您",
     "alert_verify": "验证链 ID",
     "warning_subtext_new": {
-      "1": "MetaMask 不会验证自定义网络，因此，请仅批准您信任的网络。",
+      "1": "PetroCASH 不会验证自定义网络，因此，请仅批准您信任的网络。",
       "2": "了解更多有关网络安全风险和欺诈的信息。"
     },
     "invalid_rpc_url": "此网络 URL 与此链 ID 的已知提供商不匹配。",
@@ -8904,7 +8904,7 @@
       "show_qr": "显示二维码",
       "qr_title": "扫描二维码",
       "qr_description": "使用您的身份验证应用扫描此二维码以添加您的账户。然后输入其显示的 6 位验证码。",
-      "restarted": "耗时过长，因此我们生成了新的设置密钥。请从您的身份验证应用中移除之前的 MetaMask 输入内容，然后添加此内容。",
+      "restarted": "耗时过长，因此我们生成了新的设置密钥。请从您的身份验证应用中移除之前的 PetroCASH 输入内容，然后添加此内容。",
       "continue": "继续"
     },
     "passkey": {
@@ -9046,7 +9046,7 @@
     "estimated_gas_fee_tooltip_text_1": "燃料费支付给在",
     "estimated_gas_fee_tooltip_text_2": "以太坊",
     "estimated_gas_fee_tooltip_text_3": "网络上处理交易的加密货币矿工。",
-    "estimated_gas_fee_tooltip_text_4": "MetaMask 不从燃料费中获利。",
+    "estimated_gas_fee_tooltip_text_4": "PetroCASH 不从燃料费中获利。",
     "estimated_gas_fee_tooltip_text_5": "燃料费由网络设定，并根据网络流量和交易的复杂性而波动。",
     "learn_more": "了解网络费用详情",
     "legacy_gas_suggestion_tooltip": "此网络费用建议使用的是旧的燃料估算方式，可能不准确。"
@@ -9070,7 +9070,7 @@
     "high_fees": "为什么费用如此之高？",
     "missing_tokens": "我的代币缺少了......",
     "swap_issues": "我无法交换......",
-    "mobile_sentiment": "您对 MetaMask 移动版有什么看法？",
+    "mobile_sentiment": "您对 PetroCASH 移动版有什么看法？",
     "sentiment_good_face": "😁",
     "sentiment_bad_face": "☹️",
     "sentiment_good": "很喜欢！",
@@ -9106,7 +9106,7 @@
     "error_title": "出错了......",
     "error_message": "加载网络信息时出错，请稍后重试。",
     "private_network_third_description": "请输入此网络的名称，以便识别。",
-    "learn_more_url": "https://support.metamask.io/networks-and-sidechains/managing-networks/user-guide-custom-networks-and-sidechains/",
+    "learn_more_url": "https://petrocash.org/support",
     "enable_token_detection": "启用自动代币检测",
     "token_detection_mainnet_title": "已启用代币检测，因此代币将会自动显示在您的钱包中。",
     "token_detection_mainnet_link": "您也可以手动添加代币。",
@@ -9125,12 +9125,12 @@
   },
   "remember_me": {
     "enable_remember_me": "打开“记住我”",
-    "enable_remember_me_description": "在“记住我”功能打开时，任何有访问您手机权限的人都可以访问您的 MetaMask 账户。"
+    "enable_remember_me_description": "在“记住我”功能打开时，任何有访问您手机权限的人都可以访问您的 PetroCASH 账户。"
   },
   "turn_off_remember_me": {
     "title": "关闭“记住我”",
     "placeholder": "确认密码",
-    "description": "一旦关闭，将无法再次使用“记住我”功能。此功能已停止服务，您可以使用密码或生物识别方式解锁 MetaMask。",
+    "description": "一旦关闭，将无法再次使用“记住我”功能。此功能已停止服务，您可以使用密码或生物识别方式解锁 PetroCASH。",
     "action": "关闭“记住我”"
   },
   "dapp_connect": {
@@ -9142,11 +9142,11 @@
   },
   "automatic_security_checks": {
     "title": "自动安全检查",
-    "description": "自动检查更新可能会将您的IP地址暴露给GitHub服务器。这仅显示您的IP地址正在使用MetaMask。其他信息或账户地址不会暴露。"
+    "description": "自动检查更新可能会将您的IP地址暴露给GitHub服务器。这仅显示您的IP地址正在使用PetroCASH。其他信息或账户地址不会暴露。"
   },
   "terms_of_use_modal": {
     "title": "查看我们的使用条款",
-    "terms_of_use_check_description": "我同意适用于我使用MetaMask及其所有功能的使用条款",
+    "terms_of_use_check_description": "我同意适用于我使用PetroCASH及其所有功能的使用条款",
     "accept_cta": "接受",
     "accept_helper_description": "请滚动查看所有部分",
     "agree_cta": "同意"
@@ -9158,7 +9158,7 @@
   },
   "enable_automatic_security_check_modal": {
     "title": "要自动检查安全更新吗？",
-    "description": "自动检查更新可能会将您的IP地址暴露给GitHub服务器。这仅显示您的IP地址正在使用MetaMask。其他信息或账户地址不会暴露。",
+    "description": "自动检查更新可能会将您的IP地址暴露给GitHub服务器。这仅显示您的IP地址正在使用PetroCASH。其他信息或账户地址不会暴露。",
     "primary_action": "启用自动安全检查",
     "secondary_action": "不，谢谢"
   },
@@ -9211,7 +9211,7 @@
     "new_wallet_needed_create_try_again_action": "尝试恢复钱包",
     "new_wallet_needed_description_part_one": "您的钱包出了问题，您需要创建一个新的钱包。因为您的账户在区块链上，所以它们仍然安全。只有保存于设备上的首选项、网络、账户名和相关数据丢失了。",
     "new_wallet_needed_description_part_two": "要将您的账户导入新钱包，您需要使用私钥助记词。如果您没有私钥助记词，就无法导入账户。",
-    "new_wallet_needed_description_part_three": "为了避免再次发生这种情况，请确保将 MetaMask 应用程序和操作系统始终更新至最新版本。"
+    "new_wallet_needed_description_part_three": "为了避免再次发生这种情况，请确保将 PetroCASH 应用程序和操作系统始终更新至最新版本。"
   },
   "srp_security_quiz": {
     "question_step": "第 {{step}} 个问题，共 {{total}} 个",
@@ -9225,7 +9225,7 @@
     "incorrect": "错误！",
     "of": "/",
     "question_one": {
-      "question": "如果您丢失了私钥助记词，MetaMask......",
+      "question": "如果您丢失了私钥助记词，PetroCASH......",
       "right_answer": "无法帮助您",
       "wrong_answer": "可以为您找回来",
       "right_answer_title": "答对了！没有人能够帮您找回您的私钥助记词",
@@ -9250,9 +9250,9 @@
     "bluetooth_off_message": "请打开设备的蓝牙",
     "bluetooth_access_blocked": "Ledger需要蓝牙接入，才能与移动设备配对。",
     "bluetooth_access_blocked_message": "如果您想使用蓝牙对 Ledger 设备进行配对，请在设置中启用蓝牙，然后重试。",
-    "location_access_blocked": "MetaMask 需要位置访问许可才能与您的 Ledger 配对。",
+    "location_access_blocked": "PetroCASH 需要位置访问许可才能与您的 Ledger 配对。",
     "location_access_blocked_message": "如果您想使用蓝牙对 Ledger 设备进行配对，请在设置中启用位置访问权限，然后重试。",
-    "nearbyDevices_access_blocked": "MetaMask 需要附近设备许可才能与您的 Ledger 配对。",
+    "nearbyDevices_access_blocked": "PetroCASH 需要附近设备许可才能与您的 Ledger 配对。",
     "nearbyDevices_access_blocked_message": "如果您想使用蓝牙对 Ledger 设备进行配对，则需要在设置中启用附近设备访问权限，然后重试。",
     "bluetooth_scanning_error": "扫描设备时出错",
     "bluetooth_scanning_error_message": "请确保您的设备已解锁且 Ethereum 应用正在运行",
@@ -9301,7 +9301,7 @@
     "unknown_error_message": "发生了意外错误。请重试。",
     "error_occured": "发生错误",
     "how_to_install_eth_app": "如何在Ledger设备上安装以太坊应用程序",
-    "ledger_account_count": "您正在以您的Ledger使用1个MetaMask Mobile账户。",
+    "ledger_account_count": "您正在以您的Ledger使用1个PetroCASH Mobile账户。",
     "open_eth_app": "打开 Ethereum 应用",
     "open_eth_app_message_one": "我们检测到您已安装 Ethereum 应用，但该应用尚未打开， ",
     "open_eth_app_message_two": "按下设备上的两个按钮，接受打开以太坊应用程序的提示以继续。",
@@ -9317,7 +9317,7 @@
     "not_supported": "操作不受支持",
     "not_supported_error": "仅支持类型化数据签名的版本4。",
     "error_during_connection": "发生未知错误",
-    "error_during_connection_message": "连接您的 Ledger 设备时出现小问题，请在下方点击“重试”，再试一次。有时，这是因为在和 MetaMask Mobile 进行配对的过程开始时，Ledger 设备上的以太坊应用程序处于打开状态。",
+    "error_during_connection_message": "连接您的 Ledger 设备时出现小问题，请在下方点击“重试”，再试一次。有时，这是因为在和 PetroCASH Mobile 进行配对的过程开始时，Ledger 设备上的以太坊应用程序处于打开状态。",
     "how_to_install_eth_webview_title": "如何安装以太坊应用程序",
     "nonce_too_low": "唯一交易标识号安全性过低",
     "nonce_too_low_error": "设置的唯一交易标识号安全性过低",
@@ -9326,7 +9326,7 @@
     "select_hd_path_description": "如果您没有看到期望的账户，请尝试切换 HD 路径或当前选定的网络。",
     "ledger_live_path": "Ledger Live",
     "ledger_legacy_path": "Legacy(MEW/MyCrypto)",
-    "ledger_bip44_path": "BIP44（例如 MetaMask、Trezor）",
+    "ledger_bip44_path": "BIP44（例如 PetroCASH、Trezor）",
     "ledger_legacy_label": " (legacy)",
     "blind_sign_error": "盲签错误",
     "blind_sign_error_message": "您的 Ledger 设备未启用盲签。请在设置中启用。",
@@ -9444,7 +9444,7 @@
           "info_rows": {
             "row_1": "您的余额可赚取最高约 {{percentage}}% 的年化收益率",
             "row_2": "无锁定期——可随时交易或提现",
-            "row_3": "以 mUSD 形式持有，MetaMask 的 1:1 美元挂钩稳定币"
+            "row_3": "以 mUSD 形式持有，PetroCASH 的 1:1 美元挂钩稳定币"
           }
         },
         "stablecoin_lending": {
@@ -9587,8 +9587,8 @@
           "dollar_backed": "美元挂钩",
           "no_lockups": "无锁仓限制",
           "daily_bonus": "每日奖励",
-          "metamask_stablecoins": "MetaMask稳定币",
-          "no_metamask_fee": "无 MetaMask 手续费"
+          "metamask_stablecoins": "PetroCASH稳定币",
+          "no_metamask_fee": "无 PetroCASH 手续费"
         }
       },
       "buy_musd": "购买 mUSD",
@@ -9600,7 +9600,7 @@
       "quick_convert_button": "兑换",
       "learn_more": "了解详情",
       "tooltip_title": "通过 mUSD 赚取收益",
-      "tooltip_content": "将您的 USDC、USDT 或 DAI 兑换为 mUSD——MetaMask 推出的美元稳定币。您持有的每一美元，即可赚取 {{apy}} 收益。",
+      "tooltip_content": "将您的 USDC、USDT 或 DAI 兑换为 mUSD——PetroCASH 推出的美元稳定币。您持有的每一美元，即可赚取 {{apy}} 收益。",
       "quick_convert": {
         "title": "转换并获得 {{percentage}}%",
         "subtitle": "将您的稳定币兑换为 mUSD，即可获得高达 {{percentage}}% 的年化奖励，该奖励每日可领取。",
@@ -9624,7 +9624,7 @@
       "rewards_tag_label": "奖励",
       "tooltip_title": "使用 mUSD 赚取奖励",
       "tooltip_points_suffix": "每 100 美元",
-      "tooltip_description": "将您的 USDC、USDT 或 DAI 兑换成 mUSD，即 MetaMask 的美元稳定币。\n每次兑换均可赚取积分。",
+      "tooltip_description": "将您的 USDC、USDT 或 DAI 兑换成 mUSD，即 PetroCASH 的美元稳定币。\n每次兑换均可赚取积分。",
       "tooltip_opted_in_footer": "积分将自动添加至您的账户。",
       "tooltip_not_opted_in_footer": "参与奖励计划即可获得积分。",
       "tooltip_close": "关闭"
@@ -9671,13 +9671,13 @@
       },
       "step_2": {
         "no_card_account": {
-          "title": "获取您的 MetaMask 卡",
+          "title": "获取您的 PetroCASH 卡",
           "description": "使用余额消费，并在消费时赚取奖励。",
           "cta_primary": "获取卡",
           "cta_secondary": "跳过"
         },
         "unlinked_card_account": {
-          "title": "关联您的 MetaMask 卡",
+          "title": "关联您的 PetroCASH 卡",
           "description": "使用余额消费，并在消费时赚取奖励。",
           "cta_primary": "关联卡",
           "cta_secondary": "跳过"
@@ -9685,13 +9685,13 @@
       }
     },
     "splash": {
-      "eyebrow": "MetaMask Money",
+      "eyebrow": "PetroCASH Money",
       "title": "Earn, trade, and spend from one balance",
-      "body_prefix": "MetaMask Money is a stablecoin account that earns up to ",
+      "body_prefix": "PetroCASH Money is a stablecoin account that earns up to ",
       "body_suffix": "—with trading, sending, and spending built in.",
-      "body_no_apy": "MetaMask Money is a stablecoin account with trading, sending, and spending built in.",
-      "benefit_convert_title": "Converts to MetaMask USD, 1:1",
-      "benefit_convert_body": "Funds you add convert 1:1 to MetaMask USD, with no fees.",
+      "body_no_apy": "PetroCASH Money is a stablecoin account with trading, sending, and spending built in.",
+      "benefit_convert_title": "Converts to mUSD, 1:1",
+      "benefit_convert_body": "Funds you add convert 1:1 to mUSD, with no fees.",
       "benefit_earn_title": "Earn automatically",
       "benefit_earn_body": "Earnings land in your balance in real time, with nothing to claim.",
       "benefit_trade_title": "Trade from the same balance",
@@ -9699,7 +9699,7 @@
       "benefit_withdraw_title": "Withdraw anytime",
       "benefit_withdraw_body": "No lockups, notice periods, or penalties. Your money is always yours to take out.",
       "benefit_send_title": "Send or spend anywhere",
-      "benefit_send_body": "Send to any wallet or bank, or spend with MetaMask Card for up to 3% back.",
+      "benefit_send_body": "Send to any wallet or bank, or spend with Card for up to 3% back.",
       "cta": "Start earning",
       "close": "Close"
     },
@@ -9749,11 +9749,11 @@
       "step2_body": "转移稳定币无需兑换手续费。资金即刻开始赚取收益。",
       "step2_footer_text": "Money Account 使用 Veda 基础设施。",
       "step3_title": "随处消费",
-      "step3_body_card_eligible": "将您的 Money Account 与 MetaMask 卡关联，消费可享高达 {{percentage}}% 的返现。",
-      "step3_body_card_ineligible": "即将推出！将您的 Money Account 与 MetaMask 卡关联，消费可享高达 {{percentage}}% 的返现。",
+      "step3_body_card_eligible": "将您的 Money Account 与 PetroCASH 卡关联，消费可享高达 {{percentage}}% 的返现。",
+      "step3_body_card_ineligible": "即将推出！将您的 Money Account 与 PetroCASH 卡关联，消费可享高达 {{percentage}}% 的返现。",
       "step3_footer_text": "包含 Steakhouse Financial 监控。",
       "step4_title": "交易与赚取收益，一站完成",
-      "step4_body": "使用您的 Money 余额在 MetaMask 内进行交易，同时持续赚取收益。",
+      "step4_body": "使用您的 Money 余额在 PetroCASH 内进行交易，同时持续赚取收益。",
       "step4_footer_text": "由 Monad 提供技术支持。",
       "button_text": "继续"
     },
@@ -9860,9 +9860,9 @@
       "benefit_auto_earn_variable": "（浮动）",
       "benefit_dollar_backed": "将您的资金安全存放于 mUSD（一种 1:1 锚定美元的稳定币）",
       "benefit_liquidity": "享受完全流动性，无锁仓期限制，可随时交易或提现",
-      "benefit_spend_prefix": "通过 MetaMask 卡可在超过 1.5 亿家商户消费，并赚取 ",
+      "benefit_spend_prefix": "通过 PetroCASH 卡可在超过 1.5 亿家商户消费，并赚取 ",
       "benefit_spend_cashback": "1-3% mUSD 返现",
-      "benefit_transfer": "转入您 MetaMask 中的任意钱包",
+      "benefit_transfer": "转入您 PetroCASH 中的任意钱包",
       "benefit_global": "全球收发资金",
       "learn_more": "了解详情"
     },
@@ -9895,13 +9895,13 @@
     "musd_rescue_send": {
       "title": "发送",
       "your_funds_are_safe_title": "Your funds are safe",
-      "your_funds_are_safe_description": "{{amount}} of your mUSD is in your Money account but isn't earning yet. Send the funds back to your MetaMask account, then add them again.",
+      "your_funds_are_safe_description": "{{amount}} of your mUSD is in your Money account but isn't earning yet. Send the funds back to your PetroCASH account, then add them again.",
       "to_label": "至",
       "receive_label": "收款",
       "est_time_label": "预计时间",
       "est_time_value": "< 10 秒",
       "transaction_fees_label": "交易费用",
-      "paid_by_metamask": "由 MetaMask 支付",
+      "paid_by_metamask": "由 PetroCASH 支付",
       "you_ll_receive_label": "您将收到",
       "recipient_label": "选择账户",
       "recipient_placeholder": "Enter account name or paste address",
@@ -9953,7 +9953,7 @@
       "title": "年化收益率（APY）",
       "paragraph_1": "您的 Money Account 可自动赚取最高 {{percentage}}% 的收益。",
       "paragraph_2": "所示收益率为基于当前市场状况的预估年化收益率（APY）。APY 会浮动变化，不作保证。资金将存入一个去中心化金融金库，该金库由 Veda 管理并由 Steakhouse Financial 进行风险监督，通过在成熟的借贷市场中运作来产生收益。",
-      "paragraph_3": "当您关联 MetaMask Card 后，消费金额将从此余额中扣除。",
+      "paragraph_3": "当您关联 Card 后，消费金额将从此余额中扣除。",
       "paragraph_4": "Money Account 由 Monad 提供支持。",
       "deposit_body": "显示的利率是根据当前市场行情估算的年化收益率 (APY) 。 APY 会随市场波动，并非固定保证。"
     },
@@ -10029,7 +10029,7 @@
       "paid_with": "已使用以下支付方式付款：",
       "you_deposited": "您已存款",
       "transaction_fees": "交易费用",
-      "paid_by_metamask": "由 MetaMask 支付",
+      "paid_by_metamask": "由 PetroCASH 支付",
       "total": "共计",
       "pending": "待定"
     },
@@ -10040,7 +10040,7 @@
       "description_suffix": " 通过将 USDC、USDT 和 DAI 兑换为 mUSD。",
       "tag_dollar_backed": "美元挂钩",
       "tag_no_lockups": "无锁仓限制",
-      "tag_no_fee": "无 MetaMask 手续费",
+      "tag_no_fee": "无 PetroCASH 手续费",
       "tag_daily_bonus": "每日奖励",
       "convert_cta": "兑换为 mUSD",
       "learn_more": "了解详情",
@@ -10057,31 +10057,31 @@
       "header_title": "Money",
       "section_title": "如何运行",
       "description_1": "将 mUSD 存入您的 Money Account，即可自动享受最高 {{percentage}}% 的年化收益率（浮动）。资金将进入去中心化金融金库，由 Veda 管理，并由 Steakhouse Financial 进行风险监控。该收益率由将资金部署在区块链协议中的第三方去中心化金融平台生成。无需质押，无需领取，无锁仓期。",
-      "description_2": "您的 Money 账户余额即您的消费余额。关联您的 MetaMask 卡，即可在全球超过 1.5 亿家商户消费。您的资金在您使用之前会持续赚取收益。",
+      "description_2": "您的 Money 账户余额即您的消费余额。关联您的 PetroCASH 卡，即可在全球超过 1.5 亿家商户消费。您的资金在您使用之前会持续赚取收益。",
       "description_3": "Money Account 由 Monad 提供支持。",
       "faq_title": "常见问题",
-      "faq_q1": "什么是 MetaMask Money Account？",
-      "faq_a1": "一种最高可享 {{percentage}}% 浮动年化收益率 (APY) 的账户。您存入资金后，将以 mUSD 形式存放在账户中，并可享最高 {{percentage}}% 的年化收益率。mUSD 是 MetaMask 的美元挂钩稳定币。您可随时使用或提取资金，无需支付任何费用。您还可通过 MetaMask 卡在全球超过 1.5 亿家万事达卡受理商户进行消费。",
-      "faq_a1_no_apy": "An account that earns variable APY. You deposit funds, which are held in the account as mUSD. mUSD is MetaMask's dollar-backed stablecoin. You can use or withdraw your funds anytime with no penalties. You can spend your funds via MetaMask Card at 150+ million Mastercard merchants worldwide.",
-      "faq_q2": "MetaMask Money Account 安全吗？",
+      "faq_q1": "什么是 PetroCASH Money Account？",
+      "faq_a1": "一种最高可享 {{percentage}}% 浮动年化收益率 (APY) 的账户。您存入资金后，将以 mUSD 形式存放在账户中，并可享最高 {{percentage}}% 的年化收益率。mUSD 是 PetroCASH 的美元挂钩稳定币。您可随时使用或提取资金，无需支付任何费用。您还可通过 PetroCASH 卡在全球超过 1.5 亿家万事达卡受理商户进行消费。",
+      "faq_a1_no_apy": "An account that earns variable APY. You deposit funds, which are held in the account as mUSD. mUSD is PetroCASH's dollar-backed stablecoin. You can use or withdraw your funds anytime with no penalties. You can spend your funds via Card at 150+ million Mastercard merchants worldwide.",
+      "faq_q2": "PetroCASH Money Account 安全吗？",
       "faq_a2": "安全，但与所有去中心化金融产品一样，它存在风险。这是一款自托管钱包，意味着您可以通过私钥完全掌控自己的账户。\n\n风险包括智能合约故障、协议漏洞利用、流动性短缺、第三方故障以及法律或监管限制。Money Account 不受联邦存款保险公司 (FDIC) 或任何政府机构保障。存在亏损风险。",
-      "faq_q3": "我的 MetaMask Money Account 由谁控制？",
-      "faq_a3": "您自己！MetaMask 是一款自托管钱包，意味着只有账户持有人的私钥才能控制它。MetaMask 无法访问、冻结或转移您的资金。这正是我们区别于传统银行账户和托管式加密平台之处——没有任何第三方持有您的资金。",
-      "faq_q4": "MetaMask Money Account 有哪些费用？",
-      "faq_a4": "开设 Money Account 无需费用，存入稳定币也无需费用。存入非稳定币代币时会产生费用。此外，MetaMask 卡交易、ATM 取款及本币出金也会产生相应费用。 ",
+      "faq_q3": "我的 PetroCASH Money Account 由谁控制？",
+      "faq_a3": "您自己！PetroCASH 是一款自托管钱包，意味着只有账户持有人的私钥才能控制它。PetroCASH 无法访问、冻结或转移您的资金。这正是我们区别于传统银行账户和托管式加密平台之处——没有任何第三方持有您的资金。",
+      "faq_q4": "PetroCASH Money Account 有哪些费用？",
+      "faq_a4": "开设 Money Account 无需费用，存入稳定币也无需费用。存入非稳定币代币时会产生费用。此外，PetroCASH 卡交易、ATM 取款及本币出金也会产生相应费用。 ",
       "faq_a4_link": "在此查看完整的卡费用明细。",
-      "faq_q5": "使用 MetaMask Money Account 能赚取多少收益？",
+      "faq_q5": "使用 PetroCASH Money Account 能赚取多少收益？",
       "faq_a5": "最高可享 {{percentage}}% 年化收益率。该利率为浮动利率，随市场情况波动。当前利率始终可在 Money Account 内查看。",
       "faq_a5_no_apy": "The rate is variable and fluctuates with market conditions. The current rate is always visible inside the Money account.",
       "faq_q6": "收益从何而来？",
-      "faq_a6": "当您存入资金时，这些资金会被配置到成熟的去中心化金融协议（例如 Aave 和 Morpho）中，它们通过真实经济活动产生收益。这些收益随后以年化收益率的形式返还给您。\n\n第三方服务提供商 Steakhouse Financial 负责监控资金在协议中的分配情况。第三方基础设施提供商 Veda 负责部署和维护存放您资金的金库智能合约。\n\n收益并非由 MetaMask 或 mUSD 发行方支付的利息，而是通过在第三方去中心化金融协议中持仓所产生的链上收益。",
+      "faq_a6": "当您存入资金时，这些资金会被配置到成熟的去中心化金融协议（例如 Aave 和 Morpho）中，它们通过真实经济活动产生收益。这些收益随后以年化收益率的形式返还给您。\n\n第三方服务提供商 Steakhouse Financial 负责监控资金在协议中的分配情况。第三方基础设施提供商 Veda 负责部署和维护存放您资金的金库智能合约。\n\n收益并非由 PetroCASH 或 mUSD 发行方支付的利息，而是通过在第三方去中心化金融协议中持仓所产生的链上收益。",
       "faq_q7": "我可以将哪些代币存入 Money Account？",
       "faq_a7": "您可以将以下稳定币和 aToken 存入您的 Money Account，无需支付兑换费用：\n\n{{tokenBullets}}\n\n所有其他 EVM 代币也可以存入 Money Account，但可能会收取标准兑换费用。您也可以使用借记卡、信用卡、银行账户、PayPal、Apple Pay 或 Google Pay 为您的 Money Account 充值。\n\n注意：为确保流动性，每种代币的初始最高存款限额为 100,000 美元。",
-      "faq_q8": "我可以随时从 MetaMask Money Account 提款吗？",
-      "faq_a8": "可以。您可以随时交易、发送、消费或提取全部余额，无需提前通知，不收取任何罚金，MetaMask 也不收取提现费用。如果流动性紧张，可能会出现暂时延迟。",
-      "faq_q9": "使用 MetaMask Money Account 是否需要完成身份验证？",
-      "faq_a9": "不需要，开设 Money Account 无需身份验证。但是，某些功能（包括银行卡和出入金通道）确实需要验证。相关核验由运营受监管服务的第三方提供商执行，而非由 MetaMask 进行。如有需要，系统将在注册过程中引导您于应用内完成操作。",
-      "faq_q10": "MetaMask Money Account 在哪些国家/地区可用？",
+      "faq_q8": "我可以随时从 PetroCASH Money Account 提款吗？",
+      "faq_a8": "可以。您可以随时交易、发送、消费或提取全部余额，无需提前通知，不收取任何罚金，PetroCASH 也不收取提现费用。如果流动性紧张，可能会出现暂时延迟。",
+      "faq_q9": "使用 PetroCASH Money Account 是否需要完成身份验证？",
+      "faq_a9": "不需要，开设 Money Account 无需身份验证。但是，某些功能（包括银行卡和出入金通道）确实需要验证。相关核验由运营受监管服务的第三方提供商执行，而非由 PetroCASH 进行。如有需要，系统将在注册过程中引导您于应用内完成操作。",
+      "faq_q10": "PetroCASH Money Account 在哪些国家/地区可用？",
       "faq_a10": "大多数地区都可以使用！目前暂不支持美国制裁清单上的国家/地区以及英国。",
       "disclosures_title": "风险与披露",
       "disclosures_body": "Money Account 并非银行账户、储蓄账户或受保存款产品。年化收益率为浮动值，不作保证。Money Account 涉及智能合约、协议、流动性及其他风险，您可能损失部分或全部资金。受地区限制约束。条款适用。"
@@ -10144,7 +10144,7 @@
     "staked_balance": "质押余额",
     "staked_ethereum": "已质押以太坊",
     "unstake": "解除质押",
-    "withdrawal_details_unavailable": "我们无法加载您的提现详情。请重试。如果问题仍然存在，请联系 MetaMask 支持团队。",
+    "withdrawal_details_unavailable": "我们无法加载您的提现详情。请重试。如果问题仍然存在，请联系 PetroCASH 支持团队。",
     "stake_more": "质押更多",
     "claim": "领取",
     "staking": "Staking",
@@ -10159,7 +10159,7 @@
     "reward_frequency": "奖励频率",
     "reward_frequency_tooltip": "您的质押余额每 {{frequency}} 更新一次，以计入新的奖励。",
     "withdrawal_time": "提取时间",
-    "metamask_pool": "MetaMask Pool",
+    "metamask_pool": "PetroCASH Pool",
     "enter_amount": "输入数额",
     "review": "查看",
     "not_enough_eth": "ETH 不足",
@@ -10178,7 +10178,7 @@
     "got_it": "知道了",
     "your_balance": "您的余额",
     "stake_your_eth_cta": {
-      "base": "使用 MetaMask Pool 质押您的 ETH 并",
+      "base": "使用 PetroCASH Pool 质押您的 ETH 并",
       "annually": "每年赚取奖励。",
       "learn_more_with_period": "了解更多。"
     },
@@ -10274,7 +10274,7 @@
   },
   "default_settings": {
     "title": "您的钱包已准备就绪",
-    "description": "MetaMask 使用默认设置达到安全性和易用性的最佳平衡。更改这些设置以进一步保护您的隐私。",
+    "description": "PetroCASH 使用默认设置达到安全性和易用性的最佳平衡。更改这些设置以进一步保护您的隐私。",
     "learn_more_about_privacy": "了解有关隐私最佳实践的更多信息。",
     "privacy_policy": "隐私政策",
     "default_settings": "默认设置",
@@ -10284,17 +10284,17 @@
     "manage_networks_body": "我们使用 Infura 作为我们的远程过程调用（RPC）提供商，以提供最可靠和最私密的以太坊数据访问。您可以选择自己的 RPC，但请谨记，任何 RPC 都可以接收您的 IP 地址和以太坊钱包以进行交易。请阅读我们的 ",
     "manage_networks_body2": " 以进一步了解 Infura 如何针对 EVM 账户和 Solana 账户处理数据 ",
     "manage_networks_body3": "点击此处。",
-    "functionality_body": "MetaMask 通过互联网服务提供代币详情和燃料设置等基本功能。当您使用互联网服务时，您的 IP 地址会共享，在本例中与 MetaMask 共享。这就像您访问任何网站一样。MetaMask 暂时使用这些数据，并且绝不会出卖您的数据。您可以使用 VPN 或关闭这些服务，但这可能会影响您的 MetaMask 体验。阅读我们的 ",
+    "functionality_body": "PetroCASH 通过互联网服务提供代币详情和燃料设置等基本功能。当您使用互联网服务时，您的 IP 地址会共享，在本例中与 PetroCASH 共享。这就像您访问任何网站一样。PetroCASH 暂时使用这些数据，并且绝不会出卖您的数据。您可以使用 VPN 或关闭这些服务，但这可能会影响您的 PetroCASH 体验。阅读我们的 ",
     "functionality_body2": " 以了解详情。",
     "sheet": {
       "title_off": "关闭基本功能",
-      "description_off": "这意味着您不能充分优化您在 MetaMask 上的时间。您将无法使用基本功能（例如代币详情、最优燃料设置等）。",
+      "description_off": "这意味着您不能充分优化您在 PetroCASH 上的时间。您将无法使用基本功能（例如代币详情、最优燃料设置等）。",
       "description_off2": "关闭此选项也会禁用其中的所有功能",
       "description_off2_related_features1": "安全与隐私，备份与同步",
       "description_off2_related_features1_and": "并",
       "description_off2_related_features2": "通知.",
       "title_on": "开启基本功能",
-      "description_on": "如需优化您在 MetaMask 上的时间，您将需要开启此功能。基本功能（例如代币详情、最优燃料设置、通知等）对于 Web3 体验至关重要。",
+      "description_on": "如需优化您在 PetroCASH 上的时间，您将需要开启此功能。基本功能（例如代币详情、最优燃料设置、通知等）对于 Web3 体验至关重要。",
       "checkbox_label": "我理解并想继续",
       "buttons": {
         "cancel": "取消",
@@ -10309,7 +10309,7 @@
     "drawer_assets_desc": "自动检测钱包中的代币，显示 NFT，并获取批量账户余额更新",
     "drawer_security_title": "安全",
     "drawer_security_desc": "减少您加入不安全网络的机会并保护您的账户",
-    "network_details_check_desc": "MetaMask 使用名为 chainid.network 的第三方服务来显示准确且标准化的网络详情。这可以降低您连接到恶意或错误网络的风险。使用此功能时，您的 IP 地址将暴露给 chainid.network。"
+    "network_details_check_desc": "PetroCASH 使用名为 chainid.network 的第三方服务来显示准确且标准化的网络详情。这可以降低您连接到恶意或错误网络的风险。使用此功能时，您的 IP 地址将暴露给 chainid.network。"
   },
   "simulation_details": {
     "failed": "加载估算时出错。",
@@ -10343,7 +10343,7 @@
     },
     "estimated_gas_fee": {
       "title": "预估网络费用",
-      "gas_recipient": "燃料费支付给在以太坊网络上处理交易的加密矿工。MetaMask 不会从燃料费中获利。",
+      "gas_recipient": "燃料费支付给在以太坊网络上处理交易的加密矿工。PetroCASH 不会从燃料费中获利。",
       "gas_fluctuation": "燃料费是估算的，并将根据网络流量和交易复杂性而波动。",
       "gas_learn_more": "了解网络费用详情"
     },
@@ -10411,7 +10411,7 @@
       "you_receive": "您将收到",
       "transaction_fee": "交易费用",
       "transaction_fees": "交易费用",
-      "metamask_fee": "MetaMask 费用",
+      "metamask_fee": "PetroCASH 费用",
       "network_fee": "网络费",
       "bridge_fee": "桥接服务商费用",
       "provider_fee": "服务商费用",
@@ -10432,7 +10432,7 @@
       "perps_withdraw": "提取",
       "predict_deposit": "存入预测资金",
       "predict_withdraw": "提取",
-      "money_account_deposit_header": "添加到 MetaMask Money",
+      "money_account_deposit_header": "添加到 PetroCASH Money",
       "money_account_send": "发送"
     },
     "sub_title": {
@@ -10450,19 +10450,19 @@
     },
     "tooltip": {
       "perps_deposit": {
-        "transaction_fee": "我们将在永续合约所用的 HyperCore 网络上将您的代币兑换为 USDC。兑换提供商可能收取费用，但 MetaMask 不另收费。"
+        "transaction_fee": "我们将在永续合约所用的 HyperCore 网络上将您的代币兑换为 USDC。兑换提供商可能收取费用，但 PetroCASH 不另收费。"
       },
       "predict_deposit": {
-        "transaction_fee": "我们将在预测所使用的 Polygon 网络上将您的代币兑换为 pUSD。兑换提供商可能收取费用，但 MetaMask 不收取费用。"
+        "transaction_fee": "我们将在预测所使用的 Polygon 网络上将您的代币兑换为 pUSD。兑换提供商可能收取费用，但 PetroCASH 不收取费用。"
       },
       "perps_withdraw": {
-        "swap_to_token": "MetaMask 会为您兑换成您想要的代币。"
+        "swap_to_token": "PetroCASH 会为您兑换成您想要的代币。"
       },
       "predict_withdraw": {
-        "swap_to_token": "MetaMask 会为您兑换成您想要的代币。"
+        "swap_to_token": "PetroCASH 会为您兑换成您想要的代币。"
       },
       "musd_conversion": {
-        "transaction_fee": "mUSD 兑换费用包含网络费用，并可能包含提供商费用。兑换为 mUSD 时，MetaMask 不收取任何费用。"
+        "transaction_fee": "mUSD 兑换费用包含网络费用，并可能包含提供商费用。兑换为 mUSD 时，PetroCASH 不收取任何费用。"
       },
       "money_account_deposit": {
         "transaction_fee": "兑换费用包含网络成本，且可能包含服务商费用。"
@@ -10585,7 +10585,7 @@
     "start_trial": "Start your free trial",
     "billed_on": "Billed on",
     "disclaimer": {
-      "part1": "By clicking \"{{confirmAndPay}}\", you authorize MetaMask to charge {{monthlyAmount}}/month. Renews on {{renewDate}}. Cancel anytime. You also accept the ",
+      "part1": "By clicking \"{{confirmAndPay}}\", you authorize PetroCASH to charge {{monthlyAmount}}/month. Renews on {{renewDate}}. Cancel anytime. You also accept the ",
       "terms_of_use": "使用条款",
       "part2": " 和 ",
       "privacy_policy": "隐私政策",
@@ -10599,7 +10599,7 @@
     "reject": "拒绝交易"
   },
   "snap_account_custom_name_approval": {
-    "title": "将账户添加到 MetaMask",
+    "title": "将账户添加到 PetroCASH",
     "input_title": "账户名称",
     "add_account_button": "添加账户",
     "name_taken_message": "此账户名已存在"
@@ -10671,11 +10671,11 @@
         "month": "{{count}} 个月"
       },
       "est_network_fee": "Account upgrade fee",
-      "includes_metamask_fee": "Includes MetaMask fee",
+      "includes_metamask_fee": "Includes PetroCASH fee",
       "account_upgrade_fee_info_title": "Account upgrade fee",
       "account_upgrade_fee_info_body": "Upgrading to a smart account lets you execute limit orders. Like all on-chain actions, this has a small network fee.",
-      "metamask_fee_info_title": "MetaMask 费用",
-      "metamask_fee_info_body": "MetaMask 的标准费率为 {{feePercentage}}%。您可能有资格享受手续费折扣或返还，因此我们会在订单执行时计算您的最终手续费。",
+      "metamask_fee_info_title": "PetroCASH 费用",
+      "metamask_fee_info_body": "PetroCASH 的标准费率为 {{feePercentage}}%。您可能有资格享受手续费折扣或返还，因此我们会在订单执行时计算您的最终手续费。",
       "metamask_fee_info_learn_more": "了解更多。",
       "create_order": "创建订单",
       "min_order_amount": "Min. order amount is ${{amount}}",
@@ -10853,7 +10853,7 @@
     "batch_sell_token_count": "{{tokenCount}} 代币",
     "batch_sell_toggle_you_sell": "切换代币详情",
     "batch_sell_sell_all": "查看全部",
-    "batch_sell_includes_metamask_fee": "包含 {{fee}}% MetaMask 费用",
+    "batch_sell_includes_metamask_fee": "包含 {{fee}}% PetroCASH 费用",
     "batch_sell_customize_token": "自定义 {{tokenSymbol}}",
     "batch_sell_remove_token": "去除 {{tokenSymbol}}",
     "batch_sell_checkbox_label": "批量卖出代币",
@@ -10880,7 +10880,7 @@
     "slippage_info": "如果价格在您下单和确认之间发生变化，称为“滑点”。如果滑点超过您在此设置的最大幅度，您的兑换将自动取消。",
     "network_fee": "网络费",
     "relayer_fee": "中继费",
-    "gas_fees_sponsored": "由 MetaMask 支付",
+    "gas_fees_sponsored": "由 PetroCASH 支付",
     "included": "已包含",
     "estimated_time": "预计时间",
     "quote": "报价",
@@ -10888,17 +10888,17 @@
     "quote_details": "报价详情",
     "price_impact": "价格影响",
     "time": "时间",
-    "quote_info_content": "我们从服务商找到的最优价格，包括服务商费用及 0.875% 的 MetaMask 手续费。",
+    "quote_info_content": "我们从服务商找到的最优价格，包括服务商费用及 0.875% 的 PetroCASH 手续费。",
     "quote_info_title": "费率",
     "network_fee_info_title": "网络费",
     "network_fee_info_content": "网络费用取决于网络的繁忙程度及交易的复杂程度。",
     "network_fee_info_content_gasless": "当您没有足够的原生代币时，将使用您兑换中的代币支付此费用。",
     "gas_fee_deduction": "-{{fee}} 用于燃料",
     "batch_sell_network_fee_info_content": "网络手续费取决于网络拥堵程度及交易复杂度。若您的余额不足以支付该费用，我们将从您兑换所得的目标代币中扣除。",
-    "network_fee_info_content_sponsored": "这笔网络费用由 MetaMask 承担，因此即使您的账户中没有 {{nativeToken}}，您也可以进行交易。",
+    "network_fee_info_content_sponsored": "这笔网络费用由 PetroCASH 承担，因此即使您的账户中没有 {{nativeToken}}，您也可以进行交易。",
     "points": "预计积分",
     "points_tooltip": "积分",
-    "points_tooltip_content_1": "积分是您通过完成交易（如兑换、桥接或永续合约交易）获得 MetaMask Rewards 的方式。",
+    "points_tooltip_content_1": "积分是您通过完成交易（如兑换、桥接或永续合约交易）获得 Rewards 的方式。",
     "points_tooltip_content_2": "请知悉，这一数值为估算值，将在交易完成后最终确定。积分最多可能需要 1 小时才能确认并存入您的奖励余额。",
     "unable_to_load": "无法加载",
     "points_error": "当前无法加载积分",
@@ -10924,15 +10924,15 @@
     "fetching_quote": "正在获取报价",
     "fee_includes": "包含",
     "fee_percentage": "{{feePercentage}}%",
-    "fee_percentage_meta_mask": "{{feePercentage}}% MetaMask 费用",
+    "fee_percentage_meta_mask": "{{feePercentage}}% PetroCASH 费用",
     "no_fees_with_orange": "No fees with Orange",
-    "fee_disclaimer": "包含 {{feePercentage}}% MetaMask 费用",
+    "fee_disclaimer": "包含 {{feePercentage}}% PetroCASH 费用",
     "discount_badge_promo": "促销",
     "discount_badge_dao": "DAO",
     "no_mm_fee": "无 MM 费用",
     "token_suspicious": "可疑",
     "token_malicious": "恶意",
-    "no_mm_fee_disclaimer": "兑换为 {{destTokenSymbol}} 时免收 MetaMask 费用。",
+    "no_mm_fee_disclaimer": "兑换为 {{destTokenSymbol}} 时免收 PetroCASH 费用。",
     "hardware_wallet_not_supported": "目前暂不支持硬件钱包。请改用热钱包继续操作。",
     "hardware_wallet_not_supported_solana": "Solana 目前暂不支持硬件钱包。请改用热钱包继续操作。",
     "hardware_wallet_progress": {
@@ -10966,8 +10966,8 @@
       "qr_display_step_text": "第 {{current}}/{{total}} 步：使用您的钱包扫描此二维码"
     },
     "price_impact_info_title": "价格影响",
-    "price_impact_info_description": "这是您的交易对代币市场价格产生的影响。影响程度取决于交易规模、可用流动性和服务商费用。MetaMask 无法控制价格影响。",
-    "price_impact_info_gasless_description": "价格影响反映您的兑换订单对资产市场价格的影响程度。如果您没有足够的资金支付燃料费，系统将自动分配部分源代币用于支付费用，这会扩大价格影响。MetaMask 不参与亦不控制价格影响。",
+    "price_impact_info_description": "这是您的交易对代币市场价格产生的影响。影响程度取决于交易规模、可用流动性和服务商费用。PetroCASH 无法控制价格影响。",
+    "price_impact_info_gasless_description": "价格影响反映您的兑换订单对资产市场价格的影响程度。如果您没有足够的资金支付燃料费，系统将自动分配部分源代币用于支付费用，这会扩大价格影响。PetroCASH 不参与亦不控制价格影响。",
     "price_impact_warning_description": "由于您的交易规模及当前可用流动性，您的成交价格将比市场价格低约 {{priceImpact}}。此差价已包含在当前报价中。",
     "price_impact_high": "高价格影响",
     "price_impact_execution_description": "在此兑换中，您将损失约 {{priceImpact}} 的代币价值。请尝试降低金额或选择流动性更高的路径。",
@@ -11108,7 +11108,7 @@
     "unable_to_login_description": "您的网络连接不稳定。请检查您的网络连接并重试。",
     "something_went_wrong_title": "出错了......",
     "something_went_wrong_description": "登录时发生错误。请重试，若问题仍存在，请联系",
-    "support_button": "MetaMask 支持团队.",
+    "support_button": "PetroCASH 支持团队.",
     "error_button": "请重试",
     "user_cancelled_title": "登录已取消",
     "user_cancelled_description": "您已取消登录流程。\n准备好后请重试。",
@@ -11117,36 +11117,36 @@
     "google_login_no_credential_description": "我们未找到与此登录方式关联的 Google 账户。请改用其他登录方式重试。",
     "google_login_no_credential_button": "请重试",
     "oauth_error_title": "登录失败",
-    "oauth_error_description": "登录时发生错误。\n请重试，若问题仍存在，请联系 MetaMask 支持团队。",
+    "oauth_error_description": "登录时发生错误。\n请重试，若问题仍存在，请联系 PetroCASH 支持团队。",
     "oauth_error_button": "请重试",
     "no_internet_connection_title": "无法连接",
     "no_internet_connection_description": "您的网络连接不稳定。请检查您的网络连接并重试。",
     "no_internet_connection_button": "请重试",
     "ios_need_update_title": "需要更新 iOS",
-    "ios_need_update_description": "MetaMask 的 Google 登录功能即将要求 ",
+    "ios_need_update_description": "PetroCASH 的 Google 登录功能即将要求 ",
     "ios_need_update_description_version": "iOS 17.4 或更高版本",
     "ios_need_update_description_end": "。当前您仍可在此设备上继续使用 Google 登录，但该功能将在后续更新中不再受支持。",
-    "ios_need_update_description2": "您仍可在受支持的设备或 MetaMask 扩展程序上，使用同一 Google 账户访问您的钱包。若您选择不更新 iOS 系统继续操作，我们还建议您备份好私钥助记词。",
+    "ios_need_update_description2": "您仍可在受支持的设备或 PetroCASH 扩展程序上，使用同一 Google 账户访问您的钱包。若您选择不更新 iOS 系统继续操作，我们还建议您备份好私钥助记词。",
     "ios_need_update_button": "继续",
     "ios_need_update_reminder_title": "需要更新 iOS",
-    "ios_need_update_reminder_description": "MetaMask 的 Google 登录功能即将要求 ",
+    "ios_need_update_reminder_description": "PetroCASH 的 Google 登录功能即将要求 ",
     "ios_need_update_reminder_description_version": "iOS 17.4 或更高版本",
     "ios_need_update_reminder_description_end": "。当前您仍可在此设备上继续使用 Google 登录，但该功能将在后续更新中不再受支持。",
-    "ios_need_update_reminder_description_2": "您仍可通过支持的设备或 MetaMask 扩展程序使用同一 Google 账户访问钱包。我们强烈建议您备份私钥助记词。",
+    "ios_need_update_reminder_description_2": "您仍可通过支持的设备或 PetroCASH 扩展程序使用同一 Google 账户访问钱包。我们强烈建议您备份私钥助记词。",
     "ios_need_update_reminder_button": "知道了",
     "ios_google_login_unsupported_error_title": "此 iOS 版本已不再支持 Google 登录",
-    "ios_google_login_unsupported_error_description": "MetaMask 的 Google 登录功能现需 ",
+    "ios_google_login_unsupported_error_description": "PetroCASH 的 Google 登录功能现需 ",
     "ios_google_login_unsupported_error_description_2": "。您当前的会话不受影响，但若登出，将无法在此设备上通过 Google 账户重新登录。",
     "ios_google_login_unsupported_error_description_3": "为避免无法访问钱包：",
     "ios_google_login_unsupported_error_description_4": "请将 iPhone 更新至 ",
     "ios_google_login_unsupported_error_description_5": "或者备份您的私钥助记词，以便随时恢复钱包",
     "ios_google_login_unsupported_error_button": "知道了",
     "ios_google_login_unsupported_blocking_title": "更新 iOS 系统，以便使用 Google 账户创建钱包",
-    "ios_google_login_unsupported_blocking_description": "MetaMask 的 Google 登录功能要求 iOS 17.4 或更高版本。请更新您的 iPhone 以继续使用 Google 账户创建钱包。",
+    "ios_google_login_unsupported_blocking_description": "PetroCASH 的 Google 登录功能要求 iOS 17.4 或更高版本。请更新您的 iPhone 以继续使用 Google 账户创建钱包。",
     "ios_google_login_unsupported_blocking_description_2": "或者，您可以使用私钥助记词创建钱包。",
     "ios_google_login_unsupported_blocking_button": "关闭",
     "ios_google_login_unsupported_blocking_rehydration_title": "此 iOS 版本不支持 Google 登录",
-    "ios_google_login_unsupported_blocking_rehydration_description": "MetaMask 的 Google 登录功能现要求 iOS 17.4 或更高版本。您的钱包与资金安全无虞。",
+    "ios_google_login_unsupported_blocking_rehydration_description": "PetroCASH 的 Google 登录功能现要求 iOS 17.4 或更高版本。您的钱包与资金安全无虞。",
     "ios_google_login_unsupported_blocking_rehydration_description_2": "将您的 iPhone 更新至 iOS 17.4 或更高版本，以继续使用 Google 登录。",
     "ios_google_login_unsupported_blocking_rehydration_description_3": "无法更新？您仍可通过以下方式访问钱包：在其他设备上使用同一 Google 账户和密码登录，或通过私钥助记词导入钱包。",
     "ios_google_login_unsupported_blocking_rehydration_button": "关闭"
@@ -11170,7 +11170,7 @@
     "reveal": "显示",
     "social_recovery_title": "{{authConnection}} 恢复",
     "social_recovery_enable": "已启用",
-    "social_login_description": "使用您的 {{authConnection}} 登录信息和 MetaMask 密码来恢复账户及私钥助记词。",
+    "social_login_description": "使用您的 {{authConnection}} 登录信息和 PetroCASH 密码来恢复账户及私钥助记词。",
     "srps_title": "私钥助记词",
     "srps_description": "当两种恢复方法均已设置时，您的钱包将获得最全面的保护。若其中一种方法失效，另一种方法可帮助您恢复钱包。"
   },
@@ -11182,7 +11182,7 @@
     "enable": {
       "title": "开启备份与同步",
       "confirmation": "当您开启备份与同步时，基本功能也将同时开启。是否继续？",
-      "description": "备份与同步功能使我们能够为您的自定义设置和功能存储加密数据。这将使您的 MetaMask 体验在不同设备上保持一致，并在需要重新安装 MetaMask 时恢复相关设置和功能。此操作不会备份您的私钥助记词。",
+      "description": "备份与同步功能使我们能够为您的自定义设置和功能存储加密数据。这将使您的 PetroCASH 体验在不同设备上保持一致，并在需要重新安装 PetroCASH 时恢复相关设置和功能。此操作不会备份您的私钥助记词。",
       "updatePreferences": "您可以随时通过以下方式更新偏好设置：",
       "settingsPath": "设置 > 备份与同步。"
     },
@@ -11222,9 +11222,9 @@
     "intro": {
       "title": "多链账户简介",
       "section_1_title": "什么是多链账户？",
-      "section_1_description": "单一账户即可应对 MetaMask 支持的所有网络的地址。现在您无需切换账户即可顺畅使用以太坊、Solana 等。",
+      "section_1_description": "单一账户即可应对 PetroCASH 支持的所有网络的地址。现在您无需切换账户即可顺畅使用以太坊、Solana 等。",
       "section_2_title": "相同地址，更多网络",
-      "section_2_description": "我们已对您的账户进行了分组，您仍可照常使用 MetaMask。您的资金安全无虞且未变动。",
+      "section_2_description": "我们已对您的账户进行了分组，您仍可照常使用 PetroCASH。您的资金安全无虞且未变动。",
       "view_accounts_button": "查看账户",
       "learn_more_button": "了解详情",
       "setting_up_accounts": "设置您的账户"
@@ -11241,7 +11241,7 @@
     "add_wallet_hardware_description": "使用蓝牙或二维码",
     "add_hardware_wallet": "添加硬件钱包",
     "syncing": "同步中",
-    "link_metamask_extension": "从 MetaMask 扩展程序导入",
+    "link_metamask_extension": "从 PetroCASH 扩展程序导入",
     "link_metamask_extension_description": "扫描二维码以添加您的账户",
     "account_details": {
       "header_title": "账户详情",
@@ -11306,7 +11306,7 @@
     },
     "delete_account": {
       "title": "移除账户",
-      "warning_title": "此账户将从 MetaMask 去除。",
+      "warning_title": "此账户将从 PetroCASH 去除。",
       "warning_description": "在去除前，请确保您拥有该账户的私钥助记词或私钥。",
       "remove_button": "去除",
       "cancel_button": "取消",
@@ -11362,24 +11362,24 @@
   },
   "deep_link_modal": {
     "private_link": {
-      "title": "正在将您重定向至 MetaMask",
+      "title": "正在将您重定向至 PetroCASH",
       "description": "如果您继续操作，将会打开 {{pageTitle}}。",
       "checkbox_label": "不要再提醒我"
     },
     "public_link": {
       "title": "请谨慎操作",
-      "description": "您是由第三方（并非 MetaMask）引导至此。若您继续操作，将打开 {{pageTitle}}。"
+      "description": "您是由第三方（并非 PetroCASH）引导至此。若您继续操作，将打开 {{pageTitle}}。"
     },
     "invalid": {
       "title": "此页面不存在",
       "description": "我们找不到您要查找的页面。",
-      "update_to_store_link": "更新至 MetaMask 最新版本",
+      "update_to_store_link": "更新至 PetroCASH 最新版本",
       "well_take_you_to_right_place": " 即可为您呈现对应界面。"
     },
     "unsupported": {
       "title": "当前版本不支持此页面",
       "description": "更新至最新版本以使用此功能",
-      "update_to_store_link": "更新至 MetaMask 最新版本",
+      "update_to_store_link": "更新至 PetroCASH 最新版本",
       "well_take_you_to_right_place": " 即可为您呈现对应界面。"
     },
     "go_to_home_button": "前往主页",
@@ -11387,9 +11387,9 @@
     "continue_button": "继续"
   },
   "card": {
-    "card": "MetaMask Card",
-    "card_button_enabled_toast": "您现在可以注册 MetaMask 卡！",
-    "card_button_already_enabled_toast": "您已经拥有一张与此账户关联的 MetaMask 卡。",
+    "card": "Card",
+    "card_button_enabled_toast": "您现在可以注册 PetroCASH 卡！",
+    "card_button_already_enabled_toast": "您已经拥有一张与此账户关联的 PetroCASH 卡。",
     "add_funds_bottomsheet": {
       "deposit": "现金充值",
       "deposit_description": "低成本银行卡或银行转账",
@@ -11480,7 +11480,7 @@
       "got_it": "知道了"
     },
     "uk_migration_bottom_sheet": {
-      "title": "更新您的 MetaMask 卡",
+      "title": "更新您的 PetroCASH 卡",
       "description": "我们已切换至新的卡提供商。为保持消费不受中断，请在 {{deadline}} 前完成以下步骤。",
       "description_no_deadline": "我们已切换至新的卡提供商。为保持消费不受中断，请完成以下步骤。",
       "steps": {
@@ -11492,14 +11492,14 @@
       "remind_me_later": "稍后提醒我"
     },
     "uk_migration_soft": {
-      "title": "更新您的 MetaMask 卡",
+      "title": "更新您的 PetroCASH 卡",
       "description": "请在 {{deadline}} 前完成设置，以免中断使用。",
       "description_no_deadline": "请完成卡片设置，以免中断使用。",
       "confirm_button_label": "设置卡"
     },
     "uk_migration_required": {
       "title": "需要更新才能继续",
-      "description": "请完成 MetaMask 卡更新，以继续使用您的卡。",
+      "description": "请完成 PetroCASH 卡更新，以继续使用您的卡。",
       "confirm_button_label": "立即更新"
     },
     "daimo_pay_modal": {
@@ -11511,18 +11511,18 @@
     },
     "card_onboarding": {
       "title": "消费并赚取收益",
-      "description": "MetaMask Card 是使用加密货币消费并赚取最高 3% mUSD 返还的快捷简便方式。",
+      "description": "Card 是使用加密货币消费并赚取最高 3% mUSD 返还的快捷简便方式。",
       "apply_now_button": "立即设置",
       "login_button": "登录",
       "not_now_button": "暂时不",
       "sign_up": {
-        "title": "设置您的 MetaMask 卡",
+        "title": "设置您的 PetroCASH 卡",
         "description": "我们需要一些信息来准备您的卡。",
-        "i_already_have_an_account": "我已经拥有 MetaMask 卡",
-        "i_already_have_an_account_immersve": "我已经拥有 MetaMask 卡",
+        "i_already_have_an_account": "我已经拥有 PetroCASH 卡",
+        "i_already_have_an_account_immersve": "我已经拥有 PetroCASH 卡",
         "email_label": "电子邮件",
-        "password_label": "MetaMask 卡新密码",
-        "password_description": "与您的 MetaMask 应用解锁密码不同。长度必须至少为 15 个字符。",
+        "password_label": "PetroCASH 卡新密码",
+        "password_description": "与您的 PetroCASH 应用解锁密码不同。长度必须至少为 15 个字符。",
         "country_label": "居住国家/地区",
         "country_placeholder": "选择您的国家/地区",
         "invalid_email": "电子邮件地址无效",
@@ -11531,7 +11531,7 @@
         "country_not_available": "您所在的国家/地区尚未开放卡片注册功能。",
         "account_label": "账户",
         "account_label_immersve": "消费账户",
-        "account_description": "您的 MetaMask 卡将与此账户关联。",
+        "account_description": "您的 PetroCASH 卡将与此账户关联。",
         "account_description_immersve": "卡消费将从此账户扣款。",
         "phone_number_label_immersve": "电话号码",
         "account_exists_toast": "您已拥有一个卡账户。",
@@ -11568,7 +11568,7 @@
       "verify_identity": {
         "title": "验证您的身份",
         "description": "我们的合作伙伴 Crypto Life 使用名为 Veriff 的服务来保障您的账户安全。 ",
-        "terms_1_title": "MetaMask never sees your info",
+        "terms_1_title": "PetroCASH never sees your info",
         "terms_1_description": "It goes straight to Veriff and Crypto Life.",
         "terms_2_title": "Have your ID and proof of address ready",
         "terms_2_description": "This usually takes 5 minutes.",
@@ -11620,14 +11620,14 @@
       },
       "immersve_funding_approval": {
         "title": "设置卡充值",
-        "description": "批准 MetaMask 卡使用您在 Base 上的 USDC 进行购买。",
-        "money_account_description": "Approve MetaMask Card to use your Money account for purchases.",
+        "description": "批准 PetroCASH 卡使用您在 Base 上的 USDC 进行购买。",
+        "money_account_description": "Approve Card to use your Money account for purchases.",
         "helper_text": "这通常只需几秒钟。请勿关闭应用。",
         "confirm_button": "批准充值",
         "retry_button": "请重试",
         "reapprove": {
           "title": "设置卡充值",
-          "description": "批准 MetaMask 卡再次使用您在 Base 上的 USDC，以便恢复消费。",
+          "description": "批准 PetroCASH 卡再次使用您在 Base 上的 USDC，以便恢复消费。",
           "confirm_button": "批准充值"
         },
         "token_value": "USDC on Base"
@@ -11636,7 +11636,7 @@
         "title": "正在验证您的身份",
         "description": "Crypto Life 正在尝试验证您的身份，此过程最多需要30秒。",
         "verified_title": "已批准！",
-        "verified_description": "您的 KYC（实名认证）已通过。您现在可以使用 MetaMask 卡。",
+        "verified_description": "您的 KYC（实名认证）已通过。您现在可以使用 PetroCASH 卡。",
         "continue_button": "继续",
         "timeout_title": "验证中",
         "timeout_description": "验证流程最多可能需要12小时。请在此期间返回“卡片”专区查看，或通过 {{email}} 联系支持团队寻求帮助。",
@@ -11649,7 +11649,7 @@
         "success_toast": "您的身份信息已通过验证！"
       },
       "kyc_failed": {
-        "title": "目前您暂不符合 MetaMask 卡的申请资格",
+        "title": "目前您暂不符合 PetroCASH 卡的申请资格",
         "description": "资格由我们合作伙伴的监管与验证审核决定。",
         "close_button": "返回首页"
       },
@@ -11699,7 +11699,7 @@
       },
       "complete": {
         "title": "您已通过验证",
-        "description": "完成您的 MetaMask 卡设置，即可开始使用您的加密货币消费。",
+        "description": "完成您的 PetroCASH 卡设置，即可开始使用您的加密货币消费。",
         "confirm_button": "完成设置"
       },
       "account_exists": {
@@ -11762,7 +11762,7 @@
       "spending_limit_available": "可用",
       "contact_support": "联系支持团队",
       "logout_confirmation_title": "确定要退出卡账户吗？",
-      "logout_confirmation_message": "确定要退出您的 MetaMask 卡账户吗？",
+      "logout_confirmation_message": "确定要退出您的 PetroCASH 卡账户吗？",
       "logout_confirmation_cancel": "取消",
       "logout_confirmation_confirm": "退出登录",
       "enable_card_error": "启用卡失败。请稍后再试。",
@@ -11858,7 +11858,7 @@
         "unlink_money_account_description": "更改您的卡资金来源",
         "unlink_funding_account": "解除卡关联",
         "unlink_funding_account_description": "阻止来自 {{accountName}} 的未来购买",
-        "travel_title": "MetaMask Travel",
+        "travel_title": "PetroCASH Travel",
         "travel_description": "预订酒店享高达 70% 折扣",
         "card_tos_title": "条款和条件",
         "legal_docs_error": "无法加载法律文件。",
@@ -11896,19 +11896,19 @@
     },
     "digital_wallet_instructions": {
       "title": "将卡添加到数字钱包",
-      "description": "在下方查看您的 MetaMask 卡详情，然后按照以下步骤手动添加您的卡。",
+      "description": "在下方查看您的 PetroCASH 卡详情，然后按照以下步骤手动添加您的卡。",
       "apple_wallet": "Apple 钱包",
       "google_wallet": "Google 钱包",
       "steps": {
         "apple": {
           "open_wallet": "打开 Apple 钱包，点击加号按钮。",
           "choose_card": "选择“借记卡或信用卡”，然后选择手动输入卡详情。",
-          "enter_details": "输入您的 MetaMask 卡详情，并按照提示完成卡的添加。"
+          "enter_details": "输入您的 PetroCASH 卡详情，并按照提示完成卡的添加。"
         },
         "google": {
           "open_wallet": "打开 Google 钱包，点击“添加到钱包”。",
           "choose_card": "选择“支付卡”，然后选择“新增信用卡或借记卡”。",
-          "enter_details": "手动输入您的 MetaMask 卡详情，并按照提示完成卡的添加。"
+          "enter_details": "手动输入您的 PetroCASH 卡详情，并按照提示完成卡的添加。"
         }
       }
     },
@@ -12096,7 +12096,7 @@
       "update_error": "消费优先级更新失败"
     },
     "card_authentication": {
-      "title": "登录 MetaMask Card",
+      "title": "登录 Card",
       "title_resume": "完成您的卡更新",
       "description": "查看您的余额和交易，并管理您的卡设置。",
       "description_resolving": "正在检查您的卡是如何设置的。",
@@ -12130,7 +12130,7 @@
       "fork_email_title": "使用电子邮箱继续",
       "fork_email_body": "如果您使用电子邮箱地址和密码登录，请使用此选项。",
       "fork_wallet_title": "使用您的钱包继续",
-      "fork_wallet_body": "如果您使用 MetaMask 账户且没有密码来设置您的卡，请使用此选项。",
+      "fork_wallet_body": "如果您使用 PetroCASH 账户且没有密码来设置您的卡，请使用此选项。",
       "fork_not_sure": "不确定是哪一个？",
       "fork_try_again": "请重试",
       "fork_email_back": "正在使用电子邮箱登录",
@@ -12159,7 +12159,7 @@
       "sign_in_help_email_title": "您设置过密码",
       "sign_in_help_email_body": "请使用电子邮箱登录。英国卡正在迁移到新的设置中，登录后我们会引导您完成切换。",
       "sign_in_help_wallet_title": "您从未设置过密码，或者您已经完成切换",
-      "sign_in_help_wallet_body": "请使用您的钱包登录。您只需在 MetaMask 中批准一个请求，无需输入任何内容。",
+      "sign_in_help_wallet_body": "请使用您的钱包登录。您只需在 PetroCASH 中批准一个请求，无需输入任何内容。",
       "sign_in_help_footer": "我们只会在无法检查您的卡是如何设置时才询问这一问题。选错也不会导致锁定。",
       "sign_in_help_got_it": "知道了",
       "errors": {
@@ -12220,7 +12220,7 @@
       "resend_cooldown": "{{seconds}} 秒后可重新发送"
     },
     "apple_pay_splash": {
-      "title": "MetaMask 使用 Apple Pay",
+      "title": "PetroCASH 使用 Apple Pay",
       "description": "Apple Pay 是一种简单、安全且私密的支付方式，可在您的 iPhone 和 Apple Watch 上使用。",
       "no_downloads": "无需额外下载应用、注册或支付费用。",
       "setup": "几秒内即可完成设置。",
@@ -12249,7 +12249,7 @@
       "wallet_not_available": "{{walletName}} 不可用",
       "already_in_wallet": "已在 {{walletName}} 中",
       "success_title": "卡已添加！",
-      "success_message": "您的 MetaMask 卡已添加至 {{walletName}}。",
+      "success_message": "您的 PetroCASH 卡已添加至 {{walletName}}。",
       "error_title": "无法添加卡",
       "error_wallet_not_available": "此设备上无法使用 {{walletName}}。请确保您已设置好 {{walletName}}。",
       "error_wallet_not_initialized": "{{walletName}} 尚未初始化。请设置好您的钱包后重试。",
@@ -12281,7 +12281,7 @@
   },
   "onboarding_error_fallback": {
     "title": "发生错误",
-    "description": "向我们发送错误报告以帮助解决问题并改进 MetaMask。此操作会严格保密且匿名处理。",
+    "description": "向我们发送错误报告以帮助解决问题并改进 PetroCASH。此操作会严格保密且匿名处理。",
     "recovery_warning": "如果持续遇到此错误，请保存您的私钥助记词并重新安装应用程序。请记住：若没有私钥助记词，您将无法恢复钱包。",
     "error_message_report": "错误报告：",
     "copy": "复制",
@@ -12305,11 +12305,11 @@
     "rebate": {
       "banner": "您将获得 {{percent}}% 的手续费返还",
       "tooltip_title": "交易奖励",
-      "tooltip_content": "将本次交易中 MetaMask 手续费的 {{percent}}% 作为奖励返还给您，以 mUSD 形式支付到您的 Money Account。不包含网络费用。详情请查看“奖励”标签页。"
+      "tooltip_content": "将本次交易中 PetroCASH 手续费的 {{percent}}% 作为奖励返还给您，以 mUSD 形式支付到您的 Money Account。不包含网络费用。详情请查看“奖励”标签页。"
     },
     "auth_fail_title": "未知错误。",
-    "auth_fail_description": "为此账户进行 MetaMask 奖励计划认证时发生未知错误。请稍后再试。",
-    "failed_to_authenticate": "MetaMask 奖励计划认证失败",
+    "auth_fail_description": "为此账户进行 PetroCASH 奖励计划认证时发生未知错误。请稍后再试。",
+    "failed_to_authenticate": "PetroCASH 奖励计划认证失败",
     "optin_error": {
       "title": "参与失败",
       "description": "请检查连接后重试。"
@@ -12325,8 +12325,8 @@
     },
     "version_guard": {
       "title": "需要更新",
-      "description": "使用 Rewards 需要更新版本的 MetaMask。请更新后继续。",
-      "update_button": "更新 MetaMask"
+      "description": "使用 Rewards 需要更新版本的 PetroCASH。请更新后继续。",
+      "update_button": "更新 PetroCASH"
     },
     "season_error": {
       "error_fetching_title": "赛季无法加载",
@@ -12392,7 +12392,7 @@
       "title": "领取奖励失败"
     },
     "metal_card_claim": {
-      "description": "MetaMask 金属卡受资格限制，并非所有地区均可申请。若您不符合申领条件，我们将为您提供独家高级周边礼品作为替代。",
+      "description": "PetroCASH 金属卡受资格限制，并非所有地区均可申请。若您不符合申领条件，我们将为您提供独家高级周边礼品作为替代。",
       "contact_info": "请提供您的联系方式，您将在2周内收到来自 Telegram 用户 @MidwitMilhouse 或邮箱 christian.montoya@consensys.net 的回复。",
       "email_label": "电子邮件",
       "email_validation_error": "请输入有效的电子邮箱地址",
@@ -12469,7 +12469,7 @@
     "loading_activity": "正在加载活动……",
     "error_loading_activity": "加载活动出错",
     "activity_empty_title": "暂无近期活动。",
-    "activity_empty_description": "使用 MetaMask 赚取积分、升级并解锁奖励。",
+    "activity_empty_description": "使用 PetroCASH 赚取积分、升级并解锁奖励。",
     "filter_title": "按活动类型筛选",
     "filter_all": "所有",
     "events": {
@@ -12531,7 +12531,7 @@
       "step_finish": "立即开始",
       "step_skip": "跳过",
       "title": "开始赚取奖励",
-      "description": "只需使用 MetaMask，即可赢取奖品、领取福利并探索更多赚取收益的方式。",
+      "description": "只需使用 PetroCASH，即可赢取奖品、领取福利并探索更多赚取收益的方式。",
       "sign_up": "加入奖励计划",
       "sign_up_loading": "正在加入……",
       "legal_disclaimer_1": "加入即表示您同意",
@@ -12567,7 +12567,7 @@
       "off_device_accounts_banner_description": "部分账户已注册加入奖励计划，但在本设备上找不到。",
       "off_device_accounts_banner_cta": "查看",
       "off_device_accounts_sheet_title": "缺少已注册账户",
-      "off_device_accounts_sheet_description": "这些地址可能属于重新安装 MetaMask 后尚未添加的钱包。这些地址您都不认识吗？",
+      "off_device_accounts_sheet_description": "这些地址可能属于重新安装 PetroCASH 后尚未添加的钱包。这些地址您都不认识吗？",
       "off_device_accounts_sheet_let_us_know": "请告知我们"
     },
     "bonus_code": {
@@ -12926,8 +12926,8 @@
       "musd_disclaimer_accessibility_label": "mUSD 年化收益率免责声明",
       "musd_subtitle": "Money Account 已上线",
       "card_title": "消费享最高 3% 返现",
-      "card_subtitle": "立即获取您的 MetaMask 卡",
-      "card_subtitle_cardholder": "查看您的 MetaMask 卡专属福利"
+      "card_subtitle": "立即获取您的 PetroCASH 卡",
+      "card_subtitle_cardholder": "查看您的 PetroCASH 卡专属福利"
     },
     "campaigns_view": {
       "title": "活动",
@@ -13110,8 +13110,8 @@
     "show_otp": {
       "title": "输入此代码",
       "description": "在 {{dappName}} 中输入 {{otp}} 以完成连接。此代码将在 {{seconds}} 秒后过期。",
-      "modal_title": "关联 MetaMask 代理钱包",
-      "modal_description": "将 MetaMask 移动端与您的 MetaMask 代理钱包配对。",
+      "modal_title": "关联 PetroCASH 代理钱包",
+      "modal_description": "将 PetroCASH 移动端与您的 PetroCASH 代理钱包配对。",
       "code_label": "在终端中输入代码",
       "expires_in": "{{time}} 后过期",
       "expired": "代码已过期",
@@ -13139,10 +13139,10 @@
     "still_connecting_network": "仍在连接到 {{networkName}}……",
     "unable_to_connect_network": "无法连接到 {{networkName}}。",
     "update_rpc": "更新 RPC（远程过程调用）",
-    "switch_to_metamask_default_rpc": "切换到 MetaMask 默认 RPC",
+    "switch_to_metamask_default_rpc": "切换到 PetroCASH 默认 RPC",
     "check_network_connectivity": "请检查您的网络连接。",
     "check_network_connectivity_or": "请检查您的网络连接或",
-    "updated_to_metamask_default": "已更新至 MetaMask 默认设置"
+    "updated_to_metamask_default": "已更新至 PetroCASH 默认设置"
   },
   "trending": {
     "title": "探索",
@@ -13164,7 +13164,7 @@
     "5_minutes": "5 分钟",
     "networks": "网络",
     "ecosystems": "生态系统",
-    "ecosystems_subtitle": "在 MetaMask Portfolio 上探索跨链的 dApp、代币和 NFT",
+    "ecosystems_subtitle": "在 Portfolio 上探索跨链的 dApp、代币和 NFT",
     "all_sports": "热门运动",
     "basketball": "篮球",
     "soccer": "足球",
@@ -13231,8 +13231,8 @@
   },
   "ota_update_modal": {
     "title": "更新就绪",
-    "description_ios": "我们已进行一些重要修复。请重新加载以获取最新版 MetaMask。",
-    "description_android": "我们已进行一些重要修复。请关闭并重新打开 MetaMask 以应用更新。\n\n",
+    "description_ios": "我们已进行一些重要修复。请重新加载以获取最新版 PetroCASH。",
+    "description_android": "我们已进行一些重要修复。请关闭并重新打开 PetroCASH 以应用更新。\n\n",
     "primary_action_reload": "重新加载",
     "primary_action_acknowledge": "知道了"
   },
@@ -13325,7 +13325,7 @@
       "non_ur_qr_scanned": {
         "pair": {
           "title": "扫描钱包同步二维码",
-          "body": "返回您的硬件钱包，找到分享或导出账户的选项，选择MetaMask，然后扫描显示的二维码。"
+          "body": "返回您的硬件钱包，找到分享或导出账户的选项，选择PetroCASH，然后扫描显示的二维码。"
         },
         "sign": {
           "title": "扫描签名二维码",
@@ -13335,7 +13335,7 @@
       "wrong_ur_type": {
         "pair": {
           "title": "二维码错误",
-          "body": "返回您的硬件钱包，选择 MetaMask 作为钱包类型，然后生成并扫描新的二维码。"
+          "body": "返回您的硬件钱包，选择 PetroCASH 作为钱包类型，然后生成并扫描新的二维码。"
         },
         "sign": {
           "title": "二维码错误",
@@ -13457,7 +13457,7 @@
     "deactivate_error_non_zero_balance_stellar": "此钱包中仍有 {{balance}} {{symbol}}。您必须先将其全部转出或兑换，然后才能在 Stellar 上停用此资产。"
   },
   "pro_hub": {
-    "title": "MetaMask Orange",
+    "title": "PetroCASH Orange",
     "manage": "管理订阅",
     "manage_membership": "管理会员",
     "also_included": {
@@ -13473,7 +13473,7 @@
       },
       "disclaimer": "各项限额会每月重置。APY 为浮动值，不作保证。权益和卡片的可用性因地区而异。"
     },
-    "membership_brand": "METAMASK",
+    "membership_brand": "PetroCASH",
     "membership_label": "专业",
     "membership_status": {
       "active": "活跃",
@@ -13512,7 +13512,7 @@
       "retry": "请重试"
     },
     "physical_card": {
-      "title": "申领免费的 MetaMask Card",
+      "title": "申领免费的 Card",
       "description": "消费可获 3% mUSD 返现",
       "trial_title": "Unlock {{rate}} mUSD back",
       "trial_description": "Unlock card when you complete your free trial"
@@ -13592,7 +13592,7 @@
     }
   },
   "pro_subscription": {
-    "title": "MetaMask Orange",
+    "title": "PetroCASH Orange",
     "description": "{{monthlyPrice}}/月（年度会员 {{annualPrice}}）",
     "description_monthly": "{{monthlyPrice}}/月",
     "description_annual": "年度会员 {{annualPrice}}",
@@ -13667,7 +13667,7 @@
         ]
       },
       "member_pricing": {
-        "description": "以下免收 MetaMask 手续费：",
+        "description": "以下免收 PetroCASH 手续费：",
         "points": [
           "兑换 $500/月",
           "永续合约 $1,000/月",
@@ -13675,11 +13675,11 @@
         ]
       },
       "atm_fees": {
-        "description": "MetaMask 卡面向年度会员免费寄送。可在全球超 1.5 亿家商户使用，凡接受 Mastercard 之处均可使用——MetaMask 不收取 ATM 手续费或外汇交易费用。",
-        "description_monthly": "MetaMask 卡可供月度会员单独获取。可在全球超 1.5 亿家商户使用，凡接受 Mastercard 之处均可使用——MetaMask 不收取 ATM 手续费或外汇交易费用。"
+        "description": "PetroCASH 卡面向年度会员免费寄送。可在全球超 1.5 亿家商户使用，凡接受 Mastercard 之处均可使用——PetroCASH 不收取 ATM 手续费或外汇交易费用。",
+        "description_monthly": "PetroCASH 卡可供月度会员单独获取。可在全球超 1.5 亿家商户使用，凡接受 Mastercard 之处均可使用——PetroCASH 不收取 ATM 手续费或外汇交易费用。"
       },
       "protection": {
-        "description": "每月最多 100 笔 MetaMask 扩展交易可获得保障，最高 $10,000。当交易受保障时，会员会在应用内收到清晰提醒。",
+        "description": "每月最多 100 笔 PetroCASH 扩展交易可获得保障，最高 $10,000。当交易受保障时，会员会在应用内收到清晰提醒。",
         "sub_description": "保障包括：",
         "points": [
           "去中心化金融兑换",

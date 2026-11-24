@@ -289,3 +289,6 @@ sourcemaps/**/*.js.map
 *.jks
 *.p12
 *.keystore
+
+# Full flags snapshot is withheld pending explicit publication/private-storage decision.
+/brand/feature-flags.json

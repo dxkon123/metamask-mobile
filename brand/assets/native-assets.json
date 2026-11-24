@@ -173,5 +173,355 @@
     "path": "android/app/src/main/res/mipmap-xxxhdpi/splash.png",
     "width": 576,
     "height": 576
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/100.png",
+    "width": 100,
+    "height": 100
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/1024.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/114.png",
+    "width": 114,
+    "height": 114
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/120.png",
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/144.png",
+    "width": 144,
+    "height": 144
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/152.png",
+    "width": 152,
+    "height": 152
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/167.png",
+    "width": 167,
+    "height": 167
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/180.png",
+    "width": 180,
+    "height": 180
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/20.png",
+    "width": 20,
+    "height": 20
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/29.png",
+    "width": 29,
+    "height": 29
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/40.png",
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/50.png",
+    "width": 50,
+    "height": 50
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/57.png",
+    "width": 57,
+    "height": 57
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/58.png",
+    "width": 58,
+    "height": 58
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/60.png",
+    "width": 60,
+    "height": 60
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/72.png",
+    "width": 72,
+    "height": 72
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/76.png",
+    "width": 76,
+    "height": 76
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/80.png",
+    "width": 80,
+    "height": 80
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon-Flask.appiconset/87.png",
+    "width": 87,
+    "height": 87
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/1024_dark.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/1024_light.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/1024_tinted.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/114_dark.png",
+    "width": 114,
+    "height": 114
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/114_light.png",
+    "width": 114,
+    "height": 114
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/114_tinted.png",
+    "width": 114,
+    "height": 114
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/120_1_dark.png",
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/120_1_light.png",
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/120_1_tinted.png",
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/120_dark.png",
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/120_light.png",
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/120_tinted.png",
+    "width": 120,
+    "height": 120
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/128_dark.png",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/128_light.png",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/128_tinted.png",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/136_dark.png",
+    "width": 136,
+    "height": 136
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/136_light.png",
+    "width": 136,
+    "height": 136
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/136_tinted.png",
+    "width": 136,
+    "height": 136
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/152_dark.png",
+    "width": 152,
+    "height": 152
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/152_light.png",
+    "width": 152,
+    "height": 152
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/152_tinted.png",
+    "width": 152,
+    "height": 152
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/167_dark.png",
+    "width": 167,
+    "height": 167
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/167_light.png",
+    "width": 167,
+    "height": 167
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/167_tinted.png",
+    "width": 167,
+    "height": 167
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/180_dark.png",
+    "width": 180,
+    "height": 180
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/180_light.png",
+    "width": 180,
+    "height": 180
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/180_tinted.png",
+    "width": 180,
+    "height": 180
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/192_dark.png",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/192_light.png",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/192_tinted.png",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/40_dark.png",
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/40_light.png",
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/40_tinted.png",
+    "width": 40,
+    "height": 40
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/58_dark.png",
+    "width": 58,
+    "height": 58
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/58_light.png",
+    "width": 58,
+    "height": 58
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/58_tinted.png",
+    "width": 58,
+    "height": 58
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/60_dark.png",
+    "width": 60,
+    "height": 60
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/60_light.png",
+    "width": 60,
+    "height": 60
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/60_tinted.png",
+    "width": 60,
+    "height": 60
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/76_dark.png",
+    "width": 76,
+    "height": 76
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/76_light.png",
+    "width": 76,
+    "height": 76
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/76_tinted.png",
+    "width": 76,
+    "height": 76
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/80_dark.png",
+    "width": 80,
+    "height": 80
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/80_light.png",
+    "width": 80,
+    "height": 80
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/80_tinted.png",
+    "width": 80,
+    "height": 80
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/87_dark.png",
+    "width": 87,
+    "height": 87
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/87_light.png",
+    "width": 87,
+    "height": 87
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/AppIcon.appiconset/87_tinted.png",
+    "width": 87,
+    "height": 87
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/fox-splash-screen.imageset/splash@1x.png",
+    "width": 144,
+    "height": 144
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/fox-splash-screen.imageset/splash@2x.png",
+    "width": 288,
+    "height": 288
+  },
+  {
+    "path": "ios/MetaMask/Images.xcassets/fox-splash-screen.imageset/splash@3x.png",
+    "width": 432,
+    "height": 432
   }
 ]

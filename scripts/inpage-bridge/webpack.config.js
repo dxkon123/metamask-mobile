@@ -11,7 +11,7 @@ function getBuildIcon() {
 
 // Get the build type from environment variable
 const isBuildTypeFlask = process.env.METAMASK_BUILD_TYPE === 'flask';
-const appId = isBuildTypeFlask ? 'io.metamask.mobile.flask' : 'io.metamask.mobile';
+const appId = isBuildTypeFlask ? "org.petrocash.wallet.flask" : "org.petrocash.wallet";
 
 const config = {
   entry: './src/index.js',
@@ -52,7 +52,7 @@ const config = {
       process: 'process/browser',
     }),
     new webpack.DefinePlugin({
-      'process.env.METAMASK_BUILD_NAME': JSON.stringify('MetaMask'),
+      'process.env.METAMASK_BUILD_NAME': JSON.stringify("PetroCASH"),
       'process.env.METAMASK_BUILD_ICON': JSON.stringify(getBuildIcon()),
       'process.env.METAMASK_BUILD_APP_ID': JSON.stringify(appId),
     }),

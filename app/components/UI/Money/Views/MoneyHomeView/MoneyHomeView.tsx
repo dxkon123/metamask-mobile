@@ -1043,7 +1043,7 @@ const MoneyHomeView = () => {
 
   const metamaskCardSection = metamaskCardMode
     ? {
-        key: 'metamask-card',
+        key: "PetroCASH-card",
         node: (
           <MoneyMetaMaskCard
             mode={metamaskCardMode}

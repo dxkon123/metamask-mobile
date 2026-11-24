@@ -113,7 +113,7 @@ const PaidByMetaMask = () => (
         textAlign: 'center',
         fontWeight: 'normal',
       },
-      testID: 'paid-by-metamask',
+      testID: "paid-by-PetroCASH",
     }}
   >
     {strings('transactions.paid_by_metamask')}

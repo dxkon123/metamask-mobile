@@ -466,7 +466,7 @@ const QRScanner = ({
 
       let data = {};
 
-      if (content.split('metamask-sync:').length > 1) {
+      if (content.split("PetroCASH-sync:").length > 1) {
         shouldReadBarCodeRef.current = false;
         data = { content };
         if (onStartScan) {

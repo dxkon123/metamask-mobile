@@ -124,12 +124,12 @@ for (const asset of assets) {
       width: asset.width,
       height: asset.height,
       channels: 4,
-      background: transparent ? '#00000000' : brand.colors.backgroundDark,
+      background: transparent ? '#00000000' : asset.path.includes('_light') ? brand.colors.backgroundLight : brand.colors.backgroundDark,
     },
   });
   if (!background) {
     const fraction = asset.path.includes('foreground') ? 0.6 : 0.74;
-    const logo = await sharp(notification ? white : source)
+    const logo = await sharp(notification || asset.path.includes('_tinted') ? white : source)
       .resize(
         Math.max(1, Math.round(asset.width * fraction)),
         Math.max(1, Math.round(asset.height * fraction)),
@@ -161,3 +161,6 @@ await sharp({
 console.log(
   `Applied ${brand.name}: ${brand.applicationId}; ${assets.length} native images retain exact dimensions.`,
 );
+
+await import('./apply-text.ts');
+await import('./apply-assets.ts');
