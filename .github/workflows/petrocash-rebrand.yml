@@ -9,11 +9,6 @@ on:
 permissions:
   contents: read
 
-env:
-  # A branch-only push can retry the reviewed source without editing main.
-  # Later pushes build themselves unless they explicitly request this candidate.
-  PETROCASH_SOURCE_REF: ${{ contains(github.event.head_commit.message, '[candidate-1c35f1f5]') && '1c35f1f55c03f2b3c089336de99739681a9bf600' || github.sha }}
-
 concurrency:
   group: petrocash-${{ github.ref }}-${{ github.sha }}
   cancel-in-progress: false
@@ -42,7 +37,7 @@ jobs:
       - name: Checkout exact selected source commit
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
-          ref: ${{ env.PETROCASH_SOURCE_REF }}
+          ref: ${{ github.sha }}
           # Fetch the pinned base through checkout's authenticated contents:read access.
           fetch-depth: 0
           persist-credentials: false
@@ -200,11 +195,29 @@ jobs:
           (cd build/petrocash && sha256sum PetroCASH-TEST-1.0.0.apk > SHA256SUMS.txt)
 
       - name: Save verified APK to a private draft before AAB and long checks
+        id: draft
         if: steps.apk.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 5
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
-        run: GITHUB_SHA="$(git rev-parse HEAD)" bash scripts/rebrand/publish-draft.sh build/petrocash
+        run: bash scripts/rebrand/publish-draft.sh build/petrocash
+      - name: Retain verified APK for one day if draft upload fails
+        id: apk_artifact
+        if: always() && steps.apk.outcome == 'success' && steps.draft.outcome != 'success'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: petrocash-apk-${{ github.sha }}
+          path: |
+            build/petrocash/PetroCASH-TEST-1.0.0.apk
+            build/petrocash/SHA256SUMS.txt
+            build/petrocash/artifact-metadata.json
+            build/petrocash/apk-badging.txt
+            build/petrocash/apk-signature.txt
+            build/petrocash/verification.json
+          retention-days: 1
+          if-no-files-found: error
       - name: Build signed test Android App Bundle
         if: steps.apk.outcome == 'success'
         timeout-minutes: 60
@@ -231,14 +244,18 @@ jobs:
           cd build/petrocash
           sha256sum PetroCASH-source.zip >> SHA256SUMS.txt
       - name: Save complete delivery to the same private draft
+        continue-on-error: true
+        timeout-minutes: 5
         if: steps.apk.outcome == 'success'
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
-        run: GITHUB_SHA="$(git rev-parse HEAD)" bash scripts/rebrand/publish-draft.sh build/petrocash
-      - name: Enforce verified APK outcome
+        run: bash scripts/rebrand/publish-draft.sh build/petrocash
+      - name: Enforce verified and retained APK outcome
         if: always()
-        run: test '${{ steps.apk.outcome }}' = success
+        run: |
+          test '${{ steps.apk.outcome }}' = success
+          test '${{ steps.draft.outcome }}' = success || test '${{ steps.apk_artifact.outcome }}' = success
 
   upstream-quality:
     name: Upstream ${{ matrix.kind }} ${{ matrix.shard }}
@@ -280,7 +297,7 @@ jobs:
       - name: Checkout exact selected source commit
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
-          ref: ${{ env.PETROCASH_SOURCE_REF }}
+          ref: ${{ github.sha }}
           fetch-depth: 0
           persist-credentials: false
       - name: Configure upstream Node version

@@ -1,0 +1,15 @@
+{
+  "runId": 45382420486,
+  "commit": "412735fce724678c203c36d70103721ffb30dfa6",
+  "jobId": 138404578642,
+  "draftCreate": "PASS",
+  "draftUpload": "PASS",
+  "downloadByteComparison": "PASS",
+  "temporaryDraftCleanup": "PASS",
+  "releaseListAfterCleanup": [],
+  "artifactUpload": "PASS",
+  "artifactId": 14914851383,
+  "artifactExpiresAt": "2026-11-25T11:15:28Z",
+  "conclusion": "Same token scope succeeds at current triggering SHA; remove older source/target override.",
+  "nativeRebuildStarted": false
+}

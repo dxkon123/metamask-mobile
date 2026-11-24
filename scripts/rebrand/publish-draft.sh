@@ -5,6 +5,11 @@ set -euo pipefail
 : "${GH_REPO:?Repository is required}"
 : "${GITHUB_SHA:?Source SHA is required}"
 : "${GITHUB_RUN_ID:?Run ID is required}"
+source_commit="$(git rev-parse HEAD)"
+if [ "$source_commit" != "$GITHUB_SHA" ]; then
+  echo 'Refusing mismatched build/workflow commit; use a push that builds its own SHA.' >&2
+  exit 2
+fi
 delivery_dir="${1:-build/petrocash}"
 draft_tag="study-${GITHUB_RUN_ID}-${GITHUB_SHA:0:12}"
 draft_label="$(node -p 'const b = require("./brand/brand.config.json"); `${b.name} ${b.versionName} TEST - study build`')"

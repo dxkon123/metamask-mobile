@@ -150,3 +150,7 @@ Public remote configuration may contain service auth fields: inspect frontendAut
 - owner 已明确允许本次后备：公开 Actions APK artifact 只保留 1 天。必须在签名/包名/checksum 验证后立即保存，再试草稿/AAB。只保留 APK 和公开校验元数据，不上传构建配置、完整日志、钥匙或 service secrets。一天保留会过期，不能承诺长期可下载。公开 Release 仍未授权。
 - test:unit 脚本已经列出所有测试根目录；追加路径不会缩小范围。相关测试用 yarn jest --runTestsByPath <明确文件列表>，不删除失败套件、不跳过测试。
 - rebrand 不能把生产/测试签名 host 全设为同一个域名；它们参与签名规范化，必须保留上游协议常量。TS1117 是真实问题。
+
+### 小文件探测的实际结果（不要只凭文档猜测）
+
+45382420486 证明 Contents:write 以当前触发 SHA 创建草稿、上传、下载校对、删除草稿都成功。旧失败组合是 workflow SHA=f3cf、构建和 Release target=1c35。修复为每次构建自己的触发 SHA，不再把 GITHUB_SHA 强行覆盖为旧源码。官方 workflow 权限门禁是背景说明；具体可用性以小文件实测为准。构建后草稿失败则进入一天 APK artifact 后备，长 AAB/质量检查前先保存。
