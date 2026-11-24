@@ -1,4 +1,5 @@
 import AppConstants from '../../../AppConstants';
+import { normalizeBrandDeeplink } from '../../../Brand/deeplink';
 import { ACTIONS, PROTOCOLS } from '../../../../constants/deeplinks';
 
 const {
@@ -87,7 +88,7 @@ export const isSDKServiceDeeplink = (
   if (!url) return false;
 
   try {
-    const urlObj = new URL(url);
+    const urlObj = new URL(normalizeBrandDeeplink(url));
     const protocol = urlObj.protocol.replace(':', '');
 
     if (protocol === PROTOCOLS.WC) {
@@ -128,7 +129,11 @@ export const isInternalDeepLink = (url: string | null | undefined): boolean => {
 
   // Check custom schemes first (more efficient for these cases)
   const internalSchemes = ['metamask:', 'ethereum:', 'dapp:', 'solana:'];
-  if (internalSchemes.some((scheme) => url.startsWith(scheme))) {
+  if (
+    internalSchemes.some((scheme) =>
+      normalizeBrandDeeplink(url).startsWith(scheme),
+    )
+  ) {
     return true;
   }
 

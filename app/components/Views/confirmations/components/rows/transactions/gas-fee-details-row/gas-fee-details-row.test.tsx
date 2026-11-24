@@ -376,7 +376,7 @@ describe('GasFeesDetailsRow', () => {
       },
     );
 
-    expect(getByText('Paid by MetaMask')).toBeDefined();
+    expect(getByText('Paid by PetroCASH')).toBeDefined();
     expect(queryByText('ETH')).toBeNull();
   });
 
@@ -414,7 +414,7 @@ describe('GasFeesDetailsRow', () => {
       state: createStateWithSimulationData(),
     });
 
-    expect(queryByText('MetaMask fee: $0.12')).toBeNull();
+    expect(queryByText('PetroCASH fee: $0.12')).toBeNull();
   });
 
   it('shows MetaMask fee info when metaMaskFee is higher than 0x0', () => {

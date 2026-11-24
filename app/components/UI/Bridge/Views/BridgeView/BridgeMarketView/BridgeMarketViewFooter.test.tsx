@@ -387,7 +387,7 @@ describe('BridgeMarketViewFooter', () => {
       await waitFor(() => {
         expect(
           getByTestId(BridgeViewSelectorsIDs.FEE_DISCLAIMER),
-        ).toHaveTextContent('Includes 0.575% MetaMask fee');
+        ).toHaveTextContent('Includes 0.575% PetroCASH fee');
       });
     });
 
@@ -445,7 +445,7 @@ describe('BridgeMarketViewFooter', () => {
           expect(
             getByTestId(BridgeViewSelectorsIDs.FEE_DISCLAIMER),
           ).toHaveTextContent(
-            `${expectedBadgeLabel ?? ''}0.9%0.575% MetaMask fee`,
+            `${expectedBadgeLabel ?? ''}0.9%0.575% PetroCASH fee`,
           );
         });
       },
@@ -479,7 +479,7 @@ describe('BridgeMarketViewFooter', () => {
         ).toHaveTextContent(`0.875%${strings('bridge.no_fees_with_orange')}`);
         expect(
           getByTestId(BridgeViewSelectorsIDs.FEE_DISCLAIMER),
-        ).not.toHaveTextContent('MetaMask fee');
+        ).not.toHaveTextContent('PetroCASH fee');
       });
     });
 

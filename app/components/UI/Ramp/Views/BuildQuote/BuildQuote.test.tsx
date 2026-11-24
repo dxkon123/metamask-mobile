@@ -431,7 +431,7 @@ describe('BuildQuote', () => {
       const amountInput = getByTestId(BuildQuoteSelectors.AMOUNT_INPUT);
       const currencySymbol = within(amountInput).getByText('$');
 
-      expect(currencySymbol).toHaveStyle({ fontFamily: 'GrotzecCond-Bold' });
+      expect(currencySymbol).toHaveStyle({ fontFamily: 'Inter-SemiBold' });
     });
 
     it('updates amount from string input (empty string maps to "0")', async () => {

@@ -381,7 +381,7 @@ describe('NotificationSettingsSectionContent', () => {
 
     expect(
       screen.getByText(
-        'By turning this on, you agree to receive product news and marketing updates from MetaMask.',
+        'By turning this on, you agree to receive product news and marketing updates from PetroCASH.',
       ),
     ).toBeOnTheScreen();
   });
@@ -391,7 +391,7 @@ describe('NotificationSettingsSectionContent', () => {
 
     expect(
       screen.queryByText(
-        'By turning this on, you agree to receive product news and marketing updates from MetaMask.',
+        'By turning this on, you agree to receive product news and marketing updates from PetroCASH.',
       ),
     ).not.toBeOnTheScreen();
   });

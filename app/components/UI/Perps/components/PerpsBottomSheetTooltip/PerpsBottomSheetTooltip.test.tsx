@@ -247,7 +247,7 @@ describe('PerpsBottomSheetTooltip', () => {
     );
 
     expect(getByText('Fees')).toBeTruthy();
-    expect(getByText('MetaMask fee')).toBeTruthy();
+    expect(getByText('PetroCASH fee')).toBeTruthy();
     expect(getByText('Provider fee')).toBeTruthy();
     // MetaMask fee should show 0.100%
     expect(getByText('0.100%')).toBeTruthy();

@@ -110,7 +110,7 @@ describe('CreateVirtualBankAccount', () => {
     );
 
     expect(getByText('Add funds from your bank')).toBeOnTheScreen();
-    expect(getByText('No fees from MetaMask')).toBeOnTheScreen();
+    expect(getByText('No fees from PetroCASH')).toBeOnTheScreen();
     expect(getByText('Arrives in a few business days')).toBeOnTheScreen();
     expect(getByText('Set up once, use anytime')).toBeOnTheScreen();
     expect(getByText('Starts earning right away')).toBeOnTheScreen();

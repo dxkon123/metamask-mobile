@@ -1,4 +1,5 @@
 import { PROTOCOLS } from '../../../constants/deeplinks';
+import { normalizeBrandDeeplink } from '../../Brand/deeplink';
 import SDKConnect from '../../SDKConnect/SDKConnect';
 import Logger from '../../../util/Logger';
 import DevLogger from '../../SDKConnect/utils/DevLogger';
@@ -27,7 +28,7 @@ export type DeeplinkParseMode = 'execute' | 'resolve';
 
 async function parseDeeplink({
   deeplinkManager: instance,
-  url,
+  url: incomingUrl,
   origin,
   browserCallBack,
   onHandled,
@@ -42,6 +43,7 @@ async function parseDeeplink({
   mode?: DeeplinkParseMode;
   processedTraceToken?: DeeplinkTraceToken | null;
 }): Promise<boolean | DeeplinkIntent | null> {
+  const url = normalizeBrandDeeplink(incomingUrl);
   try {
     const validatedUrl = new URL(url);
     DevLogger.log('DeepLinkManager:parse validatedUrl', validatedUrl);

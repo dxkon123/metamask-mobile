@@ -1,3 +1,6 @@
+jest.mock('../../../core/Brand/animationConfig', () => ({
+  useLegacyBrandAnimation: true,
+}));
 import React, { createRef } from 'react';
 import { render } from '@testing-library/react-native';
 import { brandColor } from '@metamask/design-tokens';

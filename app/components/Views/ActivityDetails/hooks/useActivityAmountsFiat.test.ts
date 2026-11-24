@@ -231,7 +231,7 @@ describe('useActivityAmountsFiat', () => {
     expect(result.current.feeRows).toStrictEqual([
       {
         label: 'Network fee',
-        value: 'Paid by MetaMask',
+        value: 'Paid by PetroCASH',
         fee: sponsoredFee,
       },
     ]);

@@ -2286,7 +2286,7 @@ exports[`SnapUIRenderer renders footers 1`] = `
 
 exports[`SnapUIRenderer renders loading state 1`] = `
 <ActivityIndicator
-  color="#4459ff"
+  color="#C90047"
   size="large"
 />
 `;
@@ -2627,7 +2627,7 @@ exports[`SnapUIRenderer supports fields with multiple components 1`] = `
                         style={
                           [
                             {
-                              "color": "#4459ff",
+                              "color": "#C90047",
                               "fontFamily": "Inter-Medium",
                               "fontSize": 16,
                               "letterSpacing": 0,

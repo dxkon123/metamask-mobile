@@ -49,7 +49,7 @@ describe('FeesTooltipContent', () => {
       />,
     );
 
-    expect(getByText('25% off the MetaMask fee.')).toBeOnTheScreen();
+    expect(getByText('25% off the PetroCASH fee.')).toBeOnTheScreen();
     expect(
       getByTestId(PerpsFeesTooltipSelectorsIDs.PROMOTIONAL_BANNER_SEAL),
     ).toBeOnTheScreen();
@@ -103,7 +103,7 @@ describe('FeesTooltipContent', () => {
     );
 
     expect(
-      getByText("You're saving 25% on the MetaMask fee."),
+      getByText("You're saving 25% on the PetroCASH fee."),
     ).toBeOnTheScreen();
     expect(
       queryByTestId(MembershipVipBadgeSelectorsIDs.VIP_BADGE),
@@ -117,7 +117,7 @@ describe('FeesTooltipContent', () => {
     );
 
     // Assert
-    expect(getByText('MetaMask fee')).toBeTruthy();
+    expect(getByText('PetroCASH fee')).toBeTruthy();
     expect(getByText('Provider fee')).toBeTruthy();
   });
 
@@ -283,7 +283,7 @@ describe('FeesTooltipContent', () => {
     const { getByText } = render(<FeesTooltipContent testID="fees-tooltip" />);
 
     // Assert
-    expect(getByText('MetaMask fee')).toBeTruthy();
+    expect(getByText('PetroCASH fee')).toBeTruthy();
     expect(getByText('Provider fee')).toBeTruthy();
   });
 });

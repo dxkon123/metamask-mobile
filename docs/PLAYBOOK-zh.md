@@ -154,3 +154,9 @@ Public remote configuration may contain service auth fields: inspect frontendAut
 ### 小文件探测的实际结果（不要只凭文档猜测）
 
 45382420486 证明 Contents:write 以当前触发 SHA 创建草稿、上传、下载校对、删除草稿都成功。旧失败组合是 workflow SHA=f3cf、构建和 Release target=1c35。修复为每次构建自己的触发 SHA，不再把 GITHUB_SHA 强行覆盖为旧源码。官方 workflow 权限门禁是背景说明；具体可用性以小文件实测为准。构建后草稿失败则进入一天 APK artifact 后备，长 AAB/质量检查前先保存。
+
+### 相关测试仍然可能拖成全仓任务
+
+Jest配置默认collectCoverageFrom覆盖大量源码。即使用了runTestsByPath，若不关调试coverage，测试结束后仍会扫描/插桩全仓，Mac可能heap耗尽。相关问题复现用 --runTestsByPath 精确列表及 --coverage=false；完整发行检查仍保留原coverage流程。记录实际套件和断言数，不把相关通过当全套通过。Reanimated的ES模块导出不可spyOn重定义：mock保留 __esModule/default，仅包装需要观察的函数；真实设备动画仍要另测。
+
+恢复上游canonical签名host，不代表把PetroCASH域名伪装为上游签名origin。新的petrocash://只做custom scheme别名，不改HTTPS host、不改签名实现、不自动批准。支持URL保留原mobile_app查询参数，帮助链接的?与&测试仍有效。实际资产MetaMask USD和API fixture不应为了让测试通过被改名。

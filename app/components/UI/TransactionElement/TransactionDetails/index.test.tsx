@@ -543,7 +543,7 @@ describe('TransactionDetails', () => {
     });
 
     expect(screen.getByTestId('paid-by-metamask')).toBeOnTheScreen();
-    expect(screen.getByText('Paid by MetaMask')).toBeOnTheScreen();
+    expect(screen.getByText('Paid by PetroCASH')).toBeOnTheScreen();
   });
 
   it('does not show "Paid by MetaMask" when isGasFeeSponsored is false', () => {
@@ -551,7 +551,7 @@ describe('TransactionDetails', () => {
       state: initialState,
     });
 
-    expect(screen.queryByText('Paid by MetaMask')).not.toBeOnTheScreen();
+    expect(screen.queryByText('Paid by PetroCASH')).not.toBeOnTheScreen();
   });
 
   it('does not show "Paid by MetaMask" for hardware wallet even when isGasFeeSponsored is true', () => {
@@ -566,7 +566,7 @@ describe('TransactionDetails', () => {
     });
 
     expect(screen.queryByTestId('paid-by-metamask')).not.toBeOnTheScreen();
-    expect(screen.queryByText('Paid by MetaMask')).not.toBeOnTheScreen();
+    expect(screen.queryByText('Paid by PetroCASH')).not.toBeOnTheScreen();
   });
 
   it('does not show "Paid by MetaMask" for revoke delegation even when isGasFeeSponsored is true', () => {
@@ -579,6 +579,6 @@ describe('TransactionDetails', () => {
     });
 
     expect(screen.queryByTestId('paid-by-metamask')).not.toBeOnTheScreen();
-    expect(screen.queryByText('Paid by MetaMask')).not.toBeOnTheScreen();
+    expect(screen.queryByText('Paid by PetroCASH')).not.toBeOnTheScreen();
   });
 });

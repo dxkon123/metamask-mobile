@@ -1,7 +1,8 @@
 const MOBILE_UTM = '?utm_source=mobile_app';
 
 // Support
-export const METAMASK_SUPPORT_URL = `https://petrocash.org/support`;
+export const METAMASK_SUPPORT_URL =
+  'https://petrocash.org/support' + MOBILE_UTM;
 export const SRP_GUIDE_URL = `https://petrocash.org/support`;
 export const PRIVATE_KEY_GUIDE_URL = `https://petrocash.org/support`;
 export const SRP_DOS_AND_DONTS_URL = `https://petrocash.org/support`;

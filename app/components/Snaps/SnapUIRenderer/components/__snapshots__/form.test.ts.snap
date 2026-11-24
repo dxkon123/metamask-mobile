@@ -220,7 +220,7 @@ exports[`SnapUIForm will render 1`] = `
                   style={
                     [
                       {
-                        "color": "#4459ff",
+                        "color": "#C90047",
                         "fontFamily": "Inter-Medium",
                         "fontSize": 16,
                         "letterSpacing": 0,
@@ -718,7 +718,7 @@ exports[`SnapUIForm will render with fields 1`] = `
                       {
                         "alignItems": "center",
                         "backgroundColor": "#ffffff",
-                        "borderColor": "#4459ff",
+                        "borderColor": "#C90047",
                         "borderRadius": 99,
                         "borderWidth": 2,
                         "height": 20,
@@ -730,7 +730,7 @@ exports[`SnapUIForm will render with fields 1`] = `
                     <View
                       style={
                         {
-                          "backgroundColor": "#4459ff",
+                          "backgroundColor": "#C90047",
                           "borderRadius": 99,
                           "height": 12,
                           "width": 12,
@@ -1216,7 +1216,7 @@ exports[`SnapUIForm will render with fields 1`] = `
                   style={
                     [
                       {
-                        "color": "#4459ff",
+                        "color": "#C90047",
                         "fontFamily": "Inter-Medium",
                         "fontSize": 16,
                         "letterSpacing": 0,

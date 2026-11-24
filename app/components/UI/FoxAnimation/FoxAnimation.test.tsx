@@ -1,3 +1,6 @@
+jest.mock('../../../core/Brand/animationConfig', () => ({
+  useLegacyBrandAnimation: true,
+}));
 import React from 'react';
 import { Platform } from 'react-native';
 import { render, act } from '@testing-library/react-native';

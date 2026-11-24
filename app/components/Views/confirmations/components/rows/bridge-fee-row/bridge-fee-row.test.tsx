@@ -294,7 +294,7 @@ describe('BridgeFeeRow', () => {
         type: TransactionType.perpsDeposit,
       });
 
-      expect(getByText('Paid by MetaMask')).toBeOnTheScreen();
+      expect(getByText('Paid by PetroCASH')).toBeOnTheScreen();
       expect(queryByTestId('transaction-fee')).toBeNull();
     });
 
@@ -306,7 +306,7 @@ describe('BridgeFeeRow', () => {
         type: TransactionType.moneyAccountDeposit,
       });
 
-      expect(getByText('Paid by MetaMask')).toBeOnTheScreen();
+      expect(getByText('Paid by PetroCASH')).toBeOnTheScreen();
       expect(queryByTestId('transaction-fee')).toBeNull();
     });
 
@@ -329,7 +329,7 @@ describe('BridgeFeeRow', () => {
       });
 
       expect(getByText('$0')).toBeOnTheScreen();
-      expect(queryByText('Paid by MetaMask')).toBeNull();
+      expect(queryByText('Paid by PetroCASH')).toBeNull();
     });
 
     it('renders fee value (not paid by MetaMask) for perpsDeposit with all-zero fees', () => {
@@ -340,7 +340,7 @@ describe('BridgeFeeRow', () => {
       });
 
       expect(getByText('$0')).toBeOnTheScreen();
-      expect(queryByText('Paid by MetaMask')).toBeNull();
+      expect(queryByText('Paid by PetroCASH')).toBeNull();
       expect(getByTestId('info-row-tooltip-open-btn')).toBeOnTheScreen();
     });
 
@@ -350,7 +350,7 @@ describe('BridgeFeeRow', () => {
       });
 
       expect(getByText('$1.23')).toBeOnTheScreen();
-      expect(queryByText('Paid by MetaMask')).toBeNull();
+      expect(queryByText('Paid by PetroCASH')).toBeNull();
       expect(getByTestId('info-row-tooltip-open-btn')).toBeOnTheScreen();
     });
 
@@ -363,7 +363,7 @@ describe('BridgeFeeRow', () => {
       });
 
       expect(getByTestId('bridge-fee-row-skeleton')).toBeOnTheScreen();
-      expect(queryByText('Paid by MetaMask')).toBeNull();
+      expect(queryByText('Paid by PetroCASH')).toBeNull();
       expect(queryByTestId('transaction-fee')).toBeNull();
     });
 
@@ -375,7 +375,7 @@ describe('BridgeFeeRow', () => {
         type: TransactionType.perpsDeposit,
       });
 
-      expect(queryByText('Paid by MetaMask')).toBeNull();
+      expect(queryByText('Paid by PetroCASH')).toBeNull();
       // feeTotalUsd useMemo returns '' when totals?.fees is falsy; here fees
       // exist so we render the $ Text with the formatted zero total.
       expect(queryByTestId('transaction-fee')).toBeOnTheScreen();
@@ -396,7 +396,7 @@ describe('BridgeFeeRow', () => {
         type: TransactionType.perpsDeposit,
       });
 
-      expect(getByText('Paid by MetaMask')).toBeOnTheScreen();
+      expect(getByText('Paid by PetroCASH')).toBeOnTheScreen();
       expect(queryByTestId('transaction-fee')).toBeNull();
     });
   });
@@ -444,7 +444,7 @@ describe('BridgeFeeRow', () => {
       });
 
       expect(
-        getByText('MetaMask will swap to your desired token for you.'),
+        getByText('PetroCASH will swap to your desired token for you.'),
       ).toBeOnTheScreen();
     });
   });

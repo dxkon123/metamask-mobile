@@ -246,7 +246,7 @@ describe('ConfirmMembershipContent', () => {
     expect(
       getByTestId(ConfirmMembershipApprovalTestIds.DISCLAIMER),
     ).toHaveTextContent(
-      `${strings('confirm_membership.start_trial')}", you authorize MetaMask to charge $49.99/year. Renews on Nov 19, 2026.`,
+      `${strings('confirm_membership.start_trial')}", you authorize PetroCASH to charge $49.99/year. Renews on Nov 19, 2026.`,
       { exact: false },
     );
   });

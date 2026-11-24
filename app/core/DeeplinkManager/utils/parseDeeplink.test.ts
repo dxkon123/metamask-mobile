@@ -130,6 +130,24 @@ describe('parseDeeplink', () => {
     });
   });
 
+  it('routes the brand scheme through the existing universal-link handler', async () => {
+    const url = 'petrocash://home';
+
+    await parseDeeplink({
+      deeplinkManager: instance,
+      url,
+      origin: 'testOrigin',
+    });
+
+    expect(mockHandleUniversalLinks).toHaveBeenCalledWith(
+      expect.objectContaining({
+        url: 'https://link.metamask.io/home',
+        source: 'testOrigin',
+        mode: 'execute',
+      }),
+    );
+  });
+
   it('calls handleWCProtocol for WC protocol', async () => {
     const url = 'wc://example.com';
     const { params } = extractURLParams(url);

@@ -1358,7 +1358,7 @@ describe('SignUp Component', () => {
       const { sign_up: signUp, set_phone_number: setPhoneNumber } =
         en.card.card_onboarding;
 
-      expect(signUp.title).toBe('Set up your MetaMask Card');
+      expect(signUp.title).toBe('Set up your Card');
       expect(signUp.description).toBe(
         'We need a few details to get your card ready.',
       );
@@ -1369,7 +1369,7 @@ describe('SignUp Component', () => {
         'Card purchases will come from this account.',
       );
       expect(signUp.i_already_have_an_account_immersve).toBe(
-        'I already have a MetaMask Card',
+        'I already have a Card',
       );
       expect(signUp.clickwrap_prefix).toBe(
         'By pressing "Next", you accept Immersve\'s ',

@@ -275,7 +275,7 @@ describe('BatchSellFinalReviewModal', () => {
     expect(getByText('$1.20')).toBeOnTheScreen();
     expect(getByText('Sell all')).toBeOnTheScreen();
     expect(sellAllButton.props.accessibilityState.disabled).not.toBe(true);
-    expect(getByText('Includes 1.25% MetaMask fee')).toBeOnTheScreen();
+    expect(getByText('Includes 1.25% PetroCASH fee')).toBeOnTheScreen();
   });
 
   it('hides the MetaMask fee disclosure when quoteBpsFee has no fee', () => {

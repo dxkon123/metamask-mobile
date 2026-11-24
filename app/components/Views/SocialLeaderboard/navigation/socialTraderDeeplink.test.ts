@@ -121,8 +121,8 @@ describe('buildSocialTraderShareContent', () => {
 });
 
 const profilePreview = {
-  title: 'Dip Spicy Maxi on MetaMask',
-  description: "See Dip Spicy Maxi's trades on MetaMask",
+  title: 'Dip Spicy Maxi on PetroCASH',
+  description: "See Dip Spicy Maxi's trades on PetroCASH",
   imageUrl: SOCIAL_SHARE_OPEN_GRAPH_IMAGE_URL,
 };
 const PROFILE_LONG_SHARE_URL = buildSocialLongShareUrl(

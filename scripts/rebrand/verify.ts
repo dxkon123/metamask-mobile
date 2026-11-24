@@ -16,6 +16,7 @@ const protectedRoots = [
   'app/core/Engine/controllers/permission-controller',
   'app/core/Signing',
   'app/core/Permissions',
+  'app/core/DeeplinkManager/utils/verifySignature.ts',
   // These UI-adjacent files also contain protocol/approval behavior.
   'app/components/Views/confirmations/constants/confirmations.ts',
   'app/components/Views/QRScanner/index.tsx',
@@ -23,14 +24,31 @@ const protectedRoots = [
   'app/components/UI/Money/utils/devErrorAlert.ts',
   'app/components/UI/Charts/AdvancedChart/webview/chartLogicString.ts',
 ];
-const changed = git('diff', '--name-only', base)
-  .split('\n')
-  .filter(Boolean);
+const changed = git('diff', '--name-only', base).split('\n').filter(Boolean);
 const protectedChanges = changed.filter((p) =>
   protectedRoots.some((prefix) => p.startsWith(prefix)),
 );
 if (protectedChanges.length)
   throw new Error(`Protected source changed: ${protectedChanges.join(', ')}`);
+const appConstantsPath = 'app/core/AppConstants.ts';
+const originalAppConstants = git('show', `${base}:${appConstantsPath}`);
+const currentAppConstants = readFileSync(appConstantsPath, 'utf8');
+for (const field of [
+  'MM_UNIVERSAL_LINK_HOST_ALTERNATE',
+  'MM_UNIVERSAL_LINK_TEST_APP_HOST',
+  'MM_UNIVERSAL_LINK_TEST_APP_HOST_ALTERNATE',
+  'MM_IO_UNIVERSAL_LINK_HOST',
+  'MM_IO_UNIVERSAL_LINK_TEST_HOST',
+  'MM_COM_UNIVERSAL_LINK_HOST',
+  'MM_COM_UNIVERSAL_LINK_TEST_HOST',
+  'MM_DEEP_LINK_PUBLIC_KEY_X',
+  'MM_DEEP_LINK_PUBLIC_KEY_Y',
+]) {
+  const literal = new RegExp(`\\b${field}:\\s*['\"]([^'\"]+)['\"]`, 'u');
+  const original = originalAppConstants.match(literal)?.[1];
+  if (!original || currentAppConstants.match(literal)?.[1] !== original)
+    throw new Error(`Signed-link protocol constant changed: ${field}`);
+}
 const manifestPath = 'android/app/src/main/AndroidManifest.xml';
 const permissionNames = (s: string): string[] =>
   [...s.matchAll(/<uses-permission(?:-sdk-23)?[\s\S]*?\/>/gu)]
@@ -77,6 +95,7 @@ writeFileSync(
       base,
       head: git('rev-parse', 'HEAD'),
       protectedSource: 'PASS',
+      signedLinkProtocolConstants: 'PASS',
       originalPermissions: 'PASS',
       originalFilesRetained: 'PASS',
       identity: config,

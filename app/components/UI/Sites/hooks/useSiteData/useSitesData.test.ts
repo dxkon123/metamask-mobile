@@ -18,7 +18,7 @@ global.fetch = jest.fn();
 
 const EXPECTED_PORTFOLIO_SITE = {
   id: 'metamask-portfolio',
-  name: 'MetaMask Portfolio',
+  name: 'Portfolio',
   url: 'https://portfolio.metamask.io',
   displayUrl: 'portfolio.metamask.io',
   logoUrl:

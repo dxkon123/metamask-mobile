@@ -99,7 +99,7 @@ describe('TokenDetailsFeedEmptyState', () => {
       ),
     ).toBeOnTheScreen();
     expect(screen.queryByText('Start your first post')).toBeNull();
-    expect(screen.queryByText('Create MetaMask Post')).toBeNull();
+    expect(screen.queryByText('Create PetroCASH Post')).toBeNull();
     expect(
       screen.getByTestId('token-details-feed-empty-megaphone'),
     ).toBeOnTheScreen();
@@ -111,7 +111,7 @@ describe('TokenDetailsFeedEmptyState', () => {
     expect(screen.getByText('Start your first post')).toBeOnTheScreen();
     expect(screen.queryByText('Post your trade')).toBeNull();
 
-    fireEvent.press(screen.getByText('Create MetaMask Post'));
+    fireEvent.press(screen.getByText('Create PetroCASH Post'));
 
     expect(mockOpenComposer).toHaveBeenCalledTimes(1);
     expect(mockOpenComposer).toHaveBeenCalledWith({
@@ -129,7 +129,7 @@ describe('TokenDetailsFeedEmptyState', () => {
 
     renderWithProvider(<TokenDetailsFeedEmptyState hasBalance token={token} />);
 
-    fireEvent.press(screen.getByText('Create MetaMask Post'));
+    fireEvent.press(screen.getByText('Create PetroCASH Post'));
 
     expect(mockOpenComposer).toHaveBeenCalledWith({
       position: expect.objectContaining({

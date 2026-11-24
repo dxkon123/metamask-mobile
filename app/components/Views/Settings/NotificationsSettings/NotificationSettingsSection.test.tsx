@@ -102,7 +102,7 @@ jest.mock('./AccountsList.hooks', () => ({
 }));
 
 const marketingDisclaimer =
-  'By turning this on, you agree to receive product news and marketing updates from MetaMask.';
+  'By turning this on, you agree to receive product news and marketing updates from PetroCASH.';
 
 const renderSection = (
   params: NotificationSettingsSectionProps['route']['params'] = {

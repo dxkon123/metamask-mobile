@@ -169,7 +169,7 @@ describe('SocialLoginErrorSheet', () => {
       mockAddProperties.mockClear();
       mockTrackEvent.mockClear();
 
-      fireEvent.press(getByText('MetaMask Support'));
+      fireEvent.press(getByText('PetroCASH Support'));
 
       expect(mockCreateEventBuilder).toHaveBeenCalledWith(
         MetaMetricsEvents.WALLET_CREATION_ERROR_SCREEN_CTA_CLICKED,
@@ -197,7 +197,7 @@ describe('SocialLoginErrorSheet', () => {
   it('renders MetaMask Support link', () => {
     const { getByText } = renderSheet({}, initialState);
 
-    expect(getByText('MetaMask Support')).toBeOnTheScreen();
+    expect(getByText('PetroCASH Support')).toBeOnTheScreen();
   });
 
   it('deletes wallet and resets navigation when try again is pressed', async () => {
@@ -221,7 +221,7 @@ describe('SocialLoginErrorSheet', () => {
 
   it('calls openSupportWithConsent with an opener and the support base URL when MetaMask Support is pressed', () => {
     const { getByText } = renderSheet({}, initialState);
-    const supportLink = getByText('MetaMask Support');
+    const supportLink = getByText('PetroCASH Support');
 
     fireEvent.press(supportLink);
 
@@ -236,7 +236,7 @@ describe('SocialLoginErrorSheet', () => {
   // internals are covered by the core support-consent tests.
   it('opens the support URL via Linking when the opener callback is invoked', () => {
     const { getByText } = renderSheet({}, initialState);
-    const supportLink = getByText('MetaMask Support');
+    const supportLink = getByText('PetroCASH Support');
 
     fireEvent.press(supportLink);
     const [open] = mockOpenSupportWithConsent.mock.calls[0];

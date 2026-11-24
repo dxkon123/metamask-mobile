@@ -1487,7 +1487,7 @@ describe('PerpsAlwaysOnProvider', () => {
     expect(mockDisplayNotification).toHaveBeenCalledWith({
       id: 'perps-chase-backgrounded-chase-live',
       title: 'Securing Chase orders',
-      body: 'MetaMask is stopping Chase repricing before disconnecting.',
+      body: 'PetroCASH is stopping Chase repricing before disconnecting.',
       data: { notification_id: 'perps-chase-backgrounded-chase-live' },
     });
     await act(async () => resolveSuspension?.());

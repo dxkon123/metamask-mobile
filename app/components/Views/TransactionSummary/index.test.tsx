@@ -38,7 +38,7 @@ describe('TransactionSummary', () => {
     });
 
     expect(screen.getByTestId('paid-by-metamask')).toBeOnTheScreen();
-    expect(screen.getByText('Paid by MetaMask')).toBeOnTheScreen();
+    expect(screen.getByText('Paid by PetroCASH')).toBeOnTheScreen();
     expect(screen.queryByText('0.001 ETH')).not.toBeOnTheScreen();
   });
 
@@ -81,7 +81,7 @@ describe('TransactionSummary', () => {
 
     expect(screen.getByText('0.001 ETH')).toBeOnTheScreen();
     expect(screen.getByText('0.501 ETH')).toBeOnTheScreen();
-    expect(screen.queryByText('Paid by MetaMask')).not.toBeOnTheScreen();
+    expect(screen.queryByText('Paid by PetroCASH')).not.toBeOnTheScreen();
   });
 
   it('renders received transaction without fee row', () => {

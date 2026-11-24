@@ -157,7 +157,7 @@ describe('SRPErrorScreen', () => {
         <SRPErrorScreen error={mockError} />,
       );
 
-      expect(getByText('MetaMask Support')).toBeTruthy();
+      expect(getByText('PetroCASH Support')).toBeTruthy();
     });
   });
 
@@ -309,7 +309,7 @@ describe('SRPErrorScreen', () => {
         <SRPErrorScreen error={mockError} />,
       );
 
-      fireEvent.press(getByText('MetaMask Support'));
+      fireEvent.press(getByText('PetroCASH Support'));
 
       expect(mockTrackOnboarding).toHaveBeenLastCalledWith(
         expect.objectContaining({
@@ -334,7 +334,7 @@ describe('SRPErrorScreen', () => {
         <SRPErrorScreen error={mockError} />,
       );
 
-      fireEvent.press(getByText('MetaMask Support'));
+      fireEvent.press(getByText('PetroCASH Support'));
       const [open] = mockOpenSupportWithConsent.mock.calls[0];
       open('https://support.metamask.io/');
 

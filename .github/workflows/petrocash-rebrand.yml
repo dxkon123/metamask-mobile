@@ -3,7 +3,7 @@ name: PetroCASH Rebrand
 on:
   push:
     branches: [codex/petrocash-rebrand]
-    paths-ignore: ["**/*.md", "docs/**", "store/**"]
+    paths-ignore: ['**/*.md', 'docs/**', 'store/**']
   workflow_dispatch:
 
 permissions:
@@ -24,14 +24,14 @@ jobs:
       run:
         shell: bash
     env:
-      CI: "true"
-      PETROCASH_PREBUNDLE_FIRST: "true"
+      CI: 'true'
+      PETROCASH_PREBUNDLE_FIRST: 'true'
       METAMASK_BUILD_TYPE: main
       METAMASK_ENVIRONMENT: dev
-      HAS_TEST_OVERRIDES: "false"
-      E2E_MOCK_OAUTH: "false"
-      SENTRY_DISABLE_AUTO_UPLOAD: "true"
-      TOOL_USAGE_COLLECTION_OPT_IN: "false"
+      HAS_TEST_OVERRIDES: 'false'
+      E2E_MOCK_OAUTH: 'false'
+      SENTRY_DISABLE_AUTO_UPLOAD: 'true'
+      TOOL_USAGE_COLLECTION_OPT_IN: 'false'
       PETRO_BASE_COMMIT: a3251559c8af381b7b9689dd49d3dce8d5f76261
     steps:
       - name: Checkout exact selected source commit
@@ -85,7 +85,7 @@ jobs:
         uses: actions/setup-java@b6effb05e454b25005698d916606bdc6ffcbf961 # v5
         with:
           distribution: temurin
-          java-version: "17"
+          java-version: '17'
 
       - name: Install Android tools selected by native build files
         id: android_tools
@@ -149,8 +149,8 @@ jobs:
           MM_FOX_CODE: EXAMPLE_FOX_CODE
           # Same Metro heap/worker limits as upstream build.yml.
           NODE_OPTIONS: --max-old-space-size=8192
-          METRO_MAX_WORKERS: "2"
-          CMAKE_VERSION: "3.22.1"
+          METRO_MAX_WORKERS: '2'
+          CMAKE_VERSION: '3.22.1'
           ANDROID_SIGNING_KEYSTORE_PASSWORD: android
           BITRISEIO_ANDROID_MAIN_KEYSTORE_ALIAS: androiddebugkey
           BITRISEIO_ANDROID_MAIN_KEYSTORE_PRIVATE_KEY_PASSWORD: android
@@ -226,8 +226,8 @@ jobs:
           GOOGLE_SERVICES_B64_ANDROID: ${{ secrets.GOOGLE_SERVICES_B64_ANDROID }}
           WALLET_CONNECT_PROJECT_ID: ${{ secrets.WALLET_CONNECT_PROJECT_ID }}
           NODE_OPTIONS: --max-old-space-size=8192
-          METRO_MAX_WORKERS: "2"
-          CMAKE_VERSION: "3.22.1"
+          METRO_MAX_WORKERS: '2'
+          CMAKE_VERSION: '3.22.1'
           ANDROID_SIGNING_KEYSTORE_PASSWORD: android
           BITRISEIO_ANDROID_MAIN_KEYSTORE_ALIAS: androiddebugkey
           BITRISEIO_ANDROID_MAIN_KEYSTORE_PRIVATE_KEY_PASSWORD: android
@@ -259,7 +259,7 @@ jobs:
 
   upstream-quality:
     name: Upstream ${{ matrix.kind }} ${{ matrix.shard }}
-    if: github.repository == 'dxkon123/metamask-mobile' && github.ref == 'refs/heads/codex/petrocash-rebrand' && (contains(github.event.head_commit.message, '[full-checks]') || github.event_name == 'workflow_dispatch')
+    if: github.repository == 'dxkon123/metamask-mobile' && github.ref == 'refs/heads/codex/petrocash-rebrand' && (contains(github.event.head_commit.message, '[full-checks]') || contains(github.event.head_commit.message, '[related-checks]') || github.event_name == 'workflow_dispatch')
     runs-on: ubuntu-24.04
     timeout-minutes: 75
     strategy:
@@ -285,14 +285,15 @@ jobs:
       run:
         shell: bash
     env:
-      CI: "true"
+      CI: 'true'
       METAMASK_BUILD_TYPE: main
       METAMASK_ENVIRONMENT: test
       PETRO_BASE_COMMIT: a3251559c8af381b7b9689dd49d3dce8d5f76261
       PETRO_QUALITY_KIND: ${{ matrix.kind }}
       PETRO_QUALITY_SHARD: ${{ matrix.shard }}
+      PETRO_UNIT_SCOPE: ${{ contains(github.event.head_commit.message, '[related-checks]') && 'related' || 'full' }}
       NODE_OPTIONS: --max-old-space-size=12288
-      LINT_HEAP_MB: "13312"
+      LINT_HEAP_MB: '13312'
     steps:
       - name: Checkout exact selected source commit
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
@@ -346,8 +347,15 @@ jobs:
             unit)
               # Match upstream unit CI defaults; keep Main build flags in the APK job.
               unset METAMASK_BUILD_TYPE
-              yarn test:unit --shard="$PETRO_QUALITY_SHARD/10" --listTests --json --runInBand > build/petro/quality/suite-inventory.json
-              yarn test:unit --shard="$PETRO_QUALITY_SHARD/10" --maxWorkers=1 --workerIdleMemoryLimit=2GB --ci --watchman=false --forceExit --silent --coverageReporters=json --json --outputFile=build/petro/quality/unit-results.json 2>&1 | tee build/petro/quality/check.log
+              if [ "$PETRO_UNIT_SCOPE" = related ]; then
+                mapfile -t related_tests < <(node -e 'const fs = require("node:fs"); const p = JSON.parse(fs.readFileSync("docs/rebrand/related-tests.json", "utf8")).paths; if (!Array.isArray(p) || !p.length || p.some(s => typeof s !== "string" || !s.startsWith("app/") || !/\.test\.tsx?$/.test(s) || !fs.existsSync(s))) process.exit(2); console.log(p.join("\n"));')
+                test "${#related_tests[@]}" -gt 0
+                yarn jest --runTestsByPath "${related_tests[@]}" --shard="$PETRO_QUALITY_SHARD/10" --listTests --json --runInBand > build/petro/quality/suite-inventory.json
+                yarn jest --runTestsByPath "${related_tests[@]}" --shard="$PETRO_QUALITY_SHARD/10" --maxWorkers=1 --workerIdleMemoryLimit=2GB --ci --watchman=false --forceExit --silent --coverage=false --json --outputFile=build/petro/quality/unit-results.json 2>&1 | tee build/petro/quality/check.log
+              else
+                yarn test:unit --shard="$PETRO_QUALITY_SHARD/10" --listTests --json --runInBand > build/petro/quality/suite-inventory.json
+                yarn test:unit --shard="$PETRO_QUALITY_SHARD/10" --maxWorkers=1 --workerIdleMemoryLimit=2GB --ci --watchman=false --forceExit --silent --coverageReporters=json --json --outputFile=build/petro/quality/unit-results.json 2>&1 | tee build/petro/quality/check.log
+              fi
               ;;
             typecheck)
               yarn lint:tsc 2>&1 | tee build/petro/quality/check.log
@@ -360,7 +368,7 @@ jobs:
           PETRO_CHECK_OUTCOME: ${{ steps.check.outcome }}
         run: |
           mkdir -p build/petro/quality
-          printf '{"commit":"%s","workflowCommit":"%s","kind":"%s","shard":%s,"outcome":"%s"}\n' "$(git rev-parse HEAD)" "$GITHUB_SHA" "$PETRO_QUALITY_KIND" "$PETRO_QUALITY_SHARD" "$PETRO_CHECK_OUTCOME" > build/petro/quality/result.json
+          printf '{"commit":"%s","workflowCommit":"%s","kind":"%s","shard":%s,"unitScope":"%s","outcome":"%s"}\n' "$(git rev-parse HEAD)" "$GITHUB_SHA" "$PETRO_QUALITY_KIND" "$PETRO_QUALITY_SHARD" "$PETRO_UNIT_SCOPE" "$PETRO_CHECK_OUTCOME" > build/petro/quality/result.json
       - name: Upload separate check evidence
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4

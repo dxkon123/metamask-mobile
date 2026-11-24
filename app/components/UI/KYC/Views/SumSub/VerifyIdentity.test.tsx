@@ -85,7 +85,7 @@ describe('KycVerifyIdentity', () => {
     expect(getByText('Verify once, reuse later.')).toBeOnTheScreen();
     expect(
       getByText(
-        'MetaMask securely stores an encrypted copy of your verified identity, so you can sign up with other partners faster.',
+        'PetroCASH securely stores an encrypted copy of your verified identity, so you can sign up with other partners faster.',
       ),
     ).toBeOnTheScreen();
     expect(getByText('You control your data.')).toBeOnTheScreen();
@@ -123,7 +123,7 @@ describe('KycVerifyIdentity', () => {
     expect(
       getByTestId(KycVerifyIdentitySelectorsIDs.AGREEMENT),
     ).toHaveTextContent(
-      'By continuing, I agree to the MetaMask Terms of Use, acknowledge the MetaMask Privacy Notice and consent to MetaMask storing and transferring my information to idOS.',
+      'By continuing, I agree to the PetroCASH Terms of Use, acknowledge the PetroCASH Privacy Notice and consent to PetroCASH storing and transferring my information to idOS.',
     );
   });
 

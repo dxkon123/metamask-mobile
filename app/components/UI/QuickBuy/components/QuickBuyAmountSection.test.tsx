@@ -62,7 +62,7 @@ describe('QuickBuyAmountSection', () => {
     ).toHaveTextContent('$2.55');
     expect(StyleSheet.flatten(screen.getByText('$').props.style)).toMatchObject(
       {
-        fontFamily: 'GrotzecCond-Bold',
+        fontFamily: 'Inter-SemiBold',
         fontSize,
         lineHeight: fontSize,
       },

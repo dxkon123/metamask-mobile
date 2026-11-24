@@ -35,12 +35,12 @@ describe('PredictAmountDisplay', () => {
       );
 
       expect(StyleSheet.flatten(getByText('$').props.style)).toEqual(
-        expect.objectContaining({ fontFamily: 'GrotzecCond-Bold' }),
+        expect.objectContaining({ fontFamily: 'Inter-SemiBold' }),
       );
       expect(amountGlyphs).not.toHaveLength(0);
       amountGlyphs.forEach((glyph) => {
         expect(StyleSheet.flatten(glyph.props.style)).toEqual(
-          expect.objectContaining({ fontFamily: 'GrotzecCond-Bold' }),
+          expect.objectContaining({ fontFamily: 'Inter-SemiBold' }),
         );
       });
     });

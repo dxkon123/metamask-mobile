@@ -1,0 +1,115 @@
+{
+  "runId": 45367200108,
+  "buildSource": "1c35f1f55c03f2b3c089336de99739681a9bf600",
+  "nativeCompile": "PASS",
+  "apkValidation": "PASS",
+  "apkRetained": false,
+  "draftFailure": "HTTP 403 Resource not accessible by integration at release creation",
+  "effectiveTokenContents": "write",
+  "lint1": "PASS",
+  "lint2": "PASS",
+  "lint3": "FAIL: apply-text.ts unnecessary regex escape",
+  "lint4": "FAIL: Brand/text.ts control-character regex",
+  "typecheck": "FAIL: duplicate signed-link host object keys after host collapse",
+  "unitTotals": {
+    "failedSuites": 54,
+    "passedSuites": 5875,
+    "totalSuites": 5929,
+    "failedAssertions": 123,
+    "passedAssertions": 90576
+  },
+  "unitShards": [
+    {
+      "name": "Upstream unit 2",
+      "jobId": 138351904151,
+      "failedSuites": 8,
+      "passedSuites": 585,
+      "totalSuites": 593,
+      "failedAssertions": 15,
+      "passedAssertions": 8477
+    },
+    {
+      "name": "Upstream unit 7",
+      "jobId": 138351904158,
+      "failedSuites": 7,
+      "passedSuites": 586,
+      "totalSuites": 593,
+      "failedAssertions": 27,
+      "passedAssertions": 10082
+    },
+    {
+      "name": "Upstream unit 8",
+      "jobId": 138351904269,
+      "failedSuites": 6,
+      "passedSuites": 587,
+      "totalSuites": 593,
+      "failedAssertions": 14,
+      "passedAssertions": 10013
+    },
+    {
+      "name": "Upstream unit 4",
+      "jobId": 138351904338,
+      "failedSuites": 5,
+      "passedSuites": 588,
+      "totalSuites": 593,
+      "failedAssertions": 21,
+      "passedAssertions": 8714
+    },
+    {
+      "name": "Upstream unit 6",
+      "jobId": 138351904391,
+      "failedSuites": 2,
+      "passedSuites": 591,
+      "totalSuites": 593,
+      "failedAssertions": 5,
+      "passedAssertions": 8703
+    },
+    {
+      "name": "Upstream unit 9",
+      "jobId": 138351904402,
+      "failedSuites": 8,
+      "passedSuites": 585,
+      "totalSuites": 593,
+      "failedAssertions": 11,
+      "passedAssertions": 8919
+    },
+    {
+      "name": "Upstream unit 3",
+      "jobId": 138351904433,
+      "failedSuites": 2,
+      "passedSuites": 591,
+      "totalSuites": 593,
+      "failedAssertions": 9,
+      "passedAssertions": 9850
+    },
+    {
+      "name": "Upstream unit 5",
+      "jobId": 138351904455,
+      "failedSuites": 5,
+      "passedSuites": 588,
+      "totalSuites": 593,
+      "failedAssertions": 8,
+      "passedAssertions": 7376
+    },
+    {
+      "name": "Upstream unit 10",
+      "jobId": 138351904606,
+      "failedSuites": 5,
+      "passedSuites": 587,
+      "totalSuites": 592,
+      "failedAssertions": 5,
+      "passedAssertions": 9634
+    },
+    {
+      "name": "Upstream unit 1",
+      "jobId": 138351904694,
+      "failedSuites": 6,
+      "passedSuites": 587,
+      "totalSuites": 593,
+      "failedAssertions": 8,
+      "passedAssertions": 8808
+    }
+  ],
+  "relatedSuiteInventory": "docs/rebrand/related-tests.json",
+  "next": "Rerun related tests with --runTestsByPath; preserve signature verification and canonical host identities."
+}

@@ -1,97 +1,46 @@
-import React, {
-  forwardRef,
-  useEffect,
-  useImperativeHandle,
-  useMemo,
-} from 'react';
-import {
-  Alignment,
-  Fit,
-  RiveView,
-  useRive,
-  useRiveFile,
-} from '@rive-app/react-native';
-import { brandColor } from '@metamask/design-tokens';
-import {
-  Box,
-  BoxAlignItems,
-  BoxJustifyContent,
-} from '@metamask/design-system-react-native';
-import { useTailwind } from '@metamask/design-system-twrnc-preset';
-import onboardingRiveFile from '../../../animations/fox_loading.riv';
+import React, { forwardRef } from 'react';
+import { View, StyleSheet } from 'react-native';
+import { useLegacyBrandAnimation } from '../../../core/Brand/animationConfig';
 import { getScreenDimensions } from '../../../util/onboarding';
-import { hasTestOverrides } from '../../../util/test/utils';
 import { useTheme } from '../../../util/theme';
-import { AppThemeKey } from '../../../util/theme/models';
-
-export interface OnboardingFoxLoaderRef {
-  stop: () => void;
-}
-
-export const getOnboardingFoxLoaderBackgroundColor = (
-  themeAppearance: AppThemeKey.light | AppThemeKey.dark,
-) =>
-  themeAppearance === AppThemeKey.dark ? brandColor.black : brandColor.white;
-
-const OnboardingFoxLoader = forwardRef<OnboardingFoxLoaderRef>(
-  (_props, ref) => {
-    const { riveFile } = useRiveFile(onboardingRiveFile);
-    const { riveRef, riveViewRef, setHybridRef } = useRive();
-    const { themeAppearance } = useTheme();
-    const tw = useTailwind();
-    const { screenWidth, animationHeight } = getScreenDimensions();
-
-    useImperativeHandle(
-      ref,
-      () => ({
-        stop: () => {
-          void riveRef.current?.pause();
+import BrandMotion from '../BrandMotion/BrandMotion';
+import LegacyOnboardingFoxLoader, {
+  getOnboardingFoxLoaderBackgroundColor,
+  type OnboardingFoxLoaderRef,
+} from './LegacyOnboardingFoxLoader';
+export { getOnboardingFoxLoaderBackgroundColor } from './LegacyOnboardingFoxLoader';
+export type { OnboardingFoxLoaderRef } from './LegacyOnboardingFoxLoader';
+const styles = StyleSheet.create({
+  wrapper: { flex: 1, alignItems: 'center', justifyContent: 'center' },
+});
+const PetroLoader = forwardRef<OnboardingFoxLoaderRef>((_props, ref) => {
+  const { themeAppearance } = useTheme();
+  const { screenWidth, animationHeight } = getScreenDimensions();
+  return (
+    <View
+      testID="fox-rive-loader-animation"
+      style={[
+        styles.wrapper,
+        {
+          backgroundColor:
+            getOnboardingFoxLoaderBackgroundColor(themeAppearance),
         },
-      }),
-      [riveRef],
-    );
-
-    const riveAnimationStyle = useMemo(
-      () => ({
-        width: screenWidth * 0.4,
-        height: animationHeight,
-      }),
-      [screenWidth, animationHeight],
-    );
-
-    useEffect(() => {
-      if (hasTestOverrides || !riveViewRef) return;
-      // eslint-disable-next-line @typescript-eslint/no-deprecated -- legacy SM input; fox_loading.riv is not View Model–bound
-      riveRef.current?.triggerInput('Loader2'); // NOSONAR
-    }, [riveRef, riveViewRef]);
-
-    const backgroundColor =
-      getOnboardingFoxLoaderBackgroundColor(themeAppearance);
-
-    return (
-      <Box
-        testID="fox-rive-loader-animation"
-        alignItems={BoxAlignItems.Center}
-        justifyContent={BoxJustifyContent.Center}
-        twClassName="flex-1"
-        style={tw.style({ backgroundColor })}
-      >
-        {riveFile && (
-          <RiveView
-            hybridRef={setHybridRef}
-            file={riveFile}
-            stateMachineName="FoxRaiseUp"
-            style={riveAnimationStyle}
-            autoPlay
-            fit={Fit.Contain}
-            alignment={Alignment.Center}
-          />
-        )}
-      </Box>
-    );
-  },
+      ]}
+    >
+      <BrandMotion
+        ref={ref}
+        style={{ width: screenWidth * 0.4, height: animationHeight }}
+      />
+    </View>
+  );
+});
+PetroLoader.displayName = 'PetroLoader';
+const OnboardingFoxLoader = forwardRef<OnboardingFoxLoaderRef>((props, ref) =>
+  useLegacyBrandAnimation ? (
+    <LegacyOnboardingFoxLoader {...props} ref={ref} />
+  ) : (
+    <PetroLoader {...props} ref={ref} />
+  ),
 );
-
 OnboardingFoxLoader.displayName = 'OnboardingFoxLoader';
-
 export default OnboardingFoxLoader;

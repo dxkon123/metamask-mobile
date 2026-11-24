@@ -43,6 +43,6 @@ describe('PredictError', () => {
   it('requires an app update without suggesting an authorization renewal', () => {
     const error = PredictError.from(PredictErrorCode.APP_UPDATE_REQUIRED);
     expect(error.recoverable).toBe(false);
-    expect(error.message).toContain('Update MetaMask');
+    expect(error.message).toContain('Update PetroCASH');
   });
 });

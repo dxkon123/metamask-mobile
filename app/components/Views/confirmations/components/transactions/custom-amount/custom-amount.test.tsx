@@ -78,7 +78,7 @@ describe('CustomAmount', () => {
     );
 
     expect(getByText('$')).toBeOnTheScreen();
-    expect(getByText('$')).toHaveStyle({ fontFamily: 'GrotzecCond-Bold' });
+    expect(getByText('$')).toHaveStyle({ fontFamily: 'Inter-SemiBold' });
   });
 
   it('renders the amount in the error colour when an alert is active', () => {
@@ -266,7 +266,7 @@ describe('CustomAmount', () => {
       expect(getByTestId('custom-amount-cursor')).toBeOnTheScreen();
       expect(getByTestId('custom-amount-assistive')).toHaveTextContent('00');
       expect(getByTestId('custom-amount-assistive')).toHaveStyle({
-        fontFamily: 'GrotzecCond-Bold',
+        fontFamily: 'Inter-SemiBold',
       });
     });
 

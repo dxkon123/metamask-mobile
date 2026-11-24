@@ -26,8 +26,8 @@ describe('readTraderShareName', () => {
 describe('buildSocialProfileOpenGraph', () => {
   it('names the trader on MetaMask and uses the shared brand image', () => {
     expect(buildSocialProfileOpenGraph('Dip Spicy Maxi')).toEqual({
-      title: 'Dip Spicy Maxi on MetaMask',
-      description: "See Dip Spicy Maxi's trades on MetaMask",
+      title: 'Dip Spicy Maxi on PetroCASH',
+      description: "See Dip Spicy Maxi's trades on PetroCASH",
       imageUrl: SOCIAL_SHARE_OPEN_GRAPH_IMAGE_URL,
     });
   });
@@ -57,7 +57,7 @@ describe('buildSocialPositionOpenGraph', () => {
       buildSocialPositionOpenGraph({ traderName: 'Dip Spicy Maxi' }),
     ).toEqual({
       title: "Dip Spicy Maxi's trade",
-      description: "See Dip Spicy Maxi's trades on MetaMask",
+      description: "See Dip Spicy Maxi's trades on PetroCASH",
       imageUrl: SOCIAL_SHARE_OPEN_GRAPH_IMAGE_URL,
     });
   });
