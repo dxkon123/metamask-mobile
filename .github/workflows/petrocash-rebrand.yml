@@ -398,3 +398,5 @@ jobs:
         env:
           PETRO_CHECK_OUTCOME: ${{ steps.check.outcome }}
         run: test "$PETRO_CHECK_OUTCOME" = success
+
+# Full-regression checkpoints validate the same application tree without another native build.

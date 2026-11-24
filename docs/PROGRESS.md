@@ -60,3 +60,17 @@ run https://github.com/dxkon123/metamask-mobile/actions/runs/45384401830 ，comm
 45384401830 completed: TSC PASS, lint4 PASS; lint1/2/3分别发现新动效测试namespace import、动效transparent颜色literal、verify.ts引号多余escape，已改成named import、仅用品牌颜色、无多余escape，不关闭规则。相关10分片7PASS，unit3/8/10中4套8断言FAIL：外部pageTitle应保留MetaMask；支持host改为owner地址；Snap快照只更新实际受影响3处primary颜色，不能将原token颜色全局重写。后续本地重测DeepLinkModal13、AccountCreateErrorAdapter7、Snap两套13断言/13快照均PASS。
 
 待推送候选新增native needs:upstream-quality；相关测试、完整lint/type任一失败则不花1小时native。全部成功后自动构建同一触发SHA。native在依赖安装/编译前先创建并小文件验证草稿，避免后续进度push使旧target再失败；仍保留草稿失败→1天APK artifact后备。只读默认token不变，contents:write仍限草稿job。不能把即将运行的检查记作PASS。
+
+## 当前候选运行与待核验限制
+
+候选ce55e77174ca5128c19c98868a9defe86f47c684，tree452c0ba00998eb632cfb497457c24df854b3fe76，run https://github.com/dxkon123/metamask-mobile/actions/runs/45386233779。10个related unit分片全部PASS；完整4lint/TSC尚待最终结果，native按needs门槛等待。此记录先本地保存；原生preflight草稿建立后再push运行记录，避免提前移动远端head影响权限探测。
+
+用于本地复核的Google官方Build Tools36已下载校验，aapt/aapt2/apksigner在Mac可运行。vendor zip SHA25604e7f3a72044de4926fa038fa0e251a37bba1e1c3fb8beab6f8401bfd9eb4bf3，官方repo SHA1 199ae0047ee61e842f8ee0c6d3918e44fb9a1f83；工具仅在workspace work/toolchain，未进App源码或Git。
+
+新增后续核验项：app/util/remoteFeatureFlag/index.ts及app/util/feature-flags/index.ts使用原生getVersion与远端minimumVersion比较。用户指定新native1.0.0，brand的upstreamCompatibilityVersion8.22.0本身并不覆盖这些调用；可能影响受版本门槛控制的功能显隐。没有读取/公开完整snapshot，也没有降低或绕过版本/安全门槛。本轮不据源码保留宣称全部功能可用；迁移私有repo时制定正确的fork版本/flags策略并由设备验收核实。
+
+## 质量门槛与编译前交付预检全部通过
+
+run45386233779 / source ce55e77174ca5128c19c98868a9defe86f47c684：完整4lint PASS、TSC PASS，62套related测试1643断言PASS/0FAIL（10分片，明确不是全量）。native job138421900226已放行；编译前private delivery preflight PASS，已创建未发布draft456690358，target精确ce55，只有preflight.txt，APK尚未生成。后续上传不再创建旧target草稿，已有草稿供同run使用；1天artifact后备仍保留。
+
+下一项：native当前候选保持编译，同时新[checkpoint][full-checks]只启动全量回归，不启动第二次Android编译。新提交只更改workflow注释和报告；app/Android/locales/lockfile与ce55完全一致，相关tree hash见related-validation.json。不要把正在运行的全套检查写PASS。APK一旦保存就下载做本地apksigner/aapt/SHA复核，再提供链接。

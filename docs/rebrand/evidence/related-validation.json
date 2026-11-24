@@ -1,0 +1,99 @@
+{
+  "runId": 45386233779,
+  "sourceCommit": "ce55e77174ca5128c19c98868a9defe86f47c684",
+  "sourceTree": "452c0ba00998eb632cfb497457c24df854b3fe76",
+  "applicationTree": "29aa4a24950fffff1501806ea32d196dee153e98",
+  "androidTree": "985fb879fced1497156cab2fd8b32cb616c8076c",
+  "localesTree": "fdd66651acce9175db318bf619af4953a2a09f33",
+  "lockfileBlob": "f65396ca8ce63b8e077b6a3e0fe890a1d8395616",
+  "lintShards": {
+    "1": "PASS",
+    "2": "PASS",
+    "3": "PASS",
+    "4": "PASS"
+  },
+  "typecheck": "PASS",
+  "unitScope": "related --runTestsByPath; not full suite",
+  "unitShards": [
+    {
+      "name": "Upstream unit 8",
+      "id": 138417759167,
+      "suites": 6,
+      "passed": 322,
+      "failed": 0
+    },
+    {
+      "name": "Upstream unit 7",
+      "id": 138417759563,
+      "suites": 6,
+      "passed": 175,
+      "failed": 0
+    },
+    {
+      "name": "Upstream unit 3",
+      "id": 138417759588,
+      "suites": 6,
+      "passed": 154,
+      "failed": 0
+    },
+    {
+      "name": "Upstream unit 4",
+      "id": 138417759610,
+      "suites": 6,
+      "passed": 143,
+      "failed": 0
+    },
+    {
+      "name": "Upstream unit 1",
+      "id": 138417759655,
+      "suites": 7,
+      "passed": 125,
+      "failed": 0
+    },
+    {
+      "name": "Upstream unit 5",
+      "id": 138417759701,
+      "suites": 6,
+      "passed": 143,
+      "failed": 0
+    },
+    {
+      "name": "Upstream unit 2",
+      "id": 138417759740,
+      "suites": 7,
+      "passed": 73,
+      "failed": 0
+    },
+    {
+      "name": "Upstream unit 9",
+      "id": 138417759746,
+      "suites": 6,
+      "passed": 222,
+      "failed": 0
+    },
+    {
+      "name": "Upstream unit 6",
+      "id": 138417759776,
+      "suites": 6,
+      "passed": 147,
+      "failed": 0
+    },
+    {
+      "name": "Upstream unit 10",
+      "id": 138417759833,
+      "suites": 6,
+      "passed": 139,
+      "failed": 0
+    }
+  ],
+  "unitSuites": 62,
+  "unitAssertionsPassed": 1643,
+  "unitAssertionsFailed": 0,
+  "nativeJobId": 138421900226,
+  "privateDeliveryPreflight": "PASS",
+  "draftReleaseId": 456690358,
+  "draftTarget": "ce55e77174ca5128c19c98868a9defe86f47c684",
+  "draftPublished": false,
+  "apk": "NOT YET PRODUCED",
+  "fullUnitSuite": "Latest full run remains failed; full regression rerun will follow without recompiling Android."
+}

@@ -166,3 +166,11 @@ Jest配置默认collectCoverageFrom覆盖大量源码。即使用了runTestsByPa
 DeepLinkModal插入的是外部pageTitle，fixture里的MetaMask不能连同钱包固定文案一起改；支持入口只改owner的固定地址，不改测试的example.com opener。主题快照只改真实diff：本次radio边框/背景和loading主色3处改变，其他文字仍用原token，不能机械替换全部同色值。新动效必须遵守namespace import和颜色token规则，不用disable来消除报错。
 
 质量job现在是native job依赖，失败不启动耗时构建。private draft在native编译前预建并验证；稍后文档push移动branch head不会丢失交付渠道，APK验证后仍确认至少一种保存渠道成功。
+
+### 原生版本与原代码兼容版本是两件事
+
+versionName改1.0.0后，react-native-device-info.getVersion也返回新版本。上游remoteFeatureFlag helper用它比较minimumVersion，不能仅保留package.json的8.22.0就假定功能显隐完全相同。不要为了显示入口把所有flag改true、降低minimumVersion或绕过安全门槛。迁移私有repo时显式设计fork版本/兼容版本/自有flags策略，记录实际设备结果。当前源码保留全部功能不等于服务已授权、远端flag已打开或真机已通过。
+
+### 同时检查全量回归而不重复编译APK
+
+先让related的62套/1643断言和4lint/TSC通过，native依赖该门槛再运行；同run的private preflight先建立草稿（本次456690358/target ce55）。之后只改报告和workflow注释，commit加 [checkpoint] [full-checks]，完整回归可以并行检查同一app/Android/locales/lockfile树，Android明确跳过，不再浪费第二小时。记录两个run/sourceSHA和树哈希，不把related通过当full通过。
