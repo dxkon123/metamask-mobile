@@ -29,3 +29,7 @@ Mobile LICENSE只inspection/study，修改/衍生/分发需prior consent，商�
 纯别名/能力矩阵用unit；BrandMotion/ref/safe-area为窄组件合约，延续原unit不虚构screen E2E。真实Rive、FPS、系统深链、安装、后台/kill、网络发送和安全存储只能由native device边界验证；测试不会自动转账或签名。最终看PROGRESS中的下一具体动作，不把旧基线质量PASS算本次PASS。
 
 本地新增验证：签名验证/路由与保留Rive接口5套116断言PASS，加品牌4套40断言共9套156PASS（明确runTestsByPath，coverage=false用于调试，forceExit沿用上游；不声称异步句柄已修）。下一步push [checkpoint] [related-checks]，等待62套相关+全lint/type真实结果。
+
+## 云端相关检查已启动
+
+run https://github.com/dxkon123/metamask-mobile/actions/runs/45384401830 ，commit01631382a0dfe30022dead0b272624e68971ce26，tree b7fe73d91ccebdbd66211eb9c80a40f70cb8edf2。70文件已完整上传并核对tree hash，本地==origin。Android job按checkpoint明确SKIPPED；15个质量job已开始，unitScope=related。此处只启动检查，未开始1小时native重编译。下一步读所有失败诊断并修复，不跳过。
