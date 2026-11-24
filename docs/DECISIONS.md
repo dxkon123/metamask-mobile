@@ -18,3 +18,7 @@
 - 进度事实以docs/PROGRESS.md为入口，每子步骤更新三份交接记录并push，约30分钟内保存，长CI前先push。
 - Root Mobile LICENSE grants inspection/study only; modification, derivative works and distribution need ConsenSys prior consent. Commercial launch is not authorized. Owner决定前：no public Release, no public distribution of APK/AAB, drafts only。公开Actions artifact也不能当私密渠道，下次native前调整。
 - 三项critical的lockfile候选版本已安装、audit不再报告这些ID，但全量回归未通过前只记candidate fix。
+
+## Owner Option 1 / minimal flags
+
+Publish only 38 top-level boolean switches. Full snapshot stays local; add full flags after moving to a private repo. Preserve upstream fetch and object flag configuration/version/security gates. Public full snapshot upload was rejected by automatic approval; no bypass.

@@ -42,3 +42,7 @@ Focused复查：4 suites /29 assertions PASS（coverage=false；含本地flags�
 自动审批拒绝完整去凭据flags的公开上传（金融/交易/服务配置）。owner选择待答；不绕过。完整snapshot/local fetch/test移出repo保存在work/petrocash-rebrand/blocked-flags；公开分支恢复上游flags fetch及测试，避免缺失JSON和关闭特性。公开checkpoint不包含完整snapshot，旧本地47fcc9f5绝不可push。29项PASS属于含本地未发布flags的WIP；公开候选会重跑对应子集。下一步是完成其余checkpoint推送、调整私密draft交付、查native失败，并修正文案生成器不得修改paymentOptions/test IDs等协议值。
 
 公开候选 focused：3 suites / 25 assertions PASS（不含被暂存于本地的flags实现）；原始JSON见docs/rebrand/evidence/m2-public-focused-tests.json。
+
+### Pushed checkpoint / owner Option 1
+
+M2 pushed: ce880256a728f3defa063781787870f3c2e9ac13 (234 paths, full snapshot/local-fetch withheld); tree 3eb7f858c5beb15a474203eb6ccd0648dafcc1f4. Local matches origin. Full flags never enter public Git. Owner chose Option 1: publish only 38 name-to-boolean switches in brand/feature-flags.minimal.json; no endpoints/keys/financial config. Runtime retains upstream fetch and complex/version/security configuration. Add full flags after moving to a private repo. Next: draft-only delivery and native failure diagnosis.

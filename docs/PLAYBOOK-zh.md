@@ -138,3 +138,7 @@ milestone without overwriting existing work. Preserve all security boundaries.
 以docs/PROGRESS.md为入口，跳过done。每完成一步同时更新PROGRESS/HANDOFF/MORNING并commit/push，长CI等待前先push，约30分钟内不留未推工作。最新Mobile LICENSE仅授予检查学习；修改/衍生/分发需ConsenSys事先同意，商用未获授权；未决定前不得公开Release或公开分发APK/AAB，草稿限定。公开仓库Actions artifact不是私密交付。
 
 恢复prompt：继续。先读docs/PROGRESS.md、HANDOFF.md和MORNING-REPORT.md，核对分支/远端/CI，跳过done，从Resume here继续。每子步骤更新三份记录并push。禁止公开分发APK/AAB、推main、显示或提交secrets。
+
+## Flags / actual approval pitfall
+
+Public remote configuration may contain service auth fields: inspect frontendAuth as well as apiKey. Automatic approval rejected public upload of full financial/service configuration. Owner selected 38 top-level boolean switches only; full snapshot stays local until private migration. Do not flatten object flags and discard minimumVersion/security gates. Compressed inventories need strict schema verification. Connector bulk uploads are slow; inspect and handle each rejection promptly. CLI Git has no credentials here; connector creates reviewed blobs/trees/commits, then verify and align local tree.

@@ -3,7 +3,7 @@
 更新：2026-11-24，Asia/Kuching。分支 codex/petrocash-rebrand；禁止向 main 推送。
 每项开始先读本文件，跳过 done；每完成子步骤更新本文件、HANDOFF.md、MORNING-REPORT.md，然后 commit/push。约 30 分钟内保存一次，长 CI 等待前先 push。
 
-M1 = fe41b953c5f716b3d8c27ed35aba58015223c984。M2 = 本 checkpoint 提交（push 后补确切 SHA）。基线 c51abcebdb3ddc67de1e78bdcf8a44f225495240；上游 a3251559c8af381b7b9689dd49d3dce8d5f76261。
+M1 = fe41b953c5f716b3d8c27ed35aba58015223c984。M2 = ce880256a728f3defa063781787870f3c2e9ac13; baseline c51abcebdb3ddc67de1e78bdcf8a44f225495240; upstream a3251559c8af381b7b9689dd49d3dce8d5f76261.
 
 | 项目 | 状态 | 提交 / 证据 | CI run | 下个具体动作 |
 | --- | --- | --- | --- | --- |
@@ -49,3 +49,10 @@ Mobile LICENSE只授予inspection/study，并明确限制未经同意修改、�
 完整去凭据snapshot的公开上传仍被自动审批拒绝：含金融/交易/服务配置，需要owner明确授权或私有存储。没有绕过拒绝。完整snapshot、local-fetch实现和测试暂存在本机workspace的work/petrocash-rebrand/blocked-flags；不属于公开分支。公开源码恢复上游fetch工厂及其测试，保留上游特性加载方式，不发布缺失JSON的不可构建源码。OTA/WC telemetry等独立开关保留。owner问题已发出，其他工作继续。旧本地47fcc9f5含未净化snapshot，不可推送；公开checkpoint从fe41直接创建。
 
 公开候选 focused：3 suites / 25 assertions PASS（不含被暂存于本地的flags实现）；原始JSON见docs/rebrand/evidence/m2-public-focused-tests.json。
+
+## Owner Option 1 / exact checkpoint
+
+- done: M2 pushed ce880256a728f3defa063781787870f3c2e9ac13; tree 3eb7f858c5beb15a474203eb6ccd0648dafcc1f4. All approved WIP is on codex/petrocash-rebrand; full flags/local fetch are withheld. No main push.
+- done (source): brand/feature-flags.minimal.json contains 38 top-level boolean switches only, no endpoints, keys, auth values or financial config. Runtime keeps upstream fetch and complex/version/security configuration. The minimal file is a reviewable build reference; object flags were not flattened into booleans.
+- todo: **add full flags after moving to a private repo**. Full snapshot stays local, never in the public repository; remove all credentials before any later private integration.
+- next: private draft-only binary delivery; inspect failed CI; protect paymentOptions/test IDs in text generator; continue animations and full verification.
