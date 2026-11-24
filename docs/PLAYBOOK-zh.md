@@ -142,3 +142,11 @@ milestone without overwriting existing work. Preserve all security boundaries.
 ## Flags / actual approval pitfall
 
 Public remote configuration may contain service auth fields: inspect frontendAuth as well as apiKey. Automatic approval rejected public upload of full financial/service configuration. Owner selected 38 top-level boolean switches only; full snapshot stays local until private migration. Do not flatten object flags and discard minimumVersion/security gates. Compressed inventories need strict schema verification. Connector bulk uploads are slow; inspect and handle each rejection promptly. CLI Git has no credentials here; connector creates reviewed blobs/trees/commits, then verify and align local tree.
+
+## 2026-11-24：APK 编完却丢失的教训
+
+- 先用几十字节文件探测交付通道，再花一小时编译；mock gh 成功不代表真实 GitHub 权限足够。
+- 日志已证明 token 有 Contents:write；目标提交相对默认分支修改了 workflow 时，创建 Release 还要 Workflows:write，GITHUB_TOKEN 无法获得它。不要只把仓库默认权限改成全写，更不能为绕过问题向 main 推送。
+- owner 已明确允许本次后备：公开 Actions APK artifact 只保留 1 天。必须在签名/包名/checksum 验证后立即保存，再试草稿/AAB。只保留 APK 和公开校验元数据，不上传构建配置、完整日志、钥匙或 service secrets。一天保留会过期，不能承诺长期可下载。公开 Release 仍未授权。
+- test:unit 脚本已经列出所有测试根目录；追加路径不会缩小范围。相关测试用 yarn jest --runTestsByPath <明确文件列表>，不删除失败套件、不跳过测试。
+- rebrand 不能把生产/测试签名 host 全设为同一个域名；它们参与签名规范化，必须保留上游协议常量。TS1117 是真实问题。

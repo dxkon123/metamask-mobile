@@ -1,0 +1,43 @@
+name: PetroCASH Delivery Probe
+
+on:
+  push:
+    branches: [codex/petrocash-rebrand]
+    paths:
+      - .github/workflows/petrocash-delivery-probe.yml
+      - scripts/rebrand/probe-delivery.sh
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    if: github.repository == 'dxkon123/metamask-mobile' && github.ref == 'refs/heads/codex/petrocash-rebrand'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Try draft upload and remove only this run's temporary draft
+        id: draft
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: bash scripts/rebrand/probe-delivery.sh
+      - name: Verify one-day artifact fallback with a tiny harmless file
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: petrocash-delivery-probe-${{ github.run_id }}
+          path: build/delivery-probe/
+          retention-days: 1
+          if-no-files-found: error
+      - name: Record independent channel outcomes
+        env:
+          DRAFT_OUTCOME: ${{ steps.draft.outcome }}
+        run: |
+          printf 'Draft create/upload/cleanup: %s\nOne-day artifact: uploaded\n' "$DRAFT_OUTCOME" >> "$GITHUB_STEP_SUMMARY"
