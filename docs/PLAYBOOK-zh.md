@@ -186,3 +186,7 @@ versionName改1.0.0后，react-native-device-info.getVersion也返回新版本�
 ## 单测绿勾仍需核对pending与focused
 
 Jest suite绿勾不等于每个断言都执行。检查unit-results.json中的pending以及suite status=focused，再找it.only/it.skip。此上游版本含一个it.only，导致同文件2测试未跑；移除后明确runTestsByPath重测。全局BigNumber默认值被Jest setup旧模块改过时，隔离模块registry测试新模块是否改变原配置，不删除安全断言或把预期20随意改36。新修复只在测试文件，不能误触发一小时Android重编译。已有其他upstream skip单独列出，不虚称0skip。Mac typed lint即使两个文件仍可能加载整个类型图并OOM；云端足够内存跑scoped lint，不能以退出134充当代码规则失败。
+
+## 完整回归与后续补充结果的计数
+
+45388166315是真正10分片完整单测（保留coverage）：5932套、90732断言、111快照PASS，另10skip+1todo。后续test-completion的2套229断言包含大量已跑过的断言，不能简单与90732相加声称独立覆盖增加229；它的意义是恢复3个漏跑项并证明两个修正文件无pending。云端scoped lint和完整TSC亦PASS。报告中写原完整run/补充run/各自源码SHA及仅测试差异，APK无需为这些测试文件重编译。

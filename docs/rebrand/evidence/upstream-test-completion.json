@@ -9,5 +9,14 @@
   "success": true,
   "change": "Remove upstream it.only; replace skipped global-default assumption with fresh-module-registry non-mutation test",
   "runtimeChanges": "none",
-  "cloud": "pending"
+  "cloud": {
+    "runId": 45392919611,
+    "url": "https://github.com/dxkon123/metamask-mobile/actions/runs/45392919611",
+    "sourceCommit": "15d21f0b58cb4a165214a0bebc56b957fae02cf2",
+    "jobId": 138441048797,
+    "unit": "2 suites / 229 assertions PASS; 0 pending/todo",
+    "lint": "PASS both files",
+    "typecheck": "PASS complete",
+    "outcome": "success"
+  }
 }
